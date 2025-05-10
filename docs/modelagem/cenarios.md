@@ -32,7 +32,6 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 
 ## Ana Joyce
 
-## Davi
 ## Cenário XX: Pesquisa sem utilização de aprimoramentos no DeepSeek 
 
 **Atores:**
