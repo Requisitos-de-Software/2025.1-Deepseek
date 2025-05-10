@@ -33,6 +33,53 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 ## Ana Joyce
 
 ## Davi
+## Cenário XX: Pesquisa sem utilização de aprimoramentos no DeepSeek 
+
+**Atores:**
+Nathalia, 21 anos, estudante do 6º semestre do curso de Direito, com familiaridade mediana com tecnologia, utiliza o DeepSeek algumas vezes por semana para apoiar suas pesquisas acadêmicas.
+
+**Ambiente (Contexto):**
+Marina está na biblioteca da universidade, utilizando seu notebook conectado ao Wi-Fi da instituição. Ela precisa encontrar jurisprudências e artigos sobre a aplicação do princípio da dignidade da pessoa humana em decisões do Supremo Tribunal Federal (STF), pois tem uma apresentação de seminário na aula de Direito Constitucional no dia seguinte.
+
+**Objetivos:**
+
+* Localizar rapidamente decisões judiciais e doutrinas relevantes sobre o princípio da dignidade da pessoa humana.
+
+* Obter resumos automáticos para facilitar a compreensão inicial do conteúdo.
+
+* Organizar as informações de forma clara para apresentar à turma com segurança.
+
+**Planejamento:**
+Marina decide utilizar o DeepSeek por acreditar que a ferramenta pode sintetizar melhor o conteúdo jurídico e economizar tempo, evitando a leitura extensa de documentos jurídicos inteiros logo de início.
+
+**Ações:**
+
+1. Acessa o DeepSeek pelo navegador.
+
+2. Digita na barra de pesquisa: “jurisprudência STF dignidade da pessoa humana”.
+
+3. Filtra os resultados para mostrar apenas decisões judiciais e artigos acadêmicos.
+
+4. lê os resumos automáticos fornecidos pela ferramenta.
+
+5. Copia trechos relevantes e anota os links originais para referência.
+
+**Eventos:**
+
+* O DeepSeek exibe uma animação de carregamento com a mensagem “interpretando/pensando”.
+
+* A plataforma retorna uma lista de decisões do STF, trechos doutrinários e artigos comentados por especialistas.
+
+
+* São sugeridos também temas relacionados ou artigos para aprofundamento do tópico.
+
+**Avaliação:**
+
+* Nathalia compara os resumos com as decisões completas e valida que os trechos principais foram bem interpretados.
+
+* Considera que o tempo de pesquisa foi bastante reduzido e que o conteúdo está pronto para ser utilizado na apresentação.
+
+* Salva os links e resumos no seu bloco de notas digital e encerra a pesquisa satisfeita.
 
 ## Fabio
 
@@ -154,3 +201,4 @@ Interação Humano-Computador e Experiência do usuário.
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 09/05/2025 |  1.0   | (#CO1) Adição de introduçaõ e metodologia.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
 | 10/05/2025 |  1.1   | (#CO1) Incrementa parte da documentação sobre cenários.| [@Gabriela](https://github.com/gaubiela)   | - |
+| 10/05/2025 |  1.2   | (#CO2) Incrementa parte da documentação sobre cenários.| [@daviRolvr](https://github.com/daviRolvr)   | - |
