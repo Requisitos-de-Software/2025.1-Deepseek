@@ -188,7 +188,37 @@ Decide iterar usando “Dislike + Regenerate” até que o resultado atenda ao e
 **Avaliação:**
 Mariana compara mentalmente cada iteração com seu padrão de clareza; quando atingir fluxo e precisão, encerra as regenerações.
 
-## Luiz
+## Cenário XX: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
+
+**Atores:**
+Gauss, estudante universitário de engenharia, no primeiro semestre.
+
+**Ambiente (Contexto):**
+Gauss está no quarto de sua casa fazendo exercícios de uma lista para a sua prova de cálculo 1 da próxima semana. Ao tentar resolver um dos exercícios, ele fica com dúvidas sobre como resolver um cálculo complexo de uma integral.
+
+**Objetivos:**
+
+* Encontrar a explicação de como se resolve um exercício difícil de matemática.
+* Anotar a resolução do exercício em seu caderno junto com outras resoluções da lista.
+
+**Planejamento:**
+Decide utilizar o DeepSeek com a função de **Pensamento Profundo** para tentar encontrar a solução do exercício que está com dúvidas.
+
+**Ações:**
+
+1. Digita a equação do problema no chat e pede a resolução.
+2. Ativa a opção "Pensamento Profundo (R1)" acima do teclado.
+3. Lê a resolução do exercício difícil.
+
+**Eventos:**
+
+* Aparece uma mensagem de carregamento escrita "Pensando...".
+* No chat aparecem o raciocínio da IA linha por linha.
+* Aparece a opção de ocultar os "pensamentos" da IA para exibir apenas a resposta final.
+
+
+**Avaliação:**
+Gauss compara a resolução do exercício com as suas de seu caderno para garantir que o modelo do DeepSeek utilizou os mesmos conceitos aprendidos em cálculo 1.
 
 ## Bibliografia
 
@@ -202,3 +232,4 @@ Interação Humano-Computador e Experiência do usuário.
 | 09/05/2025 |  1.0   | (#CO1) Adição de introduçaõ e metodologia.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
 | 10/05/2025 |  1.1   | (#CO1) Incrementa parte da documentação sobre cenários.| [@Gabriela](https://github.com/gaubiela)   | - |
 | 10/05/2025 |  1.2   | (#CO2) Incrementa parte da documentação sobre cenários.| [@daviRolvr](https://github.com/daviRolvr)   | - |
+| 11/05/2025 |  1.3   | (#CO2) Incrementa parte da documentação sobre cenários.| [@luiz](https://github.com/luizfaria1989)   | - |
