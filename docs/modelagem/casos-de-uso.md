@@ -65,6 +65,19 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 
 ## Luiz
 
+| #UC04 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek |
+| Ator              | Gauss                                                                                                         |
+| Pré-condições     | Internet ativa, aba **Pensamento Profundo (R1)**  habilitada no DeepSeek                                                            |
+| Ação              | Gauss digita a equação que está com dúvidas e pede para a IA resolvê-la                                                       |
+| Fluxo principal   | <ul><li>Gauss abre o DeepSeek</br><ul><li>Seleciona "Pensamento Profundo (R1)"</br><ul><li>Digita a equação do problema que está com dúvidas no chat</br><ul><li>Clica na seta para enviar</br></li><ul><li>Lê a resposta da IA</li></ul></ul></li></ul></li></ul> |
+| Fluxo alternativo | <ul><li>Gauss abre o DeepSeek</br><ul><li>Seleciona “Pensamento Profundo (R1)”</br><ul><li>Percebe que é uma pergunta simples de ser resolvida</br></li><ul><li>Desativa o modo "Pensamento Profundo (R1)"</li></ul></ul></li></ul></li></ul> |
+| Fluxo de exceção  | <ul><li>Inicia o desenvolvimento da pergunta</br><ul><li>Conexão é perdida</br><ul><li>DeepSeek notifica “Conexão perdida” e oferece retomar</br></li></ul></li></ul></li></ul> |
+| Pós-condições     | Texto completo disponível com equações além do fluxo de consciência da IA                  |
+| Data de Criação   | 11/05/2025                                                                                                     |
+| Rastreabilidade   | #RF02, #RN07                                                                                          |
+
 ## Bibliografia
 
 > LUCIDCHART. Diagrama de caso de uso UML. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 9 maio 2025.
@@ -75,3 +88,4 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 09/05/2025 |  1.0   | (#UCO1) Adição de introdução e metodologia.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela)  |
 | 10/05/2025 |  1.0   | (#UCO2) Adição de conteúdo desenvolvido.| [@Gabriela](https://github.com/gaubiela)   | -- |
+| 11/05/2025 |  1.1   | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | -- |
