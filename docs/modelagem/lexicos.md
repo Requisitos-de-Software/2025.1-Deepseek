@@ -71,6 +71,21 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
+### Léxico para UC04 (Uso da função Pensamento Profundo)
+
+| ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
+| --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
+| L-UC04-01 | Chat                      | Campo de interação no qual o usuário insere perguntas e visualiza respostas do DeepSeek                                                       | Objeto        | Conversa                       | UC04         |
+| L-UC04-02 | Equação                   | Entrada de texto representando um problema matemático                                                                                         | Objeto        | Problema                       | UC04         |
+| L-UC04-03 | Pensamento Profundo (R1)  | Modo do DeepSeek que permite a visualização do seu fluxo de pensamento junto com a resposta, direcionado para resolver perguntas complexas    | Verbo         | Modo de resolução              | UC04         |
+| L-UC04-04 | Fluxo de pensamento       | Sequência de passos do DeepSeek para resolver um determinado problema                                                                         | Objeto        | Linha de raciocínio            | UC04         |
+| L-UC04-05 | Modelo R1                 | Modelo mais avançado do DeepSeek, treinado para resolver problemas de lógica, como exercícios de matemática e programação                     | Objeto        | Modelo, Inteligência artificial| UC04         |
+
+<div align="center">
+    Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
+</div>
+---
+
 ## Bibliografia
 
 > SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 10/05/2025.
@@ -82,3 +97,4 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 10/05/2025 |  1.0   | (#LX01) Definições iniciais. | [@Gabriela](https://github.com/gaubiela)   | -- |
 | 10/05/2025 |  1.1   | (#LX01) Adição de conteúdo desenvolvido.  | [@Gabriela](https://github.com/gaubiela)   | -- |
+| 11/05/2025 |  1.2   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | -- |
