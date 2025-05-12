@@ -66,6 +66,12 @@ nav:
     - Three Level Scale : 'priorizacao/three-level-scale.md'
     - In-or-Out: 'priorizacao/In-or-Out.md'
     - Quality Function Deployment: 'priorizacao/QFD.md'
+  
+  - Modelagem:
+    - Cenários: 'modelagem/cenarios.md'
+    - Casos de Uso: 'modelagem/casos-de-uso.md'
+    - Léxicos: 'modelagem/lexicos.md'
+    - Especificação Suplementar: 'modelagem/especificacao-suplementar.md'
 
   - Verificação:
     - Segunda Entrega: 'verificacao/segunda-entrega.md'
