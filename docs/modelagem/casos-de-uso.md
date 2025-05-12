@@ -16,7 +16,8 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 
 ## Fabio
 
-## Gabriela
+## [#UC01] - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.
+**Autor:** [Gabriela](https://github.com/gaubiela)
 
 | #UC01 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -33,6 +34,8 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 
 
 ---
+## [UC03] - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.
+**Autor:** [Gabriela](https://github.com/gaubiela)
 
 | #UC02 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -49,6 +52,8 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 
 
 ---
+## [#UC03] - Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão.
+**Autor:** [Gabriela](https://github.com/gaubiela)
 
 | #UC03 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -63,7 +68,7 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Data de Criação   | 10/05/2025                                                                                                     |
 | Rastreabilidade   | #RF11, #RF12, #RF13, #RF17                                                                                     |
 
-## Luiz
+## [UC04] - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek
 
 | #UC04 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -87,5 +92,5 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 09/05/2025 |  1.0   | (#UCO1) Adição de introdução e metodologia.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela)  |
-| 10/05/2025 |  1.0   | (#UCO2) Adição de conteúdo desenvolvido.| [@Gabriela](https://github.com/gaubiela)   | -- |
-| 11/05/2025 |  1.1   | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | -- |
+| 10/05/2025 |  1.0   | (#UCO2) Adição de conteúdo desenvolvido.| [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 11/05/2025 |  1.1   | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |

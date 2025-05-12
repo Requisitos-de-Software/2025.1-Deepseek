@@ -32,8 +32,8 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 
 ## Ana Joyce
 
-## Davi
-## Cenário XX: Pesquisa sem utilização de aprimoramentos no DeepSeek 
+## Cenário XX: Pesquisa sem utilização de aprimoramentos no DeepSeek
+**Autor**:  [Davi](https://github.com/daviRolvr)
 
 **Atores:**
 Nathalia, 21 anos, estudante do 6º semestre do curso de Direito, com familiaridade mediana com tecnologia, utiliza o DeepSeek algumas vezes por semana para apoiar suas pesquisas acadêmicas.
@@ -86,6 +86,7 @@ Marina decide utilizar o DeepSeek por acreditar que a ferramenta pode sintetizar
 ## Gabriela
 
 ## Cenário XX: Upload de Documento (#UC01)
+**Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
 Júlia, 27 anos, pesquisadora em Ciência da Computação, formação superior, alta proficiência tecnológica, usa o DeepSeek diariamente para processamento avançado de documentos.
@@ -120,6 +121,7 @@ Júlia decide usar o fluxo de upload do DeepSeek em vez de ferramentas manuais, 
 ---
 
 ## Cenário XX: Consulta Atualizada via Search na Web (#UC02)
+**Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
 Pedro, 31 anos, engenheiro de software em startup, formação em TI, utiliza DeepSeek várias vezes ao dia para se manter atualizado sobre tecnologias emergentes.
@@ -157,6 +159,7 @@ Pedro pretende usar a aba “Search” do DeepSeek para fazer uma busca na web, 
 ---
 
 ## Cenário XX: Iteração de Resposta com Opções Disponíveis Para Resposta (like, dislike, regenerate, copy) (#UC03)
+**Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
 Mariana, 25 anos, aluna de pós em Bioinformática, alta proficiência, usa o app no celular enquanto toma café entre aulas para refinar textos.
@@ -189,6 +192,7 @@ Decide iterar usando “Dislike + Regenerate” até que o resultado atenda ao e
 Mariana compara mentalmente cada iteração com seu padrão de clareza; quando atingir fluxo e precisão, encerra as regenerações.
 
 ## Cenário XX: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
+**Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
 Gauss, estudante universitário de engenharia, no primeiro semestre.
@@ -230,6 +234,6 @@ Interação Humano-Computador e Experiência do usuário.
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 09/05/2025 |  1.0   | (#CO1) Adição de introduçaõ e metodologia.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
-| 10/05/2025 |  1.1   | (#CO1) Incrementa parte da documentação sobre cenários.| [@Gabriela](https://github.com/gaubiela)   | - |
-| 10/05/2025 |  1.2   | (#CO2) Incrementa parte da documentação sobre cenários.| [@daviRolvr](https://github.com/daviRolvr)   | - |
-| 11/05/2025 |  1.3   | (#CO2) Incrementa parte da documentação sobre cenários.| [@luiz](https://github.com/luizfaria1989)   | - |
+| 10/05/2025 |  1.1   | (#CO1) Incrementa parte da documentação sobre cenários.| [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 10/05/2025 |  1.2   | (#CO2) Incrementa parte da documentação sobre cenários.| [@daviRolvr](https://github.com/daviRolvr)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 11/05/2025 |  1.3   | (#CO2) Incrementa parte da documentação sobre cenários.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
