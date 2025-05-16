@@ -274,4 +274,4 @@ Interação Humano-Computador e Experiência do usuário.
 | 10/05/2025 |  1.1   | (#CO1) Incrementa parte da documentação sobre cenários.| [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 10/05/2025 |  1.2   | (#CO2) Incrementa parte da documentação sobre cenários.| [@daviRolvr](https://github.com/daviRolvr)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.3   | (#CO2) Incrementa parte da documentação sobre cenários.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
-| 14/05/2025 |  1.4   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Fabio](https://github.com/fabinsz)   | [@]() |
+| 14/05/2025 |  1.4   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
