@@ -83,6 +83,43 @@ Marina decide utilizar o DeepSeek por acreditar que a ferramenta pode sintetizar
 
 ## Fabio
 
+## Cenário XX: Acessar configurações para alterar o tema do Sistema
+**Autor**:  [Fabio](https://github.com/fabinsz)
+
+**Atores:**
+Lucas, 29 anos, engenheiro de dados, mestre em Ciência da Computação. Usuário frequente do DeepSeek, utiliza a ferramenta diariamente para processar documentos técnicos, interagir com repositórios de código e extrair insights com ajuda da IA. É altamente proficiente em tecnologia e aprecia ambientes de trabalho visualmente confortáveis e personalizados.
+
+**Ambiente (Contexto):**
+Lucas está trabalhando em um coworking, em um ambiente com iluminação forte. Após algumas horas usando o DeepSeek no modo claro, começa a sentir desconforto visual. Decide, então, mudar o tema da interface para o modo escuro para aliviar a fadiga visual.
+
+**Objetivos:**
+
+* Alterar o tema do sistema para o modo escuro.
+* Verificar se a alteração é aplicada de forma consistente em todas as seções do sistema.
+
+**Planejamento:**
+Por ser um usuário experiente, Lucas assume que a opção de personalização visual está nas configurações gerais. Ele espera conseguir mudar o tema com poucos cliques e sem precisar reiniciar a aplicação ou abrir tutoriais.
+
+**Ações:**
+
+1. Clica no ícone de perfil 
+2. Seleciona "Configurações" no menu suspenso.
+3. Encontra a opção “Tema/Aparência”.
+4. Altera de “Claro” para “Escuro (Dark Mode)”.
+5. Observa a transição da interface e valida se todos os elementos visuais se adaptaram corretamente.
+6. Fecha o menu de configurações e retoma suas atividades no novo tema.
+
+**Eventos:**
+
+* O modo escuro se aplica em toda a interface, incluindo ao editor de textos e à área de visualização de documentos.
+
+**Avaliação:**
+
+* Lucas se sente mais confortável visualmente e satisfeito com a personalização oferecida.
+* Considera a experiência rápida e intuitiva, algo essencial para não interromper seu fluxo de trabalho.
+
+---
+
 ## Gabriela
 
 ## Cenário XX: Upload de Documento (#UC01)
@@ -191,6 +228,8 @@ Decide iterar usando “Dislike + Regenerate” até que o resultado atenda ao e
 **Avaliação:**
 Mariana compara mentalmente cada iteração com seu padrão de clareza; quando atingir fluxo e precisão, encerra as regenerações.
 
+---
+
 ## Cenário XX: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
@@ -223,6 +262,8 @@ Decide utilizar o DeepSeek com a função de **Pensamento Profundo** para tentar
 
 **Avaliação:**
 Gauss compara a resolução do exercício com as suas de seu caderno para garantir que o modelo do DeepSeek utilizou os mesmos conceitos aprendidos em cálculo 1.
+
+---
 
 ## Cenário XX: Opção de Interromper Resposta em Andamento
 **Autor:** [Luiz](https://github.com/luizfaria1989)
@@ -257,7 +298,9 @@ João decide utilizar o app DeepSeek para pedir explicações de como pode utili
 
 
 **Avaliação:**
-João percebe que a mensagem interrompida estava explicando sobre outra tecnologia, assim, o seu cancelamento foi útil, pois que poupou tempo que gastaria lendo um texto que não se aplicava para seu projeto.
+João percebe que a mensagem interrompida estava explicando sobre outra tecnologia, assim, o seu cancelamento foi útil, pois poupou tempo que gastaria lendo um texto que não se aplicava para seu projeto.
+
+---
 
 ## Cenário XX: Visualização em Tempo Real do Status do Servidor
 **Autor:** [Luiz](https://github.com/luizfaria1989)
@@ -266,7 +309,7 @@ João percebe que a mensagem interrompida estava explicando sobre outra tecnolog
 Clarice, estudante de engenharia da computação do sétimo semestre, está estagiando em uma empresa trabalhando no setor de banco de dados.
 
 **Ambiente (Contexto):**
-Clarice está no escritório de sua empresa em frente o computador, está cercada de notas de aula sobre normalização de bancos de dados. Ela percebe ao analisar o modelo relacional que uma das tabelas parece estar ferindo a terceira forma normal. Então decide tirar dúvidas com o DeepSeek para se assegurar que a tabela está realmente incorreta.
+Clarice está no escritório de sua empresa em frente o computador, está cercada de notas de aula sobre normalização de bancos de dados. Ela percebe ao analisar o modelo relacional, que uma das tabelas parece estar ferindo a terceira forma normal. Então decide tirar dúvidas com o DeepSeek para se assegurar que a tabela está realmente incorreta.
 
 
 **Objetivos:**
@@ -293,6 +336,8 @@ Clarice olha mais uma vez as suas notas de aula, procura a definição de tercei
 
 Clarice lê a mensagem dizendo que o servidor está em manutenção, fecha o aplicativo e decide procurar respostas em outra IA.
 
+---
+
 ## Bibliografia
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)
@@ -306,3 +351,5 @@ Interação Humano-Computador e Experiência do usuário.
 | 10/05/2025 |  1.1   | (#CO1) Incrementa parte da documentação sobre cenários.| [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 10/05/2025 |  1.2   | (#CO2) Incrementa parte da documentação sobre cenários.| [@daviRolvr](https://github.com/daviRolvr)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.3   | (#CO2) Incrementa parte da documentação sobre cenários.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 14/05/2025 |  1.4   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
+| 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
