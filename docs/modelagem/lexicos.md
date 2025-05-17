@@ -124,12 +124,39 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 | ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
 | --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
-| L-UC04-01 | Chat                      | Campo de interação no qual o usuário insere perguntas e visualiza respostas do DeepSeek                                                       | Objeto        | Conversa                       | UC04         |
-| L-UC04-02 | Equação                   | Entrada de texto representando um problema matemático                                                                                         | Objeto        | Problema                       | UC04         |
-| L-UC04-03 | Pensamento Profundo (R1)  | Modo do DeepSeek que permite a visualização do seu fluxo de pensamento junto com a resposta, direcionado para resolver perguntas complexas    | Verbo         | Modo de resolução              | UC04         |
-| L-UC04-04 | Fluxo de pensamento       | Sequência de passos do DeepSeek para resolver um determinado problema                                                                         | Objeto        | Linha de raciocínio            | UC04         |
-| L-UC04-05 | Modelo R1                 | Modelo mais avançado do DeepSeek, treinado para resolver problemas de lógica, como exercícios de matemática e programação                     | Objeto        | Modelo, Inteligência artificial| UC04         |
+| L-UC04-01 | Chat                      | Campo de interação no qual o usuário insere perguntas e visualiza respostas do DeepSeek.                                                       | Objeto        | Conversa                       | UC04         |
+| L-UC04-02 | Equação                   | Entrada de texto representando um problema matemático.                                                                                         | Objeto        | Problema                       | UC04         |
+| L-UC04-03 | Pensamento Profundo (R1)  | Modo do DeepSeek que permite a visualização do seu fluxo de pensamento junto com a resposta, direcionado para resolver perguntas complexas.    | Verbo         | Modo de resolução              | UC04         |
+| L-UC04-04 | Fluxo de pensamento       | Sequência de passos do DeepSeek para resolver um determinado problema.                                                                         | Objeto        | Linha de raciocínio            | UC04         |
+| L-UC04-05 | Modelo R1                 | Modelo mais avançado do DeepSeek, treinado para resolver problemas de lógica, como exercícios de matemática e programação.                     | Objeto        | Modelo, Inteligência artificial| UC04         |
 
+<div align="center">
+    Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
+</div>
+---
+
+### Léxico para UC05 (Cancelamento de mensagem que está sendo gerada pela IA )
+
+| ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
+| --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
+| L-UC05-01 | Cancelar                      | Interromper a geração de uma mensagem que está sendo feita pela IA.                                                   | Verbo        | Interromper, parar, abortar                       | UC05         |
+| L-UC05-02 | Mensagem em andamento                   | Mensagem ainda não finalizada pela IA, que está sendo gerada no momento.                                                                                      | Objeto        | Resposta em andamento, mensagem parcial                       | UC05         |
+| L-UC05-03 | Usuário  | Pessoa que utiliza o app DeepSeek para interagir com a IA.   | Sujeito         | Operador, cliente             | UC05         |
+| L-UC05-04  | Conexão ativa | Estado em que o aplicativo e a IA estão conectados permitindo o fluxo de mensagens | Estado | Conectado, online. | UC05 |
+
+<div align="center">
+    Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
+</div>
+---
+
+### Léxico para UC06 (Visualização do status do servidor em tempo real)
+
+| ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
+| --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
+| L-UC06-01 | Visualizar                     | Ação de perceber a mensagem escrita no topo da tela do app.                                         | Verbo        | Ver, consultar, conferir, checar                       | UC06         |
+| L-UC06-02 | Status do servidor                   | Informação em tempo real que indica o estado atual do servidor. | Objeto        | Situação do servidor, condição do servidor                      | UC06         |
+| L-UC06-03 | Servidor em manutenção  | Estado em que o servidor está indisponível para ser utilizado pelo usuário para que ele interaja com a IA.   | Estado         | Indisponível, em reparo, offline              | UC06         |
+| L-UC06-04 | Servidor funcionando normalmente      | Estado em que o servidor está disponível para ser utilizado pelo usuário para que ele interaja com a IA.                                                                       | Estado       | Online, disponível           | UC06         |
 <div align="center">
     Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
 </div>
@@ -148,3 +175,4 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 10/05/2025 |  1.1   | (#LX01) Adição de conteúdo desenvolvido.  | [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.2   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 14/05/2025 |  1.3   | (#LX01) Adição de conteúdo desenvolvido.  | [@Davi Emanuel](https://github.com/daviRolvr)   | [@Luiz](https://github.com/luizfaria1989) |
+| 17/05/2025 |  1.4   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/daviRolvr) |
