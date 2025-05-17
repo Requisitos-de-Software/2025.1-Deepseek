@@ -70,17 +70,93 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
     Autor: <a href="https://github.com/gaubiela">@Gabriela</a>
 </div>
 ---
+### Léxico para UCXX (Integração com Plataformas Externas) - (#RF37)
+
+<div align="center">
+    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
+</div>
+
+| ID          | Noção                         | Impacto                                                                                  | Classificação |  Dicionário |Rastreamento                            |
+|-------------|-------------------------------|-------------------------------------------------------------------------------------------|----------------|------------ |----------------------------------------|
+| L-UC04-01   | Integração com Plataformas Externas | Ampliará o escopo de busca, exigindo gerenciamento de permissões, tokens de acesso e segurança de dados. | Verbo         | Conectar, Integrar, Vincular           |UC04        |
+| L-UC04-02   | Token de Acesso                | Elemento de autenticação que garante segurança na comunicação com plataformas externas.  | Objeto        | Chave, Autenticação, Credencial        |UC04        |
+| L-UC04-03   | Permissão                      | Define o que pode ser acessado ou manipulado nas plataformas externas.                   | Objeto        | Acesso, Autorização, Controle          |UC04        |
+| L-UC04-04   | Plataforma Externa             | Sistemas ou serviços de terceiros conectados ao DeepSeek para busca de dados.            | Objeto        | API, Serviço, Repositório              |UC04        |
+| L-UC04-05   | Segurança de Dados             | Conjunto de práticas e mecanismos que protegem os dados acessados externamente.          | Objeto        | Criptografia, Proteção, Privacidade    |UC04        |
+| L-UC04-06   | Fonte Autorizada               | Origem de dados validada pelo usuário para integração com o sistema.                     | Objeto        | Origem confiável, Autorização, Fonte   |UC04        |
+
+<div align="center">
+    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
+</div>
+
+### Léxico para UCXX (Explicação de Fontes) - (#RF14)
+<div align="center">
+    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
+</div>
+
+| ID          | Noção                   | Impacto                                                                                               | Classificação | Dicionário    |Rastreamento                     |
+|-------------|-------------------------|--------------------------------------------------------------------------------------------------------|----------------|------------------------------------|------------------|
+| L-UC05-01   | Explicação de Fontes    | Melhora a transparência do sistema e a confiança do usuário, mas exige mecanismos de explicação robustos. | Verbo         | Justificar, Esclarecer, Informar  |UC05  
+| L-UC05-02   | Transparência           | Grau de clareza e abertura nas decisões do sistema sobre os resultados exibidos.                      | Objeto        | Clareza, Visibilidade, Abertura    |UC05  
+| L-UC05-03   | Confiança do Usuário    | Percepção de segurança e credibilidade gerada ao entender os critérios de seleção dos resultados.     | Objeto        | Segurança, Credibilidade, Certeza  |UC05  
+| L-UC05-04   | Mecanismos de Explicação| Conjunto de métodos ou algoritmos usados para justificar as escolhas do sistema.                      | Objeto        | Algoritmo, Justificativa, Regras   | UC05 
+<div align="center">
+    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
+</div>
+### Léxico para UC06 (Integração com Voz) - (#RF34)
+
+<div align="center">
+    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
+</div>
+
+| ID        | Noção              | Impacto                                                                 | Classificação | Dicionário                      | Rastreamento |
+|-----------|--------------------|--------------------------------------------------------------------------|----------------|----------------------------------|---------------|
+| L-UC06-01 | Comandar           | Permite que o usuário controle o sistema usando comandos de voz.        | Verbo          | Falar, Instruir, Ordenar         | UC06          |
+| L-UC06-02 | Ouvir              | Ação do sistema de escutar o que o usuário diz.                          | Verbo          | Escutar, Captar áudio            | UC06          |
+| L-UC06-03 | Reconhecimento     | Processo de identificar o que foi dito pelo usuário.                     | Objeto         | Reconhecimento de fala           | UC06          |
+| L-UC06-04 | Responder          | Ato de gerar uma resposta falada ao usuário.                             | Verbo          | Falar, Responder em voz          | UC06          |
+| L-UC06-05 | Acessibilidade     | Melhoria na usabilidade para pessoas com dificuldades de digitação.      | Objeto         | Inclusão, Usabilidade            | UC06          |
+<div align="center">
+    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
+</div>
 
 ### Léxico para UC04 (Uso da função Pensamento Profundo)
 
 | ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
 | --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
-| L-UC04-01 | Chat                      | Campo de interação no qual o usuário insere perguntas e visualiza respostas do DeepSeek                                                       | Objeto        | Conversa                       | UC04         |
-| L-UC04-02 | Equação                   | Entrada de texto representando um problema matemático                                                                                         | Objeto        | Problema                       | UC04         |
-| L-UC04-03 | Pensamento Profundo (R1)  | Modo do DeepSeek que permite a visualização do seu fluxo de pensamento junto com a resposta, direcionado para resolver perguntas complexas    | Verbo         | Modo de resolução              | UC04         |
-| L-UC04-04 | Fluxo de pensamento       | Sequência de passos do DeepSeek para resolver um determinado problema                                                                         | Objeto        | Linha de raciocínio            | UC04         |
-| L-UC04-05 | Modelo R1                 | Modelo mais avançado do DeepSeek, treinado para resolver problemas de lógica, como exercícios de matemática e programação                     | Objeto        | Modelo, Inteligência artificial| UC04         |
+| L-UC04-01 | Chat                      | Campo de interação no qual o usuário insere perguntas e visualiza respostas do DeepSeek.                                                       | Objeto        | Conversa                       | UC04         |
+| L-UC04-02 | Equação                   | Entrada de texto representando um problema matemático.                                                                                         | Objeto        | Problema                       | UC04         |
+| L-UC04-03 | Pensamento Profundo (R1)  | Modo do DeepSeek que permite a visualização do seu fluxo de pensamento junto com a resposta, direcionado para resolver perguntas complexas.    | Verbo         | Modo de resolução              | UC04         |
+| L-UC04-04 | Fluxo de pensamento       | Sequência de passos do DeepSeek para resolver um determinado problema.                                                                         | Objeto        | Linha de raciocínio            | UC04         |
+| L-UC04-05 | Modelo R1                 | Modelo mais avançado do DeepSeek, treinado para resolver problemas de lógica, como exercícios de matemática e programação.                     | Objeto        | Modelo, Inteligência artificial| UC04         |
 
+<div align="center">
+    Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
+</div>
+---
+
+### Léxico para UC05 (Cancelamento de mensagem que está sendo gerada pela IA )
+
+| ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
+| --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
+| L-UC05-01 | Cancelar                      | Interromper a geração de uma mensagem que está sendo feita pela IA.                                                   | Verbo        | Interromper, parar, abortar                       | UC05         |
+| L-UC05-02 | Mensagem em andamento                   | Mensagem ainda não finalizada pela IA, que está sendo gerada no momento.                                                                                      | Objeto        | Resposta em andamento, mensagem parcial                       | UC05         |
+| L-UC05-03 | Usuário  | Pessoa que utiliza o app DeepSeek para interagir com a IA.   | Sujeito         | Operador, cliente             | UC05         |
+| L-UC05-04  | Conexão ativa | Estado em que o aplicativo e a IA estão conectados permitindo o fluxo de mensagens | Estado | Conectado, online. | UC05 |
+
+<div align="center">
+    Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
+</div>
+---
+
+### Léxico para UC06 (Visualização do status do servidor em tempo real)
+
+| ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
+| --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
+| L-UC06-01 | Visualizar                     | Ação de perceber a mensagem escrita no topo da tela do app.                                         | Verbo        | Ver, consultar, conferir, checar                       | UC06         |
+| L-UC06-02 | Status do servidor                   | Informação em tempo real que indica o estado atual do servidor. | Objeto        | Situação do servidor, condição do servidor                      | UC06         |
+| L-UC06-03 | Servidor em manutenção  | Estado em que o servidor está indisponível para ser utilizado pelo usuário para que ele interaja com a IA.   | Estado         | Indisponível, em reparo, offline              | UC06         |
+| L-UC06-04 | Servidor funcionando normalmente      | Estado em que o servidor está disponível para ser utilizado pelo usuário para que ele interaja com a IA.                                                                       | Estado       | Online, disponível           | UC06         |
 <div align="center">
     Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
 </div>
@@ -98,3 +174,5 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 10/05/2025 |  1.0   | (#LX01) Definições iniciais. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 10/05/2025 |  1.1   | (#LX01) Adição de conteúdo desenvolvido.  | [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.2   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 14/05/2025 |  1.3   | (#LX01) Adição de conteúdo desenvolvido.  | [@Davi Emanuel](https://github.com/daviRolvr)   | [@Luiz](https://github.com/luizfaria1989) |
+| 17/05/2025 |  1.4   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/daviRolvr) |
