@@ -1366,6 +1366,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#uc05-permite-que-o-usuario-cancele-uma-mensagem-em-andamento-da-ia-no-chat" class="md-nav__link">
+    <span class="md-ellipsis">
+      [UC05] - Permite que o usuário cancele uma mensagem em andamento da IA no chat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uc06-permite-que-o-usuario-veja-o-status-do-servidor-indicando-se-ele-esta-em-manutencao-ou-disponivel-para-uso-do-chat-da-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      [UC06] - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#bibliografia" class="md-nav__link">
     <span class="md-ellipsis">
       Bibliografia
@@ -2348,6 +2366,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#uc05-permite-que-o-usuario-cancele-uma-mensagem-em-andamento-da-ia-no-chat" class="md-nav__link">
+    <span class="md-ellipsis">
+      [UC05] - Permite que o usuário cancele uma mensagem em andamento da IA no chat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uc06-permite-que-o-usuario-veja-o-status-do-servidor-indicando-se-ele-esta-em-manutencao-ou-disponivel-para-uso-do-chat-da-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      [UC06] - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#bibliografia" class="md-nav__link">
     <span class="md-ellipsis">
       Bibliografia
@@ -2546,6 +2582,7 @@
 </tbody>
 </table>
 <h2 id="uc04-permite-que-o-usuario-resolva-problemas-dificeis-como-os-de-matematica-oferecendo-o-fluxo-de-pensamento-da-ia-alem-da-resposta-utiliza-o-modelo-r1-do-deepseek">[UC04] - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfari1989">Luiz</a></p>
 <table>
 <thead>
 <tr>
@@ -2596,6 +2633,110 @@
 </tr>
 </tbody>
 </table>
+<h2 id="uc05-permite-que-o-usuario-cancele-uma-mensagem-em-andamento-da-ia-no-chat">[UC05] - Permite que o usuário cancele uma mensagem em andamento da IA no chat</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfari1989">Luiz</a></p>
+<table>
+<thead>
+<tr>
+<th>#UC05</th>
+<th>Informações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Descrição</td>
+<td>Permite que o usuário cancele uma mensagem que está sendo gerada pela IA no chat</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>João</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Internet ativa, uma mensagem precisa obrigatoriamente estar sendo gerada pela IA no chat</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>João cancela uma mensagem que está sendo gerada pois ela está incorreta</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td><ul><li>João abre o DeepSeek</br><ul><li>Digita a sua mensagem no chat</br><ul><li>Clica na seta para enviar</br><ul><li>Lê o início da resposta que está sendo gerada pela IA</br><ul><li>Clica em "Interromper mensagem em andamento"</br></li></ul></li></ul></li></ul></li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><ul><li>João abre o DeepSeek</br><ul><li>Digita a sua mensagem no chat</br><ul><li>Clica na seta para enviar</br><ul><li>Não encontra nenhum problema na mensagem que está sendo gerada pela IA</ul></li><ul></ul></ul></li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><ul><li>Inicia o desenvolvimento da pergunta</br><ul><li>Conexão é perdida</br><ul><li>DeepSeek notifica “Conexão perdida” e oferece a opção de retomar</br></li></ul></li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Texto gerado parcialmente com a mensagem "Mensagem cancelada pelo usuário" escrita embaixo</td>
+</tr>
+<tr>
+<td>Data de Criação</td>
+<td>16/05/2025</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RF19</td>
+</tr>
+</tbody>
+</table>
+<h2 id="uc06-permite-que-o-usuario-veja-o-status-do-servidor-indicando-se-ele-esta-em-manutencao-ou-disponivel-para-uso-do-chat-da-ia">[UC06] - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfari1989">Luiz</a></p>
+<table>
+<thead>
+<tr>
+<th>#UC06</th>
+<th>Informações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Descrição</td>
+<td>Permite que o usuário veja o status do servidor da IA, indicando se ele está em manutenção ou funcionando normalmente</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Clarice</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Internet ativa, Estar na tela de conversa com o DeepSeek</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Visualizar a mensagem no topo da tela indicando o status do servidor no momento</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td><ul><li>Clarice abre o DeepSeek</br><ul><li>Visualiza a mensagem indicando que o servidor está funcionando normalmente</br><ul><li>Digita sua pergunta para o chat da IA</br><ul></ul></ul></li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><ul><li>Clarice abre o DeepSeek</br><ul><li>Visualiza a mensagem indicando que o servidor está em manutenção</br><ul><li>Fecha o app</br></li><ul></ul></ul></li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><ul><li>Tenta abrir o app</br><ul><li>Aparece a mensagem "Aplicativo sendo atualizado"</br><ul><li>O app é fechado automaticamente</br></li></ul></li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualiza a mensagem em tempo real do status do servidor</td>
+</tr>
+<tr>
+<td>Data de Criação</td>
+<td>16/05/2025</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RF29</td>
+</tr>
+</tbody>
+</table>
 <h2 id="bibliografia">Bibliografia</h2>
 <blockquote>
 <p>LUCIDCHART. Diagrama de caso de uso UML. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 9 maio 2025.
@@ -2632,6 +2773,13 @@ DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSee
 <td style="text-align: left;">(#UCO2) Adição de conteúdo desenvolvido.</td>
 <td style="text-align: center;"><a href="https://github.com/luizfaria1989">@luiz</a></td>
 <td style="text-align: center;"><a href="https://github.com/anajoyceamorim">@Ana Joyce</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">16/05/2025</td>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">(#UCO2) Adição de conteúdo desenvolvido.</td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989">@luiz</a></td>
+<td style="text-align: center;"><a href="https://github.com/daviRolvr">@</a></td>
 </tr>
 </tbody>
 </table>
