@@ -197,3 +197,4 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 11/05/2025 |  1.2   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 14/05/2025 |  1.3   | (#LX01) Adição de conteúdo desenvolvido.  | [@Davi Emanuel](https://github.com/daviRolvr)   | [@Luiz](https://github.com/luizfaria1989) |
 | 17/05/2025 |  1.4   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [Davi Emanuel@](https://github.com/daviRolvr) |
+| 17/05/2025 |  1.5  | (#LX01) Adição de conteúdo desenvolvido.  | [@Fabio](https://github.com/fabinsz)   | [@](https://github.com/) |
