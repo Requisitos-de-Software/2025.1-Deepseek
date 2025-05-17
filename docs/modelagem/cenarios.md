@@ -32,54 +32,116 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 
 ## Ana Joyce
 
-## Cenário XX: Pesquisa sem utilização de aprimoramentos no DeepSeek
-**Autor**:  [Davi](https://github.com/daviRolvr)
+## Cenário XX: Utilização do DeepSeek com plataformas externas integradas
+Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
-**Atores:**
-Nathalia, 21 anos, estudante do 6º semestre do curso de Direito, com familiaridade mediana com tecnologia, utiliza o DeepSeek algumas vezes por semana para apoiar suas pesquisas acadêmicas.
+**Atores:**: Gabriel, 24 anos, recém-formado em Engenharia da Computação, buscando oportunidades na área de Ciência de Dados. É usuário frequente de tecnologias baseadas em IA, com alto nível de familiaridade digital. Usa o DeepSeek diariamente para organizar ideias, revisar códigos, gerar conteúdos e montar portfólios.
 
-**Ambiente (Contexto):**
-Marina está na biblioteca da universidade, utilizando seu notebook conectado ao Wi-Fi da instituição. Ela precisa encontrar jurisprudências e artigos sobre a aplicação do princípio da dignidade da pessoa humana em decisões do Supremo Tribunal Federal (STF), pois tem uma apresentação de seminário na aula de Direito Constitucional no dia seguinte.
+**Ambiente (Contexto):** Gabriel está em casa, utilizando seu notebook pessoal. Ele tem uma entrevista marcada com uma startup e deseja preparar uma apresentação rápida sobre um projeto pessoal de análise de dados que publicou no GitHub, ao mesmo tempo em que quer revisar suas experiências profissionais para destacar no LinkedIn, e organizar referências salvas no Google Drive.
 
 **Objetivos:**
 
-* Localizar rapidamente decisões judiciais e doutrinas relevantes sobre o princípio da dignidade da pessoa humana.
+* Utilizar o DeepSeek para acessar informações de múltiplas plataformas sem alternar entre várias abas.
 
-* Obter resumos automáticos para facilitar a compreensão inicial do conteúdo.
+* Revisar e sintetizar o conteúdo de um repositório do GitHub integrado.
 
-* Organizar as informações de forma clara para apresentar à turma com segurança.
+* Gerar um resumo das experiências e habilidades listadas no LinkedIn.
 
-**Planejamento:**
-Marina decide utilizar o DeepSeek por acreditar que a ferramenta pode sintetizar melhor o conteúdo jurídico e economizar tempo, evitando a leitura extensa de documentos jurídicos inteiros logo de início.
+* Reunir documentos salvos no Google Drive relacionados ao projeto.
+
+* Preparar um pitch organizado com base em todas essas fontes para compartilhar no Discord com colegas.
+
+**Planejamento:** Gabriel conecta suas contas do GitHub, Google, LinkedIn e Discord ao DeepSeek. Ele acredita que, com essa integração, será possível cruzar dados automaticamente, gerar resumos mais ricos e se preparar melhor para entrevistas com base em todo o seu histórico digital.
 
 **Ações:**
 
-1. Acessa o DeepSeek pelo navegador.
+1. Acessa o DeepSeek e autoriza a integração com suas contas do GitHub, LinkedIn, Google e Discord.
 
-2. Digita na barra de pesquisa: “jurisprudência STF dignidade da pessoa humana”.
+2. Solicita à IA que analise um repositório específico do GitHub e resuma os principais algoritmos implementados.
 
-3. Filtra os resultados para mostrar apenas decisões judiciais e artigos acadêmicos.
+3. Pede ao DeepSeek que acesse seu perfil do LinkedIn e gere um resumo com foco nas experiências mais relevantes para a vaga.
 
-4. lê os resumos automáticos fornecidos pela ferramenta.
+4. Importa automaticamente do Google Drive um PDF com anotações e dados sobre o projeto para análise complementar.
 
-5. Copia trechos relevantes e anota os links originais para referência.
+5. Gera, com o apoio da IA, uma apresentação em formato texto para compartilhar em um canal privado no Discord.
+
+6. Revisa tudo em uma interface centralizada, sem precisar mudar de aba ou copiar/colar manualmente.
 
 **Eventos:**
 
-* O DeepSeek exibe uma animação de carregamento com a mensagem “interpretando/pensando”.
+* O DeepSeek exibe a mensagem “Conectando às suas plataformas: GitHub, Google Drive, LinkedIn, Discord…”.
 
-* A plataforma retorna uma lista de decisões do STF, trechos doutrinários e artigos comentados por especialistas.
+* A IA acessa os dados permitidos, respeitando as permissões de privacidade, e exibe um painel integrado.
 
+* Um resumo técnico do repositório é exibido, junto com uma síntese das experiências profissionais e links para documentos relevantes.
 
-* São sugeridos também temas relacionados ou artigos para aprofundamento do tópico.
+* A plataforma sugere insights para destacar na apresentação, com base nas palavras-chave da vaga informada.
+
+* Gabriel exporta tudo em um único documento e compartilha via Discord com um clique.
 
 **Avaliação:**
 
-* Nathalia compara os resumos com as decisões completas e valida que os trechos principais foram bem interpretados.
+* Gabriel considera a integração extremamente eficiente, pois economizou tempo ao reunir dados dispersos automaticamente.
 
-* Considera que o tempo de pesquisa foi bastante reduzido e que o conteúdo está pronto para ser utilizado na apresentação.
+* Fica satisfeito com a forma como o DeepSeek compreendeu e cruzou as informações entre plataformas.
 
-* Salva os links e resumos no seu bloco de notas digital e encerra a pesquisa satisfeita.
+* Avalia que conseguiu se preparar de forma estratégica para a entrevista, com mais confiança.
+
+* Decide manter as integrações ativas para utilizar o DeepSeek como centro de produtividade no seu dia a dia profissional.
+
+---
+## Cenário XX: Pesquisa utilizando integração por voz no DeepSeek
+Autor: [Davi Emanuel](https://github.com/daviRolvr)
+
+**Atores:** Camila, 27 anos, mestranda em Psicologia Cognitiva, com bom domínio de tecnologia e rotina intensa de leitura e produção acadêmica. Utiliza o DeepSeek como assistente de pesquisa para agilizar a análise de textos científicos e sínteses bibliográficas.
+
+**Ambiente (Contexto):** Camila está caminhando de um prédio para outro no campus da universidade, usando fones de ouvido com microfone e carregando o celular em uma das mãos. Como o tempo é curto entre uma atividade e outra, ela decide usar o DeepSeek via comando de voz para não precisar parar e digitar.
+
+**Objetivos:**
+
+* Consultar rapidamente o DeepSeek sem precisar usar as mãos ou digitar textos longos.
+
+* Obter uma explicação resumida sobre o conceito de “memória episódica” com exemplos.
+
+* Agilizar sua pesquisa enquanto se desloca, otimizando seu tempo.
+
+**Planejamento:** Camila ativa o recurso de entrada por voz no aplicativo do DeepSeek, ciente de que a funcionalidade converte fala em texto, realiza a busca e responde por texto e/ou voz. Ela quer testar se consegue interagir naturalmente com o sistema mesmo em movimento.
+
+**Ações:**
+
+1. Abre o aplicativo do DeepSeek no celular.
+
+2. Ativa o modo “Pesquisa por Voz”.
+
+3. Diz: “DeepSeek, me explica de forma resumida o que é memória episódica e me dá dois exemplos.”
+
+4. Aguarda o reconhecimento da fala e a geração da resposta.
+
+5. Ouve a resposta sintetizada por voz e também lê o conteúdo em texto na tela.
+
+6. Salva a resposta nos favoritos para revisar depois.
+
+**Eventos:**
+
+* O DeepSeek exibe a mensagem: “Ouvindo...”, seguida de “Interpretando sua fala...”.
+
+* A fala é convertida em texto e exibida para confirmação.
+
+* A IA realiza a análise e responde tanto em texto quanto em voz sintetizada.
+
+* Sugestões adicionais aparecem na tela: “Quer saber mais sobre memória semântica?”, “Deseja salvar esta resposta?”
+
+**Avaliação:**
+
+* Camila considera que a experiência por voz foi fluida e natural, sem a necessidade de parar sua locomoção.
+
+* Destaca a praticidade do sistema reconhecer sua voz em ambiente externo com ruído moderado.
+
+* Avalia que o tempo de resposta foi satisfatório e a resposta adequada ao contexto acadêmico.
+
+* Decide usar a funcionalidade com frequência, principalmente em momentos em que não pode digitar.
+
+
 
 ## Fabio
 
@@ -352,4 +414,5 @@ Interação Humano-Computador e Experiência do usuário.
 | 10/05/2025 |  1.2   | (#CO2) Incrementa parte da documentação sobre cenários.| [@daviRolvr](https://github.com/daviRolvr)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.3   | (#CO2) Incrementa parte da documentação sobre cenários.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 14/05/2025 |  1.4   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
-| 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
+| 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Davi Emanuel](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
+| 16/05/2025 |  1.6   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
