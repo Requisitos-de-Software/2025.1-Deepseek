@@ -13,7 +13,38 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 ## Ana Joyce
 
 ## Davi
+## [#UCXX] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
 
+| #UCXX | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | 	O usuário pode conectar plataformas externas (GitHub, Google, LinkedIn, Discord) ao DeepSeek para ampliar fontes de informação. |
+| Ator              | 	Usuário                                                                                                         |
+| Pré-condições     | 	Acesso à internet, conta em plataformas externas, autorização do usuário para integração.                                                          |
+| Ação              | O usuário integra uma ou mais plataformas externas ao DeepSeek.                                                      |
+| Fluxo principal   | <ul><li>Usuário abre o DeepSeek</br><ul><li>O usuário acessa a aba de integrações</br><ul><li>Seleciona uma plataforma (ex: GitHub)</br><ul><li>Autoriza o acesso via token ou login OAuth</br></li></ul></li></ul></li></ul> |
+| Fluxo alternativo | <ul><li>O usuário tenta integrar, mas não tem sessão ativa na plataforma</br><ul><li>O DeepSeek redireciona para login externo e, após sucesso, finaliza a integração</br>|
+| Fluxo de exceção  | <ul><li>A autorização da plataforma externa é negada ou expira</br><ul><li>O sistema informa falha na conexão e sugere nova tentativa</br> |
+| Pós-condições     | O DeepSeek pode acessar dados autorizados das plataformas externas para enriquecer as respostas ou contexto do usuário.                    |
+| Data de Criação   | 17/05/2025                                                                                                     |
+| Rastreabilidade   | #RF37     |
+
+## [#UCXX] - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| #UCXX | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | 		O usuário é capaz de realizar perguntas ao DeepSeek por meio de comandos de voz. |
+| Ator              | 		Usuário                                                                                                     |
+| Pré-condições     | Acesso à internet, microfone habilitado, permissão concedida ao app para uso de áudio.                                                         |
+| Ação              | O usuário interage com o DeepSeek por comando de voz para realizar perguntas ou pesquisas.                                                   |
+| Fluxo principal   | <ul><li>O usuário acessa o aplicativo</br><ul><li>Ativa o modo de entrada por voz</br><ul><li>Faz uma pergunta verbalmente</br><ul><li>O DeepSeek converte voz em texto e responde</br></li></ul></li></ul></li></ul> |
+| Fluxo alternativo | <ul><li> O usuário acessa o aplicativo</br><ul><li>Ativa o modo de entrada por voz</br><ul><li>Sistema detecta ausência de fala</br><ul><li> Solicita nova tentativa ou oferece teclado como alternativa|
+| Fluxo de exceção  | <ul><li>O microfone do usuário está desativado ou bloqueado</br><ul><li>O sistema exibe mensagem de erro solicitando ativação do microfone</br> |
+| Pós-condições     | O usuário recebe a resposta para sua pergunta em texto.                    |
+| Data de Criação   | 17/05/2025                                                                                                     |
+| Rastreabilidade   | #RF14     |
+                                                                                      
 ## Fabio
 
 ## [#UC01] - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.
@@ -127,4 +158,5 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 09/05/2025 |  1.0   | (#UCO1) Adição de introdução e metodologia.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela)  |
 | 10/05/2025 |  1.0   | (#UCO2) Adição de conteúdo desenvolvido.| [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.1   | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
-| 16/05/2025 |  1.2  | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@](https://github.com/daviRolvr) |
+| 16/05/2025 |  1.2  | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
+|16/05/2025 |  1.3  | (#UCO2) Adição de conteúdo desenvolvido.|  [@Davi Emanuel](https://github.com/daviRolvr)| [@luiz](https://github.com/luizfaria1989) |
