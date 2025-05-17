@@ -290,6 +290,8 @@ Decide iterar usando “Dislike + Regenerate” até que o resultado atenda ao e
 **Avaliação:**
 Mariana compara mentalmente cada iteração com seu padrão de clareza; quando atingir fluxo e precisão, encerra as regenerações.
 
+---
+
 ## Cenário XX: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
@@ -323,6 +325,81 @@ Decide utilizar o DeepSeek com a função de **Pensamento Profundo** para tentar
 **Avaliação:**
 Gauss compara a resolução do exercício com as suas de seu caderno para garantir que o modelo do DeepSeek utilizou os mesmos conceitos aprendidos em cálculo 1.
 
+---
+
+## Cenário XX: Opção de Interromper Resposta em Andamento
+**Autor:** [Luiz](https://github.com/luizfaria1989)
+
+**Atores:**
+João, desenvolvedor front-end com grande familiaridade com o uso do chat de IAs para retirar dúvidas de código.
+
+**Ambiente (Contexto):**
+João está no escritório de sua casa, trabalhando no desenvolvimento de um site de vendas. Durante o desenvolvimento, ele percebe que está com dúvidas sobre como utilizar o framework React para componentizar os itens do site para que possam ser reaproveitados no projeto.
+
+**Objetivos:**
+
+* Entender as principais funcionalidades do framework React.
+* Utilizar a função "Interromper mensagem em andamento" para evitar perda de tempo com respostas incorretas.
+
+**Planejamento:**
+João decide utilizar o app DeepSeek para pedir explicações de como pode utilizar o React em seu projeto de front-end.
+
+**Ações:**
+
+1. Pergunta para o DeepSeek quais são as principais funcionalidades do React.
+2. Começa a ler a resposta da IA sobre o framework.
+3. João percebe que a resposta que está sendo escrita pela IA está incorreta.
+4. João clica em "Interromper mensagem em andamento".
+
+
+**Eventos:**
+
+* O início da mensagem aparece no chat de João com o DeepSeek.
+* A mensagem é interrompida.
+* Aparece o texto "Mensagem interrompida pelo usuário" logo abaixo da mensagem interrompida.
+
+
+**Avaliação:**
+João percebe que a mensagem interrompida estava explicando sobre outra tecnologia, assim, o seu cancelamento foi útil, pois poupou tempo que gastaria lendo um texto que não se aplicava para seu projeto.
+
+---
+
+## Cenário XX: Visualização em Tempo Real do Status do Servidor
+**Autor:** [Luiz](https://github.com/luizfaria1989)
+
+**Atores:**
+Clarice, estudante de engenharia da computação do sétimo semestre, está estagiando em uma empresa trabalhando no setor de banco de dados.
+
+**Ambiente (Contexto):**
+Clarice está no escritório de sua empresa em frente o computador, está cercada de notas de aula sobre normalização de bancos de dados. Ela percebe ao analisar o modelo relacional, que uma das tabelas parece estar ferindo a terceira forma normal. Então decide tirar dúvidas com o DeepSeek para se assegurar que a tabela está realmente incorreta.
+
+
+**Objetivos:**
+
+* Retirar dúvidas sobre normalização de banco de dados relacionais
+* Utilizar a função de visualização em tempo real do status do servidor para garantir que a IA está disponível para conversa.
+
+**Planejamento:**
+
+Clarice olha mais uma vez as suas notas de aula, procura a definição de terceira forma normal. Decide criar um chat com o DeepSeek para tirar dúvidas se as suas anotações estão certas e explicar a situação que encontrou no banco de dados de sua empresa.
+
+**Ações:**
+
+1. Abre o app DeepSeek em um novo chat.
+2. Lê uma mensagem no topo do chat dizendo "Servidor em manutenção. Chat Indisponível no momento".
+3. Fecha o app.
+
+**Eventos:**
+
+* Um novo chat é criado ao abrir o app.
+* A mensagem de servidor em manutenção aparece no chat de Clarice.
+
+**Avaliação:**
+
+Clarice lê a mensagem dizendo que o servidor está em manutenção, fecha o aplicativo e decide procurar respostas em outra IA.
+
+---
+
 ## Bibliografia
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)
@@ -338,3 +415,4 @@ Interação Humano-Computador e Experiência do usuário.
 | 11/05/2025 |  1.3   | (#CO2) Incrementa parte da documentação sobre cenários.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 14/05/2025 |  1.4   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Davi Emanuel](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
+| 16/05/2025 |  1.6   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |

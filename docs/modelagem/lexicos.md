@@ -69,6 +69,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/gaubiela">@Gabriela</a>
 </div>
+
 ---
 ### Léxico para UCXX (Integração com Plataformas Externas) - (#RF37)
 
@@ -89,6 +90,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
 </div>
 
+---
+
 ### Léxico para UCXX (Explicação de Fontes) - (#RF14)
 <div align="center">
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
@@ -103,6 +106,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
 </div>
+---
 ### Léxico para UC06 (Integração com Voz) - (#RF34)
 
 <div align="center">
@@ -119,6 +123,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
 </div>
+
+---
 
 ### Léxico para UC04 (Uso da função Pensamento Profundo)
 
