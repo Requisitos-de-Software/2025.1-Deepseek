@@ -39,7 +39,7 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 Nathalia, 21 anos, estudante do 6º semestre do curso de Direito, com familiaridade mediana com tecnologia, utiliza o DeepSeek algumas vezes por semana para apoiar suas pesquisas acadêmicas.
 
 **Ambiente (Contexto):**
-Marina está na biblioteca da universidade, utilizando seu notebook conectado ao Wi-Fi da instituição. Ela precisa encontrar jurisprudências e artigos sobre a aplicação do princípio da dignidade da pessoa humana em decisões do Supremo Tribunal Federal (STF), pois tem uma apresentação de seminário na aula de Direito Constitucional no dia seguinte.
+Nathalia está na biblioteca da universidade, utilizando seu notebook conectado ao Wi-Fi da instituição. Ela precisa encontrar jurisprudências e artigos sobre a aplicação do princípio da dignidade da pessoa humana em decisões do Supremo Tribunal Federal (STF), pois tem uma apresentação de seminário na aula de Direito Constitucional no dia seguinte.
 
 **Objetivos:**
 
@@ -50,7 +50,7 @@ Marina está na biblioteca da universidade, utilizando seu notebook conectado ao
 * Organizar as informações de forma clara para apresentar à turma com segurança.
 
 **Planejamento:**
-Marina decide utilizar o DeepSeek por acreditar que a ferramenta pode sintetizar melhor o conteúdo jurídico e economizar tempo, evitando a leitura extensa de documentos jurídicos inteiros logo de início.
+Nathalia decide utilizar o DeepSeek por acreditar que a ferramenta pode sintetizar melhor o conteúdo jurídico e economizar tempo, evitando a leitura extensa de documentos jurídicos inteiros logo de início.
 
 **Ações:**
 
