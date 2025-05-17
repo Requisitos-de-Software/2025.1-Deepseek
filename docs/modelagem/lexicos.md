@@ -169,6 +169,20 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
+### Léxico para UCXX (Acessar configurações para alterar o tema do Sistema)
+
+| ID        | Noção                           | Impacto                                                                                                                                          | Classificação | Dicionário                                    | Rastreamento                        |
+|-----------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------|-------------------------------------|
+| L-UCXX-01 | Tema do Sistema                  | Influencia diretamente a experiência visual, conforto de uso e acessibilidade. Pode impactar também o desempenho em dispositivos com economia de energia. | Estado        | aparência, esquema de cores, layout visual, modo visual | UCXX                 |
+| L-UCXX-02 | Configurações                    | Permite ao usuário adaptar a ferramenta às suas necessidades e preferências, promovendo usabilidade e satisfação.                                 | Objeto        | ajustes, preferências, opções do sistema | UCXX        |
+| L-UCXX-03 | Alterar Tema                     | Garante acessibilidade e conforto visual, além de alinhar a aparência do sistema às preferências do usuário.                                     | Verbo         | mudar visual, trocar modo de exibição, personalizar interface | UCXX                 |
+
+
+<div align="center">
+    Autor: <a href="https://github.com/fabinsz">@Fábio</a>
+</div>
+---
+
 ## Bibliografia
 
 > SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 10/05/2025.
