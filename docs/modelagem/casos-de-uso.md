@@ -69,6 +69,7 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Rastreabilidade   | #RF11, #RF12, #RF13, #RF17                                                                                     |
 
 ## [UC04] - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek
+**Autor:** [Luiz](https://github.com/luizfari1989)
 
 | #UC04 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -81,7 +82,39 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Fluxo de exceção  | <ul><li>Inicia o desenvolvimento da pergunta</br><ul><li>Conexão é perdida</br><ul><li>DeepSeek notifica “Conexão perdida” e oferece retomar</br></li></ul></li></ul></li></ul> |
 | Pós-condições     | Texto completo disponível com equações além do fluxo de consciência da IA                  |
 | Data de Criação   | 11/05/2025                                                                                                     |
-| Rastreabilidade   | #RF02, #RN07                                                                                          |
+| Rastreabilidade   | #RF02, #RN07  
+
+## [UC05] - Permite que o usuário cancele uma mensagem em andamento da IA no chat
+**Autor:** [Luiz](https://github.com/luizfari1989)
+
+| #UC05 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | Permite que o usuário cancele uma mensagem que está sendo gerada pela IA no chat |
+| Ator              | João                                                                                                         |
+| Pré-condições     | Internet ativa, uma mensagem precisa obrigatoriamente estar sendo gerada pela IA no chat                                                      |
+| Ação              | João cancela uma mensagem que está sendo gerada pois ela está incorreta                                     |
+| Fluxo principal   | <ul><li>João abre o DeepSeek</br><ul><li>Digita a sua mensagem no chat</br><ul><li>Clica na seta para enviar</br><ul><li>Lê o início da resposta que está sendo gerada pela IA</br><ul><li>Clica em "Interromper mensagem em andamento"</br></li></ul></li></ul></li></ul></li></ul></li></ul> |
+| Fluxo alternativo | <ul><li>João abre o DeepSeek</br><ul><li>Digita a sua mensagem no chat</br><ul><li>Clica na seta para enviar</br><ul><li>Não encontra nenhum problema na mensagem que está sendo gerada pela IA</ul></li><ul></ul></ul></li></ul></li></ul> |
+| Fluxo de exceção  | <ul><li>Inicia o desenvolvimento da pergunta</br><ul><li>Conexão é perdida</br><ul><li>DeepSeek notifica “Conexão perdida” e oferece a opção de retomar</br></li></ul></li></ul></li></ul> |
+| Pós-condições     | Texto gerado parcialmente com a mensagem "Mensagem cancelada pelo usuário" escrita embaixo            |
+| Data de Criação   | 16/05/2025                                                                                                     |
+| Rastreabilidade   | #RF19
+
+## [UC06] - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA
+**Autor:** [Luiz](https://github.com/luizfari1989)
+
+| #UC06 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | Permite que o usuário veja o status do servidor da IA, indicando se ele está em manutenção ou funcionando normalmente|
+| Ator              | Clarice                                                                                                         |
+| Pré-condições     | Internet ativa, Estar na tela de conversa com o DeepSeek                                                            |
+| Ação              | Visualizar a mensagem no topo da tela indicando o status do servidor no momento                                             |
+| Fluxo principal   | <ul><li>Clarice abre o DeepSeek</br><ul><li>Visualiza a mensagem indicando que o servidor está funcionando normalmente</br><ul><li>Digita sua pergunta para o chat da IA</br><ul></ul></ul></li></ul></li></ul> |
+| Fluxo alternativo | <ul><li>Clarice abre o DeepSeek</br><ul><li>Visualiza a mensagem indicando que o servidor está em manutenção</br><ul><li>Fecha o app</br></li><ul></ul></ul></li></ul></li></ul> |
+| Fluxo de exceção  | <ul><li>Tenta abrir o app</br><ul><li>Aparece a mensagem "Aplicativo sendo atualizado"</br><ul><li>O app é fechado automaticamente</br></li></ul></li></ul></li></ul> |
+| Pós-condições     | O usuário visualiza a mensagem em tempo real do status do servidor                 |
+| Data de Criação   | 16/05/2025                                                                                                     |
+| Rastreabilidade   | #RF29                                                                                       |
 
 ## Bibliografia
 
@@ -94,3 +127,4 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 09/05/2025 |  1.0   | (#UCO1) Adição de introdução e metodologia.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela)  |
 | 10/05/2025 |  1.0   | (#UCO2) Adição de conteúdo desenvolvido.| [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.1   | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 16/05/2025 |  1.2  | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@](https://github.com/daviRolvr) |
