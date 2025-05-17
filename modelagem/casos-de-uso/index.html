@@ -1367,6 +1367,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ucxx-permite-que-o-usuario-use-o-deepseek-e-o-integre-com-plataformas-externas" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UCXX] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ucxx-permite-que-o-usuario-use-o-deepseek-com-a-funcionalidade-de-integracao-por-voz" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UCXX] - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#fabio" class="md-nav__link">
     <span class="md-ellipsis">
       Fabio
@@ -2367,6 +2385,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ucxx-permite-que-o-usuario-use-o-deepseek-e-o-integre-com-plataformas-externas" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UCXX] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ucxx-permite-que-o-usuario-use-o-deepseek-com-a-funcionalidade-de-integracao-por-voz" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UCXX] - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#fabio" class="md-nav__link">
     <span class="md-ellipsis">
       Fabio
@@ -2468,6 +2504,110 @@
 <h2 id="ana-clara">Ana Clara</h2>
 <h2 id="ana-joyce">Ana Joyce</h2>
 <h2 id="davi">Davi</h2>
+<h2 id="ucxx-permite-que-o-usuario-use-o-deepseek-e-o-integre-com-plataformas-externas">[#UCXX] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr">Davi Emanuel</a></p>
+<table>
+<thead>
+<tr>
+<th>#UCXX</th>
+<th>Informações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Descrição</td>
+<td>O usuário pode conectar plataformas externas (GitHub, Google, LinkedIn, Discord) ao DeepSeek para ampliar fontes de informação.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Acesso à internet, conta em plataformas externas, autorização do usuário para integração.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário integra uma ou mais plataformas externas ao DeepSeek.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td><ul><li>Usuário abre o DeepSeek</br><ul><li>O usuário acessa a aba de integrações</br><ul><li>Seleciona uma plataforma (ex: GitHub)</br><ul><li>Autoriza o acesso via token ou login OAuth</br></li></ul></li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><ul><li>O usuário tenta integrar, mas não tem sessão ativa na plataforma</br><ul><li>O DeepSeek redireciona para login externo e, após sucesso, finaliza a integração</br></td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><ul><li>A autorização da plataforma externa é negada ou expira</br><ul><li>O sistema informa falha na conexão e sugere nova tentativa</br></td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O DeepSeek pode acessar dados autorizados das plataformas externas para enriquecer as respostas ou contexto do usuário.</td>
+</tr>
+<tr>
+<td>Data de Criação</td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RF37</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ucxx-permite-que-o-usuario-use-o-deepseek-com-a-funcionalidade-de-integracao-por-voz">[#UCXX] - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr">Davi Emanuel</a></p>
+<table>
+<thead>
+<tr>
+<th>#UCXX</th>
+<th>Informações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Descrição</td>
+<td>O usuário é capaz de realizar perguntas ao DeepSeek por meio de comandos de voz.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Acesso à internet, microfone habilitado, permissão concedida ao app para uso de áudio.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário interage com o DeepSeek por comando de voz para realizar perguntas ou pesquisas.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td><ul><li>O usuário acessa o aplicativo</br><ul><li>Ativa o modo de entrada por voz</br><ul><li>Faz uma pergunta verbalmente</br><ul><li>O DeepSeek converte voz em texto e responde</br></li></ul></li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><ul><li> O usuário acessa o aplicativo</br><ul><li>Ativa o modo de entrada por voz</br><ul><li>Sistema detecta ausência de fala</br><ul><li> Solicita nova tentativa ou oferece teclado como alternativa</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><ul><li>O microfone do usuário está desativado ou bloqueado</br><ul><li>O sistema exibe mensagem de erro solicitando ativação do microfone</br></td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário recebe a resposta para sua pergunta em texto.</td>
+</tr>
+<tr>
+<td>Data de Criação</td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RF14</td>
+</tr>
+</tbody>
+</table>
 <h2 id="fabio">Fabio</h2>
 <h2 id="uc01-permite-que-o-usuario-envie-um-pdf-e-receba-o-texto-extraido-e-insights-preservando-formatacao-e-simbolos">[#UC01] - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.</h2>
 <p><strong>Autor:</strong> <a href="https://github.com/gaubiela">Gabriela</a></p>
@@ -2825,7 +2965,14 @@ DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSee
 <td style="text-align: center;">1.2</td>
 <td style="text-align: left;">(#UCO2) Adição de conteúdo desenvolvido.</td>
 <td style="text-align: center;"><a href="https://github.com/luizfaria1989">@luiz</a></td>
-<td style="text-align: center;"><a href="https://github.com/daviRolvr">@</a></td>
+<td style="text-align: center;"><a href="https://github.com/daviRolvr">@Davi Emanuel</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">16/05/2025</td>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">(#UCO2) Adição de conteúdo desenvolvido.</td>
+<td style="text-align: center;"><a href="https://github.com/daviRolvr">@Davi Emanuel</a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989">@luiz</a></td>
 </tr>
 </tbody>
 </table>
