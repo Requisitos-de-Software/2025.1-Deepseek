@@ -91,6 +91,8 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 ---
 ## Cenário XX: Pesquisa utilizando integração por voz no DeepSeek
+Autor: [Davi Emanuel](https://github.com/daviRolvr)
+
 **Atores:** Camila, 27 anos, mestranda em Psicologia Cognitiva, com bom domínio de tecnologia e rotina intensa de leitura e produção acadêmica. Utiliza o DeepSeek como assistente de pesquisa para agilizar a análise de textos científicos e sínteses bibliográficas.
 
 **Ambiente (Contexto):** Camila está caminhando de um prédio para outro no campus da universidade, usando fones de ouvido com microfone e carregando o celular em uma das mãos. Como o tempo é curto entre uma atividade e outra, ela decide usar o DeepSeek via comando de voz para não precisar parar e digitar.
