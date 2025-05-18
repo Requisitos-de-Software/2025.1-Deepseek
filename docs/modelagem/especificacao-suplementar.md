@@ -28,12 +28,12 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 
 <font><p style="text-align: center">**Tabela xx** - Requisitos de Desempenho.</p></font>
 
-|     ID     |                                   Descrição                                             |
-| ---------- | --------------------------------------------------------------------------------------- |
-|   #RF03	 | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s |
-|   #RN07    | O sistema deve suportar múltiplas requisições simultâneas sem degradação |
-|   #RN08    | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤ 10 s e o tempo médio de resposta ≤ 2 s em operações simples |
-|   #RF29    | Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga) |
+| CASO DE USO |     ID     |                                   Descrição                                      |
+|-------------| ---------- |--------------------------------------------------------------------------------- |
+|  #UC01  |   #RF03	 | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s |
+|    |   #RN07    | O sistema deve suportar múltiplas requisições simultâneas sem degradação |
+|  #UC01  |   #RN08    | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤ 10 s e o tempo médio de resposta ≤ 2 s em operações simples |
+|    |   #RF29    | Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga) |
 
 
 ## Suportabilidade
@@ -46,13 +46,13 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 
 <font><p style="text-align: center">**Tabela xx** - Requisitos de Suportabilidade.</p></font>
 
-|     ID     |                                   Descrição                                             |
-| ---------- | --------------------------------------------------------------------------------------- |
-|   #RN02    | Deve possuir versões para Android e IOS |
-|   #RN01    | Deve fazer o uso da arquitetura DeepSeek-V3 |
-|   #RF20    | Deve possuir uma API pública |
-|   #RF21    | Deve aceitar autenticação via token de acesso |
-|   #RF37    | Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas |
+| Caso de Uso |   ID     |                                   Descrição                                             |
+| ----------- | -------- | --------------------------------------------------------------------------------------- |
+||   #RN02    | Deve possuir versões para Android e IOS |
+||   #RN01    | Deve fazer o uso da arquitetura DeepSeek-V3 |
+||   #RF20    | Deve possuir uma API pública |
+||   #RF21    | Deve aceitar autenticação via token de acesso |
+||   #RF37    | Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas |
 
 ## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
@@ -64,12 +64,12 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 
 <font><p style="text-align: center">**Tabela xx** - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line.</p></font>
 
-| ID    | Descrição                                                                                         |
-|-------|---------------------------------------------------------------------------------------------------|
-| RF28  | Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades   |
-| RN06  | Em caso de falha, deve retornar mensagens de erro claras                                          |
-| RN09  | Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados |
-| RN10  | Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos |
+| Caso de Uso |   ID     |                                   Descrição                                             |
+| ----------- | -------- | --------------------------------------------------------------------------------------- |
+|| RF28  | Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades   |
+|| RN06  | Em caso de falha, deve retornar mensagens de erro claras                                          |
+|| RN09  | Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados |
+|| RN10  | Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos |
 
 
 
