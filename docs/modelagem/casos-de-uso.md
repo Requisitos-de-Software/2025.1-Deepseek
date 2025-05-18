@@ -8,8 +8,6 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 
 ## Casos de Uso Modelados:
 
-## Ana Clara
-
 ## Ana Joyce
 ## [#UCXX] -  Exclusão automática de dados de upload
 **Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
@@ -198,6 +196,38 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Data de Criação   | 16/05/2025                                                                                                     |
 | Rastreabilidade   | #RF29                                                                                       |
 
+## [UC07] - Permite que o usuário entenda o funcionamento da plataforma a partir de um tutorial interativo
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| #UC07 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | O usuário é capaz de entender o funcionamento da plataforma por meio de um tutorial interativo. |
+| Ator              | Usuário                                                                                          |
+| Pré-condições     | Conexão ativa.                                                |
+| Ação              | O usuário acessa e segue o tutorial até concluir os passos propostos.                              |
+| Fluxo principal   | <ul><li>O usuário clica em “Ver Tutorial” na tela inicial</li> <li>O sistema exibe uma introdução com explicação do objetivo da plataforma</li> <li>O usuário navega pelas seções (ex: “Como começar”, “Dar comandos”, “Usar feedback”)</li> <li>O usuário interage com exemplos sugeridos no tutorial</li> <li>Ao final, clica em “Finalizar tutorial”</li></ul> |
+| Fluxo alternativo | <ul><li>O usuário considera o tutorial longo ou repetitivo; O usuário já sabe utilizar a plataforma</li> <li>Clica em “Pular tutorial”</li> <li>Sistema registra a decisão e recomenda revisitar mais tarde</li></ul> |
+| Fluxo de exceção  | <ul><li>Erro no carregamento de conteúdo</li> <li>Sistema exibe mensagem “Erro ao carregar o tutorial”</li> <li>O usuário tenta novamente após atualizar a página</li></ul> |
+| Pós-condições     | O usuário entende as funcionalidades principais da plataforma; tutorial marcado como concluído. |
+| Data de Criação   | 15/05/2025                                                                                      |
+| Rastreabilidade   | #RF28                                                                                       |
+
+## [UC08] - Permite que o usuário apague o histórico de conversas, a partir de uma confirmação
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| #UC08 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | O usuário pode apagar o histórico de conversas, a partir de uma confirmação explícita. |
+| Ator              | Usuário                                                                                          |
+| Pré-condições     | O usuário está logado na plataforma; histórico existente; conexão ativa.                          |
+| Ação              | O usuário acessa a opção de histórico e opta por apagar todas as conversas após confirmação.       |
+| Fluxo principal   | <ul><li>O usuário clica em “Histórico” no menu principal</li> <li>Seleciona “Apagar histórico”</li> <li>O sistema exibe um aviso solicitando confirmação</li> <li>O usuário clica em “Confirmar”</li> <li>O sistema apaga todas as conversas do histórico</li></ul> |
+| Fluxo alternativo | <ul><li>O usuário clica em “Cancelar” na janela de confirmação</li> <li>O sistema mantém o histórico intacto</li></ul> |
+| Fluxo de exceção  | <ul><li>Erro de conexão no momento da exclusão</li> <li>O sistema exibe mensagem: “Erro ao apagar. Verifique sua conexão e tente novamente.”</li></ul> |
+| Pós-condições     | Histórico apagado.  |
+| Data de Criação   | 15/05/2025                                                                                         |
+| Rastreabilidade   | #RF22                                                                                      |
+
 ## Bibliografia
 
 > LUCIDCHART. Diagrama de caso de uso UML. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 9 maio 2025.
@@ -212,4 +242,8 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 16/05/2025 |  1.2  | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
 |16/05/2025 |  1.3  | (#UCO2) Adição de conteúdo desenvolvido.|  [@Davi Emanuel](https://github.com/daviRolvr)| [@luiz](https://github.com/luizfaria1989) |
 |17/05/2025 |  1.4 | (#UCO2) Adição de conteúdo desenvolvido.|  [@Fabio](https://github.com/fabinsz)| [@Luiz](https://github.com/luizfaria1989) |
+<<<<<<< HEAD
 |18/05/2025 |  1.5 | (#UCO3) Adição de caso de uso Exclusão automática de dados de upload|  [@Ana Joyce](https://github.com/anajoyceamorim)| [@revisor](https://github.com/) |
+=======
+| 18/05/2025 |  1.5  | (#UCO2) Adição de conteúdo desenvolvido.| [@Ana Borges](https://github.com/anabborges)   | [@](https://github.com) |
+>>>>>>> 890e02cc1aee195256f163d033a59017a2c1b140
