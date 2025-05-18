@@ -90,4 +90,4 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 12/05/2025 |  1.0   | (#D04) Criação da página das listas de verificação com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | []() |
+| 12/05/2025 |  1.0   | (#D04) Criação da página das listas de verificação com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [`@Ana Borges`](https://github.com/anabborges), [`@Ana Joyce`](https://github.com/anajoyceamorim), [`@Fabio`](https://github.com/fabinsz), [`@Gabriela`](https://github.com/gaubiela), [`@Luiz`](https://github.com/luizfaria1989), [`@Mateus`](https://github.com/MVConsorte) |
