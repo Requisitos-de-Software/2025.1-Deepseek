@@ -35,6 +35,6 @@
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 04/04/2025 |  0.1   | (#D03) Documenta apresentações. | [@Gabriela](https://github.com/gaubiela)   | [@Mateus](https://github.com/MVConsorte)|
-| 18/05/2025 |  0.2   | (#D04) Documenta reuniões para terceira entrega. | [@Gabriela](https://github.com/gaubiela)   | [@Mateus](https://github.com/MVConsorte)|
-| 18/05/2025 |  0.3   | (#D04) Adiciona gravação da reunião do dia 15/05. | [@Ana Borges](https://github.com/anabborges)   | [@](https://github.com/)|
-| 18/05/2025 |  0.4   | (#D04) Adiciona gravação da reunião do dia 08/05. | [@Ana Joyce](https://github.com/anabborges)   | [@](https://github.com/)|
+| 18/05/2025 |  0.2   | (#D04) Documenta reuniões para terceira entrega. | [@Gabriela](https://github.com/gaubiela)   | [@Luiz](https://github.com/luizfaria1989)|
+| 18/05/2025 |  0.3   | (#D04) Adiciona gravação da reunião do dia 15/05. | [@Ana Borges](https://github.com/anabborges)   | [@Luiz](https://github.com/luizfaria1989)|
+| 18/05/2025 |  0.4   | (#D04) Adiciona gravação da reunião do dia 08/05. | [@Ana Joyce](https://github.com/anabborges)   | [@Luiz](https://github.com/luizfaria1989)|
