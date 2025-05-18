@@ -182,6 +182,64 @@ Por ser um usuário experiente, Lucas assume que a opção de personalização v
 
 ---
 
+## Cenário XX: Personalização da experiência via seleção de modelos de IA
+
+**Autor:** [Fabio](https://github.com/fabinsz)
+
+**Atores:**: Júlia, 21 anos, estudante de Engenharia de Software, utiliza o DeepSeek para estudar, revisar conteúdos técnicos e desenvolver projetos de pesquisa em aprendizado de máquina. Gosta de testar diferentes modelos de IA para comparar estilo de resposta, profundidade analítica e rapidez.
+
+**Ambiente (Contexto):** Júlia está no laboratório de informática da universidade, usando seu notebook com internet estável. Está preparando um experimento para comparar como diferentes modelos de IA respondem a problemas complexos de lógica e quer organizar isso como parte de seu TCC.
+
+**Objetivos:**
+
+* Alternar entre diferentes versões de IA (como R1, R2, etc.) para análise comparativa.
+
+* Avaliar a profundidade, clareza e estilo das respostas fornecidas por cada modelo.
+
+* Selecionar o modelo mais adequado para cada tipo de tarefa (resumos, resolução de problemas, revisão de código, etc.).
+
+* Documentar as respostas geradas por diferentes modelos para uso futuro.
+
+**Planejamento:** Júlia decide utilizar o recurso de troca de modelo disponível no DeepSeek para realizar sua comparação. Ela pretende submeter a mesma pergunta a cada modelo e observar as diferenças nas respostas, registrando os resultados em um documento colaborativo com sua orientadora.
+
+**Ações:**
+
+1. Acessa o DeepSeek e navega até o seletor de modelo no topo da interface.
+
+2. Visualiza a lista com modelos disponíveis: R1, R2, e R3.
+
+3. Seleciona o modelo R1 e envia uma pergunta de lógica avançada.
+
+4. Analisa a resposta da IA e copia para seu documento de análise.
+
+5. Repete o processo com os modelos R2 e R3.
+
+6. Compara as três respostas lado a lado, observando critérios como coerência, profundidade e criatividade.
+
+7. Escolhe o modelo mais eficaz para continuar utilizando em suas interações acadêmicas.
+
+**Eventos:**
+
+* DeepSeek exibe “Modelo atualizado com sucesso: R2”.
+
+* A IA responde com estilos diferentes a cada modelo, permitindo variações claras de análise.
+
+* Júlia percebe que o modelo R2 oferece mais explicações intermediárias, enquanto o R1 é mais direto e o R3 tende a ser mais técnico.
+
+* O sistema salva automaticamente o modelo selecionado para futuras sessões.
+
+**Avaliação:**
+
+* Júlia se sente no controle de sua experiência de uso com a IA.
+
+* Considera o recurso fundamental para tarefas acadêmicas que exigem diferentes abordagens cognitivas.
+
+* Relata que o modelo R2 se encaixa melhor em situações de estudo aprofundado, enquanto o R1 é mais útil para resumos rápidos.
+
+* Reforça a intenção de continuar utilizando o DeepSeek como ferramenta de apoio no seu TCC.
+
+---
+
 ## Gabriela
 
 ## Cenário XX: Upload de Documento (#UC01)
@@ -290,6 +348,8 @@ Decide iterar usando “Dislike + Regenerate” até que o resultado atenda ao e
 **Avaliação:**
 Mariana compara mentalmente cada iteração com seu padrão de clareza; quando atingir fluxo e precisão, encerra as regenerações.
 
+---
+
 ## Cenário XX: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
@@ -323,6 +383,81 @@ Decide utilizar o DeepSeek com a função de **Pensamento Profundo** para tentar
 **Avaliação:**
 Gauss compara a resolução do exercício com as suas de seu caderno para garantir que o modelo do DeepSeek utilizou os mesmos conceitos aprendidos em cálculo 1.
 
+---
+
+## Cenário XX: Opção de Interromper Resposta em Andamento
+**Autor:** [Luiz](https://github.com/luizfaria1989)
+
+**Atores:**
+João, desenvolvedor front-end com grande familiaridade com o uso do chat de IAs para retirar dúvidas de código.
+
+**Ambiente (Contexto):**
+João está no escritório de sua casa, trabalhando no desenvolvimento de um site de vendas. Durante o desenvolvimento, ele percebe que está com dúvidas sobre como utilizar o framework React para componentizar os itens do site para que possam ser reaproveitados no projeto.
+
+**Objetivos:**
+
+* Entender as principais funcionalidades do framework React.
+* Utilizar a função "Interromper mensagem em andamento" para evitar perda de tempo com respostas incorretas.
+
+**Planejamento:**
+João decide utilizar o app DeepSeek para pedir explicações de como pode utilizar o React em seu projeto de front-end.
+
+**Ações:**
+
+1. Pergunta para o DeepSeek quais são as principais funcionalidades do React.
+2. Começa a ler a resposta da IA sobre o framework.
+3. João percebe que a resposta que está sendo escrita pela IA está incorreta.
+4. João clica em "Interromper mensagem em andamento".
+
+
+**Eventos:**
+
+* O início da mensagem aparece no chat de João com o DeepSeek.
+* A mensagem é interrompida.
+* Aparece o texto "Mensagem interrompida pelo usuário" logo abaixo da mensagem interrompida.
+
+
+**Avaliação:**
+João percebe que a mensagem interrompida estava explicando sobre outra tecnologia, assim, o seu cancelamento foi útil, pois poupou tempo que gastaria lendo um texto que não se aplicava para seu projeto.
+
+---
+
+## Cenário XX: Visualização em Tempo Real do Status do Servidor
+**Autor:** [Luiz](https://github.com/luizfaria1989)
+
+**Atores:**
+Clarice, estudante de engenharia da computação do sétimo semestre, está estagiando em uma empresa trabalhando no setor de banco de dados.
+
+**Ambiente (Contexto):**
+Clarice está no escritório de sua empresa em frente o computador, está cercada de notas de aula sobre normalização de bancos de dados. Ela percebe ao analisar o modelo relacional, que uma das tabelas parece estar ferindo a terceira forma normal. Então decide tirar dúvidas com o DeepSeek para se assegurar que a tabela está realmente incorreta.
+
+
+**Objetivos:**
+
+* Retirar dúvidas sobre normalização de banco de dados relacionais
+* Utilizar a função de visualização em tempo real do status do servidor para garantir que a IA está disponível para conversa.
+
+**Planejamento:**
+
+Clarice olha mais uma vez as suas notas de aula, procura a definição de terceira forma normal. Decide criar um chat com o DeepSeek para tirar dúvidas se as suas anotações estão certas e explicar a situação que encontrou no banco de dados de sua empresa.
+
+**Ações:**
+
+1. Abre o app DeepSeek em um novo chat.
+2. Lê uma mensagem no topo do chat dizendo "Servidor em manutenção. Chat Indisponível no momento".
+3. Fecha o app.
+
+**Eventos:**
+
+* Um novo chat é criado ao abrir o app.
+* A mensagem de servidor em manutenção aparece no chat de Clarice.
+
+**Avaliação:**
+
+Clarice lê a mensagem dizendo que o servidor está em manutenção, fecha o aplicativo e decide procurar respostas em outra IA.
+
+---
+
 ## Bibliografia
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)
@@ -334,7 +469,9 @@ Interação Humano-Computador e Experiência do usuário.
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 09/05/2025 |  1.0   | (#CO1) Adição de introduçaõ e metodologia.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
 | 10/05/2025 |  1.1   | (#CO1) Incrementa parte da documentação sobre cenários.| [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
-| 10/05/2025 |  1.2   | (#CO2) Incrementa parte da documentação sobre cenários.| [@daviRolvr](https://github.com/daviRolvr)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 10/05/2025 |  1.2   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Davi Emanuel](https://github.com/daviRolvr)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.3   | (#CO2) Incrementa parte da documentação sobre cenários.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 14/05/2025 |  1.4   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Davi Emanuel](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
+| 16/05/2025 |  1.6   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
+| 17/05/2025 |  1.7   | (#CO2) Incrementa parte da documentação sobre cenários.| [@fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |

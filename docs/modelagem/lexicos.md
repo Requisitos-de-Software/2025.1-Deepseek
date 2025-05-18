@@ -69,12 +69,12 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/gaubiela">@Gabriela</a>
 </div>
+
 ---
+
 ### Léxico para UCXX (Integração com Plataformas Externas) - (#RF37)
 
-<div align="center">
-    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
-</div>
+
 
 | ID          | Noção                         | Impacto                                                                                  | Classificação |  Dicionário |Rastreamento                            |
 |-------------|-------------------------------|-------------------------------------------------------------------------------------------|----------------|------------ |----------------------------------------|
@@ -89,10 +89,10 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
 </div>
 
+---
+
 ### Léxico para UCXX (Explicação de Fontes) - (#RF14)
-<div align="center">
-    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
-</div>
+
 
 | ID          | Noção                   | Impacto                                                                                               | Classificação | Dicionário    |Rastreamento                     |
 |-------------|-------------------------|--------------------------------------------------------------------------------------------------------|----------------|------------------------------------|------------------|
@@ -103,11 +103,10 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
 </div>
+---
 ### Léxico para UC06 (Integração com Voz) - (#RF34)
 
-<div align="center">
-    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
-</div>
+
 
 | ID        | Noção              | Impacto                                                                 | Classificação | Dicionário                      | Rastreamento |
 |-----------|--------------------|--------------------------------------------------------------------------|----------------|----------------------------------|---------------|
@@ -119,6 +118,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
 </div>
+
+---
 
 ### Léxico para UC04 (Uso da função Pensamento Profundo)
 
@@ -162,6 +163,33 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
+### Léxico para UCXX (Acessar configurações para alterar o tema do Sistema)
+
+| ID        | Noção                           | Impacto                                                                                                                                          | Classificação | Dicionário                                    | Rastreamento                        |
+|-----------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------|-------------------------------------|
+| L-UCXX-01 | Tema do Sistema                  | Influencia diretamente a experiência visual, conforto de uso e acessibilidade. Pode impactar também o desempenho em dispositivos com economia de energia. | Estado        | aparência, esquema de cores, layout visual, modo visual | UCXX                 |
+| L-UCXX-02 | Configurações                    | Permite ao usuário adaptar a ferramenta às suas necessidades e preferências, promovendo usabilidade e satisfação.                                 | Objeto        | ajustes, preferências, opções do sistema | UCXX        |
+| L-UCXX-03 | Alterar Tema                     | Garante acessibilidade e conforto visual, além de alinhar a aparência do sistema às preferências do usuário.                                     | Verbo         | mudar visual, trocar modo de exibição, personalizar interface | UCXX                 |
+
+
+<div align="center">
+    Autor: <a href="https://github.com/fabinsz">@Fabio</a>
+</div>
+---
+
+| ID        | Noção                  | Impacto                                                                                           | Classificação | Dicionário                                 | Rastreamento |
+| --------- | ---------------------- | ------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------ | ------------ |
+| L-UCXX-01 | Modelo de IA           | Versão específica de um sistema de inteligência artificial com características distintas.        | Objeto        | R1, R2, R3, versão, instância              | UCXX        |
+| L-UCXX-02 | Selecionar             | Ação de escolher um modelo de IA dentre as opções disponíveis no DeepSeek.                       | Verbo         | Escolher, trocar, alterar, definir         | UCXX         |
+| L-UCXX-03 | Resposta da IA         | Conteúdo gerado pelo modelo de IA com base em uma entrada do usuário.                           | Objeto        | Texto, saída, solução, análise             | UCXX         |
+| L-UCXX-04 | Comparar respostas     | Ato de analisar diferentes saídas fornecidas pelos modelos para uma mesma pergunta.              | Verbo         | Avaliar, analisar, cotejar, contrastar     | UCXX        |
+| L-UCXX-05 | Experiência de uso     | Vivência do usuário ao interagir com a IA, influenciada pela escolha do modelo.                 | Estado        | Satisfação, controle, fluidez              | UCXX         |
+
+<div align="center">
+    Autor: <a href="https://github.com/fabinsz">@Fabio</a>
+</div>
+---
+
 ## Bibliografia
 
 > SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 10/05/2025.
@@ -175,4 +203,5 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 10/05/2025 |  1.1   | (#LX01) Adição de conteúdo desenvolvido.  | [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.2   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 14/05/2025 |  1.3   | (#LX01) Adição de conteúdo desenvolvido.  | [@Davi Emanuel](https://github.com/daviRolvr)   | [@Luiz](https://github.com/luizfaria1989) |
-| 17/05/2025 |  1.4   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/daviRolvr) |
+| 17/05/2025 |  1.4   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [Davi Emanuel@](https://github.com/daviRolvr) |
+| 17/05/2025 |  1.5  | (#LX01) Adição de conteúdo desenvolvido.  | [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
