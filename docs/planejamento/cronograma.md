@@ -131,7 +131,7 @@ Este cronograma serve como mapa de referência para a organização das sprints,
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 13/04/2025 |  0.1   | (#P04) Elaboração e definição do cronograma. | [@Gabriela](https://github.com/gaubiela)   | [@AnaJoyce](https://github.com/anajoyceamorim) |
 | 04/05/2025 |  0.2   | (#D03) Atualiza cronograma com versão pós alteração do app. | [@Gabriela](https://github.com/gaubiela)   | [@AnaJoyce](https://github.com/anajoyceamorim) |
-| 18/05/2025 |  0.3   | (#D04) Ajustes motivados pela terceira entrega. | [@Gabriela](https://github.com/gaubiela)   | -- |
+| 18/05/2025 |  0.3   | (#D04) Ajustes motivados pela terceira entrega. | [@Gabriela](https://github.com/gaubiela)   | [@Luiz](https://github.com/luizfaria1989) |
 
 # GRÁFICO DE GANTT
 
