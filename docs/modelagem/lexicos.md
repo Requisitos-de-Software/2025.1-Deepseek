@@ -162,6 +162,39 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
+### Léxico para UC07 (Tutorial Interativo)
+
+| ID         | Noção                                            | Impacto                                                                 | Classificação | Dicionário                | Rastreamento |
+|------------|--------------------------------------------------|------------------------------------------------------------------------|---------------|---------------------------|--------------|
+| L-UC07-01   | Tutorial                                         | Conjunto de instruções interativas para ensinar o uso da plataforma    | Objeto        | Guia, Manual  | UC07          |
+| L-UC07-02   | Introdução                                       | Explicação sobre o propósito do tutorial                       | Objeto        | Apresentação inicial      | UC07          |
+| L-UC07-03   | Finalizar o Tutorial                          | Ação de concluir o tutorial, permitindo que o usuário retorne à plataforma | Verbo        | Concluir, Terminar        | UC07          |
+| L-UC07-04   | Notificação de Conclusão                        | Aviso exibido ao usuário quando o tutorial é concluído com sucesso     | Objeto        | Alerta, Mensagem final    | UC07          |
+| L-UC07-05   | Sistema                                    | Plataforma utilizada para realizar a interação com o usuário e controlar a limpeza do histórico | Objeto        | DeepSeek, Plataforma      | UC07          |
+| L-UC07-06   | Concluído                                       | Estado em que o tutorial já foi utilizado uma vez pelo usuário                           | Estado       | Finalizado, Assistido        | UC07          |
+
+<div align="center">
+    Autor: <a href="https://github.com/anabborges">@Ana Clara</a>
+</div>
+---
+
+### Léxico para UC08 (Exclusão do histórico de conversas)
+
+| ID         | Noção                                            | Impacto                                                                 | Classificação | Dicionário                | Rastreamento |
+|------------|--------------------------------------------------|------------------------------------------------------------------------|---------------|---------------------------|--------------|
+| L-UC8-01   | Limpar Histórico                                 | Ação de remover todas as conversas do usuário armazenadas no sistema | Verbo        | Apagar, Excluir           | UC8          |
+| L-UC8-02   | Histórico                                       | Registro das conversas antigas realizadas no sistema                  | Objeto        | Conversas antigas        | UC8          |
+| L-UC8-03   | Confirmar                                      | Processo de solicitação de confirmação para garantir que o usuário deseja excluir o histórico | Verbo        | Validar, Autorizar       | UC8          |
+| L-UC8-04   | Mensagem de Confirmação                          | Aviso exibido ao usuário, perguntando se ele tem certeza de que deseja apagar o histórico | Objeto        | Alerta, Aviso | UC8          |
+| L-UC8-05   | Notificação de Sucesso                          | Mensagem exibida após a conclusão bem-sucedida do processo de apagar o histórico | Objeto        | Alerta, Mensagem final    | UC8          |
+| L-UC8-06   | Sistema                                    | Plataforma utilizada para realizar a interação com o usuário e controlar a limpeza do histórico | Objeto        | DeepSeek, Plataforma      | UC8          |
+| L-UC8-07   | Estado do Histórico                             | Condição atual das conversas armazenadas no sistema antes da exclusão | Estado        | Histórico, Registros      | UC8          |
+
+<div align="center">
+    Autor: <a href="https://github.com/anabborges">@Ana Clara</a>
+</div>
+---
+
 ## Bibliografia
 
 > SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 10/05/2025.
