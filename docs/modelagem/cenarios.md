@@ -182,6 +182,64 @@ Por ser um usuário experiente, Lucas assume que a opção de personalização v
 
 ---
 
+## Cenário XX: Personalização da experiência via seleção de modelos de IA
+
+**Autor:** [Fabio](https://github.com/fabinsz)
+
+**Atores:**: Júlia, 21 anos, estudante de Engenharia de Software, utiliza o DeepSeek para estudar, revisar conteúdos técnicos e desenvolver projetos de pesquisa em aprendizado de máquina. Gosta de testar diferentes modelos de IA para comparar estilo de resposta, profundidade analítica e rapidez.
+
+**Ambiente (Contexto):** Júlia está no laboratório de informática da universidade, usando seu notebook com internet estável. Está preparando um experimento para comparar como diferentes modelos de IA respondem a problemas complexos de lógica e quer organizar isso como parte de seu TCC.
+
+**Objetivos:**
+
+* Alternar entre diferentes versões de IA (como R1, R2, etc.) para análise comparativa.
+
+* Avaliar a profundidade, clareza e estilo das respostas fornecidas por cada modelo.
+
+* Selecionar o modelo mais adequado para cada tipo de tarefa (resumos, resolução de problemas, revisão de código, etc.).
+
+* Documentar as respostas geradas por diferentes modelos para uso futuro.
+
+**Planejamento:** Júlia decide utilizar o recurso de troca de modelo disponível no DeepSeek para realizar sua comparação. Ela pretende submeter a mesma pergunta a cada modelo e observar as diferenças nas respostas, registrando os resultados em um documento colaborativo com sua orientadora.
+
+**Ações:**
+
+1. Acessa o DeepSeek e navega até o seletor de modelo no topo da interface.
+
+2. Visualiza a lista com modelos disponíveis: R1, R2, e R3.
+
+3. Seleciona o modelo R1 e envia uma pergunta de lógica avançada.
+
+4. Analisa a resposta da IA e copia para seu documento de análise.
+
+5. Repete o processo com os modelos R2 e R3.
+
+6. Compara as três respostas lado a lado, observando critérios como coerência, profundidade e criatividade.
+
+7. Escolhe o modelo mais eficaz para continuar utilizando em suas interações acadêmicas.
+
+**Eventos:**
+
+* DeepSeek exibe “Modelo atualizado com sucesso: R2”.
+
+* A IA responde com estilos diferentes a cada modelo, permitindo variações claras de análise.
+
+* Júlia percebe que o modelo R2 oferece mais explicações intermediárias, enquanto o R1 é mais direto e o R3 tende a ser mais técnico.
+
+* O sistema salva automaticamente o modelo selecionado para futuras sessões.
+
+**Avaliação:**
+
+* Júlia se sente no controle de sua experiência de uso com a IA.
+
+* Considera o recurso fundamental para tarefas acadêmicas que exigem diferentes abordagens cognitivas.
+
+* Relata que o modelo R2 se encaixa melhor em situações de estudo aprofundado, enquanto o R1 é mais útil para resumos rápidos.
+
+* Reforça a intenção de continuar utilizando o DeepSeek como ferramenta de apoio no seu TCC.
+
+---
+
 ## Gabriela
 
 ## Cenário XX: Upload de Documento (#UC01)
@@ -416,3 +474,4 @@ Interação Humano-Computador e Experiência do usuário.
 | 14/05/2025 |  1.4   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Davi Emanuel](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 16/05/2025 |  1.6   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
+| 17/05/2025 |  1.6   | (#CO2) Incrementa parte da documentação sobre cenários.| [@fabio](https://github.com/fabinsz)   | [@](https://github.com/) |
