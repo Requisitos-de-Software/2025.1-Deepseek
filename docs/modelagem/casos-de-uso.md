@@ -47,6 +47,22 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
                                                                                       
 ## Fabio
 
+## [UCXX] - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek
+**Autor:** [Fabio](https://github.com/fabinsz)
+
+| #UCXX | Informações                                                                                                                                      |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Descrição**         | Permite que o usuário selecione diferentes versões de modelos de IA (ex: R1, R2, R3) no DeepSeek, personalizando o estilo e a profundidade das respostas. |
+| **Ator**              | Júlia                                                                                                                           |
+| **Pré-condições**     | Estar com o DeepSeek aberto e com conexão à internet.                                                                            |
+| **Ação**              | Júlia decide escolher o modelo que melhor se adequa à sua necessidade de resposta antes de enviar uma pergunta à IA.            |
+| **Fluxo principal**   | <ul><li>Júlia abre o DeepSeek</br><ul><li>Seleciona “Modelos de IA” no canto superior direito</br><ul><li>Visualiza as opções R1, R2 e R3 com descrições</br><ul><li>Escolhe o modelo R2 por preferir respostas mais diretas</br><ul><li>Digita sua pergunta no campo de chat</br><ul><li>Clica na seta para enviar</br><ul><li>Lê a resposta gerada pelo modelo R2</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul> |
+| **Fluxo alternativo** | <ul><li>Júlia está insatisfeita com a resposta gerada pelo modelo atual</br><ul><li>Retorna à seleção de modelos</br><ul><li>Escolhe o modelo R1 para uma explicação mais aprofundada</br><ul><li>Reenvia a mesma pergunta</br><ul><li>Lê a nova resposta mais detalhada</li></ul></li></ul></li></ul></li></ul> |
+| **Fluxo de exceção**  | <ul><li>Ao tentar trocar o modelo, a conexão com o servidor falha</br><ul><li>DeepSeek exibe a mensagem: “Erro ao carregar modelos. Verifique sua conexão.”</br><ul><li>Usuária tenta novamente após restabelecer a internet</li></ul></li></ul></li></ul> |
+| **Pós-condições**     | Júlia recebe uma resposta ajustada ao modelo escolhido, com o estilo e profundidade desejados.                                  |
+| **Data de Criação**   | 17/05/2025                                                                                                                       |
+| **Rastreabilidade**   | #RF32   
+
 ## [UCXX] - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.
 
 **Autor:** [Fabio](https://github.com/seuusuario)
