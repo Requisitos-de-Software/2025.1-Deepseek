@@ -260,4 +260,4 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 |17/05/2025 |  1.4 | (#UCO2) Adição de conteúdo desenvolvido.|  [@Fabio](https://github.com/fabinsz)| [@Luiz](https://github.com/luizfaria1989) |
 |18/05/2025 |  1.5 | (#UCO3) Adição de caso de uso Exclusão automática de dados de upload|  [@Ana Joyce](https://github.com/anajoyceamorim)| [@revisor](https://github.com/) |
 | 18/05/2025 |  1.6  | (#UCO2) Adição de conteúdo desenvolvido.| [@Ana Borges](https://github.com/anabborges)   | [@](https://github.com) |
-| 18/05/2025 |  1.7  | (#UC01-02-03) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos casos de uso.| [@Mateus](https://github.com/MVConsorte)   | [@]() |
+| 18/05/2025 |  1.7  | (#UC01-02-03) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos casos de uso.| [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
