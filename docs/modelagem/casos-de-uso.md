@@ -196,4 +196,4 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 11/05/2025 |  1.1   | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 16/05/2025 |  1.2  | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
 |16/05/2025 |  1.3  | (#UCO2) Adição de conteúdo desenvolvido.|  [@Davi Emanuel](https://github.com/daviRolvr)| [@luiz](https://github.com/luizfaria1989) |
-|17/05/2025 |  1.4 | (#UCO2) Adição de conteúdo desenvolvido.|  [@Fabio](https://github.com/fabinsz)| [@](https://github.com/) |
+|17/05/2025 |  1.4 | (#UCO2) Adição de conteúdo desenvolvido.|  [@Fabio](https://github.com/fabinsz)| [@Luiz](https://github.com/luizfaria1989) |
