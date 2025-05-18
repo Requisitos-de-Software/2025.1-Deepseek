@@ -504,6 +504,81 @@ Clarice olha mais uma vez as suas notas de aula, procura a definição de tercei
 
 Clarice lê a mensagem dizendo que o servidor está em manutenção, fecha o aplicativo e decide procurar respostas em outra IA.
 
+## Cenário XXI: Utilização do tutorial prático
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+**Atores:**  
+Joana, 22 anos, estagiária de design de produto em uma startup de tecnologia voltada para educação. Está fazendo curso superior em Design e possui proficiência intermediária em ferramentas digitais. Está começando a utilizar o DeepSeek para criar fluxos para um projeto de chat de IA da empresa e busca entender a lógica e os recursos da plataforma antes de começar o seu projeto.
+
+**Ambiente (Contexto):**  
+Sentada no escritório, com conexão Wi-Fi estável e pouco tempo disponível, Joana acessa o DeepSeek pela primeira vez e é direcionada ao painel principal. Quer entender rapidamente como a plataforma funciona para não perder tempo em testes manuais.
+
+**Objetivos:**
+
+- Aprender o básico da plataforma de forma guiada.  
+- Entender como iniciar um chat, dar comandos e revisar respostas.  
+- Ter uma maior da interação do usuário com chats de IA.  
+
+**Planejamento:**  
+Joana opta por seguir o tutorial oferecido na tela inicial ao invés de explorar por conta própria. Acredita que o passo a passo vai economizar tempo e evitar erros comuns de iniciantes.
+
+**Ações:**
+
+- Acessa o DeepSeek e clica em “Ver Tutorial”.  
+- Lê a introdução sobre o propósito da ferramenta.  
+- Passa por seções como: “Como iniciar um chat”, “Como dar comandos claros” e “Regenerar respostas”.  
+- Interage com exemplos demonstrativos e simulações práticas.  
+- Finaliza o tutorial clicando em “Concluir” e é redirecionada ao painel principal.  
+
+**Eventos:**
+
+- Durante o tutorial, o sistema apresenta dicas visuais e animações que destacam elementos da interface.  
+- Um marcador de progresso exibe a etapa atual e quanto falta para terminar.  
+- Ao concluir, uma notificação confirma o término e sugere iniciar o primeiro chat real.  
+
+**Avaliação:**
+
+- Joana sente-se segura para começar a usar a ferramenta de forma prática.  
+- Considera o conteúdo claro e bem dividido em etapas curtas.  
+- Acredita que o tutorial economizou tempo e reduziu a curva de aprendizado.
+
+## Cenário XXII: Limpeza do histórico de conversas
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+**Atores:**  
+Henrique, 31 anos, gerente de inovação em uma empresa de tecnologia, com formação em Engenharia de Software. Usa o DeepSeek diariamente para brainstorms técnicos, geração de documentação e simulação de conversas com IA. Valoriza organização e privacidade nos dados utilizados.
+
+**Ambiente (Contexto):**  
+Durante uma revisão semanal de atividades em seu escritório, com conexão estável, Henrique percebe que acumulou muitas conversas antigas no DeepSeek. Para manter o ambiente limpo e evitar confusão futura, decide apagar todo o histórico de conversas.
+
+**Objetivos:**
+
+- Apagar o histórico completo de conversas antigas.  
+- Garantir que nenhum dado sensível fique armazenado.  
+- Organizar o ambiente na plataforma.  
+
+**Planejamento:**  
+Henrique opta por usar a função de “Limpar Histórico” oferecida pela plataforma. Sabe que o sistema exige confirmação, o que evita exclusões acidentais.
+
+**Ações:**
+
+- Acessa o DeepSeek pela interface web.  
+- Navega até a aba de histórico de conversas.  
+- Clica em “Limpar Histórico”.  
+- O sistema exibe uma janela de confirmação: “Tem certeza que deseja apagar todas as conversas?”  
+- Henrique clica em “Sim”.  
+- As conversas são permanentemente removidas.  
+
+**Eventos:**
+
+- Uma notificação é exibida: “Histórico apagado com sucesso.”  
+- O histórico agora aparece vazio e a tela inicial é atualizada.  
+
+**Avaliação:**
+
+- Henrique valida que todas as conversas antigas foram de fato apagadas.  
+- Henrique considera o fluxo claro e a confirmação foi essencial para evitar exclusões acidentais.
+
 ---
 
 ## Bibliografia
@@ -523,4 +598,5 @@ Interação Humano-Computador e Experiência do usuário.
 | 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Davi Emanuel](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 16/05/2025 |  1.6   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
 | 17/05/2025 |  1.7   | (#CO2) Incrementa parte da documentação sobre cenários.| [@fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
-| 17/05/2025 |  1.8   | (#CO4) Incrementa parte da documentação sobre cenários.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@revisor](https://github.com/) |
+| 18/05/2025 |  1.8   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Ana Borges](https://github.com/anabborges)   | [@Luiz](https://github.com/luizfaria1989) |
+| 17/05/2025 |  1.9   | (#CO4) Incrementa parte da documentação sobre cenários.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@gaubiela](https://github.com/gaubiela) |
