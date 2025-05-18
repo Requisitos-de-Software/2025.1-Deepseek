@@ -125,7 +125,7 @@ Essa visão de execução é fundamental para o controle de qualidade do projeto
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 04/04/2025 |  0.1   | (#D03) Elaboração e definição do cronograma para cronograma executado. | [@Gabriela](https://github.com/gaubiela)   | [@AnaJoyce](https://github.com/anajoyceamorim) |
-| 18/05/2025 |  0.2   | (#D04) Ajustes motivados pela terceira entrega. | [@Gabriela](https://github.com/gaubiela)   | -- |
+| 18/05/2025 |  0.2   | (#D04) Ajustes motivados pela terceira entrega. | [@Gabriela](https://github.com/gaubiela)   | [@Luiz](https://github.com/luizfaria1989) |
 
 
 # GRÁFICO DE GANTT
