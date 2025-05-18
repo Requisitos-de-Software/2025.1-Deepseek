@@ -18,6 +18,256 @@ A finalidade deste artefato é definir, de forma clara e estruturada, requisitos
 
 ---
 
+## Metodologia
+A modelagem dos requisitos do sistema **DeepSeek** foi realizada com foco na separação entre **requisitos funcionais** e **não funcionais**.
+
+A abordagem seguiu os seguintes passos principais:
+
+1. **Elicitação de Requisitos** – Reuniões com stakeholders permitiram identificar as necessidades do sistema, tanto em termos de funcionalidades quanto de atributos de qualidade.
+2. **Modelagem de Casos de Uso** – Os requisitos funcionais foram representados por meio de **diagramas de casos de uso**, destacando as ações que os usuários poderão realizar e suas interações com o sistema.
+3. **Especificação Suplementar** – Para complementar os casos de uso, foram descritos os **requisitos não funcionais** em linguagem natural, utilizando a classificação **FURPS+**, que considera:
+
+   * **Funcionalidade**
+   * **Usabilidade**
+   * **Confiabilidade**
+   * **Desempenho**
+   * **Suportabilidade**
+   * **Outros fatores relevantes** (como requisitos legais, ambientais e restrições de projeto)
+
+Essa metodologia busca garantir que todos os aspectos essenciais ao desenvolvimento do sistema estejam bem documentados e acessíveis a todos os envolvidos no projeto.
+
+---
+
+Sim, você está certíssima!
+
+A seção de **Funcionalidade** na **Especificação Suplementar** dentro do modelo **FURPS+** normalmente **não detalha os requisitos funcionais em si**, mas **faz referência a onde eles estão descritos e como foram organizados/priorizados** — exatamente como você sugeriu.
+
+Aqui está a sugestão corrigida da seção **Funcionalidade**, de acordo com o modelo esperado:
+
+---
+
+## Funcionalidade
+
+Os **requisitos funcionais** do sistema **DeepSeek** foram identificados por meio de técnicas de elicitação apresentadas anteriormente neste documento. A Tabela a seguir,consolida todos os requisitos funcionais levantados.
+
+Esses requisitos descrevem as funcionalidades que o sistema deverá oferecer, incluindo interações com o usuário, regras de negócio e comportamento esperado diante de diferentes cenários.
+
+A especificação complementar detalha os aspectos de qualidade, técnicos e restrições que **complementam esses requisitos funcionais**, assegurando a completude da documentação de requisitos do sistema.
+
+<details>
+  <summary><strong>Tabela de Requisitos Funcionais</strong></summary>
+  <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; margin-top: 10px;">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Descrição final</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>#RF01</td>
+        <td>Deve oferecer a possibilidade do usuário acionar a pesquisa na web</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF02</td>
+        <td>Deve haver a possibilidade de uso do pensamento profundo para solução de problemas (Deep Thinking)</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF03</td>
+        <td>O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta &lt; 35s</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF04</td>
+        <td>Deve possuir a opção de login com conta Google/Apple ID</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF05</td>
+        <td>Deve salvar chats entre plataformas</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF06</td>
+        <td>Melhorar as capacidades de "deep thinking"</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF07</td>
+        <td>Deve haver um campo para a interação com a IA</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF08</td>
+        <td>Deve ser possível criar novos chats</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF09</td>
+        <td>Deve ser possível renomear um chat</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF10</td>
+        <td>Os chats já utilizados devem poder ser acessados posteriormente</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF11</td>
+        <td>Deve ser possível dar dislike em uma resposta da IA</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF12</td>
+        <td>Deve ser possível dar like em uma resposta da IA</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF13</td>
+        <td>Deve ser possível copiar uma resposta da IA</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF14</td>
+        <td>Deve exibir citações de fontes e referências em respostas baseadas em documentos</td>
+        <td>Parcialmente implementado</td>
+      </tr>
+      <tr>
+        <td>#RF15</td>
+        <td>Deve ser possível alterar o idioma do sistema</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF16</td>
+        <td>Deve ser possível apagar conversas individuais ou de forma geral</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF17</td>
+        <td>Deve ser possível regenerar uma resposta da IA em caso de erro de servidor ou sobrecarga</td>
+        <td>Parcialmente implementado</td>
+      </tr>
+      <tr>
+        <td>#RF18</td>
+        <td>O sistema deve exibir respostas formatadas em Markdown com possibilidade de edição</td>
+        <td>Parcialmente implementado</td>
+      </tr>
+      <tr>
+        <td>#RF19</td>
+        <td>Deve ser possível interromper respostas em andamento</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF20</td>
+        <td>Deve possuir uma API pública</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF21</td>
+        <td>Deve aceitar autenticação via token de acesso</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF22</td>
+        <td>Deve haver uma confirmação para limpar o histórico</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF23</td>
+        <td>Deve suportar busca incremental (sugestões em tempo real)</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF24</td>
+        <td>Todos os dados sensíveis do usuário devem ser criptografados (TLS e AES-256)</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF25</td>
+        <td>O usuário deve poder controlar quais dados são compartilhados</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF26</td>
+        <td>Deve haver autenticação multifator opcional</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF27</td>
+        <td>Deve oferecer modo escuro e claro, com configuração manual e sincronização automática</td>
+        <td>Implementado</td>
+      </tr>
+      <tr>
+        <td>#RF28</td>
+        <td>Deve incluir tutorial interativo na primeira execução</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF29</td>
+        <td>Exibir status do servidor em tempo real</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF30</td>
+        <td>Melhorar retenção de contexto em diálogos longos</td>
+        <td>Parcialmente implementado</td>
+      </tr>
+      <tr>
+        <td>#RF31</td>
+        <td>Implementar memória de contexto persistente entre conversas</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF32</td>
+        <td>Permitir escolha de modelos de IA</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF33</td>
+        <td>Permitir organização de conversas em pastas ou listas</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF34</td>
+        <td>Implementar comandos de voz para entrada e saída de informações</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF35</td>
+        <td>Ajustar visualização do título ao passar o mouse sobre o nome do chat</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF36</td>
+        <td>Fornecer instruções claras sobre OCR na interface</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF37</td>
+        <td>Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.)</td>
+        <td>Não implementado</td>
+      </tr>
+      <tr>
+        <td>#RF38</td>
+        <td>Disponibilizar resumo automático de vídeos (YouTube)</td>
+        <td>Não implementado</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<div align="center">
+    Tabela 1. Tabela com requisitos funcionais.
+</div>
+<div align="center">
+    Autor: <a href="https://github.com/anajoyceamorim">@Ana Joyce</a>
+</div>
+
+---
+
 ## Usabilidade
 
 Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, ou seja, que se referem a forma de o usuário interagir com o sistema.
@@ -153,3 +403,4 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 | 16/05/2025 |  1.2   | (#ES02) Adição de conteúdo desenvolvido. | [@Luiz](https://github.com/luizfaria1989)   | [@Fabio](https://github.com/fabinsz) |
 | 17/05/2025 |  1.3  | (#ES02) Adição de conteúdo desenvolvido. | [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 18/05/2025 |  1.4  | (#ES02) Adição de conteúdo desenvolvido. | [@Ana Clara](https://github.com/anabborges)   | [@](https://github.com/) |
+| 18/05/2025 |  1.5  | (#ES02) Adição de metodologia e funcionalidade. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@](https://github.com/) |
