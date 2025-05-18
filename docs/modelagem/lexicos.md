@@ -223,6 +223,24 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
+### Léxico para UCXX (Exclusão automática de dados de upload)
+
+| ID       | Noção                    | Impacto                                                                                    | Classificação | Dicionário                      | Rastreamento |
+| -------- | ------------------------ | ------------------------------------------------------------------------------------------ | ------------- | ------------------------------- | ------------ |
+| L-UCXX-01 | Excluir automaticamente  | Ação realizada pelo sistema sem interferência do usuário, para apagar arquivos temporários | Verbo         | Apagar, Remover, Limpar         | UCXX         |
+| L-UCXX-02 | Dados de Upload          | Arquivos enviados pelo usuário para análise ou uso temporário no sistema                   | Objeto        | Arquivos, Documentos, Entradas  | UCXX       |
+| L-UCXX-03 | Tempo de retenção        | Período durante o qual os dados de upload permanecem armazenados antes da exclusão         | Estado        | Duração, Intervalo, Período     | UCXX       |
+| L-UCXX-04 | Sessão do Usuário        | Período ativo de uso da aplicação, durante o qual uploads podem ser realizados             | Estado        | Login, Atividade, Sessão        | UCXX      |
+| L-UCXX-05 | Armazenamento Temporário | Espaço lógico destinado a guardar arquivos que serão automaticamente excluídos             | Objeto        | Cache, Memória transitória      | UCXX       |
+| L-UCXX-06 | Processo de verificação  | Rotina automatizada que verifica se o tempo de retenção expirou                            | Processo      | Rotina, Monitoramento, Checagem | UCXX      |
+| L-UCXX-07 | Log de Exclusão          | Registro interno de que o dado foi excluído automaticamente pelo sistema                   | Objeto        | Registro, Histórico de eventos  | UCXX     |
+
+<div align="center">
+    Autor: <a href="https://github.com/anajoyceamorim">@Ana Joyce</a>
+</div>
+
+---
+
 ## Bibliografia
 
 > SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 10/05/2025.
@@ -239,3 +257,4 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 17/05/2025 |  1.4   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [Davi Emanuel@](https://github.com/daviRolvr) |
 | 17/05/2025 |  1.5  | (#LX01) Adição de conteúdo desenvolvido.  | [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 18/05/2025 |  1.6   | (#LX01) Adição de conteúdo desenvolvido.  | [@Ana Borges](https://github.com/anabborges)   | [Davi Emanuel@](https://github.com/daviRolvr) |
+| 18/05/2025 |  1.7  | (#LX01) Adição de conteúdo desenvolvido. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Luiz](https://github.com/luizfaria1989) |
