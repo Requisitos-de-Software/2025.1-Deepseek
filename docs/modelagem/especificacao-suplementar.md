@@ -44,7 +44,7 @@ A suportabilidade envolve os requisitos relacionados ao suporte e manutenção d
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
 
-<font><p style="text-align: center">**Tabela xx* - Requisitos de Suportabilidade.</p></font>
+<font><p style="text-align: center">**Tabela xx** - Requisitos de Suportabilidade.</p></font>
 
 |     ID     |                                   Descrição                                             |
 | ---------- | --------------------------------------------------------------------------------------- |
@@ -53,6 +53,23 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 |   #RF20    | Deve possuir uma API pública |
 |   #RF21    | Deve aceitar autenticação via token de acesso |
 |   #RF37    | Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas |
+
+## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
+
+**Autor: [Fabio](https://github.com/fabinsz)**
+
+A ajuda e documentação de usuário on-line são componentes cruciais para garantir uma boa experiência e autonomia ao utilizar um sistema. Elas fornecem orientações claras, suporte durante falhas e explicações sobre o funcionamento e o uso de dados, promovendo transparência e confiança por parte do usuário.
+
+Para essa categoria os requisitos identificados estão representados na tabela xx.
+
+<font><p style="text-align: center">**Tabela xx** - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line.</p></font>
+
+| ID    | Descrição                                                                                         |
+|-------|---------------------------------------------------------------------------------------------------|
+| RF28  | Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades   |
+| RN06  | Em caso de falha, deve retornar mensagens de erro claras                                          |
+| RN09  | Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados |
+| RN10  | Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos |
 
 
 
@@ -69,4 +86,5 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 | 10/05/2025 |  1.0   | (#ES01) Definições iniciais. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 10/05/2025 |  1.1   | (#ES02) Adição de conteúdo desenvolvido. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 16/05/2025 |  1.2   | (#ES02) Adição de conteúdo desenvolvido. | [@Luiz](https://github.com/luizfaria1989)   | [@Fabio](https://github.com/fabinsz) |
+| 17/05/2025 |  1.3  | (#ES02) Adição de conteúdo desenvolvido. | [@Fabio](https://github.com/fabinsz)   | [@](https://github.com/) |
 
