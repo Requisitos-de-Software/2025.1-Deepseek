@@ -41,7 +41,7 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 |----------|-------------------------------------------------------------------------------------------------------|
 | #RF24    |Deve fazer o uso da arquitetura DeepSeek-V3.                          
 | #RF20     | Deve possuir uma API Pública.                 
-| #RF21    | Deve aceitar autenticação via token de acesso. |                    
+| #RF21    | Deve aceitar autenticação via token de acesso.                     
 | #RF24    | Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256).     
 | #RN07     | O sistema deve suportar múltiplas requisições simultâneas sem degradação               
 | #RN08   | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos e o tempo médio de resposta deve ser <= 2 s em operações simples                         
@@ -50,7 +50,7 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 | ##RF34   | 	Implementar comandos de voz para entrada e saída de informações.    
 | #RF37    | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.              
 | #RN12      | Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas.
-| #RF38    | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização).               |
+| #RF38    | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização).               
 | #RN06    |  Em caso de falha, deve retornar mensagens de erro claras  
 | #RN04   |Deve possuir a opção de login com conta Google/Apple ID.               
 | #RF17     |Deve ser possível regenar uma resposta da IA de forma manual ou de forma automática no caso de erro de servidor ou sobrecargado sistema.
