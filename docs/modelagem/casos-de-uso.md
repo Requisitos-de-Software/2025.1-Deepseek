@@ -13,8 +13,75 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 ## Ana Joyce
 
 ## Davi
+## [#UCXX] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
 
+| #UCXX | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | 	O usuário pode conectar plataformas externas (GitHub, Google, LinkedIn, Discord) ao DeepSeek para ampliar fontes de informação. |
+| Ator              | 	Usuário                                                                                                         |
+| Pré-condições     | 	Acesso à internet, conta em plataformas externas, autorização do usuário para integração.                                                          |
+| Ação              | O usuário integra uma ou mais plataformas externas ao DeepSeek.                                                      |
+| Fluxo principal   | <ul><li>Usuário abre o DeepSeek</br><ul><li>O usuário acessa a aba de integrações</br><ul><li>Seleciona uma plataforma (ex: GitHub)</br><ul><li>Autoriza o acesso via token ou login OAuth</br></li></ul></li></ul></li></ul> |
+| Fluxo alternativo | <ul><li>O usuário tenta integrar, mas não tem sessão ativa na plataforma</br><ul><li>O DeepSeek redireciona para login externo e, após sucesso, finaliza a integração</br>|
+| Fluxo de exceção  | <ul><li>A autorização da plataforma externa é negada ou expira</br><ul><li>O sistema informa falha na conexão e sugere nova tentativa</br> |
+| Pós-condições     | O DeepSeek pode acessar dados autorizados das plataformas externas para enriquecer as respostas ou contexto do usuário.                    |
+| Data de Criação   | 17/05/2025                                                                                                     |
+| Rastreabilidade   | #RF37     |
+
+## [#UCXX] - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| #UCXX | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | 		O usuário é capaz de realizar perguntas ao DeepSeek por meio de comandos de voz. |
+| Ator              | 		Usuário                                                                                                     |
+| Pré-condições     | Acesso à internet, microfone habilitado, permissão concedida ao app para uso de áudio.                                                         |
+| Ação              | O usuário interage com o DeepSeek por comando de voz para realizar perguntas ou pesquisas.                                                   |
+| Fluxo principal   | <ul><li>O usuário acessa o aplicativo</br><ul><li>Ativa o modo de entrada por voz</br><ul><li>Faz uma pergunta verbalmente</br><ul><li>O DeepSeek converte voz em texto e responde</br></li></ul></li></ul></li></ul> |
+| Fluxo alternativo | <ul><li> O usuário acessa o aplicativo</br><ul><li>Ativa o modo de entrada por voz</br><ul><li>Sistema detecta ausência de fala</br><ul><li> Solicita nova tentativa ou oferece teclado como alternativa|
+| Fluxo de exceção  | <ul><li>O microfone do usuário está desativado ou bloqueado</br><ul><li>O sistema exibe mensagem de erro solicitando ativação do microfone</br> |
+| Pós-condições     | O usuário recebe a resposta para sua pergunta em texto.                    |
+| Data de Criação   | 17/05/2025                                                                                                     |
+| Rastreabilidade   | #RF14     |
+                                                                                      
 ## Fabio
+
+## [UCXX] - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek
+**Autor:** [Fabio](https://github.com/fabinsz)
+
+| #UCXX | Informações                                                                                                                                      |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Descrição**         | Permite que o usuário selecione diferentes versões de modelos de IA (ex: R1, R2, R3) no DeepSeek, personalizando o estilo e a profundidade das respostas. |
+| **Ator**              | Júlia                                                                                                                           |
+| **Pré-condições**     | Estar com o DeepSeek aberto e com conexão à internet.                                                                            |
+| **Ação**              | Júlia decide escolher o modelo que melhor se adequa à sua necessidade de resposta antes de enviar uma pergunta à IA.            |
+| **Fluxo principal**   | <ul><li>Júlia abre o DeepSeek</br><ul><li>Seleciona “Modelos de IA” no canto superior direito</br><ul><li>Visualiza as opções R1, R2 e R3 com descrições</br><ul><li>Escolhe o modelo R2 por preferir respostas mais diretas</br><ul><li>Digita sua pergunta no campo de chat</br><ul><li>Clica na seta para enviar</br><ul><li>Lê a resposta gerada pelo modelo R2</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul> |
+| **Fluxo alternativo** | <ul><li>Júlia está insatisfeita com a resposta gerada pelo modelo atual</br><ul><li>Retorna à seleção de modelos</br><ul><li>Escolhe o modelo R1 para uma explicação mais aprofundada</br><ul><li>Reenvia a mesma pergunta</br><ul><li>Lê a nova resposta mais detalhada</li></ul></li></ul></li></ul></li></ul> |
+| **Fluxo de exceção**  | <ul><li>Ao tentar trocar o modelo, a conexão com o servidor falha</br><ul><li>DeepSeek exibe a mensagem: “Erro ao carregar modelos. Verifique sua conexão.”</br><ul><li>Usuária tenta novamente após restabelecer a internet</li></ul></li></ul></li></ul> |
+| **Pós-condições**     | Júlia recebe uma resposta ajustada ao modelo escolhido, com o estilo e profundidade desejados.                                  |
+| **Data de Criação**   | 17/05/2025                                                                                                                       |
+| **Rastreabilidade**   | #RF32   
+
+## [UCXX] - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.
+
+**Autor:** [Fabio](https://github.com/fabinsz)
+
+| #UCXX              | Informações                                                                                                                                                     |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descrição**       | Permite que o usuário acesse as configurações do DeepSeek para alterar o tema visual da interface, escolhendo entre tema claro ou escuro, de acordo com suas preferências. |
+| **Ator**            | Lucas                                                                                                                                                            |
+| **Pré-condições**   | Estar logado no DeepSeek com conexão ativa à internet. Interface carregada.                                                                                      |
+| **Ação**            | Lucas deseja mudar o tema do sistema para modo escuro, pois está em um ambiente com pouca luz.                                                                  |
+| **Fluxo principal** | <ul><li>Lucas abre o DeepSeek</br><ul><li>Clica no ícone de menu ou perfil</br><ul><li>Seleciona “Configurações”</br><ul><li>Clica em “Tema do Sistema”</br><ul><li>Escolhe “Modo Escuro”</br><ul><li>Confirma a alteração</br><ul><li>A interface do sistema muda imediatamente</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul> |
+| **Fluxo alternativo** | <ul><li>Lucas acessa o DeepSeek</br><ul><li>Vai até “Configurações”</br><ul><li>Percebe que o modo escuro já está ativado</br><ul><li>Decide não realizar alterações</li></ul></li></ul></li></ul> |
+| **Fluxo de exceção** | <ul><li>Lucas tenta acessar “Configurações”</br><ul><li>A página demora para carregar ou apresenta erro</br><ul><li>DeepSeek exibe mensagem: “Erro ao carregar configurações”</br><ul><li>Lucas recarrega a página e tenta novamente</li></ul></li></ul></li></ul></li></ul> |
+| **Pós-condições**   | O sistema permanece com o tema selecionado até nova alteração. A preferência visual do usuário foi respeitada.                                                   |
+| **Data de Criação** | 17/05/2025                                                                                                                                                       |
+| **Rastreabilidade** | #RF27                                                                                                                |
+
+ 
+
 
 ## [#UC01] - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.
 **Autor:** [Gabriela](https://github.com/gaubiela)
@@ -69,6 +136,7 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Rastreabilidade   | #RF11, #RF12, #RF13, #RF17                                                                                     |
 
 ## [UC04] - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek
+**Autor:** [Luiz](https://github.com/luizfari1989)
 
 | #UC04 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -81,7 +149,39 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Fluxo de exceção  | <ul><li>Inicia o desenvolvimento da pergunta</br><ul><li>Conexão é perdida</br><ul><li>DeepSeek notifica “Conexão perdida” e oferece retomar</br></li></ul></li></ul></li></ul> |
 | Pós-condições     | Texto completo disponível com equações além do fluxo de consciência da IA                  |
 | Data de Criação   | 11/05/2025                                                                                                     |
-| Rastreabilidade   | #RF02, #RN07                                                                                          |
+| Rastreabilidade   | #RF02, #RN07  
+
+## [UC05] - Permite que o usuário cancele uma mensagem em andamento da IA no chat
+**Autor:** [Luiz](https://github.com/luizfari1989)
+
+| #UC05 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | Permite que o usuário cancele uma mensagem que está sendo gerada pela IA no chat |
+| Ator              | João                                                                                                         |
+| Pré-condições     | Internet ativa, uma mensagem precisa obrigatoriamente estar sendo gerada pela IA no chat                                                      |
+| Ação              | João cancela uma mensagem que está sendo gerada pois ela está incorreta                                     |
+| Fluxo principal   | <ul><li>João abre o DeepSeek</br><ul><li>Digita a sua mensagem no chat</br><ul><li>Clica na seta para enviar</br><ul><li>Lê o início da resposta que está sendo gerada pela IA</br><ul><li>Clica em "Interromper mensagem em andamento"</br></li></ul></li></ul></li></ul></li></ul></li></ul> |
+| Fluxo alternativo | <ul><li>João abre o DeepSeek</br><ul><li>Digita a sua mensagem no chat</br><ul><li>Clica na seta para enviar</br><ul><li>Não encontra nenhum problema na mensagem que está sendo gerada pela IA</ul></li><ul></ul></ul></li></ul></li></ul> |
+| Fluxo de exceção  | <ul><li>Inicia o desenvolvimento da pergunta</br><ul><li>Conexão é perdida</br><ul><li>DeepSeek notifica “Conexão perdida” e oferece a opção de retomar</br></li></ul></li></ul></li></ul> |
+| Pós-condições     | Texto gerado parcialmente com a mensagem "Mensagem cancelada pelo usuário" escrita embaixo            |
+| Data de Criação   | 16/05/2025                                                                                                     |
+| Rastreabilidade   | #RF19
+
+## [UC06] - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA
+**Autor:** [Luiz](https://github.com/luizfari1989)
+
+| #UC06 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | Permite que o usuário veja o status do servidor da IA, indicando se ele está em manutenção ou funcionando normalmente|
+| Ator              | Clarice                                                                                                         |
+| Pré-condições     | Internet ativa, Estar na tela de conversa com o DeepSeek                                                            |
+| Ação              | Visualizar a mensagem no topo da tela indicando o status do servidor no momento                                             |
+| Fluxo principal   | <ul><li>Clarice abre o DeepSeek</br><ul><li>Visualiza a mensagem indicando que o servidor está funcionando normalmente</br><ul><li>Digita sua pergunta para o chat da IA</br><ul></ul></ul></li></ul></li></ul> |
+| Fluxo alternativo | <ul><li>Clarice abre o DeepSeek</br><ul><li>Visualiza a mensagem indicando que o servidor está em manutenção</br><ul><li>Fecha o app</br></li><ul></ul></ul></li></ul></li></ul> |
+| Fluxo de exceção  | <ul><li>Tenta abrir o app</br><ul><li>Aparece a mensagem "Aplicativo sendo atualizado"</br><ul><li>O app é fechado automaticamente</br></li></ul></li></ul></li></ul> |
+| Pós-condições     | O usuário visualiza a mensagem em tempo real do status do servidor                 |
+| Data de Criação   | 16/05/2025                                                                                                     |
+| Rastreabilidade   | #RF29                                                                                       |
 
 ## Bibliografia
 
@@ -94,3 +194,6 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 09/05/2025 |  1.0   | (#UCO1) Adição de introdução e metodologia.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela)  |
 | 10/05/2025 |  1.0   | (#UCO2) Adição de conteúdo desenvolvido.| [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 11/05/2025 |  1.1   | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 16/05/2025 |  1.2  | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
+|16/05/2025 |  1.3  | (#UCO2) Adição de conteúdo desenvolvido.|  [@Davi Emanuel](https://github.com/daviRolvr)| [@luiz](https://github.com/luizfaria1989) |
+|17/05/2025 |  1.4 | (#UCO2) Adição de conteúdo desenvolvido.|  [@Fabio](https://github.com/fabinsz)| [@Luiz](https://github.com/luizfaria1989) |
