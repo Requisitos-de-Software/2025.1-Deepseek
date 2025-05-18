@@ -114,7 +114,7 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 
 
 ---
-## [UC03] - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.
+## [#UC02] - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
 | #UC02 | Informações                                                                                                    |
