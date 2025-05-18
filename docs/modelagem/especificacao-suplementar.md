@@ -19,20 +19,21 @@ A finalidade deste artefato é definir, de forma clara e estruturada, requisitos
 ---
 
 ## Metodologia
+
+**Autor: [Ana Joyce](https://github.com/anajoyceamorim)**
+
 A modelagem dos requisitos do sistema **DeepSeek** foi realizada com foco na separação entre **requisitos funcionais** e **não funcionais**.
 
 A abordagem seguiu os seguintes passos principais:
 
 1. **Elicitação de Requisitos** – Reuniões com stakeholders permitiram identificar as necessidades do sistema, tanto em termos de funcionalidades quanto de atributos de qualidade.
 2. **Modelagem de Casos de Uso** – Os requisitos funcionais foram representados por meio de **diagramas de casos de uso**, destacando as ações que os usuários poderão realizar e suas interações com o sistema.
-3. **Especificação Suplementar** – Para complementar os casos de uso, foram descritos os **requisitos não funcionais** em linguagem natural, utilizando a classificação **FURPS+**, que considera:
-
-   * **Funcionalidade**
-   * **Usabilidade**
-   * **Confiabilidade**
-   * **Desempenho**
-   * **Suportabilidade**
-   * **Outros fatores relevantes** (como requisitos legais, ambientais e restrições de projeto)
+3. **Especificação Suplementar** – Para complementar os casos de uso, foram descritos os **requisitos não funcionais** em linguagem natural, utilizando a classificação **FURPS+**, que considera:  
+**Funcionalidade**    
+**Usabilidade**  
+**Confiabilidade**  
+**Desempenho**  
+**Suportabilidade**  
 
 Essa metodologia busca garantir que todos os aspectos essenciais ao desenvolvimento do sistema estejam bem documentados e acessíveis a todos os envolvidos no projeto.
 
@@ -47,6 +48,8 @@ Aqui está a sugestão corrigida da seção **Funcionalidade**, de acordo com o 
 ---
 
 ## Funcionalidade
+
+**Autor: [Ana Joyce](https://github.com/anajoyceamorim)**
 
 Os **requisitos funcionais** do sistema **DeepSeek** foram identificados por meio de técnicas de elicitação apresentadas anteriormente neste documento. A Tabela a seguir,consolida todos os requisitos funcionais levantados.
 
