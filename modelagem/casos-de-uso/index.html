@@ -1349,6 +1349,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ucxx-exclusao-automatica-de-dados-de-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UCXX] - Exclusão automática de dados de upload
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#davi" class="md-nav__link">
     <span class="md-ellipsis">
       Davi
@@ -2394,6 +2403,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ucxx-exclusao-automatica-de-dados-de-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      [#UCXX] - Exclusão automática de dados de upload
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#davi" class="md-nav__link">
     <span class="md-ellipsis">
       Davi
@@ -2556,6 +2574,58 @@
 <p>A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios da UML, utilizando diagramas e descrições textuais conforme recomendação da literatura especializada. Inicialmente, identificaram-se os atores relevantes do sistema, como usuários finais, administradores e sistemas externos. Em seguida, foram definidos os principais casos de uso que representam as funcionalidades que o sistema deverá oferecer a esses atores. Os diagramas foram elaborados por meio da ferramenta Lucidchart, e cada caso de uso foi descrito com os seguintes elementos: nome, objetivo, atores envolvidos, fluxo de eventos (principal e alternativos), pré-condições, pós-condições e exceções. Essa abordagem visual e textual permite alinhar expectativas entre os envolvidos no projeto e fornecer uma visão clara do escopo funcional da aplicação.</p>
 <h2 id="casos-de-uso-modelados">Casos de Uso Modelados:</h2>
 <h2 id="ana-joyce">Ana Joyce</h2>
+<h2 id="ucxx-exclusao-automatica-de-dados-de-upload">[#UCXX] -  Exclusão automática de dados de upload</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim">Ana Joyce</a></p>
+<table>
+<thead>
+<tr>
+<th>#UCXX</th>
+<th>Informações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Descrição</td>
+<td>O sistema deve excluir automaticamente os dados enviados via upload após determinado período ou após o uso concluído, garantindo segurança e privacidade.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Sistema</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário realizou um upload de arquivo (documento, imagem, PDF, etc.) para uso temporário no DeepSeek.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O sistema verifica uploads armazenados e realiza exclusão automática conforme a política de retenção definida.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td><ul><li>O usuário realiza o upload de um arquivo temporário</br><ul><li>O sistema processa o conteúdo e o utiliza conforme a solicitação do usuário</br><li>Após finalização da tarefa, inicia-se a contagem de tempo para retenção temporária</br><li>O sistema verifica periodicamente os arquivos expirados</br><li>Arquivos vencidos são excluídos automaticamente</br><li>Um log interno é registrado para fins de auditoria</li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><ul><li>O usuário encerra a sessão sem usar o conteúdo do upload</br><ul><li>O sistema aplica o mesmo ciclo de exclusão após o tempo padrão</li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><ul><li>Erro no mecanismo de exclusão automática</br><ul><li>O sistema registra a falha e envia alerta para manutenção interna</li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Arquivos temporários são removidos automaticamente; nenhum dado de upload permanece após o período estabelecido.</td>
+</tr>
+<tr>
+<td>Data de Criação</td>
+<td>18/05/2025</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RN04 — Exclusão automática de dados de upload #RIN11 — Requisito relacionado à segurança de dados</td>
+</tr>
+</tbody>
+</table>
 <h2 id="davi">Davi</h2>
 <h2 id="ucxx-permite-que-o-usuario-use-o-deepseek-e-o-integre-com-plataformas-externas">[#UCXX] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.</h2>
 <p><strong>Autor:</strong> <a href="https://github.com/daviRolvr">Davi Emanuel</a></p>
@@ -3243,11 +3313,39 @@ DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSee
 <td style="text-align: center;"><a href="https://github.com/luizfaria1989">@Luiz</a></td>
 </tr>
 <tr>
+<td style="text-align: center;">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">(#UCO3) Adição de caso de uso Exclusão automática de dados de upload</td>
+<td style="text-align: center;"><a href="https://github.com/anajoyceamorim">@Ana Joyce</a></td>
+<td style="text-align: center;"><a href="https://github.com/">@revisor</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">=======</td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
 <td style="text-align: center;">18/05/2025</td>
 <td style="text-align: center;">1.5</td>
 <td style="text-align: left;">(#UCO2) Adição de conteúdo desenvolvido.</td>
 <td style="text-align: center;"><a href="https://github.com/anabborges">@Ana Borges</a></td>
 <td style="text-align: center;"><a href="https://github.com">@</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">&gt;&gt;&gt;&gt;&gt;&gt;&gt; 890e02cc1aee195256f163d033a59017a2c1b140</td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
