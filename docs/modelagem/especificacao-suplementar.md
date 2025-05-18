@@ -48,7 +48,7 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 | #RF32   | 	Permitir escolha de modelos (seleção de diferentes versões/modelos de IA).                
 | #RF03     | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s                           
 | ##RF34   | 	Implementar comandos de voz para entrada e saída de informações.    
-| #RF37    | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.              
+| #UCXX    | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.              
 | #RN12      | Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas.
 | #RF38    | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização).               
 | #RN06    |  Em caso de falha, deve retornar mensagens de erro claras  
