@@ -12,10 +12,12 @@ A adoção da abordagem **FURPS+** (Functionality, Usability, Reliability, Perfo
 
 ---
 
-##  (#ES02) Requisitos de Design
-<div align="center">
-    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
-</div>
+## Design
+**Autor: [Davi Emanuel](https://github.com/daviRolvr)**
+Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.
+
+Para essa categoria os requisitos identificados estão representados na tabela xx.
+
 | ID       | Descrição                                                                                     | Rastreamento|
 |----------|-----------------------------------------------------------------------------------------------|----------------------|
 | #RD01     | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura)     |#RN05
@@ -27,10 +29,11 @@ A adoção da abordagem **FURPS+** (Functionality, Usability, Reliability, Perfo
 | #RD07     | Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras.   | #RN14   
 | #RD08     |Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.  | #RN15 
 
-## (#ES02) Requisitos de Implementação
-<div align="center">
-    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
-</div>
+##  Implementação
+**Autor: [Davi Emanuel](https://github.com/daviRolvr)**
+Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.
+
+Para essa categoria os requisitos identificados estão representados na tabela xx.
 | ID       | Descrição                                                                                             | Rastreamento|
 |----------|-------------------------------------------------------------------------------------------------------|----------------------|
 | #RI01     |Deve fazer o uso da arquitetura DeepSeek-V3.                          |#RN01 
