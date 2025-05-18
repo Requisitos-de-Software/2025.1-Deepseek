@@ -74,9 +74,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ### Léxico para UCXX (Integração com Plataformas Externas) - (#RF37)
 
-<div align="center">
-    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
-</div>
+
 
 | ID          | Noção                         | Impacto                                                                                  | Classificação |  Dicionário |Rastreamento                            |
 |-------------|-------------------------------|-------------------------------------------------------------------------------------------|----------------|------------ |----------------------------------------|
@@ -94,9 +92,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 ---
 
 ### Léxico para UCXX (Explicação de Fontes) - (#RF14)
-<div align="center">
-    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
-</div>
+
 
 | ID          | Noção                   | Impacto                                                                                               | Classificação | Dicionário    |Rastreamento                     |
 |-------------|-------------------------|--------------------------------------------------------------------------------------------------------|----------------|------------------------------------|------------------|
@@ -110,9 +106,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 ---
 ### Léxico para UC06 (Integração com Voz) - (#RF34)
 
-<div align="center">
-    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
-</div>
+
 
 | ID        | Noção              | Impacto                                                                 | Classificação | Dicionário                      | Rastreamento |
 |-----------|--------------------|--------------------------------------------------------------------------|----------------|----------------------------------|---------------|
@@ -179,7 +173,20 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 
 <div align="center">
-    Autor: <a href="https://github.com/fabinsz">@Fábio</a>
+    Autor: <a href="https://github.com/fabinsz">@Fabio</a>
+</div>
+---
+
+| ID        | Noção                  | Impacto                                                                                           | Classificação | Dicionário                                 | Rastreamento |
+| --------- | ---------------------- | ------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------ | ------------ |
+| L-UCXX-01 | Modelo de IA           | Versão específica de um sistema de inteligência artificial com características distintas.        | Objeto        | R1, R2, R3, versão, instância              | UCXX        |
+| L-UCXX-02 | Selecionar             | Ação de escolher um modelo de IA dentre as opções disponíveis no DeepSeek.                       | Verbo         | Escolher, trocar, alterar, definir         | UCXX         |
+| L-UCXX-03 | Resposta da IA         | Conteúdo gerado pelo modelo de IA com base em uma entrada do usuário.                           | Objeto        | Texto, saída, solução, análise             | UCXX         |
+| L-UCXX-04 | Comparar respostas     | Ato de analisar diferentes saídas fornecidas pelos modelos para uma mesma pergunta.              | Verbo         | Avaliar, analisar, cotejar, contrastar     | UCXX        |
+| L-UCXX-05 | Experiência de uso     | Vivência do usuário ao interagir com a IA, influenciada pela escolha do modelo.                 | Estado        | Satisfação, controle, fluidez              | UCXX         |
+
+<div align="center">
+    Autor: <a href="https://github.com/fabinsz">@Fabio</a>
 </div>
 ---
 
