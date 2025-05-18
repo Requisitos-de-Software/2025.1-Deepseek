@@ -223,10 +223,6 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
-Claro! Aqui está uma **versão expandida do léxico para o UC02** (Exclusão automática de dados de upload), com **7 entradas**, seguindo o padrão anterior:
-
----
-
 ### Léxico para UCXX (Exclusão automática de dados de upload)
 
 | ID       | Noção                    | Impacto                                                                                    | Classificação | Dicionário                      | Rastreamento |
@@ -261,4 +257,4 @@ Claro! Aqui está uma **versão expandida do léxico para o UC02** (Exclusão au
 | 17/05/2025 |  1.4   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [Davi Emanuel@](https://github.com/daviRolvr) |
 | 17/05/2025 |  1.5  | (#LX01) Adição de conteúdo desenvolvido.  | [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 18/05/2025 |  1.6   | (#LX01) Adição de conteúdo desenvolvido.  | [@Ana Borges](https://github.com/anabborges)   | [Davi Emanuel@](https://github.com/daviRolvr) |
-| 18/05/2025 |  1.6   | (#LX) Adição referente ao Léxico para Exclusão automática de dados de upload | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 18/05/2025 |  1.7  | (#LX01) Adição de conteúdo desenvolvido. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Luiz](https://github.com/luizfaria1989) |
