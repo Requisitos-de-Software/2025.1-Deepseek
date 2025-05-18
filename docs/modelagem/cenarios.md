@@ -30,7 +30,55 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 
 ## Ana Clara
 
-## Ana Joyce
+## Cenário XX: Confirmação de exclusão de todos os chats no DeepSeek  
+Autor: [Ana Joyce](https://github.com/anajoyceamorim)  
+
+**Atores:** Lívia, 22 anos, estudante de Design Digital, utiliza o DeepSeek diariamente para registrar ideias criativas, rascunhar campanhas visuais e fazer brainstorms com colegas de classe. Costuma testar diferentes abordagens com a IA e mantém diversos chats arquivados por tema e disciplina. Tem alta familiaridade com ferramentas digitais, mas é cuidadosa com perdas de conteúdo.  
+
+**Ambiente (Contexto):** Lívia está em casa, usando seu tablet com teclado acoplado, organizando seus arquivos e chats do semestre antes de iniciar um novo projeto interdisciplinar. Deseja limpar o histórico de chats antigos, mas está preocupada em apagar algo importante acidentalmente.  
+
+**Objetivos:**  
+* Organizar o DeepSeek para iniciar um novo ciclo de projetos com uma área limpa.  
+* Evitar a exclusão acidental de conteúdos importantes ao apagar múltiplos chats.  
+* Garantir que o sistema ofereça uma confirmação clara e explícita antes de excluir tudo.  
+
+**Planejamento:** Lívia decide apagar todos os seus chats antigos para reorganizar sua área de trabalho no DeepSeek. Antes de realizar a ação, ela espera que o sistema solicite uma confirmação visual e textual para assegurar que entende o impacto dessa decisão.  
+
+**Ações:**
+
+1. Acessa o DeepSeek e abre o painel lateral de histórico de chats.  
+
+2. Seleciona a opção "Excluir todos os chats" no menu de configurações.  
+
+3. Uma janela modal aparece com a mensagem: "Tem certeza de que deseja excluir todos os chats? Esta ação é irreversível."  
+
+4. O sistema exige que ela digite "CONFIRMAR" no campo de texto para prosseguir com a exclusão.  
+
+5. Após digitar corretamente, ela clica em "Excluir definitivamente".  
+
+6. O DeepSeek remove todos os chats e exibe uma notificação discreta: “Todos os chats foram excluídos com sucesso.”  
+
+**Eventos:**  
+
+* O sistema detecta a ação crítica e interrompe com uma janela de confirmação obrigatória.  
+
+* A interface escurece, destacando a importância da decisão.  
+
+* O campo de texto para confirmação é obrigatório e sensível à grafia correta ("CONFIRMAR" em caixa alta).  
+
+* O botão de exclusão só é ativado após o preenchimento correto.  
+
+* A exclusão é executada somente após dupla confirmação e feedback visual claro.  
+
+**Avaliação:**  
+
+* Lívia considera a funcionalidade bem projetada, já que impediu um possível erro ao exigir confirmação explícita.  
+
+* Valoriza o cuidado da interface em reforçar a gravidade da ação com destaque visual e textual.  
+
+* Sente-se mais segura em utilizar funções avançadas do DeepSeek por confiar na proteção contra perdas acidentais.  
+
+* Recomenda a funcionalidade a colegas que também gostam de manter o ambiente de trabalho digital limpo e organizado.  
 
 ## Cenário XX: Utilização do DeepSeek com plataformas externas integradas
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
@@ -475,3 +523,4 @@ Interação Humano-Computador e Experiência do usuário.
 | 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Davi Emanuel](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 16/05/2025 |  1.6   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
 | 17/05/2025 |  1.7   | (#CO2) Incrementa parte da documentação sobre cenários.| [@fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
+| 17/05/2025 |  1.8   | (#CO4) Incrementa parte da documentação sobre cenários.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@revisor](https://github.com/) |
