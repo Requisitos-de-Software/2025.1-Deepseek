@@ -9,6 +9,21 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 ## Casos de Uso Modelados:
 
 ## Ana Joyce
+## [#UCXX] -  Exclusão automática de dados de upload
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| #UCXX | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | O sistema deve excluir automaticamente os dados enviados via upload após determinado período ou após o uso concluído, garantindo segurança e privacidade. |
+| Ator              | Sistema                                                                      |
+| Pré-condições     | O usuário realizou um upload de arquivo (documento, imagem, PDF, etc.) para uso temporário no DeepSeek.    |
+| Ação              | O sistema verifica uploads armazenados e realiza exclusão automática conforme a política de retenção definida.   |
+| Fluxo principal   | 	<ul><li>O usuário realiza o upload de um arquivo temporário</br><ul><li>O sistema processa o conteúdo e o utiliza conforme a solicitação do usuário</br><li>Após finalização da tarefa, inicia-se a contagem de tempo para retenção temporária</br><li>O sistema verifica periodicamente os arquivos expirados</br><li>Arquivos vencidos são excluídos automaticamente</br><li>Um log interno é registrado para fins de auditoria</li></ul></li></ul> |
+| Fluxo alternativo | <ul><li>O usuário encerra a sessão sem usar o conteúdo do upload</br><ul><li>O sistema aplica o mesmo ciclo de exclusão após o tempo padrão</li></ul></li></ul> |
+| Fluxo de exceção  | <ul><li>Erro no mecanismo de exclusão automática</br><ul><li>O sistema registra a falha e envia alerta para manutenção interna</li></ul></li></ul> |
+| Pós-condições     | Arquivos temporários são removidos automaticamente; nenhum dado de upload permanece após o período estabelecido.  |
+| Data de Criação   | 18/05/2025        |
+| Rastreabilidade   | #RN04 — Exclusão automática de dados de upload #RIN11 — Requisito relacionado à segurança de dados   |
 
 ## Davi
 ## [#UCXX] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
@@ -227,4 +242,8 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 16/05/2025 |  1.2  | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
 |16/05/2025 |  1.3  | (#UCO2) Adição de conteúdo desenvolvido.|  [@Davi Emanuel](https://github.com/daviRolvr)| [@luiz](https://github.com/luizfaria1989) |
 |17/05/2025 |  1.4 | (#UCO2) Adição de conteúdo desenvolvido.|  [@Fabio](https://github.com/fabinsz)| [@Luiz](https://github.com/luizfaria1989) |
+<<<<<<< HEAD
+|18/05/2025 |  1.5 | (#UCO3) Adição de caso de uso Exclusão automática de dados de upload|  [@Ana Joyce](https://github.com/anajoyceamorim)| [@revisor](https://github.com/) |
+=======
 | 18/05/2025 |  1.5  | (#UCO2) Adição de conteúdo desenvolvido.| [@Ana Borges](https://github.com/anabborges)   | [@](https://github.com) |
+>>>>>>> 890e02cc1aee195256f163d033a59017a2c1b140
