@@ -23,9 +23,9 @@ A adoção da abordagem **FURPS+** (Functionality, Usability, Reliability, Perfo
 | #RD03     |Deve oferecer modo escuro e modo claro, com configuração manual e sincronização automática com o sistema operacional.          |#RF27 
 | #RD04     | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico para que não cubra outros elementos e posicione em local adequado.                     |#RF35
 | #RD05     | Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades. / Implementar tutorial interativo (tour guiado) destacando recursos avançados (DeepThink, Reason etc.) no onboarding.           |#RF28
-| #RD05     |Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras. | #N13   
-| #RD06     | Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras.   | #RN14   
-| #RD07     |Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.  | #RN15 
+| #RD06     |Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras. | #N13   
+| #RD07     | Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras.   | #RN14   
+| #RD08     |Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.  | #RN15 
 
 ## (#ES02) Requisitos de Implementação
 <div align="center">
