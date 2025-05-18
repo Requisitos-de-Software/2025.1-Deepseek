@@ -18,6 +18,8 @@ Design se refere às diretrizes e decisões arquitetônicas que orientam a estru
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
 
+<font><p style="text-align: center">**Tabela xx** - Requisitos de Desempenho.</p></font>
+
 | ID       | Descrição                                                                                     | Rastreamento|
 |----------|-----------------------------------------------------------------------------------------------|----------------------|
 | #RN05     | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura)     
@@ -34,6 +36,7 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
+<font><p style="text-align: center">**Tabela xx** - Requisitos de Desempenho.</p></font>
 | ID       | Descrição                                                                                             
 |----------|-------------------------------------------------------------------------------------------------------|
 | #RF24    |Deve fazer o uso da arquitetura DeepSeek-V3.                          
