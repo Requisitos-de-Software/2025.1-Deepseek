@@ -1363,6 +1363,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#finalidade" class="md-nav__link">
     <span class="md-ellipsis">
       Finalidade
@@ -2238,6 +2256,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#finalidade" class="md-nav__link">
     <span class="md-ellipsis">
       Finalidade
@@ -2311,6 +2347,84 @@
 </ul>
 <p>A adoção da abordagem <strong>FURPS+</strong> (Functionality, Usability, Reliability, Performance, Supportability, mais fatores) orienta a identificação e a organização desses requisitos, garantindo cobertura completa dos aspectos funcionais e de qualidade da aplicação.</p>
 <hr />
+<h2 id="design">Design</h2>
+<p><strong>Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a></strong>
+Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.</p>
+<p>Para essa categoria os requisitos identificados estão representados na tabela xx.</p>
+<p><font><p style="text-align: center"><strong>Tabela xx</strong> - Requisitos de Desempenho.</p></font></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+<th>Rastreamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RN05</td>
+<td>A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura)</td>
+<td></td>
+</tr>
+<tr>
+<td>RF18</td>
+<td>O sistema deve exibir respostas formatadas em Markdown em respostas para tabelas ou listas complexas Markdown (títulos, listas, código) com a possibilidade de edição do Markdown pelo usuário.</td>
+<td></td>
+</tr>
+<tr>
+<td>RF27</td>
+<td>Deve oferecer modo escuro e modo claro, com configuração manual e sincronização automática com o sistema operacional.</td>
+<td></td>
+</tr>
+<tr>
+<td>RF35</td>
+<td>Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico para que não cubra outros elementos e posicione em local adequado.</td>
+<td></td>
+</tr>
+<tr>
+<td>RF28</td>
+<td>Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades. / Implementar tutorial interativo (tour guiado) destacando recursos avançados (DeepThink, Reason etc.) no onboarding.</td>
+<td></td>
+</tr>
+<tr>
+<td>RN13</td>
+<td>Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras.</td>
+<td></td>
+</tr>
+<tr>
+<td>RN14</td>
+<td>Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras.</td>
+<td></td>
+</tr>
+<tr>
+<td>RN15</td>
+<td>Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="implementacao">Implementação</h2>
+<p><strong>Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a></strong>
+Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.</p>
+<p>Para essa categoria os requisitos identificados estão representados na tabela xx.
+<font><p style="text-align: center"><strong>Tabela xx</strong> - Requisitos de Desempenho.</p></font>
+| ID       | Descrição                                                                                           <br />
+|----------|-------------------------------------------------------------------------------------------------------|
+| RF24    |Deve fazer o uso da arquitetura DeepSeek-V3.|                        <br />
+| RF20     | Deve possuir uma API Pública.              | <br />
+| RF21    | Deve aceitar autenticação via token de acesso.   |                <br />
+| RF24    | Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256).  | <br />
+| RN07     | O sistema deve suportar múltiplas requisições simultâneas sem degradação        |     <br />
+| RN08   | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos e o tempo médio de resposta deve ser &lt;= 2 s em operações simples |                      <br />
+| RF32   |  Permitir escolha de modelos (seleção de diferentes versões/modelos de IA).   |           <br />
+| RF03     | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta &lt; 35s |                        <br />
+| RF34   |  Implementar comandos de voz para entrada e saída de informações.    |
+| UCXX    | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.     |       <br />
+| RN12      | Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas.|
+| RF38    | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização).  |           <br />
+| RN06    |  Em caso de falha, deve retornar mensagens de erro claras  |
+| RN04   |Deve possuir a opção de login com conta Google/Apple ID.    |         <br />
+| RF17     |Deve ser possível regenar uma resposta da IA de forma manual ou de forma automática no caso de erro de servidor ou sobrecargado sistema.|</p>
 <h2 id="finalidade">Finalidade</h2>
 <p>A finalidade deste artefato é definir, de forma clara e estruturada, requisitos suplementares do <strong>DeepSeek</strong>, assegurando que atributos de qualidade, restrições de projeto e regras de negócio estejam documentados para orientar o desenvolvimento e a validação do sistema.</p>
 <hr />
@@ -2455,6 +2569,13 @@
 <td style="text-align: left;">(#ES02) Adição de conteúdo desenvolvido.</td>
 <td style="text-align: center;"><a href="https://github.com/fabinsz">@Fabio</a></td>
 <td style="text-align: center;"><a href="https://github.com/luizfaria1989">@Luiz</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">17/05/2025</td>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">(#ES02) Adição de conteúdo desenvolvido.</td>
+<td style="text-align: center;"><a href="https://github.com/daviRolvr">@Davi Emanuel</a></td>
+<td style="text-align: center;"><a href="https://github.com/anajoyceamorim">@Ana Joyce</a></td>
 </tr>
 </tbody>
 </table>
