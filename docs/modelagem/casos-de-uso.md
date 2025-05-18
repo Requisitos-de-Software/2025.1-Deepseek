@@ -65,7 +65,7 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 
 ## [UCXX] - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.
 
-**Autor:** [Fabio](https://github.com/seuusuario)
+**Autor:** [Fabio](https://github.com/fabinsz)
 
 | #UCXX              | Informações                                                                                                                                                     |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
