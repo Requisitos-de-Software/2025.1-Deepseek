@@ -47,6 +47,42 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
                                                                                       
 ## Fabio
 
+## [UCXX] - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek
+**Autor:** [Fabio](https://github.com/fabinsz)
+
+| #UCXX | Informações                                                                                                                                      |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Descrição**         | Permite que o usuário selecione diferentes versões de modelos de IA (ex: R1, R2, R3) no DeepSeek, personalizando o estilo e a profundidade das respostas. |
+| **Ator**              | Júlia                                                                                                                           |
+| **Pré-condições**     | Estar com o DeepSeek aberto e com conexão à internet.                                                                            |
+| **Ação**              | Júlia decide escolher o modelo que melhor se adequa à sua necessidade de resposta antes de enviar uma pergunta à IA.            |
+| **Fluxo principal**   | <ul><li>Júlia abre o DeepSeek</br><ul><li>Seleciona “Modelos de IA” no canto superior direito</br><ul><li>Visualiza as opções R1, R2 e R3 com descrições</br><ul><li>Escolhe o modelo R2 por preferir respostas mais diretas</br><ul><li>Digita sua pergunta no campo de chat</br><ul><li>Clica na seta para enviar</br><ul><li>Lê a resposta gerada pelo modelo R2</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul> |
+| **Fluxo alternativo** | <ul><li>Júlia está insatisfeita com a resposta gerada pelo modelo atual</br><ul><li>Retorna à seleção de modelos</br><ul><li>Escolhe o modelo R1 para uma explicação mais aprofundada</br><ul><li>Reenvia a mesma pergunta</br><ul><li>Lê a nova resposta mais detalhada</li></ul></li></ul></li></ul></li></ul> |
+| **Fluxo de exceção**  | <ul><li>Ao tentar trocar o modelo, a conexão com o servidor falha</br><ul><li>DeepSeek exibe a mensagem: “Erro ao carregar modelos. Verifique sua conexão.”</br><ul><li>Usuária tenta novamente após restabelecer a internet</li></ul></li></ul></li></ul> |
+| **Pós-condições**     | Júlia recebe uma resposta ajustada ao modelo escolhido, com o estilo e profundidade desejados.                                  |
+| **Data de Criação**   | 17/05/2025                                                                                                                       |
+| **Rastreabilidade**   | #RF32   
+
+## [UCXX] - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.
+
+**Autor:** [Fabio](https://github.com/fabinsz)
+
+| #UCXX              | Informações                                                                                                                                                     |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descrição**       | Permite que o usuário acesse as configurações do DeepSeek para alterar o tema visual da interface, escolhendo entre tema claro ou escuro, de acordo com suas preferências. |
+| **Ator**            | Lucas                                                                                                                                                            |
+| **Pré-condições**   | Estar logado no DeepSeek com conexão ativa à internet. Interface carregada.                                                                                      |
+| **Ação**            | Lucas deseja mudar o tema do sistema para modo escuro, pois está em um ambiente com pouca luz.                                                                  |
+| **Fluxo principal** | <ul><li>Lucas abre o DeepSeek</br><ul><li>Clica no ícone de menu ou perfil</br><ul><li>Seleciona “Configurações”</br><ul><li>Clica em “Tema do Sistema”</br><ul><li>Escolhe “Modo Escuro”</br><ul><li>Confirma a alteração</br><ul><li>A interface do sistema muda imediatamente</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul> |
+| **Fluxo alternativo** | <ul><li>Lucas acessa o DeepSeek</br><ul><li>Vai até “Configurações”</br><ul><li>Percebe que o modo escuro já está ativado</br><ul><li>Decide não realizar alterações</li></ul></li></ul></li></ul> |
+| **Fluxo de exceção** | <ul><li>Lucas tenta acessar “Configurações”</br><ul><li>A página demora para carregar ou apresenta erro</br><ul><li>DeepSeek exibe mensagem: “Erro ao carregar configurações”</br><ul><li>Lucas recarrega a página e tenta novamente</li></ul></li></ul></li></ul></li></ul> |
+| **Pós-condições**   | O sistema permanece com o tema selecionado até nova alteração. A preferência visual do usuário foi respeitada.                                                   |
+| **Data de Criação** | 17/05/2025                                                                                                                                                       |
+| **Rastreabilidade** | #RF27                                                                                                                |
+
+ 
+
+
 ## [#UC01] - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
@@ -160,3 +196,4 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 11/05/2025 |  1.1   | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 16/05/2025 |  1.2  | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
 |16/05/2025 |  1.3  | (#UCO2) Adição de conteúdo desenvolvido.|  [@Davi Emanuel](https://github.com/daviRolvr)| [@luiz](https://github.com/luizfaria1989) |
+|17/05/2025 |  1.4 | (#UCO2) Adição de conteúdo desenvolvido.|  [@Fabio](https://github.com/fabinsz)| [@Luiz](https://github.com/luizfaria1989) |
