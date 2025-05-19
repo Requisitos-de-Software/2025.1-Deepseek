@@ -1,5 +1,3 @@
-## Casos de Uso
-
 ## Introdução
 Os diagramas de caso de uso são uma ferramenta fundamental da linguagem de modelagem unificada (UML) que permitem representar graficamente as funcionalidades esperadas de um sistema do ponto de vista de seus usuários. Essa técnica é amplamente utilizada na engenharia de requisitos para descrever as interações entre os atores (usuários ou sistemas externos) e os serviços oferecidos pela aplicação. No contexto do projeto DeepSeek, a modelagem dos casos de uso contribui para a compreensão do comportamento do sistema sob diferentes perspectivas de interação, facilitando a comunicação entre stakeholders técnicos e não técnicos, e servindo como base para futuras etapas de projeto, desenvolvimento e testes.
 
@@ -16,7 +14,6 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 
 ## Casos de Uso Modelados:
 
-## Ana Joyce
 ## [UC01] -  Exclusão automática de dados de upload
 **Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
 
@@ -33,7 +30,6 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Data de Criação   | 18/05/2025        |
 | Rastreabilidade   | #RN04 — Exclusão automática de dados de upload #RIN11 — Requisito relacionado à segurança de dados   |
 
-## Davi
 ## [UC02] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
 **Autor:** [Davi Emanuel](https://github.com/daviRolvr)
 
@@ -65,8 +61,6 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Pós-condições     | O usuário recebe a resposta para sua pergunta em texto.                    |
 | Data de Criação   | 17/05/2025                                                                                                     |
 | Rastreabilidade   | #RF14     |
-                                                                                      
-## Fabio
 
 ## [UC04] - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek
 **Autor:** [Fabio](https://github.com/fabinsz)
@@ -101,9 +95,6 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | **Data de Criação** | 17/05/2025                                                                                                                                                       |
 | **Rastreabilidade** | #RF27                                                                                                                |
 
- 
-
-
 ## [UC06] - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
@@ -120,8 +111,6 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Data de Criação   | 10/05/2025                                                                                                     |
 | Rastreabilidade   | #RF03, #RN06, #RN08                                                                                            |
 
-
----
 ## [UC07] - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
@@ -138,8 +127,6 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Data de Criação   | 10/05/2025                                                                                                     |
 | Rastreabilidade   | #RF01, #RF13                                                                                                   |
 
-
----
 ## [UC08] - Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 

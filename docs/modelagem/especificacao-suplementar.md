@@ -18,7 +18,7 @@ A adoção da abordagem **FURPS+** (Functionality, Usability, Reliability, Perfo
 
 Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.
 
-Para essa categoria os requisitos identificados estão representados na tabela xx.
+Para essa categoria os requisitos identificados estão representados na tabela 1.
 
 <font><p style="text-align: center">**Tabela 1** - Requisitos de Desempenho.</p></font>
 
@@ -39,7 +39,7 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 
 Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.
 
-Para essa categoria os requisitos identificados estão representados na tabela xx.
+Para essa categoria os requisitos identificados estão representados na tabela 2.
 
 <font><p style="text-align: center">**Tabela 2** - Requisitos de Desempenho.</p></font>
 
@@ -54,7 +54,7 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 | RF32   | 	Permitir escolha de modelos (seleção de diferentes versões/modelos de IA).   |             
 | RF03     | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s |                          
 | RF34   | 	Implementar comandos de voz para entrada e saída de informações.    |
-| UCXX    | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.     |         
+| UC02    | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.     |         
 | RN12      | Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas.|
 | RF38    | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização).  |             
 | RN06    |  Em caso de falha, deve retornar mensagens de erro claras  |
@@ -389,7 +389,7 @@ Nessa seção são citados os requisitos referentes à confiabilidade do sistema
 
 O desempenho se refere as condições em que os requisitos devem operar. Apresentando os limites superiores e inferiores de velocidade do sistema, as restrições de interface e o tempo de resposta.
 
-Para essa categoria os requisitos identificados estão representados na tabela xx.
+Para essa categoria os requisitos identificados estão representados na tabela 6.
 
 <font><p style="text-align: center">**Tabela 6** - Requisitos de Desempenho.</p></font>
 
@@ -407,7 +407,7 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 
 A suportabilidade envolve os requisitos relacionados ao suporte e manutenção do sistema. Incluindo requisitos relacionados à facilidade de manutenção, capacidade de ser modificado e atualizado futuramente, documentação adequada além da facilidade de teste e detecção de problemas no software.
 
-Para essa categoria os requisitos identificados estão representados na tabela xx.
+Para essa categoria os requisitos identificados estão representados na tabela 7.
 
 <font><p style="text-align: center">**Tabela 7** - Requisitos de Suportabilidade.</p></font>
 
@@ -425,7 +425,7 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 
 A ajuda e documentação de usuário on-line são componentes cruciais para garantir uma boa experiência e autonomia ao utilizar um sistema. Elas fornecem orientações claras, suporte durante falhas e explicações sobre o funcionamento e o uso de dados, promovendo transparência e confiança por parte do usuário.
 
-Para essa categoria os requisitos identificados estão representados na tabela xx.
+Para essa categoria os requisitos identificados estão representados na tabela 8.
 
 <font><p style="text-align: center">**Tabela 8** - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line.</p></font>
 

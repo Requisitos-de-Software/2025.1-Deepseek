@@ -28,8 +28,6 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 
 ## Cenários Modelados:
 
-## Ana Clara
-
 ## Cenário 01: Confirmação de exclusão de todos os chats no DeepSeek  
 Autor: [Ana Joyce](https://github.com/anajoyceamorim)  
 
@@ -137,7 +135,6 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 * Decide manter as integrações ativas para utilizar o DeepSeek como centro de produtividade no seu dia a dia profissional.
 
----
 ## Cenário 03: Pesquisa utilizando integração por voz no DeepSeek
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
@@ -189,10 +186,6 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 * Decide usar a funcionalidade com frequência, principalmente em momentos em que não pode digitar.
 
-
-
-## Fabio
-
 ## Cenário 04: Acessar configurações para alterar o tema do Sistema
 **Autor**:  [Fabio](https://github.com/fabinsz)
 
@@ -227,8 +220,6 @@ Por ser um usuário experiente, Lucas assume que a opção de personalização v
 
 * Lucas se sente mais confortável visualmente e satisfeito com a personalização oferecida.
 * Considera a experiência rápida e intuitiva, algo essencial para não interromper seu fluxo de trabalho.
-
----
 
 ## Cenário 05: Personalização da experiência via seleção de modelos de IA
 
@@ -286,10 +277,6 @@ Por ser um usuário experiente, Lucas assume que a opção de personalização v
 
 * Reforça a intenção de continuar utilizando o DeepSeek como ferramenta de apoio no seu TCC.
 
----
-
-## Gabriela
-
 ## Cenário 06: Upload de Documento (#UC01)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
@@ -322,8 +309,6 @@ Júlia decide usar o fluxo de upload do DeepSeek em vez de ferramentas manuais, 
 
 * Júlia percorre o texto extraído, conferindo símbolos e formatação; para cada inconsistência.
 * Compara mentalmente o conteúdo gerado com o PDF original, e valida se todos os insights obtidos durante a conversa foram consistentes.
-
----
 
 ## Cenário 07: Consulta Atualizada via Search na Web (#UC02)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
@@ -396,8 +381,6 @@ Decide iterar usando “Dislike + Regenerate” até que o resultado atenda ao e
 **Avaliação:**
 Mariana compara mentalmente cada iteração com seu padrão de clareza; quando atingir fluxo e precisão, encerra as regenerações.
 
----
-
 ## Cenário 09: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
@@ -427,11 +410,8 @@ Decide utilizar o DeepSeek com a função de **Pensamento Profundo** para tentar
 * No chat aparecem o raciocínio da IA linha por linha.
 * Aparece a opção de ocultar os "pensamentos" da IA para exibir apenas a resposta final.
 
-
 **Avaliação:**
 Gauss compara a resolução do exercício com as suas de seu caderno para garantir que o modelo do DeepSeek utilizou os mesmos conceitos aprendidos em cálculo 1.
-
----
 
 ## Cenário 10: Opção de Interromper Resposta em Andamento
 **Autor:** [Luiz](https://github.com/luizfaria1989)
@@ -468,8 +448,6 @@ João decide utilizar o app DeepSeek para pedir explicações de como pode utili
 **Avaliação:**
 João percebe que a mensagem interrompida estava explicando sobre outra tecnologia, assim, o seu cancelamento foi útil, pois poupou tempo que gastaria lendo um texto que não se aplicava para seu projeto.
 
----
-
 ## Cenário 11: Visualização em Tempo Real do Status do Servidor
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
@@ -478,7 +456,6 @@ Clarice, estudante de engenharia da computação do sétimo semestre, está esta
 
 **Ambiente (Contexto):**
 Clarice está no escritório de sua empresa em frente o computador, está cercada de notas de aula sobre normalização de bancos de dados. Ela percebe ao analisar o modelo relacional, que uma das tabelas parece estar ferindo a terceira forma normal. Então decide tirar dúvidas com o DeepSeek para se assegurar que a tabela está realmente incorreta.
-
 
 **Objetivos:**
 
@@ -579,7 +556,6 @@ Henrique opta por usar a função de “Limpar Histórico” oferecida pela plat
 - Henrique valida que todas as conversas antigas foram de fato apagadas.  
 - Henrique considera o fluxo claro e a confirmação foi essencial para evitar exclusões acidentais.
 
----
 ## Cenário 14: Resumo de Vídeos do YouTube
 **Autor:** [Mateus](https://github.com/MVConsorte)  
 
