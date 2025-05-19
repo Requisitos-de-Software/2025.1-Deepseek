@@ -2443,10 +2443,10 @@
 <p>A adoção da abordagem <strong>FURPS+</strong> (Functionality, Usability, Reliability, Performance, Supportability, mais fatores) orienta a identificação e a organização desses requisitos, garantindo cobertura completa dos aspectos funcionais e de qualidade da aplicação.</p>
 <hr />
 <h2 id="design">Design</h2>
-<p><strong>Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a></strong>
-Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.</p>
-<p>Para essa categoria os requisitos identificados estão representados na tabela xx.</p>
-<p><font><p style="text-align: center"><strong>Tabela xx</strong> - Requisitos de Desempenho.</p></font></p>
+<p><strong>Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a></strong></p>
+<p>Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.</p>
+<p>Para essa categoria os requisitos identificados estão representados na tabela 1.</p>
+<p><font><p style="text-align: center"><strong>Tabela 1</strong> - Requisitos de Desempenho.</p></font></p>
 <table>
 <thead>
 <tr>
@@ -2499,27 +2499,80 @@ Design se refere às diretrizes e decisões arquitetônicas que orientam a estru
 </tbody>
 </table>
 <h2 id="implementacao">Implementação</h2>
-<p><strong>Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a></strong>
-Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.</p>
-<p>Para essa categoria os requisitos identificados estão representados na tabela xx.
-<font><p style="text-align: center"><strong>Tabela xx</strong> - Requisitos de Desempenho.</p></font>
-| ID       | Descrição                                                                                           <br />
-|----------|-------------------------------------------------------------------------------------------------------|
-| RF24    |Deve fazer o uso da arquitetura DeepSeek-V3.|                        <br />
-| RF20     | Deve possuir uma API Pública.              | <br />
-| RF21    | Deve aceitar autenticação via token de acesso.   |                <br />
-| RF24    | Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256).  | <br />
-| RN07     | O sistema deve suportar múltiplas requisições simultâneas sem degradação        |     <br />
-| RN08   | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos e o tempo médio de resposta deve ser &lt;= 2 s em operações simples |                      <br />
-| RF32   |  Permitir escolha de modelos (seleção de diferentes versões/modelos de IA).   |           <br />
-| RF03     | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta &lt; 35s |                        <br />
-| RF34   |  Implementar comandos de voz para entrada e saída de informações.    |
-| UCXX    | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.     |       <br />
-| RN12      | Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas.|
-| RF38    | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização).  |           <br />
-| RN06    |  Em caso de falha, deve retornar mensagens de erro claras  |
-| RN04   |Deve possuir a opção de login com conta Google/Apple ID.    |         <br />
-| RF17     |Deve ser possível regenar uma resposta da IA de forma manual ou de forma automática no caso de erro de servidor ou sobrecargado sistema.|</p>
+<p><strong>Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a></strong></p>
+<p>Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.</p>
+<p>Para essa categoria os requisitos identificados estão representados na tabela 2.</p>
+<p><font><p style="text-align: center"><strong>Tabela 2</strong> - Requisitos de Desempenho.</p></font></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF24</td>
+<td>Deve fazer o uso da arquitetura DeepSeek-V3.</td>
+</tr>
+<tr>
+<td>RF20</td>
+<td>Deve possuir uma API Pública.</td>
+</tr>
+<tr>
+<td>RF21</td>
+<td>Deve aceitar autenticação via token de acesso.</td>
+</tr>
+<tr>
+<td>RF24</td>
+<td>Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256).</td>
+</tr>
+<tr>
+<td>RN07</td>
+<td>O sistema deve suportar múltiplas requisições simultâneas sem degradação</td>
+</tr>
+<tr>
+<td>RN08</td>
+<td>O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos e o tempo médio de resposta deve ser &lt;= 2 s em operações simples</td>
+</tr>
+<tr>
+<td>RF32</td>
+<td>Permitir escolha de modelos (seleção de diferentes versões/modelos de IA).</td>
+</tr>
+<tr>
+<td>RF03</td>
+<td>O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta &lt; 35s</td>
+</tr>
+<tr>
+<td>RF34</td>
+<td>Implementar comandos de voz para entrada e saída de informações.</td>
+</tr>
+<tr>
+<td>UC02</td>
+<td>Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.</td>
+</tr>
+<tr>
+<td>RN12</td>
+<td>Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas.</td>
+</tr>
+<tr>
+<td>RF38</td>
+<td>Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização).</td>
+</tr>
+<tr>
+<td>RN06</td>
+<td>Em caso de falha, deve retornar mensagens de erro claras</td>
+</tr>
+<tr>
+<td>RN04</td>
+<td>Deve possuir a opção de login com conta Google/Apple ID.</td>
+</tr>
+<tr>
+<td>RF17</td>
+<td>Deve ser possível regenar uma resposta da IA de forma manual ou de forma automática no caso de erro de servidor ou sobrecargado sistema.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="finalidade">Finalidade</h2>
 <p>A finalidade deste artefato é definir, de forma clara e estruturada, requisitos suplementares do <strong>DeepSeek</strong>, assegurando que atributos de qualidade, restrições de projeto e regras de negócio estejam documentados para orientar o desenvolvimento e a validação do sistema.</p>
 <hr />
@@ -2548,9 +2601,7 @@ Implementação se refere às restrições técnicas relacionadas à codificaç�
 <p>Os <strong>requisitos funcionais</strong> do sistema <strong>DeepSeek</strong> foram identificados por meio de técnicas de elicitação apresentadas anteriormente neste documento. A Tabela a seguir,consolida todos os requisitos funcionais levantados.</p>
 <p>Esses requisitos descrevem as funcionalidades que o sistema deverá oferecer, incluindo interações com o usuário, regras de negócio e comportamento esperado diante de diferentes cenários.</p>
 <p>A especificação complementar detalha os aspectos de qualidade, técnicos e restrições que <strong>complementam esses requisitos funcionais</strong>, assegurando a completude da documentação de requisitos do sistema.</p>
-<details>
-  <summary><strong>Tabela de Requisitos Funcionais</strong></summary>
-  <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; margin-top: 10px;">
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; margin-top: 10px;">
     <thead>
       <tr>
         <th>ID</th>
@@ -2751,10 +2802,9 @@ Implementação se refere às restrições técnicas relacionadas à codificaç�
       </tr>
     </tbody>
   </table>
-</details>
 
 <div align="center">
-    Tabela 1. Tabela com requisitos funcionais.
+    Tabela 3. Tabela com requisitos funcionais.
 </div>
 <div align="center">
     Autor: <a href="https://github.com/anajoyceamorim">@Ana Joyce</a>
@@ -2764,7 +2814,7 @@ Implementação se refere às restrições técnicas relacionadas à codificaç�
 <h2 id="usabilidade">Usabilidade</h2>
 <p>Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, ou seja, que se referem a forma de o usuário interagir com o sistema.</p>
 <p><strong>Autor: <a href="https://github.com/anabborges">Ana Clara</a></strong></p>
-<p><font><p style="text-align: center"><strong>Tabela xx</strong> - Requisitos de Usabilidade.</p></font></p>
+<p><font><p style="text-align: center"><strong>Tabela 4</strong> - Requisitos de Usabilidade.</p></font></p>
 <table>
 <thead>
 <tr>
@@ -2890,7 +2940,7 @@ Implementação se refere às restrições técnicas relacionadas à codificaç�
 <h2 id="confiabilidade">Confiabilidade</h2>
 <p>Nessa seção são citados os requisitos referentes à confiabilidade do sistema.</p>
 <p><strong>Autor: <a href="https://github.com/anabborges">Ana Clara</a></strong></p>
-<p><font><p style="text-align: center"><strong>Tabela xx</strong> - Requisitos de Confiabilidade.</p></font></p>
+<p><font><p style="text-align: center"><strong>Tabela 5</strong> - Requisitos de Confiabilidade.</p></font></p>
 <table>
 <thead>
 <tr>
@@ -2991,8 +3041,8 @@ Implementação se refere às restrições técnicas relacionadas à codificaç�
 <h2 id="desempenho">Desempenho</h2>
 <p><strong>Autor: <a href="https://github.com/luizfaria1989">Luiz</a></strong></p>
 <p>O desempenho se refere as condições em que os requisitos devem operar. Apresentando os limites superiores e inferiores de velocidade do sistema, as restrições de interface e o tempo de resposta.</p>
-<p>Para essa categoria os requisitos identificados estão representados na tabela xx.</p>
-<p><font><p style="text-align: center"><strong>Tabela xx</strong> - Requisitos de Desempenho.</p></font></p>
+<p>Para essa categoria os requisitos identificados estão representados na tabela 6.</p>
+<p><font><p style="text-align: center"><strong>Tabela 6</strong> - Requisitos de Desempenho.</p></font></p>
 <table>
 <thead>
 <tr>
@@ -3027,8 +3077,8 @@ Implementação se refere às restrições técnicas relacionadas à codificaç�
 <h2 id="suportabilidade">Suportabilidade</h2>
 <p><strong>Autor: <a href="https://github.com/luizfaria1989">Luiz</a></strong></p>
 <p>A suportabilidade envolve os requisitos relacionados ao suporte e manutenção do sistema. Incluindo requisitos relacionados à facilidade de manutenção, capacidade de ser modificado e atualizado futuramente, documentação adequada além da facilidade de teste e detecção de problemas no software.</p>
-<p>Para essa categoria os requisitos identificados estão representados na tabela xx.</p>
-<p><font><p style="text-align: center"><strong>Tabela xx</strong> - Requisitos de Suportabilidade.</p></font></p>
+<p>Para essa categoria os requisitos identificados estão representados na tabela 7.</p>
+<p><font><p style="text-align: center"><strong>Tabela 7</strong> - Requisitos de Suportabilidade.</p></font></p>
 <table>
 <thead>
 <tr>
@@ -3068,8 +3118,8 @@ Implementação se refere às restrições técnicas relacionadas à codificaç�
 <h2 id="requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line">Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line</h2>
 <p><strong>Autor: <a href="https://github.com/fabinsz">Fabio</a></strong></p>
 <p>A ajuda e documentação de usuário on-line são componentes cruciais para garantir uma boa experiência e autonomia ao utilizar um sistema. Elas fornecem orientações claras, suporte durante falhas e explicações sobre o funcionamento e o uso de dados, promovendo transparência e confiança por parte do usuário.</p>
-<p>Para essa categoria os requisitos identificados estão representados na tabela xx.</p>
-<p><font><p style="text-align: center"><strong>Tabela xx</strong> - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line.</p></font></p>
+<p>Para essa categoria os requisitos identificados estão representados na tabela 8.</p>
+<p><font><p style="text-align: center"><strong>Tabela 8</strong> - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line.</p></font></p>
 <table>
 <thead>
 <tr>
@@ -3166,6 +3216,13 @@ Implementação se refere às restrições técnicas relacionadas à codificaç�
 <td style="text-align: left;">(#ES02) Adição de metodologia e funcionalidade.</td>
 <td style="text-align: center;"><a href="https://github.com/anajoyceamorim">@Ana Joyce</a></td>
 <td style="text-align: center;"><a href="https://github.com/gaubiela">@Gabriela</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">18/05/2025</td>
+<td style="text-align: center;">1.7</td>
+<td style="text-align: left;">(#ES02)Correção na formatação e revisão do documento.</td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte">@Mateus</a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989">@Luiz</a>, <a href="https://github.com/gaubiela">@Gabriela</a></td>
 </tr>
 </tbody>
 </table>
