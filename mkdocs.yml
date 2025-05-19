@@ -84,6 +84,8 @@ nav:
     - Segunda Entrega: 
       - Grupo 2: 'inspecao/entrega2/inspecao-grupo.md'
       - Grupo 3: 'inspecao/entrega2/inspecao-grupo3.md'
+    - Terceira Entrega:
+      - Grupo 2: 'inspecao/entrega3/inspecao-grupo2.md' 
 
   - Projeto Obsoleto:
       - Início: 'doc-guardioes-da-saude/index.md'
