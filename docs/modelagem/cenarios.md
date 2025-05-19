@@ -28,9 +28,7 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 
 ## Cenários Modelados:
 
-## Ana Clara
-
-## Cenário XX: Confirmação de exclusão de todos os chats no DeepSeek  
+## Cenário 01: Confirmação de exclusão de todos os chats no DeepSeek  
 Autor: [Ana Joyce](https://github.com/anajoyceamorim)  
 
 **Atores:** Lívia, 22 anos, estudante de Design Digital, utiliza o DeepSeek diariamente para registrar ideias criativas, rascunhar campanhas visuais e fazer brainstorms com colegas de classe. Costuma testar diferentes abordagens com a IA e mantém diversos chats arquivados por tema e disciplina. Tem alta familiaridade com ferramentas digitais, mas é cuidadosa com perdas de conteúdo.  
@@ -80,7 +78,7 @@ Autor: [Ana Joyce](https://github.com/anajoyceamorim)
 
 * Recomenda a funcionalidade a colegas que também gostam de manter o ambiente de trabalho digital limpo e organizado.  
 
-## Cenário XX: Utilização do DeepSeek com plataformas externas integradas
+## Cenário 02: Utilização do DeepSeek com plataformas externas integradas
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 **Atores:**: Gabriel, 24 anos, recém-formado em Engenharia da Computação, buscando oportunidades na área de Ciência de Dados. É usuário frequente de tecnologias baseadas em IA, com alto nível de familiaridade digital. Usa o DeepSeek diariamente para organizar ideias, revisar códigos, gerar conteúdos e montar portfólios.
@@ -137,8 +135,7 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 * Decide manter as integrações ativas para utilizar o DeepSeek como centro de produtividade no seu dia a dia profissional.
 
----
-## Cenário XX: Pesquisa utilizando integração por voz no DeepSeek
+## Cenário 03: Pesquisa utilizando integração por voz no DeepSeek
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 **Atores:** Camila, 27 anos, mestranda em Psicologia Cognitiva, com bom domínio de tecnologia e rotina intensa de leitura e produção acadêmica. Utiliza o DeepSeek como assistente de pesquisa para agilizar a análise de textos científicos e sínteses bibliográficas.
@@ -189,11 +186,7 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 * Decide usar a funcionalidade com frequência, principalmente em momentos em que não pode digitar.
 
-
-
-## Fabio
-
-## Cenário XX: Acessar configurações para alterar o tema do Sistema
+## Cenário 04: Acessar configurações para alterar o tema do Sistema
 **Autor**:  [Fabio](https://github.com/fabinsz)
 
 **Atores:**
@@ -228,9 +221,7 @@ Por ser um usuário experiente, Lucas assume que a opção de personalização v
 * Lucas se sente mais confortável visualmente e satisfeito com a personalização oferecida.
 * Considera a experiência rápida e intuitiva, algo essencial para não interromper seu fluxo de trabalho.
 
----
-
-## Cenário XX: Personalização da experiência via seleção de modelos de IA
+## Cenário 05: Personalização da experiência via seleção de modelos de IA
 
 **Autor:** [Fabio](https://github.com/fabinsz)
 
@@ -286,11 +277,7 @@ Por ser um usuário experiente, Lucas assume que a opção de personalização v
 
 * Reforça a intenção de continuar utilizando o DeepSeek como ferramenta de apoio no seu TCC.
 
----
-
-## Gabriela
-
-## Cenário XX: Upload de Documento (#UC01)
+## Cenário 06: Upload de Documento (#UC01)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
@@ -323,9 +310,7 @@ Júlia decide usar o fluxo de upload do DeepSeek em vez de ferramentas manuais, 
 * Júlia percorre o texto extraído, conferindo símbolos e formatação; para cada inconsistência.
 * Compara mentalmente o conteúdo gerado com o PDF original, e valida se todos os insights obtidos durante a conversa foram consistentes.
 
----
-
-## Cenário XX: Consulta Atualizada via Search na Web (#UC02)
+## Cenário 07: Consulta Atualizada via Search na Web (#UC02)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
@@ -363,7 +348,7 @@ Pedro pretende usar a aba “Search” do DeepSeek para fazer uma busca na web, 
 
 ---
 
-## Cenário XX: Iteração de Resposta com Opções Disponíveis Para Resposta (like, dislike, regenerate, copy) (#UC03)
+## Cenário 08: Iteração de Resposta com Opções Disponíveis Para Resposta (like, dislike, regenerate, copy) (#UC03)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
@@ -396,9 +381,7 @@ Decide iterar usando “Dislike + Regenerate” até que o resultado atenda ao e
 **Avaliação:**
 Mariana compara mentalmente cada iteração com seu padrão de clareza; quando atingir fluxo e precisão, encerra as regenerações.
 
----
-
-## Cenário XX: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
+## Cenário 09: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
@@ -427,13 +410,10 @@ Decide utilizar o DeepSeek com a função de **Pensamento Profundo** para tentar
 * No chat aparecem o raciocínio da IA linha por linha.
 * Aparece a opção de ocultar os "pensamentos" da IA para exibir apenas a resposta final.
 
-
 **Avaliação:**
 Gauss compara a resolução do exercício com as suas de seu caderno para garantir que o modelo do DeepSeek utilizou os mesmos conceitos aprendidos em cálculo 1.
 
----
-
-## Cenário XX: Opção de Interromper Resposta em Andamento
+## Cenário 10: Opção de Interromper Resposta em Andamento
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
@@ -468,9 +448,7 @@ João decide utilizar o app DeepSeek para pedir explicações de como pode utili
 **Avaliação:**
 João percebe que a mensagem interrompida estava explicando sobre outra tecnologia, assim, o seu cancelamento foi útil, pois poupou tempo que gastaria lendo um texto que não se aplicava para seu projeto.
 
----
-
-## Cenário XX: Visualização em Tempo Real do Status do Servidor
+## Cenário 11: Visualização em Tempo Real do Status do Servidor
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
@@ -478,7 +456,6 @@ Clarice, estudante de engenharia da computação do sétimo semestre, está esta
 
 **Ambiente (Contexto):**
 Clarice está no escritório de sua empresa em frente o computador, está cercada de notas de aula sobre normalização de bancos de dados. Ela percebe ao analisar o modelo relacional, que uma das tabelas parece estar ferindo a terceira forma normal. Então decide tirar dúvidas com o DeepSeek para se assegurar que a tabela está realmente incorreta.
-
 
 **Objetivos:**
 
@@ -504,7 +481,7 @@ Clarice olha mais uma vez as suas notas de aula, procura a definição de tercei
 
 Clarice lê a mensagem dizendo que o servidor está em manutenção, fecha o aplicativo e decide procurar respostas em outra IA.
 
-## Cenário XXI: Utilização do tutorial prático
+## Cenário 12: Utilização do tutorial prático
 **Autor:** [Ana Clara](https://github.com/anabborges)
 
 **Atores:**  
@@ -542,7 +519,7 @@ Joana opta por seguir o tutorial oferecido na tela inicial ao invés de explorar
 - Considera o conteúdo claro e bem dividido em etapas curtas.  
 - Acredita que o tutorial economizou tempo e reduziu a curva de aprendizado.
 
-## Cenário XXII: Limpeza do histórico de conversas
+## Cenário 13: Limpeza do histórico de conversas
 **Autor:** [Ana Clara](https://github.com/anabborges)
 
 **Atores:**  
@@ -579,6 +556,41 @@ Henrique opta por usar a função de “Limpar Histórico” oferecida pela plat
 - Henrique valida que todas as conversas antigas foram de fato apagadas.  
 - Henrique considera o fluxo claro e a confirmação foi essencial para evitar exclusões acidentais.
 
+## Cenário 14: Resumo de Vídeos do YouTube
+**Autor:** [Mateus](https://github.com/MVConsorte)  
+
+**Ator(es):**  
+Toni, 30 anos, profissional de tecnologia, usuário frequente do DeepSeek, interessado em ferramentas de automação para consumo otimizado de conteúdo.  
+
+**Ambiente (Contexto):**  
+Toni está no escritório, utilizando seu **smartphone com o aplicativo DeepSeek**. Durante uma pausa no trabalho, deseja consumir rapidamente o conteúdo de um vídeo do YouTube sem precisar assisti-lo inteiro. Ele está conectado à internet por Wi-Fi e quer um resumo do vídeo para decidir se vale a pena assisti-lo na íntegra.  
+
+**Objetivos:**  
+- Gerar um **resumo** de um vídeo do YouTube.  
+- Consumir rapidamente as informações mais relevantes do vídeo sem precisar assisti-lo por completo.  
+
+**Planejamento:**  
+Toni decide utilizar o DeepSeek para **importar um link do YouTube** e gerar um resumo automático. Ele entende que, com essa funcionalidade, poderá obter insights rápidos do conteúdo antes de dedicar tempo ao vídeo completo.  
+
+**Ações:**  
+1. Toni abre o **DeepSeek** e acessa o chat.  
+2. Insere um **link de vídeo do YouTube** no campo de texto.  
+3. Identifica o **botão "Resumir"** abaixo da barra de texto e clica nele.  
+4. O sistema verifica a validade do link e se o vídeo está acessível.  
+5. O sistema processa o vídeo e obtém informações como **título, descrição e transcrição** (caso disponível).  
+6. O sistema aplica **técnicas de processamento de áudio** para separar **voz, música e ruídos de fundo**.  
+7. A IA analisa padrões do discurso utilizando **processamento de linguagem natural (NLP)** para detectar os principais temas do vídeo.  
+8. O sistema gera um **resumo estruturado** do vídeo e exibe o resultado no chat para Toni.  
+
+**Eventos:**  
+- O usuário vê um indicador de carregamento enquanto o DeepSeek está analisando o conteúdo do vídeo e processando o áudio e o texto do mesmo.  
+- Após a conclusão, o resumo gerado aparece no chat, permitindo Toni decidir se deseja assistir ao vídeo completo.  
+
+**Avaliação:**  
+- Toni lê o resumo e compara com a expectativa de informação desejada.  
+- Se o resumo for satisfatório, **economiza tempo**, evitando a necessidade de assistir ao vídeo inteiro.  
+- Caso identifique informações relevantes, pode optar por **assistir ao vídeo completo** para aprofundar o conhecimento sobre o tema.  
+
 ---
 
 ## Bibliografia
@@ -598,5 +610,6 @@ Interação Humano-Computador e Experiência do usuário.
 | 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Davi Emanuel](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 16/05/2025 |  1.6   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
 | 17/05/2025 |  1.7   | (#CO2) Incrementa parte da documentação sobre cenários.| [@fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
-| 18/05/2025 |  1.8   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Ana Borges](https://github.com/anabborges)   | [@Luiz](https://github.com/luizfaria1989) |
-| 17/05/2025 |  1.9   | (#CO4) Incrementa parte da documentação sobre cenários.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@gaubiela](https://github.com/gaubiela) |
+| 17/05/2025 |  1.8   | (#CO4) Incrementa parte da documentação sobre cenários.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@gaubiela](https://github.com/gaubiela) |
+| 18/05/2025 |  1.9   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Ana Borges](https://github.com/anabborges)   | [@Luiz](https://github.com/luizfaria1989) |
+| 18/05/2025 |  1.10  | (#CO2) Incrementa parte da documentação sobre cenários e corrige indexação dos cenários.| [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
