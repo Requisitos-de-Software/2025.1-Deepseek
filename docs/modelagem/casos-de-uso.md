@@ -101,7 +101,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | #UC06 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos. |
-| Ator              | Júlia                                                                                                         |
+| Ator              | Usuário                                                                                                         |
 | Pré-condições     | PDF acessível no dispositivo                                                             |
 | Ação              | Júlia faz upload de um PDF e obtém o texto e insights extraídos                                                           |
 | Fluxo principal   | <ul><li>Júlia abre o DeepSeek</br><ul><li>Seleciona “Upload de Documento”</br><ul><li>Escolhe o PDF e confirma</br><ul><li>DeepSeek processa apresenta texto e  insights extraídos</br></li></ul></li></ul></li></ul> |
@@ -117,7 +117,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | #UC07 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.      |
-| Ator              | Pedro                                                                                                         |
+| Ator              | Usuário                                                                                                     |
 | Pré-condições     | Internet ativa; aba **Search** habilitada no DeepSeek                                                        |
 | Ação              | Pedro busca a versão do Node.js e copia o trecho retornado                                                   |
 | Fluxo principal   | <ul><li>Pedro ativa a aba **Search**</br><ul><li>Digita “versão mais recente do Node.js em 10/05/2025”</br><ul><li>Sistema retorna “Node.js v20.7.0 – lançado em 08/05/2025” e exibe botão **Copy**</br></li></ul></li></ul></li></ul> |
@@ -133,7 +133,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | #UC08 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão. |
-| Ator              | Mariana                                                                                                       |
+| Ator              | Usuário                                                                                                       |
 | Pré-condições     | Resposta inicial gerada; conexão ativa                                                        |
 | Ação              | Mariana itera feedback e copia a versão final do texto                                                        |
 | Fluxo principal   | <ul><li>Mariana lê o parágrafo inicial</br><ul><li>Clica em **Dislike** e fornece feedback</br><ul><li>Clica em **Regenerate** e aguarda nova versão (~ 1 s)</br></li></ul></li></ul></li></ul><ul><li>Clica em **Like** e depois em **Copy** na versão final</br></li></ul> |

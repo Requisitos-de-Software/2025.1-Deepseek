@@ -10,58 +10,6 @@ A **Especificação Suplementar** é um documento redigido em linguagem natural 
 
 A adoção da abordagem **FURPS+** (Functionality, Usability, Reliability, Performance, Supportability, mais fatores) orienta a identificação e a organização desses requisitos, garantindo cobertura completa dos aspectos funcionais e de qualidade da aplicação.
 
----
-
-## Design
-
-**Autor: [Davi Emanuel](https://github.com/daviRolvr)**
-
-Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.
-
-Para essa categoria os requisitos identificados estão representados na tabela 1.
-
-<font><p style="text-align: center">**Tabela 1** - Requisitos de Desempenho.</p></font>
-
-| ID       | Descrição                                                                                     | Rastreamento|
-|----------|-----------------------------------------------------------------------------------------------|----------------------|
-| RN05     | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura)  |   
-| RF18     | O sistema deve exibir respostas formatadas em Markdown em respostas para tabelas ou listas complexas Markdown (títulos, listas, código) com a possibilidade de edição do Markdown pelo usuário.|
-| RF27     |Deve oferecer modo escuro e modo claro, com configuração manual e sincronização automática com o sistema operacional.         |
-| RF35   | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico para que não cubra outros elementos e posicione em local adequado.   |                 
-| RF28   | Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades. / Implementar tutorial interativo (tour guiado) destacando recursos avançados (DeepThink, Reason etc.) no onboarding.           |
-| RN13     |Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras. |
-| RN14    | Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras.   |
-| RN15    |Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.  |
-
-##  Implementação
-
-**Autor: [Davi Emanuel](https://github.com/daviRolvr)**
-
-Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.
-
-Para essa categoria os requisitos identificados estão representados na tabela 2.
-
-<font><p style="text-align: center">**Tabela 2** - Requisitos de Desempenho.</p></font>
-
-| ID       | Descrição                |                                                                             
-|----------|-------------------------------------------------------------------------------------------------------|
-| RF24    |Deve fazer o uso da arquitetura DeepSeek-V3.|                          
-| RF20     | Deve possuir uma API Pública.              |   
-| RF21    | Deve aceitar autenticação via token de acesso.   |                  
-| RF24    | Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256).  |   
-| RN07     | O sistema deve suportar múltiplas requisições simultâneas sem degradação        |       
-| RN08   | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos e o tempo médio de resposta deve ser <= 2 s em operações simples |                        
-| RF32   | 	Permitir escolha de modelos (seleção de diferentes versões/modelos de IA).   |             
-| RF03     | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s |                          
-| RF34   | 	Implementar comandos de voz para entrada e saída de informações.    |
-| UC02    | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.     |         
-| RN12      | Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas.|
-| RF38    | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização).  |             
-| RN06    |  Em caso de falha, deve retornar mensagens de erro claras  |
-| RN04   |Deve possuir a opção de login com conta Google/Apple ID.    |           
-| RF17     |Deve ser possível regenar uma resposta da IA de forma manual ou de forma automática no caso de erro de servidor ou sobrecargado sistema.|
-
-
 ## Finalidade
 
 A finalidade deste artefato é definir, de forma clara e estruturada, requisitos suplementares do **DeepSeek**, assegurando que atributos de qualidade, restrições de projeto e regras de negócio estejam documentados para orientar o desenvolvimento e a validação do sistema.
@@ -89,13 +37,56 @@ Essa metodologia busca garantir que todos os aspectos essenciais ao desenvolvime
 
 ---
 
-Sim, você está certíssima!
+## Design
 
-A seção de **Funcionalidade** na **Especificação Suplementar** dentro do modelo **FURPS+** normalmente **não detalha os requisitos funcionais em si**, mas **faz referência a onde eles estão descritos e como foram organizados/priorizados** — exatamente como você sugeriu.
+**Autor: [Davi Emanuel](https://github.com/daviRolvr)**
 
-Aqui está a sugestão corrigida da seção **Funcionalidade**, de acordo com o modelo esperado:
+Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.
 
----
+Para essa categoria os requisitos identificados estão representados na tabela 1.
+
+<font><p style="text-align: center">**Tabela 1** - Requisitos de Design.</p></font>
+
+| ID       | Descrição                                                                                     | Rastreamento|
+|----------|-----------------------------------------------------------------------------------------------|----------------------|
+| RN05     | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura)  |   
+| RF18     | O sistema deve exibir respostas formatadas em Markdown em respostas para tabelas ou listas complexas Markdown (títulos, listas, código) com a possibilidade de edição do Markdown pelo usuário.|
+| RF27     |Deve oferecer modo escuro e modo claro, com configuração manual e sincronização automática com o sistema operacional.         |
+| RF35   | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico para que não cubra outros elementos e posicione em local adequado.   |                 
+| RF28   | Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades. / Implementar tutorial interativo (tour guiado) destacando recursos avançados (DeepThink, Reason etc.) no onboarding.           |
+| RN13     |Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras. |
+| RN14    | Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras.   |
+| RN15    |Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.  |
+
+## Implementação
+
+**Autor: [Davi Emanuel](https://github.com/daviRolvr)**
+
+Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.
+
+Para essa categoria os requisitos identificados estão representados na tabela 2.
+
+<font><p style="text-align: center">**Tabela 2** - Requisitos de Implementação.</p></font>
+
+| ID       | Descrição                |                                                                             
+|----------|-------------------------------------------------------------------------------------------------------|
+| RF24    |Deve fazer o uso da arquitetura DeepSeek-V3.|                          
+| RF20     | Deve possuir uma API Pública.              |   
+| RF21    | Deve aceitar autenticação via token de acesso.   |                  
+| RF24    | Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256).  |   
+| RN07     | O sistema deve suportar múltiplas requisições simultâneas sem degradação        |       
+| RN08   | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos e o tempo médio de resposta deve ser <= 2 s em operações simples |                        
+| RF32   | 	Permitir escolha de modelos (seleção de diferentes versões/modelos de IA).   |             
+| RF03     | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s |                          
+| RF34   | 	Implementar comandos de voz para entrada e saída de informações.    |
+| UC02    | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas.     |         
+| RN12      | Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas.|
+| RF38    | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização).  |             
+| RN06    |  Em caso de falha, deve retornar mensagens de erro claras  |
+| RN04   |Deve possuir a opção de login com conta Google/Apple ID.    |           
+| RF17     |Deve ser possível regenar uma resposta da IA de forma manual ou de forma automática no caso de erro de servidor ou sobrecargado sistema.|
+
+
 
 ## Funcionalidade
 
@@ -333,9 +324,9 @@ Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, 
 |             |   #RF08    | Deve ser possível criar novos chats |
 |             |   #RF09    | Deve ser possível renomear um chat |
 |             |   #RF10    | Os chats já utilizados devem poder ser acessados posteriormente |
-|    #UC03         |   #RF11    | Deve ser possível dar dislike em uma resposta da IA |
-|    #UC03         |   #RF12    | Deve ser possível dar like em uma resposta da IA |
-|     #UC03        |   #RF13    | Deve ser possível copiar uma resposta da IA |
+|    UC08     |   #RF11    | Deve ser possível dar dislike em uma resposta da IA |
+|    UC08     |   #RF12    | Deve ser possível dar like em uma resposta da IA |
+|    UC08     |   #RF13    | Deve ser possível copiar uma resposta da IA |
 |             |   #RF15    | Deve ser possível alterar o idioma do sistema |
 |             |   #RF16    | Deve ser possível apagar conversas individuais ou de forma geral |
 |             |   #RF22    | Deve haver uma confirmação para limpar o histórico |
@@ -363,8 +354,8 @@ Nessa seção são citados os requisitos referentes à confiabilidade do sistema
 
 | CASO DE USO |     ID     | Descrição |
 |-------------| ---------- |-----------|
-|     #UC01        |   #RF03    | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s |
-|      #UC03       |   #RF17    | Deve ser possível regenerar uma resposta da IA de forma manual ou automática em caso de erro de servidor ou sobrecarga |
+|     #UC06        |   #RF03    | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s |
+|      UC08       |   #RF17    | Deve ser possível regenerar uma resposta da IA de forma manual ou automática em caso de erro de servidor ou sobrecarga |
 |             |   #RF24    | Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256) |
 |             |   #RF25    | O usuário deve poder controlar quais dados são compartilhados (chat, histórico de buscas, localização) |
 |             |   #RF26    | Deve haver autenticação multifator opcional para acesso a funcionalidades avançadas |
@@ -373,9 +364,9 @@ Nessa seção são citados os requisitos referentes à confiabilidade do sistema
 |             |   #RF31    | Implementar memória de contexto persistente entre conversas |
 |             |   #RN03    | Deve guardar um histórico de conversas por 30 dias (não persistente se o usuário sair sem salvar) |
 |             |   #RN04    | Deve fazer a exclusão automática de dados de upload |
-|      #UC01       |   #RN06    | Em caso de falha, deve retornar mensagens de erro claras |
+|      #UC06       |   #RN06    | Em caso de falha, deve retornar mensagens de erro claras |
 |       #UC04      |   #RN07    | O sistema deve suportar múltiplas requisições simultâneas sem degradação |
-|      #UC01       |   #RN08    | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤ 10 s e o tempo médio de resposta ≤ 2 s em operações simples |
+|      #UC06       |   #RN08    | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤ 10 s e o tempo médio de resposta ≤ 2 s em operações simples |
 |             |   #RN09    | Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados |
 |             |   #RN10    | Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos |
 |             |   #RN11    | Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos |
@@ -395,9 +386,9 @@ Para essa categoria os requisitos identificados estão representados na tabela 6
 
 | CASO DE USO |     ID     |                                   Descrição                                      |
 |-------------| ---------- |--------------------------------------------------------------------------------- |
-|  #UC01  |   #RF03	 | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s |
+|  #UC06  |   #RF03	 | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s |
 | #UC04   |   #RN07    | O sistema deve suportar múltiplas requisições simultâneas sem degradação |
-|  #UC01  |   #RN08    | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤ 10 s e o tempo médio de resposta ≤ 2 s em operações simples |
+|  #UC06  |   #RN08    | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤ 10 s e o tempo médio de resposta ≤ 2 s em operações simples |
 |  #UC06  |   #RF29    | Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga) |
 
 
@@ -455,4 +446,4 @@ Para essa categoria os requisitos identificados estão representados na tabela 8
 | 17/05/2025 |  1.4   | (#ES02) Adição de conteúdo desenvolvido. | [@Davi Emanuel](https://github.com/daviRolvr)|[@Ana Joyce](https://github.com/anajoyceamorim) |
 | 18/05/2025 |  1.5  | (#ES02) Adição de conteúdo desenvolvido. | [@Ana Clara](https://github.com/anabborges)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 18/05/2025 |  1.6  | (#ES02) Adição de metodologia e funcionalidade. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
-| 18/05/2025 |  1.7 | (#ES02)Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989), [@Gabriela](https://github.com/gaubiela) |
+| 18/05/2025 |  1.7 | (#ES02)Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989), [@Gabriela](https://github.com/gaubiela),[@Davi Emanuel](https://github.com/daviRolvr) |
