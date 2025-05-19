@@ -78,7 +78,7 @@ Autor: [Ana Joyce](https://github.com/anajoyceamorim)
 
 * Recomenda a funcionalidade a colegas que também gostam de manter o ambiente de trabalho digital limpo e organizado.  
 
-## Cenário 02: Utilização do DeepSeek com plataformas externas integradas
+## Cenário 02: Utilização do DeepSeek com plataformas externas integradas (#UC02)
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 **Atores:**: Gabriel, 24 anos, recém-formado em Engenharia da Computação, buscando oportunidades na área de Ciência de Dados. É usuário frequente de tecnologias baseadas em IA, com alto nível de familiaridade digital. Usa o DeepSeek diariamente para organizar ideias, revisar códigos, gerar conteúdos e montar portfólios.
@@ -135,7 +135,7 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 * Decide manter as integrações ativas para utilizar o DeepSeek como centro de produtividade no seu dia a dia profissional.
 
-## Cenário 03: Pesquisa utilizando integração por voz no DeepSeek
+## Cenário 03: Pesquisa utilizando integração por voz no DeepSeek (#UC03)
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 **Atores:** Camila, 27 anos, mestranda em Psicologia Cognitiva, com bom domínio de tecnologia e rotina intensa de leitura e produção acadêmica. Utiliza o DeepSeek como assistente de pesquisa para agilizar a análise de textos científicos e sínteses bibliográficas.

@@ -36,7 +36,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | #UC02 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | 	O usuário pode conectar plataformas externas (GitHub, Google, LinkedIn, Discord) ao DeepSeek para ampliar fontes de informação. |
-| Ator              | 	Usuário                                                                                                         |
+| Ator              | 	Gabriel                                                                                                        |
 | Pré-condições     | 	Acesso à internet, conta em plataformas externas, autorização do usuário para integração.                                                          |
 | Ação              | O usuário integra uma ou mais plataformas externas ao DeepSeek.                                                      |
 | Fluxo principal   | <ul><li>Usuário abre o DeepSeek</br><ul><li>O usuário acessa a aba de integrações</br><ul><li>Seleciona uma plataforma (ex: GitHub)</br><ul><li>Autoriza o acesso via token ou login OAuth</br></li></ul></li></ul></li></ul> |
@@ -52,7 +52,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | #UC03 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | 		O usuário é capaz de realizar perguntas ao DeepSeek por meio de comandos de voz. |
-| Ator              | 		Usuário                                                                                                     |
+| Ator              | 		Camila                                                                                                     |
 | Pré-condições     | Acesso à internet, microfone habilitado, permissão concedida ao app para uso de áudio.                                                         |
 | Ação              | O usuário interage com o DeepSeek por comando de voz para realizar perguntas ou pesquisas.                                                   |
 | Fluxo principal   | <ul><li>O usuário acessa o aplicativo</br><ul><li>Ativa o modo de entrada por voz</br><ul><li>Faz uma pergunta verbalmente</br><ul><li>O DeepSeek converte voz em texto e responde</br></li></ul></li></ul></li></ul> |

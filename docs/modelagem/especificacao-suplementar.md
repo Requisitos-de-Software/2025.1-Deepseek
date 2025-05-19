@@ -455,4 +455,4 @@ Para essa categoria os requisitos identificados estão representados na tabela 8
 | 17/05/2025 |  1.4   | (#ES02) Adição de conteúdo desenvolvido. | [@Davi Emanuel](https://github.com/daviRolvr)|[@Ana Joyce](https://github.com/anajoyceamorim) |
 | 18/05/2025 |  1.5  | (#ES02) Adição de conteúdo desenvolvido. | [@Ana Clara](https://github.com/anabborges)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 18/05/2025 |  1.6  | (#ES02) Adição de metodologia e funcionalidade. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
-| 18/05/2025 |  1.7 | (#ES02)Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989), [@Gabriela](https://github.com/gaubiela) |
+| 18/05/2025 |  1.7 | (#ES02)Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989), [@Gabriela](https://github.com/gaubiela),[@Davi Emanuel](https://github.com/daviRolvr) |
