@@ -13,12 +13,13 @@ A adoção da abordagem **FURPS+** (Functionality, Usability, Reliability, Perfo
 ---
 
 ## Design
+
 **Autor: [Davi Emanuel](https://github.com/daviRolvr)**
 Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
 
-<font><p style="text-align: center">**Tabela xx** - Requisitos de Desempenho.</p></font>
+<font><p style="text-align: center">**Tabela 1** - Requisitos de Desempenho.</p></font>
 
 | ID       | Descrição                                                                                     | Rastreamento|
 |----------|-----------------------------------------------------------------------------------------------|----------------------|
@@ -32,12 +33,15 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 | RN15    |Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.  |
 
 ##  Implementação
+
 **Autor: [Davi Emanuel](https://github.com/daviRolvr)**
 Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
-<font><p style="text-align: center">**Tabela xx** - Requisitos de Desempenho.</p></font>
-| ID       | Descrição                                                                                             
+
+<font><p style="text-align: center">**Tabela 2** - Requisitos de Desempenho.</p></font>
+
+| ID       | Descrição                |                                                                             
 |----------|-------------------------------------------------------------------------------------------------------|
 | RF24    |Deve fazer o uso da arquitetura DeepSeek-V3.|                          
 | RF20     | Deve possuir uma API Pública.              |   
@@ -307,7 +311,7 @@ A especificação complementar detalha os aspectos de qualidade, técnicos e res
 </details>
 
 <div align="center">
-    Tabela 1. Tabela com requisitos funcionais.
+    Tabela 3. Tabela com requisitos funcionais.
 </div>
 <div align="center">
     Autor: <a href="https://github.com/anajoyceamorim">@Ana Joyce</a>
@@ -321,7 +325,7 @@ Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, 
 
 **Autor: [Ana Clara](https://github.com/anabborges)**
 
-<font><p style="text-align: center">**Tabela xx** - Requisitos de Usabilidade.</p></font>
+<font><p style="text-align: center">**Tabela 4** - Requisitos de Usabilidade.</p></font>
 
 | CASO DE USO |     ID     | Descrição |
 |-------------| ---------- |-----------|
@@ -356,7 +360,7 @@ Nessa seção são citados os requisitos referentes à confiabilidade do sistema
 
 **Autor: [Ana Clara](https://github.com/anabborges)**
 
-<font><p style="text-align: center">**Tabela xx** - Requisitos de Confiabilidade.</p></font>
+<font><p style="text-align: center">**Tabela 5** - Requisitos de Confiabilidade.</p></font>
 
 | CASO DE USO |     ID     | Descrição |
 |-------------| ---------- |-----------|
@@ -388,7 +392,7 @@ O desempenho se refere as condições em que os requisitos devem operar. Apresen
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
 
-<font><p style="text-align: center">**Tabela xx** - Requisitos de Desempenho.</p></font>
+<font><p style="text-align: center">**Tabela 6** - Requisitos de Desempenho.</p></font>
 
 | CASO DE USO |     ID     |                                   Descrição                                      |
 |-------------| ---------- |--------------------------------------------------------------------------------- |
@@ -406,7 +410,7 @@ A suportabilidade envolve os requisitos relacionados ao suporte e manutenção d
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
 
-<font><p style="text-align: center">**Tabela xx** - Requisitos de Suportabilidade.</p></font>
+<font><p style="text-align: center">**Tabela 7** - Requisitos de Suportabilidade.</p></font>
 
 | Caso de Uso |   ID     |                                   Descrição                                             |
 | ----------- | -------- | --------------------------------------------------------------------------------------- |
@@ -424,7 +428,7 @@ A ajuda e documentação de usuário on-line são componentes cruciais para gara
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
 
-<font><p style="text-align: center">**Tabela xx** - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line.</p></font>
+<font><p style="text-align: center">**Tabela 8** - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line.</p></font>
 
 | Caso de Uso |   ID     |                                   Descrição                                             |
 | ----------- | -------- | --------------------------------------------------------------------------------------- |
@@ -452,3 +456,4 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 | 17/05/2025 |  1.4   | (#ES02) Adição de conteúdo desenvolvido. | [@Davi Emanuel](https://github.com/daviRolvr)|[@Ana Joyce](https://github.com/anajoyceamorim) |
 | 18/05/2025 |  1.5  | (#ES02) Adição de conteúdo desenvolvido. | [@Ana Clara](https://github.com/anabborges)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 18/05/2025 |  1.6  | (#ES02) Adição de metodologia e funcionalidade. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
+| 18/05/2025 |  1.7  | (#ES02) Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
