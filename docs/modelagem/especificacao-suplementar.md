@@ -15,6 +15,7 @@ A adoção da abordagem **FURPS+** (Functionality, Usability, Reliability, Perfo
 ## Design
 
 **Autor: [Davi Emanuel](https://github.com/daviRolvr)**
+
 Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
@@ -35,6 +36,7 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 ##  Implementação
 
 **Autor: [Davi Emanuel](https://github.com/daviRolvr)**
+
 Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.
 
 Para essa categoria os requisitos identificados estão representados na tabela xx.
@@ -105,8 +107,6 @@ Esses requisitos descrevem as funcionalidades que o sistema deverá oferecer, in
 
 A especificação complementar detalha os aspectos de qualidade, técnicos e restrições que **complementam esses requisitos funcionais**, assegurando a completude da documentação de requisitos do sistema.
 
-<details>
-  <summary><strong>Tabela de Requisitos Funcionais</strong></summary>
   <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; margin-top: 10px;">
     <thead>
       <tr>
@@ -308,7 +308,6 @@ A especificação complementar detalha os aspectos de qualidade, técnicos e res
       </tr>
     </tbody>
   </table>
-</details>
 
 <div align="center">
     Tabela 3. Tabela com requisitos funcionais.
@@ -456,4 +455,4 @@ Para essa categoria os requisitos identificados estão representados na tabela x
 | 17/05/2025 |  1.4   | (#ES02) Adição de conteúdo desenvolvido. | [@Davi Emanuel](https://github.com/daviRolvr)|[@Ana Joyce](https://github.com/anajoyceamorim) |
 | 18/05/2025 |  1.5  | (#ES02) Adição de conteúdo desenvolvido. | [@Ana Clara](https://github.com/anabborges)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 18/05/2025 |  1.6  | (#ES02) Adição de metodologia e funcionalidade. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
-| 18/05/2025 |  1.7 | (#ES02)Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
+| 18/05/2025 |  1.7 | (#ES02)Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989), [@Gabriela](https://github.com/gaubiela) |
