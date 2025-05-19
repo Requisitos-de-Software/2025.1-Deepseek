@@ -1,22 +1,39 @@
-## Casos de Uso
-
 ## Introdução
 Os diagramas de caso de uso são uma ferramenta fundamental da linguagem de modelagem unificada (UML) que permitem representar graficamente as funcionalidades esperadas de um sistema do ponto de vista de seus usuários. Essa técnica é amplamente utilizada na engenharia de requisitos para descrever as interações entre os atores (usuários ou sistemas externos) e os serviços oferecidos pela aplicação. No contexto do projeto DeepSeek, a modelagem dos casos de uso contribui para a compreensão do comportamento do sistema sob diferentes perspectivas de interação, facilitando a comunicação entre stakeholders técnicos e não técnicos, e servindo como base para futuras etapas de projeto, desenvolvimento e testes.
 
 ## Metodologia
 A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios da UML, utilizando diagramas e descrições textuais conforme recomendação da literatura especializada. Inicialmente, identificaram-se os atores relevantes do sistema, como usuários finais, administradores e sistemas externos. Em seguida, foram definidos os principais casos de uso que representam as funcionalidades que o sistema deverá oferecer a esses atores. Os diagramas foram elaborados por meio da ferramenta Lucidchart, e cada caso de uso foi descrito com os seguintes elementos: nome, objetivo, atores envolvidos, fluxo de eventos (principal e alternativos), pré-condições, pós-condições e exceções. Essa abordagem visual e textual permite alinhar expectativas entre os envolvidos no projeto e fornecer uma visão clara do escopo funcional da aplicação.
 
+## Diagrama de Casos de Uso do App DeepSeek:
+
+Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elaborar um conjunto de casos de uso, que compõem o diagrama UML de casos de uso, o qual possui o usuário como ator primário, o servidor DeepSeek e o Sistema externo de conteúdos da internet como atores secundários. O diagrama possui requisitos já implementados no app bem como requisitos que não foram implementados ainda.
+
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/410dc733-3efb-402b-84da-275d5d27d77b" id="jWVgtNH8iKv4"></iframe></div>
+
+* [Link para o diagrama UML](https://lucid.app/lucidchart/410dc733-3efb-402b-84da-275d5d27d77b/edit?viewport_loc=-1735%2C-664%2C2778%2C1869%2C0_0&invitationId=inv_fb93f228-b92d-4633-a8cf-5a1409a3fdd0)
+
 ## Casos de Uso Modelados:
 
-## Ana Clara
+## [UC01] -  Exclusão automática de dados de upload
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
 
-## Ana Joyce
+| #UC01 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | O sistema deve excluir automaticamente os dados enviados via upload após determinado período ou após o uso concluído, garantindo segurança e privacidade. |
+| Ator              | Sistema                                                                      |
+| Pré-condições     | O usuário realizou um upload de arquivo (documento, imagem, PDF, etc.) para uso temporário no DeepSeek.    |
+| Ação              | O sistema verifica uploads armazenados e realiza exclusão automática conforme a política de retenção definida.   |
+| Fluxo principal   | 	<ul><li>O usuário realiza o upload de um arquivo temporário</br><ul><li>O sistema processa o conteúdo e o utiliza conforme a solicitação do usuário</br><li>Após finalização da tarefa, inicia-se a contagem de tempo para retenção temporária</br><li>O sistema verifica periodicamente os arquivos expirados</br><li>Arquivos vencidos são excluídos automaticamente</br><li>Um log interno é registrado para fins de auditoria</li></ul></li></ul> |
+| Fluxo alternativo | <ul><li>O usuário encerra a sessão sem usar o conteúdo do upload</br><ul><li>O sistema aplica o mesmo ciclo de exclusão após o tempo padrão</li></ul></li></ul> |
+| Fluxo de exceção  | <ul><li>Erro no mecanismo de exclusão automática</br><ul><li>O sistema registra a falha e envia alerta para manutenção interna</li></ul></li></ul> |
+| Pós-condições     | Arquivos temporários são removidos automaticamente; nenhum dado de upload permanece após o período estabelecido.  |
+| Data de Criação   | 18/05/2025        |
+| Rastreabilidade   | #RN04 — Exclusão automática de dados de upload #RIN11 — Requisito relacionado à segurança de dados   |
 
-## Davi
-## [#UCXX] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
+## [UC02] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
 **Autor:** [Davi Emanuel](https://github.com/daviRolvr)
 
-| #UCXX | Informações                                                                                                    |
+| #UC02 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | 	O usuário pode conectar plataformas externas (GitHub, Google, LinkedIn, Discord) ao DeepSeek para ampliar fontes de informação. |
 | Ator              | 	Usuário                                                                                                         |
@@ -29,10 +46,10 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Data de Criação   | 17/05/2025                                                                                                     |
 | Rastreabilidade   | #RF37     |
 
-## [#UCXX] - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.
+## [UC03] - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.
 **Autor:** [Davi Emanuel](https://github.com/daviRolvr)
 
-| #UCXX | Informações                                                                                                    |
+| #UC03 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | 		O usuário é capaz de realizar perguntas ao DeepSeek por meio de comandos de voz. |
 | Ator              | 		Usuário                                                                                                     |
@@ -44,13 +61,11 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Pós-condições     | O usuário recebe a resposta para sua pergunta em texto.                    |
 | Data de Criação   | 17/05/2025                                                                                                     |
 | Rastreabilidade   | #RF14     |
-                                                                                      
-## Fabio
 
-## [UCXX] - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek
+## [UC04] - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek
 **Autor:** [Fabio](https://github.com/fabinsz)
 
-| #UCXX | Informações                                                                                                                                      |
+| #UC04 | Informações                                                                                                                                      |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Descrição**         | Permite que o usuário selecione diferentes versões de modelos de IA (ex: R1, R2, R3) no DeepSeek, personalizando o estilo e a profundidade das respostas. |
 | **Ator**              | Júlia                                                                                                                           |
@@ -63,11 +78,11 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | **Data de Criação**   | 17/05/2025                                                                                                                       |
 | **Rastreabilidade**   | #RF32   
 
-## [UCXX] - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.
+## [UC05] - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.
 
 **Autor:** [Fabio](https://github.com/fabinsz)
 
-| #UCXX              | Informações                                                                                                                                                     |
+| #UC05              | Informações                                                                                                                                                     |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descrição**       | Permite que o usuário acesse as configurações do DeepSeek para alterar o tema visual da interface, escolhendo entre tema claro ou escuro, de acordo com suas preferências. |
 | **Ator**            | Lucas                                                                                                                                                            |
@@ -80,13 +95,10 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | **Data de Criação** | 17/05/2025                                                                                                                                                       |
 | **Rastreabilidade** | #RF27                                                                                                                |
 
- 
-
-
-## [#UC01] - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.
+## [UC06] - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
-| #UC01 | Informações                                                                                                    |
+| #UC06 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos. |
 | Ator              | Júlia                                                                                                         |
@@ -99,12 +111,10 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Data de Criação   | 10/05/2025                                                                                                     |
 | Rastreabilidade   | #RF03, #RN06, #RN08                                                                                            |
 
-
----
-## [UC03] - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.
+## [UC07] - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
-| #UC02 | Informações                                                                                                    |
+| #UC07 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.      |
 | Ator              | Pedro                                                                                                         |
@@ -117,12 +127,10 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Data de Criação   | 10/05/2025                                                                                                     |
 | Rastreabilidade   | #RF01, #RF13                                                                                                   |
 
-
----
-## [#UC03] - Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão.
+## [UC08] - Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
-| #UC03 | Informações                                                                                                    |
+| #UC08 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão. |
 | Ator              | Mariana                                                                                                       |
@@ -135,10 +143,10 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Data de Criação   | 10/05/2025                                                                                                     |
 | Rastreabilidade   | #RF11, #RF12, #RF13, #RF17                                                                                     |
 
-## [UC04] - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek
+## [UC09] - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek
 **Autor:** [Luiz](https://github.com/luizfari1989)
 
-| #UC04 | Informações                                                                                                    |
+| #UC09 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek |
 | Ator              | Gauss                                                                                                         |
@@ -151,10 +159,10 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Data de Criação   | 11/05/2025                                                                                                     |
 | Rastreabilidade   | #RF02, #RN07  
 
-## [UC05] - Permite que o usuário cancele uma mensagem em andamento da IA no chat
+## [UC10] - Permite que o usuário cancele uma mensagem em andamento da IA no chat
 **Autor:** [Luiz](https://github.com/luizfari1989)
 
-| #UC05 | Informações                                                                                                    |
+| #UC10 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | Permite que o usuário cancele uma mensagem que está sendo gerada pela IA no chat |
 | Ator              | João                                                                                                         |
@@ -167,10 +175,10 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Data de Criação   | 16/05/2025                                                                                                     |
 | Rastreabilidade   | #RF19
 
-## [UC06] - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA
+## [UC11] - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA
 **Autor:** [Luiz](https://github.com/luizfari1989)
 
-| #UC06 | Informações                                                                                                    |
+| #UC11 | Informações                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 | Descrição         | Permite que o usuário veja o status do servidor da IA, indicando se ele está em manutenção ou funcionando normalmente|
 | Ator              | Clarice                                                                                                         |
@@ -182,6 +190,54 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Pós-condições     | O usuário visualiza a mensagem em tempo real do status do servidor                 |
 | Data de Criação   | 16/05/2025                                                                                                     |
 | Rastreabilidade   | #RF29                                                                                       |
+
+## [UC12] - Permite que o usuário entenda o funcionamento da plataforma a partir de um tutorial interativo
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| #UC12 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | O usuário é capaz de entender o funcionamento da plataforma por meio de um tutorial interativo. |
+| Ator              | Usuário                                                                                          |
+| Pré-condições     | Conexão ativa.                                                |
+| Ação              | O usuário acessa e segue o tutorial até concluir os passos propostos.                              |
+| Fluxo principal   | <ul><li>O usuário clica em “Ver Tutorial” na tela inicial</li> <li>O sistema exibe uma introdução com explicação do objetivo da plataforma</li> <li>O usuário navega pelas seções (ex: “Como começar”, “Dar comandos”, “Usar feedback”)</li> <li>O usuário interage com exemplos sugeridos no tutorial</li> <li>Ao final, clica em “Finalizar tutorial”</li></ul> |
+| Fluxo alternativo | <ul><li>O usuário considera o tutorial longo ou repetitivo; O usuário já sabe utilizar a plataforma</li> <li>Clica em “Pular tutorial”</li> <li>Sistema registra a decisão e recomenda revisitar mais tarde</li></ul> |
+| Fluxo de exceção  | <ul><li>Erro no carregamento de conteúdo</li> <li>Sistema exibe mensagem “Erro ao carregar o tutorial”</li> <li>O usuário tenta novamente após atualizar a página</li></ul> |
+| Pós-condições     | O usuário entende as funcionalidades principais da plataforma; tutorial marcado como concluído. |
+| Data de Criação   | 15/05/2025                                                                                      |
+| Rastreabilidade   | #RF28                                                                                       |
+
+## [UC13] - Permite que o usuário apague o histórico de conversas, a partir de uma confirmação
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| #UC13 | Informações                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| Descrição         | O usuário pode apagar o histórico de conversas, a partir de uma confirmação explícita. |
+| Ator              | Usuário                                                                                          |
+| Pré-condições     | O usuário está logado na plataforma; histórico existente; conexão ativa.                          |
+| Ação              | O usuário acessa a opção de histórico e opta por apagar todas as conversas após confirmação.       |
+| Fluxo principal   | <ul><li>O usuário clica em “Histórico” no menu principal</li> <li>Seleciona “Apagar histórico”</li> <li>O sistema exibe um aviso solicitando confirmação</li> <li>O usuário clica em “Confirmar”</li> <li>O sistema apaga todas as conversas do histórico</li></ul> |
+| Fluxo alternativo | <ul><li>O usuário clica em “Cancelar” na janela de confirmação</li> <li>O sistema mantém o histórico intacto</li></ul> |
+| Fluxo de exceção  | <ul><li>Erro de conexão no momento da exclusão</li> <li>O sistema exibe mensagem: “Erro ao apagar. Verifique sua conexão e tente novamente.”</li></ul> |
+| Pós-condições     | Histórico apagado.  |
+| Data de Criação   | 15/05/2025                                                                                         |
+| Rastreabilidade   | #RF22                                                                                      |
+
+## [UC14] - Resumir vídeos do YouTube a partir de links inseridos no chat do DeepSeek.
+**Autor:** [Mateus](https://github.com/MVConsorte)
+
+| #UC14 | Informações |
+| ---- | -------------------------------------------------------------------------------------------------------------- |
+| **Descrição**         | Permite que o usuário insira um link de vídeo do YouTube no chat do DeepSeek e obtenha um resumo automático gerado pelo sistema. |
+| **Ator**              | Usuário do DeepSeek |
+| **Pré-condições**     | <ul><li>O usuário deve estar logado no sistema.</li><li>O sistema deve estar conectado à internet.</li><li>O usuário deve inserir um link válido de um vídeo do YouTube no chat.</li></ul> |
+| **Ação**              | O usuário solicita um resumo de um vídeo enviado por meio de um link do YouTube. |
+| **Fluxo Principal**   | <ul><li>O usuário insere um link de vídeo do YouTube no chat.</li><ul><li>O sistema verifica se o link é válido e acessível.</li></ul><li>O usuário identifica e clica no botão "Resumir".</li><ul><li>O sistema processa o link e obtém informações como título, descrição e transcrição (caso disponível).</li><li>O sistema realiza a análise de áudio:</li><ul><li>Processamento de voz, música e ruídos.</li><li>Reconhecimento de fala para identificar tópicos importantes.</li><li>Análise de linguagem natural (NLP) para detectar padrões de discurso.</li></ul><li>O sistema gera um resumo estruturado do vídeo.</li><li>O sistema exibe o resumo no chat para o usuário.</li></ul></li></ul> |
+| **Fluxo Alternativo** | <ul><li>O usuário insere um link de vídeo.</li><ul><li>Em vez de clicar no botão, digita um comando no chat como "Resuma este vídeo".</li><li>O sistema reconhece o comando e inicia automaticamente o processo de resumo.</li><li>O sistema gera e exibe o resumo do vídeo no chat.</li></ul></li></ul> |
+| **Fluxo de Exceção**  | <ul><li>O usuário insere um link inválido no chat</li><ul><li>O sistema verifica que o link está corrompido ou não existe</li><li>O sistema exibe uma mensagem informando o erro e solicita um link válido</li></ul></li><li>O usuário tenta resumir um vídeo indisponível</li><ul><li>O sistema identifica que o vídeo foi removido, privado ou restrito</li><li>O sistema informa ao usuário que não pode gerar o resumo</li></ul></li><li>O sistema perde conexão com a internet antes ou durante o processamento</li><ul><li>O sistema detecta a falha de rede</li><li>O sistema exibe uma mensagem de erro e sugere ao usuário verificar sua conexão</li></ul></li><li>O sistema falha na geração do resumo</li><ul><li>O processamento do vídeo apresenta erro inesperado</li><li>O sistema exibe uma mensagem informando que a ação não pode ser concluída</li></ul></li><li>O sistema gera um resumo incorreto (alucinação de IA)</li><ul><li>O usuário percebe que a resposta gerada não corresponde ao conteúdo do vídeo</li><li>O sistema disponibiliza refinamento de resposta em #UC08.</li></ul></li></ul> |
+| **Pós-condições**     | O usuário recebe um resumo automático do vídeo diretamente no chat, caso todas as condições sejam atendidas. |
+| **Data de Criação**   | 18/05/2025 |
+| **Rastreabilidade**   | #RF38 |
 
 ## Bibliografia
 
@@ -197,3 +253,7 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 16/05/2025 |  1.2  | (#UCO2) Adição de conteúdo desenvolvido.| [@luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
 |16/05/2025 |  1.3  | (#UCO2) Adição de conteúdo desenvolvido.|  [@Davi Emanuel](https://github.com/daviRolvr)| [@luiz](https://github.com/luizfaria1989) |
 |17/05/2025 |  1.4 | (#UCO2) Adição de conteúdo desenvolvido.|  [@Fabio](https://github.com/fabinsz)| [@Luiz](https://github.com/luizfaria1989) |
+|18/05/2025 |  1.5 | (#UCO3) Adição de caso de uso Exclusão automática de dados de upload|  [@Ana Joyce](https://github.com/anajoyceamorim)| [@revisor](https://github.com/) |
+| 18/05/2025 |  1.6  | (#UCO2) Adição de conteúdo desenvolvido.| [@Ana Borges](https://github.com/anabborges)   | [@](https://github.com) |
+| 18/05/2025 |  1.7  | (#UC01-02-03) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos casos de uso.| [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
+| 18/05/2025 |  1.8  | (#UC02) Adição do diagrama de casos de uso| [@Luiz](https://github.com/luizfaria1989)  | [@Gabriela](https://github.com/gaubiela)  |

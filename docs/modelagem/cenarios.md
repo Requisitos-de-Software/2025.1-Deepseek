@@ -28,11 +28,57 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 
 ## Cenários Modelados:
 
-## Ana Clara
+## Cenário 01: Confirmação de exclusão de todos os chats no DeepSeek  
+Autor: [Ana Joyce](https://github.com/anajoyceamorim)  
 
-## Ana Joyce
+**Atores:** Lívia, 22 anos, estudante de Design Digital, utiliza o DeepSeek diariamente para registrar ideias criativas, rascunhar campanhas visuais e fazer brainstorms com colegas de classe. Costuma testar diferentes abordagens com a IA e mantém diversos chats arquivados por tema e disciplina. Tem alta familiaridade com ferramentas digitais, mas é cuidadosa com perdas de conteúdo.  
 
-## Cenário XX: Utilização do DeepSeek com plataformas externas integradas
+**Ambiente (Contexto):** Lívia está em casa, usando seu tablet com teclado acoplado, organizando seus arquivos e chats do semestre antes de iniciar um novo projeto interdisciplinar. Deseja limpar o histórico de chats antigos, mas está preocupada em apagar algo importante acidentalmente.  
+
+**Objetivos:**  
+* Organizar o DeepSeek para iniciar um novo ciclo de projetos com uma área limpa.  
+* Evitar a exclusão acidental de conteúdos importantes ao apagar múltiplos chats.  
+* Garantir que o sistema ofereça uma confirmação clara e explícita antes de excluir tudo.  
+
+**Planejamento:** Lívia decide apagar todos os seus chats antigos para reorganizar sua área de trabalho no DeepSeek. Antes de realizar a ação, ela espera que o sistema solicite uma confirmação visual e textual para assegurar que entende o impacto dessa decisão.  
+
+**Ações:**
+
+1. Acessa o DeepSeek e abre o painel lateral de histórico de chats.  
+
+2. Seleciona a opção "Excluir todos os chats" no menu de configurações.  
+
+3. Uma janela modal aparece com a mensagem: "Tem certeza de que deseja excluir todos os chats? Esta ação é irreversível."  
+
+4. O sistema exige que ela digite "CONFIRMAR" no campo de texto para prosseguir com a exclusão.  
+
+5. Após digitar corretamente, ela clica em "Excluir definitivamente".  
+
+6. O DeepSeek remove todos os chats e exibe uma notificação discreta: “Todos os chats foram excluídos com sucesso.”  
+
+**Eventos:**  
+
+* O sistema detecta a ação crítica e interrompe com uma janela de confirmação obrigatória.  
+
+* A interface escurece, destacando a importância da decisão.  
+
+* O campo de texto para confirmação é obrigatório e sensível à grafia correta ("CONFIRMAR" em caixa alta).  
+
+* O botão de exclusão só é ativado após o preenchimento correto.  
+
+* A exclusão é executada somente após dupla confirmação e feedback visual claro.  
+
+**Avaliação:**  
+
+* Lívia considera a funcionalidade bem projetada, já que impediu um possível erro ao exigir confirmação explícita.  
+
+* Valoriza o cuidado da interface em reforçar a gravidade da ação com destaque visual e textual.  
+
+* Sente-se mais segura em utilizar funções avançadas do DeepSeek por confiar na proteção contra perdas acidentais.  
+
+* Recomenda a funcionalidade a colegas que também gostam de manter o ambiente de trabalho digital limpo e organizado.  
+
+## Cenário 02: Utilização do DeepSeek com plataformas externas integradas
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 **Atores:**: Gabriel, 24 anos, recém-formado em Engenharia da Computação, buscando oportunidades na área de Ciência de Dados. É usuário frequente de tecnologias baseadas em IA, com alto nível de familiaridade digital. Usa o DeepSeek diariamente para organizar ideias, revisar códigos, gerar conteúdos e montar portfólios.
@@ -89,8 +135,7 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 * Decide manter as integrações ativas para utilizar o DeepSeek como centro de produtividade no seu dia a dia profissional.
 
----
-## Cenário XX: Pesquisa utilizando integração por voz no DeepSeek
+## Cenário 03: Pesquisa utilizando integração por voz no DeepSeek
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 **Atores:** Camila, 27 anos, mestranda em Psicologia Cognitiva, com bom domínio de tecnologia e rotina intensa de leitura e produção acadêmica. Utiliza o DeepSeek como assistente de pesquisa para agilizar a análise de textos científicos e sínteses bibliográficas.
@@ -141,11 +186,7 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 * Decide usar a funcionalidade com frequência, principalmente em momentos em que não pode digitar.
 
-
-
-## Fabio
-
-## Cenário XX: Acessar configurações para alterar o tema do Sistema
+## Cenário 04: Acessar configurações para alterar o tema do Sistema
 **Autor**:  [Fabio](https://github.com/fabinsz)
 
 **Atores:**
@@ -180,9 +221,7 @@ Por ser um usuário experiente, Lucas assume que a opção de personalização v
 * Lucas se sente mais confortável visualmente e satisfeito com a personalização oferecida.
 * Considera a experiência rápida e intuitiva, algo essencial para não interromper seu fluxo de trabalho.
 
----
-
-## Cenário XX: Personalização da experiência via seleção de modelos de IA
+## Cenário 05: Personalização da experiência via seleção de modelos de IA
 
 **Autor:** [Fabio](https://github.com/fabinsz)
 
@@ -238,11 +277,7 @@ Por ser um usuário experiente, Lucas assume que a opção de personalização v
 
 * Reforça a intenção de continuar utilizando o DeepSeek como ferramenta de apoio no seu TCC.
 
----
-
-## Gabriela
-
-## Cenário XX: Upload de Documento (#UC01)
+## Cenário 06: Upload de Documento (#UC01)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
@@ -275,9 +310,7 @@ Júlia decide usar o fluxo de upload do DeepSeek em vez de ferramentas manuais, 
 * Júlia percorre o texto extraído, conferindo símbolos e formatação; para cada inconsistência.
 * Compara mentalmente o conteúdo gerado com o PDF original, e valida se todos os insights obtidos durante a conversa foram consistentes.
 
----
-
-## Cenário XX: Consulta Atualizada via Search na Web (#UC02)
+## Cenário 07: Consulta Atualizada via Search na Web (#UC02)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
@@ -315,7 +348,7 @@ Pedro pretende usar a aba “Search” do DeepSeek para fazer uma busca na web, 
 
 ---
 
-## Cenário XX: Iteração de Resposta com Opções Disponíveis Para Resposta (like, dislike, regenerate, copy) (#UC03)
+## Cenário 08: Iteração de Resposta com Opções Disponíveis Para Resposta (like, dislike, regenerate, copy) (#UC03)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
@@ -348,9 +381,7 @@ Decide iterar usando “Dislike + Regenerate” até que o resultado atenda ao e
 **Avaliação:**
 Mariana compara mentalmente cada iteração com seu padrão de clareza; quando atingir fluxo e precisão, encerra as regenerações.
 
----
-
-## Cenário XX: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
+## Cenário 09: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
@@ -379,13 +410,10 @@ Decide utilizar o DeepSeek com a função de **Pensamento Profundo** para tentar
 * No chat aparecem o raciocínio da IA linha por linha.
 * Aparece a opção de ocultar os "pensamentos" da IA para exibir apenas a resposta final.
 
-
 **Avaliação:**
 Gauss compara a resolução do exercício com as suas de seu caderno para garantir que o modelo do DeepSeek utilizou os mesmos conceitos aprendidos em cálculo 1.
 
----
-
-## Cenário XX: Opção de Interromper Resposta em Andamento
+## Cenário 10: Opção de Interromper Resposta em Andamento
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
@@ -420,9 +448,7 @@ João decide utilizar o app DeepSeek para pedir explicações de como pode utili
 **Avaliação:**
 João percebe que a mensagem interrompida estava explicando sobre outra tecnologia, assim, o seu cancelamento foi útil, pois poupou tempo que gastaria lendo um texto que não se aplicava para seu projeto.
 
----
-
-## Cenário XX: Visualização em Tempo Real do Status do Servidor
+## Cenário 11: Visualização em Tempo Real do Status do Servidor
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
@@ -430,7 +456,6 @@ Clarice, estudante de engenharia da computação do sétimo semestre, está esta
 
 **Ambiente (Contexto):**
 Clarice está no escritório de sua empresa em frente o computador, está cercada de notas de aula sobre normalização de bancos de dados. Ela percebe ao analisar o modelo relacional, que uma das tabelas parece estar ferindo a terceira forma normal. Então decide tirar dúvidas com o DeepSeek para se assegurar que a tabela está realmente incorreta.
-
 
 **Objetivos:**
 
@@ -456,6 +481,116 @@ Clarice olha mais uma vez as suas notas de aula, procura a definição de tercei
 
 Clarice lê a mensagem dizendo que o servidor está em manutenção, fecha o aplicativo e decide procurar respostas em outra IA.
 
+## Cenário 12: Utilização do tutorial prático
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+**Atores:**  
+Joana, 22 anos, estagiária de design de produto em uma startup de tecnologia voltada para educação. Está fazendo curso superior em Design e possui proficiência intermediária em ferramentas digitais. Está começando a utilizar o DeepSeek para criar fluxos para um projeto de chat de IA da empresa e busca entender a lógica e os recursos da plataforma antes de começar o seu projeto.
+
+**Ambiente (Contexto):**  
+Sentada no escritório, com conexão Wi-Fi estável e pouco tempo disponível, Joana acessa o DeepSeek pela primeira vez e é direcionada ao painel principal. Quer entender rapidamente como a plataforma funciona para não perder tempo em testes manuais.
+
+**Objetivos:**
+
+- Aprender o básico da plataforma de forma guiada.  
+- Entender como iniciar um chat, dar comandos e revisar respostas.  
+- Ter uma maior da interação do usuário com chats de IA.  
+
+**Planejamento:**  
+Joana opta por seguir o tutorial oferecido na tela inicial ao invés de explorar por conta própria. Acredita que o passo a passo vai economizar tempo e evitar erros comuns de iniciantes.
+
+**Ações:**
+
+- Acessa o DeepSeek e clica em “Ver Tutorial”.  
+- Lê a introdução sobre o propósito da ferramenta.  
+- Passa por seções como: “Como iniciar um chat”, “Como dar comandos claros” e “Regenerar respostas”.  
+- Interage com exemplos demonstrativos e simulações práticas.  
+- Finaliza o tutorial clicando em “Concluir” e é redirecionada ao painel principal.  
+
+**Eventos:**
+
+- Durante o tutorial, o sistema apresenta dicas visuais e animações que destacam elementos da interface.  
+- Um marcador de progresso exibe a etapa atual e quanto falta para terminar.  
+- Ao concluir, uma notificação confirma o término e sugere iniciar o primeiro chat real.  
+
+**Avaliação:**
+
+- Joana sente-se segura para começar a usar a ferramenta de forma prática.  
+- Considera o conteúdo claro e bem dividido em etapas curtas.  
+- Acredita que o tutorial economizou tempo e reduziu a curva de aprendizado.
+
+## Cenário 13: Limpeza do histórico de conversas
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+**Atores:**  
+Henrique, 31 anos, gerente de inovação em uma empresa de tecnologia, com formação em Engenharia de Software. Usa o DeepSeek diariamente para brainstorms técnicos, geração de documentação e simulação de conversas com IA. Valoriza organização e privacidade nos dados utilizados.
+
+**Ambiente (Contexto):**  
+Durante uma revisão semanal de atividades em seu escritório, com conexão estável, Henrique percebe que acumulou muitas conversas antigas no DeepSeek. Para manter o ambiente limpo e evitar confusão futura, decide apagar todo o histórico de conversas.
+
+**Objetivos:**
+
+- Apagar o histórico completo de conversas antigas.  
+- Garantir que nenhum dado sensível fique armazenado.  
+- Organizar o ambiente na plataforma.  
+
+**Planejamento:**  
+Henrique opta por usar a função de “Limpar Histórico” oferecida pela plataforma. Sabe que o sistema exige confirmação, o que evita exclusões acidentais.
+
+**Ações:**
+
+- Acessa o DeepSeek pela interface web.  
+- Navega até a aba de histórico de conversas.  
+- Clica em “Limpar Histórico”.  
+- O sistema exibe uma janela de confirmação: “Tem certeza que deseja apagar todas as conversas?”  
+- Henrique clica em “Sim”.  
+- As conversas são permanentemente removidas.  
+
+**Eventos:**
+
+- Uma notificação é exibida: “Histórico apagado com sucesso.”  
+- O histórico agora aparece vazio e a tela inicial é atualizada.  
+
+**Avaliação:**
+
+- Henrique valida que todas as conversas antigas foram de fato apagadas.  
+- Henrique considera o fluxo claro e a confirmação foi essencial para evitar exclusões acidentais.
+
+## Cenário 14: Resumo de Vídeos do YouTube
+**Autor:** [Mateus](https://github.com/MVConsorte)  
+
+**Ator(es):**  
+Toni, 30 anos, profissional de tecnologia, usuário frequente do DeepSeek, interessado em ferramentas de automação para consumo otimizado de conteúdo.  
+
+**Ambiente (Contexto):**  
+Toni está no escritório, utilizando seu **smartphone com o aplicativo DeepSeek**. Durante uma pausa no trabalho, deseja consumir rapidamente o conteúdo de um vídeo do YouTube sem precisar assisti-lo inteiro. Ele está conectado à internet por Wi-Fi e quer um resumo do vídeo para decidir se vale a pena assisti-lo na íntegra.  
+
+**Objetivos:**  
+- Gerar um **resumo** de um vídeo do YouTube.  
+- Consumir rapidamente as informações mais relevantes do vídeo sem precisar assisti-lo por completo.  
+
+**Planejamento:**  
+Toni decide utilizar o DeepSeek para **importar um link do YouTube** e gerar um resumo automático. Ele entende que, com essa funcionalidade, poderá obter insights rápidos do conteúdo antes de dedicar tempo ao vídeo completo.  
+
+**Ações:**  
+1. Toni abre o **DeepSeek** e acessa o chat.  
+2. Insere um **link de vídeo do YouTube** no campo de texto.  
+3. Identifica o **botão "Resumir"** abaixo da barra de texto e clica nele.  
+4. O sistema verifica a validade do link e se o vídeo está acessível.  
+5. O sistema processa o vídeo e obtém informações como **título, descrição e transcrição** (caso disponível).  
+6. O sistema aplica **técnicas de processamento de áudio** para separar **voz, música e ruídos de fundo**.  
+7. A IA analisa padrões do discurso utilizando **processamento de linguagem natural (NLP)** para detectar os principais temas do vídeo.  
+8. O sistema gera um **resumo estruturado** do vídeo e exibe o resultado no chat para Toni.  
+
+**Eventos:**  
+- O usuário vê um indicador de carregamento enquanto o DeepSeek está analisando o conteúdo do vídeo e processando o áudio e o texto do mesmo.  
+- Após a conclusão, o resumo gerado aparece no chat, permitindo Toni decidir se deseja assistir ao vídeo completo.  
+
+**Avaliação:**  
+- Toni lê o resumo e compara com a expectativa de informação desejada.  
+- Se o resumo for satisfatório, **economiza tempo**, evitando a necessidade de assistir ao vídeo inteiro.  
+- Caso identifique informações relevantes, pode optar por **assistir ao vídeo completo** para aprofundar o conhecimento sobre o tema.  
+
 ---
 
 ## Bibliografia
@@ -475,3 +610,6 @@ Interação Humano-Computador e Experiência do usuário.
 | 16/05/2025 |  1.5   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Davi Emanuel](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
 | 16/05/2025 |  1.6   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Luiz](https://github.com/luizfaria1989)   | [@Davi Emanuel](https://github.com/daviRolvr) |
 | 17/05/2025 |  1.7   | (#CO2) Incrementa parte da documentação sobre cenários.| [@fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
+| 17/05/2025 |  1.8   | (#CO4) Incrementa parte da documentação sobre cenários.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@gaubiela](https://github.com/gaubiela) |
+| 18/05/2025 |  1.9   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Ana Borges](https://github.com/anabborges)   | [@Luiz](https://github.com/luizfaria1989) |
+| 18/05/2025 |  1.10  | (#CO2) Incrementa parte da documentação sobre cenários e corrige indexação dos cenários.| [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |

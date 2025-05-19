@@ -27,7 +27,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ## Léxicos
 
-### Léxico para UC01 (Upload de Documento)
+### Léxico para UC06 (Upload de Documento)
 
 | ID        | Noção               | Impacto                                                       | Classificação | Dicionário                      | Rastreamento |
 | --------- | ------------------- | ------------------------------------------------------------- | ------------- | ------------------------------- | ------------ |
@@ -41,7 +41,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
-### Léxico para UC02 (Consulta Atualizada via Search na Web)
+### Léxico para UC07 (Consulta Atualizada via Search na Web)
 
 | ID        | Noção     | Impacto                                                        | Classificação | Dicionário                 | Rastreamento |
 | --------- | --------- | -------------------------------------------------------------- | ------------- | -------------------------- | ------------ |
@@ -56,7 +56,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
-### Léxico para UC03 (Iteração de Resposta com Feedback)
+### Léxico para UC08 (Iteração de Resposta com Feedback)
 
 | ID        | Noção      | Impacto                                                                      | Classificação | Dicionário            | Rastreamento |
 | --------- | ---------- | ---------------------------------------------------------------------------- | ------------- | --------------------- | ------------ |
@@ -72,49 +72,35 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ---
 
-### Léxico para UCXX (Integração com Plataformas Externas) - (#RF37)
+### Léxico para UC02 (Integração com Plataformas Externas) - (#RF37)
 
 
 
 | ID          | Noção                         | Impacto                                                                                  | Classificação |  Dicionário |Rastreamento                            |
 |-------------|-------------------------------|-------------------------------------------------------------------------------------------|----------------|------------ |----------------------------------------|
-| L-UC04-01   | Integração com Plataformas Externas | Ampliará o escopo de busca, exigindo gerenciamento de permissões, tokens de acesso e segurança de dados. | Verbo         | Conectar, Integrar, Vincular           |UC04        |
-| L-UC04-02   | Token de Acesso                | Elemento de autenticação que garante segurança na comunicação com plataformas externas.  | Objeto        | Chave, Autenticação, Credencial        |UC04        |
-| L-UC04-03   | Permissão                      | Define o que pode ser acessado ou manipulado nas plataformas externas.                   | Objeto        | Acesso, Autorização, Controle          |UC04        |
-| L-UC04-04   | Plataforma Externa             | Sistemas ou serviços de terceiros conectados ao DeepSeek para busca de dados.            | Objeto        | API, Serviço, Repositório              |UC04        |
-| L-UC04-05   | Segurança de Dados             | Conjunto de práticas e mecanismos que protegem os dados acessados externamente.          | Objeto        | Criptografia, Proteção, Privacidade    |UC04        |
-| L-UC04-06   | Fonte Autorizada               | Origem de dados validada pelo usuário para integração com o sistema.                     | Objeto        | Origem confiável, Autorização, Fonte   |UC04        |
+| L-UC02-01   | Integração com Plataformas Externas | Ampliará o escopo de busca, exigindo gerenciamento de permissões, tokens de acesso e segurança de dados. | Verbo         | Conectar, Integrar, Vincular           |UC02        |
+| L-UC02-02   | Token de Acesso                | Elemento de autenticação que garante segurança na comunicação com plataformas externas.  | Objeto        | Chave, Autenticação, Credencial        |UC02        |
+| L-UC02-03   | Permissão                      | Define o que pode ser acessado ou manipulado nas plataformas externas.                   | Objeto        | Acesso, Autorização, Controle          |UC02        |
+| L-UC02-04   | Plataforma Externa             | Sistemas ou serviços de terceiros conectados ao DeepSeek para busca de dados.            | Objeto        | API, Serviço, Repositório              |UC02        |
+| L-UC02-05   | Segurança de Dados             | Conjunto de práticas e mecanismos que protegem os dados acessados externamente.          | Objeto        | Criptografia, Proteção, Privacidade    |UC02        |
+| L-UC02-06   | Fonte Autorizada               | Origem de dados validada pelo usuário para integração com o sistema.                     | Objeto        | Origem confiável, Autorização, Fonte   |UC02        |
 
 <div align="center">
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
 </div>
 
 ---
-
-### Léxico para UCXX (Explicação de Fontes) - (#RF14)
-
-
-| ID          | Noção                   | Impacto                                                                                               | Classificação | Dicionário    |Rastreamento                     |
-|-------------|-------------------------|--------------------------------------------------------------------------------------------------------|----------------|------------------------------------|------------------|
-| L-UC05-01   | Explicação de Fontes    | Melhora a transparência do sistema e a confiança do usuário, mas exige mecanismos de explicação robustos. | Verbo         | Justificar, Esclarecer, Informar  |UC05  
-| L-UC05-02   | Transparência           | Grau de clareza e abertura nas decisões do sistema sobre os resultados exibidos.                      | Objeto        | Clareza, Visibilidade, Abertura    |UC05  
-| L-UC05-03   | Confiança do Usuário    | Percepção de segurança e credibilidade gerada ao entender os critérios de seleção dos resultados.     | Objeto        | Segurança, Credibilidade, Certeza  |UC05  
-| L-UC05-04   | Mecanismos de Explicação| Conjunto de métodos ou algoritmos usados para justificar as escolhas do sistema.                      | Objeto        | Algoritmo, Justificativa, Regras   | UC05 
-<div align="center">
-    Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
-</div>
----
-### Léxico para UC06 (Integração com Voz) - (#RF34)
+### Léxico para UC03 (Integração com Voz) - (#RF34)
 
 
 
 | ID        | Noção              | Impacto                                                                 | Classificação | Dicionário                      | Rastreamento |
 |-----------|--------------------|--------------------------------------------------------------------------|----------------|----------------------------------|---------------|
-| L-UC06-01 | Comandar           | Permite que o usuário controle o sistema usando comandos de voz.        | Verbo          | Falar, Instruir, Ordenar         | UC06          |
-| L-UC06-02 | Ouvir              | Ação do sistema de escutar o que o usuário diz.                          | Verbo          | Escutar, Captar áudio            | UC06          |
-| L-UC06-03 | Reconhecimento     | Processo de identificar o que foi dito pelo usuário.                     | Objeto         | Reconhecimento de fala           | UC06          |
-| L-UC06-04 | Responder          | Ato de gerar uma resposta falada ao usuário.                             | Verbo          | Falar, Responder em voz          | UC06          |
-| L-UC06-05 | Acessibilidade     | Melhoria na usabilidade para pessoas com dificuldades de digitação.      | Objeto         | Inclusão, Usabilidade            | UC06          |
+| L-UC03-01 | Comandar           | Permite que o usuário controle o sistema usando comandos de voz.        | Verbo          | Falar, Instruir, Ordenar         | UC03          |
+| L-UC03-02 | Ouvir              | Ação do sistema de escutar o que o usuário diz.                          | Verbo          | Escutar, Captar áudio            | UC03          |
+| L-UC03-03 | Reconhecimento     | Processo de identificar o que foi dito pelo usuário.                     | Objeto         | Reconhecimento de fala           | UC03          |
+| L-UC03-04 | Responder          | Ato de gerar uma resposta falada ao usuário.                             | Verbo          | Falar, Responder em voz          | UC03          |
+| L-UC03-05 | Acessibilidade     | Melhoria na usabilidade para pessoas com dificuldades de digitação.      | Objeto         | Inclusão, Usabilidade            | UC03          |
 <div align="center">
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
 </div>
@@ -163,13 +149,46 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
-### Léxico para UCXX (Acessar configurações para alterar o tema do Sistema)
+### Léxico para UC12 (Tutorial Interativo)
+
+| ID         | Noção                                            | Impacto                                                                 | Classificação | Dicionário                | Rastreamento |
+|------------|--------------------------------------------------|------------------------------------------------------------------------|---------------|---------------------------|--------------|
+| L-UC12-01   | Tutorial                                         | Conjunto de instruções interativas para ensinar o uso da plataforma    | Objeto        | Guia, Manual  | UC12          |
+| L-UC12-02   | Introdução                                       | Explicação sobre o propósito do tutorial                       | Objeto        | Apresentação inicial      | UC12          |
+| L-UC12-03   | Finalizar o Tutorial                          | Ação de concluir o tutorial, permitindo que o usuário retorne à plataforma | Verbo        | Concluir, Terminar        | UC12          |
+| L-UC12-04   | Notificação de Conclusão                        | Aviso exibido ao usuário quando o tutorial é concluído com sucesso     | Objeto        | Alerta, Mensagem final    | UC12          |
+| L-UC12-05   | Sistema                                    | Plataforma utilizada para realizar a interação com o usuário e controlar a limpeza do histórico | Objeto        | DeepSeek, Plataforma      | UC12          |
+| L-UC12-06   | Concluído                                       | Estado em que o tutorial já foi utilizado uma vez pelo usuário                           | Estado       | Finalizado, Assistido        | UC12          |
+
+<div align="center">
+    Autor: <a href="https://github.com/anabborges">@Ana Clara</a>
+</div>
+---
+
+### Léxico para UC13 (Exclusão do histórico de conversas)
+
+| ID         | Noção                                            | Impacto                                                                 | Classificação | Dicionário                | Rastreamento |
+|------------|--------------------------------------------------|------------------------------------------------------------------------|---------------|---------------------------|--------------|
+| L-UC13-01   | Limpar Histórico                                 | Ação de remover todas as conversas do usuário armazenadas no sistema | Verbo        | Apagar, Excluir           | UC13          |
+| L-UC13-02   | Histórico                                       | Registro das conversas antigas realizadas no sistema                  | Objeto        | Conversas antigas        | UC13          |
+| L-UC13-03   | Confirmar                                      | Processo de solicitação de confirmação para garantir que o usuário deseja excluir o histórico | Verbo        | Validar, Autorizar       | UC13          |
+| L-UC13-04   | Mensagem de Confirmação                          | Aviso exibido ao usuário, perguntando se ele tem certeza de que deseja apagar o histórico | Objeto        | Alerta, Aviso | UC13          |
+| L-UC13-05   | Notificação de Sucesso                          | Mensagem exibida após a conclusão bem-sucedida do processo de apagar o histórico | Objeto        | Alerta, Mensagem final    | UC13          |
+| L-UC13-06   | Sistema                                    | Plataforma utilizada para realizar a interação com o usuário e controlar a limpeza do histórico | Objeto        | DeepSeek, Plataforma      | UC13          |
+| L-UC13-07   | Estado do Histórico                             | Condição atual das conversas armazenadas no sistema antes da exclusão | Estado        | Histórico, Registros      | UC13          |
+
+<div align="center">
+    Autor: <a href="https://github.com/anabborges">@Ana Clara</a>
+</div>
+---
+
+### Léxico para UC05 (Acessar configurações para alterar o tema do Sistema)
 
 | ID        | Noção                           | Impacto                                                                                                                                          | Classificação | Dicionário                                    | Rastreamento                        |
 |-----------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------|-------------------------------------|
-| L-UCXX-01 | Tema do Sistema                  | Influencia diretamente a experiência visual, conforto de uso e acessibilidade. Pode impactar também o desempenho em dispositivos com economia de energia. | Estado        | aparência, esquema de cores, layout visual, modo visual | UCXX                 |
-| L-UCXX-02 | Configurações                    | Permite ao usuário adaptar a ferramenta às suas necessidades e preferências, promovendo usabilidade e satisfação.                                 | Objeto        | ajustes, preferências, opções do sistema | UCXX        |
-| L-UCXX-03 | Alterar Tema                     | Garante acessibilidade e conforto visual, além de alinhar a aparência do sistema às preferências do usuário.                                     | Verbo         | mudar visual, trocar modo de exibição, personalizar interface | UCXX                 |
+| L-UC05-01 | Tema do Sistema                  | Influencia diretamente a experiência visual, conforto de uso e acessibilidade. Pode impactar também o desempenho em dispositivos com economia de energia. | Estado        | aparência, esquema de cores, layout visual, modo visual | UC05                 |
+| L-UC05-02 | Configurações                    | Permite ao usuário adaptar a ferramenta às suas necessidades e preferências, promovendo usabilidade e satisfação.                                 | Objeto        | ajustes, preferências, opções do sistema | UC05        |
+| L-UC05-03 | Alterar Tema                     | Garante acessibilidade e conforto visual, além de alinhar a aparência do sistema às preferências do usuário.                                     | Verbo         | mudar visual, trocar modo de exibição, personalizar interface | UC05                 |
 
 
 <div align="center">
@@ -177,17 +196,63 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
+## Léxico para UC04 (Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek)
+
 | ID        | Noção                  | Impacto                                                                                           | Classificação | Dicionário                                 | Rastreamento |
 | --------- | ---------------------- | ------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------ | ------------ |
-| L-UCXX-01 | Modelo de IA           | Versão específica de um sistema de inteligência artificial com características distintas.        | Objeto        | R1, R2, R3, versão, instância              | UCXX        |
-| L-UCXX-02 | Selecionar             | Ação de escolher um modelo de IA dentre as opções disponíveis no DeepSeek.                       | Verbo         | Escolher, trocar, alterar, definir         | UCXX         |
-| L-UCXX-03 | Resposta da IA         | Conteúdo gerado pelo modelo de IA com base em uma entrada do usuário.                           | Objeto        | Texto, saída, solução, análise             | UCXX         |
-| L-UCXX-04 | Comparar respostas     | Ato de analisar diferentes saídas fornecidas pelos modelos para uma mesma pergunta.              | Verbo         | Avaliar, analisar, cotejar, contrastar     | UCXX        |
-| L-UCXX-05 | Experiência de uso     | Vivência do usuário ao interagir com a IA, influenciada pela escolha do modelo.                 | Estado        | Satisfação, controle, fluidez              | UCXX         |
+| L-UC04-01 | Modelo de IA           | Versão específica de um sistema de inteligência artificial com características distintas.        | Objeto        | R1, R2, R3, versão, instância              | UC04        |
+| L-UC04-02 | Selecionar             | Ação de escolher um modelo de IA dentre as opções disponíveis no DeepSeek.                       | Verbo         | Escolher, trocar, alterar, definir         | UC04         |
+| L-UC04-03 | Resposta da IA         | Conteúdo gerado pelo modelo de IA com base em uma entrada do usuário.                           | Objeto        | Texto, saída, solução, análise             | UC04         |
+| L-UC04-04 | Comparar respostas     | Ato de analisar diferentes saídas fornecidas pelos modelos para uma mesma pergunta.              | Verbo         | Avaliar, analisar, cotejar, contrastar     | UC04        |
+| L-UC04-05 | Experiência de uso     | Vivência do usuário ao interagir com a IA, influenciada pela escolha do modelo.                 | Estado        | Satisfação, controle, fluidez              | UC04         |
 
 <div align="center">
     Autor: <a href="https://github.com/fabinsz">@Fabio</a>
 </div>
+---
+
+### Léxico para UC01 (Exclusão automática de dados de upload)
+
+| ID       | Noção                    | Impacto                                                                                    | Classificação | Dicionário                      | Rastreamento |
+| -------- | ------------------------ | ------------------------------------------------------------------------------------------ | ------------- | ------------------------------- | ------------ |
+| L-UC01-01 | Excluir automaticamente  | Ação realizada pelo sistema sem interferência do usuário, para apagar arquivos temporários | Verbo         | Apagar, Remover, Limpar         | UC01         |
+| L-UC01-02 | Dados de Upload          | Arquivos enviados pelo usuário para análise ou uso temporário no sistema                   | Objeto        | Arquivos, Documentos, Entradas  | UC01       |
+| L-UC01-03 | Tempo de retenção        | Período durante o qual os dados de upload permanecem armazenados antes da exclusão         | Estado        | Duração, Intervalo, Período     | UC01       |
+| L-UC01-04 | Sessão do Usuário        | Período ativo de uso da aplicação, durante o qual uploads podem ser realizados             | Estado        | Login, Atividade, Sessão        | UC01      |
+| L-UC01-05 | Armazenamento Temporário | Espaço lógico destinado a guardar arquivos que serão automaticamente excluídos             | Objeto        | Cache, Memória transitória      | UC01       |
+| L-UC01-06 | Processo de verificação  | Rotina automatizada que verifica se o tempo de retenção expirou                            | Processo      | Rotina, Monitoramento, Checagem | UC01      |
+| L-UC01-07 | Log de Exclusão          | Registro interno de que o dado foi excluído automaticamente pelo sistema                   | Objeto        | Registro, Histórico de eventos  | UC01     |
+
+<div align="center">
+    Autor: <a href="https://github.com/anajoyceamorim">@Ana Joyce</a>
+</div>
+
+### Léxico para UC14 (Resumo de Vídeos do YouTube)
+
+| ID        | Noção                 | Impacto                                                       | Classificação | Dicionário                      | Rastreamento |
+| --------- | --------------------- | ------------------------------------------------------------- | ------------- | ------------------------------- | ------------ |
+| L-UC14-01 | Usuário               | Pessoa que interage com o sistema DeepSeek para gerar o resumo de vídeos. | Objeto        | Cliente, operador              | UC14         |
+| L-UC14-02 | Chat                  | Interface do aplicativo onde o usuário interage com o sistema. | Objeto        | Conversa, interface            | UC14         |
+| L-UC14-03 | Link do YouTube       | Endereço de um vídeo válido do YouTube inserido pelo usuário no chat. | Objeto        | URL, vídeo online              | UC14         |
+| L-UC14-04 | Resumo do vídeo       | Texto gerado a partir do conteúdo do vídeo processado pela IA. | Objeto        | Síntese, sumário               | UC14         |
+| L-UC14-05 | Botão "Resumir"       | Elemento interativo que permite ao usuário solicitar o resumo do vídeo. | Objeto        | Atalho, comando                | UC14         |
+| L-UC14-06 | Inserir link          | Ação do usuário ao enviar um link de vídeo do YouTube no chat. | Verbo         | Adicionar, enviar              | UC14         |
+| L-UC14-07 | Clicar no botão "Resumir" | Ação do usuário ao ativar a funcionalidade de resumo. | Verbo         | Pressionar, selecionar         | UC14         |
+| L-UC14-08 | Processar vídeo       | Ação do sistema ao acessar o link e extrair informações do vídeo. | Verbo         | Analisar, interpretar          | UC14         |
+| L-UC14-09 | Gerar resumo          | Processo automatizado realizado pelo sistema para sintetizar o conteúdo do vídeo. | Verbo         | Criar sumário, sintetizar      | UC14         |
+| L-UC14-10 | Usuário logado        | Indica que o usuário autenticou sua conta e pode utilizar funcionalidades do sistema. | Estado        | Autenticado, conectado         | UC14         |
+| L-UC14-11 | Vídeo válido          | Indica que o link enviado refere-se a um vídeo disponível e acessível. | Estado        | Disponível, acessível         | UC14         |
+| L-UC14-12 | Processamento concluído | Estado final após a IA gerar o resumo do vídeo. | Estado        | Finalizado, completo           | UC14         |
+| L-UC14-13 | Erro de rede          | Indica que houve falha na conexão com a internet. | Estado        | Falha de conexão, offline      | UC14         |
+| L-UC14-14 | Link inválido         | Indica que o link inserido pelo usuário está corrompido ou não existe. | Estado        | URL incorreta, erro de link    | UC14         |
+| L-UC14-15 | Vídeo indisponível    | Indica que o vídeo foi removido, privado ou restrito. | Estado        | Removido, inacessível          | UC14         |
+| L-UC14-16 | Falha na geração do resumo | Indica que ocorreu um erro no processamento do vídeo. | Estado        | Erro de processamento, falha na síntese | UC14         |
+| L-UC14-17 | Alucinação de IA      | Indica que o sistema gerou um resumo incorreto ou sem fundamento. | Estado        | Erro de interpretação, resposta incorreta | UC14         |
+
+<div align="center">
+    Autor: <a href="https://github.com/MVConsorte">@Mateus</a>
+</div>
+
 ---
 
 ## Bibliografia
@@ -195,6 +260,10 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 > SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 10/05/2025.
 
 > SAYÃO, Miriam, CARVALHO, Gustavo. Construção do léxico de aplicações. Information and Human Language Technology, 4th Workshop, Ribeirão Preto, 2006. Disponível em: http://www.nilc.icmc.usp.br/til/til2006/0030.pdf. Acesso em: 10/05/2025.
+
+> JIMENEZ, Magda Alexandra Trujillo. Summarization of video from Feature Extraction Method using Image Processing & Artificial Intelligence [em linha]. 2018.
+
+> SUN, Maojin. An intelligent retrieval method for audio and video content: deep learning technology based on artificial intelligence. IEEE Access, 2024.
 
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
@@ -205,3 +274,6 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 14/05/2025 |  1.3   | (#LX01) Adição de conteúdo desenvolvido.  | [@Davi Emanuel](https://github.com/daviRolvr)   | [@Luiz](https://github.com/luizfaria1989) |
 | 17/05/2025 |  1.4   | (#LX01) Adição de conteúdo desenvolvido.  | [@Luiz](https://github.com/luizfaria1989)   | [Davi Emanuel@](https://github.com/daviRolvr) |
 | 17/05/2025 |  1.5  | (#LX01) Adição de conteúdo desenvolvido.  | [@Fabio](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989) |
+| 18/05/2025 |  1.6   | (#LX01) Adição de conteúdo desenvolvido.  | [@Ana Borges](https://github.com/anabborges)   | [Davi Emanuel@](https://github.com/daviRolvr) |
+| 18/05/2025 |  1.7  | (#LX01) Adição de conteúdo desenvolvido. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Luiz](https://github.com/luizfaria1989) |
+| 18/05/2025 |  1.8  | (#LX01) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos léxicos e sua associação com caso de uso. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
