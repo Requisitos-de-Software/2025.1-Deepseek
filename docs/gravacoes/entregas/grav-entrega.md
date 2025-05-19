@@ -29,6 +29,14 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/five3-oZeqE?si=DXgKpnCAxUgymo6K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Entrega 3
+
+### Apresentação Final (18/05)
+
+#### Apresentação Ana Clara Borges
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tv4p-_cwf-E?si=TqA8B7JSnVkIkSe9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 04/04/2025 |  0.1   | (#D03) Documenta apresentações. | [@Gabriela](https://github.com/gaubiela)   | [@Mateus](https://github.com/MVConsorte)|
