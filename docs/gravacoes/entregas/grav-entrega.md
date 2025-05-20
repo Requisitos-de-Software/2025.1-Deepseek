@@ -42,6 +42,9 @@
 ### Inspeções (18/05 - 19/05)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8TmuDwU-Xl0?si=B4slEJ2KLHaLZAJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Inspeção Grupo+1
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O2v-qt2RsAE?si=97aWcy-htBShvktA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 04/04/2025 |  0.1   | (#D03) Documenta apresentações. | [@Gabriela](https://github.com/gaubiela)   | [@Mateus](https://github.com/MVConsorte)|
