@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Esta página é dedicada à lista de Inspeção criada para os artefatos da terceira entrega.
+Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 
 ## Lista de Inspeção
 
@@ -10,27 +10,27 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da terc
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  |         Conformidade       |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
-| 01  | O Github pages possui as especificações dos cenários para o projeto ?                                                                                                                                                       | André Barros de Sales  |   Conforme         |
+| 01  | O Github pages possui as especificações dos cenários para o projeto ?                                                                                                                                                       | André Barros de Sales  |   Não conforme         |
 | 02  | Os cenários possuem elementos básicos de um cenário (Título, Metas/Objetivo, Contexto, Atores, Recursos, Exceção e Episódios) ?                                                                                                  | André Barros de Sales  |   Conforme     |
 | 03  | Os cenários possuem referência bibliográfica da fonte e foto do texto ?                                                                                                                                                          | André Barros de Sales  |  Parcialmente conforme    |
 | 04  | Os léxicos possuem referência bibliográfica da fonte e foto do texto ?                                                                                                                                                           | André Barros de Sales  |  Parcialmente conforme  |
-| 05  | A definição do usuário nos léxicos ?                                                                                                                                                                                            | André Barros de Sales  |  Conforme  |
+| 05  | A definição do usuário nos léxicos ?                                                                                                                                                                                            | André Barros de Sales  |  Não conforme  |
 | 06  | Os léxicos possuem ligações entre si (hiper links) ?                                                                                                                                                                            | André Barros de Sales  |   Conforme    |
 | 07  | Os léxicos utilizam estrutura de dicionário (verbo, objeto, estado) ?                                                                                                                                                           | André Barros de Sales  |  Conforme  |
-| 08  | Existe referência bibliográfica da fonte e foto da referência explicando a estrutura do dicionário ?                                                                                                                             | André Barros de Sales  |  Parcialmente conforme   |
+| 08  | Existe referência bibliográfica da fonte e foto da referência explicando a estrutura do dicionário ?                                                                                                                             | André Barros de Sales  |  Conforme   |
 | 09  | A especificação dos casos de uso ?                                                                                                                                                                                              | André Barros de Sales  |  Conforme |
 | 10  | Os atores principais e atores secundários no diagrama de casos de uso com referência bibliográfica explicando os tipos de atores ?   | André Barros de Sales  |   Parcialmente conforme    |
 | 11  | O ator principal está do lado esquerdo sistema no diagrama de caso de uso com referência explicando esse item de avaliação  ?       | André Barros de Sales  |   Parcialmente conforme    |
-| 12  | Os atores estão foram da caixa de limite do sistema no diagrama de caso de uso? Possui referência explicando esse item de avaliação?     | André Barros de Sales  |  Conforme   |
+| 12  | Os atores estão fora da caixa de limite do sistema no diagrama de caso de uso? Possui referência explicando esse item de avaliação?     | André Barros de Sales  |  Parcialmente conforme   |
 | 13  | A especificação do diagrama de caso de uso (com Nome, Descrição, Atores, PréCondição,Pós-Condição, Fluxo Principal, Fluxo Alternativo e Fluxo de Exceção etc.) com referência bibliográfica explicando a estrtura da especificação ?           | André Barros de Sales  |  Parcialmente conforme      |
 | 14  | No diagrama de Caso de Uso há ao menos um caso de uso com pontos de extensão?    | André Barros de Sales  | Conforme    |
-| 15  | Existe referência bibliográfica da fonte e foto do texto explicando o ponto de extensão?                                                                                                                                       | André Barros de Sales  | Conforme  |
-| 16  | A participação do cliente e/ou persona na validação do Diagrama de Caso de Uso ?      | André Barros de Sales  |  Inconforme   |
-| 17  | A especificação suplementar com referência bibliográfica da fonte e foto do texto explicando o que é especificação suplementar ?    | André Barros de Sales  |   Conforme    |
+| 15  | Existe referência bibliográfica da fonte e foto do texto explicando o ponto de extensão?                                                                                                                                       | André Barros de Sales  | Não conforme  |
+| 16  | A participação do cliente e/ou persona na validação do Diagrama de Caso de Uso ?      | André Barros de Sales  |  Não conforme   |
+| 17  | A especificação suplementar com referência bibliográfica da fonte e foto do texto explicando o que é especificação suplementar ?    | André Barros de Sales  |   Parcialmente conforme    |
 | 18  | O artefato segue o modelo FURPS+?       | André Barros de Sales  |    Conforme   |
-| 19  | O documento especifica o tempo de resposta, no Desempenho?    | André Barros de Sales  |  Parcialmente Conforme   |
-| 20  | O documento especifica qual plataforma o aplicativo pode ser executado?    | André Barros de Sales  |  Parcialmente conforme  |
-| 21  | Todos os requisitos podem ser testados (RF e RNF) ? Identificar quais requisitos não testaáveis/verificáveis ?   | André Barros de Sales  |   Inconforme   |
+| 19  | O documento especifica o tempo de resposta, no Desempenho?    | André Barros de Sales  |   Conforme   |
+| 20  | O documento especifica qual plataforma o aplicativo pode ser executado?    | André Barros de Sales  |  Conforme  |
+| 21  | Todos os requisitos podem ser testados (RF e RNF) ? Identificar quais requisitos não testáveis/verificáveis ?   | André Barros de Sales  |   Parcialmente conforme   |
 
 ### Tabela 2 - Verificação do diagrama de casos de uso
 
@@ -43,7 +43,7 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da terc
 | LUC05  | O ator é uma pessoa, organização ou um sistema?     | Luiz  | Conforme |
 | LUC06  | O ator está representado por um boneco palito?     | Luiz  | Conforme |
 | LUC07  | Os atores estão fora do sistema?       | Luiz  | Conforme |
-| LUC08  | Os nomes dos atores não são específicos?  | Luiz  | Conforme |
+| LUC08  | Os nomes dos atores são não específicos?  | Luiz  | Conforme |
 | LUC09  | Os atores primários estão representados do lado esquerdo do sistema?  | Luiz  | Conforme |
 | LUC10  | Os atores secundários estão representados do lado direito do sistema?  | Luiz  | Conforme |
 | LC11  | O caso de uso está representado por uma elipse?    | Luiz  | Conforme |
@@ -54,21 +54,21 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da terc
 | LUC16  | As associações estão representadas por uma linha sólida?      | Luiz  | Conforme |
 | LUC17  | As inclusões estão representadas por uma linha tracejada com seta voltada para o caso de uso incluído e com o texto <<incluir>>?    | Luiz  | Conforme |
 | LUC18  | As extensões estão representadas por uma linha tracejada com seta voltada para o caso de uso base e com o texto <<estender>>?     | Luiz  | Conforme |
-| LUC19  | As generalizações estão representadas por uma seta do caso secundário para o primário?    | Luiz  | Conforme |
+| LUC19  | As generalizações estão representadas por uma seta do caso secundário para o primário?    | Luiz  | Não se aplica |
 | LUC20  | O caso de uso com pontos de extensão leva para casos de uso estendidos?   | Luiz  | Conforme |
 
 ### Tabela 3 - Verificação dos cenários
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
-| LC01  | O cenário projeta uma descrição concteta de uma atividade que o usuário engaja no momento em que está realizando uma tarefa ?específica    | Luiz  |  Conforme    |
+| LC01  | O cenário projeta uma descrição concreta de uma atividade que o usuário engaja no momento em que está realizando uma tarefa ?específica    | Luiz  |  Conforme    |
 | LC02  | O cenário possui título ?   | Luiz  |  Conforme     |
 | LC03  | O cenário possui metas ou objetivos ?     | Luiz  | Conforme  |
 | LC04  | O cenário possui contexto ?     | Luiz  |  Conforme  |
 | LC05  | O cenário possui ator(es) ?     | Luiz  |  Conforme      |
-| LC06  | O cenário possui recursos ?     | Luiz  |   Inconforme     |
-| LC07  | O cenário possui exceção ?  | Luiz  |  Inconforme |
-| LC08  | O cenário possui episódios ?   | Luiz  | Inconforme    |
+| LC06  | O cenário possui recursos ?     | Luiz  |   Conforme     |
+| LC07  | O cenário possui exceção ?  | Luiz  |  Conforme |
+| LC08  | O cenário possui episódios ?   | Luiz  | Conforme    |
 
 ### Tabela 4 - Verificação dos léxicos
 
@@ -90,4 +90,5 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da terc
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 18/05/2025 |  1.0   | (#D04) Criação da página das listas de Inspeção com as listas de verificação.| [@Luiz](https://github.com/luizfaria1989)  [`@Ana Joyce`](https://github.com/anajoyceamorim) | [`@Ana Borges`](https://github.com/anabborges), [`@Ana Joyce`](https://github.com/anajoyceamorim), [`@Fabio`](https://github.com/fabinsz), [`@Gabriela`](https://github.com/gaubiela), [`@Luiz`](https://github.com/luizfaria1989), [`@Mateus`](https://github.com/MVConsorte) |
+| 18/05/2025 |  1.0   | (#D04) Criação da página das listas de Inspeção com as listas de verificação.| [@Luiz](https://github.com/luizfaria1989)  [`@Ana Joyce`](https://github.com/anajoyceamorim) | [`@Ana Borges`](https://github.com/anabborges), [`@Ana Joyce`](https://github.com/anajoyceamorim), [`@Fabio`](https://github.com/fabinsz), [`@Gabriela`](https://github.com/gaubiela), [`@Luiz`](https://github.com/luizfaria1989), [`@Mateus`](https://github.com/MVConsorte), [@Davi Emanuel](https://github.com/daviRolvr) |
+| 19/05/2025 |  1.1   | (#D04) Preenchimento da lista de inspeção.| [@Luiz](https://github.com/luizfaria1989) | [@Davi Emanuel](https://github.com/daviRolvr),  [`@Fabio`](https://github.com/fabinsz), [`@Gabriela`](https://github.com/gaubiela), [`@Mateus`](https://github.com/MVConsorte) |
