@@ -75,6 +75,7 @@ nav:
     - Casos de Uso: 'modelagem/casos-de-uso.md'
     - Léxicos: 'modelagem/lexicos.md'
     - Especificação Suplementar: 'modelagem/especificacao-suplementar.md'
+    - NFR Framework: 'modelagem/nfr-framework.md'
 
   - Verificação:
     - Segunda Entrega: 'verificacao/segunda-entrega.md'
