@@ -75,6 +75,7 @@ nav:
     - Casos de Uso: 'modelagem/casos-de-uso.md'
     - Léxicos: 'modelagem/lexicos.md'
     - Especificação Suplementar: 'modelagem/especificacao-suplementar.md'
+    - Histórias de Usuário: 'modelagem/historias-de-usuario.md'
 
   - Verificação:
     - Segunda Entrega: 'verificacao/segunda-entrega.md'
