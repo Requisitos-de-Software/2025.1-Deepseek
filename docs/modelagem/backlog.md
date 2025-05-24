@@ -12,7 +12,7 @@ Neste projeto, o gerente do produto será uma pessoa externa ao projeto, mas, qu
 
 ## Features
 
-## Bibliografia
+## Referência Bibliográfica
 
 >  <a id="REF1" href="#anchor_1">1.</a> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 73. [`Foto da referência`](../images/backlog/definicao-backlog.png)
 
@@ -20,6 +20,6 @@ Neste projeto, o gerente do produto será uma pessoa externa ao projeto, mas, qu
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 22/05/2025 |  1.0   | (#B01) Criação do documento do Backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
-| 23/05/2025 |  1.1   | (#B01) Adição da introdução do artefato.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
-| 23/05/2025 |  1.2   | (#B01) Adição da referência da definição de Backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
+| 22/05/2025 |  1.0   | (#B01) Criação do documento do Backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
+| 23/05/2025 |  1.1   | (#B01) Adição da introdução do artefato.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
+| 23/05/2025 |  1.2   | (#B01) Adição da referência da definição de Backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
