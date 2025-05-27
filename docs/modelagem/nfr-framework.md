@@ -80,6 +80,45 @@ Esses rótulos estão ilustrados na Figura 3.
 
 ## Metodologia
 
+## Lista de Requisitos 
+
+
+| ID       | Descrição resumida                                                                  | Tipo de Softgoal                  |
+| -------- | ----------------------------------------------------------------------------------- | --------------------------------- |
+| **RF03** | Upload de arquivos até 10 MB com OCR em < 35 s                                      | Operacionalização (métrica clara) |
+| **RF06** | Melhorar capacidades de “deep thinking”                                             | Afirmação (vago, sem métrica)     |
+| **RF14** | Exibir citações de fontes (pág., site ou trecho)                                    | Afirmação                         |
+| **RF17** | Regenerar resposta em caso de erro sem recarregar a página                          | Afirmação                         |
+| **RF18** | Exibir respostas em Markdown com edição de tabelas/listas complexas                 | Afirmação                         |
+| **RF19** | Interromper respostas em andamento                                                  | Afirmação                         |
+| **RF21** | Autenticação via token de acesso                                                    | Afirmação                         |
+| **RF22** | Confirmação para limpar o histórico                                                 | Afirmação                         |
+| **RF24** | Criptografia TLS em trânsito e AES-256 em repouso                                   | Afirmação                         |
+| **RF25** | Controle de compartilhamento de dados pelo usuário                                  | Afirmação                         |
+| **RF26** | Autenticação multifator opcional                                                    | Afirmação                         |
+| **RF27** | Modo escuro/claro com sincronização automática ao SO                                | Afirmação                         |
+| **RF28** | Tutorial interativo na primeira execução                                            | Afirmação                         |
+| **RF30** | Melhorar retenção de contexto em diálogos longos                                    | Afirmação                         |
+| **RF35** | Tooltip do título ao passar o mouse na barra lateral                                | Afirmação                         |
+| **RF36** | Instruções claras de OCR na interface de envio de imagens                           | Afirmação                         |
+| **RN01** | Uso da arquitetura DeepSeek-V3                                                      | Afirmação                         |
+| **RN02** | Versões para Android e iOS                                                          | Afirmação                         |
+| **RN03** | Histórico de conversas por 30 dias (não persistente sem salvar)                     | Afirmação                         |
+| **RN04** | Exclusão automática de dados de upload                                              | Afirmação                         |
+| **RN05** | Interface seguindo diretrizes de usabilidade e acessibilidade                       | Afirmação                         |
+| **RN06** | Mensagens de erro claras em caso de falha                                           | Afirmação                         |
+| **RN07** | Suportar múltiplas requisições simultâneas sem degradação                           | Afirmação                         |
+| **RN08** | Processamento de arquivos grandes (PDF/DOCX) em ≤ 10 s e operações simples em ≤ 2 s | Operacionalização (métrica clara) |
+| **RN09** | Informar claramente onde e como os dados são armazenados                            | Afirmação                         |
+| **RN10** | Opt-in/out para uso de dados em re-treinamento ou venda de modelos                  | Afirmação                         |
+| **RN12** | Estabilidade na geração de conteúdo pesado (PDF, cálculos)                          | Afirmação                         |
+| **RN13** | ≥ 95 % dos usuários avaliando usabilidade como “Fácil” ou “Muito fácil”             | Operacionalização (métrica clara) |
+| **RN14** | ≥ 90 % de concordância em “Interface clara e agradável”                             | Operacionalização (métrica clara) |
+| **RN15** | ≤ 5 % dos usuários relatando dificuldade em encontrar opções/ferramentas            | Operacionalização (métrica clara) |
+
+* **Softgoal de Afirmação**: enunciados qualitativos, sem critério de satisfação mensurável definido.
+* **Softgoal de Operacionalização**: já vem com métricas precisas que permitem testar sua satisfação.
+
 ## Cartões de Especificação
 
 ## Referência Bibliográfica
@@ -104,3 +143,4 @@ Esses rótulos estão ilustrados na Figura 3.
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 22/05/2025 |  1.0   | (#NFR01) Criação do documento NFR Framework.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 23/05/2025 |  1.1  | (#NFR01) Adição da introdução e do texto explicando o NFR Framework.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
+| 27/05/2025 |  1.2  | (#NFR01) Identifica requisitos alvo para NFR Framework.| [`@Gabriela`](https://github.com/gaubiela)   | --  |
