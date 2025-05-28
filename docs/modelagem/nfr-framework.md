@@ -80,8 +80,14 @@ Esses rótulos estão ilustrados na Figura 3.
 
 ## Metodologia
 
-## Lista de Requisitos 
+## Tabela de Contribuições
 
+| Contribuinte | Descrição                                            | Links                                                                                                                 |
+| ------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Gabriela     | Criação dos cartões de especificação CNFR01 a CNFR06 | [CNFR01](#cnfr01) · [CNFR02](#cnfr02) · [CNFR03](#cnfr03) · [CNFR04](#cnfr04) · [CNFR05](#cnfr05) · [CNFR06](#cnfr06) |
+
+
+## Lista de Requisitos 
 
 | ID       | Descrição resumida                                                                  | Tipo de Softgoal                  |
 | -------- | ----------------------------------------------------------------------------------- | --------------------------------- |
@@ -108,7 +114,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | **RN05** | Interface seguindo diretrizes de usabilidade e acessibilidade                       | Afirmação                         |
 | **RN06** | Mensagens de erro claras em caso de falha                                           | Afirmação                         |
 | **RN07** | Suportar múltiplas requisições simultâneas sem degradação                           | Afirmação                         |
-| **RN08** | Processamento de arquivos grandes (PDF/DOCX) em ≤ 10 s e operações simples em ≤ 2 s | Operacionalização (métrica clara) |
+| **RN08** | Processamento de arquivos grandes (PDF/DOCX/XLSX/CSV) em ≤ 10 s e operações simples em ≤ 2 s | Operacionalização (métrica clara) |
 | **RN09** | Informar claramente onde e como os dados são armazenados                            | Afirmação                         |
 | **RN10** | Opt-in/out para uso de dados em re-treinamento ou venda de modelos                  | Afirmação                         |
 | **RN12** | Estabilidade na geração de conteúdo pesado (PDF, cálculos)                          | Afirmação                         |
@@ -120,6 +126,124 @@ Esses rótulos estão ilustrados na Figura 3.
 * **Softgoal de Operacionalização**: já vem com métricas precisas que permitem testar sua satisfação.
 
 ## Cartões de Especificação
+
+A fim de garantir consistência e rigor na definição e no acompanhamento de requisitos não-funcionais, adotaremos o modelo de cartão de especificação proposto por Silva (2019, p. 45) indicado na Figura 4. Esse padrão organiza cada RNF em campos bem definidos, incluindo número sequencial, classificação hierárquica, descrição, justificativa, origem, critério de ajuste, dependências, prioridade, conflitos e histórico de alterações, o que facilita tanto a rastreabilidade quanto a validação dos requisitos ao longo do ciclo de desenvolvimento.
+
+![CARTAO-DE-ESPECIFICACÃO](../images/nfr-framework/cartao-especificacao.png)
+<font size="3"><p style="text-align: center"><b>Figura 4</b> - Cartão de Especificação</p></font>
+
+<a id="cnfr01"></a>
+## CNFR01 – Tempo de resposta OCR para arquivos até 10 MB em < 35 s  
+**Autor:** [`@Gabriela`](https://github.com/gaubiela)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR01                                                                                                |
+| **Classificação**     | Desempenho                                                                                             |
+| **Descrição**         | O sistema deve processar e extrair texto de arquivos de até 10 MB em menos de 35 segundos.             |
+| **Justificativa**     | Garante agilidade no fluxo de trabalho do usuário ao lidar com documentos de tamanho moderado.         |
+| **Origem**            | #RF03                                                                     |
+| **Critério de Ajuste**| Tempo de OCR por arquivo ≤ 35 s                                                                        |
+| **Dependências**      | #RN08                                                              |
+| **Prioridade**        | 8                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 28/05/2025                                                                                   |
+
+---
+
+<a id="cnfr02"></a>
+## CNFR02 – Autenticação via token de acesso  
+**Autor:** [`@Gabriela`](https://github.com/gaubiela)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR02                                                                                                |
+| **Classificação**     | Segurança                                                                                              |
+| **Descrição**         | O sistema deve permitir autenticação de clientes e APIs utilizando token de acesso.                     |
+| **Justificativa**     | Aumenta segurança e interoperabilidade em integrações entre sistemas.                                  |
+| **Origem**            | Requisito funcional original #RF21                                                                     |
+| **Critério de Ajuste**| Validação de token válido antes de conceder acesso                                                     |
+| **Dependências**      | —                                                                                                      |
+| **Prioridade**        | 2                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 28/05/2025                                                                                   |
+
+---
+
+<a id="cnfr03"></a>
+## CNFR03 – Criptografia TLS em trânsito e AES-256 em repouso  
+**Autor:** [`@Gabriela`](https://github.com/gaubiela)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR03                                                                                                |
+| **Classificação**     | Segurança                                                                                              |
+| **Descrição**         | Todos os dados sensíveis devem trafegar via TLS e ser armazenados criptografados com AES-256.          |
+| **Justificativa**     | Protege confidencialidade e integridade dos dados usuários e sistemas.                                  |
+| **Origem**            | #RF24                                                                     |
+| **Critério de Ajuste**| Conexões HTTPS e criptografia AES-256 confirmadas em auditoria                                        |
+| **Dependências**      | —                                                                                                      |
+| **Prioridade**        | 2                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 28/05/2025                                                                                   |
+
+---
+
+<a id="cnfr04"></a>
+## CNFR04 – Processamento de arquivos grandes em ≤ 10 s e operações simples em ≤ 2 s  
+**Autor:** [`@Gabriela`](https://github.com/gaubiela)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR04                                                                                                |
+| **Classificação**     | Desempenho                                                                                             |
+| **Descrição**         | Arquivos grandes (PDF/DOCX/XLSX/CSV) devem ser processados em até 10 s; operações simples em até 2 s.             |
+| **Justificativa**     | Melhora experiência do usuário com documentos volumosos e tarefas rotineiras.                          |
+| **Origem**            | #RN08                                                                                                   |
+| **Critério de Ajuste**| Tempo de processamento medido em ambiente de produção                                                  |
+| **Dependências**      | CNFR01                                                                                                 |
+| **Prioridade**        | 8                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 28/05/2025                                                                                   |
+
+---
+
+<a id="cnfr05"></a>
+## CNFR05 – Suporte a requisições simultâneas sem degradação  
+**Autor:** [`@Gabriela`](https://github.com/gaubiela)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR05                                                                                                |
+| **Classificação**     | Desempenho / Escalabilidade                                                                           |
+| **Descrição**         | O sistema deve suportar múltiplas requisições simultâneas sem degradação perceptível de performance.   |
+| **Justificativa**     | Fundamental para atender picos de uso e manter SLA de respostas rápidas.                              |
+| **Origem**            | #RN07                                                                                                   |
+| **Critério de Ajuste**| 95% de tempo de resposta permanece dentro do limite sob carga                                  |
+| **Dependências**      | CNFR04                                                                                                 |
+| **Prioridade**        | 8                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 28/05/2025                                                                                   |
+
+---
+
+<a id="cnfr06"></a>
+## CNFR06 – Retenção de contexto em diálogos longos  
+**Autor:** [`@Gabriela`](https://github.com/gaubiela)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR06                                                                                                |
+| **Classificação**     | Qualidade de Contexto                                                                                  |
+| **Descrição**         | Melhorar retenção de contexto para manter coerência em diálogos longos.                                |
+| **Justificativa**     | Evita perda de informação e confusão em interações prolongadas com o assistente.                      |
+| **Origem**            | #RF30                                                                                                  |
+| **Critério de Ajuste**| Contexto relevante preservado em ≥ 90 % dos diálogos com > 100 mensagens                             |
+| **Dependências**      | —                                                                                                      |
+| **Prioridade**        | 7                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 28/05/2025                                                                                   |
+
 
 ## Referência Bibliográfica
 
@@ -144,3 +268,5 @@ Esses rótulos estão ilustrados na Figura 3.
 | 22/05/2025 |  1.0   | (#NFR01) Criação do documento NFR Framework.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 23/05/2025 |  1.1  | (#NFR01) Adição da introdução e do texto explicando o NFR Framework.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 27/05/2025 |  1.2  | (#NFR01) Identifica requisitos alvo para NFR Framework.| [`@Gabriela`](https://github.com/gaubiela)   | --  |
+| 28/05/2025 |  1.3  | (#NFR01) Criação de cards 01 a 06 e definição do padrão para os cards.| [`@Gabriela`](https://github.com/gaubiela)   | --  |
+
