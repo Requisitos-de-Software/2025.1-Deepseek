@@ -135,4 +135,4 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 23/05/2025 |  1.1   | (#HUO1) Criação da introdução e do template de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 23/05/2025 |  1.2   | (#HU01) Adição da referência da definição de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 23/05/2025 |  1.3   | (#H02) Adição de conteúdo (Histórias de usuário 06, 07, 08)| [`@Gabriela`](https://github.com/gaubiela)   |  [@Luiz](https://github.com/luizfaria1989) |
-| 23/05/2025 |  1.4   | (#HU02) Adição de conteúdo (Histórias de usuário 09, 10, 11, 12, 13, 14)| [`@Luiz`](https://github.com/luizfaria1989)   |  -- |
+| 23/05/2025 |  1.4   | (#HU02) Adição de conteúdo (Histórias de usuário 09, 10, 11, 12, 13, 14)| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
