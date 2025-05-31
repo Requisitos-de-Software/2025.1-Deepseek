@@ -21,10 +21,100 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | Contribuinte | Descrição                                                            | Links                                           |
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
 | Gabriela     | Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30 | [HU25](#hu25) · [HU26](#hu26) · [HU27](#hu27) · [HU28](#hu28) · [HU29](#hu29) · [HU30](#hu30) |
-
+| Fábio   | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [HU19](#hu19) · [HU20](#hu20) · [HU21](#hu21) · [HU22](#hu22) · [HU23](#hu23) · [HU24](#hu24) |
 
 
 ## Histórias de Usuário
+
+<a id="hu19"></a>
+## HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU19 | Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO              |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo alternar entre os modos claro e escuro manualmente ou automaticamente conforme o sistema operacional, para ter uma experiência visual mais confortável e personalizada. |
+| **Critérios de aceitação** | - Deve ser possível selecionar manualmente entre o modo claro e o modo escuro nas configurações do aplicativo;<br> - O aplicativo deve oferecer uma opção para sincronizar automaticamente o tema com as configurações do sistema operacional;<br> - A mudança de tema deve ser aplicada imediatamente após a alteração;<br> - O tema selecionado (manual ou automático) deve ser mantido nas próximas execuções do aplicativo.|
+| **Rastreabilidade**        |  #RF27                                                                                       |
+| **Prioridade**             | Alta                                                                                       |
+
+---
+
+<a id="hu20"></a>
+## HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU20 | Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)             |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo escolher entre diferentes modelos de IA para poder utilizar a versão mais adequada às minhas necessidades.|
+| **Critérios de aceitação** | - Deve ser possível visualizar uma lista de modelos de IA disponíveis para seleção;<br> - O usuário deve conseguir selecionar manualmente o modelo desejado por meio da interface do aplicativo;<br> - O modelo selecionado deve ser aplicado às próximas interações com o sistema;<br> - O aplicativo deve informar claramente o nome e a descrição de cada modelo.|
+| **Rastreabilidade**        |  #RF32                                                                                       |
+| **Prioridade**             | Média                                                                                     |
+
+---
+
+<a id="hu21"></a>
+## HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU21 | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico          |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo visualizar corretamente o título completo do chat ao passar o mouse sobre o nome na barra lateral de histórico, para identificar facilmente o conteúdo da conversa.|
+| **Critérios de aceitação** | - Ao passar o mouse sobre o nome do chat na barra lateral, deve ser exibido um tooltip com o título completo da conversa;<br> - O tooltip deve aparecer de forma rápida e clara, sem atraso perceptível;<br> - O conteúdo exibido no tooltip deve estar legível e não deve ser cortado ou truncado;<br> - O comportamento deve ser consistente em diferentes navegadores e tamanhos de tela.|
+| **Rastreabilidade**        |  #RF35                                                                                       |
+| **Prioridade**             | Baixa                                                                                     |
+
+---
+
+<a id="hu22"></a>
+## HU22 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU22 | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico          |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo receber instruções claras e contextualizadas sobre o uso de OCR ao enviar uma imagem, para entender como a funcionalidade funciona e o que esperar do resultado.|
+| **Critérios de aceitação** | - A interface de envio de imagens deve exibir instruções sobre o que é OCR e como ele será aplicado à imagem;<br> - As instruções devem ser exibidas de forma clara, concisa e visualmente acessível;<br> - As orientações devem aparecer antes ou durante o envio da imagem, de forma contextualizada;<br> - As instruções devem incluir exemplos de imagens ideais para OCR e limitações conhecidas do recurso.|
+| **Rastreabilidade**        |  #RF36                                                                                       |
+| **Prioridade**             | Média                                                                                   |
+
+---
+
+<a id="hu23"></a>
+## HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU23 | As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.         |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo que as respostas suportem diferentes formatações de texto, como tamanhos variados, linhas, negrito e emojis, para melhorar a clareza, expressividade e compreensão das mensagens.|
+| **Critérios de aceitação** | - As respostas devem permitir o uso de diferentes tamanhos de texto para destacar conteúdos importantes;<br> - Deve ser possível aplicar negrito, itálico e sublinhado nas respostas, conforme necessário;<br> - A formatação deve incluir o uso de emojis para tornar a comunicação mais expressiva;<br> - Deve haver suporte a separação por linhas ou blocos para organizar melhor as informações.|
+| **Rastreabilidade**        |  #RF18 - #ROF12                                                                                       |
+| **Prioridade**             | Baixa                                                                                 |
+
+---
+
+<a id="hu24"></a>
+## HU24 – Retenção de contexto em diálogos longos
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU24 | Retenção de contexto em diálogos longos.         |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo que o sistema mantenha o contexto de conversas longas para que as respostas sejam mais coerentes e relevantes ao longo do diálogo.|
+| **Critérios de aceitação** | - O sistema deve manter o histórico de mensagens anteriores durante um mesmo diálogo;<br> - As respostas devem considerar referências feitas anteriormente pelo usuário no mesmo diálogo;<br> - O limite de contexto deve permitir interações extensas sem perda de informações importantes;<br> - O sistema deve informar ao usuário quando o contexto anterior não puder mais ser mantido por limitações técnicas.|
+| **Rastreabilidade**        |  #RF30                                                                                     |
+| **Prioridade**             | Média                                                                               |
+
+---
 
 <a id="hu25"></a>
 ## HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR
@@ -131,3 +221,4 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 23/05/2025 |  1.2   | (#B01) Adição da referência da definição de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 28/05/2025 |  1.3   | (#H02) Adição de conteúdo (Histórias de usuário 25 a 30)| [`@Gabriela`](https://github.com/gaubiela)   |  -- |
 | 28/05/2025 |  1.4   | (#H02) Insere tabela de contribuições e linkagem de conteúdo| [`@Gabriela`](https://github.com/gaubiela)   |  -- |
+| 30/05/2025 |  1.5   | (#H02) Adição de conteudo historias de usuario (19 a 24)| [`@Fábio](https://github.com/fabinsz)   |  -- |
