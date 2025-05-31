@@ -85,7 +85,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | Contribuinte | Descrição                                            | Links                                                                                                                 |
 | ------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Gabriela     | Criação dos cartões de especificação CNFR01 a CNFR06 | [CNFR01](#cnfr01) · [CNFR02](#cnfr02) · [CNFR03](#cnfr03) · [CNFR04](#cnfr04) · [CNFR05](#cnfr05) · [CNFR06](#cnfr06) |
-
+| Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [CNFR26](#cnfr26) · [CNFR27](#cnfr27) · [CNFR28](#cnfr28) |
 
 ## Lista de Requisitos 
 
@@ -244,6 +244,67 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Conflitos**         | —                                                                                                      |
 | **História**          | Criado em 28/05/2025                                                                                   |
 
+---
+
+<a id="cnfr26"></a>
+## CNFR26 – Regeneração de resposta sem recarregamento da página 
+
+**Autor:** [`@Fábio`](https://github.com/fabinsz)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR26                                                                                                |
+| **Classificação**     | Usabilidade / Desempenho                                                                         |
+| **Descrição**         | O sistema deve permitir regenerar uma resposta em caso de erro sem recarregar a página.  |
+| **Justificativa**     | Evita perda de contexto e melhora a experiência do usuário ao lidar com falhas temporárias.                             |
+| **Origem**            | #RF17                                                                                                   |
+| **Critério de Ajuste**| Regeneração de resposta executada sem reload da interface                                 |
+| **Dependências**      | —                                                                                              |
+| **Prioridade**        | 6                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 30/05/2025                                                                                  |
+
+---
+
+<a id="cnfr27"></a>
+## CNFR27 – Interrupção imediata de respostas em andamento
+
+**Autor:** [`@Fábio`](https://github.com/fabinsz)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR27                                                                                                |
+| **Classificação**     | Usabilidade                                                                          |
+| **Descrição**         | O sistema deve permitir ao usuário interromper imediatamente uma resposta em andamento.  |
+| **Justificativa**     | 	Oferece controle ao usuário sobre a interação, evitando espera desnecessária por respostas indesejadas ou incorretas.                           |
+| **Origem**            | #RF19                                                                                                   |
+| **Critério de Ajuste**| Tempo de interrupção ≤ 1 segundo após ação do usuário                                |
+| **Dependências**      | —                                                                                              |
+| **Prioridade**        | 3                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 30/05/2025                                                                                  |
+
+---
+
+<a id="cnfr28"></a>
+## CNFR28 – Confirmação antes de limpar o histórico
+
+**Autor:** [`@Fábio`](https://github.com/fabinsz)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR28                                                                                                |
+| **Classificação**     | Usabilidade                                                                          |
+| **Descrição**         | O sistema deve solicitar confirmação do usuário antes de executar a ação de limpar o histórico de conversas.  |
+| **Justificativa**     | 		Evita a exclusão acidental de informações importantes, promovendo segurança nas ações do usuário.                           |
+| **Origem**            | #RF22                                                                                                   |
+| **Critério de Ajuste**| Exibição obrigatória de diálogo de confirmação com opção de cancelar                                |
+| **Dependências**      | —                                                                                              |
+| **Prioridade**        | 8                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 30/05/2025                                                                                  |
+
+---
 
 ## Referência Bibliográfica
 
@@ -268,5 +329,6 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 22/05/2025 |  1.0   | (#NFR01) Criação do documento NFR Framework.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 23/05/2025 |  1.1  | (#NFR01) Adição da introdução e do texto explicando o NFR Framework.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 27/05/2025 |  1.2  | (#NFR01) Identifica requisitos alvo para NFR Framework.| [`@Gabriela`](https://github.com/gaubiela)   | --  |
-| 28/05/2025 |  1.3  | (#NFR01) Criação de cards 01 a 06 e definição do padrão para os cards.| [`@Gabriela`](https://github.com/gaubiela)   | --  |
+| 28/05/2025 |  1.3  | (#NFR01) Criação de cards 01 a 06 e definição do padrão para os cards.| [`@Gabriela`](https://github.com/gaubiela)   | [`@Luiz`](https://github.com/luizfaria1989)  |
+| 30/05/2025 |  1.4  | (#NFR01) Criação de cards 26 a 28 | [`@Fábio`](https://github.com/fabinsz)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 
