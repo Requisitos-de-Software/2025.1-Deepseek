@@ -329,6 +329,6 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 22/05/2025 |  1.0   | (#NFR01) Criação do documento NFR Framework.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 23/05/2025 |  1.1  | (#NFR01) Adição da introdução e do texto explicando o NFR Framework.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 27/05/2025 |  1.2  | (#NFR01) Identifica requisitos alvo para NFR Framework.| [`@Gabriela`](https://github.com/gaubiela)   | --  |
-| 28/05/2025 |  1.3  | (#NFR01) Criação de cards 01 a 06 e definição do padrão para os cards.| [`@Gabriela`](https://github.com/gaubiela)   | --  |
-| 30/05/2025 |  1.4  | (#NFR01) Criação de cards 26 a 28 | [`@Fábio`](https://github.com/fabinsz)   | --  |
+| 28/05/2025 |  1.3  | (#NFR01) Criação de cards 01 a 06 e definição do padrão para os cards.| [`@Gabriela`](https://github.com/gaubiela)   | [`@Luiz`](https://github.com/luizfaria1989)  |
+| 30/05/2025 |  1.4  | (#NFR01) Criação de cards 26 a 28 | [`@Fábio`](https://github.com/fabinsz)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 
