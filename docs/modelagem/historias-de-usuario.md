@@ -20,98 +20,180 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 
 | Contribuinte | Descrição                                                            | Links                                           |
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
-| Luiz     | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [HU19](#hu19) · [HU20](#hu20) · [HU21](#hu21) · [HU22](#hu22) · [HU23](#hu23) · [HU24](#hu24) |
+| Luiz     | Criação das histórias de usuário HU13, HU14, HU15, HU16, HU17 e HU18 | [HU13](#hu13) · [HU14](#hu14) · [HU15](#hu15) · [HU16](#hu16) · [HU17](#hu17) · [HU18](#hu18) |
+| Fábio   | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [HU19](#hu19) · [HU20](#hu20) · [HU21](#hu21) · [HU22](#hu22) · [HU23](#hu23) · [HU24](#hu24) |
 | Gabriela     | Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30 | [HU25](#hu25) · [HU26](#hu26) · [HU27](#hu27) · [HU28](#hu28) · [HU29](#hu29) · [HU30](#hu30) |
 
 ## Histórias de Usuário
 
-<a id="hu19"></a>
-## HU19 – Resolver um problema difícil de matemática
+<a id="hu13"></a>
+## HU13 – Resolver um problema difícil de matemática
 
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 | ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HU19                       | Resolver um problema difícil de matemática                                                                                                                                                                                                                                                                                                              |
+| HU13                       | Resolver um problema difícil de matemática                                                                                                                                                                                                                                                                                                              |
 | **Descrição**              | Eu, como Usuário, desejo utilizar funcionalidade pensamento profundo para poder ter acesso a linha de pensamento de como um determinado problema de matemática pode ser resolvido.                                      |
 | **Critérios de aceitação** | - Ao fazer a pergunta no chat e ativar a opção **Pensamento Profundo (R1)** é retornado a resolução do problema de matemática que foi discutido na pergunta com o DeepSeek; <br> - Também é retornado a linha de pensamento que o modelo do DeepSeek utilizou para responder aquela pergunta.  |
 | **Rastreabilidade**        | #RF02                             |
 | **Prioridade**             | Alta                |
 
----
-
-<a id="hu20"></a>
-## HU20 – Visualizar em tempo real o status do servidor
+<a id="hu14"></a>
+## HU14 – Visualizar em tempo real o status do servidor
 
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 | ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HU20                       | Visualizar em tempo real o status do servidor                                                                                                                                                                                                                                                                                                                                 |
+| HU14                       | Visualizar em tempo real o status do servidor                                                                                                                                                                                                                                                                                                                                 |
 | **Descrição**              | Eu, como Usuário, desejo visualizar em tempo real o status do servidor do DeepSeek para decidir se envio a minha pergunta para o DeepSeek agora, ou espero ele estar disponível novamente.                                                        |
 | **Critérios de aceitação** | - Ao criar um novo chat, no topo, será possível ver uma mensagem indicando se o servidor está **disponível/em manutenção/sobrecarregado/indisponível**; <br> - O status do servidor também pode ser atualizado ao clicar na seta ao lado da visualização do status caso o usuário não decida criar um novo chat.|
 | **Rastreabilidade**        | #RF29                             |
 | **Prioridade**             | Não fazer                | 
 
----
-
-<a id="hu21"></a>
-## HU21 – Interromper chat em andamento
+<a id="hu15"></a>
+## HU15 – Interromper chat em andamento
 
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 | ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HU21                      | Interromper chat em andamento                                                                                                                                                                                                                                                                                                                              |
+| HU15                      | Interromper chat em andamento                                                                                                                                                                                                                                                                                                                              |
 | **Descrição**              | Eu, como Usuário, desejo interromper uma resposta que está sendo gerada pela IA para poder economizar meu tempo e poder enviar uma nova mensagem o mais cedo possível.                                                                                   |
 | **Critérios de aceitação** | - Ao fazer uma pergunta, enquanto a resposta está sendo gerada, surge um botão, ao lado da caixa de texto, que tem a funcionalidade de interromper a resposta que está sendo gerada; <br>  - Ao clicar no botão, a resposta é interrompida e no fim dela aparece a mensagem **"Resposta interrompida pelo usuário"**.  |
 | **Rastreabilidade**        | #RF19                             |
 | **Prioridade**             | Baixa                |
 
----
-
-<a id="hu22"></a>
-## HU22 – Autenticar a conta para acessar funcionalidades avançadas
+<a id="hu16"></a>
+## HU16 – Autenticar a conta para acessar funcionalidades avançadas
 
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 | ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HU22                       | Autenticar a conta para acessar funcionalidades avançadas                                                                                                                                                                                                                                                                                                                         |
+| HU16                       | Autenticar a conta para acessar funcionalidades avançadas                                                                                                                                                                                                                                                                                                                         |
 | **Descrição**              | Eu, como Usuário, desejo autenticar a minha conta do DeepSeek para poder acessar funcionalidades avançadas.                                               |
 | **Critérios de aceitação** | - Ao clicar em configurações, na aba funcionalidades avançadas, é possível fazer uma autenticação para acessar funcionalidades avançadas através de um botão escrito **Autenticar conta**; <br> - Nesse botão, o usuário é redirecionado para uma página web do DeepSeek em que é pedido um código numérico de oito dígitos para ser respondido; <br> - Esse código pode ser enviado para o e-mail cadastrado na conta do usuário; <br> - Ao adicionar o código de autenticação a página retorna com uma mensagem dizendo que a conta daquele usuário está autenticada; <br> - Feito isso, quando acessar as configurações, na aba funcionalidades avançadas é possível utilizar uma série de funções avançadas. |
 | **Rastreabilidade**        | #RF26                             |
 | **Prioridade**             | Não fazer                |
 
----
+<a id="hu17"></a>
 
-<a id="hu23"></a>
-## HU23 – Controlar quais dados são compartilhados com a IA
+## HU17 – Controlar quais dados são compartilhados com a IA
 
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 | ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HU23                       | Controlar quais dados são compartilhados com a IA                                                                                                                                                                                                                                                                                                                         |
+| HU17                       | Controlar quais dados são compartilhados com a IA                                                                                                                                                                                                                                                                                                                         |
 | **Descrição**              | Eu, como Usuário, desejo poder controlar quais dos meus dados serão compartilhados para poder garantir maior privacidade.                        |
 | **Critérios de aceitação** | - Ao clicar em configurações, na aba **controle de dados**, é possível acessar vários toggles que indicam quais dados estão ou não estão sendo compartilhadas com a IA, como localização, histórico de pesquisa e chat. <br>  - Quando um toggle é clicado para ligar ele muda de cor, indicando que ele está ligado <br> - Um dado que não está sendo compartilhado possui o toggle com as cores em escala de cinza; <br> - Quando o usuário sair da aba controle de dados aparecerá uma mensagem com a pergunta "Deseja salvar as suas configurações de compartilhamento de dados?"; <br> - se o usuário clicar no botão **salvar configurações** ele sai da aba de controle de dados e as configurações que ele alterou já estarão funcionando normalmente no app; <br> - se o usuário clicar no botão **Não salvar**, suas configurações alteradas irão voltar para o estado anterior de quando ele entrou na aba de controle dados, ele também sái desse menu.|
 | **Rastreabilidade**        | #RF25                             |
 | **Prioridade**             | Média                |
 
----
+<a id="hu18"></a>
 
-<a id="hu24"></a>
-## HU24 – Salvar chat entre plataformas
+## HU18 – Salvar chat entre plataformas
 
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 | ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HU24                       | Salvar chat entre plataformas                                                                                                                                                                                                                                                                                                       |
+| HU18                       | Salvar chat entre plataformas                                                                                                                                                                                                                                                                                                       |
 | **Descrição**              | Eu, como Usuário, desejo salvar os chats do app DeepSeek entre múltiplas plataformas para poder acessar o meu histórico de chats no meu notebook e no meu telefone.
 | **Critérios de aceitação** | - Ao clicar em configurações, é possível ver um toggle com a opção **sincronizar conversas entre plataformas**, quando ativado ele fica colorido, caso esteja desligado ele estará em escala de cinza; <br> - Quando sair do menu configurações aparecerá o pop-up com o texto "Deseja salvar as suas configurações?"; <br> - Ao clicar em **Salvar configurações** ele sairá do menu e voltará para os chats, a partir desse momento seus chats já estarão sendo sincronizados entre plataformas; <br> - Ao clicar em **Não salvar** ele voltará para os chats e suas configurações alteradas não serão salvas; <br> - Considerando que a sincronização de conversas está ativada, ao enviar uma conversa em seu notebook para seu chat no DeepSeek, essa conversa irá aparecer em seu app do telefone em 1 minuto.|
 | **Rastreabilidade**        | #RF05                             |
 | **Prioridade**             | Média                |
+
+
+<a id="hu19"></a>
+## HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU19 | Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO              |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo alternar entre os modos claro e escuro manualmente ou automaticamente conforme o sistema operacional, para ter uma experiência visual mais confortável e personalizada. |
+| **Critérios de aceitação** | - Deve ser possível selecionar manualmente entre o modo claro e o modo escuro nas configurações do aplicativo;<br> - O aplicativo deve oferecer uma opção para sincronizar automaticamente o tema com as configurações do sistema operacional;<br> - A mudança de tema deve ser aplicada imediatamente após a alteração;<br> - O tema selecionado (manual ou automático) deve ser mantido nas próximas execuções do aplicativo.|
+| **Rastreabilidade**        |  #RF27                                                                                       |
+| **Prioridade**             | Alta                                                                                       |
+
+---
+
+<a id="hu20"></a>
+## HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU20 | Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)             |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo escolher entre diferentes modelos de IA para poder utilizar a versão mais adequada às minhas necessidades.|
+| **Critérios de aceitação** | - Deve ser possível visualizar uma lista de modelos de IA disponíveis para seleção;<br> - O usuário deve conseguir selecionar manualmente o modelo desejado por meio da interface do aplicativo;<br> - O modelo selecionado deve ser aplicado às próximas interações com o sistema;<br> - O aplicativo deve informar claramente o nome e a descrição de cada modelo.|
+| **Rastreabilidade**        |  #RF32                                                                                       |
+| **Prioridade**             | Média                                                                                     |
+
+---
+
+<a id="hu21"></a>
+## HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU21 | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico          |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo visualizar corretamente o título completo do chat ao passar o mouse sobre o nome na barra lateral de histórico, para identificar facilmente o conteúdo da conversa.|
+| **Critérios de aceitação** | - Ao passar o mouse sobre o nome do chat na barra lateral, deve ser exibido um tooltip com o título completo da conversa;<br> - O tooltip deve aparecer de forma rápida e clara, sem atraso perceptível;<br> - O conteúdo exibido no tooltip deve estar legível e não deve ser cortado ou truncado;<br> - O comportamento deve ser consistente em diferentes navegadores e tamanhos de tela.|
+| **Rastreabilidade**        |  #RF35                                                                                       |
+| **Prioridade**             | Baixa                                                                                     |
+
+---
+
+<a id="hu22"></a>
+## HU22 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU22 | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico          |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo receber instruções claras e contextualizadas sobre o uso de OCR ao enviar uma imagem, para entender como a funcionalidade funciona e o que esperar do resultado.|
+| **Critérios de aceitação** | - A interface de envio de imagens deve exibir instruções sobre o que é OCR e como ele será aplicado à imagem;<br> - As instruções devem ser exibidas de forma clara, concisa e visualmente acessível;<br> - As orientações devem aparecer antes ou durante o envio da imagem, de forma contextualizada;<br> - As instruções devem incluir exemplos de imagens ideais para OCR e limitações conhecidas do recurso.|
+| **Rastreabilidade**        |  #RF36                                                                                       |
+| **Prioridade**             | Média                                                                                   |
+
+---
+
+<a id="hu23"></a>
+## HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU23 | As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.         |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo que as respostas suportem diferentes formatações de texto, como tamanhos variados, linhas, negrito e emojis, para melhorar a clareza, expressividade e compreensão das mensagens.|
+| **Critérios de aceitação** | - As respostas devem permitir o uso de diferentes tamanhos de texto para destacar conteúdos importantes;<br> - Deve ser possível aplicar negrito, itálico e sublinhado nas respostas, conforme necessário;<br> - A formatação deve incluir o uso de emojis para tornar a comunicação mais expressiva;<br> - Deve haver suporte a separação por linhas ou blocos para organizar melhor as informações.|
+| **Rastreabilidade**        |  #RF18 - #ROF12                                                                                       |
+| **Prioridade**             | Baixa                                                                                 |
+
+---
+
+<a id="hu24"></a>
+## HU24 – Retenção de contexto em diálogos longos
+
+**Autor:** [Fábio](https://github.com/fabinsz)
+
+| ID   | Nome                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------ |
+| HU24 | Retenção de contexto em diálogos longos.         |
+| **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo que o sistema mantenha o contexto de conversas longas para que as respostas sejam mais coerentes e relevantes ao longo do diálogo.|
+| **Critérios de aceitação** | - O sistema deve manter o histórico de mensagens anteriores durante um mesmo diálogo;<br> - As respostas devem considerar referências feitas anteriormente pelo usuário no mesmo diálogo;<br> - O limite de contexto deve permitir interações extensas sem perda de informações importantes;<br> - O sistema deve informar ao usuário quando o contexto anterior não puder mais ser mantido por limitações técnicas.|
+| **Rastreabilidade**        |  #RF30                                                                                     |
+| **Prioridade**             | Média                                                                               |
 
 ---
 
@@ -215,7 +297,9 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 22/05/2025 |  1.0   | (#HUO1) Criação do documento de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 23/05/2025 |  1.1   | (#HUO1) Criação da introdução e do template de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
+<<<<<<< HEAD
 | 23/05/2025 |  1.2   | (#HU01) Adição da referência da definição de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 28/05/2025 |  1.3   | (#H02) Adição de conteúdo (Histórias de usuário 25 a 30)| [`@Gabriela`](https://github.com/gaubiela)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 28/05/2025 |  1.4   | (#H02) Insere tabela de contribuições e linkagem de conteúdo| [`@Gabriela`](https://github.com/gaubiela)   |  [@Luiz](https://github.com/luizfaria1989) |
-| 31/05/2025 |  1.5   | (#H02) Adição de conteúdo (Histórias de usuário 19 a 24)| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
+| 30/05/2025 |  1.5   | (#H02) Adição de conteudo historias de usuario (19 a 24)| [`@Fábio](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
+| 31/05/2025 |  1.6   | (#H02) Adição de conteúdo (Histórias de usuário 13 a 18)| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
