@@ -85,6 +85,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | Contribuinte | Descrição                                            | Links                                                                                                                 |
 | ------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Gabriela     | Criação dos cartões de especificação CNFR01 a CNFR06 | [CNFR01](#cnfr01) · [CNFR02](#cnfr02) · [CNFR03](#cnfr03) · [CNFR04](#cnfr04) · [CNFR05](#cnfr05) · [CNFR06](#cnfr06) |
+| Luiz     | Criação dos cartões de especificação CNFR07 a CNFR012 | [CNFR07](#cnfr07) · [CNFR08](#cnfr08) · [CNFR09](#cnfr09) · [CNFR10](#cnfr10) · [CNFR11](#cnfr11) · [CNFR12](#cnfr12) |
 | Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [CNFR26](#cnfr26) · [CNFR27](#cnfr27) · [CNFR28](#cnfr28) |
 
 ## Lista de Requisitos 
@@ -246,6 +247,120 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 
 ---
 
+<a id="cnfr07"></a>
+## CNFR07 – Tooltip do título ao passar o mouse na barra lateral 
+**Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR07                                                                                                |
+| **Classificação**     | Afirmação                                                                                             |
+| **Descrição**         | Ao passar o cursor do mouse sobre um título de item na barra lateral de conversas, caso o item esteja truncado (parcialmente exibido devido a limitaçõoes de espaço da interface), um tooltip deve ser exibido, apresentando o texto completo daquela conversa com a IA.            |
+| **Justificativa**     | Ao implementar esse requisito, a usabilidade do aplicativo e a experiência do usuário são melhoradas, especialmente para interfaces com pouco espaco e que possuem layout compacto.         |
+| **Origem**            | #RF35                                                                    |
+| **Critério de Ajuste**| O usuário deve ser capaz de observar um tooltip ao passar o mouse por cima de um título que não está totalmente visível no menu de conversas. Essa tooltip deve exibir o título completo daquela conversa, além disso, ela deve desaparecer assim que o usuário retira o cursor daquele título. Por fim, a tooltip não deve aparecer caso o título não esteja cortado pelo menu.                                                                       |
+| **Dependências**      | #RN05                                                             |
+| **Prioridade**        | 5                                                                                                      |
+| **Conflitos**         | -                                                                                                      |
+| **História**          | Criado em 31/05/2025                                                                                   |
+
+---
+
+<a id="cnfr08"></a>
+## CNFR08 – Exclusão automática de dados de upload
+**Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR08                                                                                               |
+| **Classificação**     | Afirmação                                                                                             |
+| **Descrição**         | O sistema deve excluir automaticamente os dados de upload que estão armazenados nos servidores do aplicativo imediatamente após a conclusão do processamento dos dados e envio da resposta da IA para o usuário.            |
+| **Justificativa**     | Garante maior privacidade e controle dos dados que estão serdo compartilhados. Evita que os dados compartilhados sejam utilizandos futuramente para treinar o modelo sem permissão do usuário.         |
+| **Origem**            | #RN04                                                                    |
+| **Critério de Ajuste**| Após finalizar uma resposta, os dados enviados pelo usuário para a IA não devem mais estar acessíveis através de nenhuma interface do sistema. Além disso, os Logs do servidor devem registrar o evento de exclusão automática de dados enviados pelo usuário.                                                                       |
+| **Dependências**      | #RN09                                                             |
+| **Prioridade**        | 6                                                                                                      |
+| **Conflitos**         | -                                                                                                       |
+| **História**          | Criado em 31/05/2025                                                                                   |
+
+--- 
+
+<a id="cnfr09"></a>
+## CNFR09 – Versãoes para Android e IOS
+**Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR09                                                                                               |
+| **Classificação**     | Afirmação                                                                                             |
+| **Descrição**         | O sistema deve possuir versões para os dois principais sistemas operacionais de smartphones: Android e IOS.            |
+| **Justificativa**     | Ao possuir versões para esses dois sistemas operacionais, o número de usuários que poderão baixar e utilizar o aplicativo será maximizado.         |
+| **Origem**            | #RN02                                                                    |
+| **Critério de Ajuste**| O sistema deve estar disponível para versões 5.0 (ou superior) do Android ou IOS 15 (ou superior).                                                                       |
+| **Dependências**      | #RN05                                                             |
+| **Prioridade**        | 10                                                                                                      |
+| **Conflitos**         | -                                                                                                      |
+| **História**          | Criado em 31/05/2025                                                                                   |
+
+---
+
+<a id="cnfr10"></a>
+## CNFR10 – Informar claramente onde e como os dados estão sendo armazenados
+**Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR10                                                                                               |
+| **Classificação**     | Afirmação                                                                                            |
+| **Descrição**         |  O sistema deve informar para o usuário onde (em quais servidores) e como os seus dados estão sendo armazenados ao utilizar o aplicaitvo           |
+| **Justificativa**     |  Ao apresentar essas informações para o usuário, ele pode ter um maior controle de que dados serão compartilhados ao criar uma conta e utilzar os serviços da IA.        |
+| **Origem**            | #RN09                                                                    |
+| **Critério de Ajuste**| Ao acessar a aba configurações do aplicativo, na seção Controle de Dados, será possível visualizar pelo usuário, as informações sobre como e onde os seus dados estão sendo armazenados.                                                                      |
+| **Dependências**      | #RN04, #RN03, #RF24, #RN10                                                              |
+| **Prioridade**        | 4                                                                                                      |
+| **Conflitos**         | -                                                                                                      |
+| **História**          | Criado em 31/05/2025                                                                                   |
+
+---
+
+<a id="cnfr11"></a>
+## CNFR11 – Histórico de conversas por 30 dias
+**Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR11                                                                                               |
+| **Classificação**     | Afirmação                                                                                             |
+| **Descrição**         |  O sistema deve manter o histórico de conversas do usuário por 30 dias. Essa informação deve ser válida para usuários que não possuem uma conta no aplicaitvo, mas ainda sim, utilizam os serviços dele.           |
+| **Justificativa**     |  Ao ter essa funcionalidade, o usuário não se sente obrigado a criar uma conta no aplicativo para poder acessar uma funcionalidade básica. Assim, o usuário teria maior liberdade de escolha se quer criar uma conta ou não.        |
+| **Origem**            | #RN03                                                                    |
+| **Critério de Ajuste**| Um usuário que não possui uma conta deve ser capaz de iniciar uma conversa, e, ao fechar e abrir novamente o aplicativo, deve ser possível acessar seu histórico de conversas. Para garantir a validade do histórico esse teste pode ser repetido diariamnete a fim de verificar a validade do histórico de 30 dias. Assim, uma conversa iniciada no dia 1 de maio às 13:00 horas deverá estar disponível até o dia 31 daquele mês até às 12:59 horas.                                                                     |
+| **Dependências**      | #RN09                                                             |
+| **Prioridade**        | 5                                                                                                      |
+| **Conflitos**         | -                                                                                                       |
+| **História**          | Criado em 31/05/2025                                                                                   |
+
+---
+
+<a id="cnfr12"></a>
+## CNFR12 – Uso da arquitetura DeepSeek-V3
+**Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR12                                                                                               |
+| **Classificação**     | Afirmação                                                                                             |
+| **Descrição**         | O aplicativo deve utilizar a arquitetura mais recente desenvolvida pela equipe chamada DeepSeek-V3.            |
+| **Justificativa**     | Ao utilizar a arquitetura mais recente do DeepSeek, o aplicativo irá fornecer maior performace e confiabilidade nas respostas fornecidas ao usuário.         |
+| **Origem**            | #RN01                                                                    |
+| **Critério de Ajuste**| Análise da documentação do aplicativo e do código fonte que comprovem o uso dessa arquitetura. Além disso, sendo viável, a aplicação de testes no modelo que comprovem essa maior performace e confiabilidade sobre os modelos antigos do DeepSeek                                                                      |
+| **Dependências**      | -                                                              |
+| **Prioridade**        | 10                                                                                                     |
+| **Conflitos**         | -                                                                                                       |
+| **História**          | Criado em 31/05/2025                                                                                   |
+
+---
+
 <a id="cnfr26"></a>
 ## CNFR26 – Regeneração de resposta sem recarregamento da página 
 
@@ -331,4 +446,5 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 27/05/2025 |  1.2  | (#NFR01) Identifica requisitos alvo para NFR Framework.| [`@Gabriela`](https://github.com/gaubiela)   | --  |
 | 28/05/2025 |  1.3  | (#NFR01) Criação de cards 01 a 06 e definição do padrão para os cards.| [`@Gabriela`](https://github.com/gaubiela)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 30/05/2025 |  1.4  | (#NFR01) Criação de cards 26 a 28 | [`@Fábio`](https://github.com/fabinsz)   | [`@Luiz`](https://github.com/luizfaria1989)  |
+| 31/05/2025 |  1.5  | (#NFR01) Criação de cards 07 a 12 | [`@Luiz`](https://github.com/luizfaria1989)   | [`@`](https://github.com/)  |
 
