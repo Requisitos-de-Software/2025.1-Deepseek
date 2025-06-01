@@ -25,7 +25,7 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | Fábio   | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [HU19](#hu19) · [HU20](#hu20) · [HU21](#hu21) · [HU22](#hu22) · [HU23](#hu23) · [HU24](#hu24) |
 | Gabriela     | Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30 | [HU25](#hu25) · [HU26](#hu26) · [HU27](#hu27) · [HU28](#hu28) · [HU29](#hu29) · [HU30](#hu30) |
 | Ana Joyce    | Criação das histórias de usuário HU37, HU38, HU39, HU40, HU41 e HU42 | [HU37](#hu37) · [HU38](#hu38) · [HU39](#hu39) · [HU40](#hu40) · [HU41](#hu41) · [HU42](#hu42) |
-| Davi Emanuel     | Criação das histórias de usuário HU06, HU07, HU08, HU09, HU10 e HU11 e HU12 | [HU07](#hu07) · [HU08](#hu08) · [HU09](#hu09) · [HU10](#hu10) · [HU11](#hu11) · [HU12](#hu12) |
+| Davi Emanuel     | Criação das histórias de usuário HU07, HU08, HU09, HU10 e HU11 e HU12 | [HU07](#hu07) · [HU08](#hu08) · [HU09](#hu09) · [HU10](#hu10) · [HU11](#hu11) · [HU12](#hu12) |
 
 ## Histórias de Usuário
 
@@ -194,7 +194,12 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 |----------|-------------------------------------------|
 | HU12     | Inserir informações por comando de voz    |
 | Descrição | Eu, como usuário, desejo inserir informações por comando de voz, para facilitar a entrada de dados sem precisar digitar. |
-| Critérios de aceitação | - O aplicativo deve reconhecer comandos de voz e transcrevê-los automaticamente nos campos de entrada. <br> - Deve haver um botão visível para ativar e desativar
+| Critérios de aceitação | - O aplicativo deve reconhecer comandos de voz e transcrevê-los automaticamente nos campos de entrada. <br> - Deve haver um botão visível para ativar e desativar a funcinalidade de voz|
+| **Rastreabilidade**        | #RF34                             |
+| **Prioridade**             | Alta                |
+                                                                                                    
+
+
 
 
 <a id="hu13"></a>
