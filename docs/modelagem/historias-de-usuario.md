@@ -24,6 +24,7 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | Luiz     | Criação das histórias de usuário HU13, HU14, HU15, HU16, HU17 e HU18 | [HU13](#hu13) · [HU14](#hu14) · [HU15](#hu15) · [HU16](#hu16) · [HU17](#hu17) · [HU18](#hu18) |
 | Fábio   | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [HU19](#hu19) · [HU20](#hu20) · [HU21](#hu21) · [HU22](#hu22) · [HU23](#hu23) · [HU24](#hu24) |
 | Gabriela     | Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30 | [HU25](#hu25) · [HU26](#hu26) · [HU27](#hu27) · [HU28](#hu28) · [HU29](#hu29) · [HU30](#hu30) |
+| Mateus     | Criação das histórias de usuário HU31, HU32, HU33, HU34, HU35 e HU36 | [HU31](#hu31) · [HU32](#hu32) · [HU33](#hu33) · [HU34](#hu34) · [HU35](#hu35) · [HU36](#hu36) |
 | Ana Joyce    | Criação das histórias de usuário HU37, HU38, HU39, HU40, HU41 e HU42 | [HU37](#hu37) · [HU38](#hu38) · [HU39](#hu39) · [HU40](#hu40) · [HU41](#hu41) · [HU42](#hu42) |
 | Davi Emanuel     | Criação das histórias de usuário HU07, HU08, HU09, HU10 e HU11 e HU12 | [HU07](#hu07) · [HU08](#hu08) · [HU09](#hu09) · [HU10](#hu10) · [HU11](#hu11) · [HU12](#hu12) |
 
@@ -462,6 +463,97 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 
 ---
 
+
+<a id="hu31"></a>
+## HU31 – Utilizar uma API Pública
+
+**Autor:** [Mateus](https://github.com/MVConsorte)
+
+| ID   | Nome                  |
+| ---- | --------------------- |
+| HU31 | Utilizar uma API Pública |
+| **Descrição** | Eu, como usuário típico do DeepSeek, desejo que o sistema possua uma API Pública para que eu possa integrar suas funcionalidades a outras aplicações de meu interesse. |
+| **Critérios de aceitação** | - O menu de configurações deve exibir uma seção "API Pública", contendo informações básicas sobre como obter as credenciais de acesso;<br> - Ao acessar a documentação da API, o usuário encontra instruções para autenticação, exemplos de requisição e resposta para pelo menos duas funcionalidades principais;<br> - Quando uma requisição válida é enviada para um endpoint público, o sistema deve responder com o dado esperado conforme a documentação. |
+| **Rastreabilidade** | #RF20, #RIF08 |
+| **Prioridade** | Alta |
+
+---
+
+<a id="hu32"></a>
+## HU32 – Implementar memória de contexto persistente entre conversas
+
+**Autor:** [Mateus](https://github.com/MVConsorte)
+
+| ID   | Nome                                 |
+| ---- | ------------------------------------ |
+| HU32 | Implementar memória de contexto persistente entre conversas. |
+| **Descrição** | Eu, como Usuário típico do DeepSeek, desejo que a IA lembre das mensagens anteriores durante a conversa para que eu não precise repetir informações ou que estas sejam descontextualizadas. |
+| **Critérios de aceitação** | - Durante a mesma conversa, o usuário envia uma sequência de mensagens relacionadas e a IA referencia corretamente informações das mensagens anteriores;<br> - Se o usuário perguntar "Do que estávamos falando?", a IA recupera o tema central das últimas interações deste chat. |
+| **Rastreabilidade** | #RF31, #RQF11 |
+| **Prioridade** | Média |
+
+---
+
+<a id="hu33"></a>
+## HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube
+
+**Autor:** [Mateus](https://github.com/MVConsorte)
+
+| ID   | Nome                             |
+| ---- | -------------------------------- |
+| HU33 | Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube. |
+| **Descrição** | Eu, como Usuário típico do DeepSeek, desejo que o sistema consiga gerar um resumo textual de vídeos importados do Youtube para entender rapidamente seu conteúdo e aspectos importantes. |
+| **Critérios de aceitação** | - Ao enviar um link de vídeo do YouTube e solicitar um resumo, o sistema apresenta um campo "Resumo" com os principais pontos destacados;<br> - O botão "Gerar Resumo" deve aparecer ao lado do campo de envio quando o usuário insere links do YouTube;<br> - Apresenta-se o resumo gerado contendo entre 150 e 500 palavras|
+| **Rastreabilidade** | #RF38, #RQF23 |
+| **Prioridade** | Alta |
+
+---
+
+<a id="hu34"></a>
+## HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código
+
+**Autor:** [Mateus](https://github.com/MVConsorte)
+
+| ID   | Nome                            |
+| ---- | ------------------------------- |
+| HU34 | Adicionar editor de texto avançado com suporte a Markdown e formatação de código. |
+| **Descrição** | Eu, como Usuário típico do DeepSeek, desejo um editor de texto com suporte a Markdown e formatação de código para estruturar e refinar as informações obtidas em tais modelos. |
+| **Critérios de aceitação** | O editor de texto permite que o usuário reformate respostas, ajustando a estrutura do conteúdo por meio de Markdown, incluindo listas, títulos, negrito, e outros estilos visuais;<br> - Ao adicionar uma lista dentro do editor, esta é automaticamente exibida com marcadores (pontos ou números) apropriados para manter a organização do texto.<br> - Títulos e subtítulos aparecem com destaque visual, podendo ser formatados em negrito ou com variação de tamanho, facilitando a diferenciação entre seções da resposta;<br> - Trechos de código podem ser inseridos no editor e são automaticamente formatados em blocos destacados, com realce de sintaxe para linguagens suportadas; <br> - O editor deve oferecer suporte a citações e texto destacado, exibindo-os de maneira visualmente diferenciada para garantir clareza na leitura;<br> - O usuário consegue identificar visualmente pelo menos três tipos de formatação distintos em uma mesma resposta: listas, destaque e citação;<br> - O sistema deve garantir que qualquer resposta reformatada pelo usuário seja preservada sem perda de informação ao aplicada. |
+| **Rastreabilidade** | #RQF15, #RF18 |
+| **Prioridade** | Baixa |
+
+---
+
+<a id="hu35"></a>
+## HU35 – Recuperar chats anteriores
+
+**Autor:** [Mateus](https://github.com/MVConsorte)
+
+| ID   | Nome                       |
+| ---- | -------------------------- |
+| HU35 | Recuperar Chats Anteriores |
+| **Descrição** | Eu, como Usuário típico do DeepSeek, desejo poder acessar conversas antigas para consultar informações já discutidas ou continuar um atendimento a partir de onde parei. |
+| **Critérios de aceitação** | - Um botão no canto superior esquerdo que abre um histórico de "chats" está visível na tela inicial, exibindo a lista de chats anteriores com identificação por data e contendo a data relativa da conversa;<br> - Ao selecionar um chat do histórico, todo o conteúdo da conversa é carregado no chat atual, permitindo ao usuário visualizar e continuar a conversa normalmente.|
+| **Rastreabilidade** | #RF10, #ROF04 |
+| **Prioridade** | Média |
+
+---
+
+<a id="hu36"></a>
+## HU36 – Exibir citações de fontes
+
+**Autor:** [Mateus](https://github.com/MVConsorte)
+
+| ID   | Nome                      |
+| ---- | ------------------------- |
+| HU36 | Exibir Citações de Fontes |
+| **Descrição** | Eu, como Usuário, desejo que o sistema apresente citações das fontes utilizadas nas respostas, para que eu possa conferir a veracidade das informações e aprofundar meus estudos. |
+| **Critérios de aceitação** | - Sempre que for exibida uma informação baseada em fonte externa, a resposta contém um campo "Fonte" ou "Referência" ao final da mensagem, com URL clicável;<br> - Ao clicar no link da fonte, o usuário é redirecionado para a página original da referência;<br> - Quando houver múltiplas referências, o sistema apresenta cada uma em uma linha separada ou com numeração sequencial. |
+| **Rastreabilidade** | #ROF08, #RF14 |
+| **Prioridade** | Baixa |
+
+
+
 <a id="hu37"></a>
 ## HU37 – Deve fazer a exclusão automática de dados de upload
 
@@ -565,12 +657,13 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 22/05/2025 |  1.0   | (#HUO1) Criação do documento de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 23/05/2025 |  1.1   | (#HUO1) Criação da introdução e do template de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
-<<<<<<< HEAD
 | 23/05/2025 |  1.2   | (#HU01) Adição da referência da definição de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 28/05/2025 |  1.3   | (#H02) Adição de conteúdo (Histórias de usuário 25 a 30)| [`@Gabriela`](https://github.com/gaubiela)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 28/05/2025 |  1.4   | (#H02) Insere tabela de contribuições e linkagem de conteúdo| [`@Gabriela`](https://github.com/gaubiela)   |  [@Luiz](https://github.com/luizfaria1989) |
-| 30/05/2025 |  1.5   | (#H02) Adição de conteudo historias de usuario (19 a 24)| [`@Fábio](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
+| 30/05/2025 |  1.5   | (#H02) Adição de conteudo historias de usuario (19 a 24)| [`@Fábio`](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 31/05/2025 |  1.6   | (#H02) Adição de conteúdo (Histórias de usuário 13 a 18)| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
-| 01/06/2025 |  1.7   | (#H02) Adição de conteúdo (Histórias de usuário 01 a 06)| [`@Ana Clara`](https://github.com/anabborges)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
-| 01/06/2025 |  1.8   | (#H02) Adição de conteúdo (Histórias de usuário 37 a 42)| [`@Ana Joyce`](https://github.com/anajoyceamorim)   |  [@](https://github.com/) |
-| 01/06/2025 |  1.9   | (#H02) Adição de conteúdo (Histórias de usuário 07 a 12)| [`@Davi Emanuel`](https://github.com/daviRolvr)   |  [@](https://github.com/) |
+| 31/05/2025 |  1.7   | (#HU02) Adição de conteúdo (Histórias de usuário 31 a 36)| [`@Mateus`](https://github.com/MVConsorte)   |  [`@Luiz`](https://github.com/luizfaria1989) |
+| 01/06/2025 |  1.8   | (#H02) Adição de conteúdo (Histórias de usuário 01 a 06)| [`@Ana Clara`](https://github.com/anabborges)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 01/06/2025 |  1.9   | (#H02) Adição de conteúdo (Histórias de usuário 37 a 42)| [`@Ana Joyce`](https://github.com/anajoyceamorim)   |  [@](https://github.com/) |
+| 01/06/2025 |  1.10   | (#H02) Adição de conteúdo (Histórias de usuário 07 a 12)| [`@Davi Emanuel`](https://github.com/daviRolvr)   |  [@](https://github.com/) |
+
