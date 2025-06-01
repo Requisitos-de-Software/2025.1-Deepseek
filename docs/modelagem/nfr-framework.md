@@ -86,6 +86,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | ------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Gabriela     | Criação dos cartões de especificação CNFR01 a CNFR06 | [CNFR01](#cnfr01) · [CNFR02](#cnfr02) · [CNFR03](#cnfr03) · [CNFR04](#cnfr04) · [CNFR05](#cnfr05) · [CNFR06](#cnfr06) |
 | Luiz     | Criação dos cartões de especificação CNFR07 a CNFR012 | [CNFR07](#cnfr07) · [CNFR08](#cnfr08) · [CNFR09](#cnfr09) · [CNFR10](#cnfr10) · [CNFR11](#cnfr11) · [CNFR12](#cnfr12) |
+| Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 | [CNFR20](#cnfr20) · [CNFR21](#cnfr21) · [CNFR22](#cnfr22) |
 | Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [CNFR26](#cnfr26) · [CNFR27](#cnfr27) · [CNFR28](#cnfr28) |
 
 ## Lista de Requisitos 
@@ -96,7 +97,6 @@ Esses rótulos estão ilustrados na Figura 3.
 | **RF06** | Melhorar capacidades de “deep thinking”                                             | Afirmação (vago, sem métrica)     |
 | **RF14** | Exibir citações de fontes (pág., site ou trecho)                                    | Afirmação                         |
 | **RF17** | Regenerar resposta em caso de erro sem recarregar a página                          | Afirmação                         |
-| **RF18** | Exibir respostas em Markdown com edição de tabelas/listas complexas                 | Afirmação                         |
 | **RF19** | Interromper respostas em andamento                                                  | Afirmação                         |
 | **RF21** | Autenticação via token de acesso                                                    | Afirmação                         |
 | **RF22** | Confirmação para limpar o histórico                                                 | Afirmação                         |
@@ -108,6 +108,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | **RF30** | Melhorar retenção de contexto em diálogos longos                                    | Afirmação                         |
 | **RF35** | Tooltip do título ao passar o mouse na barra lateral                                | Afirmação                         |
 | **RF36** | Instruções claras de OCR na interface de envio de imagens                           | Afirmação                         |
+| **RF38** | Integração com YouTube para sumarização automática                  | Afirmação                         |
 | **RN01** | Uso da arquitetura DeepSeek-V3                                                      | Afirmação                         |
 | **RN02** | Versões para Android e iOS                                                          | Afirmação                         |
 | **RN03** | Histórico de conversas por 30 dias (não persistente sem salvar)                     | Afirmação                         |
@@ -361,6 +362,63 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 
 ---
 
+<a id="cnfr20"></a>
+## CNFR20 – Interoperabilidade com YouTube para sumarização automática  
+**Autor:** [`@Mateus`](https://github.com/MVConsorte)  
+
+| Campo                 | Detalhamento                                                                                                                                                                                                                                                                      |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR20                                                                                                                                                                                                                                                                           |
+| **Classificação**     | Interoperabilidade / softgoal de afirmação                                                                                                                                                                                                |
+| **Descrição**         | O sistema deve garantir integração adequada e estável com a API do YouTube ou serviços equivalentes, suportando extração de metadados, transcrições (quando disponíveis) e conteúdo de vídeos compartilhados por link, independentemente do idioma, formato ou duração. Deve tolerar indisponibilidades temporárias, limites de API e variações nos formatos de vídeo, fornecendo mensagens de erro claras e informativas ao usuário em caso de falha, vídeo removido, restrito, privado ou link inválido.                                                                             |
+| **Justificativa**     | Assegura que a funcionalidade de resumo automático de vídeos seja confiável, escalável e transparente ao usuário, mesmo diante de limitações técnicas do YouTube ou problemas de conectividade, reforçando a confiança do usuário e a qualidade do serviço prestado.    |
+| **Origem**            | #RF38, #RQF23, UC14                                                                                                                                                                                                                                                              |
+| **Critério de Ajuste**| - Permitir o resumo de vídeos em diferentes idiomas e formatos via link direto.<br> - Realizar detecção apropriada de links inválidos, vídeos removidos, indisponíveis ou privados, retornando mensagem compreensível.<br> - Lidar com erros de integração (limite de requisições, falhas de autenticação, ausência de transcrição, etc.) fornecendo orientações claras.<br> - Garantir performance estável e feedback de progresso quando processamento for demorado, incluindo sugestões de refinamento quando o resumo não for satisfatório.<br> - Registrar erros para análise futura de falhas recorrentes. |
+| **Dependências**      | - **API YouTube:** Necessária para acesso aos dados de vídeo, metadados e possíveis transcrições. <br>- **Componentes de NLP (Processamento de Linguagem Natural) e ASR (Reconhecimento Automático de Fala):** Indispensáveis para converter áudio em texto e gerar resumos. <br>- **#RF30 (Processamento multimídia):** Processo intermediário para extração/análise.<br>- **#RF14 e #RF21 (interface e apresentação de resultados):** Exibição ao usuário do sumário e informações relativas ao vídeo.<br>- **#RN06, #RN07, #RN03, #RN04:** Regras de tratamento de erros, conformidade com limites operacionais e robustez.<br>- **#RN09, #RN10:** Regras para armazenamento de dados e privacidade.<br>- **#RF24, #RF26, #RF25:** Segurança, controle de acesso e política de compartilhamento de dados obtidos/resumidos. |
+| **Prioridade**        | 10 – Extremamente alta, pois a capacidade de sumarizar vídeos do YouTube é central ao valor agregado do sistema e, caso indisponível, impacta diretamente no propósito principal da solução para usuários. Por depender de terceiros (YouTube/API), a robustez e tolerância a falhas tornam-se vitais desde a etapa inicial do projeto.                                                                                   |
+| **Conflitos**         | - **#RN05 (usabilidade):** Mensagens de erro completas ou processos de fallback podem gerar sobrecarga de informações ou tornar a experiência mais lenta se não forem bem planejadas.<br> - Dependência de terceiros (YouTube) pode causar atrasos, falhas ou limitações de uso que afetam negativamente a jornada do usuário se não houver boa comunicação dos estados na interface.           |
+| **História**          | Criado em 31/05/2025                                                                                                                                                                                                                                                             |
+
+---
+
+<a id="cnfr21"></a>
+## CNFR21 – Instruções claras e contextualizadas sobre OCR  
+**Autor:** [`@Mateus`](https://github.com/MVConsorte)  
+
+| Campo                 | Detalhamento                                                                                                                                                                                                                                                                             |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR21                                                                                                                                                                                                                                                                                  |
+| **Classificação**     | Orientação / softgoal de afirmação                                                                                                                                                                                                               |
+| **Descrição**         | O sistema deve apresentar, na interface de envio de imagens, instruções claras e contextuais sobre OCR, explicando significado da sigla, limitações técnicas e exemplos de uso prático ao usuário final.                                          |
+| **Justificativa**     | Facilita o correto uso da funcionalidade, reduz dúvidas e frustrações, aumentando a satisfação do usuário e a eficiência do processo de extração de texto por OCR, especialmente para novos usuários.                                             |
+| **Origem**            | #RF36, #RQF20                                                                                                                                                                                                                                    |
+| **Critério de Ajuste**| As instruções devem ser exibidas toda vez que o usuário acessar a funcionalidade de OCR. Devem estar em linguagem simples e incluir exemplos de imagens adequadas e inadequadas para OCR.                                                         |
+| **Dependências**      | - **RF36**: Implementação funcional do OCR.<br>- **RN05**: Diretrizes de usabilidade para apresentação clara.<br>- **RN15**: Garantia de facilidade para o usuário encontrar instruções/opções.<br>- **RN13/RN14**: Avaliações de satisfação/interação.    |
+| **Prioridade**        | 4 – Relevante para onboarding e qualidade da experiência, mas não bloqueante para operações básicas.                                                                                                       |
+| **Conflitos**         | - Pode conflitar com **RN05** (usabilidade) ou **RN15** (facilidade de navegação) caso as instruções sejam extensas ou poluam a interface.<br>- Excesso de informações pode reduzir objetividade do fluxo.                                         |
+| **História**          | Criado em 31/05/2025                                                                                                                                                                                      |
+
+---
+
+<a id="cnfr22"></a>
+## CNFR22 – Exibição de fontes, páginas e referências em respostas  
+**Autor:** [`@Mateus`](https://github.com/MVConsorte)  
+
+| Campo                 | Detalhamento                                                                                                                                                                                                                           |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR22                                                                                                                                                                                                                                |
+| **Classificação**     | Transparência / softgoal de afirmação                                                                                                                                                                                                 |
+| **Descrição**         | O sistema deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando de forma clara página, site e/ou trecho extraído, ou fornecendo link direto para consulta quando aplicável.                     |
+| **Justificativa**     | A transparência sobre as fontes utilizadas nas respostas aumenta a confiança do usuário no conteúdo exibido, facilita a verificação e promove maior fidelidade à origem da informação apresentada pelo sistema.                         |
+| **Origem**            | #RF14, #RQF22                                                                                                                                                                                   |
+| **Critério de Ajuste**| Quando a resposta for proveniente de consulta a documento ou web, o usuário deve visualizar, ao final da resposta, as referências completas — incluindo link, número da página ou trecho relevante, quando disponível.                 |
+| **Dependências**      | - **RF14**: Funcionalidade para exibir citações de fontes.<br>- **RN09/RN10**: Informar e permitir ajuste sobre armazenamento e uso de dados extraídos.<br>- **RN13/RN14**: Avaliações de confiança/percepção do usuário.<br>- **RF25**: Controle sobre compartilhamento de dados.  |
+| **Prioridade**        | 4 – Essencial para confiança e auditoria, mas pode ser implementado após funcionalidades básicas de resposta.                                                                                   |
+| **Conflitos**         | - Pode conflitar com **RN05** e **RN15** se a exibição de fontes for excessivamente técnica ou poluir a interface.<br>- Risco de exposição indevida de dados caso não haja integração com requisitos de segurança (RF24, RF26).        |
+| **História**          | Criado em 31/05/2025                                                                                                                                                                            |
+
+---
+
 <a id="cnfr26"></a>
 ## CNFR26 – Regeneração de resposta sem recarregamento da página 
 
@@ -446,5 +504,6 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 27/05/2025 |  1.2  | (#NFR01) Identifica requisitos alvo para NFR Framework.| [`@Gabriela`](https://github.com/gaubiela)   | --  |
 | 28/05/2025 |  1.3  | (#NFR01) Criação de cards 01 a 06 e definição do padrão para os cards.| [`@Gabriela`](https://github.com/gaubiela)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 30/05/2025 |  1.4  | (#NFR01) Criação de cards 26 a 28 | [`@Fábio`](https://github.com/fabinsz)   | [`@Luiz`](https://github.com/luizfaria1989)  |
-| 31/05/2025 |  1.5  | (#NFR01) Criação de cards 07 a 12 | [`@Luiz`](https://github.com/luizfaria1989)   | [`@`](https://github.com/)  |
+| 31/05/2025 |  1.5  | (#NFR01) Criação de cards 07 a 12 | [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)  |
+| 31/05/2025 |  1.6  | (#NFR01) Criação de cards 20 a 22 e modificação na lista de requistos (remoção do #RF18 e adição do #RF38) | [`@Mateus`](https://github.com/MVConsorte)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 
