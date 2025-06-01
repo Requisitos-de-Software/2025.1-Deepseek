@@ -656,7 +656,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Justificativa**     | 		Garantir transparência e conformidade com normas de privacidade, como LGPD e GDPR, além de respeitar a autonomia do usuário sobre seus dados.                           |
 | **Origem**            | #RN11                                                                                                 |
 | **Critério de Ajuste**| O sistema deve exibir uma solicitação clara de consentimento para uso dos dados, com opção de aceitar ou recusar.                                |
-| **Dependências**      | Política de Privacidade, Interface de Configurações do Usuário.                                                                                             |
+| **Dependências**      | #RF24, #RN10                                                                                          |
 | **Prioridade**        | 10                                                                                                      |
 | **Conflitos**         | —                                                                                                      |
 | **História**          | Criado em 31/06/2025                                                                                  |
@@ -674,7 +674,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Justificativa**     | 		Melhorar a experiência do usuário e ampliar a utilidade do sistema por meio da interoperabilidade com plataformas amplamente utilizadas.                           |
 | **Origem**            | #RF37                                                                                                 |
 | **Critério de Ajuste**| O sistema deve permitir autenticação e troca de dados com ferramentas populares, de forma estável e segura.                                |
-| **Dependências**      | APIs Externas.                                                                                       |
+| **Dependências**      | -                                                                                      |
 | **Prioridade**        | 6                                                                                                    |
 | **Conflitos**         | Possíveis mudanças nas políticas de terceiros (ex: Google API updates)                                                                                                     |
 | **História**          | Criado em 31/06/2025                                                                                  |
@@ -692,7 +692,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Justificativa**     | 	Permitir que desenvolvedores externos criem extensões, automações e integrações, aumentando o alcance e flexibilidade do sistema.                           |
 | **Origem**            | #RF20                                                                                                 |
 | **Critério de Ajuste**| Disponibilizar uma documentação pública e funcional para a API com autenticação segura e endpoints principais acessíveis.                                |
-| **Dependências**      | Infraestrutura de Backend, Sistema de Autenticação.                                                                                       |
+| **Dependências**      | #RF21                                                                                      |
 | **Prioridade**        | 10                                                                                                   |
 | **Conflitos**         | —                                                                                                 |
 | **História**          | Criado em 31/06/2025   
