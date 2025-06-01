@@ -245,9 +245,9 @@ Fonte: [Luiz](https://github.com/luizfaria1989)
 | 22/05/2025 |  1.0   | (#B01) Criação do documento do Backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 23/05/2025 |  1.1   | (#B01) Adição da introdução do artefato.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 23/05/2025 |  1.2   | (#B01) Adição da referência da definição de Backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
-| 31/05/2025 |  1.3   | (#B01) Criação e descrição dos épicos 1 a 4 (Funcionalidades de IA, Controle de Dados, Segurança, Funcionalidades do chat). Categorização das histórias de usuário 12 a 18. Adição da metodologia.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
-| 31/05/2025 |  1.4   | (#B01) Criação e descrição dos épicos 5 a 8. Categorização das histórias de usuário 19 a 30.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
-| 01/06/2025 |  1.5   | (#B01) Categorização das histórias de usuário 31 a 36.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
-| 01/06/2025 |  1.6   | (#B01) Categorização das histórias de usuário 01 a 06. Criação dos temas.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
-| 01/06/2025 |  1.7   | (#B01) Categorização das histórias de usuário 37 a 42.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
-| 01/06/2025 |  1.8   | (#B01) Categorização das histórias de usuário 7 a 12.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
+| 31/05/2025 |  1.3   | (#B01) Criação e descrição dos épicos 1 a 4 (Funcionalidades de IA, Controle de Dados, Segurança, Funcionalidades do chat). Categorização das histórias de usuário 12 a 18. Adição da metodologia.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 31/05/2025 |  1.4   | (#B01) Criação e descrição dos épicos 5 a 8. Categorização das histórias de usuário 19 a 30.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 01/06/2025 |  1.5   | (#B01) Categorização das histórias de usuário 31 a 36.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 01/06/2025 |  1.6   | (#B01) Categorização das histórias de usuário 01 a 06. Criação dos temas.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 01/06/2025 |  1.7   | (#B01) Categorização das histórias de usuário 37 a 42.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 01/06/2025 |  1.8   | (#B01) Categorização das histórias de usuário 7 a 12.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
