@@ -89,6 +89,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 | [CNFR20](#cnfr20) · [CNFR21](#cnfr21) · [CNFR22](#cnfr22) |
 | Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [CNFR26](#cnfr26) · [CNFR27](#cnfr27) · [CNFR28](#cnfr28) |
 | Ana Joyce | Criação dos cartões de especificação CNFR14 a CNFR19 | [CNFR14](#cnfr14) · [CNFR15](#cnfr15) · [CNFR16](#cnfr16) . [CNFR17](#cnfr17) . [CNFR18](#cnfr18) . [CNFR19](#cnfr19)|
+| Ana Clara | Criação dos cartões de especificação CNFR29 a CNFR31 | [CNFR29](#cnfr29) · [CNFR30](#cnfr30) · [CNFR31](#cnfr31) |
 
 ## Lista de Requisitos 
 
@@ -99,6 +100,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | **RF14** | Exibir citações de fontes (pág., site ou trecho)                                    | Afirmação                         |
 | **RF17** | Regenerar resposta em caso de erro sem recarregar a página                          | Afirmação                         |
 | **RF19** | Interromper respostas em andamento                                                  | Afirmação                         |
+| **RF20** | Deve possuir uma API pública                                                  | Operacionalização                         |
 | **RF21** | Autenticação via token de acesso                                                    | Afirmação                         |
 | **RF22** | Confirmação para limpar o histórico                                                 | Afirmação                         |
 | **RF24** | Criptografia TLS em trânsito e AES-256 em repouso                                   | Afirmação                         |
@@ -109,6 +111,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | **RF30** | Melhorar retenção de contexto em diálogos longos                                    | Afirmação                         |
 | **RF35** | Tooltip do título ao passar o mouse na barra lateral                                | Afirmação                         |
 | **RF36** | Instruções claras de OCR na interface de envio de imagens                           | Afirmação                         |
+| **RF37** | Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas |Operacionalização                         |
 | **RF38** | Integração com YouTube para sumarização automática                  | Afirmação                         |
 | **RN01** | Uso da arquitetura DeepSeek-V3                                                      | Afirmação                         |
 | **RN02** | Versões para Android e iOS                                                          | Afirmação                         |
@@ -120,6 +123,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | **RN08** | Processamento de arquivos grandes (PDF/DOCX/XLSX/CSV) em ≤ 10 s e operações simples em ≤ 2 s | Operacionalização (métrica clara) |
 | **RN09** | Informar claramente onde e como os dados são armazenados                            | Afirmação                         |
 | **RN10** | Opt-in/out para uso de dados em re-treinamento ou venda de modelos                  | Afirmação                         |
+| **RN11** | Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos | Softgoal NRF |
 | **RN12** | Estabilidade na geração de conteúdo pesado (PDF, cálculos)                          | Afirmação                         |
 | **RN13** | ≥ 95 % dos usuários avaliando usabilidade como “Fácil” ou “Muito fácil”             | Operacionalização (métrica clara) |
 | **RN14** | ≥ 90 % de concordância em “Interface clara e agradável”                             | Operacionalização (métrica clara) |
@@ -603,6 +607,60 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 
 ---
 
+<a id="cnfr29"></a>
+## CNFR29 – Especificação e permisão ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+
+**Autor:** [`Ana Clara`](https://github.com/anabborges)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR29                                                                                               |
+| **Classificação**     | Segurança                                                                          |
+| **Descrição**         | Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos.  |
+| **Justificativa**     | 		Garantir transparência e conformidade com normas de privacidade, como LGPD e GDPR, além de respeitar a autonomia do usuário sobre seus dados.                           |
+| **Origem**            | #RN11                                                                                                 |
+| **Critério de Ajuste**| O sistema deve exibir uma solicitação clara de consentimento para uso dos dados, com opção de aceitar ou recusar.                                |
+| **Dependências**      | Política de Privacidade, Interface de Configurações do Usuário.                                                                                             |
+| **Prioridade**        | 10                                                                                                      |
+| **Conflitos**         | —                                                                                                      |
+| **História**          | Criado em 31/06/2025                                                                                  |
+
+<a id="cnfr30"></a>
+## CNFR30 – Conexão nativa a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
+
+**Autor:** [`Ana Clara`](https://github.com/anabborges)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR30                                                                                            |
+| **Classificação**     | Interoperabilidade                                                                           |
+| **Descrição**         | Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas.  |
+| **Justificativa**     | 		Melhorar a experiência do usuário e ampliar a utilidade do sistema por meio da interoperabilidade com plataformas amplamente utilizadas.                           |
+| **Origem**            | #RF37                                                                                                 |
+| **Critério de Ajuste**| O sistema deve permitir autenticação e troca de dados com ferramentas populares, de forma estável e segura.                                |
+| **Dependências**      | APIs Externas.                                                                                       |
+| **Prioridade**        | 6                                                                                                    |
+| **Conflitos**         | Possíveis mudanças nas políticas de terceiros (ex: Google API updates)                                                                                                     |
+| **História**          | Criado em 31/06/2025                                                                                  |
+
+<a id="cnfr31"></a>
+## CNFR31 – Uso a partir de API Pública
+
+**Autor:** [`Ana Clara`](https://github.com/anabborges)  
+
+| Campo                 | Detalhamento                                                                                           |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR31                                                                                              |
+| **Classificação**     | Usabilidade                                                                           |
+| **Descrição**         | Deve possuir uma API pública.  |
+| **Justificativa**     | 	Permitir que desenvolvedores externos criem extensões, automações e integrações, aumentando o alcance e flexibilidade do sistema.                           |
+| **Origem**            | #RF20                                                                                                 |
+| **Critério de Ajuste**| Disponibilizar uma documentação pública e funcional para a API com autenticação segura e endpoints principais acessíveis.                                |
+| **Dependências**      | Infraestrutura de Backend, Sistema de Autenticação.                                                                                       |
+| **Prioridade**        | 10                                                                                                   |
+| **Conflitos**         | —                                                                                                 |
+| **História**          | Criado em 31/06/2025   
+
 ## Referência Bibliográfica
 
 > <a id="REF1" href="#anchor_1">1.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 30, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. [`Foto da referência`](../images/nfr-framework/definicao-nfr-framework.png)
@@ -631,3 +689,4 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 31/05/2025 |  1.5  | (#NFR01) Criação de cards 07 a 12 | [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)  |
 | 31/05/2025 |  1.6  | (#NFR01) Criação de cards 20 a 22 e modificação na lista de requistos (remoção do #RF18 e adição do #RF38) | [`@Mateus`](https://github.com/MVConsorte)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 01/06/2025 |  1.7  | (#NFR01) Criação de cards 14 a 19 | [`@Ana Joyce`](https://github.com/anajoyceamorim)   | [`@`](https://github.com/)  |
+| 01/06/2025 |  1.8  | (#NFR01) Criação de cards 29 a 31 | [`@Ana Clara`](https://github.com/anabborges)   | [`@`](https://github.com/)  |
