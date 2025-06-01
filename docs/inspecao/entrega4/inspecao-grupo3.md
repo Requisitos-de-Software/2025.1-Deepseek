@@ -65,4 +65,4 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da quar
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 01/06/2025 |  1.0   | (#V01) Criação da página de inspeção do grupo+1 com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | |
+| 01/06/2025 |  1.0   | (#V01) Criação da página de inspeção do grupo+1 com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [Ana Joyce](https://github.com/anajoyceamorim) |
