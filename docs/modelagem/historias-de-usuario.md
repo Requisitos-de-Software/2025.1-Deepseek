@@ -20,12 +20,188 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 
 | Contribuinte | Descrição                                                            | Links                                           |
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Ana Clara     | Criação das histórias de usuário HU01, HU02, HU03, HU04, HU5 e HU06 | [HU01](#hu01) · [HU02](#hu02) · [HU03](#hu03) · [HU04](#hu04) · [HU5](#hu05) · [HU06](#hu06) |
 | Luiz     | Criação das histórias de usuário HU13, HU14, HU15, HU16, HU17 e HU18 | [HU13](#hu13) · [HU14](#hu14) · [HU15](#hu15) · [HU16](#hu16) · [HU17](#hu17) · [HU18](#hu18) |
 | Fábio   | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [HU19](#hu19) · [HU20](#hu20) · [HU21](#hu21) · [HU22](#hu22) · [HU23](#hu23) · [HU24](#hu24) |
 | Gabriela     | Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30 | [HU25](#hu25) · [HU26](#hu26) · [HU27](#hu27) · [HU28](#hu28) · [HU29](#hu29) · [HU30](#hu30) |
 | Mateus     | Criação das histórias de usuário HU31, HU32, HU33, HU34, HU35 e HU36 | [HU31](#hu31) · [HU32](#hu32) · [HU33](#hu33) · [HU34](#hu34) · [HU35](#hu35) · [HU36](#hu36) |
+| Ana Joyce    | Criação das histórias de usuário HU37, HU38, HU39, HU40, HU41 e HU42 | [HU37](#hu37) · [HU38](#hu38) · [HU39](#hu39) · [HU40](#hu40) · [HU41](#hu41) · [HU42](#hu42) |
+| Davi Emanuel     | Criação das histórias de usuário HU07, HU08, HU09, HU10 e HU11 e HU12 | [HU07](#hu07) · [HU08](#hu08) · [HU09](#hu09) · [HU10](#hu10) · [HU11](#hu11) · [HU12](#hu12) |
 
 ## Histórias de Usuário
+
+<a id="hu01"></a>
+## HU01 – Visualizar tutorial interativo
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU01                       | Visualizar tutorial interativo                                                                                                                                                                                                                                                                                                              |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me mostre um tutorial interativo para que eu possa aprender a usar a plataforma.                                      |
+| **Critérios de aceitação** | - Na página inicial deve começar um tutorial interativo apresentando as funcionalidades da plataforma no meu primeiro acesso; <br> - Deve aparecer um botão nos outros acessos possibilitando que eu refaça o tutorial caso queira. |
+| **Rastreabilidade**        | #RF28                             |
+| **Prioridade**             | Baixa                |
+
+<a id="hu02"></a>
+## HU02 – Confirmar a exclusão do histórico de conversas
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU02                       | Confirmar a exclusão do histórico de conversas                                                                                                                                                                                                                                                                                                             |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me mostre uma confirmação ao apertar em apagar histórico para que eu possa confirmar ou cancelar a ação.                                     |
+| **Critérios de aceitação** | - Ao apertar em apagar histórico de conversas, deve aparecer uma janela de confirmação perguntando se desejo confirmar ou cancelar a ação; <br> - Se apertar na opção de confirmar, não devem aparecer as minhas conversas na tela inicial; <br> - Se apertar na opção de cancelar, as minhas conversas devem aparecer na tela inicial.|
+| **Rastreabilidade**        | #RF22                             |
+| **Prioridade**             | Alta               |
+
+<a id="hu03"></a>
+## HU03 – Interação com a Inteligência Artificial
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU03                       | Interação com a Inteligência Artificial                                                                                                                                                                                                                                                                                                            |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo tenha um campo de digitação para que eu possa escrever minhas mensagens interagindo com a IA.                                    |
+| **Critérios de aceitação** | - Ao abrir a tela inicial, criar um novo chat ou entrar em um chat já existente, deve haver um campo de digitação na parte inferior da tela; <br> - Ao apertar no campo, eu devo ser capaz de digitar uma mensagem a partir do teclado; <br> - Após escrever a mensagem, devo ser capaz de enviar a minha mensagem para a IA.|
+| **Rastreabilidade**        | #RF07                             |
+| **Prioridade**             | Alta               |
+
+<a id="hu04 "></a>
+## HU04 – Renomear um chat já existente
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU04                       | Renomear um chat já existente                                                                                                                                                                                                                                                                                                         |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me dê a opção de renomear os chats que eu criei para que eu possa ter uma melhor organização dos chats e me lembre qual é o conteúdo de cada um, evitando retrabalho.                                    |
+| **Critérios de aceitação** | - Ao clicar com o botão direito do meu mouse em um chat, deve aparecer a opção de renomear o chat; <br> - Ao digitar e apertar ENTER no teclado, o nome escrito deve aparecer no nome do chat; <br> - Após escrever a mensagem, devo ser capaz de enviar a minha mensagem para a IA.|
+| **Rastreabilidade**        | #RF09                             |
+| **Prioridade**             | Média               |
+
+<a id="hu05 "></a>
+## HU05 – Busca incremental no campo de texto
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU05                       | Busca incremental no campo de texto                                                                                                                                                                                                                                                                                                    |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me dê sugestões em tempo real conforme digito no campo de interação com a IA para que eu consiga agilizar o processo de escrita.                                    |
+| **Critérios de aceitação** | - Ao clicar no campo de interação com a IA e começar a digitar, enquanto digito aparece sugestões para as próximas palavras; <br> - Ao apertar a tecla tab no teclado, essas sugestões são aceitas, aparecendo com uma cor mais visível no campo de texto.|
+| **Rastreabilidade**        | #RF23                             |
+| **Prioridade**             | Baixa               |
+
+<a id="hu06 "></a>
+## HU06 – Controle de dados
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU06                       | Controle de dados                                                                                                                                                                                                                                                                                                    |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me permita escolher quais dados eu quero compartilhar para que eu tenha um maior controle deles e me sinta mais seguro.                                    |
+| **Critérios de aceitação** | - Na tela de configurações, em uma aba de controle de dados, aparecem checkboxes para eu selecionar quais tipos de dados eu concordo em compartilhar (histórico de buscas, localização, arquivos enviados, etc); <br> - Devo ser capaz de selecionar e tirar a seleção dos tipos de dados.|
+| **Rastreabilidade**        | #RF25                             |
+| **Prioridade**             | Alta               |
+
+
+
+
+<a id="hu07"></a>
+## HU07 – Interromper respostas em andamento  
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU07     | Interromper respostas em andamento        |
+| Descrição | Eu, como usuário, desejo poder interromper respostas do Deep Seek enquanto estão sendo geradas, para ajustar ou reformular minha pergunta. |
+| Critérios de aceitação | - Deve haver um botão ou comando para cancelar a resposta em andamento. <br> - A interface deve parar imediatamente o carregamento da resposta ao ser acionada. |
+| Rastreabilidade | #RF19 |
+| Prioridade | Baixa |
+
+---
+
+<a id="hu08"></a>
+## HU08 – Enviar arquivos com suporte a leitura OCR    
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU08     | Enviar arquivos com suporte a leitura OCR |
+| Descrição | Eu, como usuário, desejo enviar arquivos nos formatos PDF, DOCX, TXT e imagens para que o sistema possa extrair e analisar o conteúdo. |
+| Critérios de aceitação | - O sistema deve aceitar upload de arquivos nos formatos PDF, DOCX, TXT e imagens (.jpg, .png). <br> - Para imagens, o sistema deve utilizar OCR para converter o conteúdo em texto. |
+| Rastreabilidade | #RIF01 |
+| Prioridade | Alta |
+
+---
+
+<a id="hu09"></a>
+## HU09 – Organizar conversas em pastas, listas ou temas    
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU09     | Organizar conversas em pastas, listas ou temas |
+| Descrição | Eu, como usuário, desejo organizar minhas conversas por pastas, listas ou temas dentro do Deep Seek para facilitar o acesso por projeto ou assunto. |
+| Critérios de aceitação | - Deve ser possível criar, editar e excluir categorias (listas, temas ou pastas). <br> - O sistema deve permitir mover ou associar conversas a essas categorias. |
+| Rastreabilidade | #RF33 |
+| Prioridade | Média |
+
+---
+
+<a id="hu10"></a>
+## HU10 – Citar fontes da web nas pesquisas   
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU10     | Citar fontes da web nas pesquisas         |
+| Descrição | Eu, como usuário, desejo que o Deep Seek cite as fontes da web nas pesquisas feitas, para validar e utilizar as informações de forma confiável. |
+| Critérios de aceitação | - Cada trecho com origem externa deve apresentar o link da fonte e a data de acesso. <br> - As fontes devem estar visíveis no final da resposta ou junto ao conteúdo citado. |
+| Rastreabilidade | #RF14 |
+| Prioridade | Baixa |
+
+---
+
+<a id="hu11"></a>
+## HU11 – Integração com plataformas externas 
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU11     | Integrar o app com plataformas externas   |
+| Descrição | Eu, como usuário, desejo integrar o Deep Seek com plataformas externas como Google Drive, Notion e Trello. |
+| Critérios de aceitação | - O sistema deve permitir login via plataformas externas (OAuth). <br> - Deve ser possível importar e exportar conteúdos entre o Deep Seek e essas plataformas. |
+| Rastreabilidade | #RF37 |
+| Prioridade | Média |
+
+---
+
+<a id="hu12"></a>
+## HU12 – Inserir informações por comando de voz 
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU12     | Inserir informações por comando de voz    |
+| Descrição | Eu, como usuário, desejo inserir informações por comando de voz, para facilitar a entrada de dados sem precisar digitar. |
+| Critérios de aceitação | - O aplicativo deve reconhecer comandos de voz e transcrevê-los automaticamente nos campos de entrada. <br> - Deve haver um botão visível para ativar e desativar a funcinalidade de voz|
+| **Rastreabilidade**        | #RF34                             |
+| **Prioridade**             | Alta                |
+                                                                                                    
+
+
+
 
 <a id="hu13"></a>
 ## HU13 – Resolver um problema difícil de matemática
@@ -287,6 +463,7 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 
 ---
 
+
 <a id="hu31"></a>
 ## HU31 – Utilizar uma API Pública
 
@@ -377,6 +554,97 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 
 
 
+<a id="hu37"></a>
+## HU37 – Deve fazer a exclusão automática de dados de upload
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU37 |  Deve fazer a exclusão automática de dados de upload  |
+| **Descrição**              |   Eu, como administrador do sistema, desejo que os dados de upload sejam excluídos automaticamente após um período determinado, para garantir privacidade e economia de armazenamento.  |
+| **Critérios de aceitação** | - Os dados de upload devem ser excluídos automaticamente após o período configurado <br> - O sistema deve registrar logs dessa exclusão <br> - O usuário deve ser informado previamente sobre o tempo de retenção   |
+| **Rastreabilidade**        |  #RN04 |
+| **Prioridade**             | Alta | 
+
+---
+
+<a id="hu38"></a>
+## HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU38 |   A interface deve seguir diretrizes de usabilidade e acessibilidade  |
+| **Descrição**              | Eu, como pessoa usuária, desejo que a interface siga boas práticas de usabilidade e acessibilidade para que eu possa utilizar o sistema de forma confortável e inclusiva.  |
+| **Critérios de aceitação** | - Todos os botões devem estar visíveis e com tamanho adequado <br> - Textos devem ter contraste e tamanho legíveis <br> - Deve haver feedback visual e sonoro imediato para ações <br> - Compatibilidade com leitores de tela |
+| **Rastreabilidade**        |  #RN05 |
+| **Prioridade**             | Alta |
+
+---
+
+<a id="hu39"></a>
+## HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU39 |   Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos    |
+| **Descrição**              | Eu, como pessoa usuária, desejo poder decidir se meus dados podem ser usados para re-treinamento de modelos ou para fins comerciais, para ter controle sobre minha privacidade.       |
+| **Critérios de aceitação** | - O sistema deve solicitar o consentimento do usuário em linguagem clara<br>- Deve haver uma opção para aceitar ou recusar<br>- O consentimento deve ser revogável a qualquer momento |
+| **Rastreabilidade**        | # RN10  |
+| **Prioridade**             | Alta  |
+
+--- 
+
+<a id="hu40"></a>
+## HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU40 | Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas |
+| **Descrição**              | Eu, como usuário que utiliza muitos recursos computacionais, desejo que o sistema gere PDFs e cálculos pesados com estabilidade, sem erros de formatação ou falhas.    |
+| **Critérios de aceitação** | - O sistema deve gerar PDFs sem travar ou corromper o conteúdo <br> - Cálculos complexos devem ser processados sem interrupções <br> - O tempo de geração deve ser razoável |
+| **Rastreabilidade**        | #RN12 |
+| **Prioridade**             | Média |
+
+
+---
+
+<a id="hu41"></a>
+## HU41 – Deve possuir a opção de login com conta Google/Apple ID
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU41 | Deve possuir a opção de login com conta Google/Apple ID |
+| **Descrição**              | Eu, como usuário, desejo poder entrar no sistema usando minha conta Google ou Apple para facilitar o login e evitar ter que lembrar mais senhas.  |
+| **Critérios de aceitação** | - O sistema deve oferecer a opção de login com Google e Apple ID <br> - Após login, o sistema deve criar a conta ou associar a uma existente <br> - A autenticação deve seguir protocolos seguros (OAuth 2.0) |
+| **Rastreabilidade**        | #RF04  |
+| **Prioridade**             | Média |
+
+---
+
+<a id="hu42"></a>
+## HU42 – Deve ser possível criar novos chats
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU42 | Deve ser possível criar novos chats |
+| **Descrição**              |   Eu, como usuário, desejo criar novos chats para iniciar diferentes conversas com o sistema ou com outras pessoas.  |
+| **Critérios de aceitação** | - Deve haver um botão visível para criar novo chat <br> - Cada novo chat deve ter seu histórico salvo separadamente <br> - O sistema deve permitir múltiplos chats simultâneos |
+| **Rastreabilidade**        | #RF08  |
+| **Prioridade**             | Alta |
+
+---
+
 ## Referência Bibliográfica
 
 > <a id="REF1" href="#anchor_1">1.</a> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 73. [`Foto da referência`](../images/historias-de-usuario/definicao-historias-de-usuario.png)
@@ -389,10 +657,13 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 22/05/2025 |  1.0   | (#HUO1) Criação do documento de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
 | 23/05/2025 |  1.1   | (#HUO1) Criação da introdução e do template de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Mateus](https://github.com/MVConsorte)  |
-<<<<<<< HEAD
 | 23/05/2025 |  1.2   | (#HU01) Adição da referência da definição de histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 28/05/2025 |  1.3   | (#H02) Adição de conteúdo (Histórias de usuário 25 a 30)| [`@Gabriela`](https://github.com/gaubiela)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 28/05/2025 |  1.4   | (#H02) Insere tabela de contribuições e linkagem de conteúdo| [`@Gabriela`](https://github.com/gaubiela)   |  [@Luiz](https://github.com/luizfaria1989) |
-| 30/05/2025 |  1.5   | (#H02) Adição de conteudo historias de usuario (19 a 24)| [`@Fábio](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
+| 30/05/2025 |  1.5   | (#H02) Adição de conteudo historias de usuario (19 a 24)| [`@Fábio`](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 31/05/2025 |  1.6   | (#H02) Adição de conteúdo (Histórias de usuário 13 a 18)| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
-| 31/05/2025 |  1.7   | (#HU02) Adição de conteúdo (Histórias de usuário 31 a 36)| [`@Mateus`](https://github.com/MVConsorte)   |  [`@`](https://github.com/) |
+| 31/05/2025 |  1.7   | (#HU02) Adição de conteúdo (Histórias de usuário 31 a 36)| [`@Mateus`](https://github.com/MVConsorte)   |  [`@Luiz`](https://github.com/luizfaria1989) |
+| 01/06/2025 |  1.8   | (#H02) Adição de conteúdo (Histórias de usuário 01 a 06)| [`@Ana Clara`](https://github.com/anabborges)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 01/06/2025 |  1.9   | (#H02) Adição de conteúdo (Histórias de usuário 37 a 42)| [`@Ana Joyce`](https://github.com/anajoyceamorim)   |  [@](https://github.com/) |
+| 01/06/2025 |  1.10   | (#H02) Adição de conteúdo (Histórias de usuário 07 a 12)| [`@Davi Emanuel`](https://github.com/daviRolvr)   |  [@](https://github.com/) |
+
