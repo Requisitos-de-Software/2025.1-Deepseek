@@ -1,0 +1,4967 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Site voltado para a documentação do Grupo 2 de Requisitos de Software">
+      
+      
+        <meta name="author" content="Ana Borges, Ana Joyce, Davi, Fabio, Gabriela, Luiz e Mateus">
+      
+      
+      
+        <link rel="prev" href="../especificacao-suplementar/">
+      
+      
+        <link rel="next" href="../../verificacao/segunda-entrega/">
+      
+      
+      <link rel="icon" href="../../images/deepseek.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>Histórias de Usuário - Deepseek - Grupo 2</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#4D6BFE" data-md-color-accent="#4D6BFE">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Deepseek - Grupo 2" class="md-header__button md-logo" aria-label="Deepseek - Grupo 2" data-md-component="logo">
+      
+  <img src="../../images/deepseek.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Deepseek - Grupo 2
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Histórias de Usuário
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="#4D6BFE" data-md-color-accent="#4D6BFE"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="#4D6BFE" data-md-color-accent="#4D6BFE"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2025.1-Deepseek" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.1-Deepseek
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Deepseek - Grupo 2" class="md-nav__button md-logo" aria-label="Deepseek - Grupo 2" data-md-component="logo">
+      
+  <img src="../../images/deepseek.svg" alt="logo">
+
+    </a>
+    Deepseek - Grupo 2
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2025.1-Deepseek" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.1-Deepseek
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visão Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Gravações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Gravações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/entregas/grav-entrega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entregas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/grav-reunioes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reuniões
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-10-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 10-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-15-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 15-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-17-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 17-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-24-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 24-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-29-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 29-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-01-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 01-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-06-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 06-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-08-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 08-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-13-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 13-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-15-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 15-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Políticas do Repositório
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Políticas do Repositório
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/politicas_repositorio/politica_branches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Branches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/politicas_repositorio/politica_commits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma-executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/lista-de-apps-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lista de Apps Avaliados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/termo-de-uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Termo de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/requisitos-gerais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/analise-de-documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise de Documentos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pesquisa/Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/observacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Observação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/analise-de-interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise de Interface
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/perfil-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/MoSCow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MoSCoW
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/three-level-scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/In-or-Out/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    In-or-Out
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/QFD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quality Function Deployment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos-de-uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao-suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-contribuicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historias-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórias de Usuário
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu01-visualizar-tutorial-interativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU01 – Visualizar tutorial interativo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu02-confirmar-a-exclusao-do-historico-de-conversas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU02 – Confirmar a exclusão do histórico de conversas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu03-interacao-com-a-inteligencia-artificial" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU03 – Interação com a Inteligência Artificial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu04-renomear-um-chat-ja-existente" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU04 – Renomear um chat já existente
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu05-busca-incremental-no-campo-de-texto" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU05 – Busca incremental no campo de texto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu06-controle-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU06 – Controle de dados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu07-interromper-respostas-em-andamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU07 – Interromper respostas em andamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu08-enviar-arquivos-com-suporte-a-leitura-ocr" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU08 – Enviar arquivos com suporte a leitura OCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu09-organizar-conversas-em-pastas-listas-ou-temas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU09 – Organizar conversas em pastas, listas ou temas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu10-citar-fontes-da-web-nas-pesquisas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU10 – Citar fontes da web nas pesquisas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu11-integracao-com-plataformas-externas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU11 – Integração com plataformas externas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu12-inserir-informacoes-por-comando-de-voz" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU12 – Inserir informações por comando de voz
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu13-resolver-um-problema-dificil-de-matematica" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU13 – Resolver um problema difícil de matemática
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu14-visualizar-em-tempo-real-o-status-do-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU14 – Visualizar em tempo real o status do servidor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu15-interromper-chat-em-andamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU15 – Interromper chat em andamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu16-autenticar-a-conta-para-acessar-funcionalidades-avancadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU16 – Autenticar a conta para acessar funcionalidades avançadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu17-controlar-quais-dados-sao-compartilhados-com-a-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU17 – Controlar quais dados são compartilhados com a IA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu18-salvar-chat-entre-plataformas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU18 – Salvar chat entre plataformas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu19-deve-oferecer-modo-escuro-e-claro-com-configuracao-manual-e-sincronizacao-automatica-com-o-so" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu20-permitir-escolha-de-modelos-selecao-de-diferentes-versoesmodelos-de-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu21-ajustar-visualizacao-do-titulo-ao-passar-o-mouse-sobre-o-nome-do-chat-na-barra-lateral-de-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu22-ajustar-visualizacao-do-titulo-ao-passar-o-mouse-sobre-o-nome-do-chat-na-barra-lateral-de-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU22 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu23-as-respostas-devem-suportar-formatacoes-como-textos-de-tamanhos-diferentes-linhas-textos-em-negrito-e-emojis" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu24-retencao-de-contexto-em-dialogos-longos" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU24 – Retenção de contexto em diálogos longos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu25-suportar-multiplos-formatos-de-imagem-e-extracao-de-texto-confiavel-via-ocr" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu26-enviar-pdf-e-receber-texto-extraido-e-insights-preservando-formatacao-e-simbolos" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu27-alterar-idioma-da-interface-do-deepseek" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU27 – Alterar idioma da interface do DeepSeek
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu28-apagar-conversas-individuais-ou-todo-o-historico-no-deepseek" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU28 – Apagar conversas individuais ou todo o histórico no DeepSeek
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu29-buscar-versao-mais-recente-do-nodejs-em-data-especifica-e-copiar-resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu30-refinar-resposta-gerada-ate-atingir-clareza-e-concisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU30 – Refinar resposta gerada até atingir clareza e concisão
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu31-utilizar-uma-api-publica" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU31 – Utilizar uma API Pública
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu32-implementar-memoria-de-contexto-persistente-entre-conversas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU32 – Implementar memória de contexto persistente entre conversas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu33-disponibilizar-resumo-textual-do-conteudo-de-video-importado-de-links-do-youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu34-adicionar-editor-de-texto-avancado-com-suporte-a-markdown-e-formatacao-de-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu35-recuperar-chats-anteriores" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU35 – Recuperar chats anteriores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu36-exibir-citacoes-de-fontes" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU36 – Exibir citações de fontes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu37-deve-fazer-a-exclusao-automatica-de-dados-de-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU37 – Deve fazer a exclusão automática de dados de upload
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu38-a-interface-deve-seguir-diretrizes-de-usabilidade-e-acessibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu39-especificar-e-permitir-ao-usuario-optar-por-participar-ou-nao-do-uso-de-seus-dados-em-re-treinamento-ou-venda-de-modelos" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu40-garantir-estabilidade-na-geracao-de-conteudos-pesados-pdf-calculos-evitando-erros-de-formatacao-ou-falhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu41-deve-possuir-a-opcao-de-login-com-conta-googleapple-id" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU41 – Deve possuir a opção de login com conta Google/Apple ID
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu42-deve-ser-possivel-criar-novos-chats" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU42 – Deve ser possível criar novos chats
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/segunda-entrega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Segunda Entrega
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/terceira-entrega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Terceira Entrega
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/quarta-entrega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quarta Entrega
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeção
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeção
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1" id="__nav_9_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Segunda Entrega
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1">
+            <span class="md-nav__icon md-icon"></span>
+            Segunda Entrega
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega2/inspecao-grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega2/inspecao-grupo3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Terceira Entrega
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            Terceira Entrega
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega3/inspecao-grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega3/inspecao-grupo3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Quarta Entrega
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3">
+            <span class="md-nav__icon md-icon"></span>
+            Quarta Entrega
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega4/inspecao-grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega4/inspecao-grupo3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Projeto Obsoleto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Projeto Obsoleto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Gravações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            Gravações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/gravacoes/entregas/entregas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entregas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2_2" id="__nav_10_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reuniões
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/gravacoes/reunioes/reunioes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visão Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_3" id="__nav_10_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_3">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_3_1" id="__nav_10_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Políticas do Repositório
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Políticas do Repositório
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/politicas_repositorio/politica_branches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Branches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/politicas_repositorio/politica_commits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/lista-de-apps-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lista de Apps Avaliados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/lista-de-verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lista de Verificação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/rich-picture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rich Picture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/termo-de-uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Termo de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_4" id="__nav_10_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_4">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/tecnicas-de-elicitacao/questionario/ElicitacaoQuestionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pesquisa/Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-contribuicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historias-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórias de Usuário
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu01-visualizar-tutorial-interativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU01 – Visualizar tutorial interativo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu02-confirmar-a-exclusao-do-historico-de-conversas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU02 – Confirmar a exclusão do histórico de conversas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu03-interacao-com-a-inteligencia-artificial" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU03 – Interação com a Inteligência Artificial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu04-renomear-um-chat-ja-existente" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU04 – Renomear um chat já existente
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu05-busca-incremental-no-campo-de-texto" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU05 – Busca incremental no campo de texto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu06-controle-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU06 – Controle de dados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu07-interromper-respostas-em-andamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU07 – Interromper respostas em andamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu08-enviar-arquivos-com-suporte-a-leitura-ocr" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU08 – Enviar arquivos com suporte a leitura OCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu09-organizar-conversas-em-pastas-listas-ou-temas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU09 – Organizar conversas em pastas, listas ou temas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu10-citar-fontes-da-web-nas-pesquisas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU10 – Citar fontes da web nas pesquisas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu11-integracao-com-plataformas-externas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU11 – Integração com plataformas externas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu12-inserir-informacoes-por-comando-de-voz" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU12 – Inserir informações por comando de voz
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu13-resolver-um-problema-dificil-de-matematica" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU13 – Resolver um problema difícil de matemática
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu14-visualizar-em-tempo-real-o-status-do-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU14 – Visualizar em tempo real o status do servidor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu15-interromper-chat-em-andamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU15 – Interromper chat em andamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu16-autenticar-a-conta-para-acessar-funcionalidades-avancadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU16 – Autenticar a conta para acessar funcionalidades avançadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu17-controlar-quais-dados-sao-compartilhados-com-a-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU17 – Controlar quais dados são compartilhados com a IA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu18-salvar-chat-entre-plataformas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU18 – Salvar chat entre plataformas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu19-deve-oferecer-modo-escuro-e-claro-com-configuracao-manual-e-sincronizacao-automatica-com-o-so" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu20-permitir-escolha-de-modelos-selecao-de-diferentes-versoesmodelos-de-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu21-ajustar-visualizacao-do-titulo-ao-passar-o-mouse-sobre-o-nome-do-chat-na-barra-lateral-de-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu22-ajustar-visualizacao-do-titulo-ao-passar-o-mouse-sobre-o-nome-do-chat-na-barra-lateral-de-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU22 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu23-as-respostas-devem-suportar-formatacoes-como-textos-de-tamanhos-diferentes-linhas-textos-em-negrito-e-emojis" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu24-retencao-de-contexto-em-dialogos-longos" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU24 – Retenção de contexto em diálogos longos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu25-suportar-multiplos-formatos-de-imagem-e-extracao-de-texto-confiavel-via-ocr" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu26-enviar-pdf-e-receber-texto-extraido-e-insights-preservando-formatacao-e-simbolos" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu27-alterar-idioma-da-interface-do-deepseek" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU27 – Alterar idioma da interface do DeepSeek
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu28-apagar-conversas-individuais-ou-todo-o-historico-no-deepseek" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU28 – Apagar conversas individuais ou todo o histórico no DeepSeek
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu29-buscar-versao-mais-recente-do-nodejs-em-data-especifica-e-copiar-resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu30-refinar-resposta-gerada-ate-atingir-clareza-e-concisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU30 – Refinar resposta gerada até atingir clareza e concisão
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu31-utilizar-uma-api-publica" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU31 – Utilizar uma API Pública
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu32-implementar-memoria-de-contexto-persistente-entre-conversas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU32 – Implementar memória de contexto persistente entre conversas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu33-disponibilizar-resumo-textual-do-conteudo-de-video-importado-de-links-do-youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu34-adicionar-editor-de-texto-avancado-com-suporte-a-markdown-e-formatacao-de-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu35-recuperar-chats-anteriores" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU35 – Recuperar chats anteriores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu36-exibir-citacoes-de-fontes" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU36 – Exibir citações de fontes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu37-deve-fazer-a-exclusao-automatica-de-dados-de-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU37 – Deve fazer a exclusão automática de dados de upload
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu38-a-interface-deve-seguir-diretrizes-de-usabilidade-e-acessibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu39-especificar-e-permitir-ao-usuario-optar-por-participar-ou-nao-do-uso-de-seus-dados-em-re-treinamento-ou-venda-de-modelos" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu40-garantir-estabilidade-na-geracao-de-conteudos-pesados-pdf-calculos-evitando-erros-de-formatacao-ou-falhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu41-deve-possuir-a-opcao-de-login-com-conta-googleapple-id" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU41 – Deve possuir a opção de login com conta Google/Apple ID
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hu42-deve-ser-possivel-criar-novos-chats" class="md-nav__link">
+    <span class="md-ellipsis">
+      HU42 – Deve ser possível criar novos chats
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Histórias de Usuário</h1>
+
+<h2 id="introducao">Introdução</h2>
+<p>As histórias de usuário descrevem o resultado, as características e a funcionalidade requisitados para o software a ser construído. Cada história, é colocada em uma ficha. Nessa ficha, o cliente atribui um valor à história baseando-se no valor de negócio global do recurso ou função. Os membros da equipe então, avaliam então cada história e atribuem a ela um custo, o qual é medido em semanas de desenvolvimento. Se a história possuir um número alto de custo, por exemplo, mais do que três semanas de desenvolvimento, é solicitado ao cliente para dividir a história em histórias menores e a atribuição de valor e custo ocorre novamente. É importante notar que podem ser escritas novas histórias a qualquer momento <a id="anchor_1" href="#REF1">[1]</a>.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Tabela 2: Modelo de tabela para histórias de usuário.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USXX</td>
+<td>Título</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como XXX, desejo XXX para XXX</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- xxx  - xxx</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>Códigos dos requisitos relacionados</td>
+</tr>
+<tr>
+<td>Prioridade</td>
+<td>Alta, média ou baixa</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a id="anchor_2" href="#REF2">[2]</a>.</p>
+<h3 id="tabela-de-contribuicoes">Tabela de Contribuições</h3>
+<table>
+<thead>
+<tr>
+<th>Contribuinte</th>
+<th>Descrição</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ana Clara</td>
+<td>Criação das histórias de usuário HU01, HU02, HU03, HU04, HU5 e HU06</td>
+<td><a href="#hu01">HU01</a> · <a href="#hu02">HU02</a> · <a href="#hu03">HU03</a> · <a href="#hu04">HU04</a> · <a href="#hu05">HU5</a> · <a href="#hu06">HU06</a></td>
+</tr>
+<tr>
+<td>Luiz</td>
+<td>Criação das histórias de usuário HU13, HU14, HU15, HU16, HU17 e HU18</td>
+<td><a href="#hu13">HU13</a> · <a href="#hu14">HU14</a> · <a href="#hu15">HU15</a> · <a href="#hu16">HU16</a> · <a href="#hu17">HU17</a> · <a href="#hu18">HU18</a></td>
+</tr>
+<tr>
+<td>Fábio</td>
+<td>Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24</td>
+<td><a href="#hu19">HU19</a> · <a href="#hu20">HU20</a> · <a href="#hu21">HU21</a> · <a href="#hu22">HU22</a> · <a href="#hu23">HU23</a> · <a href="#hu24">HU24</a></td>
+</tr>
+<tr>
+<td>Gabriela</td>
+<td>Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30</td>
+<td><a href="#hu25">HU25</a> · <a href="#hu26">HU26</a> · <a href="#hu27">HU27</a> · <a href="#hu28">HU28</a> · <a href="#hu29">HU29</a> · <a href="#hu30">HU30</a></td>
+</tr>
+<tr>
+<td>Mateus</td>
+<td>Criação das histórias de usuário HU31, HU32, HU33, HU34, HU35 e HU36</td>
+<td><a href="#hu31">HU31</a> · <a href="#hu32">HU32</a> · <a href="#hu33">HU33</a> · <a href="#hu34">HU34</a> · <a href="#hu35">HU35</a> · <a href="#hu36">HU36</a></td>
+</tr>
+<tr>
+<td>Ana Joyce</td>
+<td>Criação das histórias de usuário HU37, HU38, HU39, HU40, HU41 e HU42</td>
+<td><a href="#hu37">HU37</a> · <a href="#hu38">HU38</a> · <a href="#hu39">HU39</a> · <a href="#hu40">HU40</a> · <a href="#hu41">HU41</a> · <a href="#hu42">HU42</a></td>
+</tr>
+<tr>
+<td>Davi Emanuel</td>
+<td>Criação das histórias de usuário HU07, HU08, HU09, HU10 e HU11 e HU12</td>
+<td><a href="#hu07">HU07</a> · <a href="#hu08">HU08</a> · <a href="#hu09">HU09</a> · <a href="#hu10">HU10</a> · <a href="#hu11">HU11</a> · <a href="#hu12">HU12</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="historias-de-usuario">Histórias de Usuário</h2>
+<p><a id="hu01"></a></p>
+<h2 id="hu01-visualizar-tutorial-interativo">HU01 – Visualizar tutorial interativo</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anabborges">Ana Clara</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU01</td>
+<td>Visualizar tutorial interativo</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário, desejo que o aplicativo me mostre um tutorial interativo para que eu possa aprender a usar a plataforma.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Na página inicial deve começar um tutorial interativo apresentando as funcionalidades da plataforma no meu primeiro acesso; <br> - Deve aparecer um botão nos outros acessos possibilitando que eu refaça o tutorial caso queira.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF28</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu02"></a></p>
+<h2 id="hu02-confirmar-a-exclusao-do-historico-de-conversas">HU02 – Confirmar a exclusão do histórico de conversas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anabborges">Ana Clara</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU02</td>
+<td>Confirmar a exclusão do histórico de conversas</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário, desejo que o aplicativo me mostre uma confirmação ao apertar em apagar histórico para que eu possa confirmar ou cancelar a ação.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao apertar em apagar histórico de conversas, deve aparecer uma janela de confirmação perguntando se desejo confirmar ou cancelar a ação; <br> - Se apertar na opção de confirmar, não devem aparecer as minhas conversas na tela inicial; <br> - Se apertar na opção de cancelar, as minhas conversas devem aparecer na tela inicial.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF22</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu03"></a></p>
+<h2 id="hu03-interacao-com-a-inteligencia-artificial">HU03 – Interação com a Inteligência Artificial</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anabborges">Ana Clara</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU03</td>
+<td>Interação com a Inteligência Artificial</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário, desejo que o aplicativo tenha um campo de digitação para que eu possa escrever minhas mensagens interagindo com a IA.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao abrir a tela inicial, criar um novo chat ou entrar em um chat já existente, deve haver um campo de digitação na parte inferior da tela; <br> - Ao apertar no campo, eu devo ser capaz de digitar uma mensagem a partir do teclado; <br> - Após escrever a mensagem, devo ser capaz de enviar a minha mensagem para a IA.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF07</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu04 "></a></p>
+<h2 id="hu04-renomear-um-chat-ja-existente">HU04 – Renomear um chat já existente</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anabborges">Ana Clara</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU04</td>
+<td>Renomear um chat já existente</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário, desejo que o aplicativo me dê a opção de renomear os chats que eu criei para que eu possa ter uma melhor organização dos chats e me lembre qual é o conteúdo de cada um, evitando retrabalho.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao clicar com o botão direito do meu mouse em um chat, deve aparecer a opção de renomear o chat; <br> - Ao digitar e apertar ENTER no teclado, o nome escrito deve aparecer no nome do chat; <br> - Após escrever a mensagem, devo ser capaz de enviar a minha mensagem para a IA.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF09</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu05 "></a></p>
+<h2 id="hu05-busca-incremental-no-campo-de-texto">HU05 – Busca incremental no campo de texto</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anabborges">Ana Clara</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU05</td>
+<td>Busca incremental no campo de texto</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário, desejo que o aplicativo me dê sugestões em tempo real conforme digito no campo de interação com a IA para que eu consiga agilizar o processo de escrita.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao clicar no campo de interação com a IA e começar a digitar, enquanto digito aparece sugestões para as próximas palavras; <br> - Ao apertar a tecla tab no teclado, essas sugestões são aceitas, aparecendo com uma cor mais visível no campo de texto.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF23</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu06 "></a></p>
+<h2 id="hu06-controle-de-dados">HU06 – Controle de dados</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anabborges">Ana Clara</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU06</td>
+<td>Controle de dados</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário, desejo que o aplicativo me permita escolher quais dados eu quero compartilhar para que eu tenha um maior controle deles e me sinta mais seguro.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Na tela de configurações, em uma aba de controle de dados, aparecem checkboxes para eu selecionar quais tipos de dados eu concordo em compartilhar (histórico de buscas, localização, arquivos enviados, etc); <br> - Devo ser capaz de selecionar e tirar a seleção dos tipos de dados.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF25</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu07"></a></p>
+<h2 id="hu07-interromper-respostas-em-andamento">HU07 – Interromper respostas em andamento</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr">Davi Emanuel</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU07</td>
+<td>Interromper respostas em andamento</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como usuário, desejo poder interromper respostas do Deep Seek enquanto estão sendo geradas, para ajustar ou reformular minha pergunta.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- Deve haver um botão ou comando para cancelar a resposta em andamento. <br> - A interface deve parar imediatamente o carregamento da resposta ao ser acionada.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RF19</td>
+</tr>
+<tr>
+<td>Prioridade</td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu08"></a></p>
+<h2 id="hu08-enviar-arquivos-com-suporte-a-leitura-ocr">HU08 – Enviar arquivos com suporte a leitura OCR</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr">Davi Emanuel</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU08</td>
+<td>Enviar arquivos com suporte a leitura OCR</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como usuário, desejo enviar arquivos nos formatos PDF, DOCX, TXT e imagens para que o sistema possa extrair e analisar o conteúdo.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve aceitar upload de arquivos nos formatos PDF, DOCX, TXT e imagens (.jpg, .png). <br> - Para imagens, o sistema deve utilizar OCR para converter o conteúdo em texto.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RIF01</td>
+</tr>
+<tr>
+<td>Prioridade</td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu09"></a></p>
+<h2 id="hu09-organizar-conversas-em-pastas-listas-ou-temas">HU09 – Organizar conversas em pastas, listas ou temas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr">Davi Emanuel</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU09</td>
+<td>Organizar conversas em pastas, listas ou temas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como usuário, desejo organizar minhas conversas por pastas, listas ou temas dentro do Deep Seek para facilitar o acesso por projeto ou assunto.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- Deve ser possível criar, editar e excluir categorias (listas, temas ou pastas). <br> - O sistema deve permitir mover ou associar conversas a essas categorias.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RF33</td>
+</tr>
+<tr>
+<td>Prioridade</td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu10"></a></p>
+<h2 id="hu10-citar-fontes-da-web-nas-pesquisas">HU10 – Citar fontes da web nas pesquisas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr">Davi Emanuel</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU10</td>
+<td>Citar fontes da web nas pesquisas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como usuário, desejo que o Deep Seek cite as fontes da web nas pesquisas feitas, para validar e utilizar as informações de forma confiável.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- Cada trecho com origem externa deve apresentar o link da fonte e a data de acesso. <br> - As fontes devem estar visíveis no final da resposta ou junto ao conteúdo citado.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RF14</td>
+</tr>
+<tr>
+<td>Prioridade</td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu11"></a></p>
+<h2 id="hu11-integracao-com-plataformas-externas">HU11 – Integração com plataformas externas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr">Davi Emanuel</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU11</td>
+<td>Integrar o app com plataformas externas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como usuário, desejo integrar o Deep Seek com plataformas externas como Google Drive, Notion e Trello.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O sistema deve permitir login via plataformas externas (OAuth). <br> - Deve ser possível importar e exportar conteúdos entre o Deep Seek e essas plataformas.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>#RF37</td>
+</tr>
+<tr>
+<td>Prioridade</td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu12"></a></p>
+<h2 id="hu12-inserir-informacoes-por-comando-de-voz">HU12 – Inserir informações por comando de voz</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr">Davi Emanuel</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU12</td>
+<td>Inserir informações por comando de voz</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como usuário, desejo inserir informações por comando de voz, para facilitar a entrada de dados sem precisar digitar.</td>
+</tr>
+<tr>
+<td>Critérios de aceitação</td>
+<td>- O aplicativo deve reconhecer comandos de voz e transcrevê-los automaticamente nos campos de entrada. <br> - Deve haver um botão visível para ativar e desativar a funcinalidade de voz</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF34</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu13"></a></p>
+<h2 id="hu13-resolver-um-problema-dificil-de-matematica">HU13 – Resolver um problema difícil de matemática</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989">Luiz</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU13</td>
+<td>Resolver um problema difícil de matemática</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo utilizar funcionalidade pensamento profundo para poder ter acesso a linha de pensamento de como um determinado problema de matemática pode ser resolvido.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao fazer a pergunta no chat e ativar a opção <strong>Pensamento Profundo (R1)</strong> é retornado a resolução do problema de matemática que foi discutido na pergunta com o DeepSeek; <br> - Também é retornado a linha de pensamento que o modelo do DeepSeek utilizou para responder aquela pergunta.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF02</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu14"></a></p>
+<h2 id="hu14-visualizar-em-tempo-real-o-status-do-servidor">HU14 – Visualizar em tempo real o status do servidor</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989">Luiz</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU14</td>
+<td>Visualizar em tempo real o status do servidor</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo visualizar em tempo real o status do servidor do DeepSeek para decidir se envio a minha pergunta para o DeepSeek agora, ou espero ele estar disponível novamente.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao criar um novo chat, no topo, será possível ver uma mensagem indicando se o servidor está <strong>disponível/em manutenção/sobrecarregado/indisponível</strong>; <br> - O status do servidor também pode ser atualizado ao clicar na seta ao lado da visualização do status caso o usuário não decida criar um novo chat.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF29</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Não fazer</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu15"></a></p>
+<h2 id="hu15-interromper-chat-em-andamento">HU15 – Interromper chat em andamento</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989">Luiz</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU15</td>
+<td>Interromper chat em andamento</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo interromper uma resposta que está sendo gerada pela IA para poder economizar meu tempo e poder enviar uma nova mensagem o mais cedo possível.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao fazer uma pergunta, enquanto a resposta está sendo gerada, surge um botão, ao lado da caixa de texto, que tem a funcionalidade de interromper a resposta que está sendo gerada; <br>  - Ao clicar no botão, a resposta é interrompida e no fim dela aparece a mensagem <strong>"Resposta interrompida pelo usuário"</strong>.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF19</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu16"></a></p>
+<h2 id="hu16-autenticar-a-conta-para-acessar-funcionalidades-avancadas">HU16 – Autenticar a conta para acessar funcionalidades avançadas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989">Luiz</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU16</td>
+<td>Autenticar a conta para acessar funcionalidades avançadas</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo autenticar a minha conta do DeepSeek para poder acessar funcionalidades avançadas.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao clicar em configurações, na aba funcionalidades avançadas, é possível fazer uma autenticação para acessar funcionalidades avançadas através de um botão escrito <strong>Autenticar conta</strong>; <br> - Nesse botão, o usuário é redirecionado para uma página web do DeepSeek em que é pedido um código numérico de oito dígitos para ser respondido; <br> - Esse código pode ser enviado para o e-mail cadastrado na conta do usuário; <br> - Ao adicionar o código de autenticação a página retorna com uma mensagem dizendo que a conta daquele usuário está autenticada; <br> - Feito isso, quando acessar as configurações, na aba funcionalidades avançadas é possível utilizar uma série de funções avançadas.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF26</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Não fazer</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu17"></a></p>
+<h2 id="hu17-controlar-quais-dados-sao-compartilhados-com-a-ia">HU17 – Controlar quais dados são compartilhados com a IA</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989">Luiz</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU17</td>
+<td>Controlar quais dados são compartilhados com a IA</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo poder controlar quais dos meus dados serão compartilhados para poder garantir maior privacidade.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao clicar em configurações, na aba <strong>controle de dados</strong>, é possível acessar vários toggles que indicam quais dados estão ou não estão sendo compartilhadas com a IA, como localização, histórico de pesquisa e chat. <br>  - Quando um toggle é clicado para ligar ele muda de cor, indicando que ele está ligado <br> - Um dado que não está sendo compartilhado possui o toggle com as cores em escala de cinza; <br> - Quando o usuário sair da aba controle de dados aparecerá uma mensagem com a pergunta "Deseja salvar as suas configurações de compartilhamento de dados?"; <br> - se o usuário clicar no botão <strong>salvar configurações</strong> ele sai da aba de controle de dados e as configurações que ele alterou já estarão funcionando normalmente no app; <br> - se o usuário clicar no botão <strong>Não salvar</strong>, suas configurações alteradas irão voltar para o estado anterior de quando ele entrou na aba de controle dados, ele também sái desse menu.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF25</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu18"></a></p>
+<h2 id="hu18-salvar-chat-entre-plataformas">HU18 – Salvar chat entre plataformas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989">Luiz</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU18</td>
+<td>Salvar chat entre plataformas</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo salvar os chats do app DeepSeek entre múltiplas plataformas para poder acessar o meu histórico de chats no meu notebook e no meu telefone.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao clicar em configurações, é possível ver um toggle com a opção <strong>sincronizar conversas entre plataformas</strong>, quando ativado ele fica colorido, caso esteja desligado ele estará em escala de cinza; <br> - Quando sair do menu configurações aparecerá o pop-up com o texto "Deseja salvar as suas configurações?"; <br> - Ao clicar em <strong>Salvar configurações</strong> ele sairá do menu e voltará para os chats, a partir desse momento seus chats já estarão sendo sincronizados entre plataformas; <br> - Ao clicar em <strong>Não salvar</strong> ele voltará para os chats e suas configurações alteradas não serão salvas; <br> - Considerando que a sincronização de conversas está ativada, ao enviar uma conversa em seu notebook para seu chat no DeepSeek, essa conversa irá aparecer em seu app do telefone em 1 minuto.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF05</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu19"></a></p>
+<h2 id="hu19-deve-oferecer-modo-escuro-e-claro-com-configuracao-manual-e-sincronizacao-automatica-com-o-so">HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/fabinsz">Fábio</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU19</td>
+<td>Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário do aplicativo DeepSeek, desejo alternar entre os modos claro e escuro manualmente ou automaticamente conforme o sistema operacional, para ter uma experiência visual mais confortável e personalizada.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Deve ser possível selecionar manualmente entre o modo claro e o modo escuro nas configurações do aplicativo;<br> - O aplicativo deve oferecer uma opção para sincronizar automaticamente o tema com as configurações do sistema operacional;<br> - A mudança de tema deve ser aplicada imediatamente após a alteração;<br> - O tema selecionado (manual ou automático) deve ser mantido nas próximas execuções do aplicativo.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF27</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu20"></a></p>
+<h2 id="hu20-permitir-escolha-de-modelos-selecao-de-diferentes-versoesmodelos-de-ia">HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/fabinsz">Fábio</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU20</td>
+<td>Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário do aplicativo DeepSeek, desejo escolher entre diferentes modelos de IA para poder utilizar a versão mais adequada às minhas necessidades.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Deve ser possível visualizar uma lista de modelos de IA disponíveis para seleção;<br> - O usuário deve conseguir selecionar manualmente o modelo desejado por meio da interface do aplicativo;<br> - O modelo selecionado deve ser aplicado às próximas interações com o sistema;<br> - O aplicativo deve informar claramente o nome e a descrição de cada modelo.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF32</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu21"></a></p>
+<h2 id="hu21-ajustar-visualizacao-do-titulo-ao-passar-o-mouse-sobre-o-nome-do-chat-na-barra-lateral-de-historico">HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/fabinsz">Fábio</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU21</td>
+<td>Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário do aplicativo DeepSeek, desejo visualizar corretamente o título completo do chat ao passar o mouse sobre o nome na barra lateral de histórico, para identificar facilmente o conteúdo da conversa.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao passar o mouse sobre o nome do chat na barra lateral, deve ser exibido um tooltip com o título completo da conversa;<br> - O tooltip deve aparecer de forma rápida e clara, sem atraso perceptível;<br> - O conteúdo exibido no tooltip deve estar legível e não deve ser cortado ou truncado;<br> - O comportamento deve ser consistente em diferentes navegadores e tamanhos de tela.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF35</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu22"></a></p>
+<h2 id="hu22-ajustar-visualizacao-do-titulo-ao-passar-o-mouse-sobre-o-nome-do-chat-na-barra-lateral-de-historico">HU22 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/fabinsz">Fábio</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU22</td>
+<td>Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário do aplicativo DeepSeek, desejo receber instruções claras e contextualizadas sobre o uso de OCR ao enviar uma imagem, para entender como a funcionalidade funciona e o que esperar do resultado.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- A interface de envio de imagens deve exibir instruções sobre o que é OCR e como ele será aplicado à imagem;<br> - As instruções devem ser exibidas de forma clara, concisa e visualmente acessível;<br> - As orientações devem aparecer antes ou durante o envio da imagem, de forma contextualizada;<br> - As instruções devem incluir exemplos de imagens ideais para OCR e limitações conhecidas do recurso.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF36</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu23"></a></p>
+<h2 id="hu23-as-respostas-devem-suportar-formatacoes-como-textos-de-tamanhos-diferentes-linhas-textos-em-negrito-e-emojis">HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/fabinsz">Fábio</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU23</td>
+<td>As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário do aplicativo DeepSeek, desejo que as respostas suportem diferentes formatações de texto, como tamanhos variados, linhas, negrito e emojis, para melhorar a clareza, expressividade e compreensão das mensagens.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- As respostas devem permitir o uso de diferentes tamanhos de texto para destacar conteúdos importantes;<br> - Deve ser possível aplicar negrito, itálico e sublinhado nas respostas, conforme necessário;<br> - A formatação deve incluir o uso de emojis para tornar a comunicação mais expressiva;<br> - Deve haver suporte a separação por linhas ou blocos para organizar melhor as informações.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF18 - #ROF12</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu24"></a></p>
+<h2 id="hu24-retencao-de-contexto-em-dialogos-longos">HU24 – Retenção de contexto em diálogos longos</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/fabinsz">Fábio</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU24</td>
+<td>Retenção de contexto em diálogos longos.</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário do aplicativo DeepSeek, desejo que o sistema mantenha o contexto de conversas longas para que as respostas sejam mais coerentes e relevantes ao longo do diálogo.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- O sistema deve manter o histórico de mensagens anteriores durante um mesmo diálogo;<br> - As respostas devem considerar referências feitas anteriormente pelo usuário no mesmo diálogo;<br> - O limite de contexto deve permitir interações extensas sem perda de informações importantes;<br> - O sistema deve informar ao usuário quando o contexto anterior não puder mais ser mantido por limitações técnicas.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF30</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu25"></a></p>
+<h2 id="hu25-suportar-multiplos-formatos-de-imagem-e-extracao-de-texto-confiavel-via-ocr">HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela">Gabriela</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU25</td>
+<td>Suportar múltiplos formatos de imagem e extração de texto confiável via OCR</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário do DeepSeek, desejo que o sistema aceite uploads de diferentes formatos de imagem (JPG, PNG, TIFF, BMP) e extraia texto com alta fidelidade, para poder analisar documentos gráficos de várias origens sem perder símbolos ou trechos importantes.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- O DeepSeek aceita arquivos nos formatos JPG, PNG, TIFF e BMP;<br> - Extrai texto mantendo símbolos especiais (diacríticos, equações) e formatação básica;<br> - Taxa de precisão mínima de 95 % na extração de caracteres alfanuméricos;<br> - Tempo de resposta para OCR de cada imagem ≤ 35 s.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF03</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu26"></a></p>
+<h2 id="hu26-enviar-pdf-e-receber-texto-extraido-e-insights-preservando-formatacao-e-simbolos">HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela">Gabriela</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU26</td>
+<td>Enviar PDF e receber texto extraído e insights preservando formatação e símbolos</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo enviar um PDF e receber o texto extraído e insights, preservando formatação e símbolos, para poder revisá-los e editá-los diretamente sem perder convenções de estilo.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- O sistema aceita arquivos PDF válidos;<br> - Extrai e apresenta todo o texto mantendo formatação (negrito, itálico, listas) e símbolos especiais (diacríticos, equações);<br> - Destaca possíveis inconsistências de extração (caracteres faltantes ou ilegíveis);<br> - Em caso de perda de conexão, notifica “Conexão perdida” e permite retomar o upload.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF03</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu27"></a></p>
+<h2 id="hu27-alterar-idioma-da-interface-do-deepseek">HU27 – Alterar idioma da interface do DeepSeek</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela">Gabriela</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU27</td>
+<td>Alterar idioma da interface do DeepSeek</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário multilíngue, desejo poder selecionar o idioma da interface do DeepSeek (por exemplo, Português, Inglês e Espanhol), para utilizar o aplicativo no meu idioma preferido e compreender melhor todas as funcionalidades.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Há um controle de seleção de idioma acessível em “Configurações”;<br> - Estão disponíveis ao menos Português, Inglês e Espanhol;<br> - A troca de idioma aplica-se instantaneamente a todos os textos da interface;<br> - A preferência de idioma é lembrada em sessões futuras.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF15</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu28"></a></p>
+<h2 id="hu28-apagar-conversas-individuais-ou-todo-o-historico-no-deepseek">HU28 – Apagar conversas individuais ou todo o histórico no DeepSeek</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela">Gabriela</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU28</td>
+<td>Apagar conversas individuais ou todo o histórico</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário preocupado com privacidade, desejo poder apagar conversas específicas ou limpar todo o histórico no DeepSeek, para controlar meus dados pessoais e manter meu espaço de trabalho organizado.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Cada conversa exibe botão “Apagar” ao passar o mouse;<br> - Há opção “Limpar todo o histórico” em “Configurações”;<br> - Em ambos os casos, o sistema exibe diálogo de confirmação antes da exclusão;<br> - Após confirmação, a(s) conversa(s) é(ão) removida(s) imediatamente da lista.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF16</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu29"></a></p>
+<h2 id="hu29-buscar-versao-mais-recente-do-nodejs-em-data-especifica-e-copiar-resultado">HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela">Gabriela</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU29</td>
+<td>Buscar versão mais recente do Node.js em data específica e copiar resultado</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo buscar a versão mais recente do Node.js em 10/05/2025 e copiar o resultado, para documentar de forma ágil a dependência no repositório.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao buscar “versão mais recente do Node.js em 10/05/2025”, o sistema retorna “Node.js v20.7.0 – lançado em 08/05/2025”;<br> - O resultado inclui data de lançamento e um botão <strong>Copy</strong> ativo;<br> - A busca é concluída em menos de 3 segundos;<br> - Permite refinar a consulta caso não haja informação de data.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF01, #RF13</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu30"></a></p>
+<h2 id="hu30-refinar-resposta-gerada-ate-atingir-clareza-e-concisao">HU30 – Refinar resposta gerada até atingir clareza e concisão</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela">Gabriela</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU08</td>
+<td>Refinar resposta gerada até atingir clareza e concisão</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo refinar uma resposta gerada usando <strong>Like/Dislike/Regenerate/Copy</strong> até atingir clareza e concisão, para obter um texto final satisfatório e pronto para uso.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Exibe botões <strong>Like</strong>, <strong>Dislike</strong>, <strong>Regenerate</strong> e <strong>Copy</strong> para cada versão gerada;<br> - Ao clicar em <strong>Dislike</strong>, permite ao usuário inserir feedback e, após <strong>Regenerate</strong>, apresenta nova versão em até 1 s;<br> - Aceita múltiplas iterações de feedback e regeneração;<br> - Permite <strong>Copy</strong> na versão final avaliada com <strong>Like</strong>;<br> - Se a regeneração exceder 3 s, exibe opção <strong>Cancelar</strong>.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu31"></a></p>
+<h2 id="hu31-utilizar-uma-api-publica">HU31 – Utilizar uma API Pública</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/MVConsorte">Mateus</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU31</td>
+<td>Utilizar uma API Pública</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário típico do DeepSeek, desejo que o sistema possua uma API Pública para que eu possa integrar suas funcionalidades a outras aplicações de meu interesse.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- O menu de configurações deve exibir uma seção "API Pública", contendo informações básicas sobre como obter as credenciais de acesso;<br> - Ao acessar a documentação da API, o usuário encontra instruções para autenticação, exemplos de requisição e resposta para pelo menos duas funcionalidades principais;<br> - Quando uma requisição válida é enviada para um endpoint público, o sistema deve responder com o dado esperado conforme a documentação.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF20, #RIF08</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu32"></a></p>
+<h2 id="hu32-implementar-memoria-de-contexto-persistente-entre-conversas">HU32 – Implementar memória de contexto persistente entre conversas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/MVConsorte">Mateus</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU32</td>
+<td>Implementar memória de contexto persistente entre conversas.</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário típico do DeepSeek, desejo que a IA lembre das mensagens anteriores durante a conversa para que eu não precise repetir informações ou que estas sejam descontextualizadas.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Durante a mesma conversa, o usuário envia uma sequência de mensagens relacionadas e a IA referencia corretamente informações das mensagens anteriores;<br> - Se o usuário perguntar "Do que estávamos falando?", a IA recupera o tema central das últimas interações deste chat.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF31, #RQF11</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu33"></a></p>
+<h2 id="hu33-disponibilizar-resumo-textual-do-conteudo-de-video-importado-de-links-do-youtube">HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/MVConsorte">Mateus</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU33</td>
+<td>Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube.</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário típico do DeepSeek, desejo que o sistema consiga gerar um resumo textual de vídeos importados do Youtube para entender rapidamente seu conteúdo e aspectos importantes.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Ao enviar um link de vídeo do YouTube e solicitar um resumo, o sistema apresenta um campo "Resumo" com os principais pontos destacados;<br> - O botão "Gerar Resumo" deve aparecer ao lado do campo de envio quando o usuário insere links do YouTube;<br> - Apresenta-se o resumo gerado contendo entre 150 e 500 palavras</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF38, #RQF23</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu34"></a></p>
+<h2 id="hu34-adicionar-editor-de-texto-avancado-com-suporte-a-markdown-e-formatacao-de-codigo">HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/MVConsorte">Mateus</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU34</td>
+<td>Adicionar editor de texto avançado com suporte a Markdown e formatação de código.</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário típico do DeepSeek, desejo um editor de texto com suporte a Markdown e formatação de código para estruturar e refinar as informações obtidas em tais modelos.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>O editor de texto permite que o usuário reformate respostas, ajustando a estrutura do conteúdo por meio de Markdown, incluindo listas, títulos, negrito, e outros estilos visuais;<br> - Ao adicionar uma lista dentro do editor, esta é automaticamente exibida com marcadores (pontos ou números) apropriados para manter a organização do texto.<br> - Títulos e subtítulos aparecem com destaque visual, podendo ser formatados em negrito ou com variação de tamanho, facilitando a diferenciação entre seções da resposta;<br> - Trechos de código podem ser inseridos no editor e são automaticamente formatados em blocos destacados, com realce de sintaxe para linguagens suportadas; <br> - O editor deve oferecer suporte a citações e texto destacado, exibindo-os de maneira visualmente diferenciada para garantir clareza na leitura;<br> - O usuário consegue identificar visualmente pelo menos três tipos de formatação distintos em uma mesma resposta: listas, destaque e citação;<br> - O sistema deve garantir que qualquer resposta reformatada pelo usuário seja preservada sem perda de informação ao aplicada.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RQF15, #RF18</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu35"></a></p>
+<h2 id="hu35-recuperar-chats-anteriores">HU35 – Recuperar chats anteriores</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/MVConsorte">Mateus</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU35</td>
+<td>Recuperar Chats Anteriores</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário típico do DeepSeek, desejo poder acessar conversas antigas para consultar informações já discutidas ou continuar um atendimento a partir de onde parei.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Um botão no canto superior esquerdo que abre um histórico de "chats" está visível na tela inicial, exibindo a lista de chats anteriores com identificação por data e contendo a data relativa da conversa;<br> - Ao selecionar um chat do histórico, todo o conteúdo da conversa é carregado no chat atual, permitindo ao usuário visualizar e continuar a conversa normalmente.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF10, #ROF04</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu36"></a></p>
+<h2 id="hu36-exibir-citacoes-de-fontes">HU36 – Exibir citações de fontes</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/MVConsorte">Mateus</a></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU36</td>
+<td>Exibir Citações de Fontes</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como Usuário, desejo que o sistema apresente citações das fontes utilizadas nas respostas, para que eu possa conferir a veracidade das informações e aprofundar meus estudos.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Sempre que for exibida uma informação baseada em fonte externa, a resposta contém um campo "Fonte" ou "Referência" ao final da mensagem, com URL clicável;<br> - Ao clicar no link da fonte, o usuário é redirecionado para a página original da referência;<br> - Quando houver múltiplas referências, o sistema apresenta cada uma em uma linha separada ou com numeração sequencial.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#ROF08, #RF14</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+</tbody>
+</table>
+<p><a id="hu37"></a></p>
+<h2 id="hu37-deve-fazer-a-exclusao-automatica-de-dados-de-upload">HU37 – Deve fazer a exclusão automática de dados de upload</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim">Ana Joyce</a></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU37</td>
+<td>Deve fazer a exclusão automática de dados de upload</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como administrador do sistema, desejo que os dados de upload sejam excluídos automaticamente após um período determinado, para garantir privacidade e economia de armazenamento.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Os dados de upload devem ser excluídos automaticamente após o período configurado <br> - O sistema deve registrar logs dessa exclusão <br> - O usuário deve ser informado previamente sobre o tempo de retenção</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RN04</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu38"></a></p>
+<h2 id="hu38-a-interface-deve-seguir-diretrizes-de-usabilidade-e-acessibilidade">HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim">Ana Joyce</a></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU38</td>
+<td>A interface deve seguir diretrizes de usabilidade e acessibilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como pessoa usuária, desejo que a interface siga boas práticas de usabilidade e acessibilidade para que eu possa utilizar o sistema de forma confortável e inclusiva.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Todos os botões devem estar visíveis e com tamanho adequado <br> - Textos devem ter contraste e tamanho legíveis <br> - Deve haver feedback visual e sonoro imediato para ações <br> - Compatibilidade com leitores de tela</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RN05</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu39"></a></p>
+<h2 id="hu39-especificar-e-permitir-ao-usuario-optar-por-participar-ou-nao-do-uso-de-seus-dados-em-re-treinamento-ou-venda-de-modelos">HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim">Ana Joyce</a></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU39</td>
+<td>Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como pessoa usuária, desejo poder decidir se meus dados podem ser usados para re-treinamento de modelos ou para fins comerciais, para ter controle sobre minha privacidade.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- O sistema deve solicitar o consentimento do usuário em linguagem clara<br>- Deve haver uma opção para aceitar ou recusar<br>- O consentimento deve ser revogável a qualquer momento</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td># RN10</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu40"></a></p>
+<h2 id="hu40-garantir-estabilidade-na-geracao-de-conteudos-pesados-pdf-calculos-evitando-erros-de-formatacao-ou-falhas">HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim">Ana Joyce</a></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU40</td>
+<td>Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário que utiliza muitos recursos computacionais, desejo que o sistema gere PDFs e cálculos pesados com estabilidade, sem erros de formatação ou falhas.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- O sistema deve gerar PDFs sem travar ou corromper o conteúdo <br> - Cálculos complexos devem ser processados sem interrupções <br> - O tempo de geração deve ser razoável</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RN12</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu41"></a></p>
+<h2 id="hu41-deve-possuir-a-opcao-de-login-com-conta-googleapple-id">HU41 – Deve possuir a opção de login com conta Google/Apple ID</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim">Ana Joyce</a></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU41</td>
+<td>Deve possuir a opção de login com conta Google/Apple ID</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário, desejo poder entrar no sistema usando minha conta Google ou Apple para facilitar o login e evitar ter que lembrar mais senhas.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- O sistema deve oferecer a opção de login com Google e Apple ID <br> - Após login, o sistema deve criar a conta ou associar a uma existente <br> - A autenticação deve seguir protocolos seguros (OAuth 2.0)</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF04</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="hu42"></a></p>
+<h2 id="hu42-deve-ser-possivel-criar-novos-chats">HU42 – Deve ser possível criar novos chats</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim">Ana Joyce</a></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HU42</td>
+<td>Deve ser possível criar novos chats</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Eu, como usuário, desejo criar novos chats para iniciar diferentes conversas com o sistema ou com outras pessoas.</td>
+</tr>
+<tr>
+<td><strong>Critérios de aceitação</strong></td>
+<td>- Deve haver um botão visível para criar novo chat <br> - Cada novo chat deve ter seu histórico salvo separadamente <br> - O sistema deve permitir múltiplos chats simultâneos</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+<td>#RF08</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="referencia-bibliografica">Referência Bibliográfica</h2>
+<blockquote>
+<p><a id="REF1" href="#anchor_1">1.</a> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 73. <a href="../../images/historias-de-usuario/definicao-historias-de-usuario.png"><code>Foto da referência</code></a></p>
+<p><a id="REF2" href="#anchor_2">2.</a> MELO, Arthur. Histórias de Usuário. Repositório do Grupo Bilheteria Digital da disciplina de Requisitos de Software da Universidade de Brasília, 2023. Disponível em: <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/">https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/</a>. Acesso em: 23 maio 2025.</p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">22/05/2025</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: left;">(#HUO1) Criação do documento de histórias de usuário.</td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte">@Mateus</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">23/05/2025</td>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">(#HUO1) Criação da introdução e do template de histórias de usuário.</td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte">@Mateus</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">23/05/2025</td>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">(#HU01) Adição da referência da definição de histórias de usuário.</td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte">@Mateus</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">28/05/2025</td>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">(#H02) Adição de conteúdo (Histórias de usuário 25 a 30)</td>
+<td style="text-align: center;"><a href="https://github.com/gaubiela"><code>@Gabriela</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989">@Luiz</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">28/05/2025</td>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">(#H02) Insere tabela de contribuições e linkagem de conteúdo</td>
+<td style="text-align: center;"><a href="https://github.com/gaubiela"><code>@Gabriela</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989">@Luiz</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">30/05/2025</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">(#H02) Adição de conteudo historias de usuario (19 a 24)</td>
+<td style="text-align: center;"><a href="https://github.com/fabinsz"><code>@Fábio</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989">@Luiz</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">31/05/2025</td>
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">(#H02) Adição de conteúdo (Histórias de usuário 13 a 18)</td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte">@Mateus</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">31/05/2025</td>
+<td style="text-align: center;">1.7</td>
+<td style="text-align: left;">(#HU02) Adição de conteúdo (Histórias de usuário 31 a 36)</td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte"><code>@Mateus</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">1.8</td>
+<td style="text-align: left;">(#H02) Adição de conteúdo (Histórias de usuário 01 a 06)</td>
+<td style="text-align: center;"><a href="https://github.com/anabborges"><code>@Ana Clara</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/anajoyceamorim">@Ana Joyce</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">1.9</td>
+<td style="text-align: left;">(#H02) Adição de conteúdo (Histórias de usuário 37 a 42)</td>
+<td style="text-align: center;"><a href="https://github.com/anajoyceamorim"><code>@Ana Joyce</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989">@Luiz</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">1.10</td>
+<td style="text-align: left;">(#H02) Adição de conteúdo (Histórias de usuário 07 a 12)</td>
+<td style="text-align: center;"><a href="https://github.com/daviRolvr"><code>@Davi Emanuel</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989">@Luiz</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
