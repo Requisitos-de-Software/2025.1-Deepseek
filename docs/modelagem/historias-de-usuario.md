@@ -664,6 +664,6 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 31/05/2025 |  1.6   | (#H02) Adição de conteúdo (Histórias de usuário 13 a 18)| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 31/05/2025 |  1.7   | (#HU02) Adição de conteúdo (Histórias de usuário 31 a 36)| [`@Mateus`](https://github.com/MVConsorte)   |  [`@Luiz`](https://github.com/luizfaria1989) |
 | 01/06/2025 |  1.8   | (#H02) Adição de conteúdo (Histórias de usuário 01 a 06)| [`@Ana Clara`](https://github.com/anabborges)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
-| 01/06/2025 |  1.9   | (#H02) Adição de conteúdo (Histórias de usuário 37 a 42)| [`@Ana Joyce`](https://github.com/anajoyceamorim)   |  [@](https://github.com/) |
-| 01/06/2025 |  1.10   | (#H02) Adição de conteúdo (Histórias de usuário 07 a 12)| [`@Davi Emanuel`](https://github.com/daviRolvr)   |  [@](https://github.com/) |
+| 01/06/2025 |  1.9   | (#H02) Adição de conteúdo (Histórias de usuário 37 a 42)| [`@Ana Joyce`](https://github.com/anajoyceamorim)   |  [@Luiz](https://github.com/luizfaria1989) |
+| 01/06/2025 |  1.10   | (#H02) Adição de conteúdo (Histórias de usuário 07 a 12)| [`@Davi Emanuel`](https://github.com/daviRolvr)   |  [@Luiz](https://github.com/luizfaria1989) |
 
