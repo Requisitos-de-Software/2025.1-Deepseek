@@ -76,10 +76,12 @@ nav:
     - Léxicos: 'modelagem/lexicos.md'
     - Especificação Suplementar: 'modelagem/especificacao-suplementar.md'
     - NFR Framework: 'modelagem/nfr-framework.md'
+    - Histórias de Usuário: 'modelagem/historias-de-usuario.md'
 
   - Verificação:
     - Segunda Entrega: 'verificacao/segunda-entrega.md'
     - Terceira Entrega: 'verificacao/terceira-entrega.md'
+    - Quarta Entrega: 'verificacao/quarta-entrega.md'
 
   - Inspeção:
     - Segunda Entrega: 
@@ -87,7 +89,10 @@ nav:
       - Grupo 3: 'inspecao/entrega2/inspecao-grupo3.md'
     - Terceira Entrega:
       - Grupo 2: 'inspecao/entrega3/inspecao-grupo.md'
-      - Grupo 3: 'inspecao/entrega3/inspecao-grupo3.md' 
+      - Grupo 3: 'inspecao/entrega3/inspecao-grupo3.md'
+    - Quarta Entrega:
+      - Grupo 2: 'inspecao/entrega4/inspecao-grupo.md'
+      - Grupo 3: 'inspecao/entrega4/inspecao-grupo3.md' 
 
   - Projeto Obsoleto:
       - Início: 'doc-guardioes-da-saude/index.md'
