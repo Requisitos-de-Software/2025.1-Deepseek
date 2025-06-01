@@ -20,11 +20,90 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 
 | Contribuinte | Descrição                                                            | Links                                           |
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Ana Clara     | Criação das histórias de usuário HU01, HU02, HU03, HU04, HU5 e HU06 | [HU01](#hu01) · [HU02](#hu02) · [HU03](#hu03) · [HU04](#hu04) · [HU5](#hu05) · [HU06](#hu06) |
 | Luiz     | Criação das histórias de usuário HU13, HU14, HU15, HU16, HU17 e HU18 | [HU13](#hu13) · [HU14](#hu14) · [HU15](#hu15) · [HU16](#hu16) · [HU17](#hu17) · [HU18](#hu18) |
 | Fábio   | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [HU19](#hu19) · [HU20](#hu20) · [HU21](#hu21) · [HU22](#hu22) · [HU23](#hu23) · [HU24](#hu24) |
 | Gabriela     | Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30 | [HU25](#hu25) · [HU26](#hu26) · [HU27](#hu27) · [HU28](#hu28) · [HU29](#hu29) · [HU30](#hu30) |
 
 ## Histórias de Usuário
+
+<a id="hu01"></a>
+## HU01 – Visualizar tutorial interativo
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU01                       | Visualizar tutorial interativo                                                                                                                                                                                                                                                                                                              |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me mostre um tutorial interativo para que eu possa aprender a usar a plataforma.                                      |
+| **Critérios de aceitação** | - Na página inicial deve começar um tutorial interativo apresentando as funcionalidades da plataforma no meu primeiro acesso; <br> - Deve aparecer um botão nos outros acessos possibilitando que eu refaça o tutorial caso queira. |
+| **Rastreabilidade**        | #RF28                             |
+| **Prioridade**             | Baixa                |
+
+<a id="hu02"></a>
+## HU02 – Confirmar a exclusão do histórico de conversas
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU02                       | Confirmar a exclusão do histórico de conversas                                                                                                                                                                                                                                                                                                             |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me mostre uma confirmação ao apertar em apagar histórico para que eu possa confirmar ou cancelar a ação.                                     |
+| **Critérios de aceitação** | - Ao apertar em apagar histórico de conversas, deve aparecer uma janela de confirmação perguntando se desejo confirmar ou cancelar a ação; <br> - Se apertar na opção de confirmar, não devem aparecer as minhas conversas na tela inicial; <br> - Se apertar na opção de cancelar, as minhas conversas devem aparecer na tela inicial.|
+| **Rastreabilidade**        | #RF22                             |
+| **Prioridade**             | Alta               |
+
+<a id="hu03"></a>
+## HU03 – Interação com a Inteligência Artificial
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU03                       | Interação com a Inteligência Artificial                                                                                                                                                                                                                                                                                                            |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo tenha um campo de digitação para que eu possa escrever minhas mensagens interagindo com a IA.                                    |
+| **Critérios de aceitação** | - Ao abrir a tela inicial, criar um novo chat ou entrar em um chat já existente, deve haver um campo de digitação na parte inferior da tela; <br> - Ao apertar no campo, eu devo ser capaz de digitar uma mensagem a partir do teclado; <br> - Após escrever a mensagem, devo ser capaz de enviar a minha mensagem para a IA.|
+| **Rastreabilidade**        | #RF07                             |
+| **Prioridade**             | Alta               |
+
+<a id="hu04 "></a>
+## HU04 – Renomear um chat já existente
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU04                       | Renomear um chat já existente                                                                                                                                                                                                                                                                                                         |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me dê a opção de renomear os chats que eu criei para que eu possa ter uma melhor organização dos chats e me lembre qual é o conteúdo de cada um, evitando retrabalho.                                    |
+| **Critérios de aceitação** | - Ao clicar com o botão direito do meu mouse em um chat, deve aparecer a opção de renomear o chat; <br> - Ao digitar e apertar ENTER no teclado, o nome escrito deve aparecer no nome do chat; <br> - Após escrever a mensagem, devo ser capaz de enviar a minha mensagem para a IA.|
+| **Rastreabilidade**        | #RF09                             |
+| **Prioridade**             | Média               |
+
+<a id="hu05 "></a>
+## HU05 – Busca incremental no campo de texto
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU05                       | Busca incremental no campo de texto                                                                                                                                                                                                                                                                                                    |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me dê sugestões em tempo real conforme digito no campo de interação com a IA para que eu consiga agilizar o processo de escrita.                                    |
+| **Critérios de aceitação** | - Ao clicar no campo de interação com a IA e começar a digitar, enquanto digito aparece sugestões para as próximas palavras; <br> - Ao apertar a tecla tab no teclado, essas sugestões são aceitas, aparecendo com uma cor mais visível no campo de texto.|
+| **Rastreabilidade**        | #RF23                             |
+| **Prioridade**             | Baixa               |
+
+<a id="hu06 "></a>
+## HU06 – Controle de dados
+
+**Autor:** [Ana Clara](https://github.com/anabborges)
+
+| ID                         | Nome                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HU06                       | Controle de dados                                                                                                                                                                                                                                                                                                    |
+| **Descrição**              | Eu, como usuário, desejo que o aplicativo me permita escolher quais dados eu quero compartilhar para que eu tenha um maior controle deles e me sinta mais seguro.                                    |
+| **Critérios de aceitação** | - Na tela de configurações, em uma aba de controle de dados, aparecem checkboxes para eu selecionar quais tipos de dados eu concordo em compartilhar (histórico de buscas, localização, arquivos enviados, etc); <br> - Devo ser capaz de selecionar e tirar a seleção dos tipos de dados.|
+| **Rastreabilidade**        | #RF25                             |
+| **Prioridade**             | Alta               |
 
 <a id="hu13"></a>
 ## HU13 – Resolver um problema difícil de matemática
@@ -303,3 +382,4 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 28/05/2025 |  1.4   | (#H02) Insere tabela de contribuições e linkagem de conteúdo| [`@Gabriela`](https://github.com/gaubiela)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 30/05/2025 |  1.5   | (#H02) Adição de conteudo historias de usuario (19 a 24)| [`@Fábio](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 31/05/2025 |  1.6   | (#H02) Adição de conteúdo (Histórias de usuário 13 a 18)| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
+| 01/06/2025 |  1.7   | (#H02) Adição de conteúdo (Histórias de usuário 01 a 06)| [`@Ana Clara`](https://github.com/anabborges)   |  [@](https://github.com/) |
