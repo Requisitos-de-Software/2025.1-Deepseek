@@ -46,10 +46,10 @@ As histórias de usuário que se classificam no Épico 1 - Funcionalidades de IA
 |             |                                                             | #RF06                |            |
 |            | HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF11                | Baixa    |
 |             | HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF12                | Baixa    |
-|             |                                                             | #RF14                |            |
+|             | HU36 – Exibir citações de fontes                              | #RF14, #ROF08                | Baixa           |
 |             | HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF17                | Baixa    |
 |            | HU24 – Retenção de contexto em diálogos longos              | #RF30                | Média      |
-|             |                                                             | #RF31                |            |
+|             | HU32 – Implementar memória de contexto persistente entre conversas                | #RF31                | Média           |
 |            | HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)                                                            | #RF32                | Média           |
 |             |                                                             | #RF38                |            |
 |            |                                                             | #RN01                |            |
@@ -106,11 +106,11 @@ As histórias de usuário que se classificam no Épico 4 - Funcionalidades do ch
 |           |                                                             | #RF07                |            |
 |           |                                                             | #RF08                |            |
 |           |                                                             | #RF09                |            |
-|           |                                                             | #RF10                |            |
+|           | HU35 – Recuperar chats anteriores                           | #RF10, ROF04                | Média           |
 |           | HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado                                                            | #RF13                | Alta           
 |           | HU30 – Refinar resposta gerada até atingir clareza e concisãoresultado                                                            | #RF13                | Baixa           ||
 |           | HU15 - Interromper chat em andamento                        | #RF19                |Baixa       |
-|           |                                                             | #RF33                |            |
+|           | HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube   | #RF33                | Alta           |
 
 Fonte: [@Luiz](https://github.com/luizfaria1989)
 
@@ -126,6 +126,7 @@ As histórias de usuário que se classificam no Épico 5 - Interface e experiên
 | ------------------------------------------ | ------------------------------------------------------------| -------------------- | ---------- |
 |  |                                                             | #RF15               |            |
 |  | HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.                                                            | #RF18               | Baixa           |
+|  | HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código.                                                            | #RF18,  #RQF15               | Baixa           |
 |  |                                                             | #RF23               |            |
 |  | HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO                                                            | #RF27               | Alta           |
 |  |                                                             | #RF28               |            |
@@ -150,7 +151,7 @@ As histórias de usuário que se classificam no Épico 6 - Desempenho e estabili
 
 <font><p style="text-align: center">**Tabela 6** - Histórias de usuário classificadas com o Épico 6 - Desempenho e estabilidade.</p></font>
 
-| Épico                                      | História de usuário                                         | Requisito trabalhado | Prioridade |
+| ID                                      | História de usuário                                         | Requisito trabalhado | Prioridade |
 | ------------------------------------------ | ------------------------------------------------------------| -------------------- | ---------- |
 |          |                                                             | #RN07               |            |
 |          |                                                             | #RN08               |            |
@@ -166,7 +167,7 @@ As histórias de usuário que se classificam no Épico 7 - Gerenciamento de arqu
 
 <font><p style="text-align: center">**Tabela 7** - Histórias de usuário classificadas com o Épico 7 - Gerenciamento de arquivos.</p></font>
 
-| Épico                                      | História de usuário                                         | Requisito trabalhado | Prioridade |
+| ID                                      | História de usuário                                         | Requisito trabalhado | Prioridade |
 | ------------------------------------------ | ------------------------------------------------------------| -------------------- | ---------- |
 |          | HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR                                                            | #RF03               | Alta           |
 |         | HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos                                                      | #RF03               | Alta           |
@@ -181,9 +182,9 @@ As histórias de usuário que se classificam no Épico 8 - Inetgreções e API, 
 
 <font><p style="text-align: center">**Tabela 8** - Histórias de usuário classificadas com o Épico 8 - Integrações e API.</p></font>
 
-| Épico                                      | História de usuário                                         | Requisito trabalhado | Prioridade |
+| ID                                      | História de usuário                                         | Requisito trabalhado | Prioridade |
 | ------------------------------------------ | ------------------------------------------------------------| -------------------- | ---------- |
-|                  |                                                             | #RF20               |            |
+|                  | HU31 – Utilizar uma API Pública                                                       | #RF20               | Alta           |
 |                  |                                                             | #RF37               |            |
 
 Fonte: [@Luiz](https://github.com/luizfaria1989)
@@ -202,10 +203,10 @@ Por fim, juntanto todas as tabelas desenvolvidas, é possível criar o product b
 | Épico 1 - Funcionalidades de IA            |                                                             | #RF06                |            |
 | Épico 1 - Funcionalidades de IA            | HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF11                | Baixa    |
 | Épico 1 - Funcionalidades de IA            | HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF12                | Baixa    |
-| Épico 1 - Funcionalidades de IA            |                                                             | #RF14                |            |
+| Épico 1 - Funcionalidades de IA            | HU36 – Exibir citações de fontes                              | #RF14, #RF14       | Baixa      |
 | Épico 1 - Funcionalidades de IA            | HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF17                | Baixa    |
 | Épico 1 - Funcionalidades de IA            | HU24 – Retenção de contexto em diálogos longos              | #RF30                | Média      |
-| Épico 1 - Funcionalidades de IA            |                                                             | #RF31                |            |
+| Épico 1 - Funcionalidades de IA            | HU32 – Implementar memória de contexto persistente entre conversas | #RF31                | Média |
 | Épico 1 - Funcionalidades de IA            | HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)                                                            | #RF32                | Média           |
 | Épico 1 - Funcionalidades de IA            |                                                             | #RF38                |            |
 | Épico 1 - Funcionalidades de IA            |                                                             | #RN01                |            |
@@ -228,9 +229,10 @@ Por fim, juntanto todas as tabelas desenvolvidas, é possível criar o product b
 | Épico 4 - Funcionalidades do chat          | HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado                                                            | #RF13                | Alta           
 | Épico 4 - Funcionalidades do chat          | HU30 – Refinar resposta gerada até atingir clareza e concisãoresultado                                                            | #RF13                | Baixa           ||
 | Épico 4 - Funcionalidades do chat          | HU15 - Interromper chat em andamento                        | #RF19                |Baixa       |
-| Épico 4 - Funcionalidades do chat          |                                                             | #RF33                |            |
+| Épico 4 - Funcionalidades do chat          | HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube | #RF33                | Alta           |
 | Épico 5 - Interface e experiência do usuário |                                                             | #RF15               |            |
 | Épico 5 - Interface e experiência do usuário | HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.                                                            | #RF18               | Baixa           |
+| Épico 5 - Interface e experiência do usuário | HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código                                                     | #RF18,  #RQF15               | Baixa           |
 | Épico 5 - Interface e experiência do usuário |                                                             | #RF23               |            |
 | Épico 5 - Interface e experiência do usuário | HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO                                                            | #RF27               | Alta           |
 | Épico 5 - Interface e experiência do usuário |                                                             | #RF28               |            |
@@ -249,7 +251,7 @@ Por fim, juntanto todas as tabelas desenvolvidas, é possível criar o product b
 | Épico 6 - Desempenho e estabilidade         |                                                             | #RN12               |            |
 | Épico 7 - Gerenciamento de arquivos         | HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR                                                            | #RF03               | Alta           |
 | Épico 7 - Gerenciamento de arquivos         | HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos                                                      | #RF03               | Alta           |
-| Épico 8 - Integrações e API                 |                                                             | #RF20               |            |
+| Épico 8 - Integrações e API                 | HU31 – Utilizar uma API Pública                      | #RF20               | Alta           |
 | Épico 8 - Integrações e API                 |                                                             | #RF37               |            |
 
 Fonte: [@Luiz](https://github.com/luizfaria1989)
@@ -267,3 +269,4 @@ Fonte: [@Luiz](https://github.com/luizfaria1989)
 | 23/05/2025 |  1.2   | (#B01) Adição da referência da definição de Backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 31/05/2025 |  1.3   | (#B01) Criação e descrição dos épicos 1 a 4 (Funcionalidades de IA, Controle de Dados, Segurança, Funcionalidades do chat). Categorização das histórias de usuário 12 a 18. Adição da metodologia.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
 | 31/05/2025 |  1.4   | (#B01) Criação e descrição dos épicos 5 a 8. Categorização das histórias de usuário 19 a 30.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
+| 01/06/2025 |  1.5   | (#B01) Categorizaçao das histórias de usuário 31 a 36.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
