@@ -88,7 +88,8 @@ Esses rótulos estão ilustrados na Figura 3.
 | Luiz     | Criação dos cartões de especificação CNFR07 a CNFR012 | [CNFR07](#cnfr07) · [CNFR08](#cnfr08) · [CNFR09](#cnfr09) · [CNFR10](#cnfr10) · [CNFR11](#cnfr11) · [CNFR12](#cnfr12) |
 | Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 | [CNFR20](#cnfr20) · [CNFR21](#cnfr21) · [CNFR22](#cnfr22) |
 | Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [CNFR26](#cnfr26) · [CNFR27](#cnfr27) · [CNFR28](#cnfr28) |
-| Ana Joyce | Criação dos cartões de especificação CNFR14 a CNFR19 | [CNFR14](#cnfr14) · [CNFR15](#cnfr15) · [CNFR16](#cnfr16) . [CNFR17](#cnfr17) . [CNFR18](#cnfr18) . [CNFR19](#cnfr19)|
+| Ana Joyce | Criação dos cartões de especificação CNFR14 a CNFR19 |  [CNFR15](#cnfr15) · [CNFR16](#cnfr16) . [CNFR17](#cnfr17) . [CNFR18](#cnfr18) . [CNFR19](#cnfr19)|
+| Davi   | Criação dos cartões de especificação CNFR23 a CNFR25 | [CNFR23](#cnfr23) · [CNFR24](#cnfr24) · [CNFR25](#cnfr25) |
 
 ## Lista de Requisitos 
 
@@ -106,6 +107,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | **RF26** | Autenticação multifator opcional                                                    | Afirmação                         |
 | **RF27** | Modo escuro/claro com sincronização automática ao SO                                | Afirmação                         |
 | **RF28** | Tutorial interativo na primeira execução                                            | Afirmação                         |
+|**RF29** | Exibição de status do servidor em tempo real                                         | Afirmação                         |
 | **RF30** | Melhorar retenção de contexto em diálogos longos                                    | Afirmação                         |
 | **RF35** | Tooltip do título ao passar o mouse na barra lateral                                | Afirmação                         |
 | **RF36** | Instruções claras de OCR na interface de envio de imagens                           | Afirmação                         |
@@ -361,26 +363,6 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Conflitos**         | -                                                                                                       |
 | **História**          | Criado em 31/05/2025                                                                                   |
 
----
-
-<a id="cnfr14"></a>
-## CNFR14 – A interface deve seguir diretrizes de usabilidade e acessibilidade
-
-**Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim)  
-
-| Campo                  | Detalhamento    |
-| ---------------------- | --------------------------------------------------------------------- |
-| **Nr Requisito**       | CNFR14         |
-| **Classificação**      | Usabilidade e Acessibilidade       |
-| **Descrição**          | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e acessibilidade. |
-| **Justificativa**      | Garante inclusão e facilidade de uso para pessoas com diferentes níveis de experiência e necessidades.  |
-| **Origem**             | #RN05      |
-| **Critério de Ajuste** | Atende às recomendações WCAG 2.1 e heurísticas de usabilidade de Nielsen.    |
-| **Dependências**       | #RF08 (interface de criação de chats)    |
-| **Prioridade**         | 9            |
-| **Conflitos**          | —        |
-| **História**           | Criado em 01/06/2025   |
-
 
 ---
 
@@ -543,6 +525,60 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 
 ---
 
+<a id="cnfr23"></a>
+## CNFR23 – Interface com usabilidade e acessibilidade adequadas  
+**Autor:** [`@Davi Emanuel`](https://github.com/daviRolvr)  
+
+| Campo                 | Detalhamento                                                                                                                                         |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR05                                                                                                                                              |
+| **Classificação**     | Usabilidade                                                                                                                                         |
+| **Descrição**         | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura por leitores de tela). |
+| **Justificativa**     | Garante inclusão digital e melhora a experiência de todos os usuários.                                                                             |
+| **Origem**            | #RN05                                                                                                                                              |
+| **Critério de Ajuste**| Atende às recomendações WCAG 2.1 e heurísticas de usabilidade de Nielsen.                                                                |
+| **Dependências**      | #RF08 (interface de criação de chats)                                                                                                                                               |
+| **Prioridade**        | 9                                                                                                                                                   |
+| **Conflitos**         | —                                                                                                                                                   |
+| **História**          | Criado em 01/06/2025                                                                                                                                |
+
+<a id="cnfr24"></a>
+## CNFR24 – Retorno de mensagens de erro claras em falhas  
+**Autor:** [`@Davi Emanuel`](https://github.com/daviRolvr)  
+
+| Campo                 | Detalhamento                                                                                                   |
+|-----------------------|----------------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR24                                                                                                        |
+| **Classificação**     | Confiabilidade                                                                                                 |
+| **Descrição**         | Em caso de falha, o sistema deve exibir mensagens de erro claras e compreensíveis para o usuário.              |
+| **Justificativa**     | Ajuda na resolução rápida de problemas e reduz frustração do usuário.                                          |
+| **Origem**            | #RN06                                                                                                           |
+| **Critério de Ajuste**| Avaliação de clareza por usuários e testes com mensagens em cenários de erro.                                 |
+| **Dependências**      | RF01                                                                                                          |
+| **Prioridade**        | 8                                                                                                             |
+| **Conflitos**         | —                                                                                                               |
+| **História**          | Criado em 01/06/2025                                                                                            |
+
+
+<a id="cnfr25"></a>
+## CNFR25 – Exibição de status do servidor em tempo real  
+**Autor:** [`@Davi Emnauel`](https://github.com/daviRolvr)  
+
+| Campo                 | Detalhamento                                                                                                   |
+|-----------------------|----------------------------------------------------------------------------------------------------------------|
+| **Nr Requisito**      | CNFR25                                                                                                         |
+| **Classificação**     | Confiabilidade / Disponibilidade                                                                               |
+| **Descrição**         | O sistema deve exibir o status do servidor em tempo real (Online, Manutenção, Sobrecarga).                    |
+| **Justificativa**     | Permite ao usuário entender o funcionamento do sistema e se antecipar a problemas.                            |
+| **Origem**            | #RF29                                                                                                        |
+| **Critério de Ajuste**| Testes com simulações de diferentes estados do servidor.                                                       |
+| **Dependências**      |  —                                                                                                         |
+| **Prioridade**        | 8                                                                                                               |
+| **Conflitos**         | —                                                                                                               |
+| **História**          | Criado em 01/06/2025                                                                                            |
+
+
+
 <a id="cnfr26"></a>
 ## CNFR26 – Regeneração de resposta sem recarregamento da página 
 
@@ -631,3 +667,4 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 31/05/2025 |  1.5  | (#NFR01) Criação de cards 07 a 12 | [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)  |
 | 31/05/2025 |  1.6  | (#NFR01) Criação de cards 20 a 22 e modificação na lista de requistos (remoção do #RF18 e adição do #RF38) | [`@Mateus`](https://github.com/MVConsorte)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 01/06/2025 |  1.7  | (#NFR01) Criação de cards 14 a 19 | [`@Ana Joyce`](https://github.com/anajoyceamorim)   | [`@`](https://github.com/)  |
+| 01/06/2025 |  1.7  | (#NFR01) Criação de cards 14 a 19 | [`@Davi Emanuel`](https://github.com/daviRolvr)   | [`@`](https://github.com/)  |
