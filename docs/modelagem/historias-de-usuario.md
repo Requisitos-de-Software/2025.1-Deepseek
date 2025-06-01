@@ -330,13 +330,13 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 ---
 
 <a id="hu22"></a>
-## HU22 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+## HU22 – Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR
 
 **Autor:** [Fábio](https://github.com/fabinsz)
 
 | ID   | Nome                                                                                       |
 | ---- | ------------------------------------------------------------------------------------------ |
-| HU22 | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico          |
+| HU22 | Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR         |
 | **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo receber instruções claras e contextualizadas sobre o uso de OCR ao enviar uma imagem, para entender como a funcionalidade funciona e o que esperar do resultado.|
 | **Critérios de aceitação** | - A interface de envio de imagens deve exibir instruções sobre o que é OCR e como ele será aplicado à imagem;<br> - As instruções devem ser exibidas de forma clara, concisa e visualmente acessível;<br> - As orientações devem aparecer antes ou durante o envio da imagem, de forma contextualizada;<br> - As instruções devem incluir exemplos de imagens ideais para OCR e limitações conhecidas do recurso.|
 | **Rastreabilidade**        |  #RF36                                                                                       |
