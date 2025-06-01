@@ -45,9 +45,24 @@
 ### Inspeção Grupo+1
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O2v-qt2RsAE?si=97aWcy-htBShvktA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Entrega 4
+
+### Apresentação Final (01/06)  
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/LV-o98zbbZU" title="Apresentacao entrega 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+### Apresentação Final (Gabriela)  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q_qM4qWZTQ0?si=34rf6ZjWrTLjaGm1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+### Inspeção do Grupo  
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/LV-o98zbbZU" title="Apresentacao entrega 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 04/04/2025 |  0.1   | (#D03) Documenta apresentações. | [@Gabriela](https://github.com/gaubiela)   | [@Mateus](https://github.com/MVConsorte)|
-| 05/04/2025 |  0.2   | (#D03) Documenta inspeção Grupo + 1. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Borges](https://github.com/anabborges)|
-| 05/04/2025 |  1.0   | (#D03) Documenta apresentação da entrega 3 e auto inspeção. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Borges](https://github.com/anabborges)|
-
+| 04/04/2025 |  1.0   | (#D03) Documenta apresentações. | [@Gabriela](https://github.com/gaubiela)   | [@Mateus](https://github.com/MVConsorte)|
+| 05/04/2025 |  1.1   | (#D03) Documenta inspeção Grupo + 1. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Borges](https://github.com/anabborges)|
+| 05/04/2025 |  1.2   | (#D03) Documenta apresentação da entrega 3 e auto inspeção. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Borges](https://github.com/anabborges)|
+| 01/06/2025 |  1.3   | (#D03) Documenta apresentação da entrega 4 e auto inspeção. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Luiz](https://github.com/luizfaria1989)|
