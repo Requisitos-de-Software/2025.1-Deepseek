@@ -88,6 +88,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | Luiz     | Criação dos cartões de especificação CNFR07 a CNFR012 | [CNFR07](#cnfr07) · [CNFR08](#cnfr08) · [CNFR09](#cnfr09) · [CNFR10](#cnfr10) · [CNFR11](#cnfr11) · [CNFR12](#cnfr12) |
 | Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 | [CNFR20](#cnfr20) · [CNFR21](#cnfr21) · [CNFR22](#cnfr22) |
 | Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [CNFR26](#cnfr26) · [CNFR27](#cnfr27) · [CNFR28](#cnfr28) |
+| Ana Joyce | Criação dos cartões de especificação CNFR14 a CNFR19 | [CNFR14](#cnfr14) · [CNFR15](#cnfr15) · [CNFR16](#cnfr16) . [CNFR17](#cnfr17) . [CNFR18](#cnfr18) . [CNFR19](#cnfr19)|
 
 ## Lista de Requisitos 
 
@@ -362,6 +363,129 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 
 ---
 
+<a id="cnfr14"></a>
+## CNFR14 – A interface deve seguir diretrizes de usabilidade e acessibilidade
+
+**Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim)  
+
+| Campo                  | Detalhamento    |
+| ---------------------- | --------------------------------------------------------------------- |
+| **Nr Requisito**       | CNFR14         |
+| **Classificação**      | Usabilidade e Acessibilidade       |
+| **Descrição**          | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e acessibilidade. |
+| **Justificativa**      | Garante inclusão e facilidade de uso para pessoas com diferentes níveis de experiência e necessidades.  |
+| **Origem**             | #RN05      |
+| **Critério de Ajuste** | Atende às recomendações WCAG 2.1 e heurísticas de usabilidade de Nielsen.    |
+| **Dependências**       | #RF08 (interface de criação de chats)    |
+| **Prioridade**         | 9            |
+| **Conflitos**          | —        |
+| **História**           | Criado em 01/06/2025   |
+
+
+---
+
+<a id="cnfr15"></a>
+## CNFR15 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+
+**Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
+
+| Campo                  | Detalhamento    |
+| ---------------------- | ------------------------------------------------------------------ |
+| **Nr Requisito**       | CNFR15      |
+| **Classificação**      | Legal e Ético    |
+| **Descrição**          | O sistema deve permitir que o usuário aceite ou recuse o uso de seus dados em re-treinamento ou venda de modelos. |
+| **Justificativa**      | Garante transparência e conformidade com LGPD e princípios éticos.    |
+| **Origem**             | #RN10        |
+| **Critério de Ajuste** | Presença de controle de consentimento visível e funcional       |
+| **Dependências**       | #RF04 (login de usuários)          |
+| **Prioridade**         | 10         |
+| **Conflitos**          | —      |
+| **História**           | Criado em 01/06/202     |
+
+---
+
+<a id="cnfr16"></a>
+## CNFR16 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
+
+**Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
+
+| Campo                  | Detalhamento                                                                                                     |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Nr Requisito**       | CNFR16                                                                                                           |
+| **Classificação**      | Desempenho e Confiabilidade                                                                                      |
+| **Descrição**          | O sistema deve gerar arquivos pesados (PDFs, cálculos) de forma estável, evitando falhas ou erros de formatação. |
+| **Justificativa**      | Evita perdas de tempo e frustrações com conteúdo corrompido ou ilegível.                                         |
+| **Origem**             | #RN12                                                                                                            |
+| **Critério de Ajuste** | Taxa de falhas em geração de documentos ≤ 2%                                                                     |
+| **Dependências**       | —                                                                                                                |
+| **Prioridade**         | 8                                                                                                                |
+| **Conflitos**          | —                                                                                                                |
+| **História**           | Criado em 01/06/2025                                                                                             |
+
+
+---
+
+<a id="cnfr17"></a>
+## CNFR17 – Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras
+
+**Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
+
+| Campo                  | Detalhamento                                                                                           |
+| ---------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Nr Requisito**       | CNFR17                                                                                                 |
+| **Classificação**      | Qualidade de Uso                                                                                       |
+| **Descrição**          | Alcançar ≥ 95% de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras. |
+| **Justificativa**      | Indica alta aceitação e facilidade de uso do sistema.                                                  |
+| **Origem**             | #RN13                                                                                                  |
+| **Critério de Ajuste** | Resultado de pesquisa ≥ 95% nas opções “Fácil” ou “Muito fácil”                                        |
+| **Dependências**       | #CNFR01                                                                                                |
+| **Prioridade**         | 7                                                                                                      |
+| **Conflitos**          | —                                                                                                      |
+| **História**           | Criado em 01/06/2025                                                                                   |
+
+---
+
+<a id="cnfr18"></a>
+## CNFR18 – Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras
+
+**Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
+
+| Campo                  | Detalhamento                                                                          |
+| ---------------------- | ------------------------------------------------------------------------------------- |
+| **Nr Requisito**       | CNFR18                                                                                |
+| **Classificação**      | Qualidade da Interface                                                                |
+| **Descrição**          | Alcançar ≥ 90% de concordância em “Interface clara e agradável” em pesquisas futuras. |
+| **Justificativa**      | Reflete uma boa experiência visual e navegação intuitiva.                             |
+| **Origem**             | #RN14                                                                                 |
+| **Critério de Ajuste** | Resultado de pesquisa ≥ 90% nas opções “Clara” ou “Muito clara”                       |
+| **Dependências**       | #CNFR01                                                                               |
+| **Prioridade**         | 6                                                                                     |
+| **Conflitos**          | —                                                                                     |
+| **História**           | Criado em 01/06/2025                                                                  |
+
+---
+
+<a id="cnfr19"></a>
+## CNFR19 – Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras
+
+**Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
+
+| Campo                  | Detalhamento                                                                                                |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Nr Requisito**       | CNFR19                                                                                                      |
+| **Classificação**      | Usabilidade                                                                                                 |
+| **Descrição**          | Reduzir para ≤ 5% os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras. |
+| **Justificativa**      | Demonstra clareza na disposição das funcionalidades no sistema.                                             |
+| **Origem**             | #RN15                                                                                                       |
+| **Critério de Ajuste** | Resultado de pesquisa: ≤ 5% relatando dificuldade                                                           |
+| **Dependências**       | #CNFR01, #CNFR05                                                                                            |
+| **Prioridade**         | 6                                                                                                           |
+| **Conflitos**          | —                                                                                                           |
+| **História**           | Criado em 01/06/2025                                                                                        |
+
+
+---
+
 <a id="cnfr20"></a>
 ## CNFR20 – Interoperabilidade com YouTube para sumarização automática  
 **Autor:** [`@Mateus`](https://github.com/MVConsorte)  
@@ -506,4 +630,4 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 30/05/2025 |  1.4  | (#NFR01) Criação de cards 26 a 28 | [`@Fábio`](https://github.com/fabinsz)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 31/05/2025 |  1.5  | (#NFR01) Criação de cards 07 a 12 | [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)  |
 | 31/05/2025 |  1.6  | (#NFR01) Criação de cards 20 a 22 e modificação na lista de requistos (remoção do #RF18 e adição do #RF38) | [`@Mateus`](https://github.com/MVConsorte)   | [`@Luiz`](https://github.com/luizfaria1989)  |
-
+| 01/06/2025 |  1.7  | (#NFR01) Criação de cards 14 a 19 | [`@Ana Joyce`](https://github.com/anajoyceamorim)   | [`@`](https://github.com/)  |
