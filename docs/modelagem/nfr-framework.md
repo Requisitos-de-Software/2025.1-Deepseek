@@ -659,7 +659,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Dependências**      | #RF24, #RN10                                                                                          |
 | **Prioridade**        | 10                                                                                                      |
 | **Conflitos**         | —                                                                                                      |
-| **História**          | Criado em 31/06/2025                                                                                  |
+| **História**          | Criado em 31/05/2025                                                                                  |
 
 <a id="cnfr30"></a>
 ## CNFR30 – Conexão nativa a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
@@ -677,7 +677,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Dependências**      | -                                                                                      |
 | **Prioridade**        | 6                                                                                                    |
 | **Conflitos**         | Possíveis mudanças nas políticas de terceiros (ex: Google API updates)                                                                                                     |
-| **História**          | Criado em 31/06/2025                                                                                  |
+| **História**          | Criado em 31/05/2025                                                                                  |
 
 <a id="cnfr31"></a>
 ## CNFR31 – Uso a partir de API Pública
@@ -695,7 +695,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Dependências**      | #RF21                                                                                      |
 | **Prioridade**        | 10                                                                                                   |
 | **Conflitos**         | —                                                                                                 |
-| **História**          | Criado em 31/06/2025   
+| **História**          | Criado em 31/05/2025   
 
 ## Referência Bibliográfica
 
