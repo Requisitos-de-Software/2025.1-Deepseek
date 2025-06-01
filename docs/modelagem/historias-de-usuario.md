@@ -330,13 +330,13 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 ---
 
 <a id="hu22"></a>
-## HU22 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+## HU22 – Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR
 
 **Autor:** [Fábio](https://github.com/fabinsz)
 
 | ID   | Nome                                                                                       |
 | ---- | ------------------------------------------------------------------------------------------ |
-| HU22 | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico          |
+| HU22 | Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR         |
 | **Descrição**              | Eu, como usuário do aplicativo DeepSeek, desejo receber instruções claras e contextualizadas sobre o uso de OCR ao enviar uma imagem, para entender como a funcionalidade funciona e o que esperar do resultado.|
 | **Critérios de aceitação** | - A interface de envio de imagens deve exibir instruções sobre o que é OCR e como ele será aplicado à imagem;<br> - As instruções devem ser exibidas de forma clara, concisa e visualmente acessível;<br> - As orientações devem aparecer antes ou durante o envio da imagem, de forma contextualizada;<br> - As instruções devem incluir exemplos de imagens ideais para OCR e limitações conhecidas do recurso.|
 | **Rastreabilidade**        |  #RF36                                                                                       |
@@ -666,4 +666,5 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 01/06/2025 |  1.8   | (#H02) Adição de conteúdo (Histórias de usuário 01 a 06)| [`@Ana Clara`](https://github.com/anabborges)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 01/06/2025 |  1.9   | (#H02) Adição de conteúdo (Histórias de usuário 37 a 42)| [`@Ana Joyce`](https://github.com/anajoyceamorim)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 01/06/2025 |  1.10   | (#H02) Adição de conteúdo (Histórias de usuário 07 a 12)| [`@Davi Emanuel`](https://github.com/daviRolvr)   |  [@Luiz](https://github.com/luizfaria1989) |
+| 01/06/2025 |  1.11   | (#H02) Adjuste de titulo HU22| [`@Fábio`](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
 
