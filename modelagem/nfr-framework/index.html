@@ -1,0 +1,5264 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Site voltado para a documentação do Grupo 2 de Requisitos de Software">
+      
+      
+        <meta name="author" content="Ana Borges, Ana Joyce, Davi, Fabio, Gabriela, Luiz e Mateus">
+      
+      
+      
+        <link rel="prev" href="../especificacao-suplementar/">
+      
+      
+        <link rel="next" href="../historias-de-usuario/">
+      
+      
+      <link rel="icon" href="../../images/deepseek.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>NFR Framework - Deepseek - Grupo 2</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#4D6BFE" data-md-color-accent="#4D6BFE">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Deepseek - Grupo 2" class="md-header__button md-logo" aria-label="Deepseek - Grupo 2" data-md-component="logo">
+      
+  <img src="../../images/deepseek.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Deepseek - Grupo 2
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NFR Framework
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="#4D6BFE" data-md-color-accent="#4D6BFE"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="#4D6BFE" data-md-color-accent="#4D6BFE"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2025.1-Deepseek" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.1-Deepseek
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Deepseek - Grupo 2" class="md-nav__button md-logo" aria-label="Deepseek - Grupo 2" data-md-component="logo">
+      
+  <img src="../../images/deepseek.svg" alt="logo">
+
+    </a>
+    Deepseek - Grupo 2
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2025.1-Deepseek" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.1-Deepseek
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visão Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Gravações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Gravações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/entregas/grav-entrega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entregas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/grav-reunioes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reuniões
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-10-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 10-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-15-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 15-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-17-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 17-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-24-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 24-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-29-04-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 29-04-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-01-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 01-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-06-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 06-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-08-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 08-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-13-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 13-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gravacoes/reunioes/ata-dia-15-05-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATA 15-05-2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Políticas do Repositório
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Políticas do Repositório
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/politicas_repositorio/politica_branches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Branches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/politicas_repositorio/politica_commits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma-executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/lista-de-apps-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lista de Apps Avaliados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/termo-de-uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Termo de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/requisitos-gerais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/analise-de-documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise de Documentos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pesquisa/Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/observacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Observação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/analise-de-interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise de Interface
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/perfil-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/MoSCow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MoSCoW
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/three-level-scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/In-or-Out/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    In-or-Out
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/QFD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quality Function Deployment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos-de-uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao-suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    NFR Framework
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFR Framework
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#softgoal-interdependency-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Softgoal Interdependency Graph
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Softgoal Interdependency Graph">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-softgoal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Softgoal
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tipos de Softgoal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interdependencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interdependências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interdependências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decomposicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decomposições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contribuicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contribuições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedimento-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedimento de Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuições
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lista-de-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lista de Requisitos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cartoes-de-especificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cartões de Especificação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr01-tempo-de-resposta-ocr-para-arquivos-ate-10-mb-em-35-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR01 – Tempo de resposta OCR para arquivos até 10 MB em &lt; 35 s
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr02-autenticacao-via-token-de-acesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR02 – Autenticação via token de acesso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr03-criptografia-tls-em-transito-e-aes-256-em-repouso" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR03 – Criptografia TLS em trânsito e AES-256 em repouso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr04-processamento-de-arquivos-grandes-em-10-s-e-operacoes-simples-em-2-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR04 – Processamento de arquivos grandes em ≤ 10 s e operações simples em ≤ 2 s
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr05-suporte-a-requisicoes-simultaneas-sem-degradacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR05 – Suporte a requisições simultâneas sem degradação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr06-retencao-de-contexto-em-dialogos-longos" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR06 – Retenção de contexto em diálogos longos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr07-tooltip-do-titulo-ao-passar-o-mouse-na-barra-lateral" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR07 – Tooltip do título ao passar o mouse na barra lateral
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr08-exclusao-automatica-de-dados-de-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR08 – Exclusão automática de dados de upload
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr09-versaoes-para-android-e-ios" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR09 – Versãoes para Android e IOS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr10-informar-claramente-onde-e-como-os-dados-estao-sendo-armazenados" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR10 – Informar claramente onde e como os dados estão sendo armazenados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr11-historico-de-conversas-por-30-dias" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR11 – Histórico de conversas por 30 dias
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr12-uso-da-arquitetura-deepseek-v3" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR12 – Uso da arquitetura DeepSeek-V3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr15-especificar-e-permitir-ao-usuario-optar-por-participar-ou-nao-do-uso-de-seus-dados-em-re-treinamento-ou-venda-de-modelos" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR15 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr16-garantir-estabilidade-na-geracao-de-conteudos-pesados-pdf-calculos-evitando-erros-de-formatacao-ou-falhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR16 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr17-atingir-95-de-usuarios-avaliando-a-usabilidade-como-facil-ou-muito-facil-em-pesquisas-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR17 – Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr18-alcancar-90-de-concordancia-em-interface-clara-e-agradavel-em-pesquisas-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR18 – Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr19-reduzir-para-5-os-usuarios-que-relatam-dificuldade-em-encontrar-opcoesferramentas-em-pesquisas-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR19 – Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr20-interoperabilidade-com-youtube-para-sumarizacao-automatica" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR20 – Interoperabilidade com YouTube para sumarização automática
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr21-instrucoes-claras-e-contextualizadas-sobre-ocr" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR21 – Instruções claras e contextualizadas sobre OCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr22-exibicao-de-fontes-paginas-e-referencias-em-respostas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR22 – Exibição de fontes, páginas e referências em respostas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr23-interface-com-usabilidade-e-acessibilidade-adequadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR23 – Interface com usabilidade e acessibilidade adequadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr24-retorno-de-mensagens-de-erro-claras-em-falhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR24 – Retorno de mensagens de erro claras em falhas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr25-exibicao-de-status-do-servidor-em-tempo-real" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR25 – Exibição de status do servidor em tempo real
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr26-regeneracao-de-resposta-sem-recarregamento-da-pagina" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR26 – Regeneração de resposta sem recarregamento da página
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr27-interrupcao-imediata-de-respostas-em-andamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR27 – Interrupção imediata de respostas em andamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr28-confirmacao-antes-de-limpar-o-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR28 – Confirmação antes de limpar o histórico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr29-especificacao-e-permisao-ao-usuario-optar-por-participar-ou-nao-do-uso-de-seus-dados-em-re-treinamento-ou-venda-de-modelos" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR29 – Especificação e permisão ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr30-conexao-nativa-a-ferramentas-populares-google-drive-outlook-github-etc-via-integracoes-diretas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR30 – Conexão nativa a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr31-uso-a-partir-de-api-publica" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR31 – Uso a partir de API Pública
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historias-de-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/segunda-entrega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Segunda Entrega
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/terceira-entrega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Terceira Entrega
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/quarta-entrega/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quarta Entrega
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeção
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeção
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1" id="__nav_9_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Segunda Entrega
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1">
+            <span class="md-nav__icon md-icon"></span>
+            Segunda Entrega
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega2/inspecao-grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega2/inspecao-grupo3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Terceira Entrega
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            Terceira Entrega
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega3/inspecao-grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega3/inspecao-grupo3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Quarta Entrega
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3">
+            <span class="md-nav__icon md-icon"></span>
+            Quarta Entrega
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega4/inspecao-grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inspecao/entrega4/inspecao-grupo3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Projeto Obsoleto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Projeto Obsoleto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Gravações
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            Gravações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/gravacoes/entregas/entregas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entregas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2_2" id="__nav_10_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reuniões
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/gravacoes/reunioes/reunioes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visão Geral
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_3" id="__nav_10_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_3">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_3_1" id="__nav_10_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Políticas do Repositório
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Políticas do Repositório
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/politicas_repositorio/politica_branches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Branches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/politicas_repositorio/politica_commits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/lista-de-apps-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lista de Apps Avaliados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/lista-de-verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lista de Verificação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/rich-picture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rich Picture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/planejamento/termo-de-uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Termo de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_4" id="__nav_10_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_4">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../doc-guardioes-da-saude/tecnicas-de-elicitacao/questionario/ElicitacaoQuestionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pesquisa/Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#softgoal-interdependency-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Softgoal Interdependency Graph
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Softgoal Interdependency Graph">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-softgoal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Softgoal
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tipos de Softgoal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interdependencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interdependências
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interdependências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decomposicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decomposições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contribuicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contribuições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedimento-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedimento de Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuições
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lista-de-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lista de Requisitos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cartoes-de-especificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cartões de Especificação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr01-tempo-de-resposta-ocr-para-arquivos-ate-10-mb-em-35-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR01 – Tempo de resposta OCR para arquivos até 10 MB em &lt; 35 s
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr02-autenticacao-via-token-de-acesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR02 – Autenticação via token de acesso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr03-criptografia-tls-em-transito-e-aes-256-em-repouso" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR03 – Criptografia TLS em trânsito e AES-256 em repouso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr04-processamento-de-arquivos-grandes-em-10-s-e-operacoes-simples-em-2-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR04 – Processamento de arquivos grandes em ≤ 10 s e operações simples em ≤ 2 s
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr05-suporte-a-requisicoes-simultaneas-sem-degradacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR05 – Suporte a requisições simultâneas sem degradação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr06-retencao-de-contexto-em-dialogos-longos" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR06 – Retenção de contexto em diálogos longos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr07-tooltip-do-titulo-ao-passar-o-mouse-na-barra-lateral" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR07 – Tooltip do título ao passar o mouse na barra lateral
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr08-exclusao-automatica-de-dados-de-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR08 – Exclusão automática de dados de upload
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr09-versaoes-para-android-e-ios" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR09 – Versãoes para Android e IOS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr10-informar-claramente-onde-e-como-os-dados-estao-sendo-armazenados" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR10 – Informar claramente onde e como os dados estão sendo armazenados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr11-historico-de-conversas-por-30-dias" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR11 – Histórico de conversas por 30 dias
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr12-uso-da-arquitetura-deepseek-v3" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR12 – Uso da arquitetura DeepSeek-V3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr15-especificar-e-permitir-ao-usuario-optar-por-participar-ou-nao-do-uso-de-seus-dados-em-re-treinamento-ou-venda-de-modelos" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR15 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr16-garantir-estabilidade-na-geracao-de-conteudos-pesados-pdf-calculos-evitando-erros-de-formatacao-ou-falhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR16 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr17-atingir-95-de-usuarios-avaliando-a-usabilidade-como-facil-ou-muito-facil-em-pesquisas-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR17 – Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr18-alcancar-90-de-concordancia-em-interface-clara-e-agradavel-em-pesquisas-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR18 – Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr19-reduzir-para-5-os-usuarios-que-relatam-dificuldade-em-encontrar-opcoesferramentas-em-pesquisas-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR19 – Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr20-interoperabilidade-com-youtube-para-sumarizacao-automatica" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR20 – Interoperabilidade com YouTube para sumarização automática
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr21-instrucoes-claras-e-contextualizadas-sobre-ocr" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR21 – Instruções claras e contextualizadas sobre OCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr22-exibicao-de-fontes-paginas-e-referencias-em-respostas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR22 – Exibição de fontes, páginas e referências em respostas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr23-interface-com-usabilidade-e-acessibilidade-adequadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR23 – Interface com usabilidade e acessibilidade adequadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr24-retorno-de-mensagens-de-erro-claras-em-falhas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR24 – Retorno de mensagens de erro claras em falhas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr25-exibicao-de-status-do-servidor-em-tempo-real" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR25 – Exibição de status do servidor em tempo real
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr26-regeneracao-de-resposta-sem-recarregamento-da-pagina" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR26 – Regeneração de resposta sem recarregamento da página
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr27-interrupcao-imediata-de-respostas-em-andamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR27 – Interrupção imediata de respostas em andamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr28-confirmacao-antes-de-limpar-o-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR28 – Confirmação antes de limpar o histórico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr29-especificacao-e-permisao-ao-usuario-optar-por-participar-ou-nao-do-uso-de-seus-dados-em-re-treinamento-ou-venda-de-modelos" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR29 – Especificação e permisão ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr30-conexao-nativa-a-ferramentas-populares-google-drive-outlook-github-etc-via-integracoes-diretas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR30 – Conexão nativa a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cnfr31-uso-a-partir-de-api-publica" class="md-nav__link">
+    <span class="md-ellipsis">
+      CNFR31 – Uso a partir de API Pública
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>NFR Framework</h1>
+
+<h2 id="introducao">Introdução</h2>
+<p>O NFR Framework é uma abordagem utilizada para representar e analisar os Requisitos Não-Funcionais de um projeto.
+Ele tem como objetivo ajudar os desenvolvedores na implementação de soluções personalizadas, levando em consideração as características do domínio e do sistema em que está sendo analisado. Tais características incluem Requisitos Não-funcionais, Requisitos funcionais, prioridades e carga de trabalho <a id="anchor_1" href="#REF1">[1]</a>.</p>
+<h2 id="softgoal-interdependency-graph">Softgoal Interdependency Graph</h2>
+<p>O Softgoal Interdependency Graph é um gráfico que registra
+as considerações do desenvolvedor sobre os softgoals (um objetivo que não possui uma clara
+definição nem critérios de satisfação precisos) e mostra suas interdependências. Os
+SIGs armazenam um registro completo das decisões de desenvolvimento além da lógica do
+projeto de forma gráfica e concisa. O registro gráfico das decisões tomadas inclui Requisitos Não-funcionais bem como as suas alternativas, decisões e justificativas associadas às decisões <a id="anchor_2" href="#REF2">[2]</a>.</p>
+<h3 id="tipos-de-softgoal">Tipos de Softgoal</h3>
+<p>Como dito anteriormente, um softgoal é um objetivo que ainda não possui uma clara definição além de que os critérios de satisfação ainda não são precisos. Eles são classificados em tipos, existindo os softgoals de afirmação, de operacionalização e o NFR softgoal. Eles podem ser vistos na Figura 1.</p>
+<p><font size="3"><p style="text-align: center"><b>Figura 1</b> - Tipos de Softgoal</p></font></p>
+<figure class="usecaseElement">
+<p><img 300="300" alt="TIPOS" src="../../images/nfr-framework/tipos-de-softgoal.png" width:="width:" /></p>
+</figure>
+<p><font size="3"><p style="text-align: center"> Fonte: (SILVA, 2019)</p></font></p>
+<h4 id="interdependencias">Interdependências</h4>
+<p>As interdependências são definições para as associações que ocorrem entre os softgoals. Essas associações são divididas em decomposições (refinamentos) e contribuições.</p>
+<h5 id="decomposicoes">Decomposições</h5>
+<p>Existem quatro tipos diferentes de decomposição: decomposição NFR, de Operacionalização, de Afirmação e de Priorização. Nas três primeiras decomposições, os softgoals são divididos em softgoals específicos. A Figura 2 representa esses quatro tipos de decomposição <a id="anchor_3" href="#REF3">[3]</a>.</p>
+<ul>
+<li>Decomposição NFR: Refina ou subdivide um sofgoal NFR em outros softogals específicos, é util para quebrar problemas grandes em problemas menores <a id="anchor_4" href="#REF4">[4]</a>;</li>
+<li>Decomposição de Operacionalização: Refinina ou subdivide um sofgoal de operacionalização em outros do mesmo tipo porém mais específicos, é útil para refinar uma solução geral em soluções mais específicas <a id="anchor_4" href="#REF4">[4]</a>;</li>
+<li>Decomposição de Afirmação(Claims): Refina um sofgoal de afirmação em outros de afirmação, é útil para apoiar ou negar justificavas específicas do projeto que está sendo desenvolvido <a id="anchor_4" href="#REF4">[4]</a>;</li>
+<li>Decomposição de Priorização: É um tipo especial de decomposição, nela ocorre o refinamento de um softgoal em outro do mesmo tipo e tópicos, porém com uma prioridade associada <a id="anchor_4" href="#REF4">[4]</a>.</li>
+</ul>
+<p><font size="3"><p style="text-align: center"><b>Figura 2</b> - Tipos de Decomposição</p></font></p>
+<figure class="usecaseElement">
+<p><img 300="300" alt="DECOMPOSIÇÃO" src="../../images/nfr-framework/figura-tipos-de-decomposicao.png" width:="width:" /></p>
+</figure>
+<p><font size="3"><p style="text-align: center"> Fonte: (SILVA, 2019)</p></font></p>
+<h4 id="contribuicoes">Contribuições</h4>
+<p>Ao longo de um projeto que faz o uso do NFR Framewok, os softgoals são refinados sucessivamente, e nesses refinamentos, um softgoal descendente pode contribuir de forma total ou parcial, além de poder ser algo positivo ou negativo, para a satisfação do ascendente. Assim, cabe destacar esses tipos de contribuição <a id="anchor_5" href="#REF5">[5]</a>.</p>
+<ul>
+<li>AND: Com esse tipo de contribuição, é determinado que se os softgoals descendentes forem satisfeitos, os softgoals ascendentes também serão satisfeitos <a id="anchor_6" href="#REF6">[6]</a>;</li>
+<li>OR: É o oposto da contribuição AND, na OR se algum softgoal descedente for satisfeito, o ascedente também será <a id="anchor_6" href="#REF6">[6]</a>;</li>
+<li>MAKE(++): Fornece uma contribuição suficientemente positiva entre um sofgoal descedente e um outro softgoal ascendente que está concebido em um nível mais alto de satisfação, assim, quando a contribuição MAKE for utilizada, se o softgoal descendente for satisfeito, o softgoal pai também será <a id="anchor_6" href="#REF6">[6]</a>;</li>
+<li>BREAK(--): É o oposto da contribuição MAKE, na BREAK, se o softgoal descendente for suficientemente satisfeito ou softogal pai será negado/não satisfeito <a id="anchor_6" href="#REF6">[6]</a>;</li>
+<li>HELP(+): Fornece uma contribuição parcialmente positiva entre um softgoal descedente e seu softgoal ascendente, assim, ao utilizar a contribuição HELP, se o softgoal descedente for parcialmente satisfeito o softgoal ascendente também será parcialmente satisfeito <a id="anchor_6" href="#REF6">[6]</a>;</li>
+<li>HURT(-): Fornece uma contribuição parcialmente negativa entre um softgoal descendente e seu softgoal ascedente, assim, quando a contribuição HURT é utilizada, se o softgoal descendente é satisfeito, o ascendente será parcialmente negado <a id="anchor_6" href="#REF6">[6]</a>;</li>
+<li>UNKNOWN(?): Fornece uma contribuição desconhecida entre os softgoals, essa contribuição pode ser positiva ou negativa <a id="anchor_6" href="#REF6">[6]</a>;</li>
+<li>EQUALS: Essa contribuição determina que um softgoal descendente só será satisfeito se o softgoal ascendente for satisfeito, e caso o softgoal ascendente não for satisfeito, o softgoal descendente também não será satisfeito <a id="anchor_6" href="#REF6">[6]</a>;</li>
+<li>SOME: É utilizada quando o sinal da contribuição é conhecido, porém a sua extensão, parcial ou total, não é <a id="anchor_6" href="#REF6">[6]</a>.</li>
+</ul>
+<h4 id="procedimento-de-avaliacao">Procedimento de Avaliação</h4>
+<p>Com o procedimento de avaliação é possível gerar o grau que os requisitos não funcionais são satis-
+feitos por um conjunto de decisões. Assim, o procedimento de avaliação determina
+se cada softgoal ou interdependência do SIG foi suficientemente satisfeito. Para fazer isso, são
+atribuídos rótulos para os softgoals criados no projeto. Os tipos de rótulos utilizados são: satisfeito, fracamente satisfeito, negado, fracamente negado, conflitante, indeterminado <a id="anchor_7" href="#REF7">[7] </a>. </p>
+<p>Esses rótulos estão ilustrados na Figura 3.</p>
+<p><font size="3"><p style="text-align: center"><b>Figura 3</b> - Tipos de Rótulos</p></font></p>
+<figure class="usecaseElement">
+<p><img 300="300" alt="DECOMPOSIÇÃO" src="../../images/nfr-framework/tipos-de-avaliacao.png" width:="width:" /></p>
+</figure>
+<p><font size="3"><p style="text-align: center"> Fonte: (SILVA, 2019)</p></font></p>
+<h2 id="metodologia">Metodologia</h2>
+<h2 id="tabela-de-contribuicoes">Tabela de Contribuições</h2>
+<table>
+<thead>
+<tr>
+<th>Contribuinte</th>
+<th>Descrição</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gabriela</td>
+<td>Criação dos cartões de especificação CNFR01 a CNFR06</td>
+<td><a href="#cnfr01">CNFR01</a> · <a href="#cnfr02">CNFR02</a> · <a href="#cnfr03">CNFR03</a> · <a href="#cnfr04">CNFR04</a> · <a href="#cnfr05">CNFR05</a> · <a href="#cnfr06">CNFR06</a></td>
+</tr>
+<tr>
+<td>Luiz</td>
+<td>Criação dos cartões de especificação CNFR07 a CNFR012</td>
+<td><a href="#cnfr07">CNFR07</a> · <a href="#cnfr08">CNFR08</a> · <a href="#cnfr09">CNFR09</a> · <a href="#cnfr10">CNFR10</a> · <a href="#cnfr11">CNFR11</a> · <a href="#cnfr12">CNFR12</a></td>
+</tr>
+<tr>
+<td>Mateus</td>
+<td>Criação dos cartões de especificação CNFR20 a CNFR22</td>
+<td><a href="#cnfr20">CNFR20</a> · <a href="#cnfr21">CNFR21</a> · <a href="#cnfr22">CNFR22</a></td>
+</tr>
+<tr>
+<td>Fábio</td>
+<td>Criação dos cartões de especificação CNFR26 a CNFR28</td>
+<td><a href="#cnfr26">CNFR26</a> · <a href="#cnfr27">CNFR27</a> · <a href="#cnfr28">CNFR28</a></td>
+</tr>
+<tr>
+<td>Ana Joyce</td>
+<td>Criação dos cartões de especificação CNFR14 a CNFR19</td>
+<td><a href="#cnfr15">CNFR15</a> · <a href="#cnfr16">CNFR16</a> . <a href="#cnfr17">CNFR17</a> . <a href="#cnfr18">CNFR18</a> . <a href="#cnfr19">CNFR19</a></td>
+</tr>
+<tr>
+<td>Davi</td>
+<td>Criação dos cartões de especificação CNFR23 a CNFR25</td>
+<td><a href="#cnfr23">CNFR23</a> · <a href="#cnfr24">CNFR24</a> · <a href="#cnfr25">CNFR25</a></td>
+</tr>
+<tr>
+<td>Ana Clara</td>
+<td>Criação dos cartões de especificação CNFR29 a CNFR31</td>
+<td><a href="#cnfr29">CNFR29</a> · <a href="#cnfr30">CNFR30</a> · <a href="#cnfr31">CNFR31</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="lista-de-requisitos">Lista de Requisitos</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição resumida</th>
+<th>Tipo de Softgoal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RF03</strong></td>
+<td>Upload de arquivos até 10 MB com OCR em &lt; 35 s</td>
+<td>Operacionalização (métrica clara)</td>
+</tr>
+<tr>
+<td><strong>RF06</strong></td>
+<td>Melhorar capacidades de “deep thinking”</td>
+<td>Afirmação (vago, sem métrica)</td>
+</tr>
+<tr>
+<td><strong>RF14</strong></td>
+<td>Exibir citações de fontes (pág., site ou trecho)</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF17</strong></td>
+<td>Regenerar resposta em caso de erro sem recarregar a página</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF19</strong></td>
+<td>Interromper respostas em andamento</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF20</strong></td>
+<td>Deve possuir uma API pública</td>
+<td>Operacionalização</td>
+</tr>
+<tr>
+<td><strong>RF21</strong></td>
+<td>Autenticação via token de acesso</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF22</strong></td>
+<td>Confirmação para limpar o histórico</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF24</strong></td>
+<td>Criptografia TLS em trânsito e AES-256 em repouso</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF25</strong></td>
+<td>Controle de compartilhamento de dados pelo usuário</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF26</strong></td>
+<td>Autenticação multifator opcional</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF27</strong></td>
+<td>Modo escuro/claro com sincronização automática ao SO</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF28</strong></td>
+<td>Tutorial interativo na primeira execução</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF29</strong></td>
+<td>Exibição de status do servidor em tempo real</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF30</strong></td>
+<td>Melhorar retenção de contexto em diálogos longos</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF35</strong></td>
+<td>Tooltip do título ao passar o mouse na barra lateral</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF36</strong></td>
+<td>Instruções claras de OCR na interface de envio de imagens</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RF37</strong></td>
+<td>Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas</td>
+<td>Operacionalização</td>
+</tr>
+<tr>
+<td><strong>RF38</strong></td>
+<td>Integração com YouTube para sumarização automática</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN01</strong></td>
+<td>Uso da arquitetura DeepSeek-V3</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN02</strong></td>
+<td>Versões para Android e iOS</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN03</strong></td>
+<td>Histórico de conversas por 30 dias (não persistente sem salvar)</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN04</strong></td>
+<td>Exclusão automática de dados de upload</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN05</strong></td>
+<td>Interface seguindo diretrizes de usabilidade e acessibilidade</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN06</strong></td>
+<td>Mensagens de erro claras em caso de falha</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN07</strong></td>
+<td>Suportar múltiplas requisições simultâneas sem degradação</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN08</strong></td>
+<td>Processamento de arquivos grandes (PDF/DOCX/XLSX/CSV) em ≤ 10 s e operações simples em ≤ 2 s</td>
+<td>Operacionalização (métrica clara)</td>
+</tr>
+<tr>
+<td><strong>RN09</strong></td>
+<td>Informar claramente onde e como os dados são armazenados</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN10</strong></td>
+<td>Opt-in/out para uso de dados em re-treinamento ou venda de modelos</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN11</strong></td>
+<td>Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos</td>
+<td>Softgoal NRF</td>
+</tr>
+<tr>
+<td><strong>RN12</strong></td>
+<td>Estabilidade na geração de conteúdo pesado (PDF, cálculos)</td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>RN13</strong></td>
+<td>≥ 95 % dos usuários avaliando usabilidade como “Fácil” ou “Muito fácil”</td>
+<td>Operacionalização (métrica clara)</td>
+</tr>
+<tr>
+<td><strong>RN14</strong></td>
+<td>≥ 90 % de concordância em “Interface clara e agradável”</td>
+<td>Operacionalização (métrica clara)</td>
+</tr>
+<tr>
+<td><strong>RN15</strong></td>
+<td>≤ 5 % dos usuários relatando dificuldade em encontrar opções/ferramentas</td>
+<td>Operacionalização (métrica clara)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Softgoal de Afirmação</strong>: enunciados qualitativos, sem critério de satisfação mensurável definido.</li>
+<li><strong>Softgoal de Operacionalização</strong>: já vem com métricas precisas que permitem testar sua satisfação.</li>
+</ul>
+<h2 id="cartoes-de-especificacao">Cartões de Especificação</h2>
+<p>A fim de garantir consistência e rigor na definição e no acompanhamento de requisitos não-funcionais, adotaremos o modelo de cartão de especificação proposto por Silva (2019, p. 45) indicado na Figura 4. Esse padrão organiza cada RNF em campos bem definidos, incluindo número sequencial, classificação hierárquica, descrição, justificativa, origem, critério de ajuste, dependências, prioridade, conflitos e histórico de alterações, o que facilita tanto a rastreabilidade quanto a validação dos requisitos ao longo do ciclo de desenvolvimento.</p>
+<p><img alt="CARTAO-DE-ESPECIFICACÃO" src="../../images/nfr-framework/cartao-especificacao.png" />
+<font size="3"><p style="text-align: center"><b>Figura 4</b> - Cartão de Especificação</p></font></p>
+<p><a id="cnfr01"></a></p>
+<h2 id="cnfr01-tempo-de-resposta-ocr-para-arquivos-ate-10-mb-em-35-s">CNFR01 – Tempo de resposta OCR para arquivos até 10 MB em &lt; 35 s</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela"><code>@Gabriela</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR01</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Desempenho</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve processar e extrair texto de arquivos de até 10 MB em menos de 35 segundos.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Garante agilidade no fluxo de trabalho do usuário ao lidar com documentos de tamanho moderado.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF03</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Tempo de OCR por arquivo ≤ 35 s</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#RN08</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 28/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr02"></a></p>
+<h2 id="cnfr02-autenticacao-via-token-de-acesso">CNFR02 – Autenticação via token de acesso</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela"><code>@Gabriela</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR02</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Segurança</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve permitir autenticação de clientes e APIs utilizando token de acesso.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Aumenta segurança e interoperabilidade em integrações entre sistemas.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>Requisito funcional original #RF21</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Validação de token válido antes de conceder acesso</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 28/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr03"></a></p>
+<h2 id="cnfr03-criptografia-tls-em-transito-e-aes-256-em-repouso">CNFR03 – Criptografia TLS em trânsito e AES-256 em repouso</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela"><code>@Gabriela</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR03</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Segurança</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Todos os dados sensíveis devem trafegar via TLS e ser armazenados criptografados com AES-256.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Protege confidencialidade e integridade dos dados usuários e sistemas.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF24</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Conexões HTTPS e criptografia AES-256 confirmadas em auditoria</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 28/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr04"></a></p>
+<h2 id="cnfr04-processamento-de-arquivos-grandes-em-10-s-e-operacoes-simples-em-2-s">CNFR04 – Processamento de arquivos grandes em ≤ 10 s e operações simples em ≤ 2 s</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela"><code>@Gabriela</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR04</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Desempenho</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Arquivos grandes (PDF/DOCX/XLSX/CSV) devem ser processados em até 10 s; operações simples em até 2 s.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Melhora experiência do usuário com documentos volumosos e tarefas rotineiras.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN08</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Tempo de processamento medido em ambiente de produção</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>CNFR01</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 28/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr05"></a></p>
+<h2 id="cnfr05-suporte-a-requisicoes-simultaneas-sem-degradacao">CNFR05 – Suporte a requisições simultâneas sem degradação</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela"><code>@Gabriela</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR05</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Desempenho / Escalabilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve suportar múltiplas requisições simultâneas sem degradação perceptível de performance.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Fundamental para atender picos de uso e manter SLA de respostas rápidas.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN07</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>95% de tempo de resposta permanece dentro do limite sob carga</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>CNFR04</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 28/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr06"></a></p>
+<h2 id="cnfr06-retencao-de-contexto-em-dialogos-longos">CNFR06 – Retenção de contexto em diálogos longos</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/gaubiela"><code>@Gabriela</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR06</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Qualidade de Contexto</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Melhorar retenção de contexto para manter coerência em diálogos longos.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Evita perda de informação e confusão em interações prolongadas com o assistente.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF30</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Contexto relevante preservado em ≥ 90 % dos diálogos com &gt; 100 mensagens</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>7</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 28/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr07"></a></p>
+<h2 id="cnfr07-tooltip-do-titulo-ao-passar-o-mouse-na-barra-lateral">CNFR07 – Tooltip do título ao passar o mouse na barra lateral</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989"><code>@Luiz</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR07</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Ao passar o cursor do mouse sobre um título de item na barra lateral de conversas, caso o item esteja truncado (parcialmente exibido devido a limitaçõoes de espaço da interface), um tooltip deve ser exibido, apresentando o texto completo daquela conversa com a IA.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Ao implementar esse requisito, a usabilidade do aplicativo e a experiência do usuário são melhoradas, especialmente para interfaces com pouco espaco e que possuem layout compacto.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF35</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>O usuário deve ser capaz de observar um tooltip ao passar o mouse por cima de um título que não está totalmente visível no menu de conversas. Essa tooltip deve exibir o título completo daquela conversa, além disso, ela deve desaparecer assim que o usuário retira o cursor daquele título. Por fim, a tooltip não deve aparecer caso o título não esteja cortado pelo menu.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#RN05</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr08"></a></p>
+<h2 id="cnfr08-exclusao-automatica-de-dados-de-upload">CNFR08 – Exclusão automática de dados de upload</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989"><code>@Luiz</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR08</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve excluir automaticamente os dados de upload que estão armazenados nos servidores do aplicativo imediatamente após a conclusão do processamento dos dados e envio da resposta da IA para o usuário.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Garante maior privacidade e controle dos dados que estão serdo compartilhados. Evita que os dados compartilhados sejam utilizandos futuramente para treinar o modelo sem permissão do usuário.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN04</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Após finalizar uma resposta, os dados enviados pelo usuário para a IA não devem mais estar acessíveis através de nenhuma interface do sistema. Além disso, os Logs do servidor devem registrar o evento de exclusão automática de dados enviados pelo usuário.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#RN09</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr09"></a></p>
+<h2 id="cnfr09-versaoes-para-android-e-ios">CNFR09 – Versãoes para Android e IOS</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989"><code>@Luiz</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR09</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve possuir versões para os dois principais sistemas operacionais de smartphones: Android e IOS.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Ao possuir versões para esses dois sistemas operacionais, o número de usuários que poderão baixar e utilizar o aplicativo será maximizado.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN02</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>O sistema deve estar disponível para versões 5.0 (ou superior) do Android ou IOS 15 (ou superior).</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#RN05</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr10"></a></p>
+<h2 id="cnfr10-informar-claramente-onde-e-como-os-dados-estao-sendo-armazenados">CNFR10 – Informar claramente onde e como os dados estão sendo armazenados</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989"><code>@Luiz</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR10</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve informar para o usuário onde (em quais servidores) e como os seus dados estão sendo armazenados ao utilizar o aplicaitvo</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Ao apresentar essas informações para o usuário, ele pode ter um maior controle de que dados serão compartilhados ao criar uma conta e utilzar os serviços da IA.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN09</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Ao acessar a aba configurações do aplicativo, na seção Controle de Dados, será possível visualizar pelo usuário, as informações sobre como e onde os seus dados estão sendo armazenados.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#RN04, #RN03, #RF24, #RN10</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr11"></a></p>
+<h2 id="cnfr11-historico-de-conversas-por-30-dias">CNFR11 – Histórico de conversas por 30 dias</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989"><code>@Luiz</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR11</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve manter o histórico de conversas do usuário por 30 dias. Essa informação deve ser válida para usuários que não possuem uma conta no aplicaitvo, mas ainda sim, utilizam os serviços dele.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Ao ter essa funcionalidade, o usuário não se sente obrigado a criar uma conta no aplicativo para poder acessar uma funcionalidade básica. Assim, o usuário teria maior liberdade de escolha se quer criar uma conta ou não.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN03</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Um usuário que não possui uma conta deve ser capaz de iniciar uma conversa, e, ao fechar e abrir novamente o aplicativo, deve ser possível acessar seu histórico de conversas. Para garantir a validade do histórico esse teste pode ser repetido diariamnete a fim de verificar a validade do histórico de 30 dias. Assim, uma conversa iniciada no dia 1 de maio às 13:00 horas deverá estar disponível até o dia 31 daquele mês até às 12:59 horas.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#RN09</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr12"></a></p>
+<h2 id="cnfr12-uso-da-arquitetura-deepseek-v3">CNFR12 – Uso da arquitetura DeepSeek-V3</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/luizfaria1989"><code>@Luiz</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR12</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Afirmação</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O aplicativo deve utilizar a arquitetura mais recente desenvolvida pela equipe chamada DeepSeek-V3.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Ao utilizar a arquitetura mais recente do DeepSeek, o aplicativo irá fornecer maior performace e confiabilidade nas respostas fornecidas ao usuário.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN01</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Análise da documentação do aplicativo e do código fonte que comprovem o uso dessa arquitetura. Além disso, sendo viável, a aplicação de testes no modelo que comprovem essa maior performace e confiabilidade sobre os modelos antigos do DeepSeek</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr15"></a></p>
+<h2 id="cnfr15-especificar-e-permitir-ao-usuario-optar-por-participar-ou-nao-do-uso-de-seus-dados-em-re-treinamento-ou-venda-de-modelos">CNFR15 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim"><code>@Ana Joyce</code></a> </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR15</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Legal e Ético</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve permitir que o usuário aceite ou recuse o uso de seus dados em re-treinamento ou venda de modelos.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Garante transparência e conformidade com LGPD e princípios éticos.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN10</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Presença de controle de consentimento visível e funcional</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#RF04 (login de usuários)</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 01/06/202</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr16"></a></p>
+<h2 id="cnfr16-garantir-estabilidade-na-geracao-de-conteudos-pesados-pdf-calculos-evitando-erros-de-formatacao-ou-falhas">CNFR16 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim"><code>@Ana Joyce</code></a> </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR16</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Desempenho e Confiabilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve gerar arquivos pesados (PDFs, cálculos) de forma estável, evitando falhas ou erros de formatação.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Evita perdas de tempo e frustrações com conteúdo corrompido ou ilegível.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN12</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Taxa de falhas em geração de documentos ≤ 2%</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 01/06/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr17"></a></p>
+<h2 id="cnfr17-atingir-95-de-usuarios-avaliando-a-usabilidade-como-facil-ou-muito-facil-em-pesquisas-futuras">CNFR17 – Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim"><code>@Ana Joyce</code></a> </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR17</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Qualidade de Uso</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Alcançar ≥ 95% de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Indica alta aceitação e facilidade de uso do sistema.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN13</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Resultado de pesquisa ≥ 95% nas opções “Fácil” ou “Muito fácil”</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#CNFR01</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>7</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 01/06/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr18"></a></p>
+<h2 id="cnfr18-alcancar-90-de-concordancia-em-interface-clara-e-agradavel-em-pesquisas-futuras">CNFR18 – Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim"><code>@Ana Joyce</code></a> </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR18</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Qualidade da Interface</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Alcançar ≥ 90% de concordância em “Interface clara e agradável” em pesquisas futuras.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Reflete uma boa experiência visual e navegação intuitiva.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN14</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Resultado de pesquisa ≥ 90% nas opções “Clara” ou “Muito clara”</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#CNFR01</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 01/06/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr19"></a></p>
+<h2 id="cnfr19-reduzir-para-5-os-usuarios-que-relatam-dificuldade-em-encontrar-opcoesferramentas-em-pesquisas-futuras">CNFR19 – Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anajoyceamorim"><code>@Ana Joyce</code></a> </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR19</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Usabilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Reduzir para ≤ 5% os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Demonstra clareza na disposição das funcionalidades no sistema.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN15</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Resultado de pesquisa: ≤ 5% relatando dificuldade</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#CNFR01, #CNFR05</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 01/06/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr20"></a></p>
+<h2 id="cnfr20-interoperabilidade-com-youtube-para-sumarizacao-automatica">CNFR20 – Interoperabilidade com YouTube para sumarização automática</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/MVConsorte"><code>@Mateus</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR20</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Interoperabilidade / softgoal de afirmação</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve garantir integração adequada e estável com a API do YouTube ou serviços equivalentes, suportando extração de metadados, transcrições (quando disponíveis) e conteúdo de vídeos compartilhados por link, independentemente do idioma, formato ou duração. Deve tolerar indisponibilidades temporárias, limites de API e variações nos formatos de vídeo, fornecendo mensagens de erro claras e informativas ao usuário em caso de falha, vídeo removido, restrito, privado ou link inválido.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Assegura que a funcionalidade de resumo automático de vídeos seja confiável, escalável e transparente ao usuário, mesmo diante de limitações técnicas do YouTube ou problemas de conectividade, reforçando a confiança do usuário e a qualidade do serviço prestado.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF38, #RQF23, UC14</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>- Permitir o resumo de vídeos em diferentes idiomas e formatos via link direto.<br> - Realizar detecção apropriada de links inválidos, vídeos removidos, indisponíveis ou privados, retornando mensagem compreensível.<br> - Lidar com erros de integração (limite de requisições, falhas de autenticação, ausência de transcrição, etc.) fornecendo orientações claras.<br> - Garantir performance estável e feedback de progresso quando processamento for demorado, incluindo sugestões de refinamento quando o resumo não for satisfatório.<br> - Registrar erros para análise futura de falhas recorrentes.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>- <strong>API YouTube:</strong> Necessária para acesso aos dados de vídeo, metadados e possíveis transcrições. <br>- <strong>Componentes de NLP (Processamento de Linguagem Natural) e ASR (Reconhecimento Automático de Fala):</strong> Indispensáveis para converter áudio em texto e gerar resumos. <br>- <strong>#RF30 (Processamento multimídia):</strong> Processo intermediário para extração/análise.<br>- <strong>#RF14 e #RF21 (interface e apresentação de resultados):</strong> Exibição ao usuário do sumário e informações relativas ao vídeo.<br>- <strong>#RN06, #RN07, #RN03, #RN04:</strong> Regras de tratamento de erros, conformidade com limites operacionais e robustez.<br>- <strong>#RN09, #RN10:</strong> Regras para armazenamento de dados e privacidade.<br>- <strong>#RF24, #RF26, #RF25:</strong> Segurança, controle de acesso e política de compartilhamento de dados obtidos/resumidos.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>10 – Extremamente alta, pois a capacidade de sumarizar vídeos do YouTube é central ao valor agregado do sistema e, caso indisponível, impacta diretamente no propósito principal da solução para usuários. Por depender de terceiros (YouTube/API), a robustez e tolerância a falhas tornam-se vitais desde a etapa inicial do projeto.</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>- <strong>#RN05 (usabilidade):</strong> Mensagens de erro completas ou processos de fallback podem gerar sobrecarga de informações ou tornar a experiência mais lenta se não forem bem planejadas.<br> - Dependência de terceiros (YouTube) pode causar atrasos, falhas ou limitações de uso que afetam negativamente a jornada do usuário se não houver boa comunicação dos estados na interface.</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr21"></a></p>
+<h2 id="cnfr21-instrucoes-claras-e-contextualizadas-sobre-ocr">CNFR21 – Instruções claras e contextualizadas sobre OCR</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/MVConsorte"><code>@Mateus</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR21</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Orientação / softgoal de afirmação</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve apresentar, na interface de envio de imagens, instruções claras e contextuais sobre OCR, explicando significado da sigla, limitações técnicas e exemplos de uso prático ao usuário final.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Facilita o correto uso da funcionalidade, reduz dúvidas e frustrações, aumentando a satisfação do usuário e a eficiência do processo de extração de texto por OCR, especialmente para novos usuários.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF36, #RQF20</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>As instruções devem ser exibidas toda vez que o usuário acessar a funcionalidade de OCR. Devem estar em linguagem simples e incluir exemplos de imagens adequadas e inadequadas para OCR.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>- <strong>RF36</strong>: Implementação funcional do OCR.<br>- <strong>RN05</strong>: Diretrizes de usabilidade para apresentação clara.<br>- <strong>RN15</strong>: Garantia de facilidade para o usuário encontrar instruções/opções.<br>- <strong>RN13/RN14</strong>: Avaliações de satisfação/interação.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>4 – Relevante para onboarding e qualidade da experiência, mas não bloqueante para operações básicas.</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>- Pode conflitar com <strong>RN05</strong> (usabilidade) ou <strong>RN15</strong> (facilidade de navegação) caso as instruções sejam extensas ou poluam a interface.<br>- Excesso de informações pode reduzir objetividade do fluxo.</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr22"></a></p>
+<h2 id="cnfr22-exibicao-de-fontes-paginas-e-referencias-em-respostas">CNFR22 – Exibição de fontes, páginas e referências em respostas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/MVConsorte"><code>@Mateus</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR22</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Transparência / softgoal de afirmação</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando de forma clara página, site e/ou trecho extraído, ou fornecendo link direto para consulta quando aplicável.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>A transparência sobre as fontes utilizadas nas respostas aumenta a confiança do usuário no conteúdo exibido, facilita a verificação e promove maior fidelidade à origem da informação apresentada pelo sistema.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF14, #RQF22</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Quando a resposta for proveniente de consulta a documento ou web, o usuário deve visualizar, ao final da resposta, as referências completas — incluindo link, número da página ou trecho relevante, quando disponível.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>- <strong>RF14</strong>: Funcionalidade para exibir citações de fontes.<br>- <strong>RN09/RN10</strong>: Informar e permitir ajuste sobre armazenamento e uso de dados extraídos.<br>- <strong>RN13/RN14</strong>: Avaliações de confiança/percepção do usuário.<br>- <strong>RF25</strong>: Controle sobre compartilhamento de dados.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>4 – Essencial para confiança e auditoria, mas pode ser implementado após funcionalidades básicas de resposta.</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>- Pode conflitar com <strong>RN05</strong> e <strong>RN15</strong> se a exibição de fontes for excessivamente técnica ou poluir a interface.<br>- Risco de exposição indevida de dados caso não haja integração com requisitos de segurança (RF24, RF26).</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr23"></a></p>
+<h2 id="cnfr23-interface-com-usabilidade-e-acessibilidade-adequadas">CNFR23 – Interface com usabilidade e acessibilidade adequadas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr"><code>@Davi Emanuel</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR05</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Usabilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura por leitores de tela).</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Garante inclusão digital e melhora a experiência de todos os usuários.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN05</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Atende às recomendações WCAG 2.1 e heurísticas de usabilidade de Nielsen.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>#RF08 (interface de criação de chats)</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>9</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 01/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p><a id="cnfr24"></a></p>
+<h2 id="cnfr24-retorno-de-mensagens-de-erro-claras-em-falhas">CNFR24 – Retorno de mensagens de erro claras em falhas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr"><code>@Davi Emanuel</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR24</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Confiabilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Em caso de falha, o sistema deve exibir mensagens de erro claras e compreensíveis para o usuário.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Ajuda na resolução rápida de problemas e reduz frustração do usuário.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN06</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Avaliação de clareza por usuários e testes com mensagens em cenários de erro.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>RF01</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 01/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p><a id="cnfr25"></a></p>
+<h2 id="cnfr25-exibicao-de-status-do-servidor-em-tempo-real">CNFR25 – Exibição de status do servidor em tempo real</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/daviRolvr"><code>@Davi Emnauel</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR25</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Confiabilidade / Disponibilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve exibir o status do servidor em tempo real (Online, Manutenção, Sobrecarga).</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Permite ao usuário entender o funcionamento do sistema e se antecipar a problemas.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF29</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Testes com simulações de diferentes estados do servidor.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 01/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p><a id="cnfr26"></a></p>
+<h2 id="cnfr26-regeneracao-de-resposta-sem-recarregamento-da-pagina">CNFR26 – Regeneração de resposta sem recarregamento da página</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/fabinsz"><code>@Fábio</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR26</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Usabilidade / Desempenho</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve permitir regenerar uma resposta em caso de erro sem recarregar a página.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Evita perda de contexto e melhora a experiência do usuário ao lidar com falhas temporárias.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF17</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Regeneração de resposta executada sem reload da interface</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 30/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr27"></a></p>
+<h2 id="cnfr27-interrupcao-imediata-de-respostas-em-andamento">CNFR27 – Interrupção imediata de respostas em andamento</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/fabinsz"><code>@Fábio</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR27</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Usabilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve permitir ao usuário interromper imediatamente uma resposta em andamento.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Oferece controle ao usuário sobre a interação, evitando espera desnecessária por respostas indesejadas ou incorretas.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF19</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Tempo de interrupção ≤ 1 segundo após ação do usuário</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 30/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr28"></a></p>
+<h2 id="cnfr28-confirmacao-antes-de-limpar-o-historico">CNFR28 – Confirmação antes de limpar o histórico</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/fabinsz"><code>@Fábio</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR28</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Usabilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O sistema deve solicitar confirmação do usuário antes de executar a ação de limpar o histórico de conversas.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Evita a exclusão acidental de informações importantes, promovendo segurança nas ações do usuário.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF22</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Exibição obrigatória de diálogo de confirmação com opção de cancelar</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 30/05/2025</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="cnfr29"></a></p>
+<h2 id="cnfr29-especificacao-e-permisao-ao-usuario-optar-por-participar-ou-nao-do-uso-de-seus-dados-em-re-treinamento-ou-venda-de-modelos">CNFR29 – Especificação e permisão ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anabborges"><code>Ana Clara</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR29</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Segurança</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Garantir transparência e conformidade com normas de privacidade, como LGPD e GDPR, além de respeitar a autonomia do usuário sobre seus dados.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RN11</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>O sistema deve exibir uma solicitação clara de consentimento para uso dos dados, com opção de aceitar ou recusar.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>Política de Privacidade, Interface de Configurações do Usuário.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p><a id="cnfr30"></a></p>
+<h2 id="cnfr30-conexao-nativa-a-ferramentas-populares-google-drive-outlook-github-etc-via-integracoes-diretas">CNFR30 – Conexão nativa a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anabborges"><code>Ana Clara</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR30</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Interoperabilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Melhorar a experiência do usuário e ampliar a utilidade do sistema por meio da interoperabilidade com plataformas amplamente utilizadas.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF37</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>O sistema deve permitir autenticação e troca de dados com ferramentas populares, de forma estável e segura.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>APIs Externas.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>Possíveis mudanças nas políticas de terceiros (ex: Google API updates)</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p><a id="cnfr31"></a></p>
+<h2 id="cnfr31-uso-a-partir-de-api-publica">CNFR31 – Uso a partir de API Pública</h2>
+<p><strong>Autor:</strong> <a href="https://github.com/anabborges"><code>Ana Clara</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nr Requisito</strong></td>
+<td>CNFR31</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Usabilidade</td>
+</tr>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Deve possuir uma API pública.</td>
+</tr>
+<tr>
+<td><strong>Justificativa</strong></td>
+<td>Permitir que desenvolvedores externos criem extensões, automações e integrações, aumentando o alcance e flexibilidade do sistema.</td>
+</tr>
+<tr>
+<td><strong>Origem</strong></td>
+<td>#RF20</td>
+</tr>
+<tr>
+<td><strong>Critério de Ajuste</strong></td>
+<td>Disponibilizar uma documentação pública e funcional para a API com autenticação segura e endpoints principais acessíveis.</td>
+</tr>
+<tr>
+<td><strong>Dependências</strong></td>
+<td>Infraestrutura de Backend, Sistema de Autenticação.</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Conflitos</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Criado em 31/06/2025</td>
+</tr>
+</tbody>
+</table>
+<h2 id="referencia-bibliografica">Referência Bibliográfica</h2>
+<blockquote>
+<p><a id="REF1" href="#anchor_1">1.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 30, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. <a href="../../images/nfr-framework/definicao-nfr-framework.png"><code>Foto da referência</code></a></p>
+<p><a id="REF2" href="#anchor_2">2.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 30-31, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. <a href="../../images/nfr-framework/definicao-sig.png"><code>Foto da referência</code></a></p>
+<p><a id="REF3" href="#anchor_3">3.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 32, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. <a href="../../images/nfr-framework/decomposicoes.png"><code>Foto da referência</code></a></p>
+<p><a id="REF4" href="#anchor_4">4.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 32-33, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. <a href="../../images/nfr-framework/tipos-de-decomposicao.png"><code>Foto da referência</code></a></p>
+<p><a id="REF5" href="#anchor_5">5.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 33, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. <a href="../../images/nfr-framework/contribuicoes.png"><code>Foto da referência</code></a></p>
+<p><a id="REF6" href="#anchor_6">6.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 33-34, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. <a href="../../images/nfr-framework/tipos-de-contribuicao.png"><code>Foto da referência</code></a></p>
+<p><a id="REF7" href="#anchor_7">7.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 33-34, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. <a href="../../images/nfr-framework/procedimento-de-avaliacao.png"><code>Foto da referência</code></a></p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">22/05/2025</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: left;">(#NFR01) Criação do documento NFR Framework.</td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte">@Mateus</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">23/05/2025</td>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">(#NFR01) Adição da introdução e do texto explicando o NFR Framework.</td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte">@Mateus</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">27/05/2025</td>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">(#NFR01) Identifica requisitos alvo para NFR Framework.</td>
+<td style="text-align: center;"><a href="https://github.com/gaubiela"><code>@Gabriela</code></a></td>
+<td style="text-align: center;">--</td>
+</tr>
+<tr>
+<td style="text-align: center;">28/05/2025</td>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">(#NFR01) Criação de cards 01 a 06 e definição do padrão para os cards.</td>
+<td style="text-align: center;"><a href="https://github.com/gaubiela"><code>@Gabriela</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">30/05/2025</td>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">(#NFR01) Criação de cards 26 a 28</td>
+<td style="text-align: center;"><a href="https://github.com/fabinsz"><code>@Fábio</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">31/05/2025</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">(#NFR01) Criação de cards 07 a 12</td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte"><code>@Mateus</code></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">31/05/2025</td>
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">(#NFR01) Criação de cards 20 a 22 e modificação na lista de requistos (remoção do #RF18 e adição do #RF38)</td>
+<td style="text-align: center;"><a href="https://github.com/MVConsorte"><code>@Mateus</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">1.7</td>
+<td style="text-align: left;">(#NFR01) Criação de cards 14 a 19</td>
+<td style="text-align: center;"><a href="https://github.com/anajoyceamorim"><code>@Ana Joyce</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">1.8</td>
+<td style="text-align: left;">(#NFR01) Criação de cards 23 a 25</td>
+<td style="text-align: center;"><a href="https://github.com/daviRolvr"><code>@Davi Emanuel</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">01/06/2025</td>
+<td style="text-align: center;">1.9</td>
+<td style="text-align: left;">(#NFR01) Criação de cards 29 a 31</td>
+<td style="text-align: center;"><a href="https://github.com/anabborges"><code>@Ana Clara</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
