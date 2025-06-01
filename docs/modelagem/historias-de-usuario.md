@@ -24,6 +24,7 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | Luiz     | Criação das histórias de usuário HU13, HU14, HU15, HU16, HU17 e HU18 | [HU13](#hu13) · [HU14](#hu14) · [HU15](#hu15) · [HU16](#hu16) · [HU17](#hu17) · [HU18](#hu18) |
 | Fábio   | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [HU19](#hu19) · [HU20](#hu20) · [HU21](#hu21) · [HU22](#hu22) · [HU23](#hu23) · [HU24](#hu24) |
 | Gabriela     | Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30 | [HU25](#hu25) · [HU26](#hu26) · [HU27](#hu27) · [HU28](#hu28) · [HU29](#hu29) · [HU30](#hu30) |
+| Ana Joyce    | Criação das histórias de usuário HU37, HU38, HU39, HU40, HU41 e HU42 | [HU37](#hu37) · [HU38](#hu38) · [HU39](#hu39) · [HU40](#hu40) · [HU41](#hu41) · [HU42](#hu42) |
 
 ## Histórias de Usuário
 
@@ -363,6 +364,98 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | **Critérios de aceitação** | - Exibe botões **Like**, **Dislike**, **Regenerate** e **Copy** para cada versão gerada;<br> - Ao clicar em **Dislike**, permite ao usuário inserir feedback e, após **Regenerate**, apresenta nova versão em até 1 s;<br> - Aceita múltiplas iterações de feedback e regeneração;<br> - Permite **Copy** na versão final avaliada com **Like**;<br> - Se a regeneração exceder 3 s, exibe opção **Cancelar**. |
 | **Prioridade**             | Baixa                |   
 
+---
+
+<a id="hu37"></a>
+## HU37 – Deve fazer a exclusão automática de dados de upload
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU37 |  Deve fazer a exclusão automática de dados de upload  |
+| **Descrição**              |   Eu, como administrador do sistema, desejo que os dados de upload sejam excluídos automaticamente após um período determinado, para garantir privacidade e economia de armazenamento.  |
+| **Critérios de aceitação** | - Os dados de upload devem ser excluídos automaticamente após o período configurado <br> - O sistema deve registrar logs dessa exclusão <br> - O usuário deve ser informado previamente sobre o tempo de retenção   |
+| **Rastreabilidade**        |  #RN04 |
+| **Prioridade**             | Alta | 
+
+---
+
+<a id="hu38"></a>
+## HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU38 |   A interface deve seguir diretrizes de usabilidade e acessibilidade  |
+| **Descrição**              | Eu, como pessoa usuária, desejo que a interface siga boas práticas de usabilidade e acessibilidade para que eu possa utilizar o sistema de forma confortável e inclusiva.  |
+| **Critérios de aceitação** | - Todos os botões devem estar visíveis e com tamanho adequado <br> - Textos devem ter contraste e tamanho legíveis <br> - Deve haver feedback visual e sonoro imediato para ações <br> - Compatibilidade com leitores de tela |
+| **Rastreabilidade**        |  #RN05 |
+| **Prioridade**             | Alta |
+
+---
+
+<a id="hu39"></a>
+## HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU39 |   Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos    |
+| **Descrição**              | Eu, como pessoa usuária, desejo poder decidir se meus dados podem ser usados para re-treinamento de modelos ou para fins comerciais, para ter controle sobre minha privacidade.       |
+| **Critérios de aceitação** | - O sistema deve solicitar o consentimento do usuário em linguagem clara<br>- Deve haver uma opção para aceitar ou recusar<br>- O consentimento deve ser revogável a qualquer momento |
+| **Rastreabilidade**        | # RN10  |
+| **Prioridade**             | Alta  |
+
+--- 
+
+<a id="hu40"></a>
+## HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU40 | Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas |
+| **Descrição**              | Eu, como usuário que utiliza muitos recursos computacionais, desejo que o sistema gere PDFs e cálculos pesados com estabilidade, sem erros de formatação ou falhas.    |
+| **Critérios de aceitação** | - O sistema deve gerar PDFs sem travar ou corromper o conteúdo <br> - Cálculos complexos devem ser processados sem interrupções <br> - O tempo de geração deve ser razoável |
+| **Rastreabilidade**        | #RN12 |
+| **Prioridade**             | Média |
+
+
+---
+
+<a id="hu41"></a>
+## HU41 – Deve possuir a opção de login com conta Google/Apple ID
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU41 | Deve possuir a opção de login com conta Google/Apple ID |
+| **Descrição**              | Eu, como usuário, desejo poder entrar no sistema usando minha conta Google ou Apple para facilitar o login e evitar ter que lembrar mais senhas.  |
+| **Critérios de aceitação** | - O sistema deve oferecer a opção de login com Google e Apple ID <br> - Após login, o sistema deve criar a conta ou associar a uma existente <br> - A autenticação deve seguir protocolos seguros (OAuth 2.0) |
+| **Rastreabilidade**        | #RF04  |
+| **Prioridade**             | Média |
+
+---
+
+<a id="hu42"></a>
+## HU42 – Deve ser possível criar novos chats
+
+**Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
+
+| **ID** |   **Nome**   |
+| -------------------------- |---------------------------------------------------------------------------------------------------------- |
+|   HU42 | Deve ser possível criar novos chats |
+| **Descrição**              |   Eu, como usuário, desejo criar novos chats para iniciar diferentes conversas com o sistema ou com outras pessoas.  |
+| **Critérios de aceitação** | - Deve haver um botão visível para criar novo chat <br> - Cada novo chat deve ter seu histórico salvo separadamente <br> - O sistema deve permitir múltiplos chats simultâneos |
+| **Rastreabilidade**        | #RF08  |
+| **Prioridade**             | Alta |
+
+---
 
 ## Referência Bibliográfica
 
@@ -382,4 +475,5 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 28/05/2025 |  1.4   | (#H02) Insere tabela de contribuições e linkagem de conteúdo| [`@Gabriela`](https://github.com/gaubiela)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 30/05/2025 |  1.5   | (#H02) Adição de conteudo historias de usuario (19 a 24)| [`@Fábio](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 31/05/2025 |  1.6   | (#H02) Adição de conteúdo (Histórias de usuário 13 a 18)| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
-| 01/06/2025 |  1.7   | (#H02) Adição de conteúdo (Histórias de usuário 01 a 06)| [`@Ana Clara`](https://github.com/anabborges)   |  [@](https://github.com/) |
+| 01/06/2025 |  1.7   | (#H02) Adição de conteúdo (Histórias de usuário 01 a 06)| [`@Ana Clara`](https://github.com/anabborges)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 01/06/2025 |  1.8   | (#H02) Adição de conteúdo (Histórias de usuário 37 a 42)| [`@Ana Joyce`](https://github.com/anajoyceamorim)   |  [@](https://github.com/) |
