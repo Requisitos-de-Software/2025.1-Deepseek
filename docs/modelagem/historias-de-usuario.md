@@ -25,6 +25,7 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | Fábio   | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [HU19](#hu19) · [HU20](#hu20) · [HU21](#hu21) · [HU22](#hu22) · [HU23](#hu23) · [HU24](#hu24) |
 | Gabriela     | Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30 | [HU25](#hu25) · [HU26](#hu26) · [HU27](#hu27) · [HU28](#hu28) · [HU29](#hu29) · [HU30](#hu30) |
 | Ana Joyce    | Criação das histórias de usuário HU37, HU38, HU39, HU40, HU41 e HU42 | [HU37](#hu37) · [HU38](#hu38) · [HU39](#hu39) · [HU40](#hu40) · [HU41](#hu41) · [HU42](#hu42) |
+| Davi Emanuel     | Criação das histórias de usuário HU06, HU07, HU08, HU09, HU10 e HU11 e HU12 | [HU07](#hu07) · [HU08](#hu08) · [HU09](#hu09) · [HU10](#hu10) · [HU11](#hu11) · [HU12](#hu12) |
 
 ## Histórias de Usuário
 
@@ -105,6 +106,96 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | **Critérios de aceitação** | - Na tela de configurações, em uma aba de controle de dados, aparecem checkboxes para eu selecionar quais tipos de dados eu concordo em compartilhar (histórico de buscas, localização, arquivos enviados, etc); <br> - Devo ser capaz de selecionar e tirar a seleção dos tipos de dados.|
 | **Rastreabilidade**        | #RF25                             |
 | **Prioridade**             | Alta               |
+
+
+
+
+<a id="hu07"></a>
+## HU07 – Interromper respostas em andamento  
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU07     | Interromper respostas em andamento        |
+| Descrição | Eu, como usuário, desejo poder interromper respostas do Deep Seek enquanto estão sendo geradas, para ajustar ou reformular minha pergunta. |
+| Critérios de aceitação | - Deve haver um botão ou comando para cancelar a resposta em andamento. <br> - A interface deve parar imediatamente o carregamento da resposta ao ser acionada. |
+| Rastreabilidade | #RF19 |
+| Prioridade | Baixa |
+
+---
+
+<a id="hu08"></a>
+## HU08 – Enviar arquivos com suporte a leitura OCR    
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU08     | Enviar arquivos com suporte a leitura OCR |
+| Descrição | Eu, como usuário, desejo enviar arquivos nos formatos PDF, DOCX, TXT e imagens para que o sistema possa extrair e analisar o conteúdo. |
+| Critérios de aceitação | - O sistema deve aceitar upload de arquivos nos formatos PDF, DOCX, TXT e imagens (.jpg, .png). <br> - Para imagens, o sistema deve utilizar OCR para converter o conteúdo em texto. |
+| Rastreabilidade | #RIF01 |
+| Prioridade | Alta |
+
+---
+
+<a id="hu09"></a>
+## HU09 – Organizar conversas em pastas, listas ou temas    
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU09     | Organizar conversas em pastas, listas ou temas |
+| Descrição | Eu, como usuário, desejo organizar minhas conversas por pastas, listas ou temas dentro do Deep Seek para facilitar o acesso por projeto ou assunto. |
+| Critérios de aceitação | - Deve ser possível criar, editar e excluir categorias (listas, temas ou pastas). <br> - O sistema deve permitir mover ou associar conversas a essas categorias. |
+| Rastreabilidade | #RF33 |
+| Prioridade | Média |
+
+---
+
+<a id="hu10"></a>
+## HU10 – Citar fontes da web nas pesquisas   
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU10     | Citar fontes da web nas pesquisas         |
+| Descrição | Eu, como usuário, desejo que o Deep Seek cite as fontes da web nas pesquisas feitas, para validar e utilizar as informações de forma confiável. |
+| Critérios de aceitação | - Cada trecho com origem externa deve apresentar o link da fonte e a data de acesso. <br> - As fontes devem estar visíveis no final da resposta ou junto ao conteúdo citado. |
+| Rastreabilidade | #RF14 |
+| Prioridade | Baixa |
+
+---
+
+<a id="hu11"></a>
+## HU11 – Integração com plataformas externas 
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU11     | Integrar o app com plataformas externas   |
+| Descrição | Eu, como usuário, desejo integrar o Deep Seek com plataformas externas como Google Drive, Notion e Trello. |
+| Critérios de aceitação | - O sistema deve permitir login via plataformas externas (OAuth). <br> - Deve ser possível importar e exportar conteúdos entre o Deep Seek e essas plataformas. |
+| Rastreabilidade | #RF37 |
+| Prioridade | Média |
+
+---
+
+<a id="hu12"></a>
+## HU12 – Inserir informações por comando de voz 
+
+**Autor:** [Davi Emanuel](https://github.com/daviRolvr)
+
+| ID       | Nome                                      |
+|----------|-------------------------------------------|
+| HU12     | Inserir informações por comando de voz    |
+| Descrição | Eu, como usuário, desejo inserir informações por comando de voz, para facilitar a entrada de dados sem precisar digitar. |
+| Critérios de aceitação | - O aplicativo deve reconhecer comandos de voz e transcrevê-los automaticamente nos campos de entrada. <br> - Deve haver um botão visível para ativar e desativar
+
 
 <a id="hu13"></a>
 ## HU13 – Resolver um problema difícil de matemática
@@ -477,3 +568,4 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 31/05/2025 |  1.6   | (#H02) Adição de conteúdo (Histórias de usuário 13 a 18)| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Mateus](https://github.com/MVConsorte) |
 | 01/06/2025 |  1.7   | (#H02) Adição de conteúdo (Histórias de usuário 01 a 06)| [`@Ana Clara`](https://github.com/anabborges)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 01/06/2025 |  1.8   | (#H02) Adição de conteúdo (Histórias de usuário 37 a 42)| [`@Ana Joyce`](https://github.com/anajoyceamorim)   |  [@](https://github.com/) |
+| 01/06/2025 |  1.9   | (#H02) Adição de conteúdo (Histórias de usuário 07 a 12)| [`@Davi Emanuel`](https://github.com/daviRolvr)   |  [@](https://github.com/) |
