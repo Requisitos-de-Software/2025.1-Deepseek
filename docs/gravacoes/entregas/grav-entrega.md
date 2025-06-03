@@ -70,4 +70,4 @@
 | 05/04/2025 |  1.1   | (#D03) Documenta inspeção Grupo + 1. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Borges](https://github.com/anabborges)|
 | 05/04/2025 |  1.2   | (#D03) Documenta apresentação da entrega 3 e auto inspeção. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Borges](https://github.com/anabborges)|
 | 01/06/2025 |  1.3   | (#D03) Documenta apresentação da entrega 4 e auto inspeção. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Luiz](https://github.com/luizfaria1989)|
-| 02/06/2025 |  1.4   | (#D03) Documenta inspeção do Grupo + 1 - entrega 4. | [@Ana Clara](https://github.com/anabborges)   | [@](https://github.com/)|
+| 02/06/2025 |  1.4   | (#D03) Documenta inspeção do Grupo + 1 - entrega 4. | [@Ana Clara](https://github.com/anabborges)   | [@Mateus](https://github.com/MVConsorte)|
