@@ -59,6 +59,10 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DX1QdY4Dqc4?si=OFGRKfrNEKBcwW_R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Inspeção do Grupo + 1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RMAj7ns17hw?si=C8EQe1Cn-9hyhYbF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
@@ -66,3 +70,4 @@
 | 05/04/2025 |  1.1   | (#D03) Documenta inspeção Grupo + 1. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Borges](https://github.com/anabborges)|
 | 05/04/2025 |  1.2   | (#D03) Documenta apresentação da entrega 3 e auto inspeção. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Borges](https://github.com/anabborges)|
 | 01/06/2025 |  1.3   | (#D03) Documenta apresentação da entrega 4 e auto inspeção. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Luiz](https://github.com/luizfaria1989)|
+| 02/06/2025 |  1.4   | (#D03) Documenta inspeção do Grupo + 1 - entrega 4. | [@Ana Clara](https://github.com/anabborges)   | [@](https://github.com/)|
