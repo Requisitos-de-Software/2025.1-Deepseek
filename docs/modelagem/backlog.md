@@ -43,18 +43,18 @@ As histórias de usuário que se classificam no Épico 1 - Funcionalidades de IA
 
 <font><p style="text-align: center">**Tabela 1** - Histórias de usuário classificadas com o Épico 1 - Funcionalidades de IA.</p></font>
 
-| História de usuário                                         | Requisito trabalhado | Prioridade |
-| ------------------------------------------------------------| -------------------- | ---------- |
-| HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado                                                            | #RF01                | Alta           |
-| HU13 - Resolver um problema difícil de matemática           | #RF02                | Alta       |
-| HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF11                | Baixa    |
-| HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF12                | Baixa    |
-| HU36 – Exibir citações de fontes                              | #RF14, #ROF08                | Baixa           |
-| HU10 – Citar fontes da web nas pesquisas                               | #RF14               | Baixa           |
-| HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF17                | Baixa    |
-| HU24 – Retenção de contexto em diálogos longos              | #RF30                | Média      |
-| HU32 – Implementar memória de contexto persistente entre conversas                | #RF31                | Média           |
-| HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)                                                            | #RF32                | Média           |
+|   ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
+| ------ | ------------------------------------------------------------| -------------------- | ---------- |
+| #BK01  | HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado                                                            | #RF01                | Alta           |
+| #BK02  | HU13 - Resolver um problema difícil de matemática           | #RF02                | Alta       |
+| #BK03  | HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF11                | Baixa    |
+| #BK04  | HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF12                | Baixa    |
+| #BK05  | HU36 – Exibir citações de fontes                              | #RF14, #ROF08                | Baixa           |
+| #BK06  | HU10 – Citar fontes da web nas pesquisas                               | #RF14               | Baixa           |
+| #BK07  | HU30 – Refinar resposta gerada até atingir clareza e concisão | #RF17                | Baixa    |
+| #BK08  | HU24 – Retenção de contexto em diálogos longos              | #RF30                | Média      |
+| #BK09  | HU32 – Implementar memória de contexto persistente entre conversas                | #RF31                | Média           |
+| #BK10  | HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)                                                            | #RF32                | Média           |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -66,13 +66,13 @@ As histórias de usuário que se classificam no Épico 2 - Controle de dados, po
 
 <font><p style="text-align: center">**Tabela 2** - Histórias de usuário classificadas com o Épico 2 - Controle de dados.</p></font>
 
- História de usuário                                         | Requisito trabalhado | Prioridade |
-| ------------------------------------------------------------| -------------------- | ---------- |
-| HU02 – Confirmar a exclusão do histórico de conversas       | #RF22                | Baixa      |
-| HU17 - Controlar quais dados são compartilhados com a IA    | #RF25                | Média      |
-| HU06 – Controle de dados| #RF25                | Média      |
-| HU37 – Deve fazer a exclusão automática de dados de upload | #RN04                |Alta           |
-| HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos                                                            | #RN10                | Alta           |
+|  ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
+| ----- | ------------------------------------------------------------| -------------------- | ---------- |
+| #BK11 | HU02 – Confirmar a exclusão do histórico de conversas       | #RF22                | Baixa      |
+| #BK12 | HU17 - Controlar quais dados são compartilhados com a IA    | #RF25                | Média      |
+| #BK13 | HU06 – Controle de dados| #RF25                | Média      |
+| #BK14 | HU37 – Deve fazer a exclusão automática de dados de upload | #RN04                |Alta           |
+| #BK15 | HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos                                                            | #RN10                | Alta           |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -84,10 +84,10 @@ As histórias de usuário que se classificam no Épico 3 - Segurança, podem ser
 
 <font><p style="text-align: center">**Tabela 3** - Histórias de usuário classificadas com o Épico 3 - Segurança.</p></font>
 
-|  História de usuário                                         | Requisito trabalhado | Prioridade |
-| ------------------------------------------------------------| -------------------- | ---------- |
-| HU41 – Deve possuir a opção de login com conta Google/Apple ID                 | #RF04                | Média      |
-| HU16 - Autenticar a conta para acessar funcionalidades avançadas | #RF26                | Não fazer           |
+|  ID   |  História de usuário                                         | Requisito trabalhado | Prioridade |
+| ----- | ------------------------------------------------------------| -------------------- | ---------- |
+| #BK16 | HU41 – Deve possuir a opção de login com conta Google/Apple ID                 | #RF04                | Média      |
+| #BK17 | HU16 - Autenticar a conta para acessar funcionalidades avançadas | #RF26                | Não fazer           |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -99,18 +99,18 @@ As histórias de usuário que se classificam no Épico 4 - Funcionalidades do ch
 
 <font><p style="text-align: center">**Tabela 4** - Histórias de usuário classificadas com o Épico 4 - Funcionalidades do chat.</p></font>
 
-| História de usuário                                         | Requisito trabalhado | Prioridade |
-| ------------------------------------------------------------| -------------------- | ---------- |
-| HU18 - Salvar chat entre plataformas                        | #RF05                | Média      |
-| HU03 – Interação com a Inteligência Artificial              | #RF07                | Alta       |
-| HU42 – Deve ser possível criar novos chats                  | #RF08                | Alta       |
-| HU04 – Renomear um chat já existente                        | #RF09                | Média      |
-| HU35 – Recuperar chats anteriores                           | #RF10, ROF04                | Média           |
-| HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado                                                            | #RF13                | Alta           
-| HU30 – Refinar resposta gerada até atingir clareza e concisãoresultado                                                            | #RF13                | Baixa           ||
-| HU15 - Interromper chat em andamento                        | #RF19                |Baixa       |
-| HU07 – Interromper respostas em andamento                         | #RF19                |Baixa       |
-| HU09 – Organizar conversas em pastas, listas ou temas   | #RF33                | Média           |
+|   ID  | História de usuário                                         | Requisito trabalhado | Prioridade |
+| ----- | ------------------------------------------------------------| -------------------- | ---------- |
+| #BK18 | HU18 - Salvar chat entre plataformas                        | #RF05                | Média      |
+| #BK19 | HU03 – Interação com a Inteligência Artificial              | #RF07                | Alta       |
+| #BK20 | HU42 – Deve ser possível criar novos chats                  | #RF08                | Alta       |
+| #BK21 | HU04 – Renomear um chat já existente                        | #RF09                | Média      |
+| #BK22 | HU35 – Recuperar chats anteriores                           | #RF10, ROF04                | Média           |
+| #BK23 | HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado                                                            | #RF13                | Alta           
+| #BK24 | HU30 – Refinar resposta gerada até atingir clareza e concisãoresultado                                                            | #RF13                | Baixa           ||
+| #BK25 | HU15 - Interromper chat em andamento                        | #RF19                |Baixa       |
+| #BK26 | HU07 – Interromper respostas em andamento                         | #RF19                |Baixa       |
+| #BK27 | HU09 – Organizar conversas em pastas, listas ou temas   | #RF33                | Média           |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -122,18 +122,18 @@ As histórias de usuário que se classificam no Épico 5 - Interface e experiên
 
 <font><p style="text-align: center">**Tabela 5** - Histórias de usuário classificadas com o Épico 5 - Interface e experiência do usuário.</p></font>
 
- História de usuário                                         | Requisito trabalhado | Prioridade |
-| ------------------------------------------------------------| -------------------- | ---------- |
-| HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.                                                            | #RF18               | Baixa           |
-| HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código.                                                            | #RF18,  #RQF15               | Baixa           |
-| HU05 – Busca incremental no campo de texto                                                            | #RF23               | Baixa           |
-| HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO                                                            | #RF27               | Alta           |
-| HU01 – Visualizar tutorial interativo                    | #RF28               | Baixa       |
-| HU14 - Visualizar em tempo real o status do servidor        | #RF29               | Não fazer  |
-| HU12 – Inserir informações por comando de voz                                                            | #RF34               | Alta           |
-| HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico        | #RF35               | Baixa           |
-| HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade   | #RN05               | Alta           |
-| HU27 – Alterar idioma da interface do DeepSeek              | #RN15               | Média      |
+|   ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
+| ------ | ------------------------------------------------------------| -------------------- | ---------- |
+| #BK28  | HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis.                                                            | #RF18               | Baixa           |
+| #BK29  | HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código.                                                            | #RF18,  #RQF15               | Baixa           |
+| #BK30  | HU05 – Busca incremental no campo de texto                                                            | #RF23               | Baixa           |
+| #BK31  | HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO                                                            | #RF27               | Alta           |
+| #BK32  | HU01 – Visualizar tutorial interativo                    | #RF28               | Baixa       |
+| #BK33  | HU14 - Visualizar em tempo real o status do servidor        | #RF29               | Não fazer  |
+| #BK34  | HU12 – Inserir informações por comando de voz                                                            | #RF34               | Alta           |
+| #BK35  | HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico        | #RF35               | Baixa           |
+| #BK36  | HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade   | #RN05               | Alta           |
+| #BK37  | HU27 – Alterar idioma da interface do DeepSeek              | #RN15               | Média      |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -145,9 +145,9 @@ As histórias de usuário que se classificam no Épico 6 - Desempenho e estabili
 
 <font><p style="text-align: center">**Tabela 6** - Histórias de usuário classificadas com o Épico 6 - Desempenho e estabilidade.</p></font>
 
-| História de usuário                                         | Requisito trabalhado | Prioridade |
-| ------------------------------------------------------------| -------------------- | ---------- |
-| HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas                                                            | #RN12               |  Média          |
+|   ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
+| ------ | ------------------------------------------------------------| -------------------- | ---------- |
+| #BK38  | HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas                                                            | #RN12               |  Média          |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -159,10 +159,10 @@ As histórias de usuário que se classificam no Épico 7 - Gerenciamento de arqu
 
 <font><p style="text-align: center">**Tabela 7** - Histórias de usuário classificadas com o Épico 7 - Gerenciamento de arquivos.</p></font>
 
-| História de usuário                                         | Requisito trabalhado | Prioridade |
-| ------------------------------------------------------------| -------------------- | ---------- |
- HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR                                                            | #RF03               | Alta           |
-| HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos                                                      | #RF03               | Alta           |
+|   ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
+| -------| ------------------------------------------------------------| -------------------- | ---------- |
+| #BK39  | HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR                                                            | #RF03               | Alta           |
+| #BK40  | HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos                                                      | #RF03               | Alta           |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -174,10 +174,10 @@ As histórias de usuário que se classificam no Épico 8 - Inetgreções e API, 
 
 <font><p style="text-align: center">**Tabela 8** - Histórias de usuário classificadas com o Épico 8 - Integrações e API.</p></font>
 
-| História de usuário                                         | Requisito trabalhado | Prioridade |
-| ------------------------------------------------------------| -------------------- | ---------- |
-| HU31 – Utilizar uma API Pública                                                       | #RF20               | Alta           |
-| HU11 – Integração com plataformas externas | #RF37               | Média           |
+|    ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
+| --------| ------------------------------------------------------------| -------------------- | ---------- |
+| #BK41   | HU31 – Utilizar uma API Pública                                                       | #RF20               | Alta           |
+| #BK42   | HU11 – Integração com plataformas externas | #RF37               | Média           |
 
 Fonte: [@Luiz](https://github.com/luizfaria1989)
 
@@ -251,3 +251,4 @@ Fonte: [Luiz](https://github.com/luizfaria1989)
 | 01/06/2025 |  1.6   | (#B01) Categorização das histórias de usuário 01 a 06. Criação dos temas.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 01/06/2025 |  1.7   | (#B01) Categorização das histórias de usuário 37 a 42.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 01/06/2025 |  1.8   | (#B01) Categorização das histórias de usuário 7 a 12.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 05/06/2025 |  2.0   | (#B01) Adição dos ids para organizar o backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
