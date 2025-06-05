@@ -17,8 +17,18 @@ Para a inspeção do nosso grupo, o foco é fazer a síntese geral dos principai
 ### Entrega 1
 - [Inspeção nosso Grupo](docs-inspecao/grupo2/entrega1.pdf)
 
+<p align="center">
+  <img src="../docs-inspecao/imgs/etapa1_grupo2.png" alt="Gráfico de Inspeção - Entrega 1" title="Proporção de conformidade dos grupo 2 na entrega 1">
+</p>
+<p align="center"><i>Fonte: Inspeções da entrega 1 - Grupos 2</i></p>
+
 ### Entrega 2
 - [Inspeção nosso Grupo](docs-inspecao/grupo2/entrega2.pdf)
+
+<p align="center">
+  <img src="../docs-inspecao/imgs/etapa2_grupo2.png" alt="Gráfico de Inspeção - Entrega 2" title="Proporção de conformidade dos grupo 2 na entrega 2">
+</p>
+<p align="center"><i>Fonte: Inspeções da entrega 2 - Grupos 2</i></p>
 
 ## Inspeção dos demais Grupos
 
@@ -36,6 +46,14 @@ Para a inspeção dos demais grupos, diferentemente do foco posto no nosso grupo
 - [Inspeção do Grupo 9](docs-inspecao/demais-grupos/etapa1/grupo9.pdf)
 - [Inspeção do Grupo 10](docs-inspecao/demais-grupos/etapa1/grupo10.pdf)
 
+#### Análise
+
+<p align="center">
+  <img src="../docs-inspecao/imgs/grafico_etapa1_grupos.png" alt="Gráfico de Inspeção - Entrega 1" title="Proporção de conformidade dos grupos na entrega 1">
+</p>
+<p align="center"><i>Fonte: Inspeções da entrega 1 - Demais grupos</i></p>
+
+
 ### Entrega 2
 
 - [Inspeção do Grupo 1](docs-inspecao/demais-grupos/etapa2/grupo1.pdf)
@@ -48,9 +66,16 @@ Para a inspeção dos demais grupos, diferentemente do foco posto no nosso grupo
 - [Inspeção do Grupo 9](docs-inspecao/demais-grupos/etapa2/grupo9.pdf)
 - [Inspeção do Grupo 10](docs-inspecao/demais-grupos/etapa2/grupo10.pdf)
 
+#### Análise
+<p align="center">
+  <img src="../docs-inspecao/imgs/grafico_etapa2_grupos.png" alt="Gráfico de Inspeção - Entrega 2" title="Proporção de conformidade dos grupos na entrega 2">
+</p>
+<p align="center"><i>Fonte: Inspeções da entrega 2 - Demais grupos</i></p>
+
 ## Referência Bibliográfica
 FAGAN, Michael. Reviews and inspections. Software Pioneers–Contributions to Software Engineering, p. 562-573, 2002.
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 01/06/2025 |  1.0   | (#D05) Criação do documento segundo indicação do professor em sala (27/05/2025) | [@Mateus](https://github.com/MVConsorte)   | [@](https://github.com/)  |
+| 05/06/2025 |  1.1   | (#D05): adição dos gráficos de análise de conformidade nas inspeções dos monitores nas entregas 1 e 2 dos grupos. | [@Mateus](https://github.com/MVConsorte)   | [@](https://github.com/)  |
