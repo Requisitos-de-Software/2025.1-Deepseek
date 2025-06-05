@@ -37,7 +37,7 @@ Essa metodologia busca garantir que todos os aspectos essenciais ao desenvolvime
 
 ---
 
-## Design
+## #ES01 - Design 
 
 **Autor: [Davi Emanuel](https://github.com/daviRolvr)**
 
@@ -58,7 +58,7 @@ Para essa categoria os requisitos identificados estão representados na tabela 1
 | RN14    | Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras.   |
 | RN15    |Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.  |
 
-## Implementação
+## #ES02 - Implementação
 
 **Autor: [Davi Emanuel](https://github.com/daviRolvr)**
 
@@ -88,7 +88,7 @@ Para essa categoria os requisitos identificados estão representados na tabela 2
 
 
 
-## Funcionalidade
+## #ES03 - Funcionalidade
 
 **Autor: [Ana Joyce](https://github.com/anajoyceamorim)**
 
@@ -309,7 +309,7 @@ A especificação complementar detalha os aspectos de qualidade, técnicos e res
 
 ---
 
-## Usabilidade
+## #ES04 - Usabilidade
 
 Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, ou seja, que se referem a forma de o usuário interagir com o sistema.
 
@@ -374,7 +374,7 @@ Nessa seção são citados os requisitos referentes à confiabilidade do sistema
 
 ---
 
-## Desempenho
+## #ES05 - Desempenho
 
 **Autor: [Luiz](https://github.com/luizfaria1989)**
 
@@ -392,7 +392,7 @@ Para essa categoria os requisitos identificados estão representados na tabela 6
 |  #UC06  |   #RF29    | Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga) |
 
 
-## Suportabilidade
+## #ES06 - Suportabilidade
 
 **Autor: [Luiz](https://github.com/luizfaria1989)**
 
@@ -410,7 +410,7 @@ Para essa categoria os requisitos identificados estão representados na tabela 7
 ||   #RF21    | Deve aceitar autenticação via token de acesso |
 ||   #RF37    | Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas |
 
-## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
+## #ES07 - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
 **Autor: [Fabio](https://github.com/fabinsz)**
 
@@ -447,3 +447,4 @@ Para essa categoria os requisitos identificados estão representados na tabela 8
 | 18/05/2025 |  1.5  | (#ES02) Adição de conteúdo desenvolvido. | [@Ana Clara](https://github.com/anabborges)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 18/05/2025 |  1.6  | (#ES02) Adição de metodologia e funcionalidade. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
 | 18/05/2025 |  1.7 | (#ES02)Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989), [@Gabriela](https://github.com/gaubiela),[@Davi Emanuel](https://github.com/daviRolvr) |
+| 05/06/2025 |  2.0 | (#ES02) Adição dos ids para as tabelas da especificação suplementar. | [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
