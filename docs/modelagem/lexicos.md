@@ -27,54 +27,25 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ## Léxicos
 
-### Léxico para UC06 (Upload de Documento)
+## #LX01 - Léxico para #UC01 (Exclusão automática de dados de upload)
 
-| ID        | Noção               | Impacto                                                       | Classificação | Dicionário                      | Rastreamento |
-| --------- | ------------------- | ------------------------------------------------------------- | ------------- | ------------------------------- | ------------ |
-| L-UC01-02 | Upload de Documento | Enviar PDF ao DeepSeek para conversão em texto                | Verbo         | Subir arquivo, Enviar documento | UC01         |
-| L-UC01-03 | PDF                 | Arquivo no formato Portable Document Format                   | Objeto        | Documento, Arquivo PDF          | UC01         |
-| L-UC01-05 | Spinner             | Indicador visual de carregamento durante o processamento      | Objeto        | Indicador de progresso          | UC01         |
-| L-UC01-06 | Texto Extraído      | Conteúdo convertido do PDF em texto                           | Objeto        | Conteúdo processado             | UC01         |
-
-<div align="center">
-    Autor: <a href="https://github.com/gaubiela">@Gabriela</a>
-</div>
----
-
-### Léxico para UC07 (Consulta Atualizada via Search na Web)
-
-| ID        | Noção     | Impacto                                                        | Classificação | Dicionário                 | Rastreamento |
-| --------- | --------- | -------------------------------------------------------------- | ------------- | -------------------------- | ------------ |
-| L-UC02-01 | Search    | Módulo que realiza consultas na web sem sair da plataforma     | Sujeito       | Busca web, Pesquisa online | UC02         |
-| L-UC02-02 | Query     | Texto de busca inserido pelo usuário                           | Objeto        | Termo de pesquisa, String  | UC02         |
-| L-UC02-03 | Copy      | Ação de copiar o trecho retornado para a área de transferência | Verbo         | Copiar, Duplicar           | UC02         |
-| L-UC02-04 | Node.js   | Ambiente de execução JavaScript                                | Objeto        | Plataforma Node            | UC02         |
-| L-UC02-05 | Resultado | Trecho retornado pela consulta, contendo versão e data         | Objeto        | Retorno, Resposta          | UC02         |
+| ID       | Noção                    | Impacto                                                                                    | Classificação | Dicionário                      | Rastreamento |
+| -------- | ------------------------ | ------------------------------------------------------------------------------------------ | ------------- | ------------------------------- | ------------ |
+| L-UC01-01 | Excluir automaticamente  | Ação realizada pelo sistema sem interferência do usuário, para apagar arquivos temporários | Verbo         | Apagar, Remover, Limpar         | UC01         |
+| L-UC01-02 | Dados de Upload          | Arquivos enviados pelo usuário para análise ou uso temporário no sistema                   | Objeto        | Arquivos, Documentos, Entradas  | UC01       |
+| L-UC01-03 | Tempo de retenção        | Período durante o qual os dados de upload permanecem armazenados antes da exclusão         | Estado        | Duração, Intervalo, Período     | UC01       |
+| L-UC01-04 | Sessão do Usuário        | Período ativo de uso da aplicação, durante o qual uploads podem ser realizados             | Estado        | Login, Atividade, Sessão        | UC01      |
+| L-UC01-05 | Armazenamento Temporário | Espaço lógico destinado a guardar arquivos que serão automaticamente excluídos             | Objeto        | Cache, Memória transitória      | UC01       |
+| L-UC01-06 | Processo de verificação  | Rotina automatizada que verifica se o tempo de retenção expirou                            | Processo      | Rotina, Monitoramento, Checagem | UC01      |
+| L-UC01-07 | Log de Exclusão          | Registro interno de que o dado foi excluído automaticamente pelo sistema                   | Objeto        | Registro, Histórico de eventos  | UC01     |
 
 <div align="center">
-    Autor: <a href="https://github.com/gaubiela">@Gabriela</a>
-</div>
----
-
-### Léxico para UC08 (Iteração de Resposta com Feedback)
-
-| ID        | Noção      | Impacto                                                                      | Classificação | Dicionário            | Rastreamento |
-| --------- | ---------- | ---------------------------------------------------------------------------- | ------------- | --------------------- | ------------ |
-| L-UC03-02 | Like       | Avaliação positiva que sinaliza satisfação com a resposta                    | Verbo         | Curtir, Aprovar       | UC03         |
-| L-UC03-03 | Dislike    | Avaliação negativa que aciona feedback para nova geração de conteúdo         | Verbo         | Reprovar, Não curtir  | UC03         |
-| L-UC03-04 | Regenerate | Comando que solicita ao sistema gerar novamente o texto com base no feedback | Verbo         | Regenerar, Refazer    | UC03         |
-| L-UC03-05 | Copy       | Ação de copiar a resposta final para a área de transferência                 | Verbo         | Copiar, Duplicar      | UC03         |
-| L-UC03-06 | Feedback   | Comentário do usuário que orienta ajustes na geração de texto                | Objeto        | Avaliação, Comentário | UC03         |
-
-<div align="center">
-    Autor: <a href="https://github.com/gaubiela">@Gabriela</a>
+    Autor: <a href="https://github.com/anajoyceamorim">@Ana Joyce</a>
 </div>
 
 ---
 
-### Léxico para UC02 (Integração com Plataformas Externas) - (#RF37)
-
-
+## #LX02 -Léxico para #UC02 (Integração com Plataformas Externas) - (#RF37)
 
 | ID          | Noção                         | Impacto                                                                                  | Classificação |  Dicionário |Rastreamento                            |
 |-------------|-------------------------------|-------------------------------------------------------------------------------------------|----------------|------------ |----------------------------------------|
@@ -90,9 +61,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 
 ---
-### Léxico para UC03 (Integração com Voz) - (#RF34)
 
-
+## #LX03 - Léxico para #UC03 (Integração com Voz) - (#RF34)
 
 | ID        | Noção              | Impacto                                                                 | Classificação | Dicionário                      | Rastreamento |
 |-----------|--------------------|--------------------------------------------------------------------------|----------------|----------------------------------|---------------|
@@ -101,13 +71,93 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | L-UC03-03 | Reconhecimento     | Processo de identificar o que foi dito pelo usuário.                     | Objeto         | Reconhecimento de fala           | UC03          |
 | L-UC03-04 | Responder          | Ato de gerar uma resposta falada ao usuário.                             | Verbo          | Falar, Responder em voz          | UC03          |
 | L-UC03-05 | Acessibilidade     | Melhoria na usabilidade para pessoas com dificuldades de digitação.      | Objeto         | Inclusão, Usabilidade            | UC03          |
+
 <div align="center">
     Autor: <a href="https://github.com/daviRolvr">@Davi Emanuel</a>
 </div>
 
 ---
 
-### Léxico para UC04 (Uso da função Pensamento Profundo)
+## #LX04 - Léxico para #UC04 (Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek)
+
+| ID        | Noção                  | Impacto                                                                                           | Classificação | Dicionário                                 | Rastreamento |
+| --------- | ---------------------- | ------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------ | ------------ |
+| L-UC04-01 | Modelo de IA           | Versão específica de um sistema de inteligência artificial com características distintas.        | Objeto        | R1, R2, R3, versão, instância              | UC04        |
+| L-UC04-02 | Selecionar             | Ação de escolher um modelo de IA dentre as opções disponíveis no DeepSeek.                       | Verbo         | Escolher, trocar, alterar, definir         | UC04         |
+| L-UC04-03 | Resposta da IA         | Conteúdo gerado pelo modelo de IA com base em uma entrada do usuário.                           | Objeto        | Texto, saída, solução, análise             | UC04         |
+| L-UC04-04 | Comparar respostas     | Ato de analisar diferentes saídas fornecidas pelos modelos para uma mesma pergunta.              | Verbo         | Avaliar, analisar, cotejar, contrastar     | UC04        |
+| L-UC04-05 | Experiência de uso     | Vivência do usuário ao interagir com a IA, influenciada pela escolha do modelo.                 | Estado        | Satisfação, controle, fluidez              | UC04         |
+
+<div align="center">
+    Autor: <a href="https://github.com/fabinsz">@Fabio</a>
+</div>
+
+---
+
+## #LX05 - Léxico para #UC05 (Acessar configurações para alterar o tema do Sistema)
+
+| ID        | Noção                           | Impacto                                                                                                                                          | Classificação | Dicionário                                    | Rastreamento                        |
+|-----------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------|-------------------------------------|
+| L-UC05-01 | Tema do Sistema                  | Influencia diretamente a experiência visual, conforto de uso e acessibilidade. Pode impactar também o desempenho em dispositivos com economia de energia. | Estado        | aparência, esquema de cores, layout visual, modo visual | UC05                 |
+| L-UC05-02 | Configurações                    | Permite ao usuário adaptar a ferramenta às suas necessidades e preferências, promovendo usabilidade e satisfação.                                 | Objeto        | ajustes, preferências, opções do sistema | UC05        |
+| L-UC05-03 | Alterar Tema                     | Garante acessibilidade e conforto visual, além de alinhar a aparência do sistema às preferências do usuário.                                     | Verbo         | mudar visual, trocar modo de exibição, personalizar interface | UC05                 |
+
+<div align="center">
+    Autor: <a href="https://github.com/fabinsz">@Fabio</a>
+</div>
+
+---
+
+## #LX06 - Léxico para #UC06 (Upload de Documento)
+
+| ID        | Noção               | Impacto                                                       | Classificação | Dicionário                      | Rastreamento |
+| --------- | ------------------- | ------------------------------------------------------------- | ------------- | ------------------------------- | ------------ |
+| L-UC01-02 | Upload de Documento | Enviar PDF ao DeepSeek para conversão em texto                | Verbo         | Subir arquivo, Enviar documento | UC01         |
+| L-UC01-03 | PDF                 | Arquivo no formato Portable Document Format                   | Objeto        | Documento, Arquivo PDF          | UC01         |
+| L-UC01-05 | Spinner             | Indicador visual de carregamento durante o processamento      | Objeto        | Indicador de progresso          | UC01         |
+| L-UC01-06 | Texto Extraído      | Conteúdo convertido do PDF em texto                           | Objeto        | Conteúdo processado             | UC01         |
+
+<div align="center">
+    Autor: <a href="https://github.com/gaubiela">@Gabriela</a>
+</div>
+
+---
+
+## #LX07 - Léxico para #UC07 (Consulta Atualizada via Search na Web)
+
+| ID        | Noção     | Impacto                                                        | Classificação | Dicionário                 | Rastreamento |
+| --------- | --------- | -------------------------------------------------------------- | ------------- | -------------------------- | ------------ |
+| L-UC02-01 | Search    | Módulo que realiza consultas na web sem sair da plataforma     | Sujeito       | Busca web, Pesquisa online | UC02         |
+| L-UC02-02 | Query     | Texto de busca inserido pelo usuário                           | Objeto        | Termo de pesquisa, String  | UC02         |
+| L-UC02-03 | Copy      | Ação de copiar o trecho retornado para a área de transferência | Verbo         | Copiar, Duplicar           | UC02         |
+| L-UC02-04 | Node.js   | Ambiente de execução JavaScript                                | Objeto        | Plataforma Node            | UC02         |
+| L-UC02-05 | Resultado | Trecho retornado pela consulta, contendo versão e data         | Objeto        | Retorno, Resposta          | UC02         |
+
+--
+
+<div align="center">
+    Autor: <a href="https://github.com/gaubiela">@Gabriela</a>
+</div>
+
+---
+
+## #LX08 - Léxico para #UC08 (Iteração de Resposta com Feedback)
+
+| ID        | Noção      | Impacto                                                                      | Classificação | Dicionário            | Rastreamento |
+| --------- | ---------- | ---------------------------------------------------------------------------- | ------------- | --------------------- | ------------ |
+| L-UC03-02 | Like       | Avaliação positiva que sinaliza satisfação com a resposta                    | Verbo         | Curtir, Aprovar       | UC03         |
+| L-UC03-03 | Dislike    | Avaliação negativa que aciona feedback para nova geração de conteúdo         | Verbo         | Reprovar, Não curtir  | UC03         |
+| L-UC03-04 | Regenerate | Comando que solicita ao sistema gerar novamente o texto com base no feedback | Verbo         | Regenerar, Refazer    | UC03         |
+| L-UC03-05 | Copy       | Ação de copiar a resposta final para a área de transferência                 | Verbo         | Copiar, Duplicar      | UC03         |
+| L-UC03-06 | Feedback   | Comentário do usuário que orienta ajustes na geração de texto                | Objeto        | Avaliação, Comentário | UC03         |
+
+<div align="center">
+    Autor: <a href="https://github.com/gaubiela">@Gabriela</a>
+</div>
+
+---
+
+## #LX09 - Léxico para #UC09 (Uso da função Pensamento Profundo)
 
 | ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
 | --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
@@ -120,9 +170,10 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
 </div>
+
 ---
 
-### Léxico para UC05 (Cancelamento de mensagem que está sendo gerada pela IA )
+## #LX10 - Léxico para #UC10 (Cancelamento de mensagem que está sendo gerada pela IA)
 
 | ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
 | --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
@@ -134,9 +185,10 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
 </div>
+
 ---
 
-### Léxico para UC06 (Visualização do status do servidor em tempo real)
+## #LX11 - Léxico para #UC11 (Visualização do status do servidor em tempo real)
 
 | ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
 | --------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------ | ------------ |
@@ -144,12 +196,13 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | L-UC06-02 | Status do servidor                   | Informação em tempo real que indica o estado atual do servidor. | Objeto        | Situação do servidor, condição do servidor                      | UC06         |
 | L-UC06-03 | Servidor em manutenção  | Estado em que o servidor está indisponível para ser utilizado pelo usuário para que ele interaja com a IA.   | Estado         | Indisponível, em reparo, offline              | UC06         |
 | L-UC06-04 | Servidor funcionando normalmente      | Estado em que o servidor está disponível para ser utilizado pelo usuário para que ele interaja com a IA.                                                                       | Estado       | Online, disponível           | UC06         |
+
 <div align="center">
     Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
 </div>
 ---
 
-### Léxico para UC12 (Tutorial Interativo)
+### LX12 - Léxico para #UC12 (Tutorial Interativo)
 
 | ID         | Noção                                            | Impacto                                                                 | Classificação | Dicionário                | Rastreamento |
 |------------|--------------------------------------------------|------------------------------------------------------------------------|---------------|---------------------------|--------------|
@@ -165,7 +218,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
-### Léxico para UC13 (Exclusão do histórico de conversas)
+## #LX13 - Léxico para #UC13 (Exclusão do histórico de conversas)
 
 | ID         | Noção                                            | Impacto                                                                 | Classificação | Dicionário                | Rastreamento |
 |------------|--------------------------------------------------|------------------------------------------------------------------------|---------------|---------------------------|--------------|
@@ -182,52 +235,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 ---
 
-### Léxico para UC05 (Acessar configurações para alterar o tema do Sistema)
-
-| ID        | Noção                           | Impacto                                                                                                                                          | Classificação | Dicionário                                    | Rastreamento                        |
-|-----------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------|-------------------------------------|
-| L-UC05-01 | Tema do Sistema                  | Influencia diretamente a experiência visual, conforto de uso e acessibilidade. Pode impactar também o desempenho em dispositivos com economia de energia. | Estado        | aparência, esquema de cores, layout visual, modo visual | UC05                 |
-| L-UC05-02 | Configurações                    | Permite ao usuário adaptar a ferramenta às suas necessidades e preferências, promovendo usabilidade e satisfação.                                 | Objeto        | ajustes, preferências, opções do sistema | UC05        |
-| L-UC05-03 | Alterar Tema                     | Garante acessibilidade e conforto visual, além de alinhar a aparência do sistema às preferências do usuário.                                     | Verbo         | mudar visual, trocar modo de exibição, personalizar interface | UC05                 |
-
-
-<div align="center">
-    Autor: <a href="https://github.com/fabinsz">@Fabio</a>
-</div>
----
-
-## Léxico para UC04 (Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek)
-
-| ID        | Noção                  | Impacto                                                                                           | Classificação | Dicionário                                 | Rastreamento |
-| --------- | ---------------------- | ------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------ | ------------ |
-| L-UC04-01 | Modelo de IA           | Versão específica de um sistema de inteligência artificial com características distintas.        | Objeto        | R1, R2, R3, versão, instância              | UC04        |
-| L-UC04-02 | Selecionar             | Ação de escolher um modelo de IA dentre as opções disponíveis no DeepSeek.                       | Verbo         | Escolher, trocar, alterar, definir         | UC04         |
-| L-UC04-03 | Resposta da IA         | Conteúdo gerado pelo modelo de IA com base em uma entrada do usuário.                           | Objeto        | Texto, saída, solução, análise             | UC04         |
-| L-UC04-04 | Comparar respostas     | Ato de analisar diferentes saídas fornecidas pelos modelos para uma mesma pergunta.              | Verbo         | Avaliar, analisar, cotejar, contrastar     | UC04        |
-| L-UC04-05 | Experiência de uso     | Vivência do usuário ao interagir com a IA, influenciada pela escolha do modelo.                 | Estado        | Satisfação, controle, fluidez              | UC04         |
-
-<div align="center">
-    Autor: <a href="https://github.com/fabinsz">@Fabio</a>
-</div>
----
-
-### Léxico para UC01 (Exclusão automática de dados de upload)
-
-| ID       | Noção                    | Impacto                                                                                    | Classificação | Dicionário                      | Rastreamento |
-| -------- | ------------------------ | ------------------------------------------------------------------------------------------ | ------------- | ------------------------------- | ------------ |
-| L-UC01-01 | Excluir automaticamente  | Ação realizada pelo sistema sem interferência do usuário, para apagar arquivos temporários | Verbo         | Apagar, Remover, Limpar         | UC01         |
-| L-UC01-02 | Dados de Upload          | Arquivos enviados pelo usuário para análise ou uso temporário no sistema                   | Objeto        | Arquivos, Documentos, Entradas  | UC01       |
-| L-UC01-03 | Tempo de retenção        | Período durante o qual os dados de upload permanecem armazenados antes da exclusão         | Estado        | Duração, Intervalo, Período     | UC01       |
-| L-UC01-04 | Sessão do Usuário        | Período ativo de uso da aplicação, durante o qual uploads podem ser realizados             | Estado        | Login, Atividade, Sessão        | UC01      |
-| L-UC01-05 | Armazenamento Temporário | Espaço lógico destinado a guardar arquivos que serão automaticamente excluídos             | Objeto        | Cache, Memória transitória      | UC01       |
-| L-UC01-06 | Processo de verificação  | Rotina automatizada que verifica se o tempo de retenção expirou                            | Processo      | Rotina, Monitoramento, Checagem | UC01      |
-| L-UC01-07 | Log de Exclusão          | Registro interno de que o dado foi excluído automaticamente pelo sistema                   | Objeto        | Registro, Histórico de eventos  | UC01     |
-
-<div align="center">
-    Autor: <a href="https://github.com/anajoyceamorim">@Ana Joyce</a>
-</div>
-
-### Léxico para UC14 (Resumo de Vídeos do YouTube)
+## #LX14 - Léxico para #UC14 (Resumo de Vídeos do YouTube)
 
 | ID        | Noção                 | Impacto                                                       | Classificação | Dicionário                      | Rastreamento |
 | --------- | --------------------- | ------------------------------------------------------------- | ------------- | ------------------------------- | ------------ |
@@ -277,3 +285,4 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 18/05/2025 |  1.6   | (#LX01) Adição de conteúdo desenvolvido.  | [@Ana Borges](https://github.com/anabborges)   | [Davi Emanuel@](https://github.com/daviRolvr) |
 | 18/05/2025 |  1.7  | (#LX01) Adição de conteúdo desenvolvido. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Luiz](https://github.com/luizfaria1989) |
 | 18/05/2025 |  1.8  | (#LX01) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos léxicos e sua associação com caso de uso. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
+| 05/06/2025 |  2.0  | (#LX01) Adição dos ids para os léxicos desenvolvidos. | [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
