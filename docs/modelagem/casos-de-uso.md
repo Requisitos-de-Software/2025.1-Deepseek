@@ -12,7 +12,21 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 
 * [Link para o diagrama UML](https://lucid.app/lucidchart/410dc733-3efb-402b-84da-275d5d27d77b/edit?viewport_loc=-1735%2C-664%2C2778%2C1869%2C0_0&invitationId=inv_fb93f228-b92d-4633-a8cf-5a1409a3fdd0)
 
+## Tabela de Contribuições
+
+| Contribuinte | Descrição                                                            | Links                                           |
+|--------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Ana Joyce     | Criação dos casos de uso #UC01 | [#UC01](#uc01) |
+| Davi     | Criação dos casos de uso #UC02, #UC03 | [#UC02](#uc02) · [#UC03](#uc03)|
+| Fábio     | Criação dos casos de uso #UC04, #UC05 | [#UC04](#uc04) · [#UC05](#uc05)|
+| Gabriela     | Criação dos casos de uso #UC06, #UC07, #UC08 | [#UC06](#uc06) · [#UC07](#uc07) · [#UC08](#uc08) |
+| Luiz     | Criação dos casos de uso #UC09, #UC10, #UC11 | [#UC09](#uc09) · [#UC10](#uc10) · [#UC11](#uc11) |
+| Ana Clara     | Criação dos casos de uso #UC12, #UC13 | [#UC12](#uc12) · [#UC13](#uc13) |
+| Mateus     | Criação dos casos de uso #UC14 | [#UC14](#uc14)|
+
 ## Casos de Uso Modelados:
+
+<a id="uc01"></a>
 
 ## [#UC01] -  Exclusão automática de dados de upload
 **Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
@@ -30,6 +44,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Data de Criação   | 18/05/2025        |
 | Rastreabilidade   | #RN04 — Exclusão automática de dados de upload #RIN11 — Requisito relacionado à segurança de dados   |
 
+<a id="uc02"></a>
+
 ## [#UC02] - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
 **Autor:** [Davi Emanuel](https://github.com/daviRolvr)
 
@@ -45,6 +61,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Pós-condições     | O DeepSeek pode acessar dados autorizados das plataformas externas para enriquecer as respostas ou contexto do usuário.                    |
 | Data de Criação   | 17/05/2025                                                                                                     |
 | Rastreabilidade   | #RF37     |
+
+<a id="uc03"></a>
 
 ## [#UC03] - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.
 **Autor:** [Davi Emanuel](https://github.com/daviRolvr)
@@ -62,6 +80,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Data de Criação   | 17/05/2025                                                                                                     |
 | Rastreabilidade   | #RF14     |
 
+<a id="uc04"></a>
+
 ## [#UC04] - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek
 **Autor:** [Fabio](https://github.com/fabinsz)
 
@@ -78,6 +98,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | **Data de Criação**   | 17/05/2025                                                                                                                       |
 | **Rastreabilidade**   | #RF32   
 
+<a id="uc05"></a>
+
 ## [#UC05] - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.
 
 **Autor:** [Fabio](https://github.com/fabinsz)
@@ -93,7 +115,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | **Fluxo de exceção** | <ul><li>Lucas tenta acessar “Configurações”</br><ul><li>A página demora para carregar ou apresenta erro</br><ul><li>DeepSeek exibe mensagem: “Erro ao carregar configurações”</br><ul><li>Lucas recarrega a página e tenta novamente</li></ul></li></ul></li></ul></li></ul> |
 | **Pós-condições**   | O sistema permanece com o tema selecionado até nova alteração. A preferência visual do usuário foi respeitada.                                                   |
 | **Data de Criação** | 17/05/2025                                                                                                                                                       |
-| **Rastreabilidade** | #RF27                                                                                                                |
+| **Rastreabilidade** | #RF27                                                                  
+<a id="uc06"></a>                                              |
 
 ## [#UC06] - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.
 **Autor:** [Gabriela](https://github.com/gaubiela)
@@ -111,6 +134,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Data de Criação   | 10/05/2025                                                                                                     |
 | Rastreabilidade   | #RF03, #RN06, #RN08                                                                                            |
 
+<a id="uc07"></a>
+
 ## [#UC07] - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
@@ -126,6 +151,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Pós-condições     | Versão documentada no repositório; critério de agilidade validado                                             |
 | Data de Criação   | 10/05/2025                                                                                                     |
 | Rastreabilidade   | #RF01, #RF13                                                                                                   |
+
+<a id="uc08"></a>
 
 ## [#UC08] - Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão.
 **Autor:** [Gabriela](https://github.com/gaubiela)
@@ -143,6 +170,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Data de Criação   | 10/05/2025                                                                                                     |
 | Rastreabilidade   | #RF11, #RF12, #RF13, #RF17                                                                                     |
 
+<a id="uc09"></a>
+
 ## [#UC09] - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek
 **Autor:** [Luiz](https://github.com/luizfari1989)
 
@@ -158,6 +187,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Pós-condições     | Texto completo disponível com equações além do fluxo de consciência da IA                  |
 | Data de Criação   | 11/05/2025                                                                                                     |
 | Rastreabilidade   | #RF02, #RN07  
+
+<a id="uc10"></a>
 
 ## [#UC10] - Permite que o usuário cancele uma mensagem em andamento da IA no chat
 **Autor:** [Luiz](https://github.com/luizfari1989)
@@ -175,6 +206,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Data de Criação   | 16/05/2025                                                                                                     |
 | Rastreabilidade   | #RF19
 
+<a id="uc11"></a>
+
 ## [#UC11] - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA
 **Autor:** [Luiz](https://github.com/luizfari1989)
 
@@ -190,6 +223,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Pós-condições     | O usuário visualiza a mensagem em tempo real do status do servidor                 |
 | Data de Criação   | 16/05/2025                                                                                                     |
 | Rastreabilidade   | #RF29                                                                                       |
+
+<a id="uc12"></a>
 
 ## [#UC12] - Permite que o usuário entenda o funcionamento da plataforma a partir de um tutorial interativo
 **Autor:** [Ana Clara](https://github.com/anabborges)
@@ -207,6 +242,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Data de Criação   | 15/05/2025                                                                                      |
 | Rastreabilidade   | #RF28                                                                                       |
 
+<a id="uc13"></a>
+
 ## [#UC13] - Permite que o usuário apague o histórico de conversas, a partir de uma confirmação
 **Autor:** [Ana Clara](https://github.com/anabborges)
 
@@ -222,6 +259,8 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | Pós-condições     | Histórico apagado.  |
 | Data de Criação   | 15/05/2025                                                                                         |
 | Rastreabilidade   | #RF22                                                                                      |
+
+<a id="uc14"></a>
 
 ## [#UC14] - Resumir vídeos do YouTube a partir de links inseridos no chat do DeepSeek.
 **Autor:** [Mateus](https://github.com/MVConsorte)
@@ -258,3 +297,4 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | 18/05/2025 |  1.7  | (#UC01-02-03) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos casos de uso.| [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
 | 18/05/2025 |  1.8  | (#UC02) Adição do diagrama de casos de uso| [@Luiz](https://github.com/luizfaria1989)  | [@Gabriela](https://github.com/gaubiela)  |
 | 05/06/2025 |  2.0  | (#UC02) Adição dos ids para os casos de uso criados| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
+| 06/06/2025 |  2.1  | (#UC02) Adição da tabela de contribuições e dos hiberlinks para os casos de uso desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
