@@ -16,6 +16,20 @@ A finalidade deste artefato é definir, de forma clara e estruturada, requisitos
 
 ---
 
+## Tabela de Contribuições
+
+| Contribuinte | Descrição                                                            | Links                                           |
+|--------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Davi     | Classifição dos requisitos de design e implementação | [#ES01](#es01) · [#ES02](#es02)|
+| Ana Joyce     | Classificação dos requisitos de funcionalidade | [#ES03](#es03) |
+| Ana Clara     | Classificação dos requisitos de confiabilidade e usabilidade | [#ES04](#es04) · [#ES05](#es05) |
+| Luiz     | Classificação dos requisitos de desempenho e suportabilidade | [#ES06](#es06) · [#ES07](#es07) |
+| Fábio     | Classificação dos requisitos de sistema de ajuda e de documentação de usuário on-line | [#ES08](#es08) |
+
+---
+
+<a id="metodologia"></a>
+
 ## Metodologia
 
 **Autor: [Ana Joyce](https://github.com/anajoyceamorim)**
@@ -37,6 +51,8 @@ Essa metodologia busca garantir que todos os aspectos essenciais ao desenvolvime
 
 ---
 
+<a id="es01"></a>
+
 ## #ES01 - Design 
 
 **Autor: [Davi Emanuel](https://github.com/daviRolvr)**
@@ -57,6 +73,8 @@ Para essa categoria os requisitos identificados estão representados na tabela 1
 | RN13     |Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras. |
 | RN14    | Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras.   |
 | RN15    |Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras.  |
+
+<a id="es02"></a>
 
 ## #ES02 - Implementação
 
@@ -86,7 +104,9 @@ Para essa categoria os requisitos identificados estão representados na tabela 2
 | RN04   |Deve possuir a opção de login com conta Google/Apple ID.    |           
 | RF17     |Deve ser possível regenar uma resposta da IA de forma manual ou de forma automática no caso de erro de servidor ou sobrecargado sistema.|
 
+---
 
+<a id="es03"></a>
 
 ## #ES03 - Funcionalidade
 
@@ -309,6 +329,8 @@ A especificação complementar detalha os aspectos de qualidade, técnicos e res
 
 ---
 
+<a id="es04"></a>
+
 ## #ES04 - Usabilidade
 
 Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, ou seja, que se referem a forma de o usuário interagir com o sistema.
@@ -344,7 +366,9 @@ Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, 
 
 ---
 
-## Confiabilidade
+<a id="es05"></a>
+
+## #ES05 - Confiabilidade
 
 Nessa seção são citados os requisitos referentes à confiabilidade do sistema.
 
@@ -374,7 +398,9 @@ Nessa seção são citados os requisitos referentes à confiabilidade do sistema
 
 ---
 
-## #ES05 - Desempenho
+<a id="es06"></a>
+
+## #ES06 - Desempenho
 
 **Autor: [Luiz](https://github.com/luizfaria1989)**
 
@@ -391,8 +417,11 @@ Para essa categoria os requisitos identificados estão representados na tabela 6
 |  #UC06  |   #RN08    | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤ 10 s e o tempo médio de resposta ≤ 2 s em operações simples |
 |  #UC06  |   #RF29    | Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga) |
 
+---
 
-## #ES06 - Suportabilidade
+<a id="es07"></a>
+
+## #ES07 - Suportabilidade
 
 **Autor: [Luiz](https://github.com/luizfaria1989)**
 
@@ -410,7 +439,11 @@ Para essa categoria os requisitos identificados estão representados na tabela 7
 ||   #RF21    | Deve aceitar autenticação via token de acesso |
 ||   #RF37    | Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas |
 
-## #ES07 - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
+---
+
+<a id="es08"></a>
+
+## #ES08 - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
 **Autor: [Fabio](https://github.com/fabinsz)**
 
@@ -448,3 +481,4 @@ Para essa categoria os requisitos identificados estão representados na tabela 8
 | 18/05/2025 |  1.6  | (#ES02) Adição de metodologia e funcionalidade. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Gabriela](https://github.com/gaubiela) |
 | 18/05/2025 |  1.7 | (#ES02)Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989), [@Gabriela](https://github.com/gaubiela),[@Davi Emanuel](https://github.com/daviRolvr) |
 | 05/06/2025 |  2.0 | (#ES02) Adição dos ids para as tabelas da especificação suplementar. | [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
+| 06/06/2025 |  2.1  | (#ES02) Adição da tabela de contribuições e dos hiberlinks para as tabelas de especificação suplementar desenvolvidas.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
