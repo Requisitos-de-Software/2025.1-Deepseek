@@ -25,7 +25,21 @@ Adotaremos um padrão uniforme para cada entrada do léxico, composto pelos segu
 
 Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma consistente, permitindo fácil reconhecimento e entendimento por todos os membros da equipe.
 
+## Tabela de Contribuições
+
+| Contribuinte | Descrição                                                            | Links                                           |
+|--------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Ana Joyce     | Criação dos léxicos #LX01 | [#LX01](#lx01) |
+| Davi     | Criação dos léxicos #LX02, #LX03 | [#LX02](#lx02) · [#LX03](#lx03)|
+| Fábio     | Criação dos léxicos #LX04, #LX05 | [#LX04](#lx04) · [#LX05](#lx05)|
+| Gabriela     | Criação dos léxicos #LX06, #LX07, #LX08 | [#LX06](#lx06) · [#LX07](#lx07) · [#LX08](#lx08) |
+| Luiz     | Criação dos léxicos #LX09, #LX10, #LX11 | [#LX09](#lx09) · [#LX10](#lx10) · [#LX11](#lx11) |
+| Ana Clara     | Criação dos léxicos #LX12, #LX13 | [#LX12](#lx12) · [#LX13](#lx13) |
+| Mateus     | Criação dos léxicos #LX14 | [#LX14](#lx14)|
+
 ## Léxicos
+
+<a id="lx01"></a>
 
 ## #LX01 - Léxico para #UC01 (Exclusão automática de dados de upload)
 
@@ -45,6 +59,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ---
 
+<a id="lx02"></a>
+
 ## #LX02 -Léxico para #UC02 (Integração com Plataformas Externas) - (#RF37)
 
 | ID          | Noção                         | Impacto                                                                                  | Classificação |  Dicionário |Rastreamento                            |
@@ -62,6 +78,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ---
 
+<a id="lx03"></a>
+
 ## #LX03 - Léxico para #UC03 (Integração com Voz) - (#RF34)
 
 | ID        | Noção              | Impacto                                                                 | Classificação | Dicionário                      | Rastreamento |
@@ -77,6 +95,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 
 ---
+
+<a id="lx04"></a>
 
 ## #LX04 - Léxico para #UC04 (Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek)
 
@@ -94,6 +114,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ---
 
+<a id="lx05"></a>
+
 ## #LX05 - Léxico para #UC05 (Acessar configurações para alterar o tema do Sistema)
 
 | ID        | Noção                           | Impacto                                                                                                                                          | Classificação | Dicionário                                    | Rastreamento                        |
@@ -107,6 +129,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 
 ---
+
+<a id="lx06"></a>
 
 ## #LX06 - Léxico para #UC06 (Upload de Documento)
 
@@ -122,6 +146,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 
 ---
+
+<a id="lx07"></a>
 
 ## #LX07 - Léxico para #UC07 (Consulta Atualizada via Search na Web)
 
@@ -141,6 +167,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ---
 
+<a id="lx08"></a>
+
 ## #LX08 - Léxico para #UC08 (Iteração de Resposta com Feedback)
 
 | ID        | Noção      | Impacto                                                                      | Classificação | Dicionário            | Rastreamento |
@@ -156,6 +184,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 </div>
 
 ---
+
+<a id="lx09"></a>
 
 ## #LX09 - Léxico para #UC09 (Uso da função Pensamento Profundo)
 
@@ -173,6 +203,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ---
 
+<a id="lx10"></a>
+
 ## #LX10 - Léxico para #UC10 (Cancelamento de mensagem que está sendo gerada pela IA)
 
 | ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
@@ -188,6 +220,8 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ---
 
+<a id="lx11"></a>
+
 ## #LX11 - Léxico para #UC11 (Visualização do status do servidor em tempo real)
 
 | ID        | Noção                     | Impacto                                                                                                                                       | Classificação | Dicionário                     | Rastreamento |
@@ -200,9 +234,12 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/Luizfaria1989">@Luiz</a>
 </div>
+
 ---
 
-### LX12 - Léxico para #UC12 (Tutorial Interativo)
+<a id="lx12"></a>
+
+## #LX12 - Léxico para #UC12 (Tutorial Interativo)
 
 | ID         | Noção                                            | Impacto                                                                 | Classificação | Dicionário                | Rastreamento |
 |------------|--------------------------------------------------|------------------------------------------------------------------------|---------------|---------------------------|--------------|
@@ -216,7 +253,10 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/anabborges">@Ana Clara</a>
 </div>
+
 ---
+
+<a id="lx13"></a>
 
 ## #LX13 - Léxico para #UC13 (Exclusão do histórico de conversas)
 
@@ -233,7 +273,10 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 <div align="center">
     Autor: <a href="https://github.com/anabborges">@Ana Clara</a>
 </div>
+
 ---
+
+<a id="lx14"></a>
 
 ## #LX14 - Léxico para #UC14 (Resumo de Vídeos do YouTube)
 
@@ -286,3 +329,4 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 18/05/2025 |  1.7  | (#LX01) Adição de conteúdo desenvolvido. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Luiz](https://github.com/luizfaria1989) |
 | 18/05/2025 |  1.8  | (#LX01) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos léxicos e sua associação com caso de uso. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
 | 05/06/2025 |  2.0  | (#LX01) Adição dos ids para os léxicos desenvolvidos. | [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
+| 06/06/2025 |  2.1  | (#LX01) Adição da tabela de contribuições e dos hiberlinks para as tabelas de léxicos desenvolvidas.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
