@@ -43,6 +43,165 @@ Autor: Luiz
 
 Nesse tópico são apresentadas as tabelas referentes aos elos dos artefatos analisados ao longo do projeto. Assim, cada um dos 52 requisitos elicitados possuem uma tabela semelhante ao template da Tabela 1, com seus artefatos relacionados.
 
+<a id="rf01"></a>
+## #RF01 - Deve oferecer a possibilidade do usuário acionar a pesquisa na web
+
+<a id="rf02"></a>
+## #RF02 - Deve haver a possibilidade de uso do pensamento profundo para solução de problemas (Deep Thinking)
+
+<a id="rf03"></a>
+## #RF03 - O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s
+
+<a id="rf04"></a>
+## #RF04 - Deve possuir a opção de login com conta Google/Apple ID
+
+<a id="rf05"></a>
+## #RF05 - Deve salvar chats entre plataformas
+
+<a id="rf06"></a>
+## #RF06 - Melhorar as capacidades de "deep thinking"
+
+<a id="rf07"></a>
+## #RF07 - Deve haver um campo para a interação com a IA
+
+<a id="rf08"></a>
+## #RF08 - Deve ser possível criar novos chats
+
+<a id="rf09"></a>
+## #RF09 - Deve ser possível renomear um chat
+
+<a id="rf10"></a>
+## #RF10 - Os chats já utilizados devem poder ser acessados posteriormente
+
+<a id="rf11"></a>
+## #RF11 - Deve ser possível dar dislike em uma resposta da IA
+
+<a id="rf12"></a>
+## #RF12 - Deve ser possível dar like em uma resposta da IA
+
+<a id="rf13"></a>
+## #RF13 - Deve ser possível copiar uma resposta da IA
+
+<a id="rf14"></a>
+## #RF14 - Deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando página, site e/ou trecho extraído 
+
+<a id="rf15"></a>
+## #RF15 - Deve ser possível alterar o idioma do sistema
+
+<a id="rf16"></a>
+## #RF16 - Deve ser possível apagar conversas individuais ou de forma geral
+
+<a id="rf17"></a>
+## #RF17 - Deve ser possível regenerar uma resposta da IA de forma manual ou automática em caso de erro de servidor ou sobrecarga
+
+<a id="rf18"></a>
+## #RF18 - O sistema deve exibir respostas formatadas em Markdown em tabelas ou listas complexas, com possibilidade de edição pelo usuário
+
+<a id="rf19"></a>
+## #RF19 - Deve ser possível interromper respostas em andamento
+
+<a id="rf20"></a>
+## #RF20 - Deve possuir uma API pública
+
+<a id="rf21"></a>
+## #RF21 - Deve aceitar autenticação via token de acesso
+
+<a id="rf22"></a>
+## #RF22 - Deve haver uma confirmação para limpar o histórico
+
+<a id="rf23"></a>
+## #RF23 - Deve suportar busca incremental (exibição de sugestões em tempo real conforme o usuário digita)
+
+<a id="rf24"></a>
+## #RF24 - Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256)
+
+<a id="rf25"></a>
+## #RF25 - O usuário deve poder controlar quais dados são compartilhados (chat, histórico de buscas, localização)
+
+<a id="rf26"></a>
+## #RF26 - Deve haver autenticação multifator opcional para acesso a funcionalidades avançadas
+
+<a id="rf27"></a>
+## #RF27 - Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO
+
+<a id="rf28"></a>
+## #RF28 - Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades
+
+<a id="rf29"></a>
+## #RF29 - Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga)
+
+<a id="rf30"></a>
+## #RF30 - Melhorar retenção de contexto em diálogos longos
+
+<a id="rf31"></a>
+## #RF31 - Implementar memória de contexto persistente entre conversas
+
+<a id="rf32"></a>
+## #RF32 - Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)
+
+<a id="rf33"></a>
+## #RF33 - Permitir organização de conversas em pastas ou listas por tema ou projeto
+
+<a id="rf34"></a>
+## #RF34 - Implementar comandos de voz para entrada e saída de informações
+
+<a id="rf35"></a>
+## #RF34 - Implementar comandos de voz para entrada e saída de informações
+
+<a id="rf36"></a>
+## #RF36 - Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR
+
+<a id="rf37"></a>
+## #RF37 - Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
+
+<a id="rf38"></a>
+## #RF38 - Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização)
+
+<a id="rn01"></a>
+## #RN01 - Deve fazer o uso da arquitetura DeepSeek-V3
+
+<a id="rn02"></a>
+## #RN02 - Deve possuir versões para Android e IOS
+
+<a id="rn03"></a>
+## #RN03 - Deve guardar um histórico de conversas por 30 dias (não persistente se o usuário sair sem salvar)
+
+<a id="rn04"></a>
+## #RN04 - Deve fazer a exclusão automática de dados de upload
+
+<a id="rn05"></a>
+## #RN05 - A interface deve seguir diretrizes de usabilidade e acessibilidade
+
+<a id="rn06"></a>
+## #RN06 - Em caso de falha, deve retornar mensagens de erro claras	
+
+<a id="rn07"></a>
+## #RN07 - O sistema deve suportar múltiplas requisições simultâneas sem degradação
+
+<a id="rn08"></a>
+## #RN08 - O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤ 10 s e o tempo médio de resposta ≤ 2 s em operações simples
+
+<a id="rn09"></a>
+## #RN09 - Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados
+
+<a id="rn10"></a>
+## #RN10 - Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+
+<a id="rn11"></a>
+## #RN11 - Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+
+<a id="rn12"></a>
+## #RN12 - Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
+
+<a id="rn13"></a>
+## #RN13 - Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras
+
+<a id="rn14"></a>
+## #RN14 - Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras	
+
+<a id="rn15"></a>
+## #RN15 - Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras
+
 # Referências Bibliográficas
 
 > <a id="REF1" href="#anchor_1">1.</a> SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005, p. 9.  Disponível em: https://www-di.inf.puc-rio.br/~julio/rastre.pdf. Acesso em: 07/06/2025.[`Foto da referência`](../images/pos-rastreabilidade/definicao-meta-modelo-toranzo.png)
@@ -57,3 +216,4 @@ Nesse tópico são apresentadas as tabelas referentes aos elos dos artefatos ana
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 07/06/2025 |  1.0   | (#PR01) Criação do documento de pós-rastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
 | 07/06/2025 |  1.1   | (#PR01) Elaboração da introdução, meotodologia e do template de representação dos elos.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
+| 07/06/2025 |  1.2   | (#PR01) Adição dos requisitos do projeto e seus hiperlinks.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
