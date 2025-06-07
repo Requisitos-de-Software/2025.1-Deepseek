@@ -23,28 +23,10 @@ Para o formato da matriz de rastreabilidade será utilizado o mesmo formato do r
 
 # Matriz Geral
 
-Assim, é possível criar a matriz de rastreabilidade representada pela Tabela 1. Em que:
-
-- **#RFXX**: representa um requisito funcional;
-- **RNXX**: Representa um requisito não funcional;
-- **RDFXXX**: Representa um requisito funcional elicitado com a técnica de [análise de documentos](../elicitacao/analise-de-documentos.md);
-- **RDNXXX**: Representa um requisito não funcional elicitado com a técnica de [análise de documentos](../elicitacao/analise-de-documentos.md);
-- **RIFXXX**: Representa um requisito funcional elicitado com a técnica de [análise de interface](../elicitacao/analise-de-interface.md);
-- **RINXXX**: Representa um requisito não funcional elicitado com a técnica de [análise de interface](../elicitacao/analise-de-interface.md);
-- **RQFXX**: Representa um requisito funcional elicitado com a técnica de [questionário](../elicitacao/questionario.md);
-- **RQNXX**: Representa um requisito não funcional elicitado com a técnica de [questionário](../elicitacao/questionario.md);
-- **ROFXX**: Representa um requisito funcional elicitado com a técnica de [observação](../elicitacao/);
-- **RONXX**: Representa um requisito não funcional elicitado com a técnica de [observação](../elicitacao/);
-- **UCXX**: Representa um tópico no artefato [Casos de Uso](../modelagem/casos-de-uso.md);
-- **CNXX**: Representa um tópico no artefato [Cenários](../modelagem/cenarios.md);
-- **LXXX**: Representa um tópico no artefato [Léxicos](../modelagem/lexicos.md);
-- **ESXX**: Representa um tópico no artefato [Especificação Suplementar](../modelagem/especificacao-suplementar.md);
-- **#HUXX**: Representa um tópico no artefato [Histórias de Usuário](../modelagem/historias-de-usuario.md);
-- **#BKXX**: Representa um tópico no artefato [Backlog](../modelagem/backlog.md)
-- **#CNFRXX**: Representa um cartão de especificação no artefato [NFR Framework](../modelagem/nfr-framework.md);
+Assim, é possível criar a matriz de rastreabilidade representada pela Tabela 1.
 
 
-| ID    | Descrição                        | Pré-Rastreabilidade    |Implementado | Artefatos Criados            |Elos       |
+| **ID** | **Descrição**                   | **Pré-Rastreabilidade**  | **Implementado** | **Artefatos Criados**            | **Elos**       |
 | ----- | -------------------------------- | ---------------------- | ----------- | ---------------------------- | ---------- |
 | #RF01 | Deve oferecer a possibilidade do usuário acionar a pesquisa na web | [#RDF01](../elicitacao/analise-de-documentos.md), [#RIF01](../elicitacao/analise-de-interface.md) | Sim | [#CN07](../modelagem/cenarios.md#cn07), [#UC07](../modelagem/casos-de-uso.md#uc07), [#LX07](../modelagem//lexicos.md#lx07), [#BK01](../modelagem/backlog.md), [#HU29](../modelagem/historias-de-usuario.md#hu29) | |
 | #RF02| Deve haver a possibilidade de uso do pensamento profundo para solução de problemas (Deep Thinking) | [#RDF02](../elicitacao/analise-de-documentos.md) | Sim | [#CN09](../modelagem/cenarios.md#cn09), [#UC09](../modelagem/casos-de-uso.md#uc09), [#LX09](../modelagem//lexicos.md#lx09), [#BK02](../modelagem/backlog.md), [#HU13](../modelagem/historias-de-usuario.md#hu13) | |
@@ -100,6 +82,27 @@ Assim, é possível criar a matriz de rastreabilidade representada pela Tabela 1
 | #RN14 | Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras | [#RQN07](../elicitacao/questionario.md) | Não | [#ES04](../modelagem/especificacao-suplementar.md#es04), [#ES01](../modelagem/especificacao-suplementar.md#es01), [#CNFR18](../modelagem/nfr-framework.md#cnfr14) | |
 | #RN15 | Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras | [#RQN08](../elicitacao/questionario.md) | Não | [#ES04](../modelagem/especificacao-suplementar.md#es04), [#ES01](../modelagem/especificacao-suplementar.md#es01), [#CNFR19](../modelagem/nfr-framework.md#cnfr19)
 
+Com a Tabela 2, é possível encontrar os códigos utilizados ao longo do desenvolvimento dos artefatos e seus significados.
+
+|  **Identificador** |                                                 **Significado**                                                  |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| **#RFXX**          | Código para um requisito funcional |
+| **RNXX**           | Código para um requisito não funcional |
+| **RDFXXX**         | Código para um requisito funcional elicitado com a técnica de [análise de documentos](../elicitacao/analise-de-documentos.md) |
+| **RDNXXX**         | Código para um requisito não funcional elicitado com a técnica de [análise de documentos](../elicitacao/analise-de-documentos.md) |
+| **RIFXXX**         | Códi para um requisito funcional elicitado com a técnica de [análise de interface](../elicitacao/analise-de-interface.md) |
+| **RINXXX**         | Código para um requisito não funcional elicitado com a técnica de [análise de interface](../elicitacao/analise-de-interface.md) |
+| **RQFXX**          | Código para um requisito funcional elicitado com a técnica de [questionário](../elicitacao/questionario.md) |
+| **RQNXX**          | Código para um requisito não funcional elicitado com a técnica de [questionário](../elicitacao/questionario.md) |
+| **ROFXX**          | Código para um requisito funcional elicitado com a técnica de [observação](../elicitacao/) |
+| **RONXX**          | Código para um requisito não funcional elicitado com a técnica de [observação](../elicitacao/) |
+| **UCXX**           | Representa  uma tabela de caso de uso desenvolvida para o artefato [casos de uso](../modelagem/casos-de-uso.md) |
+| **CNXX**           | Representa um cenário desenvolvido para o artefato [cenários](../modelagem/cenarios.md) |
+| **LXXX**           | Representa uma tabela de léxicos para um caso de uso no artefato [léxicos](../modelagem/lexicos.md) |
+| **ESXX**           | Representa um tópico no artefato de [sspecificação suplementar](../modelagem/especificacao-suplementar.md) |
+| **#HUXX**          | Representa hisória de usuário no artefato [histórias de usuário](../modelagem/historias-de-usuario.md) |
+| **#BKXX**          | Representa um tópico no artefato [Backlog](../modelagem/backlog.md) |
+| **#CNFRXX**        | Representa um cartão de especificação no artefato [NFR Framework](../modelagem/nfr-framework.md) |
 
 ---
 
@@ -126,3 +129,4 @@ Assim, é possível criar a matriz de rastreabilidade representada pela Tabela 1
 | 06/06/2025 |  1.3  | (#MG01) Adição dos requisitos RF04-RF13.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
 | 06/06/2025 |  1.4  | (#MG01) Adição dos requisitos RF14-RF38.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
 | 06/06/2025 |  1.5  | (#MG01) Adição dos requisitos RN01-RN15.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
+| 07/06/2025 |  1.6  | (#MG01) Adição da tabela com os significados dos identificadores utilizados na matriz de rastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
