@@ -78,6 +78,10 @@ nav:
     - Backlog: 'modelagem/backlog.md'
     - NFR Framework: 'modelagem/nfr-framework.md'
     - Histórias de Usuário: 'modelagem/historias-de-usuario.md'
+  
+  - Rastreabilidade:
+    - Matriz Geral: 'rastreabilidade/matriz-geral.md'
+    - Pós-Rastreabilidade: 'rastreabilidade/pos-rastreabilidade.md'
 
   - Verificação:
     - Segunda Entrega: 'verificacao/segunda-entrega.md'

@@ -84,13 +84,13 @@ Esses rótulos estão ilustrados na Figura 3.
 
 | Contribuinte | Descrição                                            | Links                                                                                                                 |
 | ------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Gabriela     | Criação dos cartões de especificação CNFR01 a CNFR06 | [CNFR01](#cnfr01) · [CNFR02](#cnfr02) · [CNFR03](#cnfr03) · [CNFR04](#cnfr04) · [CNFR05](#cnfr05) · [CNFR06](#cnfr06) |
-| Luiz     | Criação dos cartões de especificação CNFR07 a CNFR012 | [CNFR07](#cnfr07) · [CNFR08](#cnfr08) · [CNFR09](#cnfr09) · [CNFR10](#cnfr10) · [CNFR11](#cnfr11) · [CNFR12](#cnfr12) |
-| Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 | [CNFR20](#cnfr20) · [CNFR21](#cnfr21) · [CNFR22](#cnfr22) |
-| Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [CNFR26](#cnfr26) · [CNFR27](#cnfr27) · [CNFR28](#cnfr28) |
-| Ana Joyce | Criação dos cartões de especificação CNFR14 a CNFR19 |  [CNFR15](#cnfr15) · [CNFR16](#cnfr16) . [CNFR17](#cnfr17) . [CNFR18](#cnfr18) . [CNFR19](#cnfr19)|
-| Davi   | Criação dos cartões de especificação CNFR23 a CNFR25 | [CNFR23](#cnfr23) · [CNFR24](#cnfr24) · [CNFR25](#cnfr25) |
-| Ana Clara | Criação dos cartões de especificação CNFR29 a CNFR31 | [CNFR29](#cnfr29) · [CNFR30](#cnfr30) · [CNFR31](#cnfr31) |
+| Gabriela     | Criação dos cartões de especificação CNFR01 a CNFR06 | [#CNFR01](#cnfr01) · [#CNFR02](#cnfr02) · [#CNFR03](#cnfr03) · [#CNFR04](#cnfr04) · [#CNFR05](#cnfr05) · [#CNFR06](#cnfr06) |
+| Luiz     | Criação dos cartões de especificação CNFR07 a CNFR012 | [#CNFR07](#cnfr07) · [#CNFR08](#cnfr08) · [#CNFR09](#cnfr09) · [#CNFR10](#cnfr10) · [#CNFR11](#cnfr11) · [#CNFR12](#cnfr12) |
+| Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 | [#CNFR20](#cnfr20) · [#CNFR21](#cnfr21) · [#CNFR22](#cnfr22) |
+| Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [#CNFR26](#cnfr26) · [#CNFR27](#cnfr27) · [#CNFR28](#cnfr28) |
+| Ana Joyce | Criação dos cartões de especificação CNFR14 a CNFR19 |  [#CNFR15](#cnfr15) · [#CNFR16](#cnfr16) . [#CNFR17](#cnfr17) . [#CNFR18](#cnfr18) . [#CNFR19](#cnfr19)|
+| Davi   | Criação dos cartões de especificação CNFR23 a CNFR25 | [#CNFR23](#cnfr23) · [#CNFR24](#cnfr24) · [#CNFR25](#cnfr25) |
+| Ana Clara | Criação dos cartões de especificação CNFR29 a CNFR31 | [#CNFR29](#cnfr29) · [#CNFR30](#cnfr30) · [#CNFR31](#cnfr31) |
 
 ## Lista de Requisitos 
 
@@ -142,7 +142,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 <font size="3"><p style="text-align: center"><b>Figura 4</b> - Cartão de Especificação</p></font>
 
 <a id="cnfr01"></a>
-## CNFR01 – Tempo de resposta OCR para arquivos até 10 MB em < 35 s  
+## #CNFR01 – Tempo de resposta OCR para arquivos até 10 MB em < 35 s  
 **Autor:** [`@Gabriela`](https://github.com/gaubiela)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -161,7 +161,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr02"></a>
-## CNFR02 – Autenticação via token de acesso  
+## #CNFR02 – Autenticação via token de acesso  
 **Autor:** [`@Gabriela`](https://github.com/gaubiela)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -180,7 +180,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr03"></a>
-## CNFR03 – Criptografia TLS em trânsito e AES-256 em repouso  
+## #CNFR03 – Criptografia TLS em trânsito e AES-256 em repouso  
 **Autor:** [`@Gabriela`](https://github.com/gaubiela)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -199,7 +199,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr04"></a>
-## CNFR04 – Processamento de arquivos grandes em ≤ 10 s e operações simples em ≤ 2 s  
+## #CNFR04 – Processamento de arquivos grandes em ≤ 10 s e operações simples em ≤ 2 s  
 **Autor:** [`@Gabriela`](https://github.com/gaubiela)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -218,7 +218,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr05"></a>
-## CNFR05 – Suporte a requisições simultâneas sem degradação  
+## #CNFR05 – Suporte a requisições simultâneas sem degradação  
 **Autor:** [`@Gabriela`](https://github.com/gaubiela)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -237,7 +237,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr06"></a>
-## CNFR06 – Retenção de contexto em diálogos longos  
+## #CNFR06 – Retenção de contexto em diálogos longos  
 **Autor:** [`@Gabriela`](https://github.com/gaubiela)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -256,7 +256,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr07"></a>
-## CNFR07 – Tooltip do título ao passar o mouse na barra lateral 
+## #CNFR07 – Tooltip do título ao passar o mouse na barra lateral 
 **Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -275,7 +275,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr08"></a>
-## CNFR08 – Exclusão automática de dados de upload
+## #CNFR08 – Exclusão automática de dados de upload
 **Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -294,7 +294,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 --- 
 
 <a id="cnfr09"></a>
-## CNFR09 – Versãoes para Android e IOS
+## #CNFR09 – Versãoes para Android e IOS
 **Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -313,7 +313,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr10"></a>
-## CNFR10 – Informar claramente onde e como os dados estão sendo armazenados
+## #CNFR10 – Informar claramente onde e como os dados estão sendo armazenados
 **Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -332,7 +332,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr11"></a>
-## CNFR11 – Histórico de conversas por 30 dias
+## #CNFR11 – Histórico de conversas por 30 dias
 **Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -351,7 +351,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr12"></a>
-## CNFR12 – Uso da arquitetura DeepSeek-V3
+## #CNFR12 – Uso da arquitetura DeepSeek-V3
 **Autor:** [`@Luiz`](https://github.com/luizfaria1989)  
 
 | Campo                 | Detalhamento                                                                                           |
@@ -371,7 +371,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr15"></a>
-## CNFR15 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+## #CNFR15 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
 
 **Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
 
@@ -391,7 +391,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr16"></a>
-## CNFR16 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
+## #CNFR16 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
 
 **Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
 
@@ -412,7 +412,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr17"></a>
-## CNFR17 – Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras
+## #CNFR17 – Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras
 
 **Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
 
@@ -432,7 +432,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr18"></a>
-## CNFR18 – Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras
+## #CNFR18 – Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras
 
 **Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
 
@@ -452,7 +452,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr19"></a>
-## CNFR19 – Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras
+## #CNFR19 – Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras
 
 **Autor:** [`@Ana Joyce`](https://github.com/anajoyceamorim) 
 
@@ -473,7 +473,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr20"></a>
-## CNFR20 – Interoperabilidade com YouTube para sumarização automática  
+## #CNFR20 – Interoperabilidade com YouTube para sumarização automática  
 **Autor:** [`@Mateus`](https://github.com/MVConsorte)  
 
 | Campo                 | Detalhamento                                                                                                                                                                                                                                                                      |
@@ -492,7 +492,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr21"></a>
-## CNFR21 – Instruções claras e contextualizadas sobre OCR  
+## #CNFR21 – Instruções claras e contextualizadas sobre OCR  
 **Autor:** [`@Mateus`](https://github.com/MVConsorte)  
 
 | Campo                 | Detalhamento                                                                                                                                                                                                                                                                             |
@@ -511,7 +511,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr22"></a>
-## CNFR22 – Exibição de fontes, páginas e referências em respostas  
+## #CNFR22 – Exibição de fontes, páginas e referências em respostas  
 **Autor:** [`@Mateus`](https://github.com/MVConsorte)  
 
 | Campo                 | Detalhamento                                                                                                                                                                                                                           |
@@ -530,7 +530,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr23"></a>
-## CNFR23 – Interface com usabilidade e acessibilidade adequadas  
+## #CNFR23 – Interface com usabilidade e acessibilidade adequadas  
 **Autor:** [`@Davi Emanuel`](https://github.com/daviRolvr)  
 
 | Campo                 | Detalhamento                                                                                                                                         |
@@ -547,7 +547,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **História**          | Criado em 01/06/2025                                                                                                                                |
 
 <a id="cnfr24"></a>
-## CNFR24 – Retorno de mensagens de erro claras em falhas  
+## #CNFR24 – Retorno de mensagens de erro claras em falhas  
 **Autor:** [`@Davi Emanuel`](https://github.com/daviRolvr)  
 
 | Campo                 | Detalhamento                                                                                                   |
@@ -565,7 +565,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 
 
 <a id="cnfr25"></a>
-## CNFR25 – Exibição de status do servidor em tempo real  
+## #CNFR25 – Exibição de status do servidor em tempo real  
 **Autor:** [`@Davi Emnauel`](https://github.com/daviRolvr)  
 
 | Campo                 | Detalhamento                                                                                                   |
@@ -584,7 +584,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 
 
 <a id="cnfr26"></a>
-## CNFR26 – Regeneração de resposta sem recarregamento da página 
+## #CNFR26 – Regeneração de resposta sem recarregamento da página 
 
 **Autor:** [`@Fábio`](https://github.com/fabinsz)  
 
@@ -604,7 +604,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr27"></a>
-## CNFR27 – Interrupção imediata de respostas em andamento
+## #CNFR27 – Interrupção imediata de respostas em andamento
 
 **Autor:** [`@Fábio`](https://github.com/fabinsz)  
 
@@ -624,7 +624,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr28"></a>
-## CNFR28 – Confirmação antes de limpar o histórico
+## #CNFR28 – Confirmação antes de limpar o histórico
 
 **Autor:** [`@Fábio`](https://github.com/fabinsz)  
 
@@ -644,7 +644,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 ---
 
 <a id="cnfr29"></a>
-## CNFR29 – Especificação e permisão ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+## #CNFR29 – Especificação e permisão ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
 
 **Autor:** [`Ana Clara`](https://github.com/anabborges)  
 
@@ -662,7 +662,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **História**          | Criado em 31/05/2025                                                                                  |
 
 <a id="cnfr30"></a>
-## CNFR30 – Conexão nativa a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
+## #CNFR30 – Conexão nativa a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
 
 **Autor:** [`Ana Clara`](https://github.com/anabborges)  
 
@@ -680,7 +680,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **História**          | Criado em 31/05/2025                                                                                  |
 
 <a id="cnfr31"></a>
-## CNFR31 – Uso a partir de API Pública
+## #CNFR31 – Uso a partir de API Pública
 
 **Autor:** [`Ana Clara`](https://github.com/anabborges)  
 
@@ -727,3 +727,4 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 01/06/2025 |  1.7  | (#NFR01) Criação de cards 14 a 19 | [`@Ana Joyce`](https://github.com/anajoyceamorim)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 01/06/2025 |  1.8  | (#NFR01) Criação de cards 23 a 25 | [`@Davi Emanuel`](https://github.com/daviRolvr)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 01/06/2025 |  1.9  | (#NFR01) Criação de cards 29 a 31 | [`@Ana Clara`](https://github.com/anabborges)   | [`@Luiz`](https://github.com/luizfaria1989)  |
+| 05/06/2025 |  2.0  | (#NFR01) Adição dos ids dos cartões de especifição | [`Luiz`](https://github.com/luizfaria1989)   | [`@`](https://github.com/)  |
