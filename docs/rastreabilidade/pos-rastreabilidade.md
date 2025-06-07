@@ -15,7 +15,7 @@ As informações segundo Toranzo são classificadas em quatro níveis:
 
 No meta-modelo de Toranzo o suporte a rastreabilidade indentica os seguintes tipos de elos:
 
-* **Satisfação** : é resnposável por indicar que a classe de origem possui dependência com a classe de destino <a id="anchor_3" href="#REF3">[3]</a>;
+* **Satisfação** : é responsável por indicar que a classe de origem possui dependência com a classe de destino <a id="anchor_3" href="#REF3">[3]</a>;
 * **Recurso**: é responsável por indicar a classe de origem tem dependêcia de recurso com a classe de destino <a id="anchor_3" href="#REF3">[3]</a>;
 * **Responsabilidade**: é responsável por indicar participação, responsabilidade e ação das pessoas sobre os artefatos <a id="anchor_3" href="#REF3">[3]</a>;
 * **Representação**: é responsável por capturar a representação ou modelagem dos requisitos <a id="anchor_3" href="#REF3">[3]</a>;
@@ -26,18 +26,22 @@ Com base nesses elos é possível elaborar a Tabela 1, que será usada como temp
 
 Tabela 1 - Template Pós-Rastreabilidade
 
-|                               **Artefato Analisado** | **Classificação do Artefato Analisado** |
-| :--------------------------------------------------: | :---------------------------------: |
-|                     Tipos de Elo                     |       Artefatos Relacionados        |
-|                      Satisfação                      |                  -                  |
-|                       Recurso                        |                  -                  |
-|                    Representação                     |                  -                  |
-|                       Alocado                        |                  -                  |
-|                      Agregação                       |                  -                  |
+|                  **Artefato Analisado**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |                  -                      |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  -                      |
 
 Autor: Luiz
 
 # Tabela de Contribuições
+
+| Contribuinte | Descrição                                                            | Links                                           |
+|--------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Luiz    | Criação dos elos para os requisitos #RF01, #RF02, #RF03, #RF04, #RF05, #RF06, #RF06, #RF08 | [#RF01](../rastreabilidade/pos-rastreabilidade.md#rf01), [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF03]((../rastreabilidade/pos-rastreabilidade.md#rf03)), [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF06](../rastreabilidade/pos-rastreabilidade.md#rf06), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08) |
 
 # Rastreabilidade
 
@@ -46,26 +50,110 @@ Nesse tópico são apresentadas as tabelas referentes aos elos dos artefatos ana
 <a id="rf01"></a>
 ## #RF01 - Deve oferecer a possibilidade do usuário acionar a pesquisa na web
 
+|                  **RF01**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                      |
+|                       Recurso                        | [Cenário #CN07](../modelagem/cenarios.md#cn07)                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [Caso de uso #UC07](../modelagem/casos-de-uso.md#uc07), <br> [Léxico #LX07](../modelagem/lexicos.md#lx07)                                            |
+|                      Agregação                       |                  [História de usuário #HU29](../modelagem/historias-de-usuario.md#hu29)                      |
+
+Fonte: Luiz
+
 <a id="rf02"></a>
 ## #RF02 - Deve haver a possibilidade de uso do pensamento profundo para solução de problemas (Deep Thinking)
+
+|                  **RF02**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                                            |
+|                       Recurso                        | [Cenário #CN09](../modelagem/cenarios.md#cn09)                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [Caso de uso #UC09](../modelagem/casos-de-uso.md#uc09), <br> [Léxico #LX09](../modelagem/lexicos.md#lx09)                                            |
+|                      Agregação                       |                  [História de usuário #HU13](../modelagem/historias-de-usuario.md#hu13), <br> [Épico 1 - Funcionalidades de IA #BK01](../modelagem/backlog.md#bk01)                      |
+
+Fonte: Luiz
 
 <a id="rf03"></a>
 ## #RF03 - O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s
 
+|                  **RF03**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |  [#ES06 - Desempenho](../modelagem/especificacao-suplementar.md#es06) |
+|                       Recurso                        | [Cenário #CN06](../modelagem/cenarios.md#cn06)                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [Caso de uso #UC06](../modelagem/casos-de-uso.md#uc06), <br> [Léxico #LX06](../modelagem/lexicos.md#lx06)                                            |
+|                      Agregação                       |                  [História de usuário #HU25](../modelagem/historias-de-usuario.md#hu25), <br> [Épico 7 - Gerenciamento de arquivos #BK37](../modelagem/backlog.md#bk37)                      |
+
+Fonte: Luiz
+
 <a id="rf04"></a>
 ## #RF04 - Deve possuir a opção de login com conta Google/Apple ID
+
+|                  **RF04**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES07 - Suportabilidade](../modelagem/especificacao-suplementar.md#es07) |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                                         |
+|                      Agregação                       |                  [História de usuário #HU41](../modelagem/historias-de-usuario.md#hu41), <br> [Épico 3 - Segurança #BK15](../modelagem/backlog.md#bk15)                      |
+
+Fonte: Luiz
 
 <a id="rf05"></a>
 ## #RF05 - Deve salvar chats entre plataformas
 
+|                  **RF05**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05)
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  [História de usuário #HU18](../modelagem/historias-de-usuario.md#hu18), <br> [Épico 4 - Funcionalidades do chat #BK17](../modelagem/backlog.md#bk17)                      |
+
+Fonte: Luiz
+
 <a id="rf06"></a>
 ## #RF06 - Melhorar as capacidades de "deep thinking"
+
+|                  **RF05**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |                  -                      |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  -                      |
+
+Fonte: Luiz
 
 <a id="rf07"></a>
 ## #RF07 - Deve haver um campo para a interação com a IA
 
+|                  **RF07**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04) <br> [#ES01 - Design](../modelagem/especificacao-suplementar.md#es01),                                           |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  [História de usuário #HU03](../modelagem/historias-de-usuario.md#hu03), <br> [Épico 4 - Funcionalidades do chat #BK18](../modelagem/backlog.md#bk18)                      |
+
 <a id="rf08"></a>
 ## #RF08 - Deve ser possível criar novos chats
+
+|                  **RF08**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |   [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                                           |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  [História de usuário #HU42](../modelagem/historias-de-usuario.md#hu42), <br> [Épico 5 - Interface e experiência do usuário #BK21](../modelagem/backlog.md#bk21)                      |
 
 <a id="rf09"></a>
 ## #RF09 - Deve ser possível renomear um chat
@@ -217,3 +305,4 @@ Nesse tópico são apresentadas as tabelas referentes aos elos dos artefatos ana
 | 07/06/2025 |  1.0   | (#PR01) Criação do documento de pós-rastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
 | 07/06/2025 |  1.1   | (#PR01) Elaboração da introdução, meotodologia e do template de representação dos elos.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
 | 07/06/2025 |  1.2   | (#PR01) Adição dos requisitos do projeto e seus hiperlinks.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
+| 07/06/2025 |  1.3   | (#PR01) Adição das tabelas dos elos para os requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [@](https://github.com/)  |
