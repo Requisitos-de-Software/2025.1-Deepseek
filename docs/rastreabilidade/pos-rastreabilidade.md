@@ -42,6 +42,7 @@ Autor: Luiz
 | Contribuinte | Descrição                                                            | Links                                           |
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
 | Luiz    | Criação dos elos para os requisitos #RF01, #RF02, #RF03, #RF04, #RF05, #RF06, #RF06, #RF08 | [#RF01](../rastreabilidade/pos-rastreabilidade.md#rf01), [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF03]((../rastreabilidade/pos-rastreabilidade.md#rf03)), [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF06](../rastreabilidade/pos-rastreabilidade.md#rf06), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08) |
+| Fábio    | Criação dos elos para os requisitos #RF09, #RF10, #RF11, #RF12, #RF13, #RF15, #RF16 | [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF11]((../rastreabilidade/pos-rastreabilidade.md#rf11)), [#RF12](../rastreabilidade/pos-rastreabilidade.md#rf12), [#RF13](../rastreabilidade/pos-rastreabilidade.md#rf13), [#RF15](../rastreabilidade/pos-rastreabilidade.md#rf15), [#RF16](../rastreabilidade/pos-rastreabilidade.md#rf16)|
 
 # Rastreabilidade
 
@@ -158,17 +159,73 @@ Fonte: Luiz
 <a id="rf09"></a>
 ## #RF09 - Deve ser possível renomear um chat
 
+
+|                  **RF09**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |        -              |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | -                                       |
+|                      Agregação                       |                  [História de usuário #HU04](../modelagem/historias-de-usuario.md#hu04), <br>  [Épico 4 - Funcionalidades do chat #BK20](../modelagem/backlog.md#bk20)                    |
+
+Fonte: Fábio
+
 <a id="rf10"></a>
 ## #RF10 - Os chats já utilizados devem poder ser acessados posteriormente
+
+|                  **RF10**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |        -              |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                                     -  |
+|                      Agregação                       |                                    -  |
+
+Fonte: Fábio
 
 <a id="rf11"></a>
 ## #RF11 - Deve ser possível dar dislike em uma resposta da IA
 
+|                  **RF11**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |        [Cenário #CN08](../modelagem/cenarios.md#cn08)               |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [Caso de uso #UC08](../modelagem/casos-de-uso.md#uc08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08)                                        |
+|                      Agregação                       |                                   -     |
+
+Fonte: Fábio
+
 <a id="rf12"></a>
 ## #RF12 - Deve ser possível dar like em uma resposta da IA
 
+|                  **RF12**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |        [Cenário #CN08](../modelagem/cenarios.md#cn08)               |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [Caso de uso #UC08](../modelagem/casos-de-uso.md#uc08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08)                                        |
+|                      Agregação                       |                                   -     |
+
+Fonte: Fábio
+
 <a id="rf13"></a>
 ## #RF13 - Deve ser possível copiar uma resposta da IA
+
+|                  **RF13**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |        [Cenário #CN08](../modelagem/cenarios.md#cn08)               |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [Caso de uso #UC08](../modelagem/casos-de-uso.md#uc08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08)                                        |
+|                      Agregação                       |                                   -     |
+
+Fonte: Fábio
 
 <a id="rf14"></a>
 ## #RF14 - Deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando página, site e/ou trecho extraído 
@@ -176,8 +233,30 @@ Fonte: Luiz
 <a id="rf15"></a>
 ## #RF15 - Deve ser possível alterar o idioma do sistema
 
+|                  **RF15**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |        -              |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | -                |
+|                      Agregação                       |                                   [História de usuário #HU27](../modelagem/historias-de-usuario.md#hu27), <br>  [Épico 5 - Interface e experiência do usuário #BK35](../modelagem/backlog.md#bk35)       |
+
+Fonte: Fábio
+
 <a id="rf16"></a>
 ## #RF16 - Deve ser possível apagar conversas individuais ou de forma geral
+
+|                  **RF16**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |        [Cenário #CN13](../modelagem/cenarios.md#cn13)                |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | -                              |
+|                      Agregação                       |                                   [História de usuário #HU28](../modelagem/historias-de-usuario.md#hu28), <br>  [Épico 2 - Controle de dados #BK14](../modelagem/backlog.md#bk14)       |
+
+Fonte: Fábio
 
 <a id="rf17"></a>
 ## #RF17 - Deve ser possível regenerar uma resposta da IA de forma manual ou automática em caso de erro de servidor ou sobrecarga
@@ -306,3 +385,4 @@ Fonte: Luiz
 | 07/06/2025 |  1.1   | (#PR01) Elaboração da introdução, meotodologia e do template de representação dos elos.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
 | 07/06/2025 |  1.2   | (#PR01) Adição dos requisitos do projeto e seus hiperlinks.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
 | 07/06/2025 |  1.3   | (#PR01) Adição das tabelas dos elos para os requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [@](https://github.com/)  |
+| 07/06/2025 |  1.4   | (#PR01) Adição das tabelas dos elos para os requisitos #RF09-#RF13 #RF15-#RF16  | [`@Fabio`](https://github.com/fabinsz)  | [@](https://github.com/)  |
