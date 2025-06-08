@@ -668,5 +668,5 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 01/06/2025 |  1.10   | (#H02) Adição de conteúdo (Histórias de usuário 07 a 12)| [`@Davi Emanuel`](https://github.com/daviRolvr)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 01/06/2025 |  1.11   | (#H02) Adjuste de titulo HU22| [`@Fábio`](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 05/06/2025 |  2.0   | (#H02) Adição dos ids das tabelas de histórias de usuário| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz)  |
-| 08/06/2025 |  2.1   | (#H02) Melhorias nos hiperlinks do documento.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@`](https://github.com/)  |
+| 08/06/2025 |  2.1   | (#H02) Melhorias nos hiperlinks do documento.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Joyce`](https://github.com/anajoyceamorim)  |
 
