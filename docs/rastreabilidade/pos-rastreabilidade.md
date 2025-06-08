@@ -261,6 +261,18 @@ Fonte: Fábio
 <a id="rf17"></a>
 ## #RF17 - Deve ser possível regenerar uma resposta da IA de forma manual ou automática em caso de erro de servidor ou sobrecarga
 
+|                  **RF17**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#UC08 - Refinar resposta gerada](../modelagem/casos-de-uso.md#uc08), <br> [#HU30 - História de usuário: Refinar resposta](../modelagem/historias-de-usuario.md#hu30) |
+|                       Recurso         | [Cenário #CN08](../modelagem/cenarios.md#cn08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08) |
+|                    Representação      | [#UC08 - Refinar resposta gerada](../modelagem/casos-de-uso.md#uc08) |
+|                       Alocado         | - |
+|                      Agregação        | [Cenário #CN08](../modelagem/cenarios.md#cn08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08) |
+
+Fonte: Ana Clara
+
+
 <a id="rf18"></a>
 ## #RF18 - O sistema deve exibir respostas formatadas em Markdown em tabelas ou listas complexas, com possibilidade de edição pelo usuário
 
@@ -270,26 +282,103 @@ Fonte: Fábio
 <a id="rf20"></a>
 ## #RF20 - Deve possuir uma API pública
 
+|                  **RF20**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU31 - Utilizar uma API Pública](../modelagem/historias-de-usuario.md#hu31) |
+|                       Recurso         |  - |
+|                    Representação      | [#HU31 - Utilizar uma API Pública](../modelagem/historias-de-usuario.md#hu31) |
+|                       Alocado         | - |
+|                      Agregação        | [Épico 8 - Integrações e API #BK41](../modelagem/backlog.md#bk41) |
+
+Fonte: Ana Clara
+
 <a id="rf21"></a>
 ## #RF21 - Deve aceitar autenticação via token de acesso
 
 <a id="rf22"></a>
 ## #RF22 - Deve haver uma confirmação para limpar o histórico
 
+|                  **RF22**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#UC13 - Apagar histórico com confirmação](../modelagem/casos-de-uso.md#uc13), <br> [#HU02 - Confirmar a exclusão do histórico de conversas](../modelagem/historias-de-usuario.md#hu02) |
+|                       Recurso         | [Cenário #CN13](../modelagem/cenarios.md#cn13) |
+|                    Representação      | [#UC13 - Apagar histórico com confirmação](../modelagem/casos-de-uso.md#uc13) |
+|                       Alocado         | [Léxico #LX13](../modelagem/lexicos.md#lx13) |
+|                      Agregação        | [Épico #BK09 - Controle de dados](../modelagem/backlog.md#bk09) |
+
+Fonte: Ana Clara
+
 <a id="rf23"></a>
 ## #RF23 - Deve suportar busca incremental (exibição de sugestões em tempo real conforme o usuário digita)
+
+|                  **RF23**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU05 - Busca incremental no campo de texto](../modelagem/historias-de-usuario.md#hu05) |
+|                       Recurso         | - |
+|                    Representação      | - |
+|                       Alocado         | - |
+|                      Agregação        | [Épico #BK28 - Interface e experiência do usuário](../modelagem/backlog.md#bk28) |
+
+Fonte: Ana Clara
 
 <a id="rf24"></a>
 ## #RF24 - Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256)
 
+|                  **RF24**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | - |
+|                       Recurso         | - |
+|                    Representação      | - |
+|                       Alocado         | - |
+|                      Agregação        | - |
+
+Fonte: Ana Clara
+
 <a id="rf25"></a>
 ## #RF25 - O usuário deve poder controlar quais dados são compartilhados (chat, histórico de buscas, localização)
+
+|                  **RF25**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU17 - Controlar quais dados são compartilhados com a IA](../modelagem/historias-de-usuario.md#hu17) |
+|                       Recurso         | - |
+|                    Representação      | - |
+|                       Alocado         | - |
+|                      Agregação        | [Épico #BK11 - Controle de dados](../modelagem/backlog.md#bk11) |
+
+Fonte: Ana Clara
 
 <a id="rf26"></a>
 ## #RF26 - Deve haver autenticação multifator opcional para acesso a funcionalidades avançadas
 
+|                  **RF26**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU16 - Autenticar a conta para acessar funcionalidades avançadas](../modelagem/historias-de-usuario.md#hu16) |
+|                       Recurso         | - |
+|                    Representação      | - |
+|                       Alocado         | - |
+|                      Agregação        | [Épico #BK16 - Segurança](../modelagem/backlog.md#bk16) |
+
+Fonte: Ana Clara
+
 <a id="rf27"></a>
 ## #RF27 - Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO
+
+|                  **RF27**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU19 - Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO](../modelagem/historias-de-usuario.md#hu19) |
+|                       Recurso         | [Cenário #CN05](../modelagem/cenarios.md#cn05) |
+|                    Representação      | - |
+|                       Alocado         | [Caso de uso #UC05](../modelagem/casos-de-uso.md#uc05), <br> [Léxico #LX05](../modelagem/lexicos.md#lx05) |
+|                      Agregação        | [Épico #BK29 - Interface e experiência do usuário](../modelagem/backlog.md#bk29) |
+
+Fonte: Ana Clara
 
 <a id="rf28"></a>
 ## #RF28 - Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades
