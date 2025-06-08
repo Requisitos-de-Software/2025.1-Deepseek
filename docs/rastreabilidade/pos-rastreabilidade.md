@@ -364,7 +364,7 @@ Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
 <a id="rf20"></a>
-## #RF20 - Deve possuir uma API públicaS
+## #RF20 - Deve possuir uma API pública
 
 |                  **RF20**              | **Classificação do Artefato Analisado** |
 | ------------------------------------- | --------------------------------------- |
