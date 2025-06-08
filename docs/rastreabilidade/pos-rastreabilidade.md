@@ -572,6 +572,6 @@ Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 | 07/06/2025 |  1.1   | (#PR01) Elaboração da introdução, meotodologia e do template de representação dos elos.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.2   | (#PR01) Adição dos requisitos do projeto e seus hiperlinks.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.3   | (#PR01) Adição das tabelas dos elos para os requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@Fabio`](https://github.com/fabinsz)   |
-| 07/06/2025 |  1.4   | (#PR01) Adição das tabelas dos elos para os requisitos #RF09-#RF13 #RF15-#RF16  | [`@Fabio`](https://github.com/fabinsz)  | [@Luiz](https://github.com/luizfaria1989)  |
-| 08/06/2025 |  1.5   | (#PR01) Adição das tabelas dos elos para os requisitos #RF28, #RF29, #RF30, #RF31, #RF32, #RF33, #RF35, #RF36, #RF38, #RN01  | [`@Gabriela`](https://github.com/gaubiela)  | 
-| 08/06/2025 |  1.6   | (#PR01) Adição das tabelas dos elos para os requisitos #RF14, #RF18, #RF19, #RF21, #RF34, #RF37  #RN06  | [`@Davi Emanuel`](https://github.com/daviRolvr)  | -  |
+| 07/06/2025 |  1.4   | (#PR01) Adição das tabelas dos elos para os requisitos #RF09-#RF13 #RF15-#RF16  | [`@Fabio`](https://github.com/fabinsz)  | ['@Luiz'](https://github.com/luizfaria1989)  |
+| 08/06/2025 |  1.5   | (#PR01) Adição das tabelas dos elos para os requisitos #RF28, #RF29, #RF30, #RF31, #RF32, #RF33, #RF35, #RF36, #RF38, #RN01  | [`@Gabriela`](https://github.com/gaubiela)  | [`@Luiz`](https://github.com/luizfaria1989) |
+| 08/06/2025 |  1.6   | (#PR01) Adição das tabelas dos elos para os requisitos #RF14, #RF18, #RF19, #RF21, #RF34, #RF37  #RN06  | [`@Davi Emanuel`](https://github.com/daviRolvr)  | [`@Luiz`](https://github.com/luizfaria1989)  |
