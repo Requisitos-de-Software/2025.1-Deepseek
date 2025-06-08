@@ -43,6 +43,7 @@ Autor: Luiz
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
 | Luiz    | Criação dos elos para os requisitos #RF01, #RF02, #RF03, #RF04, #RF05, #RF06, #RF06, #RF08 | [#RF01](../rastreabilidade/pos-rastreabilidade.md#rf01), [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF03]((../rastreabilidade/pos-rastreabilidade.md#rf03)), [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF06](../rastreabilidade/pos-rastreabilidade.md#rf06), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08) |
 | Fábio    | Criação dos elos para os requisitos #RF09, #RF10, #RF11, #RF12, #RF13, #RF15, #RF16 | [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF11]((../rastreabilidade/pos-rastreabilidade.md#rf11)), [#RF12](../rastreabilidade/pos-rastreabilidade.md#rf12), [#RF13](../rastreabilidade/pos-rastreabilidade.md#rf13), [#RF15](../rastreabilidade/pos-rastreabilidade.md#rf15), [#RF16](../rastreabilidade/pos-rastreabilidade.md#rf16)|
+| Ana Joyce | Criação dos elos para os requisitos #RN02, #RN03, #RN04, #RN05, #RN07, #RN08, #RN09 | [#RN02](../rastreabilidade/pos-rastreabilidade.md#rn02), [#RN03](../rastreabilidade/pos-rastreabilidade.md#rn03), [#RN04]((../rastreabilidade/pos-rastreabilidade.md#rn04)), [#RN05](../rastreabilidade/pos-rastreabilidade.md#rn05), [#RN07](../rastreabilidade/pos-rastreabilidade.md#rn07), [#RN08](../rastreabilidade/pos-rastreabilidade.md#rn08), [#RN09](../rastreabilidade/pos-rastreabilidade.md#rn09)|
 
 # Rastreabilidade
 
@@ -376,14 +377,58 @@ Fonte: Fábio
 <a id="rn02"></a>
 ## #RN02 - Deve possuir versões para Android e IOS
 
+|               **RN02**              | **Classificação do Artefato Analisado** |
+| ------------------------------------| --------------------------------------- |
+|   Tipos de Elo  |       Artefatos Relacionados            |
+|     Satisfação  |   [#ES07 - Suportabilidade](../modelagem/especificacao-suplementar.md#es07)  |
+|     Recurso     |   #RDN05  |
+|  Representação  |  [#CNFR09](../modelagem/nfr-framework.md#cnfr09--versãoes-para-android-e-ios)  |
+|   Alocado       |  -  |
+|    Agregação    |  Classificação: MoSCoW -> Could, In-or-Out -> In   |
+
+Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
+
 <a id="rn03"></a>
 ## #RN03 - Deve guardar um histórico de conversas por 30 dias (não persistente se o usuário sair sem salvar)
+
+|               **RN03**              | **Classificação do Artefato Analisado** |
+| ------------------------------------| --------------------------------------- |
+|   Tipos de Elo  |       Artefatos Relacionados            |
+|     Satisfação  |   [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05)  |
+|     Recurso     | #RIN10 |
+|  Representação  | [#CNFR11](../modelagem/nfr-framework.md#cnfr11)  |
+|   Alocado       |  -  |
+|    Agregação    |   Classificação: MoSCoW -> Could, In-or-Out -> In  |
+
+Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
 
 <a id="rn04"></a>
 ## #RN04 - Deve fazer a exclusão automática de dados de upload
 
+|               **RN04**              | **Classificação do Artefato Analisado** |
+| ------------------------------------| --------------------------------------- |
+|   Tipos de Elo  |       Artefatos Relacionados            |
+|     Satisfação  |  [#ES02 - Implementação](../modelagem/especificacao-suplementar.md#es02) |
+|     Recurso     | #RIN11 |
+|  Representação  |  -  |
+|   Alocado       | [Caso de uso #UC01](../modelagem/casos-de-uso.md#uc01) <br> [Léxico #LX01](../modelagem/lexicos.md#lx01) <br> [#CNFR08](../modelagem/nfr-framework.md#cnfr08)|
+|    Agregação    |  Classificação: MoSCoW -> Must, In-or-Out -> In <br> [Épico 2 - Controle de dados #BK12](../modelagem/backlog.md#bk12) <br> [História de usuário #HU37](../modelagem/historias-de-usuario.md#hu37) |
+
+Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
+
 <a id="rn05"></a>
 ## #RN05 - A interface deve seguir diretrizes de usabilidade e acessibilidade
+
+|               **RN05**              | **Classificação do Artefato Analisado** |
+| ------------------------------------| --------------------------------------- |
+|   Tipos de Elo  |       Artefatos Relacionados            |
+|     Satisfação  |   [#ES01 - Design](../modelagem/especificacao-suplementar.md#es01)  |
+|     Recurso     | #RIN12 e #RQF05 |
+|  Representação  |  -  |
+|   Alocado       | [#CNFR23](../modelagem/nfr-framework.md#cnfr23) |
+|    Agregação    |   Classificação: MoSCoW -> Must, In-or-Out -> In <br> [Épico 5 - Controle de dados #BK34](../modelagem/backlog.md#bk34) <br> [História de usuário #HU38](../modelagem/historias-de-usuario.md#hu38)|
+
+Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
 
 <a id="rn06"></a>
 ## #RN06 - Em caso de falha, deve retornar mensagens de erro claras	
@@ -391,11 +436,44 @@ Fonte: Fábio
 <a id="rn07"></a>
 ## #RN07 - O sistema deve suportar múltiplas requisições simultâneas sem degradação
 
+|               **RN07**              | **Classificação do Artefato Analisado** |
+| ------------------------------------| --------------------------------------- |
+|   Tipos de Elo  |       Artefatos Relacionados            |
+|     Satisfação  |   [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05)   |
+|     Recurso     |  #RIN16   |
+|  Representação  |  -  |
+|   Alocado       |  [Caso de uso #UC09](../modelagem/casos-de-uso.md#uc09) <br> [Léxico #LX09](../modelagem/lexicos.md#lx09) <br> [#CNFR05](../modelagem/nfr-framework.md#cnfr05) |
+|    Agregação    |  Classificação: MoSCoW -> Should, In-or-Out -> In   |
+
+Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
+
 <a id="rn08"></a>
 ## #RN08 - O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤ 10 s e o tempo médio de resposta ≤ 2 s em operações simples
 
+|               **RN08**              | **Classificação do Artefato Analisado** |
+| ------------------------------------| --------------------------------------- |
+|   Tipos de Elo  |       Artefatos Relacionados            |
+|     Satisfação  |   [#ES02 - Implementação](../modelagem/especificacao-suplementar.md#es02)   |
+|     Recurso     |  #RIN17 e #RQN04   |
+|  Representação  |  -  |
+|   Alocado       |  [Caso de uso #UC06](../modelagem/casos-de-uso.md#uc06) <br> [Léxico #LX06](../modelagem/lexicos.md#lx06) <br> [#CNFR04](../modelagem/nfr-framework.md#cnfr04)  |
+|    Agregação    |  Classificação: MoSCoW -> Should, In-or-Out -> In    |
+
+Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
+
 <a id="rn09"></a>
 ## #RN09 - Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados
+
+|               **RN09**              | **Classificação do Artefato Analisado** |
+| ------------------------------------| --------------------------------------- |
+|   Tipos de Elo  |       Artefatos Relacionados            |
+|     Satisfação  |   [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05)  |
+|     Recurso     |   #RQN01  |
+|  Representação  |  -  |
+|   Alocado       |  [#CNFR10](../modelagem/nfr-framework.md#cnfr10)   |
+|    Agregação    |  Classificação: MoSCoW -> Must, In-or-Out -> Out |
+
+Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
 
 <a id="rn10"></a>
 ## #RN10 - Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
@@ -433,3 +511,5 @@ Fonte: Fábio
 | 07/06/2025 |  1.3   | (#PR01) Adição das tabelas dos elos para os requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.4   | (#PR01) Adição das tabelas dos elos para os requisitos #RF09-#RF13 #RF15-#RF16  | [`@Fabio`](https://github.com/fabinsz)  | [@Luiz](https://github.com/luizfaria1989)  |
 | 08/06/2025 |  1.5   | (#PR01) Adição dos cartões de especificação para os elos dos requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@`](https://github.com/)   |
+| 08/06/2025 |  1.6   | ` Adição das tabelas dos elos para os requisitos #RN02 até o #RN05 e do #RN07 até o #RN09 | [`@Ana Joyce`](https://github.com/anajoyceamorim)  | [`@Luiz`](https://github.com/luizfaria1989)  |
+
