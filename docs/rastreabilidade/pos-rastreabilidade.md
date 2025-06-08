@@ -41,9 +41,11 @@ Autor: Luiz
 
 | Contribuinte | Descrição                                                            | Links                                           |
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
-| Luiz    | Criação dos elos para os requisitos #RF01, #RF02, #RF03, #RF04, #RF05, #RF06, #RF06, #RF08 | [#RF01](../rastreabilidade/pos-rastreabilidade.md#rf01), [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF03]((../rastreabilidade/pos-rastreabilidade.md#rf03)), [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF06](../rastreabilidade/pos-rastreabilidade.md#rf06), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08) |
-| Fábio    | Criação dos elos para os requisitos #RF09, #RF10, #RF11, #RF12, #RF13, #RF15, #RF16 | [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF11]((../rastreabilidade/pos-rastreabilidade.md#rf11)), [#RF12](../rastreabilidade/pos-rastreabilidade.md#rf12), [#RF13](../rastreabilidade/pos-rastreabilidade.md#rf13), [#RF15](../rastreabilidade/pos-rastreabilidade.md#rf15), [#RF16](../rastreabilidade/pos-rastreabilidade.md#rf16)|
+| Luiz         | Criação dos elos para os requisitos #RF01, #RF02, #RF03, #RF04, #RF05, #RF06, #RF06, #RF08 | [#RF01](../rastreabilidade/pos-rastreabilidade.md#rf01), [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF03](../rastreabilidade/pos-rastreabilidade.md#rf03), [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF06](../rastreabilidade/pos-rastreabilidade.md#rf06), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08) |
+| Fábio        | Criação dos elos para os requisitos #RF09, #RF10, #RF11, #RF12, #RF13, #RF15, #RF16 | [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF11](../rastreabilidade/pos-rastreabilidade.md#rf11), [#RF12](../rastreabilidade/pos-rastreabilidade.md#rf12), [#RF13](../rastreabilidade/pos-rastreabilidade.md#rf13), [#RF15](../rastreabilidade/pos-rastreabilidade.md#rf15), [#RF16](../rastreabilidade/pos-rastreabilidade.md#rf16) |
 | Gabriela     | Criação dos elos para os requisitos #RF28, #RF29, #RF30, #RF31, #RF32, #RF33, #RF35, #RF36, #RF38, #RN01 | [#RF28](../rastreabilidade/pos-rastreabilidade.md#rf28), [#RF29](../rastreabilidade/pos-rastreabilidade.md#rf29), [#RF30](../rastreabilidade/pos-rastreabilidade.md#rf30), [#RF31](../rastreabilidade/pos-rastreabilidade.md#rf31), [#RF32](../rastreabilidade/pos-rastreabilidade.md#rf32), [#RF33](../rastreabilidade/pos-rastreabilidade.md#rf33), [#RF35](../rastreabilidade/pos-rastreabilidade.md#rf35), [#RF36](../rastreabilidade/pos-rastreabilidade.md#rf36), [#RF38](../rastreabilidade/pos-rastreabilidade.md#rf38), [#RN01](../rastreabilidade/pos-rastreabilidade.md#rn01) |
+| Davi         | Criação dos elos para os requisitos #RF14, #RF34, #RF14, #RF19, #RF21, #RF37, #RN06 | [#RF14](../rastreabilidade/pos-rastreabilidade.md#rf14), [#RF34](../rastreabilidade/pos-rastreabilidade.md#rf34), [#RF14](../rastreabilidade/pos-rastreabilidade.md#rf14), [#RF19](../rastreabilidade/pos-rastreabilidade.md#rf19), [#RF21](../rastreabilidade/pos-rastreabilidade.md#rf21), [#RF37](../rastreabilidade/pos-rastreabilidade.md#rf37), [#RN06](../rastreabilidade/pos-rastreabilidade.md#rn06) |
+
 
 # Rastreabilidade
 
@@ -231,6 +233,18 @@ Fonte: Fábio
 <a id="rf14"></a>
 ## #RF14 - Deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando página, site e/ou trecho extraído 
 
+|                  **RF14**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |        -              |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | -                |
+|                      Agregação                       |                                   [História de usuário #HU10](../modelagem/historias-de-usuario.md#hu10),[História de usuário #HU36](../modelagem/historias-de-usuario.md#hu36) <br>  [Épico 1 - Funcionalidades de uma IA #BK03](../modelagem/backlog.md#bk03), [#BK04](../modelagem/backlog.md#bk04)       |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
+
+
 <a id="rf15"></a>
 ## #RF15 - Deve ser possível alterar o idioma do sistema
 
@@ -264,15 +278,46 @@ Fonte: Fábio
 
 <a id="rf18"></a>
 ## #RF18 - O sistema deve exibir respostas formatadas em Markdown em tabelas ou listas complexas, com possibilidade de edição pelo usuário
+|                  **RF18**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES01 - design](../modelagem/especificacao-suplementar.md#es01)                     |
+|                       Recurso                        |      -      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | -                |
+|                      Agregação                       |                                   [História de usuário #HU23](../modelagem/historias-de-usuario.md#hu23),[História de usuário #HU34](../modelagem/historias-de-usuario.md#hu34) <br>  [Épico 5 - Interface e experiencia do usuário #BK26](../modelagem/backlog.md#bk26),  [#BK27](../modelagem/backlog.md#bk27)    |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
 <a id="rf19"></a>
 ## #RF19 - Deve ser possível interromper respostas em andamento
+|                  **RF19**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES01 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |      [#CN10](../modelagem/cenarios.md#cn10)      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [#UC10](../modelagem/casos-de-uso.md#uc10)              |
+|                      Agregação                       |                                   [História de usuário #HU07](../modelagem/historias-de-usuario.md#hu07) <br>  [Épico 4 - Funcionalidades do chat #BK24](../modelagem/backlog.md#bk24)    |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
 <a id="rf20"></a>
-## #RF20 - Deve possuir uma API pública
+## #RF20 - Deve possuir uma API públicaS
 
 <a id="rf21"></a>
 ## #RF21 - Deve aceitar autenticação via token de acesso
+|                  **RF21**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES01 - Implementação](../modelagem/especificacao-suplementar.md#es02)                     |
+|                       Recurso                        |            |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |             |
+|                      Agregação                       |                                  |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
+
 
 <a id="rf22"></a>
 ## #RF22 - Deve haver uma confirmação para limpar o histórico
@@ -378,6 +423,16 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf34"></a>
 ## #RF34 - Implementar comandos de voz para entrada e saída de informações
+|                  **RF34**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES02 - implementação](../modelagem/especificacao-suplementar.md#es02)                     |
+|                       Recurso                        |        [#CN03](../modelagem/cenarios.md#cn03)             |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [#UC03](../modelagem/casos-de-uso.md#uc03)              |
+|                      Agregação                       |                                   [História de usuário #HU12](../modelagem/historias-de-usuario.md#hu12), <br>  [Épico 5 - Interface e experiencia do usuário #BK32](../modelagem/backlog.md#bk32)       |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
 <a id="rf35"></a>
 ## #RF35 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
@@ -409,6 +464,17 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf37"></a>
 ## #RF37 - Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
+|                  **RF37**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES07 - Suportabiliddade](../modelagem/especificacao-suplementar.md#es07)                     |
+|                       Recurso                        |      [#CN02](../modelagem/cenarios.md#cn02)      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [#UC10](../modelagem/casos-de-uso.md#uc02)              |
+|                      Agregação                       |                                   [História de usuário #HU11](../modelagem/historias-de-usuario.md#hu11) <br>  [Épico 8 - Interações e AP1](../modelagem/backlog.md#bk42)    |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
+
 
 <a id="rf38"></a>
 ## #RF38 – Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização)
@@ -452,6 +518,16 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rn06"></a>
 ## #RN06 - Em caso de falha, deve retornar mensagens de erro claras	
+|                  **RN06**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |      [#ES02](../modelagem/especificacao-suplementar.md#es02)             |
+|                       Recurso                        |    -     |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |           -              |
+|                      Agregação                       |                 -    |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
 <a id="rn07"></a>
 ## #RN07 - O sistema deve suportar múltiplas requisições simultâneas sem degradação
@@ -497,4 +573,5 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 | 07/06/2025 |  1.2   | (#PR01) Adição dos requisitos do projeto e seus hiperlinks.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.3   | (#PR01) Adição das tabelas dos elos para os requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.4   | (#PR01) Adição das tabelas dos elos para os requisitos #RF09-#RF13 #RF15-#RF16  | [`@Fabio`](https://github.com/fabinsz)  | [@Luiz](https://github.com/luizfaria1989)  |
-| 08/06/2025 |  1.5   | (#PR01) Adição das tabelas dos elos para os requisitos #RF28, #RF29, #RF30, #RF31, #RF32, #RF33, #RF35, #RF36, #RF38, #RN01  | [`@Gabriela`](https://github.com/gaubiela)  | -  |
+| 08/06/2025 |  1.5   | (#PR01) Adição das tabelas dos elos para os requisitos #RF28, #RF29, #RF30, #RF31, #RF32, #RF33, #RF35, #RF36, #RF38, #RN01  | [`@Gabriela`](https://github.com/gaubiela)  | 
+| 08/06/2025 |  1.6   | (#PR01) Adição das tabelas dos elos para os requisitos #RF14, #RF18, #RF19, #RF21, #RF34, #RF37  #RN06  | [`@Davi Emanuel`](https://github.com/daviRolvr)  | -  |
