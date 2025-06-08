@@ -41,6 +41,11 @@ Autor: Luiz
 
 | Contribuinte | Descrição                                                            | Links                                           |
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Luiz         | Criação dos elos para os requisitos #RF01, #RF02, #RF03, #RF04, #RF05, #RF06, #RF06, #RF08 | [#RF01](../rastreabilidade/pos-rastreabilidade.md#rf01), [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF03](../rastreabilidade/pos-rastreabilidade.md#rf03), [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF06](../rastreabilidade/pos-rastreabilidade.md#rf06), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08) |
+| Fábio        | Criação dos elos para os requisitos #RF09, #RF10, #RF11, #RF12, #RF13, #RF15, #RF16 | [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF11](../rastreabilidade/pos-rastreabilidade.md#rf11), [#RF12](../rastreabilidade/pos-rastreabilidade.md#rf12), [#RF13](../rastreabilidade/pos-rastreabilidade.md#rf13), [#RF15](../rastreabilidade/pos-rastreabilidade.md#rf15), [#RF16](../rastreabilidade/pos-rastreabilidade.md#rf16) |
+| Gabriela     | Criação dos elos para os requisitos #RF28, #RF29, #RF30, #RF31, #RF32, #RF33, #RF35, #RF36, #RF38, #RN01 | [#RF28](../rastreabilidade/pos-rastreabilidade.md#rf28), [#RF29](../rastreabilidade/pos-rastreabilidade.md#rf29), [#RF30](../rastreabilidade/pos-rastreabilidade.md#rf30), [#RF31](../rastreabilidade/pos-rastreabilidade.md#rf31), [#RF32](../rastreabilidade/pos-rastreabilidade.md#rf32), [#RF33](../rastreabilidade/pos-rastreabilidade.md#rf33), [#RF35](../rastreabilidade/pos-rastreabilidade.md#rf35), [#RF36](../rastreabilidade/pos-rastreabilidade.md#rf36), [#RF38](../rastreabilidade/pos-rastreabilidade.md#rf38), [#RN01](../rastreabilidade/pos-rastreabilidade.md#rn01) |
+| Davi         | Criação dos elos para os requisitos #RF14, #RF34, #RF14, #RF19, #RF21, #RF37, #RN06 | [#RF14](../rastreabilidade/pos-rastreabilidade.md#rf14), [#RF34](../rastreabilidade/pos-rastreabilidade.md#rf34), [#RF14](../rastreabilidade/pos-rastreabilidade.md#rf14), [#RF19](../rastreabilidade/pos-rastreabilidade.md#rf19), [#RF21](../rastreabilidade/pos-rastreabilidade.md#rf21), [#RF37](../rastreabilidade/pos-rastreabilidade.md#rf37), [#RN06](../rastreabilidade/pos-rastreabilidade.md#rn06) |
+| Ana Clara    | Criação dos elos para os requisitos #RF17, #RF20, #RF22, #RF23, #RF24, #RF25, #RF26, #RF27 | [#RF17](../rastreabilidade/pos-rastreabilidade.md#rf17), [#RF20](../rastreabilidade/pos-rastreabilidade.md#rf20), [#RF22](../rastreabilidade/pos-rastreabilidade.md#rf22), [#RF23](../rastreabilidade/pos-rastreabilidade.md#rf23), [#RF24](../rastreabilidade/pos-rastreabilidade.md#rf24), [#RF25](../rastreabilidade/pos-rastreabilidade.md#rf25), [#RF26](../rastreabilidade/pos-rastreabilidade.md#rf26), [#RF27](../rastreabilidade/pos-rastreabilidade.md#rf27) |
 | Luiz    | Criação dos elos para os requisitos #RF01, #RF02, #RF03, #RF04, #RF05, #RF06, #RF06, #RF08 | [#RF01](../rastreabilidade/pos-rastreabilidade.md#rf01), [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF03]((../rastreabilidade/pos-rastreabilidade.md#rf03)), [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF06](../rastreabilidade/pos-rastreabilidade.md#rf06), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08) |
 | Fábio    | Criação dos elos para os requisitos #RF09, #RF10, #RF11, #RF12, #RF13, #RF15, #RF16 | [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF11]((../rastreabilidade/pos-rastreabilidade.md#rf11)), [#RF12](../rastreabilidade/pos-rastreabilidade.md#rf12), [#RF13](../rastreabilidade/pos-rastreabilidade.md#rf13), [#RF15](../rastreabilidade/pos-rastreabilidade.md#rf15), [#RF16](../rastreabilidade/pos-rastreabilidade.md#rf16)|
 | Ana Joyce | Criação dos elos para os requisitos #RN02, #RN03, #RN04, #RN05, #RN07, #RN08, #RN09 | [#RN02](../rastreabilidade/pos-rastreabilidade.md#rn02), [#RN03](../rastreabilidade/pos-rastreabilidade.md#rn03), [#RN04]((../rastreabilidade/pos-rastreabilidade.md#rn04)), [#RN05](../rastreabilidade/pos-rastreabilidade.md#rn05), [#RN07](../rastreabilidade/pos-rastreabilidade.md#rn07), [#RN08](../rastreabilidade/pos-rastreabilidade.md#rn08), [#RN09](../rastreabilidade/pos-rastreabilidade.md#rn09)|
@@ -271,6 +276,18 @@ Fonte: Fábio
 
 ## #RF14 - Deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando página, site e/ou trecho extraído 
 
+|                  **RF14**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |        -              |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | -                |
+|                      Agregação                       |                                   [História de usuário #HU10](../modelagem/historias-de-usuario.md#hu10),[História de usuário #HU36](../modelagem/historias-de-usuario.md#hu36) <br>  [Épico 1 - Funcionalidades de uma IA #BK03](../modelagem/backlog.md#bk03), [#BK04](../modelagem/backlog.md#bk04)       |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
+
+
 <a id="rf15"></a>
 
 ## #RF15 - Deve ser possível alterar o idioma do sistema
@@ -308,71 +325,322 @@ Fonte: Fábio
 <a id="rf17"></a>
 ## #RF17 - Deve ser possível regenerar uma resposta da IA de forma manual ou automática em caso de erro de servidor ou sobrecarga
 
+|                  **RF17**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#UC08 - Refinar resposta gerada](../modelagem/casos-de-uso.md#uc08), <br> [#HU30 - História de usuário: Refinar resposta](../modelagem/historias-de-usuario.md#hu30) |
+|                       Recurso         | [Cenário #CN08](../modelagem/cenarios.md#cn08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08) |
+|                    Representação      | [#UC08 - Refinar resposta gerada](../modelagem/casos-de-uso.md#uc08) |
+|                       Alocado         | - |
+|                      Agregação        | [Cenário #CN08](../modelagem/cenarios.md#cn08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08) |
+
+Fonte: Ana Clara
+
+
 <a id="rf18"></a>
 ## #RF18 - O sistema deve exibir respostas formatadas em Markdown em tabelas ou listas complexas, com possibilidade de edição pelo usuário
+|                  **RF18**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES01 - design](../modelagem/especificacao-suplementar.md#es01)                     |
+|                       Recurso                        |      -      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | -                |
+|                      Agregação                       |                                   [História de usuário #HU23](../modelagem/historias-de-usuario.md#hu23),[História de usuário #HU34](../modelagem/historias-de-usuario.md#hu34) <br>  [Épico 5 - Interface e experiencia do usuário #BK26](../modelagem/backlog.md#bk26),  [#BK27](../modelagem/backlog.md#bk27)    |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
 <a id="rf19"></a>
 ## #RF19 - Deve ser possível interromper respostas em andamento
+|                  **RF19**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES01 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
+|                       Recurso                        |      [#CN10](../modelagem/cenarios.md#cn10)      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [#UC10](../modelagem/casos-de-uso.md#uc10)              |
+|                      Agregação                       |                                   [História de usuário #HU07](../modelagem/historias-de-usuario.md#hu07) <br>  [Épico 4 - Funcionalidades do chat #BK24](../modelagem/backlog.md#bk24)    |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
 <a id="rf20"></a>
 ## #RF20 - Deve possuir uma API pública
 
+|                  **RF20**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU31 - Utilizar uma API Pública](../modelagem/historias-de-usuario.md#hu31) |
+|                       Recurso         |  - |
+|                    Representação      | [#HU31 - Utilizar uma API Pública](../modelagem/historias-de-usuario.md#hu31) |
+|                       Alocado         | - |
+|                      Agregação        | [Épico 8 - Integrações e API #BK41](../modelagem/backlog.md#bk41) |
+
+Fonte: Ana Clara
+
 <a id="rf21"></a>
 ## #RF21 - Deve aceitar autenticação via token de acesso
+|                  **RF21**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES01 - Implementação](../modelagem/especificacao-suplementar.md#es02)                     |
+|                       Recurso                        |            |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |             |
+|                      Agregação                       |                                  |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
+
 
 <a id="rf22"></a>
 ## #RF22 - Deve haver uma confirmação para limpar o histórico
 
+|                  **RF22**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#UC13 - Apagar histórico com confirmação](../modelagem/casos-de-uso.md#uc13), <br> [#HU02 - Confirmar a exclusão do histórico de conversas](../modelagem/historias-de-usuario.md#hu02) |
+|                       Recurso         | [Cenário #CN13](../modelagem/cenarios.md#cn13) |
+|                    Representação      | [#UC13 - Apagar histórico com confirmação](../modelagem/casos-de-uso.md#uc13) |
+|                       Alocado         | [Léxico #LX13](../modelagem/lexicos.md#lx13) |
+|                      Agregação        | [Épico #BK09 - Controle de dados](../modelagem/backlog.md#bk09) |
+
+Fonte: Ana Clara
+
 <a id="rf23"></a>
 ## #RF23 - Deve suportar busca incremental (exibição de sugestões em tempo real conforme o usuário digita)
+
+|                  **RF23**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU05 - Busca incremental no campo de texto](../modelagem/historias-de-usuario.md#hu05) |
+|                       Recurso         | - |
+|                    Representação      | - |
+|                       Alocado         | - |
+|                      Agregação        | [Épico #BK28 - Interface e experiência do usuário](../modelagem/backlog.md#bk28) |
+
+Fonte: Ana Clara
 
 <a id="rf24"></a>
 ## #RF24 - Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256)
 
+|                  **RF24**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | - |
+|                       Recurso         | - |
+|                    Representação      | - |
+|                       Alocado         | - |
+|                      Agregação        | - |
+
+Fonte: Ana Clara
+
 <a id="rf25"></a>
 ## #RF25 - O usuário deve poder controlar quais dados são compartilhados (chat, histórico de buscas, localização)
+
+|                  **RF25**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU17 - Controlar quais dados são compartilhados com a IA](../modelagem/historias-de-usuario.md#hu17) |
+|                       Recurso         | - |
+|                    Representação      | - |
+|                       Alocado         | - |
+|                      Agregação        | [Épico #BK11 - Controle de dados](../modelagem/backlog.md#bk11) |
+
+Fonte: Ana Clara
 
 <a id="rf26"></a>
 ## #RF26 - Deve haver autenticação multifator opcional para acesso a funcionalidades avançadas
 
+|                  **RF26**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU16 - Autenticar a conta para acessar funcionalidades avançadas](../modelagem/historias-de-usuario.md#hu16) |
+|                       Recurso         | - |
+|                    Representação      | - |
+|                       Alocado         | - |
+|                      Agregação        | [Épico #BK16 - Segurança](../modelagem/backlog.md#bk16) |
+
+Fonte: Ana Clara
+
 <a id="rf27"></a>
 ## #RF27 - Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO
+
+|                  **RF27**              | **Classificação do Artefato Analisado** |
+| ------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo      |       Artefatos Relacionados            |
+|                      Satisfação       | [#HU19 - Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO](../modelagem/historias-de-usuario.md#hu19) |
+|                       Recurso         | [Cenário #CN05](../modelagem/cenarios.md#cn05) |
+|                    Representação      | - |
+|                       Alocado         | [Caso de uso #UC05](../modelagem/casos-de-uso.md#uc05), <br> [Léxico #LX05](../modelagem/lexicos.md#lx05) |
+|                      Agregação        | [Épico #BK29 - Interface e experiência do usuário](../modelagem/backlog.md#bk29) |
+
+Fonte: Ana Clara
 
 <a id="rf28"></a>
 ## #RF28 - Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades
 
+| **RF28** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | [#CN12](../modelagem/cenarios.md#cn12) |
+| Representação | – |
+| Alocado | [#UC12](../modelagem/casos-de-uso.md#uc12), [#LX12](../modelagem/lexicos.md#lx12) |
+| Agregação | [#HU01](../modelagem/historias-de-usuario.md#hu01), [#BK30](../modelagem/backlog.md#bk30) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
+
 <a id="rf29"></a>
 ## #RF29 - Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga)
+
+| **RF29** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | [#CN11](../modelagem/cenarios.md#cn11) |
+| Representação | – |
+| Alocado | [#UC11](../modelagem/casos-de-uso.md#uc11), [#LX11](../modelagem/lexicos.md#lx11) |
+| Agregação | [#HU14](../modelagem/historias-de-usuario.md#hu14), [#BK31](../modelagem/backlog.md#bk31) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf30"></a>
 ## #RF30 - Melhorar retenção de contexto em diálogos longos
 
+| **RF30** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU24](../modelagem/historias-de-usuario.md#hu24), [#BK06](../modelagem/backlog.md#bk06) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
+
 <a id="rf31"></a>
 ## #RF31 - Implementar memória de contexto persistente entre conversas
+
+| **RF31** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU31](../modelagem/historias-de-usuario.md#hu31), [#BK02](../modelagem/backlog.md#bk02) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf32"></a>
 ## #RF32 - Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)
 
+| **RF32** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | [#CN04](../modelagem/cenarios.md#cn04) |
+| Representação | – |
+| Alocado | [#UC04](../modelagem/casos-de-uso.md#uc04), [#LX04](../modelagem/lexicos.md#lx04) |
+| Agregação | [#HU20](../modelagem/historias-de-usuario.md#hu20), [#BK25](../modelagem/backlog.md#bk25) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
+
 <a id="rf33"></a>
 ## #RF33 - Permitir organização de conversas em pastas ou listas por tema ou projeto
 
+| **RF33** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU09](../modelagem/historias-de-usuario.md#hu09), [#BK25](../modelagem/backlog.md#bk25) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
+
 <a id="rf34"></a>
 ## #RF34 - Implementar comandos de voz para entrada e saída de informações
+|                  **RF34**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES02 - implementação](../modelagem/especificacao-suplementar.md#es02)                     |
+|                       Recurso                        |        [#CN03](../modelagem/cenarios.md#cn03)             |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [#UC03](../modelagem/casos-de-uso.md#uc03)              |
+|                      Agregação                       |                                   [História de usuário #HU12](../modelagem/historias-de-usuario.md#hu12), <br>  [Épico 5 - Interface e experiencia do usuário #BK32](../modelagem/backlog.md#bk32)       |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
 <a id="rf35"></a>
-## #RF34 - Implementar comandos de voz para entrada e saída de informações
+## #RF35 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+
+| **RF35** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU21](../modelagem/historias-de-usuario.md#hu21), [#BK33](../modelagem/backlog.md#bk33) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf36"></a>
-## #RF36 - Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR
+## #RF36 – Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR
+
+| **RF36** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU22](../modelagem/historias-de-usuario.md#hu22), [#BK40](../modelagem/backlog.md#bk40) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf37"></a>
 ## #RF37 - Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
+|                  **RF37**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      | [#ES07 - Suportabiliddade](../modelagem/especificacao-suplementar.md#es07)                     |
+|                       Recurso                        |      [#CN02](../modelagem/cenarios.md#cn02)      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        | [#UC10](../modelagem/casos-de-uso.md#uc02)              |
+|                      Agregação                       |                                   [História de usuário #HU11](../modelagem/historias-de-usuario.md#hu11) <br>  [Épico 8 - Interações e AP1](../modelagem/backlog.md#bk42)    |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
+
 
 <a id="rf38"></a>
-## #RF38 - Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização)
+## #RF38 – Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização)
+
+| **RF38** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | [#CN14](../modelagem/cenarios.md#cn14) |
+| Representação | – |
+| Alocado | [#UC14](../modelagem/casos-de-uso.md#uc14), [#LX14](../modelagem/lexicos.md#lx14) |
+| Agregação | [#HU33](../modelagem/historias-de-usuario.md#hu33), [#BK08](../modelagem/backlog.md#bk08) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rn01"></a>
-## #RN01 - Deve fazer o uso da arquitetura DeepSeek-V3
+## #RN01 – Deve fazer o uso da arquitetura DeepSeek-V3
+
+| **RN01** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | [#ES07](../modelagem/especificacao-suplementar.md#es07) |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#CNFR12](../modelagem/nfr-framework.md#cnfr12) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rn02"></a>
 ## #RN02 - Deve possuir versões para Android e IOS
@@ -432,6 +700,16 @@ Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
 
 <a id="rn06"></a>
 ## #RN06 - Em caso de falha, deve retornar mensagens de erro claras	
+|                  **RN06**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |      [#ES02](../modelagem/especificacao-suplementar.md#es02)             |
+|                       Recurso                        |    -     |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |           -              |
+|                      Agregação                       |                 -    |
+
+Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
 <a id="rn07"></a>
 ## #RN07 - O sistema deve suportar múltiplas requisições simultâneas sem degradação
@@ -509,7 +787,9 @@ Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
 | 07/06/2025 |  1.1   | (#PR01) Elaboração da introdução, meotodologia e do template de representação dos elos.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.2   | (#PR01) Adição dos requisitos do projeto e seus hiperlinks.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.3   | (#PR01) Adição das tabelas dos elos para os requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@Fabio`](https://github.com/fabinsz)   |
-| 07/06/2025 |  1.4   | (#PR01) Adição das tabelas dos elos para os requisitos #RF09-#RF13 #RF15-#RF16  | [`@Fabio`](https://github.com/fabinsz)  | [@Luiz](https://github.com/luizfaria1989)  |
-| 08/06/2025 |  1.5   | (#PR01) Adição dos cartões de especificação para os elos dos requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@`](https://github.com/)   |
-| 08/06/2025 |  1.6   | ` Adição das tabelas dos elos para os requisitos #RN02 até o #RN05 e do #RN07 até o #RN09 | [`@Ana Joyce`](https://github.com/anajoyceamorim)  | [`@Luiz`](https://github.com/luizfaria1989)  |
-
+| 07/06/2025 |  1.4   | (#PR01) Adição das tabelas dos elos para os requisitos #RF09-#RF13 #RF15-#RF16  | [`@Fabio`](https://github.com/fabinsz)  | ['@Luiz'](https://github.com/luizfaria1989)  |
+| 08/06/2025 |  1.5   | (#PR01) Adição das tabelas dos elos para os requisitos #RF28, #RF29, #RF30, #RF31, #RF32, #RF33, #RF35, #RF36, #RF38, #RN01  | [`@Gabriela`](https://github.com/gaubiela)  | [`@Luiz`](https://github.com/luizfaria1989) |
+| 08/06/2025 |  1.6   | (#PR01) Adição das tabelas dos elos para os requisitos #RF14, #RF18, #RF19, #RF21, #RF34, #RF37  #RN06  | [`@Davi Emanuel`](https://github.com/daviRolvr)  | [`@Luiz`](https://github.com/luizfaria1989)  |
+| 08/06/2025 |  1.7   | (#PR01) Adição das tabelas dos elos para os requisitos #RF17, #RF20, #RF22, #RF23, #RF24, #RF25, #RF26, #RF27  | [`@Ana Clara`](https://github.com/anabborges)  | [`@Luiz`](https://github.com/luizfaria1989)  |
+| 08/06/2025 |  1.8   | (#PR01) Adição dos cartões de especificação para os elos dos requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@`](https://github.com/)   |
+| 08/06/2025 |  1.9   | ` Adição das tabelas dos elos para os requisitos #RN02 até o #RN05 e do #RN07 até o #RN09 | [`@Ana Joyce`](https://github.com/anajoyceamorim)  | [`@Luiz`](https://github.com/luizfaria1989)  |
