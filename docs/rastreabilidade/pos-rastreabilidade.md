@@ -24,7 +24,7 @@ No meta-modelo de Toranzo o suporte a rastreabilidade indentica os seguintes tip
 
 Com base nesses elos é possível elaborar a Tabela 1, que será usada como template para representar os elos dos artefatos com os requisitos desenvolvidos nesse projeto.
 
-Tabela 1 - Template Pós-Rastreabilidade
+<font><p style="text-align: center">**Tabela 1** - Template para a criação dos elos dos requisitos.</p></font>
 
 |                  **Artefato Analisado**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -49,7 +49,10 @@ Autor: Luiz
 Nesse tópico são apresentadas as tabelas referentes aos elos dos artefatos analisados ao longo do projeto. Assim, cada um dos 52 requisitos elicitados possuem uma tabela semelhante ao template da Tabela 1, com seus artefatos relacionados.
 
 <a id="rf01"></a>
+
 ## #RF01 - Deve oferecer a possibilidade do usuário acionar a pesquisa na web
+
+<font><p style="text-align: center">**Tabela 2** - Elos para o requisito #RF01.</p></font>
 
 |                  **RF01**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -63,7 +66,10 @@ Nesse tópico são apresentadas as tabelas referentes aos elos dos artefatos ana
 Fonte: Luiz
 
 <a id="rf02"></a>
+
 ## #RF02 - Deve haver a possibilidade de uso do pensamento profundo para solução de problemas (Deep Thinking)
+
+<font><p style="text-align: center">**Tabela 3** - Elos para o requisito #RF03.</p></font>
 
 |                  **RF02**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -77,12 +83,15 @@ Fonte: Luiz
 Fonte: Luiz
 
 <a id="rf03"></a>
+
 ## #RF03 - O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s
+
+<font><p style="text-align: center">**Tabela 4** - Elos para o requisito #RF03.</p></font>
 
 |                  **RF03**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
-|                      Satisfação                      |  [#ES06 - Desempenho](../modelagem/especificacao-suplementar.md#es06) |
+|                      Satisfação                      |  [#ES06 - Desempenho](../modelagem/especificacao-suplementar.md#es06) <br> [Cartão de especificação #CNFR01](../modelagem/nfr-framework.md#cnfr01) <br> [Cartão de especificação #CNFR04](../modelagem/nfr-framework.md#cnfr04) <br> [Cartão de especificação #CNFR16](../modelagem/nfr-framework.md#cnfr16)   |
 |                       Recurso                        | [Cenário #CN06](../modelagem/cenarios.md#cn06)                      |
 |                    Representação                     |                  -                      |
 |                       Alocado                        | [Caso de uso #UC06](../modelagem/casos-de-uso.md#uc06), <br> [Léxico #LX06](../modelagem/lexicos.md#lx06)                                            |
@@ -91,12 +100,15 @@ Fonte: Luiz
 Fonte: Luiz
 
 <a id="rf04"></a>
+
 ## #RF04 - Deve possuir a opção de login com conta Google/Apple ID
+
+<font><p style="text-align: center">**Tabela 5** - Elos para o requisito #RF04.</p></font>
 
 |                  **RF04**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
-|                      Satisfação                      | [#ES07 - Suportabilidade](../modelagem/especificacao-suplementar.md#es07) |
+|                      Satisfação                      | [#ES07 - Suportabilidade](../modelagem/especificacao-suplementar.md#es07) <br> [Cartão de especificação #CNFR02](../modelagem/nfr-framework.md#cnfr02) <br> [Cartão de especificação #CNFR09](../modelagem/nfr-framework.md#cnfr09) |
 |                       Recurso                        |                  -                      |
 |                    Representação                     |                  -                      |
 |                       Alocado                        |                                         |
@@ -105,12 +117,15 @@ Fonte: Luiz
 Fonte: Luiz
 
 <a id="rf05"></a>
+
 ## #RF05 - Deve salvar chats entre plataformas
+
+<font><p style="text-align: center">**Tabela 6** - Elos para o requisito #RF05.</p></font>
 
 |                  **RF05**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
-|                      Satisfação                      | [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05)
+|                      Satisfação                      | [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05) <br> [Cartão de especificação #CNFR03](../modelagem/nfr-framework.md#cnfr03) <br> [Cartão de especificação #CNFR11](../modelagem/nfr-framework.md#cnfr11) |
 |                       Recurso                        |                  -                      |
 |                    Representação                     |                  -                      |
 |                       Alocado                        |                  -                      |
@@ -119,12 +134,15 @@ Fonte: Luiz
 Fonte: Luiz
 
 <a id="rf06"></a>
+
 ## #RF06 - Melhorar as capacidades de "deep thinking"
+
+<font><p style="text-align: center">**Tabela 7** - Elos para o requisito #RF06.</p></font>
 
 |                  **RF05**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
-|                      Satisfação                      |                  -                      |
+|                      Satisfação                      |                  [Cartão de especificação #CNFR12](../modelagem/nfr-framework.md#cnfr12)                        |
 |                       Recurso                        |                  -                      |
 |                    Representação                     |                  -                      |
 |                       Alocado                        |                  -                      |
@@ -133,7 +151,10 @@ Fonte: Luiz
 Fonte: Luiz
 
 <a id="rf07"></a>
+
 ## #RF07 - Deve haver um campo para a interação com a IA
+
+<font><p style="text-align: center">**Tabela 8** - Elos para o requisito #RF07.</p></font>
 
 |                  **RF07**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -145,7 +166,10 @@ Fonte: Luiz
 |                      Agregação                       |                  [História de usuário #HU03](../modelagem/historias-de-usuario.md#hu03), <br> [Épico 4 - Funcionalidades do chat #BK18](../modelagem/backlog.md#bk18)                      |
 
 <a id="rf08"></a>
+
 ## #RF08 - Deve ser possível criar novos chats
+
+<font><p style="text-align: center">**Tabela 9** - Elos para o requisito #RF08.</p></font>
 
 |                  **RF08**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -157,7 +181,10 @@ Fonte: Luiz
 |                      Agregação                       |                  [História de usuário #HU42](../modelagem/historias-de-usuario.md#hu42), <br> [Épico 5 - Interface e experiência do usuário #BK21](../modelagem/backlog.md#bk21)                      |
 
 <a id="rf09"></a>
+
 ## #RF09 - Deve ser possível renomear um chat
+
+<font><p style="text-align: center">**Tabela 10** - Elos para o requisito #RF09.</p></font>
 
 
 |                  **RF09**              | **Classificação do Artefato Analisado** |
@@ -172,7 +199,10 @@ Fonte: Luiz
 Fonte: Fábio
 
 <a id="rf10"></a>
+
 ## #RF10 - Os chats já utilizados devem poder ser acessados posteriormente
+
+<font><p style="text-align: center">**Tabela 11** - Elos para o requisito #RF10.</p></font>
 
 |                  **RF10**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -186,7 +216,10 @@ Fonte: Fábio
 Fonte: Fábio
 
 <a id="rf11"></a>
+
 ## #RF11 - Deve ser possível dar dislike em uma resposta da IA
+
+<font><p style="text-align: center">**Tabela 12** - Elos para o requisito #RF11.</p></font>
 
 |                  **RF11**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -200,7 +233,10 @@ Fonte: Fábio
 Fonte: Fábio
 
 <a id="rf12"></a>
+
 ## #RF12 - Deve ser possível dar like em uma resposta da IA
+
+<font><p style="text-align: center">**Tabela 13** - Elos para o requisito #RF12.</p></font>
 
 |                  **RF12**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -214,7 +250,10 @@ Fonte: Fábio
 Fonte: Fábio
 
 <a id="rf13"></a>
+
 ## #RF13 - Deve ser possível copiar uma resposta da IA
+
+<font><p style="text-align: center">**Tabela 14** - Elos para o requisito #RF13.</p></font>
 
 |                  **RF13**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -228,10 +267,14 @@ Fonte: Fábio
 Fonte: Fábio
 
 <a id="rf14"></a>
+
 ## #RF14 - Deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando página, site e/ou trecho extraído 
 
 <a id="rf15"></a>
+
 ## #RF15 - Deve ser possível alterar o idioma do sistema
+
+<font><p style="text-align: center">**Tabela 16** - Elos para o requisito #RF15.</p></font>
 
 |                  **RF15**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -245,7 +288,10 @@ Fonte: Fábio
 Fonte: Fábio
 
 <a id="rf16"></a>
+
 ## #RF16 - Deve ser possível apagar conversas individuais ou de forma geral
+
+<font><p style="text-align: center">**Tabela 17** - Elos para o requisito #RF16.</p></font>
 
 |                  **RF16**              | **Classificação do Artefato Analisado** |
 | ---------------------------------------------------- | --------------------------------------- |
@@ -386,3 +432,4 @@ Fonte: Fábio
 | 07/06/2025 |  1.2   | (#PR01) Adição dos requisitos do projeto e seus hiperlinks.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.3   | (#PR01) Adição das tabelas dos elos para os requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.4   | (#PR01) Adição das tabelas dos elos para os requisitos #RF09-#RF13 #RF15-#RF16  | [`@Fabio`](https://github.com/fabinsz)  | [@Luiz](https://github.com/luizfaria1989)  |
+| 08/06/2025 |  1.5   | (#PR01) Adição dos cartões de especificação para os elos dos requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@`](https://github.com/)   |
