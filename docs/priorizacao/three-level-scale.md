@@ -217,6 +217,7 @@ As técnicas de produção in or out e three level scale foram aplicadas em conj
     **Status:** Não implementado  
     **Categoria de importância:** Don't do these! 
 
+<a id="tls-rn10"></a>
 38. Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em processos de re-treinamento ou venda de modelos. \
     **Tipo:** Não funcional  
     **Status:** Não implementado  
@@ -232,20 +233,24 @@ As técnicas de produção in or out e three level scale foram aplicadas em conj
     **Status:** Parcialmente implementado  
     **Categoria de importância:** Média prioridade   
 
+<a id="tls-rn12"></a>
 41.  Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas. \
     **Tipo:** Não funcional  
     **Status:** Parcialmente implem.  
     **Categoria de importância:** Média prioridade  
+
 
 42. Implementar memória de contexto persistente entre conversas. \
     **Tipo:** Funcional  
     **Status:** Não implementado  
     **Categoria de importância:** Média prioridade 
 
+
  43. Permitir escolha de modelos (seleção de diferentes versões/modelos de IA). \
     **Tipo:** Funcional  
     **Status:** Não implementado  
     **Categoria de importância:** Média prioridade
+
 
 44. Permitir organização de conversas em pastas ou listas por tema ou projeto. \
     **Tipo:** Funcional  
@@ -257,16 +262,19 @@ As técnicas de produção in or out e three level scale foram aplicadas em conj
     **Status:** Não implementado  
     **Categoria de importância:** Alta prioridade  
 
+<a id="tls-rn13"></a>
 46. Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras. \
     **Tipo:** Não funcional  
     **Status:** Parcialmente implementado  
     **Categoria de importância:** Baixa prioridade
 
+<a id="tls-rn14"></a>
 47. Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras. \
     **Tipo:** Não funcional  
     **Status:** Não implementado  
     **Categoria de importância:** Baixa prioridade 
 
+<a id="tls-rn15"></a>
 48. Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras. \
     **Tipo:** Não funcional  
     **Status:** Não implementado  

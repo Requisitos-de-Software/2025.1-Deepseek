@@ -43,6 +43,7 @@ Autor: Luiz
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
 | Luiz    | Criação dos elos para os requisitos #RF01, #RF02, #RF03, #RF04, #RF05, #RF06, #RF06, #RF08 | [#RF01](../rastreabilidade/pos-rastreabilidade.md#rf01), [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF03]((../rastreabilidade/pos-rastreabilidade.md#rf03)), [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF06](../rastreabilidade/pos-rastreabilidade.md#rf06), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08) |
 | Fábio    | Criação dos elos para os requisitos #RF09, #RF10, #RF11, #RF12, #RF13, #RF15, #RF16 | [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF11]((../rastreabilidade/pos-rastreabilidade.md#rf11)), [#RF12](../rastreabilidade/pos-rastreabilidade.md#rf12), [#RF13](../rastreabilidade/pos-rastreabilidade.md#rf13), [#RF15](../rastreabilidade/pos-rastreabilidade.md#rf15), [#RF16](../rastreabilidade/pos-rastreabilidade.md#rf16)|
+| Mateus    | Criação dos elos para os requisitos #RN10, #RN11, #RN12, #RN13, #RN14, #RN15 | [#RN10](../rastreabilidade/pos-rastreabilidade.md#rn10), [#RN11](../rastreabilidade/pos-rastreabilidade.md#rn10), [#RN12](../rastreabilidade/pos-rastreabilidade.md#rn12), [#RN13](../rastreabilidade/pos-rastreabilidade.md#rn13), [#RN14](../rastreabilidade/pos-rastreabilidade.md#rn14), [#RN15](../rastreabilidade/pos-rastreabilidade.md#rn15) |
 
 # Rastreabilidade
 
@@ -352,22 +353,74 @@ Fonte: Fábio
 ## #RN09 - Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados
 
 <a id="rn10"></a>
-## #RN10 - Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+## #RN10 e #RN11 - Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
 
-<a id="rn11"></a>
-## #RN11 - Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos
+|                  **Artefato Analisado**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |                  [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05)                      |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  [Classificação - Three Level Scale](../priorizacao/three-level-scale.md#tls-rn10)                      |
+
+Autor: [Mateus](https://github.com/MVConsorte)
 
 <a id="rn12"></a>
 ## #RN12 - Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas
 
+|                  **Artefato Analisado**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |                  [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05) <br> [#ES02 - Implementação](../modelagem/especificacao-suplementar.md#es02)                    |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  [Classificação - Three Level Scale](../priorizacao/three-level-scale.md#tls-rn12)                      |
+
+Autor: [Mateus](https://github.com/MVConsorte)
+
 <a id="rn13"></a>
 ## #RN13 - Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras
+
+|                  **Artefato Analisado**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |                  [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04) <br> [#ES01 - Design](../modelagem/especificacao-suplementar.md#es01)                |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  [Classificação - Three Level Scale](../priorizacao/three-level-scale.md#tls-rn13)                      |
+
+Autor: [Mateus](https://github.com/MVConsorte)
 
 <a id="rn14"></a>
 ## #RN14 - Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras	
 
+|                  **Artefato Analisado**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |                  [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04) <br> [#ES01 - Design](../modelagem/especificacao-suplementar.md#es01)              |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  [Classificação - Three Level Scale](../priorizacao/three-level-scale.md#tls-rn14)                      |
+
+Autor: [Mateus](https://github.com/MVConsorte)
+
 <a id="rn15"></a>
 ## #RN15 - Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras
+
+|                  **Artefato Analisado**              | **Classificação do Artefato Analisado** |
+| ---------------------------------------------------- | --------------------------------------- |
+|                     Tipos de Elo                     |       Artefatos Relacionados            |
+|                      Satisfação                      |                  [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04) <br> [#ES01 - Design](../modelagem/especificacao-suplementar.md#es01)            |
+|                       Recurso                        |                  -                      |
+|                    Representação                     |                  -                      |
+|                       Alocado                        |                  -                      |
+|                      Agregação                       |                  [Classificação - Three Level Scale](../priorizacao/three-level-scale.md#tls-rn15)                      |
+
+Autor: [Mateus](https://github.com/MVConsorte)
 
 # Referências Bibliográficas
 
