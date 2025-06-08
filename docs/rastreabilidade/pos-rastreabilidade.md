@@ -43,6 +43,7 @@ Autor: Luiz
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
 | Luiz    | Criação dos elos para os requisitos #RF01, #RF02, #RF03, #RF04, #RF05, #RF06, #RF06, #RF08 | [#RF01](../rastreabilidade/pos-rastreabilidade.md#rf01), [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF03]((../rastreabilidade/pos-rastreabilidade.md#rf03)), [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF06](../rastreabilidade/pos-rastreabilidade.md#rf06), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08) |
 | Fábio    | Criação dos elos para os requisitos #RF09, #RF10, #RF11, #RF12, #RF13, #RF15, #RF16 | [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF11]((../rastreabilidade/pos-rastreabilidade.md#rf11)), [#RF12](../rastreabilidade/pos-rastreabilidade.md#rf12), [#RF13](../rastreabilidade/pos-rastreabilidade.md#rf13), [#RF15](../rastreabilidade/pos-rastreabilidade.md#rf15), [#RF16](../rastreabilidade/pos-rastreabilidade.md#rf16)|
+| Gabriela     | Criação dos elos para os requisitos #RF28, #RF29, #RF30, #RF31, #RF32, #RF33, #RF35, #RF36, #RF38, #RN01 | [#RF28](../rastreabilidade/pos-rastreabilidade.md#rf28), [#RF29](../rastreabilidade/pos-rastreabilidade.md#rf29), [#RF30](../rastreabilidade/pos-rastreabilidade.md#rf30), [#RF31](../rastreabilidade/pos-rastreabilidade.md#rf31), [#RF32](../rastreabilidade/pos-rastreabilidade.md#rf32), [#RF33](../rastreabilidade/pos-rastreabilidade.md#rf33), [#RF35](../rastreabilidade/pos-rastreabilidade.md#rf35), [#RF36](../rastreabilidade/pos-rastreabilidade.md#rf36), [#RF38](../rastreabilidade/pos-rastreabilidade.md#rf38), [#RN01](../rastreabilidade/pos-rastreabilidade.md#rn01) |
 
 # Rastreabilidade
 
@@ -294,38 +295,148 @@ Fonte: Fábio
 <a id="rf28"></a>
 ## #RF28 - Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades
 
+| **RF28** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | [#CN12](../modelagem/cenarios.md#cn12) |
+| Representação | – |
+| Alocado | [#UC12](../modelagem/casos-de-uso.md#uc12), [#LX12](../modelagem/lexicos.md#lx12) |
+| Agregação | [#HU01](../modelagem/historias-de-usuario.md#hu01), [#BK30](../modelagem/backlog.md#bk30) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
+
 <a id="rf29"></a>
 ## #RF29 - Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga)
+
+| **RF29** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | [#CN11](../modelagem/cenarios.md#cn11) |
+| Representação | – |
+| Alocado | [#UC11](../modelagem/casos-de-uso.md#uc11), [#LX11](../modelagem/lexicos.md#lx11) |
+| Agregação | [#HU14](../modelagem/historias-de-usuario.md#hu14), [#BK31](../modelagem/backlog.md#bk31) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf30"></a>
 ## #RF30 - Melhorar retenção de contexto em diálogos longos
 
+| **RF30** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU24](../modelagem/historias-de-usuario.md#hu24), [#BK06](../modelagem/backlog.md#bk06) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
+
 <a id="rf31"></a>
 ## #RF31 - Implementar memória de contexto persistente entre conversas
+
+| **RF31** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU31](../modelagem/historias-de-usuario.md#hu31), [#BK02](../modelagem/backlog.md#bk02) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf32"></a>
 ## #RF32 - Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)
 
+| **RF32** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | [#CN04](../modelagem/cenarios.md#cn04) |
+| Representação | – |
+| Alocado | [#UC04](../modelagem/casos-de-uso.md#uc04), [#LX04](../modelagem/lexicos.md#lx04) |
+| Agregação | [#HU20](../modelagem/historias-de-usuario.md#hu20), [#BK25](../modelagem/backlog.md#bk25) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
+
 <a id="rf33"></a>
 ## #RF33 - Permitir organização de conversas em pastas ou listas por tema ou projeto
+
+| **RF33** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU09](../modelagem/historias-de-usuario.md#hu09), [#BK25](../modelagem/backlog.md#bk25) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf34"></a>
 ## #RF34 - Implementar comandos de voz para entrada e saída de informações
 
 <a id="rf35"></a>
-## #RF34 - Implementar comandos de voz para entrada e saída de informações
+## #RF35 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico
+
+| **RF35** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU21](../modelagem/historias-de-usuario.md#hu21), [#BK33](../modelagem/backlog.md#bk33) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf36"></a>
-## #RF36 - Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR
+## #RF36 – Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR
+
+| **RF36** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#HU22](../modelagem/historias-de-usuario.md#hu22), [#BK40](../modelagem/backlog.md#bk40) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rf37"></a>
 ## #RF37 - Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas
 
 <a id="rf38"></a>
-## #RF38 - Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização)
+## #RF38 – Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização)
+
+| **RF38** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | – |
+| Recurso | [#CN14](../modelagem/cenarios.md#cn14) |
+| Representação | – |
+| Alocado | [#UC14](../modelagem/casos-de-uso.md#uc14), [#LX14](../modelagem/lexicos.md#lx14) |
+| Agregação | [#HU33](../modelagem/historias-de-usuario.md#hu33), [#BK08](../modelagem/backlog.md#bk08) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rn01"></a>
-## #RN01 - Deve fazer o uso da arquitetura DeepSeek-V3
+## #RN01 – Deve fazer o uso da arquitetura DeepSeek-V3
+
+| **RN01** | **Classificação do Artefato Analisado** |
+| --- | --- |
+| **Tipos de Elo** | **Artefatos Relacionados** |
+| Satisfação | [#ES07](../modelagem/especificacao-suplementar.md#es07) |
+| Recurso | – |
+| Representação | – |
+| Alocado | – |
+| Agregação | [#CNFR12](../modelagem/nfr-framework.md#cnfr12) |
+
+Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 
 <a id="rn02"></a>
 ## #RN02 - Deve possuir versões para Android e IOS
