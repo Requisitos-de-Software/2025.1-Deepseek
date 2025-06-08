@@ -71,5 +71,5 @@ Esta seção descreve as principais ferramentas que serão utilizadas no desenvo
 | :--------: | :----: | :----------:                              | :---------------: | :---------------: |
 | 13/04/2025 |  0.1   | Ferramentas Utilizadas                    | [@Fábio Gabriel](https://github.com/fabinsz)| [@Ana Joyce](https://github.com/anajoyceamorim)|
 | 19/04/2025 |  0.2   | adicionando mais ferramentas Utilizadas                    | [@Fábio Gabriel](https://github.com/fabinsz)| [@Mateus](https://github.com/MVConsorte)|
-| 07/06/2025 |  0.3   | adicionando mais ferramentas Utilizadas                    | [@Mateus](https://github.com/MVConsorte)| [](https://github.com/) |
+| 07/06/2025 |  0.3   | adicionando mais ferramentas Utilizadas                    | [@Mateus](https://github.com/MVConsorte)| [@Ana Joyce](https://github.com/anajoyceamorim) |
 
