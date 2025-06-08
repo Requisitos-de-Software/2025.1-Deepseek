@@ -727,4 +727,4 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 01/06/2025 |  1.7  | (#NFR01) Criação de cards 14 a 19 | [`@Ana Joyce`](https://github.com/anajoyceamorim)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 01/06/2025 |  1.8  | (#NFR01) Criação de cards 23 a 25 | [`@Davi Emanuel`](https://github.com/daviRolvr)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 01/06/2025 |  1.9  | (#NFR01) Criação de cards 29 a 31 | [`@Ana Clara`](https://github.com/anabborges)   | [`@Luiz`](https://github.com/luizfaria1989)  |
-| 05/06/2025 |  2.0  | (#NFR01) Adição dos ids dos cartões de especifição | [`Luiz`](https://github.com/luizfaria1989)   | [`@`](https://github.com/)  |
+| 05/06/2025 |  2.0  | (#NFR01) Adição dos ids dos cartões de especifição | [`Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)  |

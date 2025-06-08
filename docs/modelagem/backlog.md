@@ -252,6 +252,6 @@ Fonte: [Luiz](https://github.com/luizfaria1989)
 | 01/06/2025 |  1.6   | (#B01) Categorização das histórias de usuário 01 a 06. Criação dos temas.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 01/06/2025 |  1.7   | (#B01) Categorização das histórias de usuário 37 a 42.| [`@Luiz`](https://github.com/luizfaria1989)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 01/06/2025 |  1.8   | (#B01) Categorização das histórias de usuário 7 a 12.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
-| 05/06/2025 |  2.0   | (#B01) Adição dos ids para organizar o backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
-| 07/06/2025 |  2.1   | (#B01) Adição dos hiperlinks para as histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
-| 07/06/2025 |  2.2   | (#B01) Adição dos hiperlinks para a citação dos IDs do backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
+| 05/06/2025 |  2.0   | (#B01) Adição dos ids para organizar o backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz) |
+| 07/06/2025 |  2.1   | (#B01) Adição dos hiperlinks para as histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz) |
+| 07/06/2025 |  2.2   | (#B01) Adição dos hiperlinks para a citação dos IDs do backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz) |

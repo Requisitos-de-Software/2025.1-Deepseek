@@ -38,4 +38,4 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 07/06/2025 |  1.0   | (#V01) Criação da página das listas de verificação com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
+| 07/06/2025 |  1.0   | (#V01) Criação da página das listas de verificação com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)  |

@@ -296,5 +296,5 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | 18/05/2025 |  1.6  | (#UCO2) Adição de conteúdo desenvolvido.| [@Ana Borges](https://github.com/anabborges)   | [@](https://github.com) |
 | 18/05/2025 |  1.7  | (#UC01-02-03) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos casos de uso.| [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
 | 18/05/2025 |  1.8  | (#UC02) Adição do diagrama de casos de uso| [@Luiz](https://github.com/luizfaria1989)  | [@Gabriela](https://github.com/gaubiela)  |
-| 05/06/2025 |  2.0  | (#UC02) Adição dos ids para os casos de uso criados| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
-| 06/06/2025 |  2.1  | (#UC02) Adição da tabela de contribuições e dos hiberlinks para os casos de uso desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
+| 05/06/2025 |  2.0  | (#UC02) Adição dos ids para os casos de uso criados| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
+| 06/06/2025 |  2.1  | (#UC02) Adição da tabela de contribuições e dos hiberlinks para os casos de uso desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |

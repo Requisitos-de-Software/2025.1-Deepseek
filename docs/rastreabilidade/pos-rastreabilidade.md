@@ -381,8 +381,8 @@ Fonte: Fábio
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 07/06/2025 |  1.0   | (#PR01) Criação do documento de pós-rastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 07/06/2025 |  1.1   | (#PR01) Elaboração da introdução, meotodologia e do template de representação dos elos.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 07/06/2025 |  1.2   | (#PR01) Adição dos requisitos do projeto e seus hiperlinks.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 07/06/2025 |  1.3   | (#PR01) Adição das tabelas dos elos para os requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [@](https://github.com/)  |
+| 07/06/2025 |  1.0   | (#PR01) Criação do documento de pós-rastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 07/06/2025 |  1.1   | (#PR01) Elaboração da introdução, meotodologia e do template de representação dos elos.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 07/06/2025 |  1.2   | (#PR01) Adição dos requisitos do projeto e seus hiperlinks.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 07/06/2025 |  1.3   | (#PR01) Adição das tabelas dos elos para os requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@Fabio`](https://github.com/fabinsz)   |
 | 07/06/2025 |  1.4   | (#PR01) Adição das tabelas dos elos para os requisitos #RF09-#RF13 #RF15-#RF16  | [`@Fabio`](https://github.com/fabinsz)  | [@Luiz](https://github.com/luizfaria1989)  |

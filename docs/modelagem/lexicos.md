@@ -328,5 +328,5 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 18/05/2025 |  1.6   | (#LX01) Adição de conteúdo desenvolvido.  | [@Ana Borges](https://github.com/anabborges)   | [Davi Emanuel@](https://github.com/daviRolvr) |
 | 18/05/2025 |  1.7  | (#LX01) Adição de conteúdo desenvolvido. | [@Ana Joyce](https://github.com/anajoyceamorim)   | [@Luiz](https://github.com/luizfaria1989) |
 | 18/05/2025 |  1.8  | (#LX01) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos léxicos e sua associação com caso de uso. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
-| 05/06/2025 |  2.0  | (#LX01) Adição dos ids para os léxicos desenvolvidos. | [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
-| 06/06/2025 |  2.1  | (#LX01) Adição da tabela de contribuições e dos hiberlinks para as tabelas de léxicos desenvolvidas.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
+| 05/06/2025 |  2.0  | (#LX01) Adição dos ids para os léxicos desenvolvidos. | [@Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz) |
+| 06/06/2025 |  2.1  | (#LX01) Adição da tabela de contribuições e dos hiberlinks para as tabelas de léxicos desenvolvidas.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |

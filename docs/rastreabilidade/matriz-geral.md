@@ -123,12 +123,12 @@ Com a Tabela 2, é possível encontrar os códigos utilizados ao longo do desenv
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 04/06/2025 |  1.0   | (#MG01) Criação do documento de matriz geral.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 04/06/2025 |  1.1  | (#MG01) Adição da introdução, objetivos, metodologia, criação da matriz geral. Adição dos requisitos RF01-RF03| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 05/06/2025 |  1.2  | (#MG01) Explicação dos IDs presentes na matriz de rastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 06/06/2025 |  1.3  | (#MG01) Adição dos requisitos RF04-RF13.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 06/06/2025 |  1.4  | (#MG01) Adição dos requisitos RF14-RF38.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 06/06/2025 |  1.5  | (#MG01) Adição dos requisitos RN01-RN15.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 07/06/2025 |  1.6  | (#MG01) Adição da tabela com os significados dos identificadores utilizados na matriz de rastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 07/06/2025 |  1.7  | (#MG01) Adição daos hiperlinks dos tópicos do backlog na coluna "artefatos criados".| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
-| 07/06/2025 |  1.8  | (#MG01) Adição dos hiperlinks dos elos do documento de pós-reastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [@](https://github.com/)  |
+| 04/06/2025 |  1.0   | (#MG01) Criação do documento de matriz geral.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 04/06/2025 |  1.1  | (#MG01) Adição da introdução, objetivos, metodologia, criação da matriz geral. Adição dos requisitos RF01-RF03| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 05/06/2025 |  1.2  | (#MG01) Explicação dos IDs presentes na matriz de rastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 06/06/2025 |  1.3  | (#MG01) Adição dos requisitos RF04-RF13.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 06/06/2025 |  1.4  | (#MG01) Adição dos requisitos RF14-RF38.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 06/06/2025 |  1.5  | (#MG01) Adição dos requisitos RN01-RN15.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 07/06/2025 |  1.6  | (#MG01) Adição da tabela com os significados dos identificadores utilizados na matriz de rastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 07/06/2025 |  1.7  | (#MG01) Adição daos hiperlinks dos tópicos do backlog na coluna "artefatos criados".| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
+| 07/06/2025 |  1.8  | (#MG01) Adição dos hiperlinks dos elos do documento de pós-reastreabilidade.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)   |
