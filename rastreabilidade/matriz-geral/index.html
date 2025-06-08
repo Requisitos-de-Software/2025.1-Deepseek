@@ -2659,13 +2659,13 @@
 
 
 <h1 id="introducao">Introdução</h1>
-<p>Uma das técnicas mais comuns para manter a rastreabilidade dos requisitos e dos artefatos que estão sendo desenvolvidos em um projeto de software, é a utilização de uma matriz de rastreabilidade. Essa matriz pode ser implementada com a utilização de softwares específicos que facilitem o seu desenvolvimento <a id="anchor_1" href="#REF1">[1]</a>.</p>
+<p>Uma das técnicas mais comuns para manter a rastreabilidade dos requisitos e dos artefatos que estão sendo desenvolvidos em um projeto de software é a utilização de uma matriz de rastreabilidade. Essa matriz pode ser implementada com a utilização de softwares específicos que facilitem o seu desenvolvimento <a id="anchor_1" href="#REF1">[1]</a>.</p>
 <p>Nessa matriz, são colocados os requisitos, o documento de origem no qual aquele requisito foi elicitado, a arquitetura, o componente e o caso de teste <a id="anchor_2" href="#REF2">[2]</a>.</p>
 <p>A coluna dos requisitos deve ser preenchida com os requisitos elicitados no projeto. Já as demais, são preenchidas com os artefatos criados com base nequele requisito durante o processo de desenvolvimento. É importante ressaltar que essa correspondencia nem sempre é de 1 para 1, dado que, por exemplo, um requisito pode ser verificado em vários casos de teste <a id="anchor_3" href="#REF3">[3]</a>.</p>
 <h1 id="objetivos">Objetivos</h1>
 <p>Esse artefato tem como principal objetivo agregar os resultados obtidos nos artefatos de Backward-From e Forward-From em uma única matriz de rastreabilidade.</p>
 <h1 id="metodologia">Metodologia</h1>
-<p>Para o formato da matriz de rastreabilidade será utilizado o mesmo formato do repositório da disciplina de requisitos <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/matriz-geral/">Bilheteria Digital</a> no qual a matriz de rastreabilidade irá possuir 7 colunas:</p>
+<p>Para o formato da matriz de rastreabilidade será utilizado o mesmo formato do repositório da disciplina de requisitos <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/matriz-geral/">Bilheteria Digital</a> no qual a matriz de rastreabilidade irá possuir 6 colunas:</p>
 <ul>
 <li><strong>ID</strong>: apresenta o identificador daquele requisito;</li>
 <li><strong>Descrição</strong>: apresenta a descrição do requisito;</li>
@@ -2676,6 +2676,7 @@
 </ul>
 <h1 id="matriz-geral">Matriz Geral</h1>
 <p>Assim, é possível criar a matriz de rastreabilidade representada pela Tabela 1.</p>
+<p><font><p style="text-align: center"><strong>Tabela 1</strong> - Matriz de rastreabilidade do projeto.</p></font></p>
 <table>
 <thead>
 <tr>
@@ -2781,7 +2782,7 @@
 <td>Deve ser possível dar like em uma resposta da IA</td>
 <td><a href="../../elicitacao/observacao/">#ROF06</a></td>
 <td>Sim</td>
-<td><a href="../../modelagem/cenarios/#cn08">#CN08</a>, <a href="../../modelagem/casos-de-uso/#uc08">#UC08</a>, <a href="../../modelagem/lexicos/#lx08">LX08</a>, <a href="../../modelagem/historias-de-usuario/#hu30">#HU30</a>, <a href="../../modelagem/backlog/#bk02">#BK02</a></td>
+<td><a href="../../modelagem/cenarios/#cn08">#CN08</a>, <a href="../../modelagem/casos-de-uso/#uc08">#UC08</a>, <a href="../../modelagem/lexicos/#lx08">#LX08</a>, <a href="../../modelagem/historias-de-usuario/#hu30">#HU30</a>, <a href="../../modelagem/backlog/#bk02">#BK02</a></td>
 <td><a href="../pos-rastreabilidade/#rf12">#RF12</a></td>
 </tr>
 <tr>
@@ -2821,7 +2822,7 @@
 <td>Deve ser possível regenerar uma resposta da IA de forma manual ou automática em caso de erro de servidor ou sobrecarga</td>
 <td><a href="../../elicitacao/observacao/">#ROF11</a>, <a href="../../elicitacao/questionario/">#RQF09</a>, <a href="../../elicitacao/questionario/">#RQF18</a></td>
 <td>Parcialmente implementado</td>
-<td><a href="../../modelagem/cenarios/#cn08">#CN08</a>, <a href="../../modelagem/casos-de-uso/#uc08">#UC08</a>, <a href="../../modelagem/lexicos/">#LX08</a>, <a href="../../modelagem/historias-de-usuario/#hu30">#HU30</a>, <a href="../../modelagem/backlog/#bk02">#BK02</a></td>
+<td><a href="../../modelagem/cenarios/#cn08">#CN08</a>, <a href="../../modelagem/casos-de-uso/#uc08">#UC08</a>, <a href="../../modelagem/lexicos/#lx08">#LX08</a>, <a href="../../modelagem/historias-de-usuario/#hu30">#HU30</a>, <a href="../../modelagem/backlog/#bk02">#BK02</a></td>
 <td><a href="../pos-rastreabilidade/#rf17">#RF17</a></td>
 </tr>
 <tr>
@@ -2861,7 +2862,7 @@
 <td>Deve haver uma confirmação para limpar o histórico</td>
 <td><a href="../../elicitacao/analise-de-interface/">#RIF14</a></td>
 <td>Não</td>
-<td><a href="../../modelagem/cenarios/#cn13">#CN13</a>, <a href="../../modelagem/casos-de-uso/#uc13">#UC13</a>, <a href="../../modelagem/lexicos/#lx13">#LX13</a>, <a href="../../modelagem/historias-de-usuario/">#HU02</a>, <a href="../../modelagem/backlog/#bk09">#BK09</a></td>
+<td><a href="../../modelagem/cenarios/#cn13">#CN13</a>, <a href="../../modelagem/casos-de-uso/#uc13">#UC13</a>, <a href="../../modelagem/lexicos/#lx13">#LX13</a>, <a href="../../modelagem/historias-de-usuario/#hu02">#HU02</a>, <a href="../../modelagem/backlog/#bk09">#BK09</a></td>
 <td><a href="../pos-rastreabilidade/#rf22">#RF22</a></td>
 </tr>
 <tr>
@@ -2901,7 +2902,7 @@
 <td>Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO</td>
 <td><a href="../../elicitacao/questionario/">#RQF06</a></td>
 <td>Sim</td>
-<td><a href="../../modelagem/cenarios/#cn05">#CN05</a>, <a href="../../modelagem/casos-de-uso/#uc05">#UC05</a>, <a href="../../modelagem/lexicos/#lx05">#LX05</a>, <a href="../../modelagem/historias-de-usuario/#hu27">#HU19</a>, <a href="../../modelagem/backlog/#bk29">#BK29</a></td>
+<td><a href="../../modelagem/cenarios/#cn05">#CN05</a>, <a href="../../modelagem/casos-de-uso/#uc05">#UC05</a>, <a href="../../modelagem/lexicos/#lx05">#LX05</a>, <a href="../../modelagem/historias-de-usuario/#hu19">#HU19</a>, <a href="../../modelagem/backlog/#bk29">#BK29</a></td>
 <td><a href="../pos-rastreabilidade/#rf27">#RF27</a></td>
 </tr>
 <tr>
@@ -2933,7 +2934,7 @@
 <td>Implementar memória de contexto persistente entre conversas</td>
 <td><a href="../../elicitacao/questionario/">#RQF11</a></td>
 <td>Não</td>
-<td><a href="../../modelagem/historias-de-usuario/#hu32">#HU31</a>, <a href="../../modelagem/backlog/#bk02">#BK02</a></td>
+<td><a href="../../modelagem/historias-de-usuario/#hu32">#HU32</a>, <a href="../../modelagem/backlog/#bk02">#BK02</a></td>
 <td><a href="../pos-rastreabilidade/#rf31">#RF31</a></td>
 </tr>
 <tr>
@@ -2941,7 +2942,7 @@
 <td>Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)</td>
 <td><a href="../../elicitacao/questionario/">#RQF12</a></td>
 <td>Não</td>
-<td><a href="../../modelagem/cenarios/#cn04">#CN04</a>, <a href="../../modelagem/casos-de-uso/#uc04">#UC04</a>, <a href="../../modelagem/lexicos/#lx04">#LX04</a>, <a href="../../modelagem/historias-de-usuario/#hu20--permitir-escolha-de-modelos-seleção-de-diferentes-versõesmodelos-de-ia">#HU20</a>, <a href="../../modelagem/backlog/">Backlog</a></td>
+<td><a href="../../modelagem/cenarios/#cn04">#CN04</a>, <a href="../../modelagem/casos-de-uso/#uc04">#UC04</a>, <a href="../../modelagem/lexicos/#lx04">#LX04</a>, <a href="../../modelagem/historias-de-usuario/#hu20">#HU20</a>, <a href="../../modelagem/backlog/#bk07">#BK07</a></td>
 <td><a href="../pos-rastreabilidade/#rf32">#RF32</a></td>
 </tr>
 <tr>
@@ -2981,7 +2982,7 @@
 <td>Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas</td>
 <td><a href="../../elicitacao/questionario/">#RQF14</a></td>
 <td>Não</td>
-<td><a href="../../modelagem/cenarios/#cn03">#CN03</a>, <a href="../../modelagem/casos-de-uso/#uc03">#UC03</a>, <a href="../../modelagem/lexicos/#lx03">#LX03</a>, <a href="../../modelagem/historias-de-usuario/">#HU11</a>, <a href="../../modelagem/backlog/#bk42">#BK42</a></td>
+<td><a href="../../modelagem/cenarios/#cn03">#CN03</a>, <a href="../../modelagem/casos-de-uso/#uc03">#UC03</a>, <a href="../../modelagem/lexicos/#lx03">#LX03</a>, <a href="../../modelagem/historias-de-usuario/#hu11">#HU11</a>, <a href="../../modelagem/backlog/#bk42">#BK42</a></td>
 <td><a href="../pos-rastreabilidade/#rf37">#RF37</a></td>
 </tr>
 <tr>
@@ -3093,7 +3094,7 @@
 <td>Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras</td>
 <td><a href="../../elicitacao/questionario/">#RQN06</a></td>
 <td>Parcialmente implementado</td>
-<td><a href="../../modelagem/especificacao-suplementar/#es04">#ES04</a>, <a href="../../modelagem/especificacao-suplementar/#es04">#ES01</a>, <a href="../../modelagem/nfr-framework/#cnfr17">#CNFR17</a></td>
+<td><a href="../../modelagem/especificacao-suplementar/#es04">#ES04</a>, <a href="../../modelagem/especificacao-suplementar/#es01">#ES01</a>, <a href="../../modelagem/nfr-framework/#cnfr17">#CNFR17</a></td>
 <td><a href="../pos-rastreabilidade/#rn13">#RN13</a></td>
 </tr>
 <tr>
@@ -3101,7 +3102,7 @@
 <td>Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras</td>
 <td><a href="../../elicitacao/questionario/">#RQN07</a></td>
 <td>Não</td>
-<td><a href="../../modelagem/especificacao-suplementar/#es04">#ES04</a>, <a href="../../modelagem/especificacao-suplementar/#es01">#ES01</a>, <a href="../../modelagem/nfr-framework/#cnfr14">#CNFR18</a></td>
+<td><a href="../../modelagem/especificacao-suplementar/#es04">#ES04</a>, <a href="../../modelagem/especificacao-suplementar/#es01">#ES01</a>, <a href="../../modelagem/nfr-framework/#cnfr18">#CNFR18</a></td>
 <td><a href="../pos-rastreabilidade/#rn14">#RN14</a></td>
 </tr>
 <tr>
@@ -3114,7 +3115,9 @@
 </tr>
 </tbody>
 </table>
+<p>Autor: Luiz</p>
 <p>Com a Tabela 2, é possível encontrar os códigos utilizados ao longo do desenvolvimento dos artefatos e seus significados.</p>
+<p><font><p style="text-align: center"><strong>Tabela 2</strong> - Códigos utilizados na Tabela 1 e seus significados.</p></font></p>
 <table>
 <thead>
 <tr>
@@ -3128,64 +3131,64 @@
 <td>Código para um requisito funcional</td>
 </tr>
 <tr>
-<td><strong>RNXX</strong></td>
+<td><strong>#RNXX</strong></td>
 <td>Código para um requisito não funcional</td>
 </tr>
 <tr>
-<td><strong>RDFXXX</strong></td>
+<td><strong>#RDFXXX</strong></td>
 <td>Código para um requisito funcional elicitado com a técnica de <a href="../../elicitacao/analise-de-documentos/">análise de documentos</a></td>
 </tr>
 <tr>
-<td><strong>RDNXXX</strong></td>
+<td><strong>#RDNXXX</strong></td>
 <td>Código para um requisito não funcional elicitado com a técnica de <a href="../../elicitacao/analise-de-documentos/">análise de documentos</a></td>
 </tr>
 <tr>
-<td><strong>RIFXXX</strong></td>
-<td>Códi para um requisito funcional elicitado com a técnica de <a href="../../elicitacao/analise-de-interface/">análise de interface</a></td>
+<td><strong>#RIFXXX</strong></td>
+<td>Código para um requisito funcional elicitado com a técnica de <a href="../../elicitacao/analise-de-interface/">análise de interface</a></td>
 </tr>
 <tr>
-<td><strong>RINXXX</strong></td>
+<td><strong>#RINXXX</strong></td>
 <td>Código para um requisito não funcional elicitado com a técnica de <a href="../../elicitacao/analise-de-interface/">análise de interface</a></td>
 </tr>
 <tr>
-<td><strong>RQFXX</strong></td>
+<td><strong>#RQFXX</strong></td>
 <td>Código para um requisito funcional elicitado com a técnica de <a href="../../elicitacao/questionario/">questionário</a></td>
 </tr>
 <tr>
-<td><strong>RQNXX</strong></td>
+<td><strong>#RQNXX</strong></td>
 <td>Código para um requisito não funcional elicitado com a técnica de <a href="../../elicitacao/questionario/">questionário</a></td>
 </tr>
 <tr>
-<td><strong>ROFXX</strong></td>
-<td>Código para um requisito funcional elicitado com a técnica de <a href="../elicitacao/">observação</a></td>
+<td><strong>#ROFXX</strong></td>
+<td>Código para um requisito funcional elicitado com a técnica de <a href="../../elicitacao/observacao/">observação</a></td>
 </tr>
 <tr>
-<td><strong>RONXX</strong></td>
-<td>Código para um requisito não funcional elicitado com a técnica de <a href="../elicitacao/">observação</a></td>
+<td><strong>#RONXX</strong></td>
+<td>Código para um requisito não funcional elicitado com a técnica de <a href="../../elicitacao/observacao/">observação</a></td>
 </tr>
 <tr>
-<td><strong>UCXX</strong></td>
+<td><strong>#UCXX</strong></td>
 <td>Representa  uma tabela de caso de uso desenvolvida para o artefato <a href="../../modelagem/casos-de-uso/">casos de uso</a></td>
 </tr>
 <tr>
-<td><strong>CNXX</strong></td>
+<td><strong>#CNXX</strong></td>
 <td>Representa um cenário desenvolvido para o artefato <a href="../../modelagem/cenarios/">cenários</a></td>
 </tr>
 <tr>
-<td><strong>LXXX</strong></td>
+<td><strong>#LXXX</strong></td>
 <td>Representa uma tabela de léxicos para um caso de uso no artefato <a href="../../modelagem/lexicos/">léxicos</a></td>
 </tr>
 <tr>
-<td><strong>ESXX</strong></td>
-<td>Representa um tópico no artefato de <a href="../../modelagem/especificacao-suplementar/">sspecificação suplementar</a></td>
+<td><strong>#ESXX</strong></td>
+<td>Representa um tópico no artefato de <a href="../../modelagem/especificacao-suplementar/">especificação suplementar</a></td>
 </tr>
 <tr>
 <td><strong>#HUXX</strong></td>
-<td>Representa hisória de usuário no artefato <a href="../../modelagem/historias-de-usuario/">histórias de usuário</a></td>
+<td>Representa história de usuário no artefato <a href="../../modelagem/historias-de-usuario/">histórias de usuário</a></td>
 </tr>
 <tr>
 <td><strong>#BKXX</strong></td>
-<td>Representa um tópico no artefato <a href="../../modelagem/backlog/">Backlog</a></td>
+<td>Representa um tópico no artefato <a href="../../modelagem/backlog/">backlog</a></td>
 </tr>
 <tr>
 <td><strong>#CNFRXX</strong></td>
@@ -3193,6 +3196,7 @@
 </tr>
 </tbody>
 </table>
+<p>Autor: Luiz</p>
 <hr />
 <h1 id="referencia-bibliografica">Referência Bibliográfica</h1>
 <blockquote>
@@ -3266,16 +3270,23 @@
 <tr>
 <td style="text-align: center;">07/06/2025</td>
 <td style="text-align: center;">1.7</td>
-<td style="text-align: left;">(#MG01) Adição daos hiperlinks dos tópicos do backlog na coluna "artefatos criados".</td>
+<td style="text-align: left;">(#MG01) Adição dos hiperlinks dos tópicos do backlog na coluna "artefatos criados".</td>
 <td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
 <td style="text-align: center;"><a href="https://github.com/fabinsz"><code>@Fabio</code></a></td>
 </tr>
 <tr>
 <td style="text-align: center;">07/06/2025</td>
 <td style="text-align: center;">1.8</td>
-<td style="text-align: left;">(#MG01) Adição dos hiperlinks dos elos do documento de pós-reastreabilidade.</td>
+<td style="text-align: left;">(#MG01) Adição dos hiperlinks dos elos do documento de pós-rastreabilidade.</td>
 <td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
 <td style="text-align: center;"><a href="https://github.com/fabinsz"><code>@Fabio</code></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">08/06/2025</td>
+<td style="text-align: center;">1.9</td>
+<td style="text-align: left;">(#MG01) Correção nos hiperlinks do arquivo.</td>
+<td style="text-align: center;"><a href="https://github.com/luizfaria1989"><code>@Luiz</code></a></td>
+<td style="text-align: center;"><a href="https://github.com/"><code>@</code></a></td>
 </tr>
 </tbody>
 </table>
