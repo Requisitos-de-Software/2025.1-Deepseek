@@ -78,11 +78,16 @@ nav:
     - Backlog: 'modelagem/backlog.md'
     - NFR Framework: 'modelagem/nfr-framework.md'
     - Histórias de Usuário: 'modelagem/historias-de-usuario.md'
+  
+  - Rastreabilidade:
+    - Matriz Geral: 'rastreabilidade/matriz-geral.md'
+    - Pós-Rastreabilidade: 'rastreabilidade/pos-rastreabilidade.md'
 
   - Verificação:
     - Segunda Entrega: 'verificacao/segunda-entrega.md'
     - Terceira Entrega: 'verificacao/terceira-entrega.md'
     - Quarta Entrega: 'verificacao/quarta-entrega.md'
+    - Quinta Entrega: 'verificacao/quinta-entrega.md'
 
   - Inspeção:
     - Segunda Entrega: 
@@ -94,6 +99,9 @@ nav:
     - Quarta Entrega:
       - Grupo 2: 'inspecao/entrega4/inspecao-grupo.md'
       - Grupo 3: 'inspecao/entrega4/inspecao-grupo3.md' 
+    - Quinta Entrega:
+      - Grupo 2: 'inspecao/entrega5/inspecao-grupo.md'
+      - Grupo 3: 'inspecao/entrega5/inspecao-grupo3.md'
 
   - Projeto Obsoleto:
       - Início: 'doc-guardioes-da-saude/index.md'
