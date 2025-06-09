@@ -87,7 +87,7 @@ nav:
     - Segunda Entrega: 'verificacao/segunda-entrega.md'
     - Terceira Entrega: 'verificacao/terceira-entrega.md'
     - Quarta Entrega: 'verificacao/quarta-entrega.md'
-    - Quinta Entrega: 'verificacao/quinta-entrega.md'
+    - Sexta Entrega: 'verificacao/quinta-entrega.md'
 
   - Inspeção:
     - Segunda Entrega: 
@@ -99,7 +99,7 @@ nav:
     - Quarta Entrega:
       - Grupo 2: 'inspecao/entrega4/inspecao-grupo.md'
       - Grupo 3: 'inspecao/entrega4/inspecao-grupo3.md' 
-    - Quinta Entrega:
+    - Sexta Entrega:
       - Grupo 2: 'inspecao/entrega5/inspecao-grupo.md'
       - Grupo 3: 'inspecao/entrega5/inspecao-grupo3.md'
 
