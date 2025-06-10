@@ -52,4 +52,4 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da quin
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 07/06/2025 |  1.0   | (#V01) Criação da página da inspeção do grupo +1 com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz) |
 | 08/06/2025 |  1.1   | (#V01) Correção dos títulos das colunas da tabela 2.| [Luiz](https://github.com/luizfaria1989)   | [`@Ana Joyce`](https://github.com/anajoyceamorim)  |
-| 08/06/2025 |  1.2   | (#V01) Documentação da inspeção do grupo| [Mateus](https://github.com/MVConsorte)   | [@](https://github.com/)  |
+| 08/06/2025 |  1.2   | (#V01) Documentação da inspeção do grupo| [Mateus](https://github.com/MVConsorte)   | [@Ana Clara](https://github.com/anabborges)  |
