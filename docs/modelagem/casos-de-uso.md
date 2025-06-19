@@ -1,10 +1,20 @@
 ## Introdução
 Os diagramas de caso de uso são uma ferramenta fundamental da linguagem de modelagem unificada (UML) que permitem representar graficamente as funcionalidades esperadas de um sistema do ponto de vista de seus usuários. Essa técnica é amplamente utilizada na engenharia de requisitos para descrever as interações entre os atores (usuários ou sistemas externos) e os serviços oferecidos pela aplicação. No contexto do projeto DeepSeek, a modelagem dos casos de uso contribui para a compreensão do comportamento do sistema sob diferentes perspectivas de interação, facilitando a comunicação entre stakeholders técnicos e não técnicos, e servindo como base para futuras etapas de projeto, desenvolvimento e testes.
 
-## Metodologia
-A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios da UML, utilizando diagramas e descrições textuais conforme recomendação da literatura especializada. Inicialmente, identificaram-se os atores relevantes do sistema, como usuários finais, administradores e sistemas externos. Em seguida, foram definidos os principais casos de uso que representam as funcionalidades que o sistema deverá oferecer a esses atores. Os diagramas foram elaborados por meio da ferramenta Lucidchart, e cada caso de uso foi descrito com os seguintes elementos: nome, objetivo, atores envolvidos, fluxo de eventos (principal e alternativos), pré-condições, pós-condições e exceções. Essa abordagem visual e textual permite alinhar expectativas entre os envolvidos no projeto e fornecer uma visão clara do escopo funcional da aplicação.
+## Diagrama de Casos de Uso
 
-## Diagrama de Casos de Uso do App DeepSeek:
+Um diagrama de casos é uso é utilizado para descrever um conjunto de ações (casos de uso), que um sistema, ou um determinado conjunto de sistemas deve desempenehar em conjunto com um ou vários usuários extermos ao sistema, assim, cada caso de uso deverá trazer algum resultado observável e de valor para os atores ou algum outro interessado no sistema <a id="anchor_1" href="#REF1">[1]</a>.
+
+### Componentes de um Diagrama de Casos de Uso
+
+Um diagrama de casos de uso é possui quatro componentes principais: atores, casos de uso, barreira do sistema e relacionamentos. 
+
+1. **Atores:** Os atores são representados por bonecos palito, podem ser seres humanos ou sistemas e subsistemas, eles são externos ao sistema que está sendo estudado, por isso, devem ficar de fora da barreira do sistema <a id="anchor_2" href="#REF2">[2]</a>;
+2. **Casos de uso:** Os casos de uso são representados por elipses, e devem estar representados dentro da barreira do sistema que está sendo descrito no diagrama, é recomendado o uso de verbos no infinitivo para descrever os casos de uso para poder indicar que eles são ações que podem ser feitas no sistema <a id="anchor_3" href="#REF3">[3]</a>;
+3. **Barreira do sistema:** A barreira do sistema é representada por um retângulo de lados sólidos que engloba tudo aquilo que faz parte do sistema que está sendo representado no diagrama <a id="anchor_4" href="#REF4">[4]</a>;
+4. **Relacionamentos:** Um diagrama de casos de uso também representa os relacionamentos que estão presentes entre os casos de uso, eles podem ser de **extensão** (para representar esse tipo de relacionamento deve-se ligar uma seta tracejada do caso extendido ao caso base com o texto "extend" na seta), de **inclusão** (para representar esse relacionamento deve-se ligar uma seta tracejada do caso base ao caso incluído com o texto "include" na seta) e de gereralização ou **herança** (a qual é representa com uma seta cuja a ponta é um triângulo) <a id="anchor_5" href="#REF5">[5]</a>.
+
+### Diagrama de Casos de Uso do App DeepSeek:
 
 Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elaborar um conjunto de casos de uso, que compõem o diagrama UML de casos de uso, o qual possui o usuário como ator primário, o servidor DeepSeek e o Sistema externo de conteúdos da internet como atores secundários. O diagrama possui requisitos já implementados no app bem como requisitos que não foram implementados ainda.
 
@@ -12,9 +22,47 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 
 * [Link para o diagrama UML](https://lucid.app/lucidchart/410dc733-3efb-402b-84da-275d5d27d77b/edit?viewport_loc=-1735%2C-664%2C2778%2C1869%2C0_0&invitationId=inv_fb93f228-b92d-4633-a8cf-5a1409a3fdd0)
 
+## Casos de uso
+
+Além do diagrama, é possível contruir uma tabela para cada um dos casos de uso presente no diagrama de caso de uso do app, essas tabelas buscam explicar ainda mais esses requisitos, apresentando os atores, os diferentes fluxos, pré e pós-condições, ação e itens de rastreabilidade.
+
+Para isso, é necessário explicar os componentes presentes em um caso de uso.
+
+1. **Ator:** É quem será responsável por utilizar aquela funcionalidade presente no sistema <a id="anchor_2" href="#REF2">[2]</a>;
+2. **Pré-condições:** São condições que devem existir para que o caso de uso comece de fato <a id="anchor_6" href="#REF6">[6]</a>;
+3. **Ação:** São as tarefas ou funções principais que são realizadas pelo ator <a id="anchor_7" href="#REF7">[7]</a>;
+4. **Fluxo principal:** É a maneira padrão que aquele ator irá utilizar aquela funcionalidade, é também chamado de fluxo básico ou fluxo de sucesso. Cada caso de uso tem somente um fluxo principal <a id="anchor_8" href="#REF8">[8]</a>;
+5. **Fluxo alternativo:** Representa as escolhas que o usuário poderá fazer na execução de uma funcionalidade que serão responsáveis por alterar o comportamento da funcionalidade <a id="anchor_9" href="#REF9">[9]</a>;
+6. **Fluxo de excessão:** Representa excessões que podem ocorrer ao utilizar aquele sistema, essas excessões devem ser previstas e tratadas, contudo é difícil que um software trate todas as possibilidades de excessão <a id="anchor_10" href="#REF10">[10]</a>;
+7. **Pós-condições:** São condições irão existir após a ação do caso de uso ser finalizada.
+
+Com base nesses itens, é possível elaborar a tabela template para preenchimento dos casos de uso presentes no diagrama de casos de uso.
+
+<font><p style="text-align: center">**Tabela 01** - Tabela template para descrever um caso de uso.</p></font>
+
+| **Item** | **Informações**                                                                                                    |
+| ---- | :------------------------------------------------------------------------------------------------------------: |
+| **Código** | - |
+| **Descrição**     -    | - |
+| **Ator**              |  -                                                                   |
+| **Pré-condições**     | -  |
+| **Ação**              | -  |
+| **Fluxo principal**   | -	 |
+| **Fluxo alternativo** | - |
+| **Fluxo de exceção**  | -  |
+| **Pós-condições**     |  - |
+| **Data de Criação**   | -       |
+| **Rastreabilidade**   | -  |
+| **Cenário relacionado** | - |
+| **Léxico relacionado** |  - |
+
+## Metodologia
+A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios da UML, utilizando diagramas e descrições textuais conforme recomendação da literatura especializada. Inicialmente, identificaram-se os atores relevantes do sistema, como usuários finais, administradores e sistemas externos. Em seguida, foram definidos os principais casos de uso que representam as funcionalidades que o sistema deverá oferecer a esses atores. Os diagramas foram elaborados por meio da ferramenta Lucidchart, e cada caso de uso foi descrito com os seguintes elementos: nome, objetivo, atores envolvidos, fluxo de eventos (principal e alternativos), pré-condições, pós-condições e exceções. Essa abordagem visual e textual permite alinhar expectativas entre os envolvidos no projeto e fornecer uma visão clara do escopo funcional da aplicação.
+
+
 ## Tabela de Contribuições
 
-<font><p style="text-align: center">**Tabela xx** - Contribuições no documento de casos de uso.</p></font>
+<font><p style="text-align: center">**Tabela 02** - Contribuições no documento de casos de uso.</p></font>
 
 | Contribuinte | Descrição                                                            | Links                                           |
 |--------------|----------------------------------------------------------------------|-------------------------------------------------|
@@ -33,7 +81,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC01 -  Exclusão automática de dados de upload
 **Autor:** [Ana Joyce](https://github.com/anajoyceamorim)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 01 - Exclusão automática de dados de upload</p></font>
+<font><p style="text-align: center">**Tabela 03** - Caso de uso 01 - Exclusão automática de dados de upload</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -56,7 +104,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC02 - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.
 **Autor:** [Davi Emanuel](https://github.com/daviRolvr)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 02 - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.</p></font>
+<font><p style="text-align: center">**Tabela 04** - Caso de uso 02 - Permite que o usuário use o DeepSeek e o integre com plataformas Externas.</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -79,7 +127,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC03 - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.
 **Autor:** [Davi Emanuel](https://github.com/daviRolvr)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 03 - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.</p></font>
+<font><p style="text-align: center">**Tabela 05** - Caso de uso 03 - Permite que o usuário use o Deepseek com a funcionalidade de integração por Voz.</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -102,7 +150,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC04 - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek
 **Autor:** [Fabio](https://github.com/fabinsz)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 04 - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek.</p></font>
+<font><p style="text-align: center">**Tabela 06** - Caso de uso 04 - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek.</p></font>
 
 | Item | Informações                                                                                                                                      |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -125,7 +173,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC05 - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.
 **Autor:** [Fabio](https://github.com/fabinsz)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 05 - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.</p></font>
+<font><p style="text-align: center">**Tabela 07** - Caso de uso 05 - Permite que o usuário acesse as configurações para alterar o tema do sistema (claro/escuro), ajustando a aparência da interface conforme suas preferências.</p></font>
 
 | **Item**              | **Informações**                                                                                                                                                     |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -148,7 +196,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC06 - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 06 - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.</p></font>
+<font><p style="text-align: center">**Tabela 08** - Caso de uso 06 - Permite que o usuário envie um PDF e receba o texto extraído e insights, preservando formatação e símbolos.</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -171,7 +219,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC07 - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 07 - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.</p></font>
+<font><p style="text-align: center">**Tabela 09** - Caso de uso 07 - Permite buscar, em menos de 3 s, a versão mais recente do Node.js em 10/05/2025 e copiar o resultado.</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -194,7 +242,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC08 - Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão.
 **Autor:** [Gabriela](https://github.com/gaubiela)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 08 - Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão.</p></font>
+<font><p style="text-align: center">**Tabela 10** - Caso de uso 08 - Permite refinar uma resposta gerada usando **Like/Dislike/Regenerate/Copy** até atingir clareza e concisão.</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -217,7 +265,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC09 - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek
 **Autor:** [Luiz](https://github.com/luizfari1989)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 09 - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek.</p></font>
+<font><p style="text-align: center">**Tabela 11** - Caso de uso 09 - Permite que o usuário resolva problemas difíceis, como os de matemática, oferecendo o fluxo de pensamento da IA além da resposta. Utiliza o modelo R1 do DeepSeek.</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -240,7 +288,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC10 - Permite que o usuário cancele uma mensagem em andamento da IA no chat
 **Autor:** [Luiz](https://github.com/luizfari1989)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 10 - Permite que o usuário cancele uma mensagem em andamento da IA no chat</p></font>
+<font><p style="text-align: center">**Tabela 12** - Caso de uso 10 - Permite que o usuário cancele uma mensagem em andamento da IA no chat</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -263,7 +311,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC11 - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA
 **Autor:** [Luiz](https://github.com/luizfari1989)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 11 - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA.</p></font>
+<font><p style="text-align: center">**Tabela 13** - Caso de uso 11 - Permite que o usuário veja o status do servidor, indicando se ele está em manutenção ou disponível para uso do chat da IA.</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -286,7 +334,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC12 - Permite que o usuário entenda o funcionamento da plataforma a partir de um tutorial interativo
 **Autor:** [Ana Clara](https://github.com/anabborges)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 12 - Permite que o usuário entenda o funcionamento da plataforma a partir de um tutorial interativo.</p></font>
+<font><p style="text-align: center">**Tabela 14** - Caso de uso 12 - Permite que o usuário entenda o funcionamento da plataforma a partir de um tutorial interativo.</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -309,7 +357,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC13 - Permite que o usuário apague o histórico de conversas, a partir de uma confirmação
 **Autor:** [Ana Clara](https://github.com/anabborges)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 13 - Permite que o usuário apague o histórico de conversas, a partir de uma confirmação.</p></font>
+<font><p style="text-align: center">**Tabela 15** - Caso de uso 13 - Permite que o usuário apague o histórico de conversas, a partir de uma confirmação.</p></font>
 
 | **Item** | **Informações**                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -332,7 +380,7 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 ## #UC14 - Resumir vídeos do YouTube a partir de links inseridos no chat do DeepSeek.
 **Autor:** [Mateus](https://github.com/MVConsorte)
 
-<font><p style="text-align: center">**Tabela xx** - Caso de uso 14 - Resumir vídeos do YouTube a partir de links inseridos no chat do DeepSeek.</p></font>
+<font><p style="text-align: center">**Tabela 16** - Caso de uso 14 - Resumir vídeos do YouTube a partir de links inseridos no chat do DeepSeek.</p></font>
 
 | **Item** | **Informações** |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
@@ -351,11 +399,33 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | **Léxico relacionado** | [#LX14](../modelagem/lexicos.md#lx14) |
 
 
-## Bibliografia
+## Referência Bibliográfica
 
-> LUCIDCHART. Diagrama de caso de uso UML. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 9 maio 2025.
-> DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V  
+> <a id="REF1" href="#anchor_1">1.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 12 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/casos-de-uso/definicao-diagramas-de-casos-de-uso.png)
 
+> <a id="REF2" href="#anchor_2">2.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 13 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/casos-de-uso/definicao-atores.png)
+
+> <a id="REF3" href="#anchor_3">3.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 13 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/casos-de-uso/definicao-casos-de-uso.png)
+
+> <a id="REF4" href="#anchor_4">4.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 13 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/casos-de-uso/definicao-barreira-do-sistema.png)
+
+> <a id="REF5" href="#anchor_5">5.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 14 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/casos-de-uso/definicao-relacionamentos.png)
+
+>  <a id="REF6" href="#anchor_6">6.</a> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 150. [`Foto da referência`](../images/casos-de-uso/definicao-pre-condicoes.png)
+
+>  <a id="REF7" href="#anchor_7">7.</a> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 150. [`Foto da referência`](../images/casos-de-uso/definicao-acao.png)
+
+> <a id="REF8" href="#anchor_8">8.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 19 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/casos-de-uso/definicao-fluxo-prinicpal.png)
+
+> <a id="REF9" href="#anchor_9">9.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 21 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/casos-de-uso/definicao-fluxo-alternativo.png)
+
+> <a id="REF10" href="#anchor_10">10.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 24 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/casos-de-uso/definicao-fluxo-de-excessao.png)
+
+> 11. LUCIDCHART. Diagrama de caso de uso UML. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 9 maio 2025.
+
+> 12. DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V .
+
+## Histórico de versões
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
@@ -372,4 +442,5 @@ Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elabor
 | 05/06/2025 |  2.0  | (#UC02) Adição dos ids para os casos de uso criados| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
 | 06/06/2025 |  2.1  | (#UC02) Adição da tabela de contribuições e dos hiberlinks para os casos de uso desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
 | 19/06/2025 |  2.2  | (#UC02) Melhorias nas tabelas de casos de uso e adição da imagem do diagrama de caso de uso.| [@Luiz](https://github.com/luizfaria1989)  |  |
+| 19/06/2025 |  2.2  | (#UC02) Adição das referências para o documento.| [@Luiz](https://github.com/luizfaria1989)  |  |
 
