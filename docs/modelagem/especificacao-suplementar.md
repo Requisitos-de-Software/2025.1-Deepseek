@@ -2,13 +2,13 @@
 
 ## Introdução
 
-A **Especificação Suplementar** é um documento redigido em linguagem natural que reúne todos os requisitos de um sistema que não foram plenamente capturados pelos casos de uso. Ela complementa o modelo de casos de uso ao detalhar necessidades adicionais, tais como:
+A **Especificação Suplementar** é um documento redigido em linguagem natural que reúne todos os requisitos de um sistema que não foram plenamente capturados pelos casos de uso <a id="anchor_1" href="#REF1">[1]</a>. Ela complementa o modelo de casos de uso ao detalhar necessidades adicionais, tais como:
 
 * **Requisitos legais e regulamentares**, incluindo conformidade com normas e padrões de aplicativos;
 * **Atributos de qualidade**, como **Usabilidade**, **Confiabilidade**, **Desempenho**, **Manutenibilidade** (Suportabilidade) e **Segurança**;
 * **Outros requisitos técnicos**, abrangendo sistemas e ambientes operacionais suportados, requisitos de compatibilidade e restrições de design.
 
-A adoção da abordagem **FURPS+** (Functionality, Usability, Reliability, Performance, Supportability, mais fatores) orienta a identificação e a organização desses requisitos, garantindo cobertura completa dos aspectos funcionais e de qualidade da aplicação.
+A adoção da abordagem **FURPS+** (Functionality, Usability, Reliability, Performance, Supportability, mais fatores) orienta a identificação e a organização desses requisitos, garantindo cobertura completa dos aspectos funcionais e de qualidade da aplicação <a id="anchor_2" href="#REF2">[2]</a>.
 
 ## Finalidade
 
@@ -57,7 +57,7 @@ Essa metodologia busca garantir que todos os aspectos essenciais ao desenvolvime
 
 **Autor: [Davi Emanuel](https://github.com/daviRolvr)**
 
-Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento.
+Design se refere às diretrizes e decisões arquitetônicas que orientam a estrutura e organização do sistema. Define padrões como o modelo de arquitetura (ex: MVC), estrutura de módulos, organização do código e práticas de design que devem ser seguidas durante o desenvolvimento. Assim, as restrições de design restringem algo sobre o projeto da arquitetura de softeware <a id="anchor_3" href="#REF3">[3]</a>.
 
 Para essa categoria os requisitos identificados estão representados na tabela 1.
 
@@ -80,7 +80,7 @@ Para essa categoria os requisitos identificados estão representados na tabela 1
 
 **Autor: [Davi Emanuel](https://github.com/daviRolvr)**
 
-Implementação se refere às restrições técnicas relacionadas à codificação do sistema. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.
+Implementação se refere às restrições técnicas relacionadas à construção do sistema <a id="anchor_4" href="#REF4">[4]</a>. Inclui a escolha de linguagens de programação, frameworks, bibliotecas, bancos de dados e ferramentas específicas que devem ser utilizadas, além de padrões de codificação e compatibilidade com plataformas.
 
 Para essa categoria os requisitos identificados estão representados na tabela 2.
 
@@ -333,7 +333,7 @@ A especificação complementar detalha os aspectos de qualidade, técnicos e res
 
 ## #ES04 - Usabilidade
 
-Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, ou seja, que se referem a forma de o usuário interagir com o sistema.
+Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, ou seja, que se referem a forma de o usuário interagir com o sistema e quão fácil é utilizar o sistema <a id="anchor_5" href="#REF5">[5]</a>. 
 
 **Autor: [Ana Clara](https://github.com/anabborges)**
 
@@ -370,7 +370,7 @@ Nessa seção são apresentados requisitos que afetam a usabilidade do sistema, 
 
 ## #ES05 - Confiabilidade
 
-Nessa seção são citados os requisitos referentes à confiabilidade do sistema.
+Nessa seção são citados os requisitos referentes à confiabilidade do sistema. A confiabilidade busca definir quão confiável é aquele sistema criado <a id="anchor_6" href="#REF6">[6]</a>.
 
 **Autor: [Ana Clara](https://github.com/anabborges)**
 
@@ -400,11 +400,11 @@ Nessa seção são citados os requisitos referentes à confiabilidade do sistema
 
 <a id="es06"></a>
 
-## #ES06 - Desempenho
+## #ES06 - Performance
 
 **Autor: [Luiz](https://github.com/luizfaria1989)**
 
-O desempenho se refere as condições em que os requisitos devem operar. Apresentando os limites superiores e inferiores de velocidade do sistema, as restrições de interface e o tempo de resposta.
+A performance se refere as condições em que os requisitos devem operar. Apresentando os limites superiores e inferiores de velocidade do sistema, as restrições de interface e o tempo de resposta. Assim, a performance é resposável por representar o desempenho daquele sistema, se ele é rápido ou não <a id="anchor_7" href="#REF7">[7]</a>.
 
 Para essa categoria os requisitos identificados estão representados na tabela 6.
 
@@ -425,7 +425,7 @@ Para essa categoria os requisitos identificados estão representados na tabela 6
 
 **Autor: [Luiz](https://github.com/luizfaria1989)**
 
-A suportabilidade envolve os requisitos relacionados ao suporte e manutenção do sistema. Incluindo requisitos relacionados à facilidade de manutenção, capacidade de ser modificado e atualizado futuramente, documentação adequada além da facilidade de teste e detecção de problemas no software.
+A suportabilidade envolve os requisitos relacionados ao suporte e manutenção do sistema <a id="anchor_8" href="#REF8">[8]</a>. Incluindo requisitos relacionados à facilidade de manutenção, capacidade de ser modificado e atualizado futuramente, documentação adequada além da facilidade de teste e detecção de problemas no software.
 
 Para essa categoria os requisitos identificados estão representados na tabela 7.
 
@@ -464,11 +464,27 @@ Para essa categoria os requisitos identificados estão representados na tabela 8
 
 ## Bibliografia
 
-> MELO, Arthur. Especificação Suplementar. Repositório do Grupo Bilheteria Digital da disciplina de Requisitos de Software da Universidade de Brasília, 2023. Disponível em: <https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/>. Acesso em: 10 maio 2025.
+> <a id="REF1" href="#anchor_1">1.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 28 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/especificacao-suplementar/definicao-especificacao-suplementar.png)
 
-> REPOSITÓRIO DA DISCIPLINA – Aprender 3. Template da Especificação Suplementar. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390972>. Acesso em: 10 maio 2025.
+> <a id="REF2" href="#anchor_2">2.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 28 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/especificacao-suplementar/uso-da-furps.png)
 
-> SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13a [slide em PDF]. Aprender³, Universidade de Brasília, 2025. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf>. Acesso em: 10 maio 2025.
+> <a id="REF3" href="#anchor_3">3.</a> VAZQUEZ C., SIMÕES G. Engenheria de Requisitos: Software orientado ao negócio. Rio de Janeiro: Brasport, 2016.[`Foto da referência`](../images/especificacao-suplementar/definicao-design.png)
+
+> <a id="REF4" href="#anchor_4">4.</a> VAZQUEZ C., SIMÕES G. Engenheria de Requisitos: Software orientado ao negócio. Rio de Janeiro: Brasport, 2016. [`Foto da referência`](../images/especificacao-suplementar/definicao-restricoes-implementacao.png)
+
+> <a id="REF5" href="#anchor_5">5.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 29 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/especificacao-suplementar/definicao-usabilidade.png)
+
+> <a id="REF6" href="#anchor_6">6.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 29 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/especificacao-suplementar/definicao-confiabilidade.png)
+
+> <a id="REF7" href="#anchor_7">7.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 29 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/especificacao-suplementar/definicao-performance.png)
+
+> <a id="REF8" href="#anchor_8">8.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 29 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/especificacao-suplementar/definicao-suportabilidade.png)
+
+>  9.MELO, Arthur. Especificação Suplementar. Repositório do Grupo Bilheteria Digital da disciplina de Requisitos de Software da Universidade de Brasília, 2023. Disponível em: <https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/>. Acesso em: 10 maio 2025.
+
+> 10.REPOSITÓRIO DA DISCIPLINA – Aprender 3. Template da Especificação Suplementar. Disponível em: <https://aprender3.unb.br/mod/resource/view.php?id=1390972>. Acesso em: 10 maio 2025.
+
+> 11.SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13a [slide em PDF]. Aprender³, Universidade de Brasília, 2025. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf>. Acesso em: 10 maio 2025.
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
@@ -482,3 +498,4 @@ Para essa categoria os requisitos identificados estão representados na tabela 8
 | 18/05/2025 |  1.7 | (#ES02)Correção na formatação e revisão do documento. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989), [@Gabriela](https://github.com/gaubiela),[@Davi Emanuel](https://github.com/daviRolvr) |
 | 05/06/2025 |  2.0 | (#ES02) Adição dos ids para as tabelas da especificação suplementar. | [@Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz) |
 | 06/06/2025 |  2.1  | (#ES02) Adição da tabela de contribuições e dos hiberlinks para as tabelas de especificação suplementar desenvolvidas.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
+| 19/06/2025 |  2.2  | (#ES02) Adição das referências para o documento. | [@Luiz](https://github.com/luizfaria1989)  |  |
