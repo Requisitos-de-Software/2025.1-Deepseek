@@ -45,14 +45,14 @@ As histórias de usuário que se classificam no Épico 1 - Funcionalidades de IA
 
 |   ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
 | ------ | ------------------------------------------------------------| -------------------- | ---------- |
-| #BK01 | [#HU13 - Resolver um problema difícil de matemática](../modelagem/historias-de-usuario.md#hu13)           | #RF02                | Alta       |
-| #BK02  | [HU30 – Refinar resposta gerada até atingir clareza e concisão](../modelagem/historias-de-usuario.md#hu30) | #RF11, #RF12, #RF17                | Baixa    |
-| #BK03 | [HU36 – Exibir citações de fontes](../modelagem/historias-de-usuario.md#hu36)                              | #RF14, #ROF08                | Baixa           |
-| #BK04 | [#HU10 – Citar fontes da web nas pesquisas](../modelagem/historias-de-usuario.md#hu10)                               | #RF14               | Baixa           |
-| #BK05  | [HU24 – Retenção de contexto em diálogos longos](../modelagem/historias-de-usuario.md#hu24)              | #RF30                | Média      |
-| #BK06  | [HU32 – Implementar memória de contexto persistente entre conversas](../modelagem/historias-de-usuario.md#hu32)               | #RF31                | Média           |
-| #BK07  | [#HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)](../modelagem/historias-de-usuario.md#hu20)                                                        | #RF32                | Média           |
-| #BK08  | [#HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube](../modelagem/historias-de-usuario.md#hu33) | #RF38, #RQF23 | Alta |
+| #BK01 | [#HU13 - Resolver um problema difícil de matemática](../modelagem/historias-de-usuario.md#hu13)           | [#RF02](../elicitacao/requisitos-gerais.md)                | Alta       |
+| #BK02  | [HU30 – Refinar resposta gerada até atingir clareza e concisão](../modelagem/historias-de-usuario.md#hu30) | [#RF11, #RF12, #RF17](../elicitacao/requisitos-gerais.md)                | Baixa    |
+| #BK03 | [HU36 – Exibir citações de fontes](../modelagem/historias-de-usuario.md#hu36)                              | [#RF14](../elicitacao/requisitos-gerais.md), #ROF08                | Baixa           |
+| #BK04 | [#HU10 – Citar fontes da web nas pesquisas](../modelagem/historias-de-usuario.md#hu10)                               | [#RF14](../elicitacao/requisitos-gerais.md)               | Baixa           |
+| #BK05  | [HU24 – Retenção de contexto em diálogos longos](../modelagem/historias-de-usuario.md#hu24)              | [#RF30](../elicitacao/requisitos-gerais.md)                | Média      |
+| #BK06  | [HU32 – Implementar memória de contexto persistente entre conversas](../modelagem/historias-de-usuario.md#hu32)               | [#RF31](../elicitacao/requisitos-gerais.md)                | Média           |
+| #BK07  | [#HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)](../modelagem/historias-de-usuario.md#hu20)                                                        | [#RF32](../elicitacao/requisitos-gerais.md)                | Média           |
+| #BK08  | [#HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube](../modelagem/historias-de-usuario.md#hu33) | [#RF38](../elicitacao/requisitos-gerais.md), #RQF23 | Alta |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -66,12 +66,12 @@ As histórias de usuário que se classificam no Épico 2 - Controle de dados, po
 
 |  ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
 | ----- | ------------------------------------------------------------| -------------------- | ---------- |
-| #BK09 | [#HU02 – Confirmar a exclusão do histórico de conversas](../modelagem/historias-de-usuario.md#hu02)      | #RF22                | Baixa      |
-| #BK10 | [#HU17 - Controlar quais dados são compartilhados com a IA](../modelagem/historias-de-usuario.md#hu17)    | #RF25                | Média      |
-| #BK11 | [#HU06 – Controle de dados](../modelagem/historias-de-usuario.md#hu06) | #RF25                | Média      |
-| #BK12 | [#HU37 – Deve fazer a exclusão automática de dados de upload](../modelagem/historias-de-usuario.md#hu37) | #RN04                |Alta           |
-| #BK13 | [HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos](../modelagem/historias-de-usuario.md#hu39)                                                            | #RN10                | Alta           |
-| #BK14 | [#HU28 – Apagar conversas individuais ou todo o histórico no DeepSeek](../modelagem/historias-de-usuario.md#hu28) | #RF16 | Alta |
+| #BK09 | [#HU02 – Confirmar a exclusão do histórico de conversas](../modelagem/historias-de-usuario.md#hu02)      | [#RF22](../elicitacao/requisitos-gerais.md)                | Baixa      |
+| #BK10 | [#HU17 - Controlar quais dados são compartilhados com a IA](../modelagem/historias-de-usuario.md#hu17)    | [#RF25](../elicitacao/requisitos-gerais.md)                | Média      |
+| #BK11 | [#HU06 – Controle de dados](../modelagem/historias-de-usuario.md#hu06) | [#RF25](../elicitacao/requisitos-gerais.md)                | Média      |
+| #BK12 | [#HU37 – Deve fazer a exclusão automática de dados de upload](../modelagem/historias-de-usuario.md#hu37) | [#RN04](../elicitacao/requisitos-gerais.md)                |Alta           |
+| #BK13 | [HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos](../modelagem/historias-de-usuario.md#hu39)                                                            | [#RN10](../elicitacao/requisitos-gerais.md)                | Alta           |
+| #BK14 | [#HU28 – Apagar conversas individuais ou todo o histórico no DeepSeek](../modelagem/historias-de-usuario.md#hu28) | [#RF16](../elicitacao/requisitos-gerais.md) | Alta |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -85,8 +85,8 @@ As histórias de usuário que se classificam no Épico 3 - Segurança, podem ser
 
 |  ID   |  História de usuário                                         | Requisito trabalhado | Prioridade |
 | ----- | ------------------------------------------------------------| -------------------- | ---------- |
-| #BK15 | [#HU41 – Deve possuir a opção de login com conta Google/Apple ID](../modelagem/historias-de-usuario.md#hu41)                | #RF04                | Média      |
-| #BK16 | [#HU16 - Autenticar a conta para acessar funcionalidades avançadas](../modelagem/historias-de-usuario.md#hu16) | #RF26                | Não fazer           |
+| #BK15 | [#HU41 – Deve possuir a opção de login com conta Google/Apple ID](../modelagem/historias-de-usuario.md#hu41)                | [#RF04](../elicitacao/requisitos-gerais.md)                | Média      |
+| #BK16 | [#HU16 - Autenticar a conta para acessar funcionalidades avançadas](../modelagem/historias-de-usuario.md#hu16) | [#RF26](../elicitacao/requisitos-gerais.md)                | Não fazer           |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -100,15 +100,15 @@ As histórias de usuário que se classificam no Épico 4 - Funcionalidades do ch
 
 |   ID  | História de usuário                                         | Requisito trabalhado | Prioridade |
 | ----- | ------------------------------------------------------------| -------------------- | ---------- |
-| #BK17 | [#HU18 - Salvar chat entre plataformas](../modelagem/historias-de-usuario.md#hu18)                       | #RF05                | Média      |
-| #BK18 | [#HU03 – Interação com a Inteligência Artificial](../modelagem/historias-de-usuario.md#hu03)              | #RF07                | Alta       |
-| #BK19 | [#HU42 – Deve ser possível criar novos chats](../modelagem/historias-de-usuario.md#hu42)                  | #RF08                | Alta       |
-| #BK20 | [#HU04 – Renomear um chat já existente](../modelagem/historias-de-usuario.md#hu04)                        | #RF09                | Média      |
-| #BK21 | [HU35 – Recuperar chats anteriores](../modelagem/historias-de-usuario.md#hu35)                           | #RF10, ROF04                | Média           |
-| #BK22 | [HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado](../modelagem/historias-de-usuario.md#hu29)                                                            | #RF13                | Alta           
-| #BK23 | [#HU15 - Interromper chat em andamento](../modelagem/historias-de-usuario.md#hu15)                        | #RF19                |Baixa       |
-| #BK24 | [#HU07 – Interromper respostas em andamento](../modelagem/historias-de-usuario.md#hu07)                         | #RF19                |Baixa       |
-| #BK25 | [#HU09 – Organizar conversas em pastas, listas ou temas](../modelagem/historias-de-usuario.md#hu09)   | #RF33                | Média           |
+| #BK17 | [#HU18 - Salvar chat entre plataformas](../modelagem/historias-de-usuario.md#hu18)                       | [#RF05](../elicitacao/requisitos-gerais.md)                | Média      |
+| #BK18 | [#HU03 – Interação com a Inteligência Artificial](../modelagem/historias-de-usuario.md#hu03)              | [#RF07](../elicitacao/requisitos-gerais.md)                | Alta       |
+| #BK19 | [#HU42 – Deve ser possível criar novos chats](../modelagem/historias-de-usuario.md#hu42)                  | [#RF08](../elicitacao/requisitos-gerais.md)                | Alta       |
+| #BK20 | [#HU04 – Renomear um chat já existente](../modelagem/historias-de-usuario.md#hu04)                        | [#RF09](../elicitacao/requisitos-gerais.md)                | Média      |
+| #BK21 | [HU35 – Recuperar chats anteriores](../modelagem/historias-de-usuario.md#hu35)                           | [#RF10](../elicitacao/requisitos-gerais.md), ROF04                | Média           |
+| #BK22 | [HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado](../modelagem/historias-de-usuario.md#hu29)                                                            | [#RF13](../elicitacao/requisitos-gerais.md)                | Alta           
+| #BK23 | [#HU15 - Interromper chat em andamento](../modelagem/historias-de-usuario.md#hu15)                        | [#RF19](../elicitacao/requisitos-gerais.md)                |Baixa       |
+| #BK24 | [#HU07 – Interromper respostas em andamento](../modelagem/historias-de-usuario.md#hu07)                         | [#RF19](../elicitacao/requisitos-gerais.md)                |Baixa       |
+| #BK25 | [#HU09 – Organizar conversas em pastas, listas ou temas](../modelagem/historias-de-usuario.md#hu09)   | [#RF33](../elicitacao/requisitos-gerais.md)                | Média           |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -122,16 +122,16 @@ As histórias de usuário que se classificam no Épico 5 - Interface e experiên
 
 |   ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
 | ------ | ------------------------------------------------------------| -------------------- | ---------- |
-| #BK26  | [#HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis](../modelagem/historias-de-usuario.md#hu23)                                                         | #RF18               | Baixa           |
-| #BK27  | [#HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código](../modelagem/historias-de-usuario.md#hu34)                                                           | #RF18,  #RQF15               | Baixa           |
-| #BK28  | [#HU05 – Busca incremental no campo de texto](../modelagem/historias-de-usuario.md#hu05)                                                            | #RF23               | Baixa           |
-| #BK29  | [#HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO](../modelagem/historias-de-usuario.md#hu19)                                                           | #RF27               | Alta           |
-| #BK30  | [#HU01 – Visualizar tutorial interativo](../modelagem/historias-de-usuario.md#hu01)                   | #RF28               | Baixa       |
-| #BK31  | [#HU14 - Visualizar em tempo real o status do servidor](../modelagem/historias-de-usuario.md#hu14)        | #RF29               | Não fazer  |
-| #BK32  | [#HU12 – Inserir informações por comando de voz](../modelagem/historias-de-usuario.md#hu12)                                                           | #RF34               | Alta           |
-| #BK33  | [#HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico](../modelagem/historias-de-usuario.md#hu21)        | #RF35               | Baixa           |
-| #BK34  | [#HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade](../modelagem/historias-de-usuario.md#hu38)   | #RN05               | Alta           |
-| #BK35  | [#HU27 – Alterar idioma da interface do DeepSeek](../modelagem/historias-de-usuario.md#hu27)              | #RN15               | Média      |
+| #BK26  | [#HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis](../modelagem/historias-de-usuario.md#hu23)                                                         | [#RF18](../elicitacao/requisitos-gerais.md)               | Baixa           |
+| #BK27  | [#HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código](../modelagem/historias-de-usuario.md#hu34)                                                           | [#RF18](../elicitacao/requisitos-gerais.md),  #RQF15               | Baixa           |
+| #BK28  | [#HU05 – Busca incremental no campo de texto](../modelagem/historias-de-usuario.md#hu05)                                                            | [#RF23](../elicitacao/requisitos-gerais.md)               | Baixa           |
+| #BK29  | [#HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO](../modelagem/historias-de-usuario.md#hu19)                                                           | [#RF27](../elicitacao/requisitos-gerais.md)               | Alta           |
+| #BK30  | [#HU01 – Visualizar tutorial interativo](../modelagem/historias-de-usuario.md#hu01)                   | [#RF28](../elicitacao/requisitos-gerais.md)               | Baixa       |
+| #BK31  | [#HU14 - Visualizar em tempo real o status do servidor](../modelagem/historias-de-usuario.md#hu14)        | [#RF29](../elicitacao/requisitos-gerais.md)               | Não fazer  |
+| #BK32  | [#HU12 – Inserir informações por comando de voz](../modelagem/historias-de-usuario.md#hu12)                                                           | [#RF34](../elicitacao/requisitos-gerais.md)               | Alta           |
+| #BK33  | [#HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico](../modelagem/historias-de-usuario.md#hu21)        | [#RF35](../elicitacao/requisitos-gerais.md)               | Baixa           |
+| #BK34  | [#HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade](../modelagem/historias-de-usuario.md#hu38)   | [#RN05](../elicitacao/requisitos-gerais.md)               | Alta           |
+| #BK35  | [#HU27 – Alterar idioma da interface do DeepSeek](../modelagem/historias-de-usuario.md#hu27)              | [#RN15](../elicitacao/requisitos-gerais.md)               | Média      |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -145,7 +145,7 @@ As histórias de usuário que se classificam no Épico 6 - Desempenho e estabili
 
 |   ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
 | ------ | ------------------------------------------------------------| -------------------- | ---------- |
-| #BK36  | [#HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas](../modelagem/historias-de-usuario.md#hu40)                                                           | #RN12               |  Média          |
+| #BK36  | [#HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas](../modelagem/historias-de-usuario.md#hu40)                                                           | [#RN12](../elicitacao/requisitos-gerais.md)               |  Média          |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -159,10 +159,10 @@ As histórias de usuário que se classificam no Épico 7 - Gerenciamento de arqu
 
 |   ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
 | -------| ------------------------------------------------------------| -------------------- | ---------- |
-| #BK37  | [#HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR](../modelagem/historias-de-usuario.md#hu25)                                                         | #RF03               | Alta           |
-| #BK38  | [#HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos](../modelagem/historias-de-usuario.md#hu26)                                                      | #RF03               | Alta           |
+| #BK37  | [#HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR](../modelagem/historias-de-usuario.md#hu25)                                                         | [#RF03](../elicitacao/requisitos-gerais.md)               | Alta           |
+| #BK38  | [#HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos](../modelagem/historias-de-usuario.md#hu26)                                                      | [#RF03](../elicitacao/requisitos-gerais.md)               | Alta           |
 | #BK39  | [#HU08 – Enviar arquivos com suporte a leitura OCR](../modelagem/historias-de-usuario.md#hu08)      | #RIF01              | Alta           |
-| #BK40  | [#HU22 – Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR](../modelagem/historias-de-usuario.md#hu22) | #RF36 | Média |
+| #BK40  | [#HU22 – Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR](../modelagem/historias-de-usuario.md#hu22) | [#RF36](../elicitacao/requisitos-gerais.md) | Média |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -176,8 +176,8 @@ As histórias de usuário que se classificam no Épico 8 - Inetgreções e API, 
 
 |    ID   | História de usuário                                         | Requisito trabalhado | Prioridade |
 | --------| ------------------------------------------------------------| -------------------- | ---------- |
-| #BK41   | [HU31 – Utilizar uma API Pública](../modelagem/historias-de-usuario.md#hu31)                                                       | #RF20               | Alta           |
-| #BK42   | [HU11 – Integração com plataformas externas](../modelagem/historias-de-usuario.md#hu11) | #RF37               | Média           |
+| #BK41   | [HU31 – Utilizar uma API Pública](../modelagem/historias-de-usuario.md#hu31)                                                       | [#RF20](../elicitacao/requisitos-gerais.md)               | Alta           |
+| #BK42   | [HU11 – Integração com plataformas externas](../modelagem/historias-de-usuario.md#hu11) | [#RF37](../elicitacao/requisitos-gerais.md)               | Média           |
 
 Fonte: [@Luiz](https://github.com/luizfaria1989)
 
@@ -190,48 +190,48 @@ Por fim, juntanto todas as tabelas desenvolvidas, é possível criar o product b
 
 |   ID    | Épico                                      | História de usuário                                         | Requisito trabalhado | Prioridade |
 | --------| ------------------------------------------ | ------------------------------------------------------------| -------------------- | ---------- |
-| <a id="bk01">#BK01</a> | Épico 1 - Funcionalidades de IA |  [#HU13 - Resolver um problema difícil de matemática](../modelagem/historias-de-usuario.md#hu13)           | #RF02                | Alta       |
-| <a id="bk02">#BK02</a>  | Épico 1 - Funcionalidades de IA | [HU30 – Refinar resposta gerada até atingir clareza e concisão](../modelagem/historias-de-usuario.md#hu30) | #RF11, #RF12, #RF17                | Baixa    |
-| <a id="bk03">#BK03</a> | Épico 1 - Funcionalidades de IA | [HU36 – Exibir citações de fontes](../modelagem/historias-de-usuario.md#hu36)                              | #RF14, #ROF08                | Baixa           |
-| <a id="bk04">#BK04</a> | Épico 1 - Funcionalidades de IA | [#HU10 – Citar fontes da web nas pesquisas](../modelagem/historias-de-usuario.md#hu10)                               | #RF14               | Baixa           |
-| <a id="bk05">#BK05</a>  | Épico 1 - Funcionalidades de IA | [HU24 – Retenção de contexto em diálogos longos](../modelagem/historias-de-usuario.md#hu24)              | #RF30                | Média      |
-| <a id="bk06">#BK06</a>  | Épico 1 - Funcionalidades de IA | [HU32 – Implementar memória de contexto persistente entre conversas](../modelagem/historias-de-usuario.md#hu32)               | #RF31                | Média           |
-| <a id="bk07">#BK07</a>  | Épico 1 - Funcionalidades de IA | [#HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)](../modelagem/historias-de-usuario.md#hu20)                                                        | #RF32                | Média           |
-| <a id="bk08">#BK08</a>  | Épico 1 - Funcionalidades de IA | [#HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube](../modelagem/historias-de-usuario.md#hu33) | #RF38, #RQF23 | Alta |
-| <a id="bk09">#BK09</a> | Épico 2 - Controle de dados | [#HU02 – Confirmar a exclusão do histórico de conversas](../modelagem/historias-de-usuario.md#hu02)      | #RF22                | Baixa      |
-| <a id="bk10">#BK10</a> | Épico 2 - Controle de dados | [#HU17 - Controlar quais dados são compartilhados com a IA](../modelagem/historias-de-usuario.md#hu17)    | #RF25                | Média      |
-| <a id="bk11">#BK11</a> | Épico 2 - Controle de dados | [#HU06 – Controle de dados](../modelagem/historias-de-usuario.md#hu06) | #RF25                | Média      |
-| <a id="bk12">#BK12</a> | Épico 2 - Controle de dados | [#HU37 – Deve fazer a exclusão automática de dados de upload](../modelagem/historias-de-usuario.md#hu37) | #RN04                |Alta           |
-| <a id="bk13">#BK13</a> | Épico 2 - Controle de dados | [HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos](../modelagem/historias-de-usuario.md#hu39)                                                            | #RN10                | Alta           |
-| <a id="bk14">#BK14</a> | Épico 2 - Controle de dados | [#HU28 – Apagar conversas individuais ou todo o histórico no DeepSeek](../modelagem/historias-de-usuario.md#hu28) | #RF16 | Alta |
-| <a id="bk15">#BK15</a> | Épico 3 - Segurança | [#HU41 – Deve possuir a opção de login com conta Google/Apple ID](../modelagem/historias-de-usuario.md#hu41)                | #RF04                | Média      |
-| <a id="bk16">#BK16</a> | Épico 3 - Segurança | [#HU16 - Autenticar a conta para acessar funcionalidades avançadas](../modelagem/historias-de-usuario.md#hu16) | #RF26                | Não fazer           |
-| <a id="bk17">#BK17</a> | Épico 4 - Funcionalidades do chat | [#HU18 - Salvar chat entre plataformas](../modelagem/historias-de-usuario.md#hu18)                       | #RF05                | Média      |
-| <a id="bk18">#BK18</a> | Épico 4 - Funcionalidades do chat | [#HU03 – Interação com a Inteligência Artificial](../modelagem/historias-de-usuario.md#hu03)              | #RF07                | Alta       |
-| <a id="bk19">#BK19</a> | Épico 4 - Funcionalidades do chat | [#HU42 – Deve ser possível criar novos chats](../modelagem/historias-de-usuario.md#hu42)                  | #RF08                | Alta       |
-| <a id="bk20">#BK20</a> | Épico 4 - Funcionalidades do chat | [#HU04 – Renomear um chat já existente](../modelagem/historias-de-usuario.md#hu04)                        | #RF09                | Média      |
-| <a id="bk21">#BK21</a> | Épico 4 - Funcionalidades do chat | [HU35 – Recuperar chats anteriores](../modelagem/historias-de-usuario.md#hu35)                           | #RF10, ROF04                | Média           |
-| <a id="bk22">#BK22</a> | Épico 4 - Funcionalidades do chat | [HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado](../modelagem/historias-de-usuario.md#hu29)                                                            | #RF13                | Alta           
-| <a id="bk23">#BK23</a> | Épico 4 - Funcionalidades do chat | [#HU15 - Interromper chat em andamento](../modelagem/historias-de-usuario.md#hu15)                        | #RF19                |Baixa       |
-| <a id="bk24">#BK24</a> | Épico 4 - Funcionalidades do chat | [#HU07 – Interromper respostas em andamento](../modelagem/historias-de-usuario.md#hu07)                         | #RF19                |Baixa       |
-| <a id="bk25">#BK25</a> | Épico 4 - Funcionalidades do chat | [#HU09 – Organizar conversas em pastas, listas ou temas](../modelagem/historias-de-usuario.md#hu09)   | #RF33                | Média           |
-| <a id="bk26">#BK26</a>  | Épico 5 - Interface e experiência do usuário | [#HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis](../modelagem/historias-de-usuario.md#hu23)                                                         | #RF18               | Baixa           |
-| <a id="bk27">#BK27</a>  | Épico 5 - Interface e experiência do usuário | [#HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código](../modelagem/historias-de-usuario.md#hu34)                                                           | #RF18,  #RQF15               | Baixa           |
-| <a id="bk28">#BK28</a>  | Épico 5 - Interface e experiência do usuário | [#HU05 – Busca incremental no campo de texto](../modelagem/historias-de-usuario.md#hu05)                                                            | #RF23               | Baixa           |
-| <a id="bk29">#BK29</a>  | Épico 5 - Interface e experiência do usuário | [#HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO](../modelagem/historias-de-usuario.md#hu19)                                                           | #RF27               | Alta           |
-| <a id="bk30">#BK30</a>  | Épico 5 - Interface e experiência do usuário | [#HU01 – Visualizar tutorial interativo](../modelagem/historias-de-usuario.md#hu01)                   | #RF28               | Baixa       |
-| <a id="bk31">#BK31</a>  | Épico 5 - Interface e experiência do usuário | [#HU14 - Visualizar em tempo real o status do servidor](../modelagem/historias-de-usuario.md#hu14)        | #RF29               | Não fazer  |
-| <a id="bk32">#BK32</a>  | Épico 5 - Interface e experiência do usuário | [#HU12 – Inserir informações por comando de voz](../modelagem/historias-de-usuario.md#hu12)                                                           | #RF34               | Alta           |
-| <a id="bk33">#BK33</a>  | Épico 5 - Interface e experiência do usuário | [#HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico](../modelagem/historias-de-usuario.md#hu21)        | #RF35               | Baixa           |
-| <a id="bk34">#BK34</a>  | Épico 5 - Interface e experiência do usuário | [#HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade](../modelagem/historias-de-usuario.md#hu38)   | #RN05               | Alta           |
-| <a id="bk35">#BK35</a>  | Épico 5 - Interface e experiência do usuário | [#HU27 – Alterar idioma da interface do DeepSeek](../modelagem/historias-de-usuario.md#hu27)              | #RN15               | Média      |
-| <a id="bk36">#BK36</a>  | Épico 6 - Desempenho e estabilidade | [#HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas](../modelagem/historias-de-usuario.md#hu40)                                                           | #RN12               |  Média          |
-| <a id="bk37">#BK37</a>  | Épico 7 - Gerenciamento de arquivos |[#HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR](../modelagem/historias-de-usuario.md#hu25)                                                         | #RF03               | Alta           |
-| <a id="bk38">#BK38</a>  | Épico 7 - Gerenciamento de arquivos | [#HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos](../modelagem/historias-de-usuario.md#hu26)                                                      | #RF03               | Alta           |
+| <a id="bk01">#BK01</a> | Épico 1 - Funcionalidades de IA |  [#HU13 - Resolver um problema difícil de matemática](../modelagem/historias-de-usuario.md#hu13)           | [#RF02](../elicitacao/requisitos-gerais.md)                | Alta       |
+| <a id="bk02">#BK02</a>  | Épico 1 - Funcionalidades de IA | [HU30 – Refinar resposta gerada até atingir clareza e concisão](../modelagem/historias-de-usuario.md#hu30) | [#RF11, #RF12, #RF17](../elicitacao/requisitos-gerais.md)                | Baixa    |
+| <a id="bk03">#BK03</a> | Épico 1 - Funcionalidades de IA | [HU36 – Exibir citações de fontes](../modelagem/historias-de-usuario.md#hu36)                              | [#RF14](../elicitacao/requisitos-gerais.md), #ROF08                | Baixa           |
+| <a id="bk04">#BK04</a> | Épico 1 - Funcionalidades de IA | [#HU10 – Citar fontes da web nas pesquisas](../modelagem/historias-de-usuario.md#hu10)                               | [#RF14](../elicitacao/requisitos-gerais.md)               | Baixa           |
+| <a id="bk05">#BK05</a>  | Épico 1 - Funcionalidades de IA | [HU24 – Retenção de contexto em diálogos longos](../modelagem/historias-de-usuario.md#hu24)              | [#RF30](../elicitacao/requisitos-gerais.md)                | Média      |
+| <a id="bk06">#BK06</a>  | Épico 1 - Funcionalidades de IA | [HU32 – Implementar memória de contexto persistente entre conversas](../modelagem/historias-de-usuario.md#hu32)               | [#RF31](../elicitacao/requisitos-gerais.md)                | Média           |
+| <a id="bk07">#BK07</a>  | Épico 1 - Funcionalidades de IA | [#HU20 – Permitir escolha de modelos (seleção de diferentes versões/modelos de IA)](../modelagem/historias-de-usuario.md#hu20)                                                        | [#RF32](../elicitacao/requisitos-gerais.md)                | Média           |
+| <a id="bk08">#BK08</a>  | Épico 1 - Funcionalidades de IA | [#HU33 – Disponibilizar resumo textual do conteúdo de vídeo importado de links do YouTube](../modelagem/historias-de-usuario.md#hu33) | [#RF38](../elicitacao/requisitos-gerais.md), #RQF23 | Alta |
+| <a id="bk09">#BK09</a> | Épico 2 - Controle de dados | [#HU02 – Confirmar a exclusão do histórico de conversas](../modelagem/historias-de-usuario.md#hu02)      | [#RF22](../elicitacao/requisitos-gerais.md)                | Baixa      |
+| <a id="bk10">#BK10</a> | Épico 2 - Controle de dados | [#HU17 - Controlar quais dados são compartilhados com a IA](../modelagem/historias-de-usuario.md#hu17)    | [#RF25](../elicitacao/requisitos-gerais.md)                | Média      |
+| <a id="bk11">#BK11</a> | Épico 2 - Controle de dados | [#HU06 – Controle de dados](../modelagem/historias-de-usuario.md#hu06) | [#RF25](../elicitacao/requisitos-gerais.md)                | Média      |
+| <a id="bk12">#BK12</a> | Épico 2 - Controle de dados | [#HU37 – Deve fazer a exclusão automática de dados de upload](../modelagem/historias-de-usuario.md#hu37) | [#RN04](../elicitacao/requisitos-gerais.md)                |Alta           |
+| <a id="bk13">#BK13</a> | Épico 2 - Controle de dados | [HU39 – Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos](../modelagem/historias-de-usuario.md#hu39)                                                            | [#RN10](../elicitacao/requisitos-gerais.md)                | Alta           |
+| <a id="bk14">#BK14</a> | Épico 2 - Controle de dados | [#HU28 – Apagar conversas individuais ou todo o histórico no DeepSeek](../modelagem/historias-de-usuario.md#hu28) | [#RF16](../elicitacao/requisitos-gerais.md) | Alta |
+| <a id="bk15">#BK15</a> | Épico 3 - Segurança | [#HU41 – Deve possuir a opção de login com conta Google/Apple ID](../modelagem/historias-de-usuario.md#hu41)                | [#RF04](../elicitacao/requisitos-gerais.md)                | Média      |
+| <a id="bk16">#BK16</a> | Épico 3 - Segurança | [#HU16 - Autenticar a conta para acessar funcionalidades avançadas](../modelagem/historias-de-usuario.md#hu16) | [#RF26](../elicitacao/requisitos-gerais.md)                | Não fazer           |
+| <a id="bk17">#BK17</a> | Épico 4 - Funcionalidades do chat | [#HU18 - Salvar chat entre plataformas](../modelagem/historias-de-usuario.md#hu18)                       | [#RF05](../elicitacao/requisitos-gerais.md)                | Média      |
+| <a id="bk18">#BK18</a> | Épico 4 - Funcionalidades do chat | [#HU03 – Interação com a Inteligência Artificial](../modelagem/historias-de-usuario.md#hu03)              | [#RF07](../elicitacao/requisitos-gerais.md)                | Alta       |
+| <a id="bk19">#BK19</a> | Épico 4 - Funcionalidades do chat | [#HU42 – Deve ser possível criar novos chats](../modelagem/historias-de-usuario.md#hu42)                  | [#RF08](../elicitacao/requisitos-gerais.md)                | Alta       |
+| <a id="bk20">#BK20</a> | Épico 4 - Funcionalidades do chat | [#HU04 – Renomear um chat já existente](../modelagem/historias-de-usuario.md#hu04)                        | [#RF09](../elicitacao/requisitos-gerais.md)                | Média      |
+| <a id="bk21">#BK21</a> | Épico 4 - Funcionalidades do chat | [HU35 – Recuperar chats anteriores](../modelagem/historias-de-usuario.md#hu35)                           | [#RF10](../elicitacao/requisitos-gerais.md), ROF04                | Média           |
+| <a id="bk22">#BK22</a> | Épico 4 - Funcionalidades do chat | [HU29 – Buscar versão mais recente do Node.js em data específica e copiar resultado](../modelagem/historias-de-usuario.md#hu29)                                                            | [#RF13](../elicitacao/requisitos-gerais.md)                | Alta           
+| <a id="bk23">#BK23</a> | Épico 4 - Funcionalidades do chat | [#HU15 - Interromper chat em andamento](../modelagem/historias-de-usuario.md#hu15)                        | [#RF19](../elicitacao/requisitos-gerais.md)                |Baixa       |
+| <a id="bk24">#BK24</a> | Épico 4 - Funcionalidades do chat | [#HU07 – Interromper respostas em andamento](../modelagem/historias-de-usuario.md#hu07)                         | [#RF19](../elicitacao/requisitos-gerais.md)                |Baixa       |
+| <a id="bk25">#BK25</a> | Épico 4 - Funcionalidades do chat | [#HU09 – Organizar conversas em pastas, listas ou temas](../modelagem/historias-de-usuario.md#hu09)   | [#RF33](../elicitacao/requisitos-gerais.md)                | Média           |
+| <a id="bk26">#BK26</a>  | Épico 5 - Interface e experiência do usuário | [#HU23 – As respostas devem suportar formatações como textos de tamanhos diferentes, linhas, textos em negrito e emojis](../modelagem/historias-de-usuario.md#hu23)                                                         | [#RF18](../elicitacao/requisitos-gerais.md)               | Baixa           |
+| <a id="bk27">#BK27</a>  | Épico 5 - Interface e experiência do usuário | [#HU34 – Adicionar editor de texto avançado com suporte a Markdown e formatação de código](../modelagem/historias-de-usuario.md#hu34)                                                           | [#RF18](../elicitacao/requisitos-gerais.md),  #RQF15               | Baixa           |
+| <a id="bk28">#BK28</a>  | Épico 5 - Interface e experiência do usuário | [#HU05 – Busca incremental no campo de texto](../modelagem/historias-de-usuario.md#hu05)                                                            | [#RF23](../elicitacao/requisitos-gerais.md)               | Baixa           |
+| <a id="bk29">#BK29</a>  | Épico 5 - Interface e experiência do usuário | [#HU19 – Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO](../modelagem/historias-de-usuario.md#hu19)                                                           | [#RF27](../elicitacao/requisitos-gerais.md)               | Alta           |
+| <a id="bk30">#BK30</a>  | Épico 5 - Interface e experiência do usuário | [#HU01 – Visualizar tutorial interativo](../modelagem/historias-de-usuario.md#hu01)                   | [#RF28](../elicitacao/requisitos-gerais.md)               | Baixa       |
+| <a id="bk31">#BK31</a>  | Épico 5 - Interface e experiência do usuário | [#HU14 - Visualizar em tempo real o status do servidor](../modelagem/historias-de-usuario.md#hu14)        | [#RF29](../elicitacao/requisitos-gerais.md)               | Não fazer  |
+| <a id="bk32">#BK32</a>  | Épico 5 - Interface e experiência do usuário | [#HU12 – Inserir informações por comando de voz](../modelagem/historias-de-usuario.md#hu12)                                                           | [#RF34](../elicitacao/requisitos-gerais.md)               | Alta           |
+| <a id="bk33">#BK33</a>  | Épico 5 - Interface e experiência do usuário | [#HU21 – Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico](../modelagem/historias-de-usuario.md#hu21)        | [#RF35](../elicitacao/requisitos-gerais.md)               | Baixa           |
+| <a id="bk34">#BK34</a>  | Épico 5 - Interface e experiência do usuário | [#HU38 – A interface deve seguir diretrizes de usabilidade e acessibilidade](../modelagem/historias-de-usuario.md#hu38)   | [#RN05](../elicitacao/requisitos-gerais.md)               | Alta           |
+| <a id="bk35">#BK35</a>  | Épico 5 - Interface e experiência do usuário | [#HU27 – Alterar idioma da interface do DeepSeek](../modelagem/historias-de-usuario.md#hu27)              | [#RN15](../elicitacao/requisitos-gerais.md)               | Média      |
+| <a id="bk36">#BK36</a>  | Épico 6 - Desempenho e estabilidade | [#HU40 – Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas](../modelagem/historias-de-usuario.md#hu40)                                                           | [#RN12](../elicitacao/requisitos-gerais.md)               |  Média          |
+| <a id="bk37">#BK37</a>  | Épico 7 - Gerenciamento de arquivos |[#HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR](../modelagem/historias-de-usuario.md#hu25)                                                         | [#RF03](../elicitacao/requisitos-gerais.md)               | Alta           |
+| <a id="bk38">#BK38</a>  | Épico 7 - Gerenciamento de arquivos | [#HU26 – Enviar PDF e receber texto extraído e insights preservando formatação e símbolos](../modelagem/historias-de-usuario.md#hu26)                                                      | [#RF03](../elicitacao/requisitos-gerais.md)               | Alta           |
 | <a id="bk39">#BK39</a>  | Épico 7 - Gerenciamento de arquivos | [#HU08 – Enviar arquivos com suporte a leitura OCR](../modelagem/historias-de-usuario.md#hu08)      | #RIF01              | Alta           |
-| <a id="bk40">#BK40</a>  | Épico 7 - Gerenciamento de arquivos | [#HU22 – Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR](../modelagem/historias-de-usuario.md#hu22) | #RF36 | Média |
-| <a id="bk41">#BK41</a>   | Épico 8 - Integrações e API | [HU31 – Utilizar uma API Pública](../modelagem/historias-de-usuario.md#hu31)                                                       | #RF20               | Alta           |
-| <a id="bk42">#BK42</a>   | Épico 8 - Integrações e API | [HU11 – Integração com plataformas externas](../modelagem/historias-de-usuario.md#hu11) | #RF37               | Média           |
+| <a id="bk40">#BK40</a>  | Épico 7 - Gerenciamento de arquivos | [#HU22 – Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR](../modelagem/historias-de-usuario.md#hu22) | [#RF36](../elicitacao/requisitos-gerais.md) | Média |
+| <a id="bk41">#BK41</a>   | Épico 8 - Integrações e API | [HU31 – Utilizar uma API Pública](../modelagem/historias-de-usuario.md#hu31)                                                       | [#RF20](../elicitacao/requisitos-gerais.md)               | Alta           |
+| <a id="bk42">#BK42</a>   | Épico 8 - Integrações e API | [HU11 – Integração com plataformas externas](../modelagem/historias-de-usuario.md#hu11) | [#RF37](../elicitacao/requisitos-gerais.md)               | Média           |
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
@@ -255,3 +255,4 @@ Fonte: [Luiz](https://github.com/luizfaria1989)
 | 05/06/2025 |  2.0   | (#B01) Adição dos ids para organizar o backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz) |
 | 07/06/2025 |  2.1   | (#B01) Adição dos hiperlinks para as histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz) |
 | 07/06/2025 |  2.2   | (#B01) Adição dos hiperlinks para a citação dos IDs do backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz) |
+| 19/06/2025 |  2.3   | (#B01) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   |   |
