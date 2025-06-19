@@ -1,5 +1,3 @@
-# Especificação Suplementar
-
 ## Introdução
 
 A **Especificação Suplementar** é um documento redigido em linguagem natural que reúne todos os requisitos de um sistema que não foram plenamente capturados pelos casos de uso <a id="anchor_1" href="#REF1">[1]</a>. Ela complementa o modelo de casos de uso ao detalhar necessidades adicionais, tais como:
@@ -460,9 +458,9 @@ Para essa categoria os requisitos identificados estão representados na tabela 8
 || RN09  | Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados |
 || RN10  | Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos |
 
+--- 
 
-
-## Bibliografia
+## Referência Bibliográfica
 
 > <a id="REF1" href="#anchor_1">1.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 28 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/especificacao-suplementar/definicao-especificacao-suplementar.png)
 
@@ -486,6 +484,10 @@ Para essa categoria os requisitos identificados estão representados na tabela 8
 
 > 11.SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 13a [slide em PDF]. Aprender³, Universidade de Brasília, 2025. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf>. Acesso em: 10 maio 2025.
 
+---
+
+## Histórico de versões
+
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 10/05/2025 |  1.0   | (#ES01) Definições iniciais. | [@Gabriela](https://github.com/gaubiela)   | [@Ana Joyce](https://github.com/anajoyceamorim) |
@@ -499,3 +501,4 @@ Para essa categoria os requisitos identificados estão representados na tabela 8
 | 05/06/2025 |  2.0 | (#ES02) Adição dos ids para as tabelas da especificação suplementar. | [@Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz) |
 | 06/06/2025 |  2.1  | (#ES02) Adição da tabela de contribuições e dos hiberlinks para as tabelas de especificação suplementar desenvolvidas.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
 | 19/06/2025 |  2.2  | (#ES02) Adição das referências para o documento. | [@Luiz](https://github.com/luizfaria1989)  |  |
+| 19/06/2025 |  2.3  | (#ES02) Padronização do documento. | [@Luiz](https://github.com/luizfaria1989)  |  |
