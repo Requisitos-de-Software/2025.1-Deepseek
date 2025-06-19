@@ -1,25 +1,23 @@
-## Cenários
-
 ## Introdução
 No contexto atual de crescente uso de ferramentas baseadas em inteligência artificial, como o DeepSeek, torna-se essencial compreender de forma aprofundada as interações entre usuários e sistemas computacionais. O sucesso na adoção e na efetividade dessas ferramentas depende diretamente de seu alinhamento com as necessidades, objetivos e contextos dos usuários finais. Para garantir esse alinhamento, a disciplina de Requisitos de Softaware propõe abordagens sistemáticas que permitem entender, representar e incorporar essas necessidades ao longo do processo de modelagem. Uma das estratégias fundamentais nesse processo é a utilização de cenários, que descrevem narrativas realistas de uso e permitem a análise e refinamento dos requisitos de forma contextualizada e centrada nos usuários. Este projeto tem como objetivo aplicar essa abordagem ao desenvolvimento da modelagem de requisitos de software para o DeepSeek, utilizando a técnica de cenários como instrumento central para a validação e modelagem de requisitos funcionais e não funcionais.
 
 Em IHC, um cenário consiste em uma “história sobre pessoas realizando uma atividade” que descreve, de forma concreta e rica em detalhes contextuais, como usuários reais ou potenciais interagem com um sistema. Conforme definido:
 
-> “Um cenário é basicamente uma história sobre pessoas realizando uma atividade (Rosson e Carroll, 2002). É uma narrativa, textual ou pictórica, concreta, rica em detalhes contextuais, de uma situação de uso da aplicação, envolvendo usuários, processos e dados reais ou potenciais.”;
+> “Um cenário é basicamente uma história sobre pessoas realizando uma atividade (Rosson e Carroll, 2002). É uma narrativa, textual ou pictórica, concreta, rica em detalhes contextuais, de uma situação de uso da aplicação, envolvendo usuários, processos e dados reais ou potenciais.”<a id="anchor_1" href="#REF1">[1]</a>;
 
 Os cenários servem a múltiplos propósitos no processo de design:
 
-> “podem ser utilizados em diversas etapas do processo, com diferentes objetivos: para descrever uma história num domínio de atividade, visando capturar requisitos e auxiliar no entendimento da atividade, levantar questões sobre a introdução de tecnologia, explorar diferentes soluções de design e avaliar se um produto satisfaz a necessidade dos seus usuários (Rosson e Carroll, 2002). Além de poderosos, os cenários requerem menos custo e tempo quando comparados com modelos e protótipos complexos, o que os torna uma ferramenta importante em todo o processo de design de IHC.”;
+> “podem ser utilizados em diversas etapas do processo, com diferentes objetivos: para descrever uma história num domínio de atividade, visando capturar requisitos e auxiliar no entendimento da atividade, levantar questões sobre a introdução de tecnologia, explorar diferentes soluções de design e avaliar se um produto satisfaz a necessidade dos seus usuários (Rosson e Carroll, 2002). Além de poderosos, os cenários requerem menos custo e tempo quando comparados com modelos e protótipos complexos, o que os torna uma ferramenta importante em todo o processo de design de IHC.” <a id="anchor_2" href="#REF2">[2]</a>;
 
 Segundo Rosson & Carroll (2002) e Cooper (1999), cada cenário deve explicitar os seguintes elementos característicos:
 
-- **Ambiente ou contexto**: detalhes da situação que motivam ou explicam os objetivos, ações e reações dos atores;
-- **Atores**: pessoas interagindo com o computador ou outros elementos do ambiente; características pessoais relevantes;
-- **Objetivos**: efeitos na situação que motivam as ações realizadas pelos atores;
-- **Planejamento**: atividade mental dirigida para transformar um objetivo em um comportamento ou conjunto de ações;
-- **Ações**: comportamento observável;
-- **Eventos**: ações externas ou reações produzidas pelo computador ou outras características do ambiente; algumas delas podem ser ocultas ao ator mas importantes para o cenário;
-- **Avaliação**: atividade mental dirigida para interpretar a situação.;
+- **Ambiente ou contexto**: detalhes da situação que motivam ou explicam os objetivos, ações e reações dos atores <a id="anchor_3" href="#REF3">[3]</a>;
+- **Atores**: pessoas interagindo com o computador ou outros elementos do ambiente; características pessoais relevantes <a id="anchor_3" href="#REF3">[3]</a>;
+- **Objetivos**: efeitos na situação que motivam as ações realizadas pelos atores <a id="anchor_3" href="#REF3">[3]</a>;
+- **Planejamento**: atividade mental dirigida para transformar um objetivo em um comportamento ou conjunto de ações <a id="anchor_3" href="#REF3">[3]</a>;
+- **Ações**: comportamento observável <a id="anchor_3" href="#REF3">[3]</a>;
+- **Eventos**: ações externas ou reações produzidas pelo computador ou outras características do ambiente; algumas delas podem ser ocultas ao ator mas importantes para o cenário <a id="anchor_3" href="#REF3">[3]</a>;
+- **Avaliação**: atividade mental dirigida para interpretar a situação. <a id="anchor_3" href="#REF3">[3]</a>;
 
 Essa estrutura garante que o cenário seja suficientemente detalhado para orientar a definição de requisitos, guiar decisões de design e validar a usabilidade de soluções propostas, mantendo sempre o foco nas necessidades e no contexto real dos usuários.
 
@@ -348,11 +346,15 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 
 ---
 
-## Bibliografia
+## Referência Bibliográfica
 
-> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021)
-Interação Humano-Computador e Experiência do usuário.  
-> DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V  
+> <a id="REF1" href="#anchor_1">1.</a> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário, p. 172 . [`Foto da referência`](../images/cenarios/definicao-cenario.png)
+
+> <a id="REF2" href="#anchor_2">2.</a> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário, p. 172 . [`Foto da referência`](../images/cenarios/uso-dos-cenarios.png)
+
+> <a id="REF3" href="#anchor_3">3.</a> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário, p. 172 . [`Foto da referência`](../images/cenarios/itens-cenarios.png)
+
+>  DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V  
 
 ## Histórico de versões
 
@@ -371,4 +373,5 @@ Interação Humano-Computador e Experiência do usuário.
 | 18/05/2025 |  1.10  | (#CO2) Incrementa parte da documentação sobre cenários e corrige indexação dos cenários.| [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
 | 05/06/2025 |  2.0  | (#CO2) Adição dos ids para os cenários desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)  |
 | 06/06/2025 |  2.1  | (#C02) Adição da tabela de contribuições e dos hiberlinks para os cenários desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)   |
-| 19/06/2025 |  2.2  | (#C02) Modificação dos cenários para tabelas.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)   |
+| 19/06/2025 |  2.2  | (#C02) Modificação dos cenários para tabelas.| [@Luiz](https://github.com/luizfaria1989)  |   |
+| 19/06/2025 |  2.3  | (#C02) Adiciona fotos das referências dos cenários.| [@Luiz](https://github.com/luizfaria1989)  |   |
