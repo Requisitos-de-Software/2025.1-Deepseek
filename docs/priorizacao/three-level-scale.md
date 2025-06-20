@@ -1,38 +1,52 @@
-# Técnica de priorização de requisitos: Three Level Scale
+## Introdução
 
-Uma forma comum de priorizar os requisitos é dividi-los em três grandes categorias de prioridade: alta, média e baixa, contudo para que ela possa funcionar da forma correta os stakeholders devem concordar em quais são essas prioridades (WIEGERS; BEATTY,  p. 319).
+Uma forma comum de priorizar os requisitos é dividi-los em três grandes categorias de prioridade: alta, média e baixa, contudo para que ela possa funcionar da forma correta os stakeholders devem concordar em quais são essas prioridades (WIEGERS; BEATTY,  p. 319) <a id="anchor_1" href="#REF1">[1]</a>.
+
 A técnica three level scale transforma essa categorização de requisitos em uma matriz 2x2 que avalia a urgência e a importância de um requisito.
 
-![Figura 1: Priorização de requisitos com base na importância e urgência. Fonte: eleboração prórpria](../images/matriz-three-level-scale.png)
+![Figura 1: Priorização de requisitos com base na importância e urgência. Fonte: Luiz](../images/matriz-three-level-scale.png)
 
-Figura 1: Priorização de requisitos com base na importância e urgência. Fonte: eleboração prórpria.
+Figura 1: Priorização de requisitos com base na importância e urgência. Fonte: Luiz.
 
 Assim, os requisitos na técnica three level scale se dividem em:
-* Alta prioridade: são requisitos que são importantes, pois os consumidores precisam daquela função, e também urgentes, dado que os consumidores precisam dela na próxima release, assim, pela definição, se o requisito pode ser implementado em uma release futura ele não é de alta prioridade (WIEGERS; BEATTY,  p. 319).
-* Média prioridade: são requisitos que são importantes, mas os consumidores não precisam deles de forma tão urgente (WIEGERS; BEATTY,  p. 319).
-* Baixa prioridade: são requisitos que não são tão importantes e também tão urgentes.
-* Os requisitos no quarto quadrante podem ser considerados urgentes para um determinado stakeholder, talvez por razões políticas, mas eles são importantes para atingir os objetivos de negócio (WIEGERS; BEATTY,  p. 319).. Assim, não é ideal que um tempo seja gasto trabalhando no desenvolvimento deles, pois eles não adicionam valor suficiente para o produto (WIEGERS; BEATTY,  p. 319).
 
-# Aplicando a técnica
+* **Alta prioridade:** são requisitos que são importantes, pois os consumidores precisam daquela função, e também urgentes, dado que os consumidores precisam dela na próxima release, assim, pela definição, se o requisito pode ser implementado em uma release futura ele não é de alta prioridade (WIEGERS; BEATTY,  p. 319) <a id="anchor_2" href="#REF2">[2]</a>.
 
+* **Média prioridade:** são requisitos que são importantes, mas os consumidores não precisam deles de forma tão urgente (WIEGERS; BEATTY,  p. 319) <a id="anchor_3" href="#REF3">[3]</a>.
+
+* **Baixa prioridade:** são requisitos que não são tão importantes e também tão urgentes (WIEGERS; BEATTY,  p. 319) <a id="anchor_4" href="#REF4">[4]</a>.
+
+* Os requisitos no quarto quadrante podem ser considerados urgentes para um determinado stakeholder, talvez por razões políticas, mas eles são importantes para atingir os objetivos de negócio (WIEGERS; BEATTY,  p. 319) <a id="anchor_5" href="#REF5">[5]</a> . Assim, não é ideal que um tempo seja gasto trabalhando no desenvolvimento deles, pois eles não adicionam valor suficiente para o produto (WIEGERS; BEATTY,  p. 319) <a id="anchor_5" href="#REF5">[5]</a>.
+
+## Metodologia
 
 Conhecendo como a técnica funciona, ela foi aplicada em reunião online gravada com 4 stakeholders a fim de decidir a prioridade dos requisitos elicitados anteriormente no projeto
-Estavam presentes na reunião
-* Gabriela: integrante do grupo;
-* Luiz: aplicando a técnica de priorização Three Level Scale;
-* Fábio: aplicando a técnica de priorização in or out;
-* Mateus: aplicando a técnica de priorização QFD;
-* Pedro Bueno: estudante de medicina em Buenos Aires, 20 anos de idade, stakeholder 1;
-* Janaina: estudante de arquitetura em Barra do Bugres, 20 anos de idade, stakeholder 2;
-*  Kamila Dutra: estudante de medicina em Buenos Aires, 20 anos de idade, stakeholder 3.
-
-#### Observações:
 
 As técnicas de produção in or out e three level scale foram aplicadas em conjunto, em que ao passar por um requisito, os stakeholders decidiam se aquele requisito era in ou out mas também o grau de importância, sendo eles: alta, média, baixa ou também optaram por não fazer o desenvolvimento dele (quarto quadrante). Ao fazer isso, foi possível poupar tempo dos integrantes do grupo e dos stakeholders.
 
-## Requisitos Priorizados
+### Gravação da reunião
 
-| Código do requisito | Descrição | Tipo | Status | Categoria de priorização |
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IeVB_esBSlA?si=vzQUqABiKJViKWCb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Participantes da reunião 
+
+<font><p style="text-align: center">**Tabela 1** - Participantes da reunião da técnica de priorização Three Level Scale.</p></font>
+
+| **Nome do participante** | **Papel** |
+| ------------------------ | --------- |
+| Gabriela | Integrante do grupo atuando como mediadora | 
+| Luiz | Integrante do grupo aplicando a técnica de priorização Three Level Scale |
+| Fábio | Integrante do grupo aplicando a técnica de priorização in or out |
+| Mateus | Integrante do grupo aplicando a técnica de priorização QFD |
+| Pedro Bueno | Estudande de medicina em Buenos Aires, 20 anos de idade, stakeholder 1 |
+| Janaina | Estudante de arquitetura em Barra do Bugres, 20 anos de idade, stakeholder 2 |
+| Kamilia Dutra | Estudante de medicina em Buenos Aires, 20 anos de idade, stakeholder 3 |
+
+## Requisitos Priorizados com a Técnica Three Level Scale 
+
+<font><p style="text-align: center">**Tabela 2** - Requisitos priorizados com a técnica three level scale.</p></font>
+
+| **Código do requisito** | **Descrição** | **Tipo** | **Status** | **Categoria de priorização** |
 | ------------------- | --------- | ---- | ------ | -------------------------| 
 | [#RF01](../elicitacao/requisitos-gerais.md) | Deve oferecer a possibilidade do usuário acionar a pesquisa na web | Funcional | Implementado | Alta prioridade | 
 | [#RF02](../elicitacao/requisitos-gerais.md) | Deve haver a possibilidade de uso do pensamento profundo para solução de problemas (Deep Thinking) | Funcional | Implementado | Alta prioridade |
@@ -87,26 +101,40 @@ As técnicas de produção in or out e three level scale foram aplicadas em conj
 | [#RF37](../elicitacao/requisitos-gerais.md) | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas | Funcional | Não implementado | Média prioridade |
 | [#RF38](../elicitacao/requisitos-gerais.md) | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização) | Funcional | Não implementado | Alta prioridade |
 
-
-# Considerações finais
+<font><p style="text-align: center">**Autor** - Luiz.</p></font>
 
 Com base na técnica de priorização de requisitos foram capaz de classificar os 52 requisitos elicitados anteriormente em quatro categorias, 17 requisitos foram classificados como muito importantes e de alta prioridade, 15 requisitos foram considerados pelos stakeholders como requisitos de média prioridade, 12 requisitos foram de baixa prioridade, não sendo tão urgentes para os consumidores e não tão importantes. Além disso, 8 requisitos foram para a quarta categoria, que não apresentam valor para o produto final desenvolvido.
 
-# Bibliografia
+---
 
-1. WIEGERS, K; BEATTY, J. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013.
+## Referência Bibliográfica
 
-# Link para o documento em versão PDF
+> <a id="REF1" href="#anchor_1">1.</a> WIEGERS, K; BEATTY, J. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. p. 316. [`Foto da referência`](../images/three-level-scale/definicao-three-level-scale.png)
+
+> <a id="REF2" href="#anchor_2">2.</a> WIEGERS, K; BEATTY, J. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. p. 316. [`Foto da referência`](../images/three-level-scale/definicao-alta-prioridade.png)
+
+> <a id="REF3" href="#anchor_3">3.</a> WIEGERS, K; BEATTY, J. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. p. 316. [`Foto da referência`](../images/three-level-scale/definicao-media-prioridade.png)
+
+> <a id="REF4" href="#anchor_4">4.</a> WIEGERS, K; BEATTY, J. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. p. 316. [`Foto da referência`](../images/three-level-scale/definicao-baixa-prioridade.png)
+
+> <a id="REF5" href="#anchor_5">5.</a> WIEGERS, K; BEATTY, J. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. p. 316. [`Foto da referência`](../images/three-level-scale/definicao-quarto-quadrante.png)
+
+---
+
+## Link para o documento em versão PDF
 
 [Documento](https://docs.google.com/document/d/1Xos-q7mQ_vuDQqeCBLC7N5xdxEBLVYF27pExJdWrvOg/edit?usp=sharing)
 
+---
+
+## Histórico de Versões
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                       |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 02/05/2025 |  0.1   | (#Q04) Documentação referente a aplicação da técnica de priorização Three Level Scale.| [@Luiz](https://github.com/luizfaria1989)   | [@Ana Borges](https://github.com/anabborges) |
 | 20/06/2025 |  1.0   | (#Q04) Transformando os requisitos priorizados em uma tabela para melhor visualização.| [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
 | 20/06/2025 |  1.1   | (#Q04) Adição dos IDs dos requisitos com hiperlinks na tabela de priorização.| [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
-  
+| 20/06/2025 |  1.2   | (#Q04) Adição das referências, gravação da reunião e padronização do documento.| [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
 
 
 
