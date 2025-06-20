@@ -354,7 +354,9 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 
 > <a id="REF3" href="#anchor_3">3.</a> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário, p. 172 . [`Foto da referência`](../images/cenarios/itens-cenarios.png)
 
->  DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V  
+>  4.DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V  
+
+---
 
 ## Histórico de versões
 
