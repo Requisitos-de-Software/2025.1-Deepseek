@@ -26,9 +26,23 @@ Essa estrutura garante que o cenário seja suficientemente detalhado para orient
 ## Metodologia
 A metodologia deste projeto baseia-se na abordagem de design baseado em cenários, conforme proposta por Rosson e Carroll (2002) e discutida por Barbosa et al. (2021). Inicialmente, foi elaborado o [perfil do usuário](https://requisitos-de-software.github.io/2025.1-Deepseek/elicitacao/perfil-de-usuario/) do DeepSeek, com base em dados coletados por meio de análise de interface e de documentação, observação e questionário. Esses perfis foram utilizados para compor cenários de uso que retratam situações reais ou plausíveis de interação com o sistema. Cada cenário foi construído com base nos seguintes elementos: contexto, atores, objetivos, ações, eventos e avaliação das ações. A partir desses cenários, foi possível modelar requisitos do sistema, compreendendo não apenas as funcionalidades desejadas, mas também as limitações e expectativas dos usuários. Essa abordagem qualitativa, centrada no ser humano, favorece um entendimento mais profundo da experiência do usuário e permite o direcionamento dos requisitos de forma iterativa e fundamentada.
 
+## Tabela de Contribuições
+
+| Contribuinte | Descrição                                                            | Links                                           |
+|--------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Ana Joyce     | Criação dos cenários #CN01 | [#CN01](#cn01) |
+| Davi     | Criação dos cenários #CN02, #CN03 | [#CN02](#cn02) · [#CN03](#cn03)|
+| Fábio     | Criação dos cenários #CN04, #CN05 | [#CN04](#cn04) · [#CN05](#cn05)|
+| Gabriela     | Criação dos cenários #CN06, #CN07, #CN08 | [#CN06](#cn06) · [#CN07](#cn07) · [#CN08](#cn08) |
+| Luiz     | Criação dos cenários #CN09, #CN10, #CN11 | [#CN09](#cn09) · [#CN10](#cn10) · [#CN11](#cn11) |
+| Ana Clara     | Criação dos cenários #CN12, #CN13 | [#CN12](#cn12) · [#CN13](#cn13) |
+| Mateus     | Criação dos cenários #CN14 | [#CN14](#cn14)|
+
+<a id="cn01"></a>
+
 ## Cenários Modelados:
 
-## Cenário 01: Confirmação de exclusão de todos os chats no DeepSeek  
+## #CN01 - Cenário 01: Confirmação de exclusão de todos os chats no DeepSeek (#UC01)
 Autor: [Ana Joyce](https://github.com/anajoyceamorim)  
 
 **Atores:** Lívia, 22 anos, estudante de Design Digital, utiliza o DeepSeek diariamente para registrar ideias criativas, rascunhar campanhas visuais e fazer brainstorms com colegas de classe. Costuma testar diferentes abordagens com a IA e mantém diversos chats arquivados por tema e disciplina. Tem alta familiaridade com ferramentas digitais, mas é cuidadosa com perdas de conteúdo.  
@@ -78,7 +92,9 @@ Autor: [Ana Joyce](https://github.com/anajoyceamorim)
 
 * Recomenda a funcionalidade a colegas que também gostam de manter o ambiente de trabalho digital limpo e organizado.  
 
-## Cenário 02: Utilização do DeepSeek com plataformas externas integradas (#UC02)
+<a id="cn02"></a>
+
+## #CN02 - Cenário 02: Utilização do DeepSeek com plataformas externas integradas (#UC02)
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 **Atores:**: Gabriel, 24 anos, recém-formado em Engenharia da Computação, buscando oportunidades na área de Ciência de Dados. É usuário frequente de tecnologias baseadas em IA, com alto nível de familiaridade digital. Usa o DeepSeek diariamente para organizar ideias, revisar códigos, gerar conteúdos e montar portfólios.
@@ -135,7 +151,9 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 * Decide manter as integrações ativas para utilizar o DeepSeek como centro de produtividade no seu dia a dia profissional.
 
-## Cenário 03: Pesquisa utilizando integração por voz no DeepSeek (#UC03)
+<a id="cn03"></a>
+
+## #CN03 - Cenário 03: Pesquisa utilizando integração por voz no DeepSeek (#UC03)
 Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 **Atores:** Camila, 27 anos, mestranda em Psicologia Cognitiva, com bom domínio de tecnologia e rotina intensa de leitura e produção acadêmica. Utiliza o DeepSeek como assistente de pesquisa para agilizar a análise de textos científicos e sínteses bibliográficas.
@@ -186,42 +204,9 @@ Autor: [Davi Emanuel](https://github.com/daviRolvr)
 
 * Decide usar a funcionalidade com frequência, principalmente em momentos em que não pode digitar.
 
-## Cenário 04: Acessar configurações para alterar o tema do Sistema
-**Autor**:  [Fabio](https://github.com/fabinsz)
+<a id="cn04"></a>
 
-**Atores:**
-Lucas, 29 anos, engenheiro de dados, mestre em Ciência da Computação. Usuário frequente do DeepSeek, utiliza a ferramenta diariamente para processar documentos técnicos, interagir com repositórios de código e extrair insights com ajuda da IA. É altamente proficiente em tecnologia e aprecia ambientes de trabalho visualmente confortáveis e personalizados.
-
-**Ambiente (Contexto):**
-Lucas está trabalhando em um coworking, em um ambiente com iluminação forte. Após algumas horas usando o DeepSeek no modo claro, começa a sentir desconforto visual. Decide, então, mudar o tema da interface para o modo escuro para aliviar a fadiga visual.
-
-**Objetivos:**
-
-* Alterar o tema do sistema para o modo escuro.
-* Verificar se a alteração é aplicada de forma consistente em todas as seções do sistema.
-
-**Planejamento:**
-Por ser um usuário experiente, Lucas assume que a opção de personalização visual está nas configurações gerais. Ele espera conseguir mudar o tema com poucos cliques e sem precisar reiniciar a aplicação ou abrir tutoriais.
-
-**Ações:**
-
-1. Clica no ícone de perfil 
-2. Seleciona "Configurações" no menu suspenso.
-3. Encontra a opção “Tema/Aparência”.
-4. Altera de “Claro” para “Escuro (Dark Mode)”.
-5. Observa a transição da interface e valida se todos os elementos visuais se adaptaram corretamente.
-6. Fecha o menu de configurações e retoma suas atividades no novo tema.
-
-**Eventos:**
-
-* O modo escuro se aplica em toda a interface, incluindo ao editor de textos e à área de visualização de documentos.
-
-**Avaliação:**
-
-* Lucas se sente mais confortável visualmente e satisfeito com a personalização oferecida.
-* Considera a experiência rápida e intuitiva, algo essencial para não interromper seu fluxo de trabalho.
-
-## Cenário 05: Personalização da experiência via seleção de modelos de IA
+## #CN04 - Cenário 04: Personalização da experiência via seleção de modelos de IA (#UC04)
 
 **Autor:** [Fabio](https://github.com/fabinsz)
 
@@ -277,7 +262,46 @@ Por ser um usuário experiente, Lucas assume que a opção de personalização v
 
 * Reforça a intenção de continuar utilizando o DeepSeek como ferramenta de apoio no seu TCC.
 
-## Cenário 06: Upload de Documento (#UC01)
+<a id="cn05"></a>
+
+## #CN05 - Cenário 05: Acessar configurações para alterar o tema do Sistema (#UC05)
+**Autor**:  [Fabio](https://github.com/fabinsz)
+
+**Atores:**
+Lucas, 29 anos, engenheiro de dados, mestre em Ciência da Computação. Usuário frequente do DeepSeek, utiliza a ferramenta diariamente para processar documentos técnicos, interagir com repositórios de código e extrair insights com ajuda da IA. É altamente proficiente em tecnologia e aprecia ambientes de trabalho visualmente confortáveis e personalizados.
+
+**Ambiente (Contexto):**
+Lucas está trabalhando em um coworking, em um ambiente com iluminação forte. Após algumas horas usando o DeepSeek no modo claro, começa a sentir desconforto visual. Decide, então, mudar o tema da interface para o modo escuro para aliviar a fadiga visual.
+
+**Objetivos:**
+
+* Alterar o tema do sistema para o modo escuro.
+* Verificar se a alteração é aplicada de forma consistente em todas as seções do sistema.
+
+**Planejamento:**
+Por ser um usuário experiente, Lucas assume que a opção de personalização visual está nas configurações gerais. Ele espera conseguir mudar o tema com poucos cliques e sem precisar reiniciar a aplicação ou abrir tutoriais.
+
+**Ações:**
+
+1. Clica no ícone de perfil 
+2. Seleciona "Configurações" no menu suspenso.
+3. Encontra a opção “Tema/Aparência”.
+4. Altera de “Claro” para “Escuro (Dark Mode)”.
+5. Observa a transição da interface e valida se todos os elementos visuais se adaptaram corretamente.
+6. Fecha o menu de configurações e retoma suas atividades no novo tema.
+
+**Eventos:**
+
+* O modo escuro se aplica em toda a interface, incluindo ao editor de textos e à área de visualização de documentos.
+
+**Avaliação:**
+
+* Lucas se sente mais confortável visualmente e satisfeito com a personalização oferecida.
+* Considera a experiência rápida e intuitiva, algo essencial para não interromper seu fluxo de trabalho.
+
+<a id="cn06"></a>
+
+## #CN06 - Cenário 06: Upload de Documento (#UC06)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
@@ -310,7 +334,9 @@ Júlia decide usar o fluxo de upload do DeepSeek em vez de ferramentas manuais, 
 * Júlia percorre o texto extraído, conferindo símbolos e formatação; para cada inconsistência.
 * Compara mentalmente o conteúdo gerado com o PDF original, e valida se todos os insights obtidos durante a conversa foram consistentes.
 
-## Cenário 07: Consulta Atualizada via Search na Web (#UC02)
+<a id="cn07"></a>
+
+## #CN07 - Cenário 07: Consulta Atualizada via Search na Web (#UC07)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
@@ -348,7 +374,9 @@ Pedro pretende usar a aba “Search” do DeepSeek para fazer uma busca na web, 
 
 ---
 
-## Cenário 08: Iteração de Resposta com Opções Disponíveis Para Resposta (like, dislike, regenerate, copy) (#UC03)
+<a id="cn08"></a>
+
+## #CN08 - Cenário 08: Iteração de Resposta com Opções Disponíveis Para Resposta (like, dislike, regenerate, copy) (#UC08)
 **Autor**:  [Gabriela](https://github.com/gaubiela) 
 
 **Atores:**
@@ -381,7 +409,9 @@ Decide iterar usando “Dislike + Regenerate” até que o resultado atenda ao e
 **Avaliação:**
 Mariana compara mentalmente cada iteração com seu padrão de clareza; quando atingir fluxo e precisão, encerra as regenerações.
 
-## Cenário 09: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática
+<a id="cn09"></a>
+
+## #CN09 - Cenário 09: Utilização da Ferramenta Pensamento Profundo para Resolver um Problema Difícil de Matemática (#UC09)
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
@@ -413,7 +443,9 @@ Decide utilizar o DeepSeek com a função de **Pensamento Profundo** para tentar
 **Avaliação:**
 Gauss compara a resolução do exercício com as suas de seu caderno para garantir que o modelo do DeepSeek utilizou os mesmos conceitos aprendidos em cálculo 1.
 
-## Cenário 10: Opção de Interromper Resposta em Andamento
+<a id="cn10"></a>
+
+## #CN10 - Cenário 10: Opção de Interromper Resposta em Andamento (#UC10)
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
@@ -448,7 +480,9 @@ João decide utilizar o app DeepSeek para pedir explicações de como pode utili
 **Avaliação:**
 João percebe que a mensagem interrompida estava explicando sobre outra tecnologia, assim, o seu cancelamento foi útil, pois poupou tempo que gastaria lendo um texto que não se aplicava para seu projeto.
 
-## Cenário 11: Visualização em Tempo Real do Status do Servidor
+<a id="cn11"></a>
+
+## #CN11 - Cenário 11: Visualização em Tempo Real do Status do Servidor (#UC11)
 **Autor:** [Luiz](https://github.com/luizfaria1989)
 
 **Atores:**
@@ -481,7 +515,9 @@ Clarice olha mais uma vez as suas notas de aula, procura a definição de tercei
 
 Clarice lê a mensagem dizendo que o servidor está em manutenção, fecha o aplicativo e decide procurar respostas em outra IA.
 
-## Cenário 12: Utilização do tutorial prático
+<a id="cn12"></a>
+
+## #CN12 - Cenário 12: Utilização do tutorial prático (#UC12)
 **Autor:** [Ana Clara](https://github.com/anabborges)
 
 **Atores:**  
@@ -519,7 +555,9 @@ Joana opta por seguir o tutorial oferecido na tela inicial ao invés de explorar
 - Considera o conteúdo claro e bem dividido em etapas curtas.  
 - Acredita que o tutorial economizou tempo e reduziu a curva de aprendizado.
 
-## Cenário 13: Limpeza do histórico de conversas
+<a id="cn13"></a>
+
+## #CN13 - Cenário 13: Limpeza do histórico de conversas (#UC13)
 **Autor:** [Ana Clara](https://github.com/anabborges)
 
 **Atores:**  
@@ -556,7 +594,9 @@ Henrique opta por usar a função de “Limpar Histórico” oferecida pela plat
 - Henrique valida que todas as conversas antigas foram de fato apagadas.  
 - Henrique considera o fluxo claro e a confirmação foi essencial para evitar exclusões acidentais.
 
-## Cenário 14: Resumo de Vídeos do YouTube
+<a id="cn14"></a>
+
+## #CN14 - Cenário 14: Resumo de Vídeos do YouTube (#UC14)
 **Autor:** [Mateus](https://github.com/MVConsorte)  
 
 **Ator(es):**  
@@ -613,3 +653,5 @@ Interação Humano-Computador e Experiência do usuário.
 | 17/05/2025 |  1.8   | (#CO4) Incrementa parte da documentação sobre cenários.| [@Ana Joyce](https://github.com/anajoyceamorim)   | [@gaubiela](https://github.com/gaubiela) |
 | 18/05/2025 |  1.9   | (#CO2) Incrementa parte da documentação sobre cenários.| [@Ana Borges](https://github.com/anabborges)   | [@Luiz](https://github.com/luizfaria1989) |
 | 18/05/2025 |  1.10  | (#CO2) Incrementa parte da documentação sobre cenários e corrige indexação dos cenários.| [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
+| 05/06/2025 |  2.0  | (#CO2) Adição dos ids para os cenários desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)  |
+| 06/06/2025 |  2.1  | (#C02) Adição da tabela de contribuições e dos hiberlinks para os cenários desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)   |
