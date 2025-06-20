@@ -651,6 +651,8 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 
 > <a id="REF2" href="#anchor_2">2.</a> MELO, Arthur. Histórias de Usuário. Repositório do Grupo Bilheteria Digital da disciplina de Requisitos de Software da Universidade de Brasília, 2023. Disponível em: <https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/>. Acesso em: 23 maio 2025.
 
+---
+
 ## Histórico de Versões
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
