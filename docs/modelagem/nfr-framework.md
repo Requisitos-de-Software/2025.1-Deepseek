@@ -697,6 +697,8 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Conflitos**         | —                                                                                                 |
 | **História**          | Criado em 31/05/2025   
 
+---
+
 ## Referência Bibliográfica
 
 > <a id="REF1" href="#anchor_1">1.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 30, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. [`Foto da referência`](../images/nfr-framework/definicao-nfr-framework.png)
@@ -712,6 +714,8 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 > <a id="REF6" href="#anchor_6">6.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 33-34, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. [`Foto da referência`](../images/nfr-framework/tipos-de-contribuicao.png)
 
 > <a id="REF7" href="#anchor_7">7.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 33-34, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. [`Foto da referência`](../images/nfr-framework/procedimento-de-avaliacao.png)
+
+---
 
 ## Histórico de Versões
 
