@@ -34,58 +34,58 @@ As técnicas de produção in or out e three level scale foram aplicadas em conj
 
 | Código do requisito | Descrição | Tipo | Status | Categoria de priorização |
 | ------------------- | --------- | ---- | ------ | -------------------------| 
-| | Deve oferecer a possibilidade do usuário acionar a pesquisa na web | Funcional | Implementado | Alta prioridade | 
-| | Deve haver a possibilidade de uso do pensamento profundo para solução de problemas (Deep Thinking) | Funcional | Implementado | Alta prioridade |
-| | O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s | Funcional | Implementado | Alta prioridade |
-| | Deve fazer o uso da arquitetura DeepSeek-V3 | Não funcional | Implementado | Baixa prioridade |
-| | Deve possuir versões para Android e IOS | Não funcional | Implementado | Alta prioridade |
-| | Deve possuir a opção de login com conta Google/Apple ID | Funcional | Implementado | Alta prioridade |
-| | Deve salvar chats entre plataformas | Funcional | Implementado | Média prioridade |
-| | Melhorar as capacidades de "deep thinking" | Funcional | Não implementado | Média prioridade |
-| | Deve haver um campo para a interação com a IA | Funcional | Não implementado | Alta prioridade |
-| | Deve ser possível criar novos chats | Funcional | Implementado | Alta prioridade |
-| | Deve ser possível renomear um chat | Funcional | Implementado | Média prioridade |
-| | Os chats já utilizados devem poder se acessados posteriormente | Funcional | Implementado | Média prioridade |
-| | Deve ser possível dar dislike em uma resposta da IA | Funcional | Implementado | Não fazer |
-| | Deve ser possível dar like em uma resposta da IA | Funcional | Implementado | Não fazer | 
-| | Deve ser possível copiar uma resposta da IA | Funcional | Implementado | Alta prioridade |
-| | Deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando página, site e/ou trecho extraído. | Funcional | Parcialmente implementado | Baixa prioridade|
-| | Deve ser possível alterar o idioma do sistema | Funcional | Implementado | Alta prioridade |
-| | Deve ser possível apagar conversas individuais ou de forma geral | Funcional | Implementado | Baixa prioridade |
-| | Deve ser possível regenar uma resposta da IA de forma manual ou de forma automática no caso de erro de servidor ou sobrecargado sistema | Funcional | Parcialmente implementado | Média prioridade |
-| | O sistema deve exibir respostas formatadas em Markdown em respostas para tabelas ou listas complexas Markdown (títulos, listas, código) com a possibilidade de edição do Markdown pelo usuário | Funcional | Parcialmente implementado | Baixa prioridade |
-| | Deve ser possível interromper respostas em andamento | Funcional | Não implementado | Baixa prioridade |
-| | Deve possuir uma API Pública | Funcional | Não implementado | Alta prioridade |
-| | Deve aceitar autenticação via token de acesso | Funcional | Implementado | Não fazer | 
-| | Deve guardar um histórico de conversas por 30 dias - O histórico não é persistente se o usuário sair sem salvar | Não funcional | Não implementado | Baixa prioridade |
-| | Deve fazer a exclusão automática de dados de upload | Não funcional | Não implementado | Média prioridade |
-| | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura) | Não funcional | Não implementado | Alta prioridade |
-| | Deve haver uma confirmação para limpar o histórico | Funcional | Não implementado | Alta prioridade |
-| | Em caso de falha, deve retornar mensagens de erro claras | Não funcional | Implementado | Não fazer |
-| | O sistema deve suportar múltiplas requisições simultâneas sem degradação | Não funcional | Implementado | Média prioridade |
-| | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos e o tempo médio de resposta deve ser <= 2 s em operações simples | Não funcional | Parcialmente implementado | Baixa prioridade |
-| | Deve suportar busca incremental (exibição de sugestões em tempo real conforme o usuário digita) | Funcional | Não implementado | Baixa prioridade |
-| | Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256) | Funcional | Implementado | Alta prioridade |
-| | O usuário deve poder controlar quais dados são compartilhados (chat, histórico de buscas, localização) | Funcional | Não implementado | Média prioridade | 
-| | Deve haver autenticação multifator opcional para acesso a funcionalidades avançadas | Funcional | Não implementado | Não fazer |
-| | Deve oferecer modo escuro e modo claro, com configuração manual e sincronização automática com o sistema operacional | Funcional | Implementado | Alta prioridade |
-| | Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades. / Implementar tutorial interativo (tour guiado) destacando recursos avançados (DeepThink, Reason etc.) no onboarding | Funcional | Não implementado | Baixa prioridade |
-| | Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados. | Não funcional |  Não funcional | Não implementado | Não fazer |
-| | <a id="tls-rn10"></a> Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em processos de re-treinamento ou venda de modelos | Não funcional | Não implementado | Alta prioridade |
-| | Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga) | Funcional | Não implementado | Não fazer |
-| | Melhorar retenção de contexto em diálogos longos para evitar “esquecimento” ou mistura de informações previamente dadas | Funcional | Parcialmente implementado | Média prioridade |
-| | <a id="tls-rn12"></a> Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas | Não funcional | Parcialmente implementado | Média prioridade |
-| | Implementar memória de contexto persistente entre conversas | Funcional | Não implementado | Média prioridade |
-| | Permitir escolha de modelos (seleção de diferentes versões/modelos de IA) | Funcional | Não implementado | Média prioridade |
-| | Permitir organização de conversas em pastas ou listas por tema ou projeto | Funcional | Não implementado | Média prioridade |
-| | Implementar comandos de voz para entrada e saída de informações | Funcional | Não implementado | Alta prioridade |
-| | Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras | Não funcional | Parcialmente implementado | Baixa prioridade |
-| | <a id="tls-rn14"></a> Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras | Não funcional | Não implementado | Baixa prioridade |
-| | <a id="tls-rn15"></a> Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras | Não funcional | Não implementado | Baixa prioridade |
-| | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico para que não cubra outros elementos e posicione em local adequado | Funcional | Não implementado | Não fazer |
-| | Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR (explicar siglas e limitações) | Funcional | Não implementado | Média prioridade |
-| | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas | Funcional | Não implementado | Média prioridade |
-| | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização) | Funcional | Não implementado | Alta prioridade |
+| [#RF01](../elicitacao/requisitos-gerais.md) | Deve oferecer a possibilidade do usuário acionar a pesquisa na web | Funcional | Implementado | Alta prioridade | 
+| [#RF02](../elicitacao/requisitos-gerais.md) | Deve haver a possibilidade de uso do pensamento profundo para solução de problemas (Deep Thinking) | Funcional | Implementado | Alta prioridade |
+| [#RF03](../elicitacao/requisitos-gerais.md)| O sistema deve aceitar uploads de arquivos de até 10MB nos formatos PDF, DOCX, TXT e imagens (com OCR) com tempo de resposta < 35s | Funcional | Implementado | Alta prioridade |
+| [#RN01](../elicitacao/requisitos-gerais.md) | Deve fazer o uso da arquitetura DeepSeek-V3 | Não funcional | Implementado | Baixa prioridade |
+| [#RN02](../elicitacao/requisitos-gerais.md) | Deve possuir versões para Android e IOS | Não funcional | Implementado | Alta prioridade |
+| [#RF04](../elicitacao/requisitos-gerais.md) | Deve possuir a opção de login com conta Google/Apple ID | Funcional | Implementado | Alta prioridade |
+| [#RF05](../elicitacao/requisitos-gerais.md) | Deve salvar chats entre plataformas | Funcional | Implementado | Média prioridade |
+| [#RF06](../elicitacao/requisitos-gerais.md) | Melhorar as capacidades de "deep thinking" | Funcional | Não implementado | Média prioridade |
+| [#RF07](../elicitacao/requisitos-gerais.md) | Deve haver um campo para a interação com a IA | Funcional | Não implementado | Alta prioridade |
+| [#RF08](../elicitacao/requisitos-gerais.md) | Deve ser possível criar novos chats | Funcional | Implementado | Alta prioridade |
+| [#RF09](../elicitacao/requisitos-gerais.md) | Deve ser possível renomear um chat | Funcional | Implementado | Média prioridade |
+| [#RF10](../elicitacao/requisitos-gerais.md)| Os chats já utilizados devem poder se acessados posteriormente | Funcional | Implementado | Média prioridade |
+| [#RF11](../elicitacao/requisitos-gerais.md) | Deve ser possível dar dislike em uma resposta da IA | Funcional | Implementado | Não fazer |
+| [#RF12](../elicitacao/requisitos-gerais.md) | Deve ser possível dar like em uma resposta da IA | Funcional | Implementado | Não fazer | 
+| [#RF13](../elicitacao/requisitos-gerais.md) | Deve ser possível copiar uma resposta da IA | Funcional | Implementado | Alta prioridade |
+| [#RF14](../elicitacao/requisitos-gerais.md) | Deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando página, site e/ou trecho extraído. | Funcional | Parcialmente implementado | Baixa prioridade|
+| [#RF15](../elicitacao/requisitos-gerais.md) | Deve ser possível alterar o idioma do sistema | Funcional | Implementado | Alta prioridade |
+| [#RF16](../elicitacao/requisitos-gerais.md) | Deve ser possível apagar conversas individuais ou de forma geral | Funcional | Implementado | Baixa prioridade |
+| [#RF17](../elicitacao/requisitos-gerais.md) | Deve ser possível regenar uma resposta da IA de forma manual ou de forma automática no caso de erro de servidor ou sobrecargado sistema | Funcional | Parcialmente implementado | Média prioridade |
+| [#RF18](../elicitacao/requisitos-gerais.md) | O sistema deve exibir respostas formatadas em Markdown em respostas para tabelas ou listas complexas Markdown (títulos, listas, código) com a possibilidade de edição do Markdown pelo usuário | Funcional | Parcialmente implementado | Baixa prioridade |
+| [#RF19](../elicitacao/requisitos-gerais.md) | Deve ser possível interromper respostas em andamento | Funcional | Não implementado | Baixa prioridade |
+| [#RF20](../elicitacao/requisitos-gerais.md) | Deve possuir uma API Pública | Funcional | Não implementado | Alta prioridade |
+| [#RF21](../elicitacao/requisitos-gerais.md) | Deve aceitar autenticação via token de acesso | Funcional | Implementado | Não fazer | 
+| [#RN03](../elicitacao/requisitos-gerais.md) | Deve guardar um histórico de conversas por 30 dias - O histórico não é persistente se o usuário sair sem salvar | Não funcional | Não implementado | Baixa prioridade |
+| [#RN04](../elicitacao/requisitos-gerais.md) | Deve fazer a exclusão automática de dados de upload | Não funcional | Não implementado | Média prioridade |
+| [#RN05](../elicitacao/requisitos-gerais.md) | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura) | Não funcional | Não implementado | Alta prioridade |
+| [#RF22](../elicitacao/requisitos-gerais.md) | Deve haver uma confirmação para limpar o histórico | Funcional | Não implementado | Alta prioridade |
+| [#RN06](../elicitacao/requisitos-gerais.md) | Em caso de falha, deve retornar mensagens de erro claras | Não funcional | Implementado | Não fazer |
+| [#RN07](../elicitacao/requisitos-gerais.md) | O sistema deve suportar múltiplas requisições simultâneas sem degradação | Não funcional | Implementado | Média prioridade |
+| [#RN08](../elicitacao/requisitos-gerais.md) | O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos e o tempo médio de resposta deve ser <= 2 s em operações simples | Não funcional | Parcialmente implementado | Baixa prioridade |
+| [#RF23](../elicitacao/requisitos-gerais.md) | Deve suportar busca incremental (exibição de sugestões em tempo real conforme o usuário digita) | Funcional | Não implementado | Baixa prioridade |
+| [#RF24](../elicitacao/requisitos-gerais.md) | Todos os dados sensíveis do usuário devem ser criptografados em trânsito (TLS) e em repouso (AES-256) | Funcional | Implementado | Alta prioridade |
+| [#RF25](../elicitacao/requisitos-gerais.md) | O usuário deve poder controlar quais dados são compartilhados (chat, histórico de buscas, localização) | Funcional | Não implementado | Média prioridade | 
+| [#RF26](../elicitacao/requisitos-gerais.md) | Deve haver autenticação multifator opcional para acesso a funcionalidades avançadas | Funcional | Não implementado | Não fazer |
+| [#RF27](../elicitacao/requisitos-gerais.md) | Deve oferecer modo escuro e modo claro, com configuração manual e sincronização automática com o sistema operacional | Funcional | Implementado | Alta prioridade |
+| [#RF28](../elicitacao/requisitos-gerais.md) | Deve incluir tutorial interativo na primeira execução, explicando as principais funcionalidades. / Implementar tutorial interativo (tour guiado) destacando recursos avançados (DeepThink, Reason etc.) no onboarding | Funcional | Não implementado | Baixa prioridade |
+| [#RN09](../elicitacao/requisitos-gerais.md) | Disponibilizar, no próprio app, informações claras e acessíveis sobre como e onde os dados são armazenados e utilizados. | Não funcional |  Não funcional | Não implementado | Não fazer |
+| [#RN10](../elicitacao/requisitos-gerais.md) | <a id="tls-rn10"></a> Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em processos de re-treinamento ou venda de modelos | Não funcional | Não implementado | Alta prioridade |
+| [#RF29](../elicitacao/requisitos-gerais.md) | Exibir status do servidor em tempo real (Online, Manutenção, Sobrecarga) | Funcional | Não implementado | Não fazer |
+| [#RF30](../elicitacao/requisitos-gerais.md) | Melhorar retenção de contexto em diálogos longos para evitar “esquecimento” ou mistura de informações previamente dadas | Funcional | Parcialmente implementado | Média prioridade |
+| [#RF12](../elicitacao/requisitos-gerais.md) | <a id="tls-rn12"></a> Garantir estabilidade na geração de conteúdos pesados (PDF, cálculos), evitando erros de formatação ou falhas | Não funcional | Parcialmente implementado | Média prioridade |
+| [#RF31](../elicitacao/requisitos-gerais.md) | Implementar memória de contexto persistente entre conversas | Funcional | Não implementado | Média prioridade |
+| [#RF32](../elicitacao/requisitos-gerais.md) | Permitir escolha de modelos (seleção de diferentes versões/modelos de IA) | Funcional | Não implementado | Média prioridade |
+| [#RF33](../elicitacao/requisitos-gerais.md) | Permitir organização de conversas em pastas ou listas por tema ou projeto | Funcional | Não implementado | Média prioridade |
+| [#RF34](../elicitacao/requisitos-gerais.md) | Implementar comandos de voz para entrada e saída de informações | Funcional | Não implementado | Alta prioridade |
+| [#RN13](../elicitacao/requisitos-gerais.md) | Atingir ≥ 95 % de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras | Não funcional | Parcialmente implementado | Baixa prioridade |
+| [#RN14](../elicitacao/requisitos-gerais.md) | <a id="tls-rn14"></a> Alcançar ≥ 90 % de concordância em “Interface clara e agradável” em pesquisas futuras | Não funcional | Não implementado | Baixa prioridade |
+| [#RF15](../elicitacao/requisitos-gerais.md) | <a id="tls-rn15"></a> Reduzir para ≤ 5 % os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras | Não funcional | Não implementado | Baixa prioridade |
+| [#RF35](../elicitacao/requisitos-gerais.md) | Ajustar visualização do título ao passar o mouse sobre o nome do chat na barra lateral de histórico para que não cubra outros elementos e posicione em local adequado | Funcional | Não implementado | Não fazer |
+| [#RF36](../elicitacao/requisitos-gerais.md) | Fornecer, na interface de envio de imagens, instruções claras e contextualizadas sobre OCR (explicar siglas e limitações) | Funcional | Não implementado | Média prioridade |
+| [#RF37](../elicitacao/requisitos-gerais.md) | Conectar nativamente a ferramentas populares (Google Drive, Google Agendas, Outlook, GitHub etc.) via integrações diretas | Funcional | Não implementado | Média prioridade |
+| [#RF38](../elicitacao/requisitos-gerais.md) | Disponibilizar resumo automático de vídeos (importação de links do YouTube para sumarização) | Funcional | Não implementado | Alta prioridade |
 
 
 # Considerações finais
@@ -105,6 +105,7 @@ Com base na técnica de priorização de requisitos foram capaz de classificar o
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 02/05/2025 |  0.1   | (#Q04) Documentação referente a aplicação da técnica de priorização Three Level Scale.| [@Luiz](https://github.com/luizfaria1989)   | [@Ana Borges](https://github.com/anabborges) |
 | 20/06/2025 |  1.0   | (#Q04) Transformando os requisitos priorizados em uma tabela para melhor visualização.| [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
+| 20/06/2025 |  1.1   | (#Q04) Adição dos IDs dos requisitos com hiperlinks na tabela de priorização.| [@Luiz](https://github.com/luizfaria1989)   | [@](https://github.com/) |
   
 
 
