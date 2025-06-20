@@ -235,9 +235,13 @@ Por fim, juntanto todas as tabelas desenvolvidas, é possível criar o product b
 
 Fonte: [Luiz](https://github.com/luizfaria1989)
 
+---
+
 ## Referência Bibliográfica
 
 >  <a id="REF1" href="#anchor_1">1.</a> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 73. [`Foto da referência`](../images/backlog/definicao-backlog.png)
+
+---
 
 ## Histórico de Versões
 
