@@ -1,29 +1,24 @@
 # Análise de documentos: DeepSeek
 
-## Técnica de elicitação de requisitos: Análise de documentos
+## Introdução
 
 Pode-se definir a técnica de elicitação de análise de documentos como:
 
-> “... um meio de elicitar requisitos pelo estudo de documentação disponível sobre uma solução existente para identificação de informação relevante para o desenvolvimento de uma nova solução” (VAZQUEZ; SIMÕES, 2016).
+> “... um meio de elicitar requisitos pelo estudo de documentação disponível sobre uma solução existente para identificação de informação relevante para o desenvolvimento de uma nova solução” (VAZQUEZ; SIMÕES, 2016) <a id="anchor_1" href="#REF1">[1]</a>.
 
-Nesse sentido, o termo “documentação” possui um significado mais amplo do que as especificações de requisitos do projeto, a documentação também inclui documentos sob o domínio do problema, os quais permitem alcançar os objetivos de informação presentes nos momentos iniciais (VAZQUEZ; SIMÕES, p. 149)
+Nesse sentido, o termo “documentação” possui um significado mais amplo do que as especificações de requisitos do projeto, a documentação também inclui documentos sob o domínio do problema, os quais permitem alcançar os objetivos de informação presentes nos momentos iniciais (VAZQUEZ; SIMÕES, p. 149) <a id="anchor_2" href="#REF2">[2]</a>.
 
-A análise de documentos possui dois objetivos principais, identificar as partes interessadas e as necessidades de negócio (VAZQUEZ; SIMÕES, p. 149). Nesse sentido, ela será utilizada para elicitar requisitos do app DeepSeek, esses requisitos podem ser funcionais ou não-funcionais, também podem já estar implementados ou ainda não. Além disso, com base na análise de documentos, será possível discutir sobre características dos usuários do app facilitando a criação de um perfil de usuário.
+A análise de documentos possui dois objetivos principais, identificar as partes interessadas e as necessidades de negócio (VAZQUEZ; SIMÕES, p. 149) <a id="anchor_3" href="#REF3">[3]</a>. Nesse sentido, ela será utilizada para elicitar requisitos do app DeepSeek, esses requisitos podem ser funcionais ou não-funcionais, também podem já estar implementados ou ainda não. Além disso, com base na análise de documentos, será possível discutir sobre características dos usuários do app facilitando a criação de um perfil de usuário.
 
-### Documentos analisados:
+## Metodologia
 
 Para essa técnica foram escolhidos três documentos diferentes:
+
 1. A página do app DeepSeek na Play Store: por apresentar o primeiro contato do usuário com a versão mobile do DeepSeek;
 2. A página da API do DeepSeek: por possuir uma apresentação geral do aplicativo para o público mundial;
 3. O relatório técnico do DeepSeek-V3: por discutir a criação e desenvolvimento do modelo DeepSeek-V3 o qual é utilizado no aplicativo mobile.
 
-
 Além disso, será possível discutir sobre as características dos usuários do app, facilitando a criação de um perfil de usuário.
-
-### Documentos analisados:
-1. Página do app DeepSeek na Play Store;
-2. Página da API do DeepSeek;
-3. Relatório técnico do DeepSeek-V3.
 
 ---
 
@@ -35,43 +30,56 @@ O primeiro documento a ser analisado é a página do aplicativo DeepSeek na loja
  
 Além disso, é possível ver imagens que mostram as principais funcionalidades da versão mobile do DeepSeek.
 
-![Figura 1: Tela do aplicativo DeepSeek na Play Store. Fonte: Play Store: DeepSeek](../images/play-store-deepseek/figura-1.jpg)
+<p align="center">
+    <img src="../../images/play-store-deepseek/figura-1.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
 Nas imagens do aplicativo é possível ver como é a interface do DeepSeek mobile e exemplos de prompts que ele é capaz de responder. Além disso, nota se que app está sob as categorias de produtividade, ferramentas e playground de inteligência artificial.
 
-![Figura 2: Imagem 1 de apresentação do DeepSeek na Play Store. Fonte: Play Store: DeepSeek](../images/play-store-deepseek/figura-2.jpg)
+<p align="center">
+    <img src="../../images/play-store-deepseek/figura-2.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
 A primeira delas, traz um breve resumo com as principais funcionalidades, sendo elas:
+
 1. Leitura de arquivos;
 2. Pesquisa na web;
 3. Perguntas e respostas inteligentes;
 4. Pensamento profundo.
+
 Também é possível ver o layout do aplicativo no fundo.
 
-![Figura 3: Imagem 2 de apresentação do DeepSeek na Play Store. Fonte: Play Store: DeepSeek](../images/play-store-deepseek/figura-3.jpg)
+<p align="center">
+    <img src="../../images/play-store-deepseek/figura-3.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
 A segunda imagem busca mostrar um prompt comum, em que o usuário pede para a IA planejar uma viagem de Londres para Cambridge. Em destaque é possível ver que a principal vantagem retratada da imagem são as respostas “instantâneas” do modelo para qualquer pergunta.
 
-![Figura 4: Imagem 3 de apresentação do DeepSeek na Play Store. Fonte: Play Store: DeepSeek](../images/play-store-deepseek/figura-4.jpg)
-
+<p align="center">
+    <img src="../../images/play-store-deepseek/figura-4.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 A terceira imagem mostra o usuário utilizando a função de pesquisa do aplicativo, em que a IA faz uma pesquisa na web em busca de conteúdos semelhantes à pergunta feita pelo usuário. 
 
-![Figura 5: Imagem 4 de apresentação do DeepSeek na Play Store. Fonte: Play Store: DeepSeek](../images/play-store-deepseek/figura-5.jpg)
-
+<p align="center">
+    <img src="../../images/play-store-deepseek/figura-5.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 Já na quarta imagem é possível que a função DeepThink está ativada, em que a IA leva um tempo maior para processar a pergunta e responder o usuário. Nesse caso ela é utilizada para um problema de matemática, mas também pode ser utilizada para diferentes problemas. 
 
-![Figura 6: Imagem 5 de apresentação do DeepSeek na Play Store. Fonte: Play Store: DeepSeek](../images/play-store-deepseek/figura-6.jpg)
+<p align="center">
+    <img src="../../images/play-store-deepseek/figura-6.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
 Por fim, na quinta e última imagem do app DeepSeek na PlayStore, é possível ver a funcionalidade de leitura de documentos do DeepSeek. Neste caso a IA lê o PDF e responde a uma pergunta relacionada ao que está escrito nele. Nesta situação não fica claro quais são as limitações da IA com relação a leitura de documentos, se ela é capaz de processar apenas documentos PDF ou outros tipos também.
 
-![Figura 7: Descrição do app DeepSeek na Play Store. Fonte: Play Store: DeepSeek](../images/play-store-deepseek/figura-7.jpg)
-
+<p align="center">
+    <img src="../../images/play-store-deepseek/figura-7.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 Por fim, é possível ler a descrição do aplicativo. Nela fica claro que o modelo utilizado para o aplicativo é o DeepSeek-V3, que foi alimentado por 600 bilhões de parâmetros. O texto também foca no fato do aplicativo ser gratuito para os usuários além de destacar os contatos com a empresa.
 
 
 ### Requisitos elicitados com base na análise do documento
 
-| ID     | Descrição                                         | Tipo           | Fonte     |
+| **ID**     | **Descrição**                                         | **Tipo**           | **Fonte**     |
 |--------|--------------------------------------------------|----------------|-----------|
 | RF01   | Pesquisa na Web de prompts do usuário            | Funcional      | Figura 4  |
 | RF02   | Pensamento profundo para solução de problemas    | Funcional      | Figura 5  |
@@ -97,33 +105,48 @@ Outro ponto que deve-se levar em consideração é a análise de arquivos, em mo
 
 O próximo documento a ser analisado é o site de apresentação do DeepSeek, ele apresenta os conteúdos de forma semelhante a loja de aplicativos. 
 
-![Figura 8: Captura de tela 1 da API do DeepSeek. Fonte: DeepSeek.com.](../images/api-deepseek/figura-8.jpg)
+<p align="center">
+    <img src="../../images/api-deepseek/figura-8.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
 Nele é possível ver que o DeepSeek também está disponível para dispositivos IOS além de ressaltar que o modelo utilizado no app é o DeepSeek-V3.
 
-![Figura 9: Captura de tela 2 da API do DeepSeek. Fonte: DeepSeek.com.](../images/api-deepseek/figura-9.jpg)
+<p align="center">
+    <img src="../../images/api-deepseek/figura-9.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
 Logo em seguida, o site destaca as funções chave do aplicativo, sendo elas: login fácil com e-mail/conta do google/Apple ID, histórico do chat sincronizado entre plataformas, modos de pesquisa na web e pensamento profundo, upload de arquivos e extração de texto.
 
-![Figura 10: Captura de tela 3 da API do DeepSeek. Fonte: DeepSeek.com.](../images/api-deepseek/figura-10.jpg)
-
+<p align="center">
+    <img src="../../images/api-deepseek/figura-10.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 Depois, ele passa a utilizar as mesmas imagens presentes da Play Store para destacar as funcionalidades do aplicativo
 
-![Figura 11: Captura de tela 4 da API do DeepSeek. Fonte: DeepSeek.com.](../images/api-deepseek/figura-11.jpg)
+<p align="center">
+    <img src="../../images/api-deepseek/figura-11.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
-![Figura 12: Captura de tela 5 da API do DeepSeek. Fonte: DeepSeek.com.](../images/api-deepseek/figura-12.jpg)
+<p align="center">
+    <img src="../../images/api-deepseek/figura-12.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
-![Figura 13: Captura de tela 6 da API do DeepSeek. Fonte: DeepSeek.com.](../images/api-deepseek/figura-13.jpg)
+<p align="center">
+    <img src="../../images/api-deepseek/figura-13.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
-![Figura 14: Captura de tela 7 da API do DeepSeek. Fonte: DeepSeek.com.](../images/api-deepseek/figura-14.jpg)
+<p align="center">
+    <img src="../../images/api-deepseek/figura-14.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
-![Figura 15: Captura de tela 8 da API do DeepSeek. Fonte: DeepSeek.com.](../images/api-deepseek/figura-15.jpg)
+<p align="center">
+    <img src="../../images/api-deepseek/figura-15.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
 
 Por fim, o site destaca informações importantes do uso do aplicativo, sendo ele 100% gratuito para uso, sem propagandas e sem compras no app. Depois, é ressaltado a importância de fazer o download do aplicativo apenas de fontes conhecidas.
 
 ### Requisitos elicitados
 
-| ID     | Descrição                                             | Tipo           | Fonte     |
+| **ID**     | **Descrição**                                             | **Tipo**           | **Fonte**     |
 |--------|------------------------------------------------------|----------------|-----------|
 | RNF01  | Versões para Android e iOS                           | Não-funcional  | Figura 8  |
 | RF01   | Login com conta Google/Apple ID                      | Funcional      | Figura 8  |
@@ -148,7 +171,7 @@ Por fim, o último documento a ser analisado é o relatório técnico do DeepSee
 É possível elicitar vários requisitos com relação ao desenvolvimento do modelo, que se dividem em funcionais e não funcionais, eles são vistos na Tabela 3.
 
 
-### Requisitos elicitados (exemplos)
+### Requisitos elicitados
 
 | ID     | Descrição                                                                                     | Tipo           | Status           | Página |
 |--------|-----------------------------------------------------------------------------------------------|----------------|------------------|--------|
@@ -195,22 +218,36 @@ Além disso, pode-se encontrar características do perfil de usuário do app Dee
 
 ---
 
-## Referências
+## Referência Bibliográfica
 
-1. VAZQUEZ, E.; SIMÕES, G. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Brasport, 2016.  
-2. DEEPSEEK. *Página do aplicativo DeepSeek na Play Store*. Disponível em: <https://play.google.com/store/apps/details?id=com.deepseek.chat>. Acesso em: 1 maio 2025.  
-3. DEEPSEEK. *API do DeepSeek*. Disponível em: <https://api-docs.deepseek.com/news/news250115>. Acesso em: 1 maio 2025.  
-4. DEEPSEEK-AI. *DeepSeek-V3 Technical Report*. 2024. Disponível em: <https://arxiv.org/abs/2412.19437>. Acesso em: 1 maio 2025.  
+> <a id="REF1" href="#anchor_1">1.</a> VAZQUEZ, E.; SIMÕES, G. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Brasport, 2016. [`Foto da referência`](../images/analise-de-documentos/analise-de-documentos-fig-1.png)
+
+> <a id="REF2" href="#anchor_2">2.</a> VAZQUEZ, E.; SIMÕES, G. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Brasport, 2016. [`Foto da referência`](../images/analise-de-documentos/analise-de-documentos-fig-2.png)
+
+> <a id="REF3" href="#anchor_3">3.</a> VAZQUEZ, E.; SIMÕES, G. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Brasport, 2016. [`Foto da referência`](../images/analise-de-documentos/analise-de-documentos-fig-3.png)
+
+> 4.DEEPSEEK. *Página do aplicativo DeepSeek na Play Store*. Disponível em: <https://play.google.com/store/apps/details?id=com.deepseek.chat>. Acesso em: 1 maio 2025.  
+> 5.DEEPSEEK. *API do DeepSeek*. Disponível em: <https://api-docs.deepseek.com/news/news250115>. Acesso em: 1 maio 2025.  
+> 6.DEEPSEEK-AI. *DeepSeek-V3 Technical Report*. 2024. Disponível em: <https://arxiv.org/abs/2412.19437>. Acesso em: 1 maio 2025.  
+
+---
 
 ## Link do documento em PDF
 
 <https://docs.google.com/document/d/11YFLgDrjwQGwquQmtuM5PnXQ0yMlqD_vVsqpfcJqIz0/edit?usp=sharing>
 
+---
+
 ## Link do PDF do relatório técnico do DeepSeek
 
 <https://docs.google.com/document/d/11YFLgDrjwQGwquQmtuM5PnXQ0yMlqD_vVsqpfcJqIz0/edit?usp=sharing>  
 
+---
+
+## Histórico de Versões
+
 | Data       | Versão | Descrição                                                         | Autor                                            | Revisor                                        |
 |------------|--------|-------------------------------------------------------------------|--------------------------------------------------|------------------------------------------------|
 | 02/05/2025 | 0.1    | (#A01) Documentação referente à aplicação da técnica de análise de documentos. | [@Luiz](https://github.com/luizfaria1989)        | [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 20/06/2025 | 1.0    | (#A01) Adição de referências para o texto. | [@Luiz](https://github.com/)        | [@Ana Joyce](https://github.com/) |
 
