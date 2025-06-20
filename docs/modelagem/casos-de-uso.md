@@ -398,6 +398,7 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | **Cenário relacionado** | [#CN14](../modelagem/cenarios.md#cn14) |
 | **Léxico relacionado** | [#LX14](../modelagem/lexicos.md#lx14) |
 
+---
 
 ## Referência Bibliográfica
 
@@ -421,9 +422,11 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 
 > <a id="REF10" href="#anchor_10">10.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 24 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/casos-de-uso/definicao-fluxo-de-excessao.png)
 
-> 11. LUCIDCHART. Diagrama de caso de uso UML. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 9 maio 2025.
+> 11.LUCIDCHART. Diagrama de caso de uso UML. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 9 maio 2025.
 
-> 12. DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V .
+> 12.DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V .
+
+---
 
 ## Histórico de versões
 
