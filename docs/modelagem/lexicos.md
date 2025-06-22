@@ -1,11 +1,9 @@
-# Léxicos
-
 ## Introdução
 
-O léxico funciona como uma notação que lista e define os símbolos (palavras ou expressões) usados em uma linguagem. Em Engenharia de Requisitos, seu papel central é identificar termos ou frases próprios do contexto social em que o sistema será aplicado. Cada símbolo do léxico é caracterizado por:
+O léxico funciona como uma notação que lista e define os símbolos (palavras ou expressões) usados em uma linguagem. Em Engenharia de Requisitos, seu papel central é identificar termos ou frases próprios do contexto social em que o sistema será aplicado <a id="anchor_1" href="#REF1">[1]</a> . Cada símbolo do léxico é caracterizado por:
 
-* **Noção**: o seu significado literal, aquilo que ele denota.
-* **Impacto**: a sua conotação ou efeito prático, ou seja, a resposta gerada quando o símbolo é utilizado.
+* **Noção**: o seu significado literal, aquilo que ele denota <a id="anchor_2" href="#REF2">[2]</a>.
+* **Impacto**: a sua conotação ou efeito prático, ou seja, a resposta gerada quando o símbolo é utilizado <a id="anchor_2" href="#REF2">[2]</a>.
 
 Para elaborar os léxicos do DeepSeek, adotamos a abordagem do **Léxico Ampliado da Linguagem (LAL)**, conforme proposta por Sayão e Carvalho. Nesse modelo, cada símbolo é classificado em uma das quatro categorias:
 
@@ -37,7 +35,7 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | Ana Clara     | Criação dos léxicos #LX12, #LX13 | [#LX12](#lx12) · [#LX13](#lx13) |
 | Mateus     | Criação dos léxicos #LX14 | [#LX14](#lx14)|
 
-## Léxicos
+## Léxicos Desenvolvidos
 
 <a id="lx01"></a>
 
@@ -306,15 +304,21 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 
 ---
 
-## Bibliografia
+## Referência Bibliográfica
 
-> SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 10/05/2025.
+> <a id="REF1" href="#anchor_1">1.</a> SERRANO M., SERRANO M. Requisitos - Aula 10 - p. 13 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/lexicos/definicao-lexico.png)
 
-> SAYÃO, Miriam, CARVALHO, Gustavo. Construção do léxico de aplicações. Information and Human Language Technology, 4th Workshop, Ribeirão Preto, 2006. Disponível em: http://www.nilc.icmc.usp.br/til/til2006/0030.pdf. Acesso em: 10/05/2025.
+> <a id="REF2" href="#anchor_2">2.</a> SERRANO M., SERRANO M. Requisitos - Aula 10 - p. 14 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em 19 de Junho de 2025. [`Foto da referência`](../images/lexicos/nocao-impacto.png)
 
-> JIMENEZ, Magda Alexandra Trujillo. Summarization of video from Feature Extraction Method using Image Processing & Artificial Intelligence [em linha]. 2018.
+> 3.SAYÃO, Miriam, CARVALHO, Gustavo. Construção do léxico de aplicações. Information and Human Language Technology, 4th Workshop, Ribeirão Preto, 2006. Disponível em: http://www.nilc.icmc.usp.br/til/til2006/0030.pdf. Acesso em: 10/05/2025.
 
-> SUN, Maojin. An intelligent retrieval method for audio and video content: deep learning technology based on artificial intelligence. IEEE Access, 2024.
+> 4.JIMENEZ, Magda Alexandra Trujillo. Summarization of video from Feature Extraction Method using Image Processing & Artificial Intelligence [em linha]. 2018.
+
+> 5.SUN, Maojin. An intelligent retrieval method for audio and video content: deep learning technology based on artificial intelligence. IEEE Access, 2024.
+
+---
+
+## Histórico de versões
 
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
@@ -330,3 +334,4 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 18/05/2025 |  1.8  | (#LX01) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos léxicos e sua associação com caso de uso. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
 | 05/06/2025 |  2.0  | (#LX01) Adição dos ids para os léxicos desenvolvidos. | [@Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz) |
 | 06/06/2025 |  2.1  | (#LX01) Adição da tabela de contribuições e dos hiberlinks para as tabelas de léxicos desenvolvidas.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
+| 19/06/2025 |  2.2 | (#LX01) Adição de referências para o documento.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
