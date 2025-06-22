@@ -8,7 +8,12 @@ A validação dos artefatos produzidos envolve o envio do material à equipe té
 
 # E-mail
 
-(adicionar cópia do email enviado, data de envio)
+<p align="center">
+    <img src="../../images/validacao/email-deepseek.png" alt="Email enviado à equipe do DeepSeek" >
+</p>
+<p align="center">
+    <img src="../../images/validacao/email-mandarim.png" alt="Email enviado à equipe do DeepSeek" >
+</p>
 
 # Bilbiografia
 > DEEPSEEK. DeepSeek: Plataforma de inteligência artificial. 2025. Disponível em: https://www.deepseek.com. Acesso em: 12 jun. 2025.
@@ -18,3 +23,4 @@ A validação dos artefatos produzidos envolve o envio do material à equipe té
 | Versão |    Data    |       Descrição        |                     Autor                      |                  Revisor                   |
 | :----: | :--------: | :--------------------: | :--------------------------------------------: | :----------------------------------------: |
 |  1.0   | 12/06/2025 | Criação da base da pagina, Introdução, Objetivo e Bibliografia e afins|  [@Mateus](https://github.com/MVConsorte)   | [@](https://github.com/) |
+|  1.1   | 22/06/2025 | Adição da foto do email enviado|  [@Mateus](https://github.com/anabborges)   | [@](https://github.com/) |
