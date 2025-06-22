@@ -21,4 +21,4 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 22/06/2025 |  1.0   | (#V011) Criação da página das listas de verificação com as listas de verificação.| [Ana Clara](https://github.com/anabborges)   | [`@`](https://github.com/)  |
+| 22/06/2025 |  1.0   | (#V011) Criação da página das listas de verificação com as listas de verificação.| [Ana Clara](https://github.com/anabborges)   | [`@Ana Joyce`](https://github.com/anajoyceamorim)  |

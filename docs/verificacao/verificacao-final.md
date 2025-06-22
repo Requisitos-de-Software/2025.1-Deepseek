@@ -325,4 +325,4 @@ Foi realizada uma planilha para controlar os itens julgados como não implementa
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 22/06/2025 |  1.0   | (#V11) Criação da página das listas de verificação com as listas de verificação.| [Ana Clara](https://github.com/anabborges)   | [`@`](https://github.com/)  |
+| 22/06/2025 |  1.0   | (#V11) Criação da página das listas de verificação com as listas de verificação.| [Ana Clara](https://github.com/anabborges)   | [`@Ana Joyce`](https://github.com/anajoyceamorim)  |
