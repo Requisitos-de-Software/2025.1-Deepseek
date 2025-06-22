@@ -106,6 +106,7 @@ nav:
   - Validação:
     - Prototipação: 'validacao/prototipacao.md'
     - Validação Informal: 'validacao/validacao-informal.md'
+    - Acompanhamento Verificação/Validação: 'validacao/acompanhamento-validacao-geral.md'
 
   - Projeto Obsoleto:
       - Início: 'doc-guardioes-da-saude/index.md'
