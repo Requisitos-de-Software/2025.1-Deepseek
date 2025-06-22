@@ -24,7 +24,7 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | Luiz     | Criação das histórias de usuário HU13, HU14, HU15, HU16, HU17 e HU18 | [#HU13](#hu13) · [#HU14](#hu14) · [#HU15](#hu15) · [#HU16](#hu16) · [#HU17](#hu17) · [#HU18](#hu18) |
 | Fábio   | Criação das histórias de usuário HU19, HU20, HU21, HU22, HU23 e HU24 | [#HU19](#hu19) · [#HU20](#hu20) · [#HU21](#hu21) · [#HU22](#hu22) · [#HU23](#hu23) · [#HU24](#hu24) |
 | Gabriela     | Criação das histórias de usuário HU25, HU26, HU27, HU28, HU29 e HU30 | [#HU25](#hu25) · [#HU26](#hu26) · [#HU27](#hu27) · [#HU28](#hu28) · [#HU29](#hu29) · [#HU30](#hu30) |
-| Mateus     | Criação das histórias de usuário HU31, HU32, HU33, HU34, HU35 e HU36 | [#HU31](#hu31) · [#HU32](#hu32) · [#HU33](#hu33) · [#HU34](#hu34) · [#HU35](#hu35) · [#HU36](#hu36) |
+| Mateus     | Criação das histórias de usuário HU31, HU32, HU33, HU34, HU35 e HU36; também validação. | [#HU31](#hu31) · [#HU32](#hu32) · [#HU33](#hu33) · [#HU34](#hu34) · [#HU35](#hu35) · [#HU36](#hu36) · [#Validação31-36](#Validacao31_36) |
 | Ana Joyce    | Criação das histórias de usuário HU37, HU38, HU39, HU40, HU41 e HU42 | [#HU37](#hu37) · [#HU38](#hu38) · [#HU39](#hu39) · [#HU40](#hu40) · [#HU41](#hu41) · [#HU42](#hu42) |
 | Davi Emanuel     | Criação das histórias de usuário HU07, HU08, HU09, HU10 e HU11 e HU12 | [#HU07](#hu07) · [#U08](#hu08) · [#HU09](#hu09) · [#HU10](#hu10) · [#HU11](#hu11) · [#HU12](#hu12) |
 
@@ -552,7 +552,35 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | **Rastreabilidade** | #ROF08, [#RF14](../elicitacao/requisitos-gerais.md) |
 | **Prioridade** | Baixa |
 
+<a id="Validacao31_36"></a>
+<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+  <h4> Validação das Histórias de Usuário (#HU31 - #HU36) </h4>
 
+ <iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/hPP-O9wjW40?start=389" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+
+  <a href="https://youtu.be/hPP-O9wjW40" target="_blank" rel="noopener noreferrer">
+  ▶ Assista à validação também no YouTube
+</a>
+
+  <div style="margin-top: 16px; line-height: 1.6;">
+    <p><strong>Local:</strong> UnB – Gama – FCTE - UED </p>
+    <p><strong>Data e Hora:</strong> 16/06/2025 - (14:30 - 15:00) </p>
+    <p><strong>Usuário entrevistado:</strong> Pablo (usuário típico do sistema Deepseek)</p>
+    <p><strong>Responsável pela execução:</strong> Mateus Villela (Grupo 2 – Requisitos de Software)</p>
+  </div>
+</div>
+
+---
 
 <a id="hu37"></a>
 ## #HU37 – Deve fazer a exclusão automática de dados de upload
@@ -671,5 +699,6 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 01/06/2025 |  1.11   | (#H02) Adjuste de titulo HU22| [`@Fábio`](https://github.com/fabinsz)   |  [@Luiz](https://github.com/luizfaria1989) |
 | 05/06/2025 |  2.0   | (#H02) Adição dos ids das tabelas de histórias de usuário| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz)  |
 | 08/06/2025 |  2.1   | (#H02) Melhorias nos hiperlinks do documento.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Joyce`](https://github.com/anajoyceamorim)  |
-| 19/06/2025 |  2.2   | (#H02) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   |   |
+| 19/06/2025 |  2.2   | (#H02) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)  |
+| 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |   |
 

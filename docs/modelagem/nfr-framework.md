@@ -86,7 +86,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | ------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Gabriela     | Criação dos cartões de especificação CNFR01 a CNFR06 | [#CNFR01](#cnfr01) · [#CNFR02](#cnfr02) · [#CNFR03](#cnfr03) · [#CNFR04](#cnfr04) · [#CNFR05](#cnfr05) · [#CNFR06](#cnfr06) |
 | Luiz     | Criação dos cartões de especificação CNFR07 a CNFR012 | [#CNFR07](#cnfr07) · [#CNFR08](#cnfr08) · [#CNFR09](#cnfr09) · [#CNFR10](#cnfr10) · [#CNFR11](#cnfr11) · [#CNFR12](#cnfr12) |
-| Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 | [#CNFR20](#cnfr20) · [#CNFR21](#cnfr21) · [#CNFR22](#cnfr22) |
+| Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 e Validação | [#CNFR20](#cnfr20) · [#CNFR21](#cnfr21) · [#CNFR22](#cnfr22) · [#Validação20-22](#validacao20_22) |
 | Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [#CNFR26](#cnfr26) · [#CNFR27](#cnfr27) · [#CNFR28](#cnfr28) |
 | Ana Joyce | Criação dos cartões de especificação CNFR14 a CNFR19 |  [#CNFR15](#cnfr15) · [#CNFR16](#cnfr16) . [#CNFR17](#cnfr17) . [#CNFR18](#cnfr18) . [#CNFR19](#cnfr19)|
 | Davi   | Criação dos cartões de especificação CNFR23 a CNFR25 | [#CNFR23](#cnfr23) · [#CNFR24](#cnfr24) · [#CNFR25](#cnfr25) |
@@ -526,6 +526,28 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Prioridade**        | 4 – Essencial para confiança e auditoria, mas pode ser implementado após funcionalidades básicas de resposta.                                                                                   |
 | **Conflitos**         | - Pode conflitar com **RN05** e **RN15** se a exibição de fontes for excessivamente técnica ou poluir a interface.<br>- Risco de exposição indevida de dados caso não haja integração com requisitos de segurança (RF24, RF26).        |
 | **História**          | Criado em 31/05/2025                                                                                                                                                                            |
+<a id="validacao20_22"></a>
+<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+  <h4>Validação dos NFR Cards (#CNFR20, #CNFR21, #CNFR22)</h4>
+
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/hPP-O9wjW40?start=389" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+
+  <a href="https://youtu.be/hPP-O9wjW40?t=389" target="_blank" rel="noopener noreferrer">
+  ▶ Assista à validação também no YouTube
+</a>
+
+  <div style="margin-top: 16px; line-height: 1.6;">
+    <p><strong>Local:</strong> UnB – Gama – FCTE - UED </p>
+    <p><strong>Data e Hora:</strong> 16/06/2025 - (14:30 - 15:00) </p>
+    <p><strong>Usuário entrevistado:</strong> Pablo (usuário típico do sistema Deepseek)</p>
+    <p><strong>Responsável pela execução:</strong> Mateus Villela (Grupo 2 – Requisitos de Software)</p>
+  </div>
+</div>
+
 
 ---
 
@@ -732,4 +754,5 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 01/06/2025 |  1.8  | (#NFR01) Criação de cards 23 a 25 | [`@Davi Emanuel`](https://github.com/daviRolvr)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 01/06/2025 |  1.9  | (#NFR01) Criação de cards 29 a 31 | [`@Ana Clara`](https://github.com/anabborges)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 05/06/2025 |  2.0  | (#NFR01) Adição dos ids dos cartões de especifição | [`Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)  |
-| 19/06/2025 |  2.1   | (#NFR01) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   |   |
+| 19/06/2025 |  2.1   | (#NFR01) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)   |
+| 20/06/2025 |  2.2   | (#NFR01) Adição da validação com usuário dos CNFR 20 - 22 | [`@Mateus`](https://github.com/MVConsorte)   |   |
