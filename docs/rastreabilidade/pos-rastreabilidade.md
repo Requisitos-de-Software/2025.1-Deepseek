@@ -175,7 +175,7 @@ Fonte: Luiz
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04) <br> [#ES01 - Design](../modelagem/especificacao-suplementar.md#es01),                                           |
 |                       Recurso                        |                  -                      |
-|                    Representação                     |                  -                      |
+|                    Representação                     | <img src="../../images/pos-rastreabilidade/HU03.gif" width="400">  |
 |                       Alocado                        |                  -                      |
 |                      Agregação                       |                  [História de usuário #HU03](../modelagem/historias-de-usuario.md#hu03), <br> [Épico 4 - Funcionalidades do chat #BK18](../modelagem/backlog.md#bk18)                      |
 
@@ -206,7 +206,7 @@ Fonte: Luiz
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
 |                       Recurso                        |        -              |
-|                    Representação                     |                  -                      |
+|                    Representação                     |  <img src="../../images/pos-rastreabilidade/HU04.gif" width="400"> |
 |                       Alocado                        | -                                       |
 |                      Agregação                       |                  [História de usuário #HU04](../modelagem/historias-de-usuario.md#hu04), <br>  [Épico 4 - Funcionalidades do chat #BK20](../modelagem/backlog.md#bk20)                    |
 
@@ -407,7 +407,7 @@ Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 |                     Tipos de Elo      |       Artefatos Relacionados            |
 |                      Satisfação       | [#UC13 - Apagar histórico com confirmação](../modelagem/casos-de-uso.md#uc13), <br> [#HU02 - Confirmar a exclusão do histórico de conversas](../modelagem/historias-de-usuario.md#hu02) |
 |                       Recurso         | [Cenário #CN13](../modelagem/cenarios.md#cn13) |
-|                    Representação      | [#UC13 - Apagar histórico com confirmação](../modelagem/casos-de-uso.md#uc13) |
+|                    Representação      | <img src="../../images/pos-rastreabilidade/HU02.gif" width="700"> |
 |                       Alocado         | [Léxico #LX13](../modelagem/lexicos.md#lx13) |
 |                      Agregação        | [Épico #BK09 - Controle de dados](../modelagem/backlog.md#bk09) |
 
@@ -421,7 +421,7 @@ Fonte: Ana Clara
 |                     Tipos de Elo      |       Artefatos Relacionados            |
 |                      Satisfação       | [#HU05 - Busca incremental no campo de texto](../modelagem/historias-de-usuario.md#hu05) |
 |                       Recurso         | - |
-|                    Representação      | - |
+|                    Representação      | <img src="../../images/pos-rastreabilidade/HU05.jpg" width="700"> |
 |                       Alocado         | - |
 |                      Agregação        | [Épico #BK28 - Interface e experiência do usuário](../modelagem/backlog.md#bk28) |
 
@@ -491,7 +491,7 @@ Fonte: Ana Clara
 | **Tipos de Elo** | **Artefatos Relacionados** |
 | Satisfação | – |
 | Recurso | [#CN12](../modelagem/cenarios.md#cn12) |
-| Representação | – |
+| Representação | <img src="../../images/pos-rastreabilidade/HU01.gif" width="700"> |
 | Alocado | [#UC12](../modelagem/casos-de-uso.md#uc12), [#LX12](../modelagem/lexicos.md#lx12) |
 | Agregação | [#HU01](../modelagem/historias-de-usuario.md#hu01), [#BK30](../modelagem/backlog.md#bk30) |
 
@@ -854,5 +854,5 @@ Autor: [Mateus](https://github.com/MVConsorte)
 | 08/06/2025 |  1.8   | (#PR01) Adição dos cartões de especificação para os elos dos requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@`](https://github.com/)   |
 | 08/06/2025 |  1.9   | (#PR01) Adição das tabelas dos elos para os requisitos #RN02 até o #RN05 e do #RN07 até o #RN09 | [`@Ana Joyce`](https://github.com/anajoyceamorim)  | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 08/06/2025 |  2.0   | (#PR01) Adição das tabelas dos elos para os requisitos #RN10 ao #RN15 | [`@Ana Joyce`](https://github.com/anajoyceamorim)| 
-| 22/06/2025 |  2.1   | (#PR01) Adição dos protótipos para as histórias de usuário: HU07, HU13, HU14, HU16, HU17, HU18 | [`@Luiz`](https://github.com/luizfaria1989)| [`@`](https://github.com/) |
-
+| 22/06/2025 |  2.1   | (#PR01) Adição dos protótipos para as histórias de usuário: HU07, HU13, HU14, HU16, HU17, HU18 | [`@Luiz`](https://github.com/luizfaria1989)| [`@Ana Clara`](https://github.com/anabborges) |
+| 22/06/2025 |  2.2   | (#PR01) Adição dos protótipos para as histórias de usuário: HU01, HU02, HU03, HU04, HU05 | [`@Ana Clara`](https://github.com/anabborges)| [`@`](https://github.com/) |
