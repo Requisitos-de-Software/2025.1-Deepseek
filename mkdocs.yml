@@ -82,6 +82,8 @@ nav:
   - Rastreabilidade:
     - Matriz Geral: 'rastreabilidade/matriz-geral.md'
     - Pós-Rastreabilidade: 'rastreabilidade/pos-rastreabilidade.md'
+    - Forward-From: 'rastreabilidade/forward-from.md'
+    - Backward-From: 'rastreabilidade/backward-from.md'
 
   - Verificação:
     - Segunda Entrega: 'verificacao/segunda-entrega.md'
