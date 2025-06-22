@@ -574,7 +574,7 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES02 - implementação](../modelagem/especificacao-suplementar.md#es02)                     |
 |                       Recurso                        |        [#CN03](../modelagem/cenarios.md#cn03)             |
-|                    Representação                     |                  -                      |
+|                    Representação                     |         <img src="../../images/pos-rastreabilidade/HU11.png" width="400">                    |
 |                       Alocado                        | [#UC03](../modelagem/casos-de-uso.md#uc03)              |
 |                      Agregação                       |                                   [História de usuário #HU12](../modelagem/historias-de-usuario.md#hu12), <br>  [Épico 5 - Interface e experiencia do usuário #BK32](../modelagem/backlog.md#bk32)       |
 
@@ -615,7 +615,7 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES07 - Suportabiliddade](../modelagem/especificacao-suplementar.md#es07)                     |
 |                       Recurso                        |      [#CN02](../modelagem/cenarios.md#cn02)      |
-|                    Representação                     |                  -                      |
+|                    Representação                     |                 <img src="../../images/pos-rastreabilidade/HU12.png" width="400">                    |                   |
 |                       Alocado                        | [#UC10](../modelagem/casos-de-uso.md#uc02)              |
 |                      Agregação                       |                                   [História de usuário #HU11](../modelagem/historias-de-usuario.md#hu11) <br>  [Épico 8 - Interações e AP1](../modelagem/backlog.md#bk42)    |
 
