@@ -200,7 +200,34 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | **Prioridade**             | Alta                |
                                                                                                     
 
+<a id="Validacao07_12"></a>
+<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+  <h4> Validação das Histórias de Usuário (#HU07 - #HU12) </h4>
 
+ <iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/x0OMVVA7tBc" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+  <a href="https://youtu.be/x0OMVVA7tBc" target="_blank" rel="noopener noreferrer">
+  ▶ Assista à validação também no YouTube
+</a>
+
+  <div style="margin-top: 16px; line-height: 1.6;">
+    <p><strong>Local:</strong> google meet </p>
+    <p><strong>Data e Hora:</strong> 21/06/2025 - (21:00 - 22:00) </p>
+    <p><strong>Usuário entrevistado:</strong> Luiz (usuário típico do sistema Deepseek)</p>
+    <p><strong>Responsável pela execução:</strong> Davi Emanuel (Grupo 2 – Requisitos de Software)</p>
+  </div>
+</div>
+
+---
 
 
 <a id="hu13"></a>
