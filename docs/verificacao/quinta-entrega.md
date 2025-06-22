@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Esta página é dedicada à lista de verificação criada para os artefatos da quinta entrega.
+Esta página é dedicada à lista de verificação criada para os artefatos da sexta entrega.
 
 ## Lista de Verificação
 
