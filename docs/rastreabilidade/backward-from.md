@@ -106,4 +106,4 @@ Autor: Ana Clara
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 22/06/2025 |  1.0   | (#R01) Documentação da matriz de rastreabilidade backward-from| [`@Ana Clara`](https://github.com/anabborges)   | [`@`](https://github.com/)   |
+| 22/06/2025 |  1.0   | (#R01) Documentação da matriz de rastreabilidade backward-from| [`@Ana Clara`](https://github.com/anabborges)   | [`@Luiz`](https://github.com/luizfaria1989)   |
