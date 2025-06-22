@@ -334,4 +334,4 @@ Esse esquema garante que todo termo usado no DeepSeek seja descrito de forma con
 | 18/05/2025 |  1.8  | (#LX01) Adição de conteúdo desenvolvido e correção na estrutura de indexação dos léxicos e sua associação com caso de uso. | [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
 | 05/06/2025 |  2.0  | (#LX01) Adição dos ids para os léxicos desenvolvidos. | [@Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz) |
 | 06/06/2025 |  2.1  | (#LX01) Adição da tabela de contribuições e dos hiberlinks para as tabelas de léxicos desenvolvidas.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
-| 19/06/2025 |  2.2 | (#LX01) Adição de referências para o documento.| [@Luiz](https://github.com/luizfaria1989)  |  |
+| 19/06/2025 |  2.2 | (#LX01) Adição de referências para o documento.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
