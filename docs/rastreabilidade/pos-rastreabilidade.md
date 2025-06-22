@@ -90,7 +90,7 @@ Fonte: Luiz
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                                            |
 |                       Recurso                        | [Cenário #CN09](../modelagem/cenarios.md#cn09)                      |
-|                    Representação                     |                  -                      |
+|                    Representação                     | <img src="../../images/pos-rastreabilidade/HU13.gif" width="400">                      |
 |                       Alocado                        | [Caso de uso #UC09](../modelagem/casos-de-uso.md#uc09), <br> [Léxico #LX09](../modelagem/lexicos.md#lx09)                                            |
 |                      Agregação                       |                  [História de usuário #HU13](../modelagem/historias-de-usuario.md#hu13), <br> [Épico 1 - Funcionalidades de IA #BK01](../modelagem/backlog.md#bk01)                      |
 
@@ -140,7 +140,7 @@ Fonte: Luiz
 | ---------------------------------------------------- | --------------------------------------- |
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05) <br> [Cartão de especificação #CNFR03](../modelagem/nfr-framework.md#cnfr03) <br> [Cartão de especificação #CNFR11](../modelagem/nfr-framework.md#cnfr11) |
-|                       Recurso                        |                  -                      |
+|                       Recurso                        | <img src="../../images/pos-rastreabilidade/HU18.gif" width="400">                      |
 |                    Representação                     |                  -                      |
 |                       Alocado                        |                  -                      |
 |                      Agregação                       |                  [História de usuário #HU18](../modelagem/historias-de-usuario.md#hu18), <br> [Épico 4 - Funcionalidades do chat #BK17](../modelagem/backlog.md#bk17)                      |
@@ -365,7 +365,7 @@ Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES01 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
 |                       Recurso                        |      [#CN10](../modelagem/cenarios.md#cn10)      |
-|                    Representação                     |                  -                      |
+|                    Representação                     | <img src="../../images/pos-rastreabilidade/HU07.gif" width="400">                      |
 |                       Alocado                        | [#UC10](../modelagem/casos-de-uso.md#uc10)              |
 |                      Agregação                       |                                   [História de usuário #HU07](../modelagem/historias-de-usuario.md#hu07) <br>  [Épico 4 - Funcionalidades do chat #BK24](../modelagem/backlog.md#bk24)    |
 
@@ -449,7 +449,7 @@ Fonte: Ana Clara
 |                     Tipos de Elo      |       Artefatos Relacionados            |
 |                      Satisfação       | [#HU17 - Controlar quais dados são compartilhados com a IA](../modelagem/historias-de-usuario.md#hu17) |
 |                       Recurso         | - |
-|                    Representação      | - |
+|                    Representação      | <img src="../../images/pos-rastreabilidade/HU17.gif" width="400"> |
 |                       Alocado         | - |
 |                      Agregação        | [Épico #BK11 - Controle de dados](../modelagem/backlog.md#bk11) |
 
@@ -463,7 +463,7 @@ Fonte: Ana Clara
 |                     Tipos de Elo      |       Artefatos Relacionados            |
 |                      Satisfação       | [#HU16 - Autenticar a conta para acessar funcionalidades avançadas](../modelagem/historias-de-usuario.md#hu16) |
 |                       Recurso         | - |
-|                    Representação      | - |
+|                    Representação      | <img src="../../images/pos-rastreabilidade/HU16.gif" width="400"> |
 |                       Alocado         | - |
 |                      Agregação        | [Épico #BK16 - Segurança](../modelagem/backlog.md#bk16) |
 
@@ -505,7 +505,7 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 | **Tipos de Elo** | **Artefatos Relacionados** |
 | Satisfação | – |
 | Recurso | [#CN11](../modelagem/cenarios.md#cn11) |
-| Representação | – |
+| Representação | <img src="../../images/pos-rastreabilidade/HU14.gif" width="400"> |
 | Alocado | [#UC11](../modelagem/casos-de-uso.md#uc11), [#LX11](../modelagem/lexicos.md#lx11) |
 | Agregação | [#HU14](../modelagem/historias-de-usuario.md#hu14), [#BK31](../modelagem/backlog.md#bk31) |
 
@@ -853,6 +853,6 @@ Autor: [Mateus](https://github.com/MVConsorte)
 | 08/06/2025 |  1.7   | (#PR01) Adição das tabelas dos elos para os requisitos #RF17, #RF20, #RF22, #RF23, #RF24, #RF25, #RF26, #RF27  | [`@Ana Clara`](https://github.com/anabborges)  | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 08/06/2025 |  1.8   | (#PR01) Adição dos cartões de especificação para os elos dos requisitos #RF01-#RF08  | [`@Luiz`](https://github.com/)  | [`@`](https://github.com/)   |
 | 08/06/2025 |  1.9   | (#PR01) Adição das tabelas dos elos para os requisitos #RN02 até o #RN05 e do #RN07 até o #RN09 | [`@Ana Joyce`](https://github.com/anajoyceamorim)  | [`@Luiz`](https://github.com/luizfaria1989)  |
-| 08/06/2025 |  2.0   | (#PR01) Adição das tabelas dos elos para os requisitos #RN10 ao #RN15 | [`@Ana Joyce`](https://github.com| 08/06/2025 |  1.9   | (#PR01) Adição das tabelas dos elos para os requisitos #RN02 até o #RN05 e do #RN07 até o #RN09 | [`@Mateus`](https://github.com/MVConsorte)  | [`@Ana Joyce`](https://github.com/anajoyceamorim)  |
-)  | [`@Luiz`](https://github.com/luizfaria1989)  |
+| 08/06/2025 |  2.0   | (#PR01) Adição das tabelas dos elos para os requisitos #RN10 ao #RN15 | [`@Ana Joyce`](https://github.com/anajoyceamorim)| 
+| 22/06/2025 |  2.1   | (#PR01) Adição dos protótipos para as histórias de usuário: HU07, HU13, HU14, HU16, HU17, HU18 | [`@Luiz`](https://github.com/luizfaria1989)| [`@`](https://github.com/) |
 
