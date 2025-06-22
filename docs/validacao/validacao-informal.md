@@ -23,4 +23,4 @@ A validação dos artefatos produzidos envolve o envio do material à equipe té
 | Versão |    Data    |       Descrição        |                     Autor                      |                  Revisor                   |
 | :----: | :--------: | :--------------------: | :--------------------------------------------: | :----------------------------------------: |
 |  1.0   | 12/06/2025 | Criação da base da pagina, Introdução, Objetivo e Bibliografia e afins|  [@Mateus](https://github.com/MVConsorte)   | [@](https://github.com/) |
-|  1.1   | 22/06/2025 | Adição da foto do email enviado|  [@Mateus](https://github.com/anabborges)   | [@](https://github.com/) |
+|  1.1   | 22/06/2025 | Adição da foto do email enviado|  [@Ana Clara](https://github.com/anabborges)   | [@](https://github.com/) |
