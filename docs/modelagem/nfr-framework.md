@@ -755,4 +755,4 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 01/06/2025 |  1.9  | (#NFR01) Criação de cards 29 a 31 | [`@Ana Clara`](https://github.com/anabborges)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 05/06/2025 |  2.0  | (#NFR01) Adição dos ids dos cartões de especifição | [`Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)  |
 | 19/06/2025 |  2.1   | (#NFR01) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)   |
-| 20/06/2025 |  2.2   | (#NFR01) Adição da validação com usuário dos CNFR 20 - 22 | [`@Mateus`](https://github.com/MVConsorte)   |   |
+| 20/06/2025 |  2.2   | (#NFR01) Adição da validação com usuário dos CNFR 20 - 22 | [`@Mateus`](https://github.com/MVConsorte)   | [`@Ana Clara`](https://github.com/anabborges)  |
