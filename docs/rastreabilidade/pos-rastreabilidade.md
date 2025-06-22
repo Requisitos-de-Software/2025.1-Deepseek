@@ -124,7 +124,7 @@ Fonte: Luiz
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES07 - Suportabilidade](../modelagem/especificacao-suplementar.md#es07) <br> [Cartão de especificação #CNFR02](../modelagem/nfr-framework.md#cnfr02) <br> [Cartão de especificação #CNFR09](../modelagem/nfr-framework.md#cnfr09) |
 |                       Recurso                        |                  -                      |
-|                    Representação                     |                  -                      |
+|                    Representação                     |  <img src="../../images/pos-rastreabilidade/HU41.jpeg" width="400"> |
 |                       Alocado                        |                                         |
 |                      Agregação                       |                  [História de usuário #HU41](../modelagem/historias-de-usuario.md#hu41), <br> [Épico 3 - Segurança #BK15](../modelagem/backlog.md#bk15)                      |
 
@@ -190,7 +190,7 @@ Fonte: Luiz
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      |   [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                                           |
 |                       Recurso                        |                  -                      |
-|                    Representação                     |                  -                      |
+|                    Representação                     | <img src="../../images/pos-rastreabilidade/HU42.gif" width="400"> |
 |                       Alocado                        |                  -                      |
 |                      Agregação                       |                  [História de usuário #HU42](../modelagem/historias-de-usuario.md#hu42), <br> [Épico 5 - Interface e experiência do usuário #BK21](../modelagem/backlog.md#bk21)                      |
 
@@ -561,7 +561,7 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 | **Tipos de Elo** | **Artefatos Relacionados** |
 | Satisfação | – |
 | Recurso | – |
-| Representação | – |
+| Representação |<img src="../../images/pos-rastreabilidade/HU09.png" width="400">|
 | Alocado | – |
 | Agregação | [#HU09](../modelagem/historias-de-usuario.md#hu09), [#BK25](../modelagem/backlog.md#bk25) |
 
@@ -769,7 +769,7 @@ Fonte: [Ana Joyce](https://github.com/anajoyceamorim)
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      |                  [#ES05 - Confiabilidade](../modelagem/especificacao-suplementar.md#es05)                      |
 |                       Recurso                        |                  -                      |
-|                    Representação                     |                  -                      |
+|                    Representação                     | <img src="../../images/pos-rastreabilidade/HU39.png" width="400"> |
 |                       Alocado                        |                  -                      |
 |                      Agregação                       |                  [Classificação - Three Level Scale](../priorizacao/three-level-scale.md#tls-rn10)                      |
 
@@ -856,3 +856,4 @@ Autor: [Mateus](https://github.com/MVConsorte)
 | 08/06/2025 |  2.0   | (#PR01) Adição das tabelas dos elos para os requisitos #RN10 ao #RN15 | [`@Ana Joyce`](https://github.com/anajoyceamorim)| 
 | 22/06/2025 |  2.1   | (#PR01) Adição dos protótipos para as histórias de usuário: HU07, HU13, HU14, HU16, HU17, HU18 | [`@Luiz`](https://github.com/luizfaria1989)| [`@Ana Clara`](https://github.com/anabborges) |
 | 22/06/2025 |  2.2   | (#PR01) Adição dos protótipos para as histórias de usuário: HU01, HU02, HU03, HU04, HU05 | [`@Ana Clara`](https://github.com/anabborges)| [`@`](https://github.com/) |
+| 22/06/2025 |  2.2   | (#PR01) Adição dos protótipos para as histórias de usuário: HU39, HU41, HU42, HU09 | [`@Ana Joyce`](https://github.com/anajoyceamorim)| [`@`](https://github.com/) |
