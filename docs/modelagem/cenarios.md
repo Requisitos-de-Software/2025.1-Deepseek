@@ -375,5 +375,5 @@ A metodologia deste projeto baseia-se na abordagem de design baseado em cenário
 | 18/05/2025 |  1.10  | (#CO2) Incrementa parte da documentação sobre cenários e corrige indexação dos cenários.| [@Mateus](https://github.com/MVConsorte)   | [@Luiz](https://github.com/luizfaria1989) |
 | 05/06/2025 |  2.0  | (#CO2) Adição dos ids para os cenários desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)  |
 | 06/06/2025 |  2.1  | (#C02) Adição da tabela de contribuições e dos hiberlinks para os cenários desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)   |
-| 19/06/2025 |  2.2  | (#C02) Modificação dos cenários para tabelas.| [@Luiz](https://github.com/luizfaria1989)  |   |
-| 19/06/2025 |  2.3  | (#C02) Adiciona fotos das referências dos cenários.| [@Luiz](https://github.com/luizfaria1989)  |   |
+| 19/06/2025 |  2.2  | (#C02) Modificação dos cenários para tabelas.| [@Luiz](https://github.com/luizfaria1989)  |  [@Ana Clara](https://github.com/anabborges) |
+| 19/06/2025 |  2.3  | (#C02) Adiciona fotos das referências dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
