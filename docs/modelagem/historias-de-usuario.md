@@ -727,5 +727,5 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 05/06/2025 |  2.0   | (#H02) Adição dos ids das tabelas de histórias de usuário| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz)  |
 | 08/06/2025 |  2.1   | (#H02) Melhorias nos hiperlinks do documento.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Joyce`](https://github.com/anajoyceamorim)  |
 | 19/06/2025 |  2.2   | (#H02) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)  |
-| 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |   |
+| 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@Ana Clara`](https://github.com/anabborges) |
 
