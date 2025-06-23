@@ -110,6 +110,11 @@ nav:
       - Grupo 2: 'inspecao/entrega5/inspecao-grupo.md'
       - Grupo 3: 'inspecao/entrega5/inspecao-grupo3.md'
 
+  - Validação:
+    - Prototipação: 'validacao/prototipacao.md'
+    - Validação Informal: 'validacao/validacao-informal.md'
+    - Acompanhamento Verificação/Validação: 'validacao/acompanhamento-validacao-geral.md'
+
   - Projeto Obsoleto:
       - Início: 'doc-guardioes-da-saude/index.md'
       
