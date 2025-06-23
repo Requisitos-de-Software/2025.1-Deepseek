@@ -860,3 +860,4 @@ Autor: [Mateus](https://github.com/MVConsorte)
 | 22/06/2025 |  2.2   | (#PR01) Adição dos protótipos para as histórias de usuário: HU01, HU02, HU03, HU04, HU05 | [`@Ana Clara`](https://github.com/anabborges)| [`@`](https://github.com/) |
 | 22/06/2025 |  2.3   | (#PR01) Adição dos protótipos para as histórias de usuário: HU39, HU41, HU42, HU09 | [`@Ana Joyce`](https://github.com/anajoyceamorim)| [`@`](https://github.com/) |
 | 07/06/2025 |  2.4   | (#PR01) Adição dos protótipos para representação/protótipo de #RF01, #RF03, #RF15, #RF16, #RF17| [`@Gabriela`](https://github.com/gaubiela)   | [`@-`](https://github.com/-)   |
+| 22/06/2025 |  2.5   | (#PR01) Adição dos protótipos para representação/protótipo de #RF37, #RF34, #RF10, #RF27, #RF17 (feitos pelo Davi)| [`@Ana Clara`](https://github.com/anabborges)   | [`@-`](https://github.com/-)   |
