@@ -97,4 +97,4 @@
 | 02/06/2025 |  1.4   | (#D03) Documenta inspeção do Grupo + 1 - entrega 4. | [@Ana Clara](https://github.com/anabborges)   | [@Mateus](https://github.com/MVConsorte)|
 | 08/06/2025 |  1.5   | (#D03) Documenta inspeção do Grupo - entrega 6. | [@Ana Clara](https://github.com/anabborges)   | [@Luiz](https://github.com/luizfaria1989)|
 | 09/06/2025 |  1.6   | (#D03) Documenta inspeção do Grupo + 1 - entrega 6. | [@Ana Clara](https://github.com/anabborges)   | [@Gabriela](https://github.com/gaubiela)|
-| 22/06/2025 |  1.6   | (#D03) Documenta apresentação e inspeção do Grupo - entrega 5. | [@Ana Clara](https://github.com/anabborges)   | [Davi Emnauel@](https://github.com/daviRolvr)|
+| 22/06/2025 |  1.6   | (#D03) Documenta apresentação e inspeção do Grupo - entrega 5. | [@Ana Clara](https://github.com/anabborges)   | [@Davi Emnauel](https://github.com/daviRolvr)|
