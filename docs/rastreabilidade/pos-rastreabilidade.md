@@ -57,7 +57,7 @@ Autor: Luiz
 | Ana Joyce     | Responsável pela representação/protótipo de #RF04, #RF08, #RF33, #RN10 | [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08), [#RF33](../rastreabilidade/pos-rastreabilidade.md#rf33), [#RN10](../rastreabilidade/pos-rastreabilidade.md#rn10) |
 | Ana Borges     | Responsável pela representação/protótipo de #RF28, #RF22, #RF07, #RF09, #RF23 | [#RF28](../rastreabilidade/pos-rastreabilidade.md#rf28), [#RF22](../rastreabilidade/pos-rastreabilidade.md#rf22), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF23](../rastreabilidade/pos-rastreabilidade.md#rf23) |
 | Luiz     | Responsável pela representação/protótipo de #RF02, #RF05, #RF19, #RF25, #RF26, #RF29 | [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF19](../rastreabilidade/pos-rastreabilidade.md#rf19), [#RF25](../rastreabilidade/pos-rastreabilidade.md#rf25), [#RF26](../rastreabilidade/pos-rastreabilidade.md#rf25), [#RF29](../rastreabilidade/pos-rastreabilidade.md#rf29) |
-| Davi     | Responsável pela representação/protótipo de #RF37, #RF34 | [#RF37](../rastreabilidade/pos-rastreabilidade.md#rf37), [#RF34](../rastreabilidade/pos-rastreabilidade.md#rf34), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF27](../rastreabilidade/pos-rastreabilidade.md#rf27)|
+| Davi     | Responsável pela representação/protótipo de #RF37, #RF34,#RF10, #RF27 | [#RF37](../rastreabilidade/pos-rastreabilidade.md#rf37), [#RF34](../rastreabilidade/pos-rastreabilidade.md#rf34), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF27](../rastreabilidade/pos-rastreabilidade.md#rf27)|
 
 
 # Rastreabilidade
@@ -859,4 +859,5 @@ Autor: [Mateus](https://github.com/MVConsorte)
 | 22/06/2025 |  2.1   | (#PR01) Adição dos protótipos para as histórias de usuário: HU07, HU13, HU14, HU16, HU17, HU18 | [`@Luiz`](https://github.com/luizfaria1989)| [`@Ana Clara`](https://github.com/anabborges) |
 | 22/06/2025 |  2.2   | (#PR01) Adição dos protótipos para as histórias de usuário: HU01, HU02, HU03, HU04, HU05 | [`@Ana Clara`](https://github.com/anabborges)| [`@`](https://github.com/) |
 | 22/06/2025 |  2.3   | (#PR01) Adição dos protótipos para as histórias de usuário: HU39, HU41, HU42, HU09 | [`@Ana Joyce`](https://github.com/anajoyceamorim)| [`@`](https://github.com/) |
-| 07/06/2025 |  2.4   | (#PR01) Adição dos protótipos para representação/protótipo de #RF01, #RF03, #RF15, #RF16, #RF17| [`@Gabriela`](https://github.com/gaubiela)   | [`@-`](https://github.com/-)   |
+| 07/06/2025 |  2.4   | (#PR01) Adição dos protótipos para representação/protótipo de #RF01, #RF03, #RF15, #RF16, #RF17| [`@Gabriela`](https://github.com/gaubiela)   | [`Davi Emanuel`](https://github.com/daviRolvr)   |
+| 22/06/2025 |  2.5   | (#PR01) Adição dos protótipos para representação/protótipo de #RF37, #RF34, #RF10, #RF27| [`@Davi Emanuel`](https://github.com/daviRolvr)   | [`@Ana Clara`](https://github.com/anabborges)|
