@@ -94,6 +94,7 @@ nav:
     - Sexta Entrega: 'verificacao/quinta-entrega.md'
     - Quinta Entrega: 'verificacao/sexta-entrega.md'
     - Verificação Final: 'verificacao/verificacao-final.md'
+    - Acompanhamento Verificação/Validação: 'verificacao/acompanhamento-validacao-geral.md'
 
   - Inspeção:
     - Segunda Entrega: 
@@ -115,7 +116,6 @@ nav:
   - Validação:
     - Prototipação: 'validacao/prototipacao.md'
     - Validação Informal: 'validacao/validacao-informal.md'
-    - Acompanhamento Verificação/Validação: 'validacao/acompanhamento-validacao-geral.md'
 
   - Projeto Obsoleto:
       - Início: 'doc-guardioes-da-saude/index.md'
