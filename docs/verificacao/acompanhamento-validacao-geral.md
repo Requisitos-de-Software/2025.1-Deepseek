@@ -72,4 +72,4 @@ Autor: [Gabriela](https://github.com/gaubiela)
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 22/06/2025 |  1.0   | Documenta verificação geral das entregas (Tabela 1).| [`@Gabriela`](https://github.com/gaubiela)   | - |
+| 22/06/2025 |  1.0   | Documenta verificação geral das entregas (Tabela 1).| [`@Gabriela`](https://github.com/gaubiela)   | [`@Ana Clara`](https://github.com/anabborges) |
