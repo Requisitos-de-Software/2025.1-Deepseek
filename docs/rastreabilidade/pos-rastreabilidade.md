@@ -57,7 +57,7 @@ Autor: Luiz
 | Ana Joyce     | Responsável pela representação/protótipo de #RF04, #RF08, #RF33, #RN10 | [#RF04](../rastreabilidade/pos-rastreabilidade.md#rf04), [#RF08](../rastreabilidade/pos-rastreabilidade.md#rf08), [#RF33](../rastreabilidade/pos-rastreabilidade.md#rf33), [#RN10](../rastreabilidade/pos-rastreabilidade.md#rn10) |
 | Ana Borges     | Responsável pela representação/protótipo de #RF28, #RF22, #RF07, #RF09, #RF23 | [#RF28](../rastreabilidade/pos-rastreabilidade.md#rf28), [#RF22](../rastreabilidade/pos-rastreabilidade.md#rf22), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF23](../rastreabilidade/pos-rastreabilidade.md#rf23) |
 | Luiz     | Responsável pela representação/protótipo de #RF02, #RF05, #RF19, #RF25, #RF26, #RF29 | [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF19](../rastreabilidade/pos-rastreabilidade.md#rf19), [#RF25](../rastreabilidade/pos-rastreabilidade.md#rf25), [#RF26](../rastreabilidade/pos-rastreabilidade.md#rf25), [#RF29](../rastreabilidade/pos-rastreabilidade.md#rf29) |
-| Davi     | Responsável pela representação/protótipo de #RF37, #RF34 | [#RF37](../rastreabilidade/pos-rastreabilidade.md#rf37), [#RF34](../rastreabilidade/pos-rastreabilidade.md#rf34) |
+| Davi     | Responsável pela representação/protótipo de #RF37, #RF34 | [#RF37](../rastreabilidade/pos-rastreabilidade.md#rf37), [#RF34](../rastreabilidade/pos-rastreabilidade.md#rf34), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF27](../rastreabilidade/pos-rastreabilidade.md#rf27)|
 
 
 # Rastreabilidade
@@ -225,7 +225,7 @@ Fonte: Fábio
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
 |                       Recurso                        |        -              |
-|                    Representação                     |                  -                      |
+|                    Representação                     |  <img src="../../images/pos-rastreabilidade/RF10.gif" width="700">   |
 |                       Alocado                        |                                     -  |
 |                      Agregação                       |                                    -  |
 
@@ -479,7 +479,7 @@ Fonte: Ana Clara
 |                     Tipos de Elo      |       Artefatos Relacionados            |
 |                      Satisfação       | [#HU19 - Deve oferecer modo escuro e claro, com configuração manual e sincronização automática com o SO](../modelagem/historias-de-usuario.md#hu19) |
 |                       Recurso         | [Cenário #CN05](../modelagem/cenarios.md#cn05) |
-|                    Representação      | - |
+|                    Representação      | <img src="../../images/pos-rastreabilidade/RF27.gif" width="700"> |
 |                       Alocado         | [Caso de uso #UC05](../modelagem/casos-de-uso.md#uc05), <br> [Léxico #LX05](../modelagem/lexicos.md#lx05) |
 |                      Agregação        | [Épico #BK29 - Interface e experiência do usuário](../modelagem/backlog.md#bk29) |
 
@@ -576,7 +576,7 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES02 - implementação](../modelagem/especificacao-suplementar.md#es02)                     |
 |                       Recurso                        |        [#CN03](../modelagem/cenarios.md#cn03)             |
-|                    Representação                     |                  -                      |
+|                    Representação                     |    <img src="../../images/pos-rastreabilidade/HU12.png" width="700">                   |
 |                       Alocado                        | [#UC03](../modelagem/casos-de-uso.md#uc03)              |
 |                      Agregação                       |                                   [História de usuário #HU12](../modelagem/historias-de-usuario.md#hu12), <br>  [Épico 5 - Interface e experiencia do usuário #BK32](../modelagem/backlog.md#bk32)       |
 
@@ -617,7 +617,7 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES07 - Suportabiliddade](../modelagem/especificacao-suplementar.md#es07)                     |
 |                       Recurso                        |      [#CN02](../modelagem/cenarios.md#cn02)      |
-|                    Representação                     |                  -                      |
+|                    Representação                     |   <img src="../../images/pos-rastreabilidade/HU11.png" width="700">  |
 |                       Alocado                        | [#UC10](../modelagem/casos-de-uso.md#uc02)              |
 |                      Agregação                       |                                   [História de usuário #HU11](../modelagem/historias-de-usuario.md#hu11) <br>  [Épico 8 - Interações e AP1](../modelagem/backlog.md#bk42)    |
 
