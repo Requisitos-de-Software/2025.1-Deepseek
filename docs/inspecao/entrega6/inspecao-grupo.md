@@ -29,4 +29,4 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da quin
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 22/06/2025 |  1.0   | (#V011) Criação da página da inspeção do grupo com as listas de verificação.| [Ana Clara](https://github.com/anabborges)   | [`@`](https://github.com/) |
+| 22/06/2025 |  1.0   | (#V011) Criação da página da inspeção do grupo com as listas de verificação.| [Ana Clara](https://github.com/anabborges)   | [Davi Emanuel](https://github.com/daviRolvr) |
