@@ -101,6 +101,14 @@ nav:
     - Planejamento Geral: 'verificacao2/planejamento-geral.md'
     - Entrega 1:
       - Planejamento: 'verificacao2/entrega1/planejamento-entrega1.md'
+      - Aplicativos Avaliados: 'verificacao2/entrega1/apps-avaliados.md'
+      - Cronograma Planejado: 'verificacao2/entrega1/cronograma-planejado.md'
+      - Cronograma Executado: 'verificacao2/entrega1/cronograma-executado.md'
+      - Ferramentas: 'verificacao2/entrega1/ferramentas.md'
+      - Heatmap: 'verificacao2/entrega1/heatmap.md'
+      - Políticas do Repositório: 'verificacao2/entrega1/politicas-repositorio.md'
+      - Rich Picture: 'verificacao2/entrega1/rich-picture.md'
+      - Termo de Uso: 'verificacao2/entrega1/termo-de-uso.md'
     - Entrega 2:
       - Planejamento: 'verificacao2/entrega2/planejamento-entrega2.md'
     - Entrega 3:
