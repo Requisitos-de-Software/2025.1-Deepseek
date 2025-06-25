@@ -6,7 +6,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 
 ## Lista de Verificação
 
-### Tabela 1 - Verificação recomendada pelo professor
+<!-- ### Tabela 1 - Verificação recomendada pelo professor
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -25,9 +25,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 | 13  | Existe referência bibliográfica da fonte e foto do texto da referência explicando o que é o cartão de especificação do RNF.  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
 | 14  | Os softgoals condizem com o contexto? Existe referência bibliográfica da fonte e foto do texto da referência explicando o que é softgoals?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
 | 15  | Os Softgoals representam metas bem definidas?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
-| 16  | Os impactos foram corretamente propagados?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
+| 16  | Os impactos foram corretamente propagados?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         | -->
 
-### Tabela 2 - Verificação das hisórias de usuário
+### Tabela 1 - Verificação das histórias de usuário
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -38,14 +38,14 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 | 05  | A história de usuário possui descrição? | Luiz  | [Reposiório de requisitos: Bilheteria digital](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/) |
 | 06  | A história de usuário possui critérios de aceitação? | Luiz  | [Reposiório de requisitos: Bilheteria digital](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/) |
 
-### Tabela 3 - Verificação do backlog
+### Tabela 2 - Verificação do backlog
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
 | 01  | O backlog está representado por uma lista com os requisitos ou funcionalidades do projeto? | Luiz  | ![Definicao-backlog](../images/backlog/definicao-backlog.png) |
 | 02  | Os requisitos do backlog possuem uma prioridade? | Luiz  | ![Definicao-backlog](../images/backlog/definicao-backlog.png)  |
 
-### Tabela 4 - Verificação do NFR Framewok
+### Tabela 3 - Verificação do NFR Framewok
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -66,3 +66,4 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 01/06/2025 |  1.0   | (#V01) Criação da página das listas de verificação com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [Ana Joyce](https://github.com/anajoyceamorim) |
+| 25/06/2025 |  1.1   | (#V02) Retira tabela com itens do professor.| [Ana Borges](https://github.com/anabborges)   | [](https://github.com/) |

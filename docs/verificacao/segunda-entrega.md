@@ -6,7 +6,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 
 ## Lista de Verificação
 
-### Tabela 1 - Verificação recomendada pelo professor
+<!-- ### Tabela 1 - Verificação recomendada pelo professor
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -21,9 +21,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | 9   | Um cronograma (data e horário) e local para realização da priorização de requisitos com o cliente e/ou persona do projeto.                                                                                                    | André Barros de Sales  |       ![PROF1-10](../images/verificacao/PROF1-10.png)                     |
 | 10  | No mínimo quatro técnicas de priorização (quanto mais, melhor)? MoSCoW; 100 $; First Thing First; ROI; QFD; TQM; Outra técnica? (MoSCoW/100 $ só após uso de outras duas técnicas.)                                           | André Barros de Sales  |   ![PROF1-10](../images/verificacao/PROF1-10.png)                         |
 | 11  | A participação do cliente e/ou persona no processo de priorização.                                                                                                                                                            | André Barros de Sales  |       ![PROF11-12](../images/verificacao/PROF11-12.png)                     |
-| 12  | A gravação e o(s) registro(s) da atividade de priorização de requisitos. Importante: cada integrante deve elaborar ao menos um item de conteúdo da disciplina com referência bibliográfica e foto do texto da referência.      | André Barros de Sales  |    ![PROF11-12](../images/verificacao/PROF11-12.png)                        |
+| 12  | A gravação e o(s) registro(s) da atividade de priorização de requisitos. Importante: cada integrante deve elaborar ao menos um item de conteúdo da disciplina com referência bibliográfica e foto do texto da referência.      | André Barros de Sales  |    ![PROF11-12](../images/verificacao/PROF11-12.png)                        | -->
 
-### Tabela 2 - Verificação Pesquisa/Questionário
+### Tabela 1 - Verificação Pesquisa/Questionário
 
 | Código | Descrição | Autor         | Referência |
 |--------|----------|---------------|------------|
@@ -35,7 +35,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LQ7 | A sequência das perguntas deve seguir estrutura lógica e ser agrupada por temas, para evitar que uma questão influencie a outra.<br><br>“A ordem das perguntas deve ser cuidadosamente projetada, pois a resposta a uma pergunta pode ser influenciada por uma das perguntas anteriores. Quando um questionário é longo, suas perguntas podem ser agrupadas em tópicos relacionados, formando uma estrutura lógica e de preenchimento mais fácil.” | Gabriela Alves | ![Q6](../images/verificacao/Q6.png) BARBOSA, Simone D. J.; SANTANA DA SILVA, Bruno; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. p. 151. |
 
 
-### Tabela 3 - Verificação Análise de Documentos
+### Tabela 2 - Verificação Análise de Documentos
 
 | Código | Descrição | Autor       | Referência |
 |--------|----------|-------------|------------|
@@ -43,7 +43,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LD2 | Os documentos analisados são documentos recentes?<br><br>“A risk with this technique is that the available documents might not be up to date. Requirements might have changed without the specifications being updated, or functionality might be documented that is not needed in a new system.” | Luiz Morais | ![LD2](../images/verificacao/LD2.png) WIEGERS, K.; BEATTY, J. *Software Requirements*. 3. ed. Redmond: Microsoft Press, 2013. p. 129. |
 
 
-### Tabela 4 - Verificação Observação
+### Tabela 3 - Verificação Observação
 
 | Código | Descrição | Autor             | Referência |
 |--------|----------|-------------------|------------|
@@ -55,14 +55,14 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LO6 | Os objetivos da técnica foram explicados anteriormente aos usuários observados<br><br>“Esclarece que as informações resultantes servirão como insumo para análise dos requisitos.” | Ana Clara Borges | ![O6](../images/verificacao/O6.png) VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. *Engenharia de requisitos: software orientado ao negócio*. Rio de Janeiro: Brasport Livros e Multimídia, 2016. p. 161. |
 | LO7 | Os usuários observados foram definidos<br><br>“usuários cujo trabalho deve ser observado, como, por exemplo, especialistas e novatos.” | Ana Clara Borges |![O7](../images/verificacao/O7.png)  VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. *Engenharia de requisitos: software orientado ao negócio*. Rio de Janeiro: Brasport Livros e Multimídia, 2016. p. 160. |
 
-### Tabela 5 - Verificação Análise de Interface
+### Tabela 4 - Verificação Análise de Interface
 
 | Código   | Descrição | Autor      | Referência |
 |----------|----------|------------|------------|
 | LVAI01 | Foram identificados requisitos funcionais relacionados à troca de dados e serviços entre o sistema em desenvolvimento e sistemas externos com os quais ele se conecta.<br><br>“System interface analysis reveals functional requirements regarding the exchange of data and services between systems.” | Ana Joyce | ![AI1](../images/verificacao/AI1.png) WIEGERS, Karl; BEATTY, Joy. *Software Requirements*. 3. ed. [S. l.]: Microsoft Press, 2013. p. 127. |
 | LVAI02 | Para cada sistema externo identificado, foram analisadas funcionalidades que possam gerar requisitos para o sistema em desenvolvimento?<br><br>“For each system that interfaces with yours, identify functionality in the other system that might lead to requirements for your system.” | Ana Joyce | ![AI2](../images/verificacao/AI2.png) WIEGERS, Karl; BEATTY, Joy. *Software Requirements*. 3. ed. [S. l.]: Microsoft Press, 2013. p. 127. |
 
-### Tabela 6 - Verificação Perfil de Usuário
+### Tabela 5 - Verificação Perfil de Usuário
 
 | Código | Descrição | Autor        | Referência |
 |--------|----------|--------------|------------|
@@ -75,14 +75,14 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LP7 | Definir critérios mais relevantes para o projeto (ex.: em um app acadêmico, priorizar "nível de instrução"). | Fábio Gabriel | ![PU7](../images/verificacao/PU7.png) BARBOSA, Simone D. J.; SANTANA DA SILVA, Bruno; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. p. 166. |
 | LP8 | Coletar dados reais (entrevistas, questionários, observação). | Fábio Gabriel | ![PU8](../images/verificacao/PU8.png) BARBOSA, Simone D. J.; SANTANA DA SILVA, Bruno; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. p. 166. |
 
-### Tabela 7 - Verificação Three Level Scale
+### Tabela 6 - Verificação Three Level Scale
 
 | Código | Descrição | Autor        | Referência |
 |--------|----------|--------------|------------|
 | LT1 | A técnica de priorização deve ser feita com stakeholders concordando com as prioridades dos requisitos.<br><br>“To make the scale useful, the stakeholders must agree on what each level means in the scale they use.” | Luiz Morais | ![TL1](../images/verificacao/TL1.png) WIEGERS, K; BEATTY, J. *Software Requirements*. 3. ed. Redmond: Microsoft Press, 2013. p. 319. |
 | LT2 | A técnica deve separar os requisitos em quatro categorias de prioridade: alta, média, baixa, não fazer.<br><br>Figura: Requirements prioritization based on importance and urgency | Luiz Morais | ![TL2](../images/verificacao/TL2.png) WIEGERS, K; BEATTY, J. *Software Requirements*. 3. ed. Redmond: Microsoft Press, 2013. p. 319. |
 
-### Tabela 8 - Verificação Moscow
+### Tabela 7 - Verificação Moscow
 
 | Código | Descrição | Autor | Referência |
 |--------|----------|-------|------------|
@@ -98,7 +98,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LM10 | A exclusão dos requisitos não compromete a entrega ou o uso do produto? | Davi Emanuel | ![LM10](../images/verificacao/LM10.png) Requisitos – Aula 07 - Milene Serrano e Mauricio Serrano |
 
 
-### Tabela 9 - Verificação In Or Out
+### Tabela 8 - Verificação In Or Out
 
 | Código | Descrição | Autor        | Referência |
 |--------|----------|--------------|------------|
@@ -110,7 +110,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LI6 | Designar um stakeholder para decisão final em caso de conflito | Fábio Gabriel | ![IO6](../images/verificacao/IO6.png) *Software Requirements*, 3. ed. Redmond: Microsoft Press, 2013. p. 318 |
 | LI7 | Criar um ambiente leve e motivador | Fábio Gabriel | ![IO7](../images/verificacao/IO7.png) *Software Requirements*, 3. ed. Redmond: Microsoft Press, 2013. p. 318 |
 
-### Tabela 10 - Verificação QFD
+### Tabela 9 - Verificação QFD
 
 | Código  | Descrição                                                                 | Autor          | Referência                                                                                                      |
 |---------|--------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------------------------------------------|
@@ -134,3 +134,4 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 04/05/2025 |  0.1   | (#D04) Criação da página das listas de verificação.| [Ana Borges](https://github.com/anabborges)   | [Gabriela](https://github.com/gaubiela) |
+| 25/06/2025 |  1.1   | (#V02) Retira tabela com itens do professor.| [Ana Borges](https://github.com/anabborges)   | [](https://github.com/) |

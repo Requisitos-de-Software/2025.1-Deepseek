@@ -6,7 +6,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 
 ## Lista de Verificação
 
-### Tabela 1 - Verificação recomendada pelo professor
+<!-- ### Tabela 1 - Verificação recomendada pelo professor
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -30,9 +30,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 | 18  | O artefato segue o modelo FURPS+?                                                                                                                                                                                              | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            |
 | 19  | O documento especifica o tempo de resposta, no Desempenho?                                                                                                                                                                     | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            |
 | 20  | O documento especifica qual plataforma o aplicativo pode ser executado?                                                                                                                                                        | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            |
-| 21  | Todos os requisitos podem ser testados (RF e RNF) ? Identificar quais requisitos não testaáveis/verificáveis ?                                                                                                                  | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            |
+| 21  | Todos os requisitos podem ser testados (RF e RNF) ? Identificar quais requisitos não testaáveis/verificáveis ?                                                                                                                  | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            | -->
 
-### Tabela 2 - Verificação do diagrama de casos de uso
+### Tabela 1 - Verificação do diagrama de casos de uso
 
 | Nº    | Descrição                                                                                                                                                         | Autor | Referência |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|------------|
@@ -57,7 +57,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 | LUC19  | As generalizações estão representadas por uma seta do caso secundário para o primário?                                                                          | Luiz  | Lucid Software Portugês - Tutorial de Casos de Uso UML - minuto [11:00](https://youtu.be/ab6eDdwS3rA?si=XaCIshHWRZauoAI4) |
 | LUC20  | O caso de uso com pontos de extensão leva para casos de uso estendidos?                                                                                          | Luiz  | Lucid Software Portugês - Tutorial de Casos de Uso UML - minuto [11:50](https://youtu.be/ab6eDdwS3rA?si=XaCIshHWRZauoAI4) |
 
-### Tabela 3 - Verificação dos cenários
+### Tabela 2 - Verificação dos cenários
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -70,7 +70,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 | LC07  | O cenário possui exceção ?                                                                                                                                                           | Luiz  |   ![LC02-8](../images/verificacao-terceira-entrega/LC02-8.png)                         |
 | LC08  | O cenário possui episódios ?                                                                                                                                                           | Luiz  |   ![LC02-8](../images/verificacao-terceira-entrega/LC02-8.png)                         |
 
-### Tabela 4 - Verificação dos léxicos
+### Tabela 3 - Verificação dos léxicos
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -81,7 +81,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 | LL05  | Cada símbolo está classficicado como verbo, objeto ou estado?                                                                                                                                                        | Luiz  |   ![LL05](../images/verificacao-terceira-entrega/LL05.png)                         |
 
 
-### Tabela 5 - Verificação da especificação suplementar
+### Tabela 4 - Verificação da especificação suplementar
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -91,3 +91,4 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 12/05/2025 |  1.0   | (#D04) Criação da página das listas de verificação com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [`@Ana Borges`](https://github.com/anabborges), [`@Ana Joyce`](https://github.com/anajoyceamorim), [`@Fabio`](https://github.com/fabinsz), [`@Gabriela`](https://github.com/gaubiela), [`@Luiz`](https://github.com/luizfaria1989), [`@Mateus`](https://github.com/MVConsorte), [@Davi Emanuel](https://github.com/daviRolvr) |
+| 25/06/2025 |  1.1   | (#V02) Retira tabela com itens do professor.| [Ana Borges](https://github.com/anabborges)   | [](https://github.com/) |
