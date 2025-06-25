@@ -88,7 +88,7 @@ nav:
     - Forward-From: 'rastreabilidade/forward-from.md'
     - Backward-From: 'rastreabilidade/backward-from.md'
 
-  - Verificação:
+  - Listas de Verificação:
     - Segunda Entrega: 'verificacao/segunda-entrega.md'
     - Terceira Entrega: 'verificacao/terceira-entrega.md'
     - Quarta Entrega: 'verificacao/quarta-entrega.md'
@@ -96,6 +96,21 @@ nav:
     - Quinta Entrega: 'verificacao/sexta-entrega.md'
     - Verificação Final: 'verificacao/verificacao-final.md'
     - Acompanhamento Verificação/Validação: 'verificacao/acompanhamento-validacao-geral.md'
+
+  - Verificação:
+    - Planejamento Geral: 'verificacao2/planejamento-geral.md'
+    - Entrega 1:
+      - Planejamento: 'verificacao2/entrega1/planejamento-entrega1.md'
+    - Entrega 2:
+      - Planejamento: 'verificacao2/entrega2/planejamento-entrega2.md'
+    - Entrega 3:
+      - Planejamento: 'verificacao2/entrega3/planejamento-entrega3.md'
+    - Entrega 4:
+      - Planejamento: 'verificacao2/entrega4/planejamento-entrega4.md'
+    - Entrega 5:
+      - Planejamento: 'verificacao2/entrega5/planejamento-entrega5.md'
+    - Entrega 6:
+      - Planejamento: 'verificacao2/entrega6/planejamento-entrega6.md'
 
   - Inspeção:
     - Segunda Entrega: 
