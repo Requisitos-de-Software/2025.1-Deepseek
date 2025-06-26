@@ -8,6 +8,19 @@ Neste projeto, o gerente do produto será uma pessoa externa ao projeto, mas, qu
 
 Para a criação do backlog, foi utilizado como base dois artefatos produzidos: as histórias de usuário e o documento de priorização three-level-scale. A partir das histórias de usuário criadas, elas foram classificadas em diferentes épicos ao desenvolver o backlog, assim, cada história de usuário, que representa um requisito implementado ou não do app DeepSeek se enquadra em um dos épicos desenvolvidos para esse documento de backlog. Para a priorização delas, foi utilizada a mesma priorização obtida no documento da técnica de priorização three-level-scale.
 
+## Validação com Usuário
+
+A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AEf_79M4ifc?si=Bpdy9JcrXQ0gfdkz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Participantes da validação
+
+| Participante | Papel |
+| ------------ | ----- |
+| Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
+| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
+
 ## Temas
 
 Ao analisar as histórias de usuário criadas, foi possível organizá-las em três temas:
@@ -260,3 +273,4 @@ Fonte: [Luiz](https://github.com/luizfaria1989)
 | 07/06/2025 |  2.1   | (#B01) Adição dos hiperlinks para as histórias de usuário.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz) |
 | 07/06/2025 |  2.2   | (#B01) Adição dos hiperlinks para a citação dos IDs do backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz) |
 | 19/06/2025 |  2.3   | (#B01) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Ana Clara`](https://github.com/anabborges)  |
+| 26/06/2025 |  2.4   | (#B01) Adição da gravação de validação com o usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@`](https://github.com/)  |
