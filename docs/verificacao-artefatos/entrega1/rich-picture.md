@@ -15,7 +15,7 @@ A verificação foi feita utilizando as listas de verificação que foram criada
 | Contribuinte | Função                                                            |
 | ------------ | --------------------------------------------------------------------- |
 |     | Avaliador |
-|     | Revisor |
+|     | Responsável pelas correções |
 
 ## Inspeção
 
