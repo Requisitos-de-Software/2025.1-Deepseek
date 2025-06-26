@@ -32,14 +32,75 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 
 A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 
+### Validação das Histórias de Usuário HU07 a HU12
+
+<a id="Validacao07_12"></a>
+<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+  <h4> Validação das Histórias de Usuário (#HU07 - #HU12) </h4>
+
+ <iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/x0OMVVA7tBc" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+  <a href="https://youtu.be/x0OMVVA7tBc" target="_blank" rel="noopener noreferrer">
+  ▶ Assista à validação também no YouTube
+</a>
+
+  <div style="margin-top: 16px; line-height: 1.6;">
+    <p><strong>Local:</strong> google meet </p>
+    <p><strong>Data e Hora:</strong> 21/06/2025 - (21:00 - 22:00) </p>
+    <p><strong>Usuário entrevistado:</strong> Luiz (usuário típico do sistema Deepseek)</p>
+    <p><strong>Responsável pela execução:</strong> Davi Emanuel (Grupo 2 – Requisitos de Software)</p>
+  </div>
+</div>
+
+### Validação das Histórias de Usuário HU13 a HU18
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VEkGbTy2MW0?si=PssxWMNHFPHoLx_X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Participantes da validação
+#### Participantes da validação
 
 | Participante | Papel |
 | ------------ | ----- |
 | Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
 | Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
+
+### Validação das Histórias de Usuário HU31 a HHU36
+
+<a id="Validacao31_36"></a>
+<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+  <h4> Validação das Histórias de Usuário (#HU31 - #HU36) </h4>
+
+ <iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/hPP-O9wjW40?start=389" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+
+  <a href="https://youtu.be/hPP-O9wjW40" target="_blank" rel="noopener noreferrer">
+  ▶ Assista à validação também no YouTube
+</a>
+
+  <div style="margin-top: 16px; line-height: 1.6;">
+    <p><strong>Local:</strong> UnB – Gama – FCTE - UED </p>
+    <p><strong>Data e Hora:</strong> 16/06/2025 - (14:30 - 15:00) </p>
+    <p><strong>Usuário entrevistado:</strong> Pablo (usuário típico do sistema Deepseek)</p>
+    <p><strong>Responsável pela execução:</strong> Mateus Villela (Grupo 2 – Requisitos de Software)</p>
+  </div>
+</div>
 
 ## Histórias de Usuário
 
@@ -212,33 +273,6 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | **Rastreabilidade**        | [#RF34](../elicitacao/requisitos-gerais.md)                             |
 | **Prioridade**             | Alta                |
                                                                                                     
-
-<a id="Validacao07_12"></a>
-<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
-  <h4> Validação das Histórias de Usuário (#HU07 - #HU12) </h4>
-
- <iframe 
-  width="100%" 
-  height="400" 
-  src="https://www.youtube.com/embed/x0OMVVA7tBc" 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" 
-  allowfullscreen>
-</iframe>
-
-  <a href="https://youtu.be/x0OMVVA7tBc" target="_blank" rel="noopener noreferrer">
-  ▶ Assista à validação também no YouTube
-</a>
-
-  <div style="margin-top: 16px; line-height: 1.6;">
-    <p><strong>Local:</strong> google meet </p>
-    <p><strong>Data e Hora:</strong> 21/06/2025 - (21:00 - 22:00) </p>
-    <p><strong>Usuário entrevistado:</strong> Luiz (usuário típico do sistema Deepseek)</p>
-    <p><strong>Responsável pela execução:</strong> Davi Emanuel (Grupo 2 – Requisitos de Software)</p>
-  </div>
-</div>
 
 ---
 
@@ -592,34 +626,6 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | **Rastreabilidade** | #ROF08, [#RF14](../elicitacao/requisitos-gerais.md) |
 | **Prioridade** | Baixa |
 
-<a id="Validacao31_36"></a>
-<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
-  <h4> Validação das Histórias de Usuário (#HU31 - #HU36) </h4>
-
- <iframe 
-  width="100%" 
-  height="400" 
-  src="https://www.youtube.com/embed/hPP-O9wjW40?start=389" 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" 
-  allowfullscreen>
-</iframe>
-
-
-  <a href="https://youtu.be/hPP-O9wjW40" target="_blank" rel="noopener noreferrer">
-  ▶ Assista à validação também no YouTube
-</a>
-
-  <div style="margin-top: 16px; line-height: 1.6;">
-    <p><strong>Local:</strong> UnB – Gama – FCTE - UED </p>
-    <p><strong>Data e Hora:</strong> 16/06/2025 - (14:30 - 15:00) </p>
-    <p><strong>Usuário entrevistado:</strong> Pablo (usuário típico do sistema Deepseek)</p>
-    <p><strong>Responsável pela execução:</strong> Mateus Villela (Grupo 2 – Requisitos de Software)</p>
-  </div>
-</div>
-
 ---
 
 <a id="hu37"></a>
@@ -742,5 +748,6 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 19/06/2025 |  2.2   | (#H02) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)  |
 | 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@Ana Clara`](https://github.com/anabborges) |
 | 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@Ana Clara`](https://github.com/anabborges) |
-| 26/06/2025 |  2.4   | (#H02) Adição da validação com usuário dos HUs 13-18 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@`](https://github.com/) |
+| 26/06/2025 |  2.4   | (#H02) Adição da validação com usuário dos HUs 13-18 | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@`](https://github.com/) |
+| 26/06/2025 |  2.5   | (#H02) Realoca espaço das validações com usuário | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@`](https://github.com/) |
 
