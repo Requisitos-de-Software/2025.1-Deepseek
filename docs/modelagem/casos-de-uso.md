@@ -14,6 +14,20 @@ Um diagrama de casos de uso é possui quatro componentes principais: atores, cas
 3. **Barreira do sistema:** A barreira do sistema é representada por um retângulo de lados sólidos que engloba tudo aquilo que faz parte do sistema que está sendo representado no diagrama <a id="anchor_4" href="#REF4">[4]</a>;
 4. **Relacionamentos:** Um diagrama de casos de uso também representa os relacionamentos que estão presentes entre os casos de uso, eles podem ser de **extensão** (para representar esse tipo de relacionamento deve-se ligar uma seta tracejada do caso extendido ao caso base com o texto "extend" na seta), de **inclusão** (para representar esse relacionamento deve-se ligar uma seta tracejada do caso base ao caso incluído com o texto "include" na seta) e de gereralização ou **herança** (a qual é representa com uma seta cuja a ponta é um triângulo) <a id="anchor_5" href="#REF5">[5]</a>.
 
+
+## Validação com Usuário
+
+A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UpvAbqr2VLs?si=N9sAfsGKc2Ko5SxT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Participantes da validação
+
+| Participante | Papel |
+| ------------ | ----- |
+| Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
+| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
+
 ### Diagrama de Casos de Uso do App DeepSeek:
 
 Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elaborar um conjunto de casos de uso, que compõem o diagrama UML de casos de uso, o qual possui o usuário como ator primário, o servidor DeepSeek e o Sistema externo de conteúdos da internet como atores secundários. O diagrama possui requisitos já implementados no app bem como requisitos que não foram implementados ainda.
@@ -73,6 +87,19 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | Luiz     | Criação dos casos de uso #UC09, #UC10, #UC11 | [#UC09](#uc09) · [#UC10](#uc10) · [#UC11](#uc11) |
 | Ana Clara     | Criação dos casos de uso #UC12, #UC13 | [#UC12](#uc12) · [#UC13](#uc13) |
 | Mateus     | Criação dos casos de uso #UC14 | [#UC14](#uc14)|
+
+## Validação com Usuário
+
+A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UpvAbqr2VLs?si=xEgl3rn7KRhRJvbO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Participantes da validação
+
+| Participante | Papel |
+| ------------ | ----- |
+| Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
+| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
 
 ## Casos de Uso Modelados:
 
@@ -446,4 +473,5 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 06/06/2025 |  2.1  | (#UC02) Adição da tabela de contribuições e dos hiberlinks para os casos de uso desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
 | 19/06/2025 |  2.2  | (#UC02) Melhorias nas tabelas de casos de uso e adição da imagem do diagrama de caso de uso.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 | 19/06/2025 |  2.3  | (#UC02) Adição das referências para o documento.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges) |
+| 26/06/2025 |  2.4  | (#UC02) Adição da validação dos casos de uso e do diagrama de casos de uso.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/) |
 
