@@ -8,10 +8,25 @@ A classificação da prototipagem discerne em diferentes níveis de fidelidade, 
 
 ## Metodologia
 
-# Tabela de Contribuições
+## Validação com Usuário
+
+A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mHm4HD8cjXc?si=C_NmppAX1RV_D80g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Participantes da validação
+
+| Participante | Papel |
+| ------------ | ----- |
+| Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
+| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
+
+## Tabela de Contribuições
 
 | Integrante | Atividade | Links |
 | :-: | :-: | :-: |
+
+## Protótipos Desenvolvidos
 
 ## Referências Bibliográficas
 
@@ -23,4 +38,5 @@ A classificação da prototipagem discerne em diferentes níveis de fidelidade, 
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :-: | :-: | :-: | :-: | :-: |
-| `1.0` | 18/06/2025 | Criação da Página, Introdução e Referências | [@Mateus](https://github.com/MVConsorte) | [@](https://github.com/) |
+| 1.0 | 18/06/2025 | (#P01) Criação da Página, Introdução e Referências | [@Mateus](https://github.com/MVConsorte) | [@](https://github.com/luizfaria1989) |
+| 2.0 | 26/06/2025 | (#P01) Adição da gravação da validação com o usuário | [@Luiz](https://github.com/luizfaria1989) | [@](https://github.com/) |
