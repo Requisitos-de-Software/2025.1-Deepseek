@@ -98,27 +98,20 @@ nav:
     - Acompanhamento Verificação/Validação: 'verificacao/acompanhamento-validacao-geral.md'
 
   - Verificação:
-    - Planejamento Geral: 'verificacao2/planejamento-geral.md'
+    - Planejamento Geral: 'verificacao-artefatos/planejamento-geral.md'
     - Entrega 1:
-      - Planejamento: 'verificacao2/entrega1/planejamento-entrega1.md'
-      - Aplicativos Avaliados: 'verificacao2/entrega1/apps-avaliados.md'
-      - Cronograma Planejado: 'verificacao2/entrega1/cronograma-planejado.md'
-      - Cronograma Executado: 'verificacao2/entrega1/cronograma-executado.md'
-      - Ferramentas: 'verificacao2/entrega1/ferramentas.md'
-      - Heatmap: 'verificacao2/entrega1/heatmap.md'
-      - Políticas do Repositório: 'verificacao2/entrega1/politicas-repositorio.md'
-      - Rich Picture: 'verificacao2/entrega1/rich-picture.md'
-      - Termo de Uso: 'verificacao2/entrega1/termo-de-uso.md'
+      - Planejamento: 'verificacao-artefatos/entrega1/planejamento-entrega1.md'
+      - Rich Picture: 'verificacao-artefatos/entrega1/rich-picture.md'
     - Entrega 2:
-      - Planejamento: 'verificacao2/entrega2/planejamento-entrega2.md'
+      - Planejamento: 'verificacao-artefatos/entrega2/planejamento-entrega2.md'
     - Entrega 3:
-      - Planejamento: 'verificacao2/entrega3/planejamento-entrega3.md'
+      - Planejamento: 'verificacao-artefatos/entrega3/planejamento-entrega3.md'
     - Entrega 4:
-      - Planejamento: 'verificacao2/entrega4/planejamento-entrega4.md'
+      - Planejamento: 'verificacao-artefatos/entrega4/planejamento-entrega4.md'
     - Entrega 5:
-      - Planejamento: 'verificacao2/entrega5/planejamento-entrega5.md'
+      - Planejamento: 'verificacao-artefatos/entrega5/planejamento-entrega5.md'
     - Entrega 6:
-      - Planejamento: 'verificacao2/entrega6/planejamento-entrega6.md'
+      - Planejamento: 'verificacao-artefatos/entrega6/planejamento-entrega6.md'
 
   - Inspeção:
     - Segunda Entrega: 
