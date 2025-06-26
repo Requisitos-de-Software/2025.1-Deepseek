@@ -28,6 +28,19 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | Ana Joyce    | Criação das histórias de usuário HU37, HU38, HU39, HU40, HU41 e HU42 | [#HU37](#hu37) · [#HU38](#hu38) · [#HU39](#hu39) · [#HU40](#hu40) · [#HU41](#hu41) · [#HU42](#hu42) |
 | Davi Emanuel     | Criação das histórias de usuário HU07, HU08, HU09, HU10 e HU11 e HU12 | [#HU07](#hu07) · [#U08](#hu08) · [#HU09](#hu09) · [#HU10](#hu10) · [#HU11](#hu11) · [#HU12](#hu12) |
 
+## Validação com Usuário
+
+A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VEkGbTy2MW0?si=PssxWMNHFPHoLx_X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Participantes da validação
+
+| Participante | Papel |
+| ------------ | ----- |
+| Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
+| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
+
 ## Histórias de Usuário
 
 <a id="hu01"></a>
@@ -728,4 +741,6 @@ Fonte: Repositório Bilheteria Digital, disciplina de requisitos de software <a 
 | 08/06/2025 |  2.1   | (#H02) Melhorias nos hiperlinks do documento.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Joyce`](https://github.com/anajoyceamorim)  |
 | 19/06/2025 |  2.2   | (#H02) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)  |
 | 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@Ana Clara`](https://github.com/anabborges) |
+| 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@Ana Clara`](https://github.com/anabborges) |
+| 26/06/2025 |  2.4   | (#H02) Adição da validação com usuário dos HUs 13-18 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@`](https://github.com/) |
 
