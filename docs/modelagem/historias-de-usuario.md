@@ -70,7 +70,9 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | Participante | Papel |
 | ------------ | ----- |
 | Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
-| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
+| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar as histórias de usuário HU13 a HU18 desenvolvidas para o artefato. |
+
+* [Termo de consentimento para gravação](../gravacoes/termos-de-consentimento/termo-de-consentimento-luisa_assinado_250626_185541_assinado.pdf)
 
 ### Validação das Histórias de Usuário HU31 a HHU36
 
@@ -750,4 +752,5 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@Ana Clara`](https://github.com/anabborges) |
 | 26/06/2025 |  2.4   | (#H02) Adição da validação com usuário dos HUs 13-18 | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@`](https://github.com/) |
 | 26/06/2025 |  2.5   | (#H02) Realoca espaço das validações com usuário | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@`](https://github.com/) |
+| 27/06/2025 |  2.6  | (#H02) Adiciona o termo de consetimento da gravação da validação HUs 13-18.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
 
