@@ -19,7 +19,9 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | Participante | Papel |
 | ------------ | ----- |
 | Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
-| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
+| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar o artefato backlog. |
+
+* [Termo de consentimento para gravação](../gravacoes/termos-de-consentimento/termo-de-consentimento-luisa_assinado_250626_185541_assinado.pdf)
 
 ## Temas
 
@@ -274,3 +276,4 @@ Fonte: [Luiz](https://github.com/luizfaria1989)
 | 07/06/2025 |  2.2   | (#B01) Adição dos hiperlinks para a citação dos IDs do backlog.| [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Fabio`](https://github.com/fabinsz) |
 | 19/06/2025 |  2.3   | (#B01) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Ana Clara`](https://github.com/anabborges)  |
 | 26/06/2025 |  2.4   | (#B01) Adição da gravação de validação com o usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@`](https://github.com/)  |
+| 27/06/2025 |  2.5  | (#B01) Adiciona o termo de consetimento da gravação da validação do backlog.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
