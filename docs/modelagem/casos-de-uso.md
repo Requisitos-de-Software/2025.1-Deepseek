@@ -26,7 +26,9 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | Participante | Papel |
 | ------------ | ----- |
 | Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
-| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
+| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os casos de uso desenvolvidos e o diagrama de casos de uso para o artefato. |
+
+* [Termo de consentimento para gravação](../gravacoes/termos-de-consentimento/termo-de-consentimento-luisa_assinado_250626_185541_assinado.pdf)
 
 ### Diagrama de Casos de Uso do App DeepSeek:
 
@@ -474,4 +476,5 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 19/06/2025 |  2.2  | (#UC02) Melhorias nas tabelas de casos de uso e adição da imagem do diagrama de caso de uso.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 | 19/06/2025 |  2.3  | (#UC02) Adição das referências para o documento.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges) |
 | 26/06/2025 |  2.4  | (#UC02) Adição da validação dos casos de uso e do diagrama de casos de uso.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/) |
+| 27/06/2025 |  2.5  | (#UC02) Adiciona o termo de consetimento da gravação da validação dos casos de uso e diagrama.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
 
