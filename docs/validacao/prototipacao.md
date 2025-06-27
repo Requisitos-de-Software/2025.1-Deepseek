@@ -31,7 +31,9 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | Participante | Papel |
 | ------------ | ----- |
 | Luiz | Integrante do grupo, responsável por coordenar a validação com o usuário. |
-| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os cenários desenvolvidos para o artefato. |
+| Luisa Mel | Estudante de engenharia aeroespacial de 20 anos de idade, responsável por validar os protótipos desenvolvidos para o artefato. |
+
+* [Termo de consentimento para gravação](../gravacoes/termos-de-consentimento/termo-de-consentimento-luisa_assinado_250626_185541_assinado.pdf)
 
 ## Tabela de Contribuições
 
@@ -149,7 +151,8 @@ Autor: [Ana Joyce](https://github.com/anajoyceamorim)
 ## Histórico de Versões 📅
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| :-: | :-: | :-: | :-: | :-: |
-| 1.0 | 18/06/2025 | (#P01) Criação da Página, Introdução e Referências | [@Mateus](https://github.com/MVConsorte) | [@](https://github.com/luizfaria1989) |
-| 2.0 | 26/06/2025 | (#P01) Adição da gravação da validação com o usuário | [@Luiz](https://github.com/luizfaria1989) | [@](https://github.com/) |
-| 2.1 | 26/06/2025 | (#P01) Adição da metodologia e dos protótipos desenvolvidos | [@Luiz](https://github.com/luizfaria1989) | [@](https://github.com/) |
+| --- | --- | --- | --- | --- |
+| 18/06/2025 | 1.0 | (#P01) Criação da Página, Introdução e Referências | [@Mateus](https://github.com/MVConsorte) | [@](https://github.com/luizfaria1989) |
+| 26/06/2025 | 2.0 | (#P01) Adição da gravação da validação com o usuário | [@Luiz](https://github.com/luizfaria1989) | [@](https://github.com/) |
+| 26/06/2025 | 2.1 | (#P01) Adição da metodologia e dos protótipos desenvolvidos | [@Luiz](https://github.com/luizfaria1989) | [@](https://github.com/) |
+| 27/06/2025 | 2.2 | (#P01) Adiciona o termo de consetimento da gravação da validação dos protótipos.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
