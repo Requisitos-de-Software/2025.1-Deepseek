@@ -4,6 +4,8 @@ O backlog consiste em uma lista contendo as prioridades dos requisitos do projet
 
 Neste projeto, o gerente do produto será uma pessoa externa ao projeto, mas, que ainda possui certo conhecimento de como funciona o app DeepSeek, podendo ser capaz de avaliar o registro e os requisitos que foram elicitados.
 
+O Backlog é composto de dois itens, os épicos e os temas. Enquanto uma história de usuário pode ser objeto de subdivisão para que as histórias resultantes sejam pequenas o suficiente para elas possam ser individualmente acomodadas a uma arquitetura de software e assim ser implementadas dentro de uma interação, existem manifestações  do usuário que correspondem a objetivos agregadores, esses são chamados de épicos <a id="anchor_2" href="#REF2">[2]</a>. Já os temas são coleções de histórias de usuário relacionadas <a id="anchor_3" href="#REF3">[3]</a>.
+
 ## Metolodologia
 
 Para a criação do backlog, foi utilizado como base dois artefatos produzidos: as histórias de usuário e o documento de priorização three-level-scale. A partir das histórias de usuário criadas, elas foram classificadas em diferentes épicos ao desenvolver o backlog, assim, cada história de usuário, que representa um requisito implementado ou não do app DeepSeek se enquadra em um dos épicos desenvolvidos para esse documento de backlog. Para a priorização delas, foi utilizada a mesma priorização obtida no documento da técnica de priorização three-level-scale.
@@ -256,6 +258,10 @@ Fonte: [Luiz](https://github.com/luizfaria1989)
 
 >  <a id="REF1" href="#anchor_1">1.</a> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, p. 73. [`Foto da referência`](../images/backlog/definicao-backlog.png)
 
+>  <a id="REF2" href="#anchor_2">2.</a> VAZQUEZ, Carlos E.; SIMÕES, Guilherme S.. Engenharia de requisitos: software orientado ao negócio. 8 Rio de Janeiro: Brasport, 2016. [`Foto da referência`](../images/backlog/definicao-epicos.png)
+
+>  <a id="REF3" href="#anchor_3">3.</a> VAZQUEZ, Carlos E.; SIMÕES, Guilherme S.. Engenharia de requisitos: software orientado ao negócio. 8 Rio de Janeiro: Brasport, 2016.[`Foto da referência`](../images/backlog/definicao-temas.png)
+
 ---
 
 ## Histórico de Versões
@@ -277,3 +283,4 @@ Fonte: [Luiz](https://github.com/luizfaria1989)
 | 19/06/2025 |  2.3   | (#B01) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Ana Clara`](https://github.com/anabborges)  |
 | 26/06/2025 |  2.4   | (#B01) Adição da gravação de validação com o usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@`](https://github.com/)  |
 | 27/06/2025 |  2.5  | (#B01) Adiciona o termo de consetimento da gravação da validação do backlog.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
+| 28/06/2025 |  2.6  | (#B01) Adiciona definição de temas e épicos.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
