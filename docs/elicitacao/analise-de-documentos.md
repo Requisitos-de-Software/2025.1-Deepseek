@@ -20,7 +20,17 @@ Para essa técnica foram escolhidos três documentos diferentes:
 
 Além disso, será possível discutir sobre as características dos usuários do app, facilitando a criação de um perfil de usuário.
 
----
+## Gravação da Análise de Documentos
+
+A gravação da análise de documentos foi realizada no dia 28 de junho.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sbSWYsIkcWQ?si=_plKR2uszgpMsQfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Integrantes 
+
+| Nome | Papel |
+| ---- | ----- |
+| Luiz | Responsável por aplicar a técnica análise de documentos para o aplicativo DeepSeek. |
 
 ## Página da Play Store do DeepSeek
 
@@ -250,4 +260,5 @@ Além disso, pode-se encontrar características do perfil de usuário do app Dee
 |------------|--------|-------------------------------------------------------------------|--------------------------------------------------|------------------------------------------------|
 | 02/05/2025 | 0.1    | (#A01) Documentação referente à aplicação da técnica de análise de documentos. | [@Luiz](https://github.com/luizfaria1989)        | [@Ana Joyce](https://github.com/anajoyceamorim) |
 | 20/06/2025 | 1.0    | (#A01) Adição de referências para o texto. | [@Luiz](https://github.com/)        | [@Ana Joyce](https://github.com/) |
+| 28/06/2025 | 1.1    | (#A01) Adição da gravação da técnica de análise de documentos. | [@Luiz](https://github.com/)        | [@](https://github.com/) |
 
