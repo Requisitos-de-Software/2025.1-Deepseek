@@ -8,6 +8,8 @@ Esta página é dedicada à lista de verificação criada para os artefatos da s
 
 ### Tabela 1 - Verificação da matriz de rastreabilidade
 
+<font><p style="text-align: center">**Tabela 1** - Lista de verificação para o artefato matriz de rastreabilidade.</p></font>
+
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
 | 01  | O documento da matriz de rastreabilidade possui a definição da matriz de rastreabilidade | Luiz |   ![def-matriz-rastreabilidade](../images/matriz-geral/componentes-matriz-geral.png) |
@@ -21,7 +23,11 @@ Esta página é dedicada à lista de verificação criada para os artefatos da s
 | 09  | A matriz de rastreabilidade possui hiperlinks para a navegação dos elos daquele requisito ? | Luiz | [Repositório Bilheteira Digital](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/matriz-geral/) |
 | 10  | A matriz de rastreabilidade possui hiperlinks para os documentos de elicitação daquele requisito ? | Luiz | [Repositório Bilheteira Digital](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/matriz-geral/) |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 ### Tabela 2 - Verificação do documento de pós-rastreabilidade
+
+<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato pós-rastreabilidade.</p></font>
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -33,9 +39,12 @@ Esta página é dedicada à lista de verificação criada para os artefatos da s
 | 06  | O documento de pós rastreabilidade cita e explica o elo de agregação ? | Luiz |   ![tipos-elos-toranzo](../images/pos-rastreabilidade/tipos-elos-toranzo.png) |
 | 07  | O documento de pós rastreabilidade possui um template e tabelas contendo os tipos de elo daquele requisto ? | Luiz |  ![tipos-elos-toranzo](../images/pos-rastreabilidade/tipos-elos-toranzo.png) |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 
 # Histórico de versões
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 07/06/2025 |  1.0   | (#V01) Criação da página das listas de verificação com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)  |
+| 05/06/2025 |  2.0   | (#V01) Adição das legendas das tabelas e seus autores.| [Luiz](https://github.com/luizfaria1989)   | [](https://github.com/) |
