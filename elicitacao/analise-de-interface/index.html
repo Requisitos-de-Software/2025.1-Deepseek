@@ -3245,55 +3245,55 @@
 
   <h1>Análise de Interface</h1>
 
-<h2 id="analise-de-interface-de-sistemas">Análise de Interface de Sistemas</h2>
+<div><h2 id="analise-de-interface-de-sistemas">Análise de Interface de Sistemas</h2>
 <h2 id="introducao">Introdução</h2>
 <p>A análise de interface de sistemas é uma técnica de elicitação de requisitos que examina as conexões entre um sistema e os sistemas externos com os quais ele 
 interage. Essa abordagem ajuda a identificar requisitos funcionais, como troca de dados e serviços, permitindo documentar informações essenciais para o desenvolvimento 
-do sistema (IIBA, 2009).<br />
+do sistema (IIBA, 2009).<br>
 Por meio de diagramas de contexto e mapas de ecossistema, é possível visualizar e validar as interfaces do sistema. Isso possibilita determinar quais dados 
 devem ser enviados e recebidos, além de regras sobre esses dados, como critérios de validação, garantindo um desenvolvimento eficiente e evitando retrabalho.</p>
 <h2 id="metodologia">Metodologia</h2>
 <p>A metodologia adotada para a elicitação de requisitos baseou-se na abordagem descrita em Requirements Elicitation (WIEGERS), complementada pela análise da 
-documentação pública do <a href="https://github.com/deepseek-ai/DeepSeek-V">DeepSeek</a> e pelo uso da própria ferramenta para levantamento e validação de informações.<br />
+documentação pública do <a href="https://github.com/deepseek-ai/DeepSeek-V">DeepSeek</a> e pelo uso da própria ferramenta para levantamento e validação de informações.<br>
 Inicialmente, foi realizada a análise de interface de sistemas, identificando conexões do DeepSeek com sistemas externos e documentando os fluxos de dados e interações 
-funcionais.<br />
-A documentação existente do DeepSeek foi examinada para validar e complementar os requisitos levantados.<br />
-Além disso, foram conduzidas consultas e testes exploratórios com o próprio DeepSeek, permitindo identificar requisitos específicos e regras associadas à comunicação entre sistemas. Essa abordagem iterativa possibilitou a validação dos requisitos levantados, garantindo que fossem precisos e alinhados com os objetivos do sistema.<br />
+funcionais.<br>
+A documentação existente do DeepSeek foi examinada para validar e complementar os requisitos levantados.<br>
+Além disso, foram conduzidas consultas e testes exploratórios com o próprio DeepSeek, permitindo identificar requisitos específicos e regras associadas à comunicação entre sistemas. Essa abordagem iterativa possibilitou a validação dos requisitos levantados, garantindo que fossem precisos e alinhados com os objetivos do sistema.<br>
 Essa metodologia proporcionou uma elicitação de requisitos eficiente, combinando fontes documentais confiáveis e análise prática do sistema para garantir uma definição precisa e bem fundamentada dos requisitos do projeto.</p>
 <h2 id="resultados">Resultados</h2>
 <h3 id="1-requisitos-funcionais-rf">1- Requisitos Funcionais (RF)</h3>
-<p>Interface do Usuário (UI)<br />
-RF01: O sistema deve permitir interação via chat em tempo real.<br />
-RF02: O sistema deve aceitar uploads de arquivos nos formatos PDF, DOCX, TXT e imagens (com OCR).<br />
-RF03: O sistema deve oferecer um botão para ativar/desativar busca na web.<br />
-RF04: O sistema deve exibir respostas formatadas em Markdown (títulos, listas, código).(Parcialmente implementado)<br />
+<p>Interface do Usuário (UI)<br>
+RF01: O sistema deve permitir interação via chat em tempo real.<br>
+RF02: O sistema deve aceitar uploads de arquivos nos formatos PDF, DOCX, TXT e imagens (com OCR).<br>
+RF03: O sistema deve oferecer um botão para ativar/desativar busca na web.<br>
+RF04: O sistema deve exibir respostas formatadas em Markdown (títulos, listas, código).(Parcialmente implementado)<br>
 RF05: O sistema deve permitir limpar o histórico de conversas.(Parcialmente implementado)  </p>
-<p>Interface de Dados<br />
-RF06: O sistema deve extrair e processar texto de arquivos de até 10MB.<br />
-RF07: O sistema deve citar fontes externas quando usar busca na web.(Parcialmente implementado) <br />
+<p>Interface de Dados<br>
+RF06: O sistema deve extrair e processar texto de arquivos de até 10MB.<br>
+RF07: O sistema deve citar fontes externas quando usar busca na web.(Parcialmente implementado) <br>
 RF08: O sistema deve permitir interromper respostas em andamento.(Não implementado)  </p>
-<p>Interface de Software (API – se disponível)<br />
-RF09: O sistema deve fornecer uma API RESTful para integração com outros serviços.(Parcialmente implementado)<br />
-RF10: A API deve aceitar autenticação via token de acesso.<br />
+<p>Interface de Software (API – se disponível)<br>
+RF09: O sistema deve fornecer uma API RESTful para integração com outros serviços.(Parcialmente implementado)<br>
+RF10: A API deve aceitar autenticação via token de acesso.<br>
 RF11: A API deve retornar respostas em JSON (padrão para integração).  </p>
 <h3 id="2-requisitos-nao-funcionais-rnf">2- Requisitos Não-Funcionais (RNF)</h3>
-<p>Usabilidade<br />
-RNF01: O tempo de resposta para prompts curtos deve ser ≤2 segundos.<br />
-RNF02: A interface deve ser acessível (suporte a leitores de tela, alto contraste).(Parcialmente implementado)<br />
+<p>Usabilidade<br>
+RNF01: O tempo de resposta para prompts curtos deve ser ≤2 segundos.<br>
+RNF02: A interface deve ser acessível (suporte a leitores de tela, alto contraste).(Parcialmente implementado)<br>
 RNF03: O sistema deve manter histórico de conversas por no mínimo 30 dias de usuários não logados.(Não implementado)  </p>
-<p>Desempenho<br />
-RNF04: O sistema deve suportar múltiplas requisições simultâneas sem degradação.<br />
+<p>Desempenho<br>
+RNF04: O sistema deve suportar múltiplas requisições simultâneas sem degradação.<br>
 RNF05: O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos.  </p>
-<p>Segurança<br />
-RNF06: Dados de upload devem ser excluídos após processamento.(Não implemetado)<br />
+<p>Segurança<br>
+RNF06: Dados de upload devem ser excluídos após processamento.(Não implemetado)<br>
 RNF07: Conexões devem usar HTTPS para criptografia.  </p>
-<p>Confiabilidade<br />
-RNF08: O sistema deve ter disponibilidade de 99,9% (SLA).<br />
+<p>Confiabilidade<br>
+RNF08: O sistema deve ter disponibilidade de 99,9% (SLA).<br>
 RNF09: Em caso de falha, deve retornar mensagens de erro claras.  </p>
 <p><strong><em>Observação:</em></strong> Requisitos não marcados como implementados ou parcialmente implementados, estão implemnetados.</p>
 <h2 id="bibliografia">Bibliografia</h2>
 <blockquote>
-<p>WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013.<br />
+<p>WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013.<br>
 DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V</p>
 </blockquote>
 <table>
@@ -3315,7 +3315,7 @@ DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSee
 <td style="text-align: center;"><a href="https://github.com/anabborges">Ana Borges</a></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 
 
 

@@ -3551,7 +3551,7 @@
 
   <h1>Casos de Uso</h1>
 
-<h2 id="introducao">Introdução</h2>
+<div><h2 id="introducao">Introdução</h2>
 <p>Os diagramas de caso de uso são uma ferramenta fundamental da linguagem de modelagem unificada (UML) que permitem representar graficamente as funcionalidades esperadas de um sistema do ponto de vista de seus usuários. Essa técnica é amplamente utilizada na engenharia de requisitos para descrever as interações entre os atores (usuários ou sistemas externos) e os serviços oferecidos pela aplicação. No contexto do projeto DeepSeek, a modelagem dos casos de uso contribui para a compreensão do comportamento do sistema sob diferentes perspectivas de interação, facilitando a comunicação entre stakeholders técnicos e não técnicos, e servindo como base para futuras etapas de projeto, desenvolvimento e testes.</p>
 <h2 id="diagrama-de-casos-de-uso">Diagrama de Casos de Uso</h2>
 <p>Um diagrama de casos é uso é utilizado para descrever um conjunto de ações (casos de uso), que um sistema, ou um determinado conjunto de sistemas deve desempenehar em conjunto com um ou vários usuários extermos ao sistema, assim, cada caso de uso deverá trazer algum resultado observável e de valor para os atores ou algum outro interessado no sistema <a id="anchor_1" href="#REF1">[1]</a>.</p>
@@ -3565,7 +3565,7 @@
 </ol>
 <h3 id="diagrama-de-casos-de-uso-do-app-deepseek">Diagrama de Casos de Uso do App DeepSeek:</h3>
 <p>Com base nos requisitos elicitados na entrega 2 do projeto, foi possível elaborar um conjunto de casos de uso, que compõem o diagrama UML de casos de uso, o qual possui o usuário como ator primário, o servidor DeepSeek e o Sistema externo de conteúdos da internet como atores secundários. O diagrama possui requisitos já implementados no app bem como requisitos que não foram implementados ainda.</p>
-<p><img alt="Casos-de-uso" src="../../images/casos-de-uso/diagrama-casos-de-uso-deepseek.png" /></p>
+<p><img alt="Casos-de-uso" src="../../images/casos-de-uso/diagrama-casos-de-uso-deepseek.png"></p>
 <ul>
 <li><a href="https://lucid.app/lucidchart/410dc733-3efb-402b-84da-275d5d27d77b/edit?viewport_loc=-1735%2C-664%2C2778%2C1869%2C0_0&amp;invitationId=inv_fb93f228-b92d-4633-a8cf-5a1409a3fdd0">Link para o diagrama UML</a></li>
 </ul>
@@ -3730,15 +3730,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>O usuário realiza o upload de um arquivo temporário</br><ul><li>O sistema processa o conteúdo e o utiliza conforme a solicitação do usuário</br><li>Após finalização da tarefa, inicia-se a contagem de tempo para retenção temporária</br><li>O sistema verifica periodicamente os arquivos expirados</br><li>Arquivos vencidos são excluídos automaticamente</br><li>Um log interno é registrado para fins de auditoria</li></ul></li></ul></td>
+<td><ul><li>O usuário realiza o upload de um arquivo temporário<ul><li>O sistema processa o conteúdo e o utiliza conforme a solicitação do usuário</li><li>Após finalização da tarefa, inicia-se a contagem de tempo para retenção temporária</li><li>O sistema verifica periodicamente os arquivos expirados</li><li>Arquivos vencidos são excluídos automaticamente</li><li>Um log interno é registrado para fins de auditoria</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>O usuário encerra a sessão sem usar o conteúdo do upload</br><ul><li>O sistema aplica o mesmo ciclo de exclusão após o tempo padrão</li></ul></li></ul></td>
+<td><ul><li>O usuário encerra a sessão sem usar o conteúdo do upload<ul><li>O sistema aplica o mesmo ciclo de exclusão após o tempo padrão</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>Erro no mecanismo de exclusão automática</br><ul><li>O sistema registra a falha e envia alerta para manutenção interna</li></ul></li></ul></td>
+<td><ul><li>Erro no mecanismo de exclusão automática<ul><li>O sistema registra a falha e envia alerta para manutenção interna</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -3796,15 +3796,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>Usuário abre o DeepSeek</br><ul><li>O usuário acessa a aba de integrações</br><ul><li>Seleciona uma plataforma (ex: GitHub)</br><ul><li>Autoriza o acesso via token ou login OAuth</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Usuário abre o DeepSeek<ul><li>O usuário acessa a aba de integrações<ul><li>Seleciona uma plataforma (ex: GitHub)<ul><li>Autoriza o acesso via token ou login OAuth</li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>O usuário tenta integrar, mas não tem sessão ativa na plataforma</br><ul><li>O DeepSeek redireciona para login externo e, após sucesso, finaliza a integração</br></td>
+<td><ul><li>O usuário tenta integrar, mas não tem sessão ativa na plataforma<ul><li>O DeepSeek redireciona para login externo e, após sucesso, finaliza a integração</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>A autorização da plataforma externa é negada ou expira</br><ul><li>O sistema informa falha na conexão e sugere nova tentativa</br></td>
+<td><ul><li>A autorização da plataforma externa é negada ou expira<ul><li>O sistema informa falha na conexão e sugere nova tentativa</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -3862,15 +3862,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>O usuário acessa o aplicativo</br><ul><li>Ativa o modo de entrada por voz</br><ul><li>Faz uma pergunta verbalmente</br><ul><li>O DeepSeek converte voz em texto e responde</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>O usuário acessa o aplicativo<ul><li>Ativa o modo de entrada por voz<ul><li>Faz uma pergunta verbalmente<ul><li>O DeepSeek converte voz em texto e responde</li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li> O usuário acessa o aplicativo</br><ul><li>Ativa o modo de entrada por voz</br><ul><li>Sistema detecta ausência de fala</br><ul><li> Solicita nova tentativa ou oferece teclado como alternativa</td>
+<td><ul><li> O usuário acessa o aplicativo<ul><li>Ativa o modo de entrada por voz<ul><li>Sistema detecta ausência de fala<ul><li> Solicita nova tentativa ou oferece teclado como alternativa</li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>O microfone do usuário está desativado ou bloqueado</br><ul><li>O sistema exibe mensagem de erro solicitando ativação do microfone</br></td>
+<td><ul><li>O microfone do usuário está desativado ou bloqueado<ul><li>O sistema exibe mensagem de erro solicitando ativação do microfone</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -3928,15 +3928,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>Júlia abre o DeepSeek</br><ul><li>Seleciona “Modelos de IA” no canto superior direito</br><ul><li>Visualiza as opções R1, R2 e R3 com descrições</br><ul><li>Escolhe o modelo R2 por preferir respostas mais diretas</br><ul><li>Digita sua pergunta no campo de chat</br><ul><li>Clica na seta para enviar</br><ul><li>Lê a resposta gerada pelo modelo R2</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></td>
+<td><ul><li>Júlia abre o DeepSeek<ul><li>Seleciona “Modelos de IA” no canto superior direito<ul><li>Visualiza as opções R1, R2 e R3 com descrições<ul><li>Escolhe o modelo R2 por preferir respostas mais diretas<ul><li>Digita sua pergunta no campo de chat<ul><li>Clica na seta para enviar<ul><li>Lê a resposta gerada pelo modelo R2</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>Júlia está insatisfeita com a resposta gerada pelo modelo atual</br><ul><li>Retorna à seleção de modelos</br><ul><li>Escolhe o modelo R1 para uma explicação mais aprofundada</br><ul><li>Reenvia a mesma pergunta</br><ul><li>Lê a nova resposta mais detalhada</li></ul></li></ul></li></ul></li></ul></td>
+<td><ul><li>Júlia está insatisfeita com a resposta gerada pelo modelo atual<ul><li>Retorna à seleção de modelos<ul><li>Escolhe o modelo R1 para uma explicação mais aprofundada<ul><li>Reenvia a mesma pergunta<ul><li>Lê a nova resposta mais detalhada</li></ul></li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>Ao tentar trocar o modelo, a conexão com o servidor falha</br><ul><li>DeepSeek exibe a mensagem: “Erro ao carregar modelos. Verifique sua conexão.”</br><ul><li>Usuária tenta novamente após restabelecer a internet</li></ul></li></ul></li></ul></td>
+<td><ul><li>Ao tentar trocar o modelo, a conexão com o servidor falha<ul><li>DeepSeek exibe a mensagem: “Erro ao carregar modelos. Verifique sua conexão.”<ul><li>Usuária tenta novamente após restabelecer a internet</li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -3994,15 +3994,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>Lucas abre o DeepSeek</br><ul><li>Clica no ícone de menu ou perfil</br><ul><li>Seleciona “Configurações”</br><ul><li>Clica em “Tema do Sistema”</br><ul><li>Escolhe “Modo Escuro”</br><ul><li>Confirma a alteração</br><ul><li>A interface do sistema muda imediatamente</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></td>
+<td><ul><li>Lucas abre o DeepSeek<ul><li>Clica no ícone de menu ou perfil<ul><li>Seleciona “Configurações”<ul><li>Clica em “Tema do Sistema”<ul><li>Escolhe “Modo Escuro”<ul><li>Confirma a alteração<ul><li>A interface do sistema muda imediatamente</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>Lucas acessa o DeepSeek</br><ul><li>Vai até “Configurações”</br><ul><li>Percebe que o modo escuro já está ativado</br><ul><li>Decide não realizar alterações</li></ul></li></ul></li></ul></td>
+<td><ul><li>Lucas acessa o DeepSeek<ul><li>Vai até “Configurações”<ul><li>Percebe que o modo escuro já está ativado<ul><li>Decide não realizar alterações</li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>Lucas tenta acessar “Configurações”</br><ul><li>A página demora para carregar ou apresenta erro</br><ul><li>DeepSeek exibe mensagem: “Erro ao carregar configurações”</br><ul><li>Lucas recarrega a página e tenta novamente</li></ul></li></ul></li></ul></li></ul></td>
+<td><ul><li>Lucas tenta acessar “Configurações”<ul><li>A página demora para carregar ou apresenta erro<ul><li>DeepSeek exibe mensagem: “Erro ao carregar configurações”<ul><li>Lucas recarrega a página e tenta novamente</li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -4060,15 +4060,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>Júlia abre o DeepSeek</br><ul><li>Seleciona “Upload de Documento”</br><ul><li>Escolhe o PDF e confirma</br><ul><li>DeepSeek processa apresenta texto e  insights extraídos</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Júlia abre o DeepSeek<ul><li>Seleciona “Upload de Documento”<ul><li>Escolhe o PDF e confirma<ul><li>DeepSeek processa apresenta texto e  insights extraídos</li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>Júlia abre o DeepSeek</br><ul><li>Seleciona “Upload de Documento”</br><ul><li>DeepSeek detecta formato inválido e exibe mensagem de erro</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Júlia abre o DeepSeek<ul><li>Seleciona “Upload de Documento”<ul><li>DeepSeek detecta formato inválido e exibe mensagem de erro</li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>Inicia upload do PDF</br><ul><li>Conexão é perdida</br><ul><li>DeepSeek notifica “Conexão perdida” e oferece retomar</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Inicia upload do PDF<ul><li>Conexão é perdida<ul><li>DeepSeek notifica “Conexão perdida” e oferece retomar</li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -4126,15 +4126,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>Pedro ativa a aba <strong>Search</strong></br><ul><li>Digita “versão mais recente do Node.js em 10/05/2025”</br><ul><li>Sistema retorna “Node.js v20.7.0 – lançado em 08/05/2025” e exibe botão <strong>Copy</strong></br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Pedro ativa a aba <strong>Search</strong><ul><li>Digita “versão mais recente do Node.js em 10/05/2025”<ul><li>Sistema retorna “Node.js v20.7.0 – lançado em 08/05/2025” e exibe botão <strong>Copy</strong></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>Resultado sem data</br><ul><li>Pedro refina a query para “Node.js versão estável maio 2025” e repete a busca</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Resultado sem data<ul><li>Pedro refina a query para “Node.js versão estável maio 2025” e repete a busca</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>Consulta demora &gt; 3 s</br><ul><li>Sistema exibe aviso de lentidão com opção “Recarregar”</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Consulta demora &gt; 3 s<ul><li>Sistema exibe aviso de lentidão com opção “Recarregar”</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -4192,15 +4192,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>Mariana lê o parágrafo inicial</br><ul><li>Clica em <strong>Dislike</strong> e fornece feedback</br><ul><li>Clica em <strong>Regenerate</strong> e aguarda nova versão (~ 1 s)</br></li></ul></li></ul></li></ul><ul><li>Clica em <strong>Like</strong> e depois em <strong>Copy</strong> na versão final</br></li></ul></td>
+<td><ul><li>Mariana lê o parágrafo inicial<ul><li>Clica em <strong>Dislike</strong> e fornece feedback<ul><li>Clica em <strong>Regenerate</strong> e aguarda nova versão (~ 1 s)</li></ul></li></ul></li></ul><ul><li>Clica em <strong>Like</strong> e depois em <strong>Copy</strong> na versão final</li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>Regeneração demora &gt; 3 s</br><ul><li>Sistema exibe botão <strong>Cancelar</strong> para interromper</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Regeneração demora &gt; 3 s<ul><li>Sistema exibe botão <strong>Cancelar</strong> para interromper</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>Feedback não traz mudança satisfatória</br><ul><li>Mariana fornece comentário mais detalhado e regenera novamente</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Feedback não traz mudança satisfatória<ul><li>Mariana fornece comentário mais detalhado e regenera novamente</li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -4258,15 +4258,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>Gauss abre o DeepSeek</br><ul><li>Seleciona "Pensamento Profundo (R1)"</br><ul><li>Digita a equação do problema que está com dúvidas no chat</br><ul><li>Clica na seta para enviar</br></li><ul><li>Lê a resposta da IA</li></ul></ul></li></ul></li></ul></td>
+<td><ul><li>Gauss abre o DeepSeek<ul><li>Seleciona "Pensamento Profundo (R1)"<ul><li>Digita a equação do problema que está com dúvidas no chat<ul><li>Clica na seta para enviar</li><ul><li>Lê a resposta da IA</li></ul></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>Gauss abre o DeepSeek</br><ul><li>Seleciona “Pensamento Profundo (R1)”</br><ul><li>Percebe que é uma pergunta simples de ser resolvida</br></li><ul><li>Desativa o modo "Pensamento Profundo (R1)"</li></ul></ul></li></ul></li></ul></td>
+<td><ul><li>Gauss abre o DeepSeek<ul><li>Seleciona “Pensamento Profundo (R1)”<ul><li>Percebe que é uma pergunta simples de ser resolvida</li><ul><li>Desativa o modo "Pensamento Profundo (R1)"</li></ul></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>Inicia o desenvolvimento da pergunta</br><ul><li>Conexão é perdida</br><ul><li>DeepSeek notifica “Conexão perdida” e oferece retomar</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Inicia o desenvolvimento da pergunta<ul><li>Conexão é perdida<ul><li>DeepSeek notifica “Conexão perdida” e oferece retomar</li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -4324,15 +4324,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>João abre o DeepSeek</br><ul><li>Digita a sua mensagem no chat</br><ul><li>Clica na seta para enviar</br><ul><li>Lê o início da resposta que está sendo gerada pela IA</br><ul><li>Clica em "Interromper mensagem em andamento"</br></li></ul></li></ul></li></ul></li></ul></li></ul></td>
+<td><ul><li>João abre o DeepSeek<ul><li>Digita a sua mensagem no chat<ul><li>Clica na seta para enviar<ul><li>Lê o início da resposta que está sendo gerada pela IA<ul><li>Clica em "Interromper mensagem em andamento"</li></ul></li></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>João abre o DeepSeek</br><ul><li>Digita a sua mensagem no chat</br><ul><li>Clica na seta para enviar</br><ul><li>Não encontra nenhum problema na mensagem que está sendo gerada pela IA</ul></li><ul></ul></ul></li></ul></li></ul></td>
+<td><ul><li>João abre o DeepSeek<ul><li>Digita a sua mensagem no chat<ul><li>Clica na seta para enviar<ul><li>Não encontra nenhum problema na mensagem que está sendo gerada pela IA</li></ul></li><ul></ul></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>Inicia o desenvolvimento da pergunta</br><ul><li>Conexão é perdida</br><ul><li>DeepSeek notifica “Conexão perdida” e oferece a opção de retomar</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Inicia o desenvolvimento da pergunta<ul><li>Conexão é perdida<ul><li>DeepSeek notifica “Conexão perdida” e oferece a opção de retomar</li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -4390,15 +4390,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo principal</strong></td>
-<td><ul><li>Clarice abre o DeepSeek</br><ul><li>Visualiza a mensagem indicando que o servidor está funcionando normalmente</br><ul><li>Digita sua pergunta para o chat da IA</br><ul></ul></ul></li></ul></li></ul></td>
+<td><ul><li>Clarice abre o DeepSeek<ul><li>Visualiza a mensagem indicando que o servidor está funcionando normalmente<ul><li>Digita sua pergunta para o chat da IA<ul></ul></li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo alternativo</strong></td>
-<td><ul><li>Clarice abre o DeepSeek</br><ul><li>Visualiza a mensagem indicando que o servidor está em manutenção</br><ul><li>Fecha o app</br></li><ul></ul></ul></li></ul></li></ul></td>
+<td><ul><li>Clarice abre o DeepSeek<ul><li>Visualiza a mensagem indicando que o servidor está em manutenção<ul><li>Fecha o app</li><ul></ul></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de exceção</strong></td>
-<td><ul><li>Tenta abrir o app</br><ul><li>Aparece a mensagem "Aplicativo sendo atualizado"</br><ul><li>O app é fechado automaticamente</br></li></ul></li></ul></li></ul></td>
+<td><ul><li>Tenta abrir o app<ul><li>Aparece a mensagem "Aplicativo sendo atualizado"<ul><li>O app é fechado automaticamente</li></ul></li></ul></li></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -4588,15 +4588,15 @@
 </tr>
 <tr>
 <td><strong>Fluxo Principal</strong></td>
-<td><ul><li>O usuário insere um link de vídeo do YouTube no chat.</li><ul><li>O sistema verifica se o link é válido e acessível.</li></ul><li>O usuário identifica e clica no botão "Resumir".</li><ul><li>O sistema processa o link e obtém informações como título, descrição e transcrição (caso disponível).</li><li>O sistema realiza a análise de áudio:</li><ul><li>Processamento de voz, música e ruídos.</li><li>Reconhecimento de fala para identificar tópicos importantes.</li><li>Análise de linguagem natural (NLP) para detectar padrões de discurso.</li></ul><li>O sistema gera um resumo estruturado do vídeo.</li><li>O sistema exibe o resumo no chat para o usuário.</li></ul></li></ul></td>
+<td><ul><li>O usuário insere um link de vídeo do YouTube no chat.</li><ul><li>O sistema verifica se o link é válido e acessível.</li></ul><li>O usuário identifica e clica no botão "Resumir".</li><ul><li>O sistema processa o link e obtém informações como título, descrição e transcrição (caso disponível).</li><li>O sistema realiza a análise de áudio:</li><ul><li>Processamento de voz, música e ruídos.</li><li>Reconhecimento de fala para identificar tópicos importantes.</li><li>Análise de linguagem natural (NLP) para detectar padrões de discurso.</li></ul><li>O sistema gera um resumo estruturado do vídeo.</li><li>O sistema exibe o resumo no chat para o usuário.</li></ul></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo Alternativo</strong></td>
-<td><ul><li>O usuário insere um link de vídeo.</li><ul><li>Em vez de clicar no botão, digita um comando no chat como "Resuma este vídeo".</li><li>O sistema reconhece o comando e inicia automaticamente o processo de resumo.</li><li>O sistema gera e exibe o resumo do vídeo no chat.</li></ul></li></ul></td>
+<td><ul><li>O usuário insere um link de vídeo.</li><ul><li>Em vez de clicar no botão, digita um comando no chat como "Resuma este vídeo".</li><li>O sistema reconhece o comando e inicia automaticamente o processo de resumo.</li><li>O sistema gera e exibe o resumo do vídeo no chat.</li></ul></ul></td>
 </tr>
 <tr>
 <td><strong>Fluxo de Exceção</strong></td>
-<td><ul><li>O usuário insere um link inválido no chat</li><ul><li>O sistema verifica que o link está corrompido ou não existe</li><li>O sistema exibe uma mensagem informando o erro e solicita um link válido</li></ul></li><li>O usuário tenta resumir um vídeo indisponível</li><ul><li>O sistema identifica que o vídeo foi removido, privado ou restrito</li><li>O sistema informa ao usuário que não pode gerar o resumo</li></ul></li><li>O sistema perde conexão com a internet antes ou durante o processamento</li><ul><li>O sistema detecta a falha de rede</li><li>O sistema exibe uma mensagem de erro e sugere ao usuário verificar sua conexão</li></ul></li><li>O sistema falha na geração do resumo</li><ul><li>O processamento do vídeo apresenta erro inesperado</li><li>O sistema exibe uma mensagem informando que a ação não pode ser concluída</li></ul></li><li>O sistema gera um resumo incorreto (alucinação de IA)</li><ul><li>O usuário percebe que a resposta gerada não corresponde ao conteúdo do vídeo</li><li>O sistema disponibiliza refinamento de resposta em #UC08.</li></ul></li></ul></td>
+<td><ul><li>O usuário insere um link inválido no chat</li><ul><li>O sistema verifica que o link está corrompido ou não existe</li><li>O sistema exibe uma mensagem informando o erro e solicita um link válido</li></ul><li>O usuário tenta resumir um vídeo indisponível</li><ul><li>O sistema identifica que o vídeo foi removido, privado ou restrito</li><li>O sistema informa ao usuário que não pode gerar o resumo</li></ul><li>O sistema perde conexão com a internet antes ou durante o processamento</li><ul><li>O sistema detecta a falha de rede</li><li>O sistema exibe uma mensagem de erro e sugere ao usuário verificar sua conexão</li></ul><li>O sistema falha na geração do resumo</li><ul><li>O processamento do vídeo apresenta erro inesperado</li><li>O sistema exibe uma mensagem informando que a ação não pode ser concluída</li></ul><li>O sistema gera um resumo incorreto (alucinação de IA)</li><ul><li>O usuário percebe que a resposta gerada não corresponde ao conteúdo do vídeo</li><li>O sistema disponibiliza refinamento de resposta em #UC08.</li></ul></ul></td>
 </tr>
 <tr>
 <td><strong>Pós-condições</strong></td>
@@ -4620,7 +4620,7 @@
 </tr>
 </tbody>
 </table>
-<hr />
+<hr>
 <h2 id="referencia-bibliografica">Referência Bibliográfica</h2>
 <blockquote>
 <p><a id="REF1" href="#anchor_1">1.</a> SERRANO M., SERRANO M. Requisitos - Aula 13 - p. 12 - Disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf. Acesso em 19 de Junho de 2025. <a href="../../images/casos-de-uso/definicao-diagramas-de-casos-de-uso.png"><code>Foto da referência</code></a></p>
@@ -4636,7 +4636,7 @@
 <p>11.LUCIDCHART. Diagrama de caso de uso UML. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml. Acesso em: 9 maio 2025.</p>
 <p>12.DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSeek-V .</p>
 </blockquote>
-<hr />
+<hr>
 <h2 id="historico-de-versoes">Histórico de versões</h2>
 <table>
 <thead>
@@ -4748,7 +4748,7 @@
 <td style="text-align: center;"><a href="https://github.com/anabborges">@Ana Clara</a></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 
 
 
