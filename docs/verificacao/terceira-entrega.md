@@ -8,6 +8,8 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 
 ### Tabela 1 - Verificação recomendada pelo professor
 
+<font><p style="text-align: center">**Tabela 1** - Lista de verificação recomendada pelo professor.</p></font>
+
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
 | 01  | O Github pages possui as especificações dos cenários para o projeto ?                                                                                                                                                       | André Barros de Sales  |   ![PROF1](../images/verificacao-terceira-entrega/PROF1.png)                         |
@@ -34,6 +36,8 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 
 ### Tabela 2 - Verificação do diagrama de casos de uso
 
+<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato diagrama de casos de uso.</p></font>
+
 | Nº    | Descrição                                                                                                                                                         | Autor | Referência |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|------------|
 | LUC01  | O sistema do diagrama está representado por um retângulo?                                                                                                         | Luiz  | Lucid Software Portugês - Tutorial de Casos de Uso UML - minuto [01:49](https://youtu.be/ab6eDdwS3rA?si=XaCIshHWRZauoAI4) |
@@ -57,7 +61,11 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 | LUC19  | As generalizações estão representadas por uma seta do caso secundário para o primário?                                                                          | Luiz  | Lucid Software Portugês - Tutorial de Casos de Uso UML - minuto [11:00](https://youtu.be/ab6eDdwS3rA?si=XaCIshHWRZauoAI4) |
 | LUC20  | O caso de uso com pontos de extensão leva para casos de uso estendidos?                                                                                          | Luiz  | Lucid Software Portugês - Tutorial de Casos de Uso UML - minuto [11:50](https://youtu.be/ab6eDdwS3rA?si=XaCIshHWRZauoAI4) |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 ### Tabela 3 - Verificação dos cenários
+
+<font><p style="text-align: center">**Tabela 3** - Lista de verificação para o artefato cenários.</p></font>
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -70,7 +78,11 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 | LC07  | O cenário possui exceção ?                                                                                                                                                           | Luiz  |   ![LC02-8](../images/verificacao-terceira-entrega/LC02-8.png)                         |
 | LC08  | O cenário possui episódios ?                                                                                                                                                           | Luiz  |   ![LC02-8](../images/verificacao-terceira-entrega/LC02-8.png)                         |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 ### Tabela 4 - Verificação dos léxicos
+
+<font><p style="text-align: center">**Tabela 4** - Lista de verificação para o artefato léxicos.</p></font>
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -80,14 +92,21 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 | LL04  | Cada símbolo possui zero ou mais sinônimos?                                                                                                                                                        | Luiz  |   ![LL02-4](../images/verificacao-terceira-entrega/LL02-4.png)                         |
 | LL05  | Cada símbolo está classficicado como verbo, objeto ou estado?                                                                                                                                                        | Luiz  |   ![LL05](../images/verificacao-terceira-entrega/LL05.png)                         |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 
 ### Tabela 5 - Verificação da especificação suplementar
+
+<font><p style="text-align: center">**Tabela 5** - Lista de verificação para o artefato especificação suplementar.</p></font>
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
 | LES01  | A especificação suplmentar está escrita em linguagem natural descrevendo os requisitos não funcionais?                                                                                                                                                        | Luiz  |   ![LES01](../images/verificacao-terceira-entrega/LES01.png)                         |
 | LES02  | A especificação suplmentar segue a FURPS+ ?                                                                                                                                                       | Luiz  |   ![LES01](../images/verificacao-terceira-entrega/LES01.png)                         |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 12/05/2025 |  1.0   | (#D04) Criação da página das listas de verificação com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [`@Ana Borges`](https://github.com/anabborges), [`@Ana Joyce`](https://github.com/anajoyceamorim), [`@Fabio`](https://github.com/fabinsz), [`@Gabriela`](https://github.com/gaubiela), [`@Luiz`](https://github.com/luizfaria1989), [`@Mateus`](https://github.com/MVConsorte), [@Davi Emanuel](https://github.com/daviRolvr) |
+| 05/06/2025 |  2.0   | (#D04) Adição das legendas das tabelas e seus autores.| [Luiz](https://github.com/luizfaria1989)   | [](https://github.com/) |
