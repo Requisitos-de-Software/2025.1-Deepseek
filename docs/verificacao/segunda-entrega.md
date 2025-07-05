@@ -8,6 +8,8 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 
 ### Tabela 1 - Verificação recomendada pelo professor
 
+<font><p style="text-align: center">**Tabela 1** - Lista de verificação recomendada pelo professor.</p></font>
+
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
 | 1   | A Especificação do Perfil do usuário possui informação de: idade (criança, jovem, adulto, terceira idade etc.); experiência (leigo/novato, especialista); atitudes (tecnófilos, tecnófobos); e tarefas primárias (compra, venda). | André Barros de Sales  | ![PROF1-10](../images/verificacao/PROF1-10.png)                           |
@@ -25,6 +27,8 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 
 ### Tabela 2 - Verificação Pesquisa/Questionário
 
+<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato pesquisa/questionário.</p></font>
+
 | Código | Descrição | Autor         | Referência |
 |--------|----------|---------------|------------|
 | LQ1 | O questionário deve ser um formulário impresso ou on-line com perguntas estruturadas para coletar dados de pesquisa, análise ou avaliação.<br><br>“Um questionário é um formulário impresso ou on-line com perguntas que os usuários e demais participantes devem responder, a fim de fornecer os dados necessários em uma pesquisa, análise ou avaliação.” | Gabriela Alves | ![Q1](../images/verificacao/Q1.png) BARBOSA, Simone D. J.; SANTANA DA SILVA, Bruno; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. p. 149. |
@@ -34,16 +38,24 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LQ6 | Escalas de Likert devem usar um número ímpar de pontos (geralmente 5 ou 7) e incluir opção neutra (“não sei”) para medir opiniões, atitudes ou satisfação.<br><br>“Em geral, utilizamos um número ímpar de valores, a menos que queiramos evitar que os usuários fiquem ‘em cima do muro’. Em escalas Likert, costumamos utilizar 5 ou 7 pontos, e em escalas de diferencial semântico utilizamos 5, 7 ou mesmo 9 pontos.” | Gabriela Alves | ![Q5](../images/verificacao/Q5.png) BARBOSA, Simone D. J.; SANTANA DA SILVA, Bruno; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. p. 151. |
 | LQ7 | A sequência das perguntas deve seguir estrutura lógica e ser agrupada por temas, para evitar que uma questão influencie a outra.<br><br>“A ordem das perguntas deve ser cuidadosamente projetada, pois a resposta a uma pergunta pode ser influenciada por uma das perguntas anteriores. Quando um questionário é longo, suas perguntas podem ser agrupadas em tópicos relacionados, formando uma estrutura lógica e de preenchimento mais fácil.” | Gabriela Alves | ![Q6](../images/verificacao/Q6.png) BARBOSA, Simone D. J.; SANTANA DA SILVA, Bruno; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. p. 151. |
 
+<font><p style="text-align: center">**Autor:** Gabriela  </p></font>
+
 
 ### Tabela 3 - Verificação Análise de Documentos
+
+<font><p style="text-align: center">**Tabela 3** - Lista de verificação para o artefato análise de documentos.</p></font>
 
 | Código | Descrição | Autor       | Referência |
 |--------|----------|-------------|------------|
 | LD1 | Os documentos analisados incluem especificações de requisitos, processos de negócio, manuais do usuário ou semelhantes?<br><br>“Document analysis entails examining any existing documentation for potential software requirements. The most useful documentation includes requirements specifications, business processes, lessons learned collections, and user manuals for existing or similar applications.” | Luiz Morais |![LD1](../images/verificacao/LD1.png) WIEGERS, K.; BEATTY, J. *Software Requirements*. 3. ed. Redmond: Microsoft Press, 2013. p. 128. |
 | LD2 | Os documentos analisados são documentos recentes?<br><br>“A risk with this technique is that the available documents might not be up to date. Requirements might have changed without the specifications being updated, or functionality might be documented that is not needed in a new system.” | Luiz Morais | ![LD2](../images/verificacao/LD2.png) WIEGERS, K.; BEATTY, J. *Software Requirements*. 3. ed. Redmond: Microsoft Press, 2013. p. 129. |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 
 ### Tabela 4 - Verificação Observação
+
+<font><p style="text-align: center">**Tabela 4** - Lista de verificação para o artefato observação.</p></font>
 
 | Código | Descrição | Autor             | Referência |
 |--------|----------|-------------------|------------|
@@ -55,14 +67,22 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LO6 | Os objetivos da técnica foram explicados anteriormente aos usuários observados<br><br>“Esclarece que as informações resultantes servirão como insumo para análise dos requisitos.” | Ana Clara Borges | ![O6](../images/verificacao/O6.png) VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. *Engenharia de requisitos: software orientado ao negócio*. Rio de Janeiro: Brasport Livros e Multimídia, 2016. p. 161. |
 | LO7 | Os usuários observados foram definidos<br><br>“usuários cujo trabalho deve ser observado, como, por exemplo, especialistas e novatos.” | Ana Clara Borges |![O7](../images/verificacao/O7.png)  VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. *Engenharia de requisitos: software orientado ao negócio*. Rio de Janeiro: Brasport Livros e Multimídia, 2016. p. 160. |
 
+<font><p style="text-align: center">**Autor:** Ana Clara  </p></font>
+
 ### Tabela 5 - Verificação Análise de Interface
+
+<font><p style="text-align: center">**Tabela 5** - Lista de verificação para o artefato análise de interface.</p></font>
 
 | Código   | Descrição | Autor      | Referência |
 |----------|----------|------------|------------|
 | LVAI01 | Foram identificados requisitos funcionais relacionados à troca de dados e serviços entre o sistema em desenvolvimento e sistemas externos com os quais ele se conecta.<br><br>“System interface analysis reveals functional requirements regarding the exchange of data and services between systems.” | Ana Joyce | ![AI1](../images/verificacao/AI1.png) WIEGERS, Karl; BEATTY, Joy. *Software Requirements*. 3. ed. [S. l.]: Microsoft Press, 2013. p. 127. |
 | LVAI02 | Para cada sistema externo identificado, foram analisadas funcionalidades que possam gerar requisitos para o sistema em desenvolvimento?<br><br>“For each system that interfaces with yours, identify functionality in the other system that might lead to requirements for your system.” | Ana Joyce | ![AI2](../images/verificacao/AI2.png) WIEGERS, Karl; BEATTY, Joy. *Software Requirements*. 3. ed. [S. l.]: Microsoft Press, 2013. p. 127. |
 
+<font><p style="text-align: center">**Autor:** Ana Joyce  </p></font>
+
 ### Tabela 6 - Verificação Perfil de Usuário
+
+<font><p style="text-align: center">**Tabela 6** - Lista de verificação para o artefato perfil de usuário.</p></font>
 
 | Código | Descrição | Autor        | Referência |
 |--------|----------|--------------|------------|
@@ -75,14 +95,22 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LP7 | Definir critérios mais relevantes para o projeto (ex.: em um app acadêmico, priorizar "nível de instrução"). | Fábio Gabriel | ![PU7](../images/verificacao/PU7.png) BARBOSA, Simone D. J.; SANTANA DA SILVA, Bruno; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. p. 166. |
 | LP8 | Coletar dados reais (entrevistas, questionários, observação). | Fábio Gabriel | ![PU8](../images/verificacao/PU8.png) BARBOSA, Simone D. J.; SANTANA DA SILVA, Bruno; SILVEIRA, Milene S.; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel D. J. *Interação Humano-Computador e Experiência do Usuário*. p. 166. |
 
+<font><p style="text-align: center">**Autor:** Fábio  </p></font>
+
 ### Tabela 7 - Verificação Three Level Scale
+
+<font><p style="text-align: center">**Tabela 7** - Lista de verificação para o artefato three level scale.</p></font>
 
 | Código | Descrição | Autor        | Referência |
 |--------|----------|--------------|------------|
 | LT1 | A técnica de priorização deve ser feita com stakeholders concordando com as prioridades dos requisitos.<br><br>“To make the scale useful, the stakeholders must agree on what each level means in the scale they use.” | Luiz Morais | ![TL1](../images/verificacao/TL1.png) WIEGERS, K; BEATTY, J. *Software Requirements*. 3. ed. Redmond: Microsoft Press, 2013. p. 319. |
 | LT2 | A técnica deve separar os requisitos em quatro categorias de prioridade: alta, média, baixa, não fazer.<br><br>Figura: Requirements prioritization based on importance and urgency | Luiz Morais | ![TL2](../images/verificacao/TL2.png) WIEGERS, K; BEATTY, J. *Software Requirements*. 3. ed. Redmond: Microsoft Press, 2013. p. 319. |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 ### Tabela 8 - Verificação Moscow
+
+<font><p style="text-align: center">**Tabela 8** - Lista de verificação para o artefato moscow.</p></font>
 
 | Código | Descrição | Autor | Referência |
 |--------|----------|-------|------------|
@@ -97,8 +125,12 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LM9 | A classificação foi feita com base no conhecimento real do negócio pelos interessados? | Davi Emanuel | ![LM9](../images/verificacao/LM9.png) Requisitos – Aula 07 - Milene Serrano e Mauricio Serrano |
 | LM10 | A exclusão dos requisitos não compromete a entrega ou o uso do produto? | Davi Emanuel | ![LM10](../images/verificacao/LM10.png) Requisitos – Aula 07 - Milene Serrano e Mauricio Serrano |
 
+<font><p style="text-align: center">**Autor:** Davi  </p></font>
+
 
 ### Tabela 9 - Verificação In Or Out
+
+<font><p style="text-align: center">**Tabela 9** - Lista de verificação para o artefato in or out.</p></font>
 
 | Código | Descrição | Autor        | Referência |
 |--------|----------|--------------|------------|
@@ -110,7 +142,11 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LI6 | Designar um stakeholder para decisão final em caso de conflito | Fábio Gabriel | ![IO6](../images/verificacao/IO6.png) *Software Requirements*, 3. ed. Redmond: Microsoft Press, 2013. p. 318 |
 | LI7 | Criar um ambiente leve e motivador | Fábio Gabriel | ![IO7](../images/verificacao/IO7.png) *Software Requirements*, 3. ed. Redmond: Microsoft Press, 2013. p. 318 |
 
+<font><p style="text-align: center">**Autor:** Fábio  </p></font>
+
 ### Tabela 10 - Verificação QFD
+
+<font><p style="text-align: center">**Tabela 10** - Lista de verificação para o artefato QFD.</p></font>
 
 | Código  | Descrição                                                                 | Autor          | Referência                                                                                                      |
 |---------|--------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------------------------------------------|
@@ -131,6 +167,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | LQFD15  | Há a representação em termos de porcentagem (%) do fator Importância. | Mateus Villela | SHORT, Michael. Lecture 4: Quality Function Deployment (QFD) and House of Quality. MIT OpenCourseWare, 2011. Disponível em: YouTube. Acesso em: 02 maio 2025. (31 min 16s) |
 | LQFD16  | Contém à direita da Casa da Qualidade o Benchmark (análise comparativa com produtos concorrentes) preenchidos pelos stakeholders. | Mateus Villela | SHORT, Michael. Lecture 4: Quality Function Deployment (QFD) and House of Quality. MIT OpenCourseWare, 2011. Disponível em: YouTube. Acesso em: 02 maio 2025. (34 min 48s) |
 
+<font><p style="text-align: center">**Autor:** Mateus  </p></font>
+
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 04/05/2025 |  0.1   | (#D04) Criação da página das listas de verificação.| [Ana Borges](https://github.com/anabborges)   | [Gabriela](https://github.com/gaubiela) |
+| 05/06/2025 |  1.0   | (#D04) Adição das legendas das tabelas e seus autores.| [Luiz](https://github.com/luizfaria1989)   | [](https://github.com/) |
