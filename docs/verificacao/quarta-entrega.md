@@ -8,6 +8,8 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 
 ### Tabela 1 - Verificação recomendada pelo professor
 
+<font><p style="text-align: center">**Tabela 1** - Lista de verificação recomendada pelo professor.</p></font>
+
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
 | 01  | As Histórias de Usuário possuem referência bibliográfica da fonte e foto do texto da referência explicando a história de usuário ? | André Barros de Sales  |   ![PROF1-7](../images/verificacao-quarta-entrega/PROF1-7.png) |
@@ -27,7 +29,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 | 15  | Os Softgoals representam metas bem definidas?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
 | 16  | Os impactos foram corretamente propagados?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
 
-### Tabela 2 - Verificação das hisórias de usuário
+### Tabela 2 - Verificação das histórias de usuário
+
+<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato histórias de usuário.</p></font>
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -38,14 +42,22 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 | 05  | A história de usuário possui descrição? | Luiz  | [Reposiório de requisitos: Bilheteria digital](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/) |
 | 06  | A história de usuário possui critérios de aceitação? | Luiz  | [Reposiório de requisitos: Bilheteria digital](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/) |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 ### Tabela 3 - Verificação do backlog
+
+<font><p style="text-align: center">**Tabela 3** - Lista de verificação para o artefato backlog.</p></font>
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
 | 01  | O backlog está representado por uma lista com os requisitos ou funcionalidades do projeto? | Luiz  | ![Definicao-backlog](../images/backlog/definicao-backlog.png) |
 | 02  | Os requisitos do backlog possuem uma prioridade? | Luiz  | ![Definicao-backlog](../images/backlog/definicao-backlog.png)  |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 ### Tabela 4 - Verificação do NFR Framewok
+
+<font><p style="text-align: center">**Tabela 4** - Lista de verificação para o artefato NFR Framework.</p></font>
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -61,8 +73,11 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 | 10  | O cartão de especificação possui os conflitos daquele requisito trabalhado? | Luiz  | ![cartao-de-especificacao](../images/nfr-framework/cartao-especificacao.png) |
 | 11  | O cartão de especificação possui a história daquele requisito trabalhado? | Luiz  | ![cartao-de-especificacao](../images/nfr-framework/cartao-especificacao.png) |
 
+<font><p style="text-align: center">**Autor:** Luiz  </p></font>
+
 # Histórico de versões
 
 | Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
 | 01/06/2025 |  1.0   | (#V01) Criação da página das listas de verificação com as listas de verificação.| [Luiz](https://github.com/luizfaria1989)   | [Ana Joyce](https://github.com/anajoyceamorim) |
+| 05/06/2025 |  2.0   | (#V01) Adição das legendas das tabelas e seus autores.| [Luiz](https://github.com/luizfaria1989)   | [](https://github.com/) |
