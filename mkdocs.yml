@@ -152,6 +152,10 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
+plugins:
+  - search
+  - mkdocs-pdf
+
 extra_css:
   - css/custom.css
 
