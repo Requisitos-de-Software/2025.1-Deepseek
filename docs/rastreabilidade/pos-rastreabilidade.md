@@ -58,6 +58,7 @@ Autor: Luiz
 | Ana Borges     | Responsável pela representação/protótipo de #RF28, #RF22, #RF07, #RF09, #RF23 | [#RF28](../rastreabilidade/pos-rastreabilidade.md#rf28), [#RF22](../rastreabilidade/pos-rastreabilidade.md#rf22), [#RF07](../rastreabilidade/pos-rastreabilidade.md#rf07), [#RF09](../rastreabilidade/pos-rastreabilidade.md#rf09), [#RF23](../rastreabilidade/pos-rastreabilidade.md#rf23) |
 | Luiz     | Responsável pela representação/protótipo de #RF02, #RF05, #RF19, #RF25, #RF26, #RF29 | [#RF02](../rastreabilidade/pos-rastreabilidade.md#rf02), [#RF05](../rastreabilidade/pos-rastreabilidade.md#rf05), [#RF19](../rastreabilidade/pos-rastreabilidade.md#rf19), [#RF25](../rastreabilidade/pos-rastreabilidade.md#rf25), [#RF26](../rastreabilidade/pos-rastreabilidade.md#rf25), [#RF29](../rastreabilidade/pos-rastreabilidade.md#rf29) |
 | Davi     | Responsável pela representação/protótipo de #RF37, #RF34,#RF10, #RF27 | [#RF37](../rastreabilidade/pos-rastreabilidade.md#rf37), [#RF34](../rastreabilidade/pos-rastreabilidade.md#rf34), [#RF10](../rastreabilidade/pos-rastreabilidade.md#rf10), [#RF27](../rastreabilidade/pos-rastreabilidade.md#rf27)|
+| Fábio    | Responsável pela representação/protótipo de #RF11, #RF12,#RF13, #RF32 | [#RF11](../rastreabilidade/pos-rastreabilidade.md#rf11), [#RF12](../rastreabilidade/pos-rastreabilidade.md#rf12), [#RF13](../rastreabilidade/pos-rastreabilidade.md#rf13), [#RF32](../rastreabilidade/pos-rastreabilidade.md#rf32)|
 
 
 # Rastreabilidade
@@ -242,7 +243,7 @@ Fonte: Fábio
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
 |                       Recurso                        |        [Cenário #CN08](../modelagem/cenarios.md#cn08)               |
-|                    Representação                     |                  -                      |
+|                    Representação                     |                  <img src="../../images/pos-rastreabilidade/RF11.gif" width="700">                   |
 |                       Alocado                        | [Caso de uso #UC08](../modelagem/casos-de-uso.md#uc08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08)                                        |
 |                      Agregação                       |                                   -     |
 
@@ -259,7 +260,7 @@ Fonte: Fábio
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
 |                       Recurso                        |        [Cenário #CN08](../modelagem/cenarios.md#cn08)               |
-|                    Representação                     |                  -                      |
+|                    Representação                     |                   <img src="../../images/pos-rastreabilidade/RF12.gif" width="700">                    |
 |                       Alocado                        | [Caso de uso #UC08](../modelagem/casos-de-uso.md#uc08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08)                                        |
 |                      Agregação                       |                                   -     |
 
@@ -276,7 +277,7 @@ Fonte: Fábio
 |                     Tipos de Elo                     |       Artefatos Relacionados            |
 |                      Satisfação                      | [#ES04 - Usabilidade](../modelagem/especificacao-suplementar.md#es04), <br> [#ES03 - Funcionalidade](../modelagem/especificacao-suplementar.md#es03)                     |
 |                       Recurso                        |        [Cenário #CN08](../modelagem/cenarios.md#cn08)               |
-|                    Representação                     |                  -                      |
+|                    Representação                     |                  <img src="../../images/pos-rastreabilidade/RF13.gif" width="700">                        |
 |                       Alocado                        | [Caso de uso #UC08](../modelagem/casos-de-uso.md#uc08), <br> [Léxico #LX08](../modelagem/lexicos.md#lx08)                                        |
 |                      Agregação                       |                                   -     |
 
@@ -549,7 +550,7 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 | **Tipos de Elo** | **Artefatos Relacionados** |
 | Satisfação | – |
 | Recurso | [#CN04](../modelagem/cenarios.md#cn04) |
-| Representação | – |
+| Representação | ![HU20 - Representação](../images/pos-rastreabilidade/HU20_1.png) <br> ![HU20 - Representação](../images/pos-rastreabilidade/HU20_2.png)  |
 | Alocado | [#UC04](../modelagem/casos-de-uso.md#uc04), [#LX04](../modelagem/lexicos.md#lx04) |
 | Agregação | [#HU20](../modelagem/historias-de-usuario.md#hu20), [#BK25](../modelagem/backlog.md#bk25) |
 
@@ -861,3 +862,4 @@ Autor: [Mateus](https://github.com/MVConsorte)
 | 22/06/2025 |  2.3   | (#PR01) Adição dos protótipos para as histórias de usuário: HU39, HU41, HU42, HU09 | [`@Ana Joyce`](https://github.com/anajoyceamorim)| [`@`](https://github.com/) |
 | 07/06/2025 |  2.4   | (#PR01) Adição dos protótipos para representação/protótipo de #RF01, #RF03, #RF15, #RF16, #RF17| [`@Gabriela`](https://github.com/gaubiela)   | [`Davi Emanuel`](https://github.com/daviRolvr)   |
 | 22/06/2025 |  2.5   | (#PR01) Adição dos protótipos para representação/protótipo de #RF37, #RF34, #RF10, #RF27| [`@Davi Emanuel`](https://github.com/daviRolvr)   | [`@Ana Clara`](https://github.com/anabborges)|
+| 04/07/2025 |  2.6   | (#PR01) Adição dos protótipos para representação/protótipo de #RF11, #RF12, #RF13, #RF32| [`@Fabio`](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989)|
