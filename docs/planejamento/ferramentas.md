@@ -26,50 +26,55 @@ Esta seção descreve as principais ferramentas que serão utilizadas no desenvo
 |<img class="card-img img-fluid rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/2048px-Notion-logo.svg.png" title="Notion" width=100>| Notion | Organizacão de idéias.<a id="anchor_16" href="#FRM16"><sup>16</sup></a>|
 |<img class="card-img img-fluid rounded" src="https://play-lh.googleusercontent.com/d2zqBFBEymSZKaVg_dRo1gh3hBFn7_Kl9rO74xkDmnJeLgDW0MoJD3cUx0QzZN6jdsg=w240-h480-rw" title="DeepSeek" width=100>| DeepSeek| Auxilia na formatacão de texto e pesquisas rápidas .<a id="anchor_17" href="#FRM17"><sup>17</sup></a>|
 |<img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>| Python| Utilizado para geração de gráficos, análise de dados e entre outros. <a id="anchor_18" href="#FRM18"><sup>18</sup></a>|
+|<img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/>| Figma | Ferramenta utilizada para prototipagem de baixa e alta fidelidade. <a id="anchor_19" href="#FRM19"><sup>19</sup></a>|
 
-<font size="3"><p style="text-align: center">Fonte: [Fábio Gabriel](https://github.com/fabinsz), 2025.</p></font>
+<font size="3"><p style="text-align: center">Fonte: [Fábio Gabriel](https://github.com/fabinsz), [Mateus](https://github.com/MVConsorte); 2025.</p></font>
 
 
-> <a id="#FRM1" href="anchor_1">1</a>. GitHub. Disponível em: [https://github.com](https://github.com), acesso em 19 de abr. de 2025.
+> <a id="FRM1" href="anchor_1">1</a>. GitHub. Disponível em: [https://github.com](https://github.com), acesso em 19 de abr. de 2025.
 
-> <a id="#FRM2" href="anchor_2">2</a>. Google Planilhas. Disponível em: [https://www.google.com/sheets](https://www.google.com/sheets), acesso em 19 de abr. de 2025.  
+> <a id="FRM2" href="anchor_2">2</a>. Google Planilhas. Disponível em: [https://www.google.com/sheets](https://www.google.com/sheets), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM3" href="anchor_3">3</a>. WhatsApp. Disponível em: [https://www.whatsapp.com](https://www.whatsapp.com), acesso em 19 de abr. de 2025.  
+> <a id="FRM3" href="anchor_3">3</a>. WhatsApp. Disponível em: [https://www.whatsapp.com](https://www.whatsapp.com), acesso em 19 de abr. de 2025.  
 
 > <a id="#FRM4" href="anchor_4">4</a>. Microsoft Teams. Disponível em: [https://www.microsoft.com/pt-br/microsoft-teams](https://www.microsoft.com/pt-br/microsoft-teams), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM5" href="anchor_5">5</a>. MkDocs. Disponível em: [https://www.mkdocs.org](https://www.mkdocs.org), acesso em 19 de abr. de 2025.  
+> <a id="FRM5" href="anchor_5">5</a>. MkDocs. Disponível em: [https://www.mkdocs.org](https://www.mkdocs.org), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM6" href="anchor_6">6</a>. YouTube. Disponível em: [https://www.youtube.com](https://www.youtube.com), acesso em 19 de abr. de 2025.  
+> <a id="FRM6" href="anchor_6">6</a>. YouTube. Disponível em: [https://www.youtube.com](https://www.youtube.com), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM7" href="anchor_7">7</a>. Google Docs. Disponível em: [https://docs.google.com](https://docs.google.com), acesso em 19 de abr. de 2025.  
+> <a id="FRM7" href="anchor_7">7</a>. Google Docs. Disponível em: [https://docs.google.com](https://docs.google.com), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM8" href="anchor_8">8</a>. GitHubPages. Disponível em: [https://pages.github.com](https://pages.github.com), acesso em 19 de abr. de 2025.  
+> <a id="FRM8" href="anchor_8">8</a>. GitHubPages. Disponível em: [https://pages.github.com](https://pages.github.com), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM9" href="anchor_9">9</a>. ChatGPT. Disponível em: [https://chat.openai.com](https://chat.openai.com), acesso em 19 de abr. de 2025.  
+> <a id="FRM9" href="anchor_9">9</a>. ChatGPT. Disponível em: [https://chat.openai.com](https://chat.openai.com), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM10" href="anchor_10">10</a>. Google. Disponível em: [https://www.google.com](https://www.google.com), acesso em 19 de abr. de 2025.  
+> <a id="FRM10" href="anchor_10">10</a>. Google. Disponível em: [https://www.google.com](https://www.google.com), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM11" href="anchor_11">11</a>. Miro. Disponível em: [https://miro.com](https://miro.com), acesso em 19 de abr. de 2025. 
+> <a id="FRM11" href="anchor_11">11</a>. Miro. Disponível em: [https://miro.com](https://miro.com), acesso em 19 de abr. de 2025. 
 
-> <a id="#FRM12" href="anchor_12">12</a>. Google Forms. Disponível em: [https://www.google.com/forms/about](https://www.google.com/forms/about), acesso em 19 de abr. de 2025.  
+> <a id="FRM12" href="anchor_12">12</a>. Google Forms. Disponível em: [https://www.google.com/forms/about](https://www.google.com/forms/about), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM13" href="anchor_13">13</a>. VsCode. Disponível em: [https://code.visualstudio.com](https://code.visualstudio.com), acesso em 19 de abr. de 2025.  
+> <a id="FRM13" href="anchor_13">13</a>. VsCode. Disponível em: [https://code.visualstudio.com](https://code.visualstudio.com), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM14" href="anchor_14">14</a>. This Person does not exist. Disponível em: [https://this-person-does-not-exist.com/en](https://this-person-does-not-exist.com/en), acesso em 19 de abr. de 2025.
+> <a id="FRM14" href="anchor_14">14</a>. This Person does not exist. Disponível em: [https://this-person-does-not-exist.com/en](https://this-person-does-not-exist.com/en), acesso em 19 de abr. de 2025.
 
-> <a id="#FRM15" href="anchor_15">15</a>. Draw.io. Disponível em: [https://app.diagrams.net](https://app.diagrams.net), acesso em 19 de abr. de 2025.  
+> <a id="FRM15" href="anchor_15">15</a>. Draw.io. Disponível em: [https://app.diagrams.net](https://app.diagrams.net), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM16" href="anchor_16">16</a>. Notion. Disponível em: [https://www.notion.so](https://www.notion.so), acesso em 19 de abr. de 2025.  
+> <a id="FRM16" href="anchor_16">16</a>. Notion. Disponível em: [https://www.notion.so](https://www.notion.so), acesso em 19 de abr. de 2025.  
 
-> <a id="#FRM17" href="anchor_17">17</a>. DeepSeek. Disponível em: [https://deepseek.com](https://deepseek.com), acesso em 19 de abr. de 2025. 
+> <a id="FRM17" href="anchor_17">17</a>. DeepSeek. Disponível em: [https://deepseek.com](https://deepseek.com), acesso em 19 de abr. de 2025. 
 
-> <a id="#FRM18" href="anchor_18">18</a>. Python. Disponível em: [https://www.python.org](https://www.python.org/), acesso em 07 de jun. de 2025. 
+> <a id="FRM18" href="anchor_18">18</a>. Python. Disponível em: [https://www.python.org](https://www.python.org/), acesso em 07 de jun. de 2025. 
 
+> <a id="FRM19" href="anchor_19">19</a>. Figma. Disponível em: [Site Figma](https://www.figma.com/), acesso em 01 de jul. de 2025. 
+
+
+## Referência Bibliográfica
 
 | Data       | Versão | Descrição                                 | Autor             | Revisor           |
 | :--------: | :----: | :----------:                              | :---------------: | :---------------: |
-| 13/04/2025 |  0.1   | Ferramentas Utilizadas                    | [@Fábio Gabriel](https://github.com/fabinsz)| [@Ana Joyce](https://github.com/anajoyceamorim)|
-| 19/04/2025 |  0.2   | adicionando mais ferramentas Utilizadas                    | [@Fábio Gabriel](https://github.com/fabinsz)| [@Mateus](https://github.com/MVConsorte)|
-| 07/06/2025 |  0.3   | adicionando mais ferramentas Utilizadas                    | [@Mateus](https://github.com/MVConsorte)| [@Ana Joyce](https://github.com/anajoyceamorim) |
-
+| 13/04/2025 |  1.0   | Ferramentas Utilizadas                    | [@Fábio Gabriel](https://github.com/fabinsz)| [@Ana Joyce](https://github.com/anajoyceamorim)|
+| 19/04/2025 |  1.1   | adicionando mais ferramentas Utilizadas                    | [@Fábio Gabriel](https://github.com/fabinsz)| [@Mateus](https://github.com/MVConsorte)|
+| 07/06/2025 |  1.2   | adicionando mais ferramentas Utilizadas                    | [@Mateus](https://github.com/MVConsorte)| [@Ana Joyce](https://github.com/anajoyceamorim) |
+| 05/07/2025 |  1.3   | (#D010) adicionando mais ferramentas Utilizadas e Corrigindo erro dos hiperlinks da página   | [@Mateus](https://github.com/MVConsorte)| [@](https://github.com/) |
