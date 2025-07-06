@@ -111,8 +111,6 @@ Enfim, como alternativa, o grupo buscou em conjunto um novo aplicativo que pudes
 
 ## DeepSeek: O Aplicativo escolhido {#deepseek}
 
-[Pré-Rastreabilidade: Rich Picture]
-
 O *DeepSeek Chat* é um aplicativo de inteligência artificial desenvolvido pela empresa chinesa *DeepSeek*, voltado para a geração de conteúdo textual, auxílio em tarefas de programação, tradução de idiomas, explicações técnicas e muito mais. Ele se destaca por oferecer dois modelos principais: o *DeepSeek-V3*, voltado para respostas rápidas e diretas, e o *DeepSeek-R1*, que utiliza raciocínio avançado e cadeia de pensamento para resolver problemas mais complexos.
 
 ### Critérios de Decisão
