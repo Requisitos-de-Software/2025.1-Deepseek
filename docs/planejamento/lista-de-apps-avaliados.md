@@ -111,6 +111,8 @@ Enfim, como alternativa, o grupo buscou em conjunto um novo aplicativo que pudes
 
 ## DeepSeek: O Aplicativo escolhido {#deepseek}
 
+[Pré-Rastreabilidade: Rich Picture]
+
 O *DeepSeek Chat* é um aplicativo de inteligência artificial desenvolvido pela empresa chinesa *DeepSeek*, voltado para a geração de conteúdo textual, auxílio em tarefas de programação, tradução de idiomas, explicações técnicas e muito mais. Ele se destaca por oferecer dois modelos principais: o *DeepSeek-V3*, voltado para respostas rápidas e diretas, e o *DeepSeek-R1*, que utiliza raciocínio avançado e cadeia de pensamento para resolver problemas mais complexos.
 
 ### Critérios de Decisão
@@ -166,21 +168,21 @@ Esses elementos tornam o DeepSeek um excelente objeto de estudo para a disciplin
 
 
 ### Bibliografia
-> **Carteira Digital de Trânsito (CDT)**. Disponível em: [https://play.google.com/store/search?q=Carteira+digital+de+transito&c=apps](https://play.google.com/store/search?q=Carteira+digital+de+transito&c=apps). Acesso em: 05 jul. 2025.
+> **Carteira Digital de Trânsito (CDT)**. Disponível em: [Carteira Digital de Trânsito](https://play.google.com/store/search?q=Carteira+digital+de+transito&c=apps). Acesso em: 05 jul. 2025.
 
-> **Detran DF**. Disponível em: [https://play.google.com/store/search?q=Detran+DF&c=apps](https://play.google.com/store/search?q=Detran+DF&c=apps). Acesso em: 05 jul. 2025.
+> **Detran DF**. Disponível em: [Detran DF](https://play.google.com/store/search?q=Detran+DF&c=apps). Acesso em: 05 jul. 2025.
 
 > **Neoenergia Brasília**. Disponível em: [Neoenergia Brasília](https://play.google.com/store/apps/details?id=br.com.CEB.Ceb). Acesso em: 05 jul. 2025.
 
-> **Open Food Facts**. Disponível em: [https://play.google.com/store/search?q=Open+Food+Facts&c=apps](https://play.google.com/store/search?q=Open+Food+Facts&c=apps). Acesso em: 05 jul. 2025.
+> **Open Food Facts**. Disponível em: [Open Food Facts](https://play.google.com/store/search?q=Open+Food+Facts&c=apps). Acesso em: 05 jul. 2025.
 
-> **ConectSUS**. Disponível em: [https://play.google.com/store/search?q=ConectSUS&c=apps](https://play.google.com/store/search?q=ConectSUS&c=apps). Acesso em: 05 jul. 2025.
+> **ConectSUS**. Disponível em: [ConnectSUS/Meu SUS Digital](https://play.google.com/store/search?q=ConectSUS&c=apps). Acesso em: 05 jul. 2025.
 
-> **Meu INSS**. Disponível em: [https://play.google.com/store/search?q=Meu+INSS&c=apps](https://play.google.com/store/search?q=Meu+INSS&c=apps). Acesso em: 05 jul. 2025.
+> **Meu INSS**. Disponível em: [Meu INSS](https://play.google.com/store/search?q=Meu+INSS&c=apps). Acesso em: 05 jul. 2025.
 
-> **Guardiões da Saúde**. Disponível em: [https://play.google.com/store/search?q=Guardi%C3%B5es+da+Sa%C3%BAde&c=apps](https://play.google.com/store/search?q=Guardi%C3%B5es+da+Sa%C3%BAde&c=apps). Acesso em: 05 jul. 2025.
+> **Guardiões da Saúde**. Disponível em: [Guardiões da Saúde](https://play.google.com/store/search?q=Guardi%C3%B5es+da+Sa%C3%BAde&c=apps). Acesso em: 05 jul. 2025.
 
-> **DeepSeek Chat**. Disponível em: [https://play.google.com/store/search?q=DeepSeek+Chat&c=apps](https://play.google.com/store/search?q=DeepSeek+Chat&c=apps). Acesso em: 05 jul. 2025.
+> **DeepSeek Chat**. Disponível em: [Deepseek Chat](https://play.google.com/store/search?q=DeepSeek+Chat&c=apps). Acesso em: 05 jul. 2025.
 
 | Data       | Versão | Descrição                                 | Autor             | Revisor          |
 | :--------: | :----: | :----------:                              | :---------------: | :---------------:|

@@ -52,7 +52,7 @@ nav:
     - Cronograma Executado:    'planejamento/cronograma-executado.md'
     - Ferramentas:             'planejamento/ferramentas.md'
     - Heatmap:                 'planejamento/heatmap.md'
-    - Lista de Apps Avaliados: 'planejamento/lista-de-apps-avaliados.md'
+    - Aplicativo: 'planejamento/lista-de-apps-avaliados.md'
     - Termo de Uso:            'planejamento/termo-de-uso.md'
 
   - Técnicas de Elicitação:
