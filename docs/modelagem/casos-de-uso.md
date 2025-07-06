@@ -145,6 +145,36 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | **Cenário relacionado** | [#CN03](../modelagem/cenarios.md#cn03) |
 | **Léxico relacionado** | [#LX03](../modelagem/lexicos.md#lx03) |
 
+
+<a id="Validacao02_03"></a>
+<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+  <h4> Validação dos Casos de Uso (#UC02 - #UC03) </h4>
+
+ <iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/olgD8UgGlAM" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+  <a href="https://youtu.be/olgD8UgGlAM" target="_blank" rel="noopener noreferrer">
+  ▶ Assista à validação também no YouTube
+</a>
+
+  <div style="margin-top: 16px; line-height: 1.6;">
+    <p><strong>Local:</strong> Sest Senat</p>
+    <p><strong>Data e Hora:</strong> 26/06/2025 - (15:30 - 16:00) </p>
+    <p><strong>Usuário entrevistado:</strong> Luiz(Estudante de Análise de desenvolvimento de Sistemas) e Anthony (estudante direito)</p>
+    <p><strong>Responsável pela execução:</strong> Davi Emanuel (Grupo 2 – Requisitos de Software)</p>
+  </div>
+</div>
+
+
+
 <a id="uc04"></a>
 
 ## #UC04 - Permite que o usuário selecione diferentes versões/modelos de IA no DeepSeek
@@ -446,4 +476,4 @@ A modelagem dos casos de uso do DeepSeek foi conduzida com base nos princípios 
 | 06/06/2025 |  2.1  | (#UC02) Adição da tabela de contribuições e dos hiberlinks para os casos de uso desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
 | 19/06/2025 |  2.2  | (#UC02) Melhorias nas tabelas de casos de uso e adição da imagem do diagrama de caso de uso.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 | 19/06/2025 |  2.3  | (#UC02) Adição das referências para o documento.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges) |
-
+| 06/07/2025 |  2.4  | (#UC02) Adição das validacao com usuário dos Casos de Uso 02-03| [@Davi ](https://github.com/daviRolvr)  | [@](https://github.com/) |

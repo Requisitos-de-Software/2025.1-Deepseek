@@ -580,6 +580,9 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 |                    Representação                     |    <img src="../../images/pos-rastreabilidade/HU12.png" width="700">                   |
 |                       Alocado                        | [#UC03](../modelagem/casos-de-uso.md#uc03)              |
 |                      Agregação                       |                                   [História de usuário #HU12](../modelagem/historias-de-usuario.md#hu12), <br>  [Épico 5 - Interface e experiencia do usuário #BK32](../modelagem/backlog.md#bk32)       |
+| Validação com usuário  | <a href="https://youtu.be/yldR3AATB_E" target="_blank" rel="noopener noreferrer"> ▶ Assista à validação também no YouTube
+</a>| 
+
 
 Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
@@ -621,6 +624,8 @@ Autor: <a href="https://github.com/gaubiela">Gabriela</a>
 |                    Representação                     |   <img src="../../images/pos-rastreabilidade/HU11.png" width="700">  |
 |                       Alocado                        | [#UC10](../modelagem/casos-de-uso.md#uc02)              |
 |                      Agregação                       |                                   [História de usuário #HU11](../modelagem/historias-de-usuario.md#hu11) <br>  [Épico 8 - Interações e AP1](../modelagem/backlog.md#bk42)    |
+| Validação com usuário  | <a href="https://youtu.be/yldR3AATB_E" target="_blank" rel="noopener noreferrer"> ▶ Assista à validação também no YouTube
+</a>| 
 
 Autor: <a href="https://github.com/daviRolvr">Davi Emanuel</a>
 
@@ -863,3 +868,4 @@ Autor: [Mateus](https://github.com/MVConsorte)
 | 07/06/2025 |  2.4   | (#PR01) Adição dos protótipos para representação/protótipo de #RF01, #RF03, #RF15, #RF16, #RF17| [`@Gabriela`](https://github.com/gaubiela)   | [`Davi Emanuel`](https://github.com/daviRolvr)   |
 | 22/06/2025 |  2.5   | (#PR01) Adição dos protótipos para representação/protótipo de #RF37, #RF34, #RF10, #RF27| [`@Davi Emanuel`](https://github.com/daviRolvr)   | [`@Ana Clara`](https://github.com/anabborges)|
 | 04/07/2025 |  2.6   | (#PR01) Adição dos protótipos para representação/protótipo de #RF11, #RF12, #RF13, #RF32| [`@Fabio`](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989)|
+| 06/07/2025 |  2.6  | (#PE01) Adição da validaçao com usuário do Protótipo | [@Davi Emanuel ](https://github.com/daviRolvr)  | [@](https://github.com/) |
