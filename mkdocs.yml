@@ -121,6 +121,19 @@ nav:
     - Prototipação: 'validacao/prototipacao.md'
     - Validação Informal: 'validacao/validacao-informal.md'
 
+  - Entrega Final:
+      - Aplicativo Selecionado: entrega-final/app-selecionado.md
+      - Artefatos Criados: entrega-final/artefatos-criados.md
+      - Execução do Projeto: entrega-final/execucao-projeto.md
+      - Ferramentas Utilizadas: entrega-final/ferramentas-utilizadas.md
+      - Resultados Alcançados: entrega-final/resultados-alcancados.md
+      - Tabela de Apresentações: entrega-final/tabela-apresentacoes.md
+      - Técnicas Utilizadas: entrega-final/tecnicas-utilizadas.md
+      - Planejamento dos Recursos e das Entregas: entrega-final/planejamento-recursos-entregas.md
+      - Verificação: entrega-final/verificacao.md
+      - Validação: entrega-final/validacao.md
+      - Considerações Finais: entrega-final/consideracoe-finais.md
+
   - Projeto Obsoleto:
       - Início: 'doc-guardioes-da-saude/index.md'
       
@@ -155,7 +168,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - mkdocs-pdf
+#  - mkdocs-pdf
 
 extra_css:
   - css/custom.css
