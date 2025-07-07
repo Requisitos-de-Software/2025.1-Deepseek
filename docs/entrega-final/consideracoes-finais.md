@@ -63,7 +63,7 @@ Analisando as persepções de cada um dos membros da equipe, os principais ponto
 
 ## Referência Bibliográfica
 
-> <a id="REF1" href="#anchor_4">1.</a> MELO, Arthur. Matriz Geral. Repositório do Grupo Bilheteria Digital da disciplina de Requisitos de Software da Universidade de Brasília, 2023. Disponível em: <https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/matriz-geral/>. Acesso em: 04/06/2025.
+> <a id="REF1" href="#anchor_4">1.</a> MELO, Arthur. Matriz Geral. Repositório do Grupo Bilheteria Digital da disciplina de Requisitos de Software da Universidade de Brasília, 2023. Disponível em: <https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/matriz-geral/>. Acesso em: 06/07/2025.
 
 ## Histórico de Versões
 
