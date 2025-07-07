@@ -101,9 +101,67 @@ Nesse contexto, foi feito uma votação, considerando os critérios de seleção
 
 | Ata da Reunião de seleção do aplicativo | vídeo |
 | :-: | :-: |
-| [Ata do dia 10/04/2025](/gravacoes/reunioes/ata-dia-10-04-2025) | [Gravação](/gravacoes/reunioes/grav-reunioes/) |
+| [Ata do dia 10/04/2025](/gravacoes/reunioes/ata-dia-10-04-2025) | [Gravação](https://youtu.be/CxXMLqTFt5A?si=S_jOyFWu5IJjOyDp) |
+
+Na quarta etapa e quinta etapa, para o projeto do Guardiões da Saúde, acabou que por atraso, deixou-se para coreeção em entregas posteriores, já que ja esta sendo produzido os artefatos da etapa de elicitação. Todavia, durante essa segunda entrega, já com alguns artefatos desenvolvidos, foi encontrado na planilha disponibilizada pelo professor, um grupo da turma de 10 semestres atrás que já havia feito o Guardiões da Saúde. Assim, tendo em vista essa identificação, o professor indicou que a equipe mudasse o aplicativo e, consequêntemente, refizéssemos o artefatos da etapa 1 para o novo aplicativo, seguido das demais entregas a posteriori.
+
+Para a seleção do novo aplicativo, no contexto do projeto, a substituir o *Guardiões da Saúde* ([Projeto Obsoleto](/doc-guardioes-da-saude/)), foi proposto para a equipe que fosse buscado outros potenciais aplicativos para, em seguida, fazer uma votação. Nesse sentido, foi proposto, nessa ordem, a terceira etapa e a segunda etapa, visando agilizar o processo de entrega de tal etapa em atraso. Assim, no dia 24/04/2025, ocorreu a reunião para a seleção do novo aplicativo a ser desenolvido, seguindo o exposto na tabela 2 abaixo.
+
+**Tabela 2**: Tabela de aplicativos e número de votos executado em 24/04/2025.
+
+| Aplicativo | Votos |
+| :-: | :-: |
+|Tinder| 0 |
+|Deepseek|6|
+|Stellarium|0|
+|Responde Aí|0|
+|Duolingo|0|
+
+**Fonte**: *Autores*
+
+Por unanimidade, para a etapa 3, foi escolhido o *Deepseek Chat* como o novo aplicativo a ser desenvolvido pela equipe. Esse fato pode ser verificado na ata da reunião junto com a gravação no [Link](/gravacoes/reunioes/ata-dia-24-04-2025.md). Em síntese, ele cumpre todos os critérios, inclusive o de permissão de análise e engenharia reversa para fins acadêmicos, além de que se tratar de um aplicativo de código aberto.
+
+Seguindo para a etapa 2, tem-se a formulação do Rich Picture do aplicativo selecionado, que pode ser visto nas figuras abaixo (1 e 2):
+
+<p align="center"><strong>Figura 1</strong>: Legendas do Rich Picture</p>
+
+![Legendas do Rich Picture](/assets/imgs/rich-picture/legendas_richpicture_deepseek_v1.png)
+
+<p align="center"><em>Fonte: Mateus</em></p>
+
+<p align="center"><strong>Figura 2</strong>: Rich Picture Deepseek</p>
+
+![Rich Picture Deepseek](/assets/imgs/rich-picture/deepseek_richpicture_v1.png)
+
+<p align="center"><em>Fonte: Mateus</em></p>
+
+*Para melhor visualização das Figuras: [clique aqui](/assets/pdfs/rich-pictures/RichPictureDeepseekV1.pdf)*
+
+Para a quarta etapa, no caso do Rich Picture supracitado (Figura 2), não houve necessidade, pois foi executado já considerando os potenciais erros dos primeiros Rich Pictures. De qualquer modo, houve uma revisão informal pelo integrante [Luiz](https://github.com/luizfaria1989) baseado na [lista de verificação do Rich Picture](/verificacao/primeira-entrega/), o qual , via [WhatsApp](/planejamento/ferramentas/), constatou conformidade em todos os itens. 
+
+Enfim, para a quinta e última etapa do processo, foi executado a validação do Rich Picture com um usuário/consumidor do *Deepseek* em modalidade presencial, o qual pode ser verificado no vídeo logo abaixo:
+
+**Vídeo de Validação**: Rich Picture do Deepseek Chat
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C5W0F_lWlmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+**Fonte**: *[Mateus](https://github.com/MVConsorte)*
+### Informações e Anexos
+
+| Item                      | Detalhes                                                                                      |
+|---------------------------|-----------------------------------------------------------------------------------------------|
+| **Entrevistador**         | Mateus Villela Consorte                                                                      |
+| **Usuário entrevistado**  | Luíza Mandali de Figueredo Marques <br>*(Estudante de Engenharia Eletrônica pela UnB)*       |
+| **Anexo**                 | [Termo de Consentimento assinado pelo entrevistado](/assets/pdfs/assinaturas/termo-de-consentimento-assinado.pdf) |
+| **Local** | UnB - Faculdade do Gama, Prédio UAC, Sala I02.|
+| **Data/Hora** | 07/07/2025 - 16h |
+
+
+Logo, o Rich picture apresentado foi validado pelo usuário, foi considerado condizente e relevante, expressando bem o contexto da aplicação, com certo grau de aprofundamento, mas não em demasiado. Com isso, ratifica-se o rich picture do aplicativo selecionado para o artefato relacionado à pré-rastrabilidade.
 
 ## Conclusão
+
+Em síntese, foi visto que o Rich Picture, ou Imagem Rica, é uma técnica de representação informal que visa expressar ideias e analisar problemas de forma visual e colaborativa, facilitando a identificação de processos, requisitos, atores, relacionamentos e possíveis conflitos dentro de um domínio de aplicação. No contexto deste trabalho, sua elaboração seguiu uma metodologia estruturada, que envolveu desde a busca e análise de potenciais aplicativos, passando pela produção individual dos Rich Pictures pelos integrantes da equipe, até a seleção e validação do aplicativo final a ser desenvolvido. O uso de ferramentas como WhatsApp, Draw.io, Microsoft Teams e YouTube foi fundamental para a comunicação, produção e validação dos artefatos. Mesmo diante de desafios, como a necessidade de trocar o aplicativo escolhido durante o processo, a equipe conseguiu adaptar-se e garantir a continuidade do projeto, evidenciando a importância do Rich Picture como instrumento de pré-rastreabilidade e de alinhamento entre todos os envolvidos. Por consequência, tem-se o Rich Picture do *Deepseek Chat* como artefato de pré-rastreabilidade e o mesmo validado.
 
 ## Referência Biliográfica {#ref-bib}
 > **[1]** CTEC2402 - Software Development Project. Introducing Rich Pictures. Disponível em: [Repositório](/assets/pdfs/rich-pictures/RichPictureRefBib.pdf). Acesso em: 5 abr. 2025.
