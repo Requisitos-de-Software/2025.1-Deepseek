@@ -4,9 +4,11 @@ O primeiro passo para desenvolver artefatos de software é definir seu escopo e 
 
 * **Deve ser um aplicativo**: isso se deve ao fato de que é possível mantê-lo estático durante o desenvolvimento da disciplina. Ou seja, caso haja modificações, incrementos e remoções, é possível manter a integridade e coerência do projeto, diferente de modelos vinculados a aplicações WEB (sites), já que esses tendem a mudar com maior facilidade e, geralmente, recuperar versões antigas são despendiosas ou mesmo inviáveis. 
 
-* **O aplicativo não trabalhado anteriormente**: o aplicativo não pode ter sido trabalhado por outros grupos em semestres passados.
+* **Aplicativo não trabalhado anteriormente**: o aplicativo não pode ter sido trabalhado por outros grupos em semestres passados.
 
 * **É importante considerar o público na hora da escolha**: caso o aplicativo escolhido tenha um nincho muito específico e, principalmente, de difícil acesso, é recomendável não selecioná-lo para desenvolvimento.
+
+* **Termos de Uso permite engenharia reversa por fins acadêmicos**: os termos de uso devem permitir que engenharia reversa e elicitação, tal como outros métodos a serem trabalhados, possam ser realizados para fins acadêmicos no aplicativo selecionado.
 
 ## Potenciais Aplicativos
 
@@ -19,7 +21,7 @@ No contexto da primeira etapa, foi determinado a procura por cada um dos membros
 <table>
   <thead>
     <tr>
-      <th>Nome</th>
+      <th>Integrante</th>
       <th>Aplicativo</th>
       <th>Rich picture</th>
     </tr>
@@ -181,6 +183,8 @@ Esses elementos tornam o DeepSeek um excelente objeto de estudo para a disciplin
 > **Guardiões da Saúde**. Disponível em: [Guardiões da Saúde](https://play.google.com/store/search?q=Guardi%C3%B5es+da+Sa%C3%BAde&c=apps). Acesso em: 05 jul. 2025.
 
 > **DeepSeek Chat**. Disponível em: [Deepseek Chat](https://play.google.com/store/search?q=DeepSeek+Chat&c=apps). Acesso em: 05 jul. 2025.
+
+## Tabela de Versionamento
 
 | Data       | Versão | Descrição                                 | Autor             | Revisor          |
 | :--------: | :----: | :----------:                              | :---------------: | :---------------:|

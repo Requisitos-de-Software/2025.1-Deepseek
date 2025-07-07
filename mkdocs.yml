@@ -40,9 +40,6 @@ nav:
     - ATA 08-05-2025: 'gravacoes/reunioes/ata-dia-08-05-2025.md'
     - ATA 13-05-2025: 'gravacoes/reunioes/ata-dia-13-05-2025.md'
     - ATA 15-05-2025: 'gravacoes/reunioes/ata-dia-15-05-2025.md'
-    
-  # - Pré-Rastreabilidade:
-  #   - Rich-Picture: 'pre-rastreabilidade/rich-picture.md' 
   
   - Planejamento:
     - Políticas do Repositório:
@@ -54,6 +51,9 @@ nav:
     - Heatmap:                 'planejamento/heatmap.md'
     - Aplicativo: 'planejamento/lista-de-apps-avaliados.md'
     - Termo de Uso:            'planejamento/termo-de-uso.md'
+
+  - Pré-Rastreabilidade:
+     - Rich-Picture: 'pre-rastreabilidade/rich-picture.md' 
 
   - Técnicas de Elicitação:
     - Requisitos Elicitados: 'elicitacao/requisitos-gerais.md'
