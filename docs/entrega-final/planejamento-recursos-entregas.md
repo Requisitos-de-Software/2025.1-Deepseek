@@ -39,4 +39,4 @@ Em suma, o planejamento buscou equilibrar autonomia e controle leve sobre progre
 
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
-| `1.0`  | 06/07/2025 | Criação da página. | [Gabriela](https://github.com/gaubiela) | [-](https://github.com/)  |
+| `1.0`  | 06/07/2025 | Criação da página. | [Gabriela](https://github.com/gaubiela) | [Ana Clara](https://github.com/anabborges)  |
