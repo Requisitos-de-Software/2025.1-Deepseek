@@ -24,4 +24,4 @@ Na tabela 1 abaixo, evidencia-se as apresentações das 6 etapas de entregas vin
 
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
-| `1.0`  | 07/07/2025 | (#D010) Criação da página. | [@Mateus](https://github.com/MVConsorte) | [@](https://github.com/)  |
+| `1.0`  | 07/07/2025 | (#D010) Criação da página. | [@Mateus](https://github.com/MVConsorte) | [@Ana Clara](https://github.com/anabborges)  |
