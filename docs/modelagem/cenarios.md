@@ -392,5 +392,5 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 06/06/2025 |  2.1  | (#C02) Adição da tabela de contribuições e dos hiberlinks para os cenários desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)   |
 | 19/06/2025 |  2.2  | (#C02) Modificação dos cenários para tabelas.| [@Luiz](https://github.com/luizfaria1989)  |  [@Ana Clara](https://github.com/anabborges) |
 | 19/06/2025 |  2.3  | (#C02) Adiciona fotos das referências dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
-| 26/06/2025 |  2.4  | (#C02) Adiciona gravação da validação dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
-| 27/06/2025 |  2.5  | (#C02) Adiciona o termo de consetimento da gravação da validação dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
+| 26/06/2025 |  2.4  | (#C02) Adiciona gravação da validação dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
+| 27/06/2025 |  2.5  | (#C02) Adiciona o termo de consetimento da gravação da validação dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
