@@ -65,6 +65,12 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VEkGbTy2MW0?si=PssxWMNHFPHoLx_X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Validação das Histórias de Usuário HU01 a HU05
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nFWJNPc2UVU?si=Y0b_Q-ZPEc4cNi3C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jZO9XLGSn0?si=0F_W7FQWyxAFtvdn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 #### Participantes da validação
 
 | Participante | Papel |
@@ -783,4 +789,4 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 26/06/2025 |  2.5   | (#H02) Realoca espaço das validações com usuário | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Clara`](https://github.com/anabborges) |
 | 27/06/2025 |  2.6  | (#H02) Adiciona o termo de consetimento da gravação da validação HUs 13-18.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 |06/07/2025 |  2.7  | (#H02) Adição das validacao com usuário dos HUs 07-12 | [@Davi ](https://github.com/daviRolvr)  | [@Ana Clara](https://github.com/anabborges) |
-
+|07/07/2025 |  2.8  | (#H02) Adição das validacao com usuário dos HUs 01-05 | [@Ana Clara ](https://github.com/anabborges)  | [@](https://github.com/) |
