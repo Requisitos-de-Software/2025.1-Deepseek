@@ -4,7 +4,7 @@
 
 Este documento organiza e centraliza, por meio de tabelas, todos os artefatos produzidos em cada etapa do projeto, identificando seus respectivos autores e revisores. O objetivo é oferecer uma visão clara e consolidada do progresso, servindo como um guia de referência rápido para a equipe, facilitando a comunicação e a identificação de possíveis lacunas ou sobreposições de tarefas.
 
-No total do projeto foram elaborados artefatos representados nas tabelas 1 a 6.
+No total do projeto foram elaborados 32 artefatos representados nas tabelas 1 a 6.
 
 ## Tabelas Sintetizadas
 
