@@ -228,7 +228,7 @@ Tabela 3 - Artefatos da etapa 3
 </td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Léxicos</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/modelagem/lexicos/">Léxicos</a></td>
 <td style="text-align:center">O Léxico é uma notação que, por meio da descrição de termos, tem como objetivo descrever os símbolos de uma linguagem.</td>
 <td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
 <td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
@@ -265,22 +265,25 @@ Tabela 4 - Artefatos da etapa 4
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="">NFR Framework</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/modelagem/nfr-framework/">NFR Framework</a></td>
 <td style="text-align:center">Uma forma de representação e análise dos Requisitos Não-Funcionais é o NFR Framework, o qual visa à implementação de resoluções particulares.</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+</tr>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Backlog</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/modelagem/backlog/">Backlog</a></td>
 <td style="text-align:center">O Backlog do Produto é um artefato da metodologia ágil que toma a forma de uma lista de todas as tarefas pendentes a serem feitas em um projeto.</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+</tr>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Histórias de Usuário</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/modelagem/historias-de-usuario/">Histórias de Usuário</a></td>
 <td style="text-align:center">A história de usuário é uma técnica de elicitação de requisitos amplamente utilizada nas metodologias de desenvolvimento ágil e se refere a descrições concisas e de alto nível de uma funcionalidade desejada em termos do cliente.</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+</tr>
 </tr>
 </tbody>
 </table>
