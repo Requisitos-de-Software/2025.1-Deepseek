@@ -71,4 +71,4 @@ Essa metodologia proporcionou uma elicitação de requisitos eficiente, combinan
 | Data       | Versão | Descrição                                 | Autor             | Revisor          |
 | :--------: | :----: | :----------:                              | :---------------: | :---------------:|
 | 04/05/2025 |  1.0   | Adição da Análise de Interface            | [Ana Joyce](https://github.com/anajoyceamorim)| [Ana Borges](https://github.com/anabborges)|
-| 06/05/2025 |  1.1   | Ajustes na documentação                   | [Ana Joyce](https://github.com/anajoyceamorim)| [Revisor](https://github.com/)|
+| 06/05/2025 |  1.1   | Ajustes na documentação                   | [Ana Joyce](https://github.com/anajoyceamorim)| [Ana Borges](https://github.com/anabborges)|
