@@ -20,4 +20,4 @@ Na fase de validação do projeto desenvolvido, a estratégia adotada foi a [com
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 07/07/2025 |  1.0   | Criação e desenvolvimento da página.| [`@Ana Clara`](https://github.com/anabborges)   |  [@](https://github.com/) |
+| 07/07/2025 |  1.0   | Criação e desenvolvimento da página.| [`@Ana Clara`](https://github.com/anabborges)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |

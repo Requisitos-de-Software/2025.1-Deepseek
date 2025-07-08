@@ -31,4 +31,4 @@ Também foram feitas as inspeções do nosso próprio grupo, assim como do grupo
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 07/07/2025 |  1.0   | Criação e desenvolvimento da página.| [`@Ana Clara`](https://github.com/anabborges)   |  [@](https://github.com/) |
+| 07/07/2025 |  1.0   | Criação e desenvolvimento da página.| [`@Ana Clara`](https://github.com/anabborges)   |  [@Ana Joyce](https://github.com/anajoyceamorim) |
