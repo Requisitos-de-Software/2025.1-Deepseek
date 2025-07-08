@@ -300,7 +300,31 @@ Tabela 5 - Artefatos da etapa 5
 </thead>
 <tbody>
 <tr>
-
+<td style="text-align:center"><strong>Rastreabilidade</strong></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="">Matriz Geral</a></td>
+<td style="text-align:center">A matriz geral é um documento que permite a apresentação dos requisitos elicitados no projeto juntamente com sua pré e pós rastreabilidade.</td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+</tr>
+<td style="text-align:center"><a href="">Pós Rastreabilidade</a></td>
+<td style="text-align:center">Uma das técnicas mais comuns para manter a rastreabilidade dos requisitos e dos artefatos que estão sendo desenvolvidos em um projeto</td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="">Forward-from</a></td>
+<td style="text-align:center">evidenciando os artefatos que foram criados a partir de cada um dos requisitos elicitados</td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="">Backward-from</a></td>
+<td style="text-align:center">videnciando qual foi a fonte de cada um dos requisitos</td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+</tr>
 </table>
 
 <font>Fonte: <a href='https://github.com/anajoyceamorim'>Ana Joyce</a></font>
@@ -330,21 +354,24 @@ Tabela 6 - Artefatos da etapa 6
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/matriz-geral/">Matriz Geral</a></td>
-<td style="text-align:center">A matriz geral é um documento que permite a apresentação dos requisitos elicitados no projeto juntamente com sua pré e pós rastreabilidade.</td>
-<td style="text-align:center"><a href="https://github.com/arthurmlv">Arthur de Melo</a>, <a href="https://github.com/dougAlvs">Douglas Alves</a>, <a href="https://github.com/G16C">Gabriel Campello</a>, <a href="https://github.com/manuziny">Geovanna Maciel</a>, <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/nando3d3">Sidney Fernando</a></td>
-<td style="text-align:center"><a href="https://github.com/arthurmlv">Arthur de Melo</a> e <a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+<td style="text-align:center"><strong>Validação</strong></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/pos-rastreabilidade/">Pós-Rastreabilidade</a></td>
-<td style="text-align:center">Este artefato objetiva realizar a conexão entre requisitos, arquitetura e implementação.</td>
-<td style="text-align:center"><a href="https://github.com/arthurmlv">Arthur de Melo</a>, <a href="https://github.com/dougAlvs">Douglas Alves</a>, <a href="https://github.com/manuziny">Geovanna Maciel</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a></td>
-<td style="text-align:center"><a href="https://github.com/dougAlvs">Douglas Alves</a>, <a href="https://github.com/manuziny">Geovanna Maciel</a> e <a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+<td style="text-align:center"><a href="">Prototipação</a></td>
+<td style="text-align:center"> fase crucial no desenvolvimento de sistemas, produtos ou aplicações, pois permite a construção de modelos iniciais que antecipam como a solução final deve se comportar</td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="">Validação Informal</a></td>
+<td style="text-align:center">faz-se necessário o envio do trabalho desenvolvido para uma equipe técnica</td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/"></a></td>
 </tr>
 </tbody>
 </table>
 
-<font>Fonte: <a href='https://github.com/mathonaut'>Matheus Henrique</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+<font>Fonte: <a href='https://github.com/'>Ana Joyce</a></font>
 
 </center>
 
