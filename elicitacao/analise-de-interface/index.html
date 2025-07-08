@@ -1241,6 +1241,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#versao-utilizada-e-registro-das-telas-de-origem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versão utilizada e registro das telas de origem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#resultados" class="md-nav__link">
     <span class="md-ellipsis">
       Resultados
@@ -3274,6 +3283,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#versao-utilizada-e-registro-das-telas-de-origem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versão utilizada e registro das telas de origem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#resultados" class="md-nav__link">
     <span class="md-ellipsis">
       Resultados
@@ -3351,37 +3369,163 @@ funcionais.<br>
 A documentação existente do DeepSeek foi examinada para validar e complementar os requisitos levantados.<br>
 Além disso, foram conduzidas consultas e testes exploratórios com o próprio DeepSeek, permitindo identificar requisitos específicos e regras associadas à comunicação entre sistemas. Essa abordagem iterativa possibilitou a validação dos requisitos levantados, garantindo que fossem precisos e alinhados com os objetivos do sistema.<br>
 Essa metodologia proporcionou uma elicitação de requisitos eficiente, combinando fontes documentais confiáveis e análise prática do sistema para garantir uma definição precisa e bem fundamentada dos requisitos do projeto.</p>
+<h2 id="versao-utilizada-e-registro-das-telas-de-origem">Versão utilizada e registro das telas de origem</h2>
+<ul>
+<li>DeepSeek-V3  </li>
+</ul>
+<p><img alt="Interface" src="../../images/analise-de-interface/interface1.jpeg"><br>
+<img alt="Interface" src="../../images/analise-de-interface/Interface2.jpeg"><br>
+<img alt="Interface" src="../../images/analise-de-interface/Interface3.jpeg"><br>
+<img alt="Interface" src="../../images/analise-de-interface/Interface4.jpeg">  </p>
 <h2 id="resultados">Resultados</h2>
 <h3 id="1-requisitos-funcionais-rf">1- Requisitos Funcionais (RF)</h3>
-<p>Interface do Usuário (UI)<br>
-RF01: O sistema deve permitir interação via chat em tempo real.<br>
-RF02: O sistema deve aceitar uploads de arquivos nos formatos PDF, DOCX, TXT e imagens (com OCR).<br>
-RF03: O sistema deve oferecer um botão para ativar/desativar busca na web.<br>
-RF04: O sistema deve exibir respostas formatadas em Markdown (títulos, listas, código).(Parcialmente implementado)<br>
-RF05: O sistema deve permitir limpar o histórico de conversas.(Parcialmente implementado)  </p>
-<p>Interface de Dados<br>
-RF06: O sistema deve extrair e processar texto de arquivos de até 10MB.<br>
-RF07: O sistema deve citar fontes externas quando usar busca na web.(Parcialmente implementado) <br>
-RF08: O sistema deve permitir interromper respostas em andamento.(Não implementado)  </p>
-<p>Interface de Software (API – se disponível)<br>
-RF09: O sistema deve fornecer uma API RESTful para integração com outros serviços.(Parcialmente implementado)<br>
-RF10: A API deve aceitar autenticação via token de acesso.<br>
-RF11: A API deve retornar respostas em JSON (padrão para integração).  </p>
+<table>
+<thead>
+<tr>
+<th><strong>Categoria</strong></th>
+<th><strong>Código</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Interface do Usuário (UI)</strong></td>
+<td>RF01</td>
+<td>O sistema deve permitir interação via chat em tempo real.</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RF02</td>
+<td>O sistema deve aceitar uploads de arquivos nos formatos PDF, DOCX, TXT e imagens (com OCR).</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RF03</td>
+<td>O sistema deve oferecer um botão para ativar/desativar busca na web.</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RF04</td>
+<td>O sistema deve exibir respostas formatadas em Markdown (títulos, listas, código).</td>
+<td>Parcialmente implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RF05</td>
+<td>O sistema deve permitir limpar o histórico de conversas.</td>
+<td>Parcialmente implementado</td>
+</tr>
+<tr>
+<td><strong>Interface de Dados</strong></td>
+<td>RF06</td>
+<td>O sistema deve extrair e processar texto de arquivos de até 10MB.</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RF07</td>
+<td>O sistema deve citar fontes externas quando usar busca na web.</td>
+<td>Parcialmente implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RF08</td>
+<td>O sistema deve permitir interromper respostas em andamento.</td>
+<td>Não implementado</td>
+</tr>
+<tr>
+<td><strong>Interface de Software (API)</strong></td>
+<td>RF09</td>
+<td>O sistema deve fornecer uma API RESTful para integração com outros serviços.</td>
+<td>Parcialmente implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RF10</td>
+<td>A API deve aceitar autenticação via token de acesso.</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RF11</td>
+<td>A API deve retornar respostas em JSON (padrão para integração).</td>
+<td>Implementado</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fonte:</strong> <a href="anajoyceamorim">Ana Joyce</a></p>
 <h3 id="2-requisitos-nao-funcionais-rnf">2- Requisitos Não-Funcionais (RNF)</h3>
-<p>Usabilidade<br>
-RNF01: O tempo de resposta para prompts curtos deve ser ≤2 segundos.<br>
-RNF02: A interface deve ser acessível (suporte a leitores de tela, alto contraste).(Parcialmente implementado)<br>
-RNF03: O sistema deve manter histórico de conversas por no mínimo 30 dias de usuários não logados.(Não implementado)  </p>
-<p>Desempenho<br>
-RNF04: O sistema deve suportar múltiplas requisições simultâneas sem degradação.<br>
-RNF05: O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos.  </p>
-<p>Segurança<br>
-RNF06: Dados de upload devem ser excluídos após processamento.(Não implemetado)<br>
-RNF07: Conexões devem usar HTTPS para criptografia.  </p>
-<p>Confiabilidade<br>
-RNF08: O sistema deve ter disponibilidade de 99,9% (SLA).<br>
-RNF09: Em caso de falha, deve retornar mensagens de erro claras.  </p>
-<p><strong><em>Observação:</em></strong> Requisitos não marcados como implementados ou parcialmente implementados, estão implemnetados.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Categoria</strong></th>
+<th><strong>Código</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Usabilidade</strong></td>
+<td>RNF01</td>
+<td>O tempo de resposta para prompts curtos deve ser ≤2 segundos.</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RNF02</td>
+<td>A interface deve ser acessível (suporte a leitores de tela, alto contraste).</td>
+<td>Parcialmente implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RNF03</td>
+<td>O sistema deve manter histórico de conversas por no mínimo 30 dias de usuários não logados.</td>
+<td>Não implementado</td>
+</tr>
+<tr>
+<td><strong>Desempenho</strong></td>
+<td>RNF04</td>
+<td>O sistema deve suportar múltiplas requisições simultâneas sem degradação.</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RNF05</td>
+<td>O processamento de arquivos grandes (PDF/DOCX) deve ocorrer em ≤10 segundos.</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td><strong>Segurança</strong></td>
+<td>RNF06</td>
+<td>Dados de upload devem ser excluídos após processamento.</td>
+<td>Não implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RNF07</td>
+<td>Conexões devem usar HTTPS para criptografia.</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td><strong>Confiabilidade</strong></td>
+<td>RNF08</td>
+<td>O sistema deve ter disponibilidade de 99,9% (SLA).</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td></td>
+<td>RNF09</td>
+<td>Em caso de falha, deve retornar mensagens de erro claras.</td>
+<td>Implementado</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fonte:</strong> <a href="anajoyceamorim">Ana Joyce</a></p>
 <h2 id="bibliografia">Bibliografia</h2>
 <blockquote>
 <p>WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013.<br>
@@ -3402,6 +3546,13 @@ DEEPSEEK AI. DeepSeek V3. Disponível em: https://github.com/deepseek-ai/DeepSee
 <td style="text-align: center;">04/05/2025</td>
 <td style="text-align: center;">1.0</td>
 <td style="text-align: center;">Adição da Análise de Interface</td>
+<td style="text-align: center;"><a href="https://github.com/anajoyceamorim">Ana Joyce</a></td>
+<td style="text-align: center;"><a href="https://github.com/anabborges">Ana Borges</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">06/05/2025</td>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: center;">Ajustes na documentação</td>
 <td style="text-align: center;"><a href="https://github.com/anajoyceamorim">Ana Joyce</a></td>
 <td style="text-align: center;"><a href="https://github.com/anabborges">Ana Borges</a></td>
 </tr>
