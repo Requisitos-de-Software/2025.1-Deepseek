@@ -20,7 +20,17 @@ Para essa técnica foram escolhidos três documentos diferentes:
 
 Além disso, será possível discutir sobre as características dos usuários do app, facilitando a criação de um perfil de usuário.
 
----
+## Gravação da Análise de Documentos
+
+A gravação da análise de documentos foi realizada no dia 28 de junho.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sbSWYsIkcWQ?si=_plKR2uszgpMsQfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Integrantes presentes
+
+| Nome | Papel |
+| ---- | ----- |
+| Luiz | Responsável por aplicar a técnica análise de documentos para o aplicativo DeepSeek. |
 
 ## Página da Play Store do DeepSeek
 
@@ -34,10 +44,18 @@ Além disso, é possível ver imagens que mostram as principais funcionalidades 
     <img src="../../images/play-store-deepseek/figura-1.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
 </p>
 
+<p align="center">
+    <strong>Figura 1:</strong> Visão geral do aplicativo DeepSeek na Google Play Store. Fonte: PlayStore.
+</p>
+
 Nas imagens do aplicativo é possível ver como é a interface do DeepSeek mobile e exemplos de prompts que ele é capaz de responder. Além disso, nota se que app está sob as categorias de produtividade, ferramentas e playground de inteligência artificial.
 
 <p align="center">
     <img src="../../images/play-store-deepseek/figura-2.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
+
+<p align="center">
+    <strong>Figura 2:</strong> Visão geral do aplicativo DeepSeek na Google Play Store. Fonte: PlayStore.
 </p>
 
 A primeira delas, traz um breve resumo com as principais funcionalidades, sendo elas:
@@ -53,20 +71,38 @@ Também é possível ver o layout do aplicativo no fundo.
     <img src="../../images/play-store-deepseek/figura-3.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
 </p>
 
+<p align="center">
+    <strong>Figura 3:</strong> Visão geral do aplicativo DeepSeek na Google Play Store. Fonte: PlayStore.
+</p>
+
 A segunda imagem busca mostrar um prompt comum, em que o usuário pede para a IA planejar uma viagem de Londres para Cambridge. Em destaque é possível ver que a principal vantagem retratada da imagem são as respostas “instantâneas” do modelo para qualquer pergunta.
 
 <p align="center">
     <img src="../../images/play-store-deepseek/figura-4.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
 </p>
+
+<p align="center">
+    <strong>Figura 4:</strong> Imagem promocional de pesquisa na web do aplicativo DeepSeek na Google Play Store. Fonte: PlayStore.
+</p>
+
 A terceira imagem mostra o usuário utilizando a função de pesquisa do aplicativo, em que a IA faz uma pesquisa na web em busca de conteúdos semelhantes à pergunta feita pelo usuário. 
 
 <p align="center">
     <img src="../../images/play-store-deepseek/figura-5.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
 </p>
+
+<p align="center">
+    <strong>Figura 5:</strong> Imagem promocional pensamento profundo na web do aplicativo DeepSeek na Google Play Store. Fonte: PlayStore.
+</p>
+
 Já na quarta imagem é possível que a função DeepThink está ativada, em que a IA leva um tempo maior para processar a pergunta e responder o usuário. Nesse caso ela é utilizada para um problema de matemática, mas também pode ser utilizada para diferentes problemas. 
 
 <p align="center">
     <img src="../../images/play-store-deepseek/figura-6.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
+
+<p align="center">
+    <strong>Figura 6:</strong> Imagem promocional de leitura de documentos do aplicativo DeepSeek na Google Play Store. Fonte: PlayStore.
 </p>
 
 Por fim, na quinta e última imagem do app DeepSeek na PlayStore, é possível ver a funcionalidade de leitura de documentos do DeepSeek. Neste caso a IA lê o PDF e responde a uma pergunta relacionada ao que está escrito nele. Nesta situação não fica claro quais são as limitações da IA com relação a leitura de documentos, se ela é capaz de processar apenas documentos PDF ou outros tipos também.
@@ -74,10 +110,17 @@ Por fim, na quinta e última imagem do app DeepSeek na PlayStore, é possível v
 <p align="center">
     <img src="../../images/play-store-deepseek/figura-7.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
 </p>
+
+<p align="center">
+    <strong>Figura 7:</strong> Descrição do aplicativo DeepSeek na Google Play Store. Fonte: PlayStore.
+</p>
+
 Por fim, é possível ler a descrição do aplicativo. Nela fica claro que o modelo utilizado para o aplicativo é o DeepSeek-V3, que foi alimentado por 600 bilhões de parâmetros. O texto também foca no fato do aplicativo ser gratuito para os usuários além de destacar os contatos com a empresa.
 
 
 ### Requisitos elicitados com base na análise do documento
+
+<font><p style="text-align: center">**Tabela 1** - Requisitos elicitados a partir da análise da página da PlayStore do DeepSeek.</p></font>
 
 | **ID**     | **Descrição**                                         | **Tipo**           | **Fonte**     |
 |--------|--------------------------------------------------|----------------|-----------|
@@ -85,6 +128,8 @@ Por fim, é possível ler a descrição do aplicativo. Nela fica claro que o mod
 | RF02   | Pensamento profundo para solução de problemas    | Funcional      | Figura 5  |
 | RF03   | Leitura e interpretação de arquivos PDF          | Funcional      | Figura 6  |
 | RNF01  | Utilização da arquitetura DeepSeek-V3            | Não-funcional  | Figura 7  |
+
+<font><p style="text-align: center">**Autor** - Luiz.</p></font>
 
 ### Características do perfil de usuário
 
@@ -109,10 +154,18 @@ O próximo documento a ser analisado é o site de apresentação do DeepSeek, el
     <img src="../../images/api-deepseek/figura-8.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
 </p>
 
+<p align="center">
+    <strong>Figura 8:</strong> Imagem da API do DeepSeek. Fonte: DeepSeek AI.
+</p>
+
 Nele é possível ver que o DeepSeek também está disponível para dispositivos IOS além de ressaltar que o modelo utilizado no app é o DeepSeek-V3.
 
 <p align="center">
     <img src="../../images/api-deepseek/figura-9.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
+
+<p align="center">
+    <strong>Figura 9:</strong> Imagem da API do DeepSeek. Fonte: DeepSeek AI.
 </p>
 
 Logo em seguida, o site destaca as funções chave do aplicativo, sendo elas: login fácil com e-mail/conta do google/Apple ID, histórico do chat sincronizado entre plataformas, modos de pesquisa na web e pensamento profundo, upload de arquivos e extração de texto.
@@ -120,6 +173,11 @@ Logo em seguida, o site destaca as funções chave do aplicativo, sendo elas: lo
 <p align="center">
     <img src="../../images/api-deepseek/figura-10.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
 </p>
+
+<p align="center">
+    <strong>Figura 10:</strong> Imagem da API do DeepSeek. Fonte: DeepSeek AI.
+</p>
+
 Depois, ele passa a utilizar as mesmas imagens presentes da Play Store para destacar as funcionalidades do aplicativo
 
 <p align="center">
@@ -127,7 +185,15 @@ Depois, ele passa a utilizar as mesmas imagens presentes da Play Store para dest
 </p>
 
 <p align="center">
+    <strong>Figura 11:</strong> Imagem da API do DeepSeek. Fonte: DeepSeek AI.
+</p>
+
+<p align="center">
     <img src="../../images/api-deepseek/figura-12.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
+
+<p align="center">
+    <strong>Figura 12:</strong> Imagem da API do DeepSeek. Fonte: DeepSeek AI.
 </p>
 
 <p align="center">
@@ -135,22 +201,38 @@ Depois, ele passa a utilizar as mesmas imagens presentes da Play Store para dest
 </p>
 
 <p align="center">
+    <strong>Figura 13:</strong> Imagem da API do DeepSeek. Fonte: DeepSeek AI.
+</p>
+
+<p align="center">
     <img src="../../images/api-deepseek/figura-14.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
+</p>
+
+<p align="center">
+    <strong>Figura 14:</strong> Imagem da API do DeepSeek. Fonte: DeepSeek AI.
 </p>
 
 <p align="center">
     <img src="../../images/api-deepseek/figura-15.jpg" alt="App DeepSeek na Play Store" width="500" height="auto"eu to >
 </p>
 
+<p align="center">
+    <strong>Figura 15:</strong> Imagem da API do DeepSeek. Fonte: DeepSeek AI.
+</p>
+
 Por fim, o site destaca informações importantes do uso do aplicativo, sendo ele 100% gratuito para uso, sem propagandas e sem compras no app. Depois, é ressaltado a importância de fazer o download do aplicativo apenas de fontes conhecidas.
 
 ### Requisitos elicitados
+
+<font><p style="text-align: center">**Tabela 2** - Requisitos elicitados a partir da análise da página web do DeepSeek.</p></font>
 
 | **ID**     | **Descrição**                                             | **Tipo**           | **Fonte**     |
 |--------|------------------------------------------------------|----------------|-----------|
 | RNF01  | Versões para Android e iOS                           | Não-funcional  | Figura 8  |
 | RF01   | Login com conta Google/Apple ID                      | Funcional      | Figura 8  |
 | RF02   | Salvamento de chat entre plataformas                 | Funcional      | Figura 8  |
+
+<font><p style="text-align: center">**Autor** - Luiz.</p></font>
 
 ### Características do perfil de usuário
 
@@ -173,6 +255,8 @@ Por fim, o último documento a ser analisado é o relatório técnico do DeepSee
 
 ### Requisitos elicitados
 
+<font><p style="text-align: center">**Tabela 3** - Requisitos elicitados a partir da análise do documento de arquitura do DeepSeek-V3.</p></font>
+
 | ID     | Descrição                                                                                     | Tipo           | Status           | Página |
 |--------|-----------------------------------------------------------------------------------------------|----------------|------------------|--------|
 | RF01   | O DeepSeek V3 deve utilizar Multi-Token Prediction para melhor eficiência no seu treinamento  | Funcional      | Implementado     | p. 4   |
@@ -190,6 +274,8 @@ Por fim, o último documento a ser analisado é o relatório técnico do DeepSee
 | RF10   | O modelo deve melhorar suas capacidades de "deep thinking"                                    | Funcional      | Não implementado | p. 36  |
 | RNF05  | Investigar suporte completo para quantização em blocos de atenção                             | Não-funcional  | Não implementado | p. 47  |
 | RNF06  | Desenvolver métodos mais completos e multidimensionais de avaliação                           | Não-funcional  | Não implementado | p. 22  |
+
+<font><p style="text-align: center">**Autor** - Luiz.</p></font>
 
 
 ### Características do perfil de usuário
@@ -249,5 +335,7 @@ Além disso, pode-se encontrar características do perfil de usuário do app Dee
 | Data       | Versão | Descrição                                                         | Autor                                            | Revisor                                        |
 |------------|--------|-------------------------------------------------------------------|--------------------------------------------------|------------------------------------------------|
 | 02/05/2025 | 0.1    | (#A01) Documentação referente à aplicação da técnica de análise de documentos. | [@Luiz](https://github.com/luizfaria1989)        | [@Ana Joyce](https://github.com/anajoyceamorim) |
-| 20/06/2025 | 1.0    | (#A01) Adição de referências para o texto. | [@Luiz](https://github.com/)        | [@Ana Joyce](https://github.com/) |
+| 20/06/2025 | 1.0    | (#A01) Adição de referências para o texto. | [@Luiz](https://github.com/luizfaria1989)        | [@Ana Joyce](https://github.com/) |
+| 28/06/2025 | 1.1    | (#A01) Adição da gravação da técnica de análise de documentos. | [@Luiz](https://github.com/luizfaria1989)        | [@](https://github.com/) |
+| 28/06/2025 | 1.2    | (#A01) Adição de legendas nas imagens e nas tabelas. | [@Luiz](https://github.com/luizfaria1989)        | [@Ana Clara](https://github.com/anabborges) |
 
