@@ -155,4 +155,4 @@ Autor: [Ana Joyce](https://github.com/anajoyceamorim)
 | 18/06/2025 | 1.0 | (#P01) Criação da Página, Introdução e Referências | [@Mateus](https://github.com/MVConsorte) | [@](https://github.com/luizfaria1989) |
 | 26/06/2025 | 2.0 | (#P01) Adição da gravação da validação com o usuário | [@Luiz](https://github.com/luizfaria1989) | [@](https://github.com/) |
 | 26/06/2025 | 2.1 | (#P01) Adição da metodologia e dos protótipos desenvolvidos | [@Luiz](https://github.com/luizfaria1989) | [@](https://github.com/) |
-| 27/06/2025 | 2.2 | (#P01) Adiciona o termo de consetimento da gravação da validação dos protótipos.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
+| 27/06/2025 | 2.2 | (#P01) Adiciona o termo de consetimento da gravação da validação dos protótipos.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
