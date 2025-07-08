@@ -134,6 +134,32 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | **Eventos** | <ul><li>O DeepSeek exibe a mensagem: “Ouvindo...”, seguida de “Interpretando sua fala...”.</li><li>A fala é convertida em texto e exibida para confirmação.</li><li>A IA realiza a análise e responde tanto em texto quanto em voz sintetizada.</li><li>Sugestões adicionais aparecem na tela: “Quer saber mais sobre memória semântica?”, “Deseja salvar esta resposta?”</li></ul> |
 | **Avaliação** | <ul><li>Camila considera que a experiência por voz foi fluida e natural, sem a necessidade de parar sua locomoção.</li><li>Destaca a praticidade do sistema reconhecer sua voz em ambiente externo com ruído moderado.</li><li>Avalia que o tempo de resposta foi satisfatório e a resposta adequada ao contexto acadêmico.</li><li>Decide usar a funcionalidade com frequência, principalmente em momentos em que não pode digitar.</li></ul> |
 
+<a id="Validacao07_12"></a>
+<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+  <h4> Validação dos Cenários  (#CN02 - #CN03) </h4>
+<iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/GdcRBtMBG7s"
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+  <a href="https://youtu.be/GdcRBtMBG7s" target="_blank" rel="noopener noreferrer">
+  ▶ Assista à validação também no YouTube
+</a>
+
+  <div style="margin-top: 16px; line-height: 1.6;">
+    <p><strong>Local:</strong> Sest Senat</p>
+    <p><strong>Data e Hora:</strong> 26/06/2025 - (15:30 - 16:00) </p>
+    <p><strong>Usuário entrevistado:</strong> Luiz(Estudante de Análise de desenvolvimento de Sistemas) e Anthony (estudante direito)</p>
+    <p><strong>Responsável pela execução:</strong> Davi Emanuel (Grupo 2 – Requisitos de Software)</p>
+  </div>
+</div>
+
 <a id="cn04"></a>
 
 ## #CN04 - Personalização da experiência via seleção de modelos de IA
@@ -394,3 +420,5 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 19/06/2025 |  2.3  | (#C02) Adiciona fotos das referências dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 | 26/06/2025 |  2.4  | (#C02) Adiciona gravação da validação dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 | 27/06/2025 |  2.5  | (#C02) Adiciona o termo de consetimento da gravação da validação dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
+|06/07/2025 |  2.6 | (#C02) Adição das validacao com usuário dos CNs 02-03  | [@Davi ](https://github.com/daviRolvr)  | [@Ana Clara](https://github.com/anabborges) |
+

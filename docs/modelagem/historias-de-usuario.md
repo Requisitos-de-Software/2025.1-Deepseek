@@ -276,6 +276,35 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | **Prioridade**             | Alta                |
                                                                                                     
 
+
+<a id="Validacao07_12"></a>
+<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+  <h4> Validação das Histórias de Usuário (#HU07 - #HU12) </h4>
+
+ <iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/QbKeHnSUULM"
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+  <a href="https://youtu.be/QbKeHnSUULM" target="_blank" rel="noopener noreferrer">
+  ▶ Assista à validação também no YouTube
+</a>
+
+  <div style="margin-top: 16px; line-height: 1.6;">
+    <p><strong>Local:</strong> Sest Senat</p>
+    <p><strong>Data e Hora:</strong> 26/06/2025 - (15:30 - 16:00) </p>
+    <p><strong>Usuário entrevistado:</strong> Luiz(Estudante de Análise de desenvolvimento de Sistemas) e Anthony (estudante direito)</p>
+    <p><strong>Responsável pela execução:</strong> Davi Emanuel (Grupo 2 – Requisitos de Software)</p>
+  </div>
+</div>
+
+
 ---
 
 
@@ -454,7 +483,7 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 ## #HU25 – Suportar múltiplos formatos de imagem e extração de texto confiável via OCR
 
 **Autor:** [Gabriela](https://github.com/gaubiela)
-
+---
 | ID   | Nome                                                                                       |
 | ---- | ------------------------------------------------------------------------------------------ |
 | #HU25 | Suportar múltiplos formatos de imagem e extração de texto confiável via OCR                |
@@ -613,7 +642,7 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | **Rastreabilidade** | [#RF10](../elicitacao/requisitos-gerais.md), #ROF04 |
 | **Prioridade** | Média |
 
----
+------
 
 <a id="hu36"></a>
 ## #HU36 – Exibir citações de fontes
@@ -753,4 +782,5 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 26/06/2025 |  2.4   | (#H02) Adição da validação com usuário dos HUs 13-18 | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Clara`](https://github.com/anabborges) |
 | 26/06/2025 |  2.5   | (#H02) Realoca espaço das validações com usuário | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Clara`](https://github.com/anabborges) |
 | 27/06/2025 |  2.6  | (#H02) Adiciona o termo de consetimento da gravação da validação HUs 13-18.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
+|06/07/2025 |  2.7  | (#H02) Adição das validacao com usuário dos HUs 07-12 | [@Davi ](https://github.com/daviRolvr)  | [@Ana Clara](https://github.com/anabborges) |
 
