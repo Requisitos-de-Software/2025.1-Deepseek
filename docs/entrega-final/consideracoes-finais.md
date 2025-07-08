@@ -24,17 +24,17 @@ Em relação às facilidades, eu já havia feito a matéria de Interação Human
 
 A disciplina de Requisitos de Software me proporcionou aprendizados valiosos, tanto na compreensão de metodologias de elicitação e modelagem quanto na adoção de novas ferramentas de trabalho, como Figma. Enfrentei desafios ao me adaptar à troca repentina de aplicação utilizada em aula, o que exigiu flexibilidade e dedicação extra para refazer as técnicas para o novo app.Ainda assim, foi extremamente gratificante fazer parte desta turma, trocar experiências com colegas e ver, na prática, como os requisitos bem definidos podem guiar todo o ciclo de desenvolvimento
 
-### Fábio 
+### Fábio Gabriel
 
 Eu acredito de dificuldades que eu tive foi o fato de ter que conciliar a matéria com outros projetos que eu estou participando ao mesmo tempo, pelo fato de ter muitas entregas eu acabei não conseguindo entregar todas no tempo requisitado. Já de facilidades, acho que foi o nosso grupo que fluiu bem, não tivemos muitos desentendimentos.
 
-### Gabriela
+### Gabriela Silva
 
 As maiores dificuldades para mim foram: definir o nível de detalhamento ideal dos requisitos (alguns ficaram abstratos, outros muito técnicos); Gerenciar mudanças de requisitos durante o processo (nem sempre era fácil manter a rastreabilidade atualizada); Tempo apertado em algumas entregas, o que exigiu priorização rápida e tomada de decisões sob pressão; por fim, disponibilidade da equipe.
 
 Quanto às facilidades, o que mais me ajuudou foi a minha familiaridade com ferramentas utilizadas e organização pessoal para lidar com múltiplas entregas e versões dos documentos.
 
-### Luiz
+### Luiz Guilherme
 
 As principais dificuldades para mim foram 2: por mais que exista muito conteúdo online, a maioria dele está em inglês, então acabei precisando de um maior esforço para traduzir e explicar o conteúdo; o tempo, temos muitas coisas para fazer e, se você não se organiza direito, acaba perdendo algo do projeto.
 
