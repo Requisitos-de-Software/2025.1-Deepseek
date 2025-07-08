@@ -67,5 +67,5 @@ Esta seção detalha as principais ferramentas utilizadas no projeto, organizada
 
 | Data       | Versão | Descrição                                 | Autor             | Revisor           |
 | :--------: | :----: | :----------:                              | :---------------: | :---------------: |
-| 06/07/2025 |  1.0   | Ferramentas Utilizadas                    | [@Fábio Gabriel](https://github.com/fabinsz)| [](https://github.com/)|
+| 06/07/2025 |  1.0   | Ferramentas Utilizadas                    | [@Fábio Gabriel](https://github.com/fabinsz)| [Ana Clara](https://github.com/anabborges)|
 
