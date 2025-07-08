@@ -6,7 +6,7 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 
 ## Lista de Inspeção
 
-### Tabela 1 - Verificação recomendada pelo professor
+<!-- ### Tabela 1 - Verificação recomendada pelo professor
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  |         Conformidade       |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -30,9 +30,9 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | 18  | O artefato segue o modelo FURPS+?       | André Barros de Sales  |    Conforme   |
 | 19  | O documento especifica o tempo de resposta, no Desempenho?    | André Barros de Sales  |   Conforme   |
 | 20  | O documento especifica qual plataforma o aplicativo pode ser executado?    | André Barros de Sales  |  Conforme  |
-| 21  | Todos os requisitos podem ser testados (RF e RNF) ? Identificar quais requisitos não testáveis/verificáveis ?   | André Barros de Sales  |   Parcialmente conforme   |
+| 21  | Todos os requisitos podem ser testados (RF e RNF) ? Identificar quais requisitos não testáveis/verificáveis ?   | André Barros de Sales  |   Parcialmente conforme   | -->
 
-### Tabela 2 - Verificação do diagrama de casos de uso
+### Tabela 1 - Verificação do diagrama de casos de uso
 
 | Nº    | Descrição                                                                                                                                                         | Autor | Referência |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|------------|
@@ -57,7 +57,7 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | LUC19  | As generalizações estão representadas por uma seta do caso secundário para o primário?    | Luiz  | Não se aplica |
 | LUC20  | O caso de uso com pontos de extensão leva para casos de uso estendidos?   | Luiz  | Conforme |
 
-### Tabela 3 - Verificação dos cenários
+### Tabela 2 - Verificação dos cenários
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -70,7 +70,7 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | LC07  | O cenário possui exceção ?  | Luiz  |  Conforme |
 | LC08  | O cenário possui episódios ?   | Luiz  | Conforme    |
 
-### Tabela 4 - Verificação dos léxicos
+### Tabela 3 - Verificação dos léxicos
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -81,7 +81,7 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | LL05  | Cada símbolo está classficicado como verbo, objeto ou estado?  | Luiz  |  Conforme  |
 
 
-### Tabela 5 - Verificação da especificação suplementar
+### Tabela 4 - Verificação da especificação suplementar
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|

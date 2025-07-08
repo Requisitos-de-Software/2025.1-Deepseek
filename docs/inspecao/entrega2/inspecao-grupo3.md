@@ -3,7 +3,7 @@
 
 Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 
-### Tabela 1 - Verificação recomendada pelo professor
+<!-- ### Tabela 1 - Verificação recomendada pelo professor
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Conformidade |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
@@ -18,9 +18,9 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | 9   | Um cronograma (data e horário) e local para realização da priorização de requisitos com o cliente e/ou persona do projeto.                                                                                                    |    Parcialmente conforme         |
 | 10  | No mínimo quatro técnicas de priorização (quanto mais, melhor)? MoSCoW; 100 $; First Thing First; ROI; QFD; TQM; Outra técnica? (MoSCoW/100 $ só após uso de outras duas técnicas.)                                           |      Conforme      |
 | 11  | A participação do cliente e/ou persona no processo de priorização.                                                                                                                                                            |    Conforme         |
-| 12  | A gravação e o(s) registro(s) da atividade de priorização de requisitos. Importante: cada integrante deve elaborar ao menos um item de conteúdo da disciplina com referência bibliográfica e foto do texto da referência.      |    Inconforme        |
+| 12  | A gravação e o(s) registro(s) da atividade de priorização de requisitos. Importante: cada integrante deve elaborar ao menos um item de conteúdo da disciplina com referência bibliográfica e foto do texto da referência.      |    Inconforme        | -->
 
-### Tabela 2 - Verificação Pesquisa/Questionário
+### Tabela 1 - Verificação Pesquisa/Questionário
 
 | Código | Descrição | Conformidade |
 |--------|----------|--------------|
@@ -31,14 +31,14 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | LQ6 | Escalas de Likert devem usar um número ímpar de pontos (geralmente 5 ou 7) e incluir opção neutra ("não sei") para medir opiniões, atitudes ou satisfação. | Inconforme |
 | LQ7 | A sequência das perguntas deve seguir estrutura lógica e ser agrupada por temas, para evitar que uma questão influencie a outra.| Conforme |
 
-### Tabela 3 - Verificação Análise de Documentos
+### Tabela 2 - Verificação Análise de Documentos
 
 | Código | Descrição | Conformidade |
 |--------|----------|--------------|
 | LD1 | Os documentos analisados incluem especificações de requisitos, processos de negócio, manuais do usuário ou semelhantes? | Conforme  |
 | LD2 | Os documentos analisados são documentos recentes? | Conforme |
 
-### Tabela 4 - Verificação Observação
+### Tabela 3 - Verificação Observação
 
 | Código | Descrição | Conformidade |
 |--------|----------|--------------|
@@ -50,14 +50,14 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | LO6 | Os objetivos da técnica foram explicados anteriormente aos usuários observados | Parcialmente conforme |
 | LO7 | Os usuários observados foram definidos | Parcialmente conforme |
 
-### Tabela 5 - Verificação Análise de Interface
+### Tabela 4 - Verificação Análise de Interface
 
 | Código   | Descrição | Conformidade |
 |----------|----------|--------------|
 | LVAI01 | Foram identificados requisitos funcionais relacionados à troca de dados e serviços entre o sistema em desenvolvimento e sistemas externos com os quais ele se conecta.| Não se aplica |
 | LVAI02 | Para cada sistema externo identificado, foram analisadas funcionalidades que possam gerar requisitos para o sistema em desenvolvimento?| Não se aplica  |
 
-### Tabela 6 - Verificação Perfil de Usuário
+### Tabela 5 - Verificação Perfil de Usuário
 
 | Código | Descrição | Conformidade |
 |--------|----------|--------------|
@@ -70,14 +70,14 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | LP7 | Definir critérios mais relevantes para o projeto (ex.: em um app acadêmico, priorizar "nível de instrução"). | Inconforme |
 | LP8 | Coletar dados reais (entrevistas, questionários, observação). | Conforme  |
 
-### Tabela 7 - Verificação Three Level Scale
+### Tabela 6 - Verificação Three Level Scale
 
 | Código | Descrição | Conformidade |
 |--------|----------|--------------|
 | LT1 | A técnica de priorização deve ser feita com stakeholders concordando com as prioridades dos requisitos.| Não se aplica |
 | LT2 | A técnica deve separar os requisitos em quatro categorias de prioridade: alta, média, baixa, não fazer.| Não se aplica  |
 
-### Tabela 8 - Verificação Moscow
+### Tabela 7 - Verificação Moscow
 
 | Código | Descrição | Conformidade |
 |--------|----------|--------------|
@@ -92,7 +92,7 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | LM9 | A classificação foi feita com base no conhecimento real do negócio pelos interessados? | Parcialmente conforme |
 | LM10 | A exclusão dos requisitos não compromete a entrega ou o uso do produto? | Conforme |
 
-### Tabela 9 - Verificação In Or Out
+### Tabela 8 - Verificação In Or Out
 
 | Código | Descrição | Conformidade |
 |--------|----------|--------------|
@@ -104,7 +104,7 @@ Usamos a nossa lista de verificação para inspecionar o Grupo + 1.
 | LI6 | Designar um stakeholder para decisão final em caso de conflito | Não se aplica  |
 | LI7 | Criar um ambiente leve e motivador | Não se aplica  |
 
-### Tabela 10 - Verificação QFD
+### Tabela 9 - Verificação QFD
 
 | Código  | Descrição                                                                 | Conformidade |
 |---------|--------------------------------------------------------------------------|--------------|
