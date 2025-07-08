@@ -49,4 +49,4 @@ Um dos principais motivos pela escolha do app DeepSeek está no fato de que os m
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
 | :--------: | :----: | :---------------------------------------- | :----------------------------------------: | :----------------------------------------: |
-| 07/07/2025 |  1.0   | Criação e desenvolvimento da página.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@](https://github.com/) |
+| 07/07/2025 |  1.0   | Criação e desenvolvimento da página.| [`@Luiz`](https://github.com/luizfaria1989)   |  [@Ana Clara](https://github.com/anabborges) |
