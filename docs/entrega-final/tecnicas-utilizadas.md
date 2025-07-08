@@ -44,4 +44,4 @@ A tabela 1 a seguir explicita as técnicas utilizadas, bem como quem as utilizou
 
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
-| `1.0`  | 05/07/2025 | Criação da página. | [@Davi Emanuel](https://github.com/daviRolvr) | [@](https://github.com/)  |
+| `1.0`  | 05/07/2025 | Criação da página. | [@Davi Emanuel](https://github.com/daviRolvr) | [@Ana Clara](https://github.com/anabborges)  |
