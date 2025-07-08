@@ -20,7 +20,7 @@ Acredito que a principal dificuldade foi entender o que era esperado do artefato
 
 Em relação às facilidades, eu já havia feito a matéria de Interação Humano Computador no semestre anterior com a mesma metodologia, então foi fácil me adequar aos sistemas de artefatos e listas de verificação, as listas de verificação a cada entrega também ajudou a sintetizar o que havia de errado em cada entrega.
 
-### Davi Emannuel
+### Davi Emanuel
 
 A disciplina de Requisitos de Software me proporcionou aprendizados valiosos, tanto na compreensão de metodologias de elicitação e modelagem quanto na adoção de novas ferramentas de trabalho, como Figma. Enfrentei desafios ao me adaptar à troca repentina de aplicação utilizada em aula, o que exigiu flexibilidade e dedicação extra para refazer as técnicas para o novo app.Ainda assim, foi extremamente gratificante fazer parte desta turma, trocar experiências com colegas e ver, na prática, como os requisitos bem definidos podem guiar todo o ciclo de desenvolvimento
 

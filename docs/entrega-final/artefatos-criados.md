@@ -73,7 +73,7 @@ Tabela 1 - Artefatos da etapa 1
 <td style="text-align:center"><a href="https://github.com/gaubiela">Gabriela</a>
 <td style="text-align:center"><a href="https://github.com/anajoyceamorim">Ana Joyce</a> 
 </tr>
-<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/planejamento/heatmap/">Termo de Uso</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/planejamento/termo-de-uso/">Termo de Uso</a></td>
 <td style="text-align:center">Termos e Condições de Uso do Aplicativo</td>
 <td style="text-align:center"><a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/anabborges">Ana Clara Borges</a> e <a href="https://github.com/anajoyceamorim">Ana Joyce</a>
 <td style="text-align:center"><a href="https://github.com/anajoyceamorim">Ana Joyce</a>
@@ -108,65 +108,71 @@ Tabela 2 - Artefatos da etapa 2
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="">Perfil de Usuário</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/elicitacao/perfil-de-usuario/">Perfil de Usuário</a></td>
 <td style="text-align:center">Perfil genérico definido aos usuário do aplicativo.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/fabinsz">Fábio</a>
+<td style="text-align:center"><a href="https://github.com/MVConsorte">Mateus</a>
 </tr>
 <tr>
 <tr>
 <td style="text-align:center"><strong>Técnicas</strong></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Análise de Documentos</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/elicitacao/analise-de-documentos/">Análise de Documentos</a></td>
 <td style="text-align:center">A análise de documentos é uma técnica de elicitação de requisitos.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/luizfaria1989">Luiz</a>
+<td style="text-align:center"><a href="https://github.com/anajoyceamorim">Ana Joyce</a>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Questionário</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/elicitacao/questionario/">Questionário</a></td>
 <td style="text-align:center">Técnica de elicitação de requisitos.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/gaubiela">Gabriela</a>
+<td style="text-align:center"><a href="https://github.com/MVConsort">Mateus</a>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Observação</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/elicitacao/observacao/">Observação</a></td>
 <td style="text-align:center">Técnica de elicitação de requisitos.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>
+<td style="text-align:center"><a href="https://github.com/anajoyceamorim">Ana Joyce</a>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Análise de Interface</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/elicitacao/analise-de-interface/">Análise de Interface</a></td>
 <td style="text-align:center">Técnica de elicitação de requisitos.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/anajoyceamorim">Ana Joyce</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Requisitos Elicitados</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/elicitacao/requisitos-gerais/">Requisitos Elicitados</a></td>
 <td style="text-align:center">Requisitos elicitados em uma tabela geral.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/gaubiela">Gabriela</a>
+<td style="text-align:center"><a href="https://github.com/anajoyceamorim">Ana Joyce</a>
 </tr>
 <tr>
 <td style="text-align:center"><strong>Priorização</strong></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">MoScoW</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/priorizacao/MoSCow/">MoScoW</a></td>
 <td style="text-align:center">Técnica de priorização de requisitos.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/daviRolvr">Davi</a>
+<td style="text-align:center"><a href="https://github.com/gaubiela">Gabriela</a>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Three Level Scale</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/priorizacao/three-level-scale/">Three Level Scale</a></td>
 <td style="text-align:center">Técnica de priorização de requisitos.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/luizfaria1989">Luiz</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Borges</a> e <a href="https://github.com/anajoyceamorim">Ana Joyce</a>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Quality Function Deployment</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/priorizacao/QFD/">Quality Function Deployment</a></td>
 <td style="text-align:center">Técnica de priorização de requisitos.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/MVConsort">Mateus</a>
+<td style="text-align:center"><a href="https://github.com/gaubiela">Gabriela</a>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/priorizacao/In-or-Out/">In or Out</a></td>
+<td style="text-align:center">Técnica de priorização de requisitos.</td>
+<td style="text-align:center"><a href="https://github.com/fabinsz">Fábio</a>
+<td style="text-align:center"><a href="https://github.com/anajoyceamorim">Ana Joyce</a>
 </tr>
 </tbody>
 </table>
