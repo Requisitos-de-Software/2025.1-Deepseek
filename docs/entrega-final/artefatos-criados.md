@@ -70,13 +70,13 @@ Tabela 1 - Artefatos da etapa 1
 <tr>
 <td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/planejamento/heatmap/">Heatmap</a></td>
 <td style="text-align:center">Mapeamento dos horários</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/gaubiela">Gabriela</a>
+<td style="text-align:center"><a href="https://github.com/anajoyceamorim">Ana Joyce</a> 
 </tr>
 <td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/planejamento/heatmap/">Termo de Uso</a></td>
 <td style="text-align:center">Termos e Condições de Uso do Aplicativo</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/anabborges">Ana Clara Borges</a> e <a href="https://github.com/anajoyceamorim">Ana Joyce</a>
+<td style="text-align:center"><a href="https://github.com/anajoyceamorim">Ana Joyce</a>
 </tr>
 </tbody>
 </table>
