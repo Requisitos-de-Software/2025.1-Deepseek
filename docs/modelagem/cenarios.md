@@ -420,5 +420,5 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 19/06/2025 |  2.3  | (#C02) Adiciona fotos das referências dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 | 26/06/2025 |  2.4  | (#C02) Adiciona gravação da validação dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 | 27/06/2025 |  2.5  | (#C02) Adiciona o termo de consetimento da gravação da validação dos cenários.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
-|06/07/2025 |  2.6 | (#C02) Adição das validacao com usuário dos CNs 02-03  | [@Davi ](https://github.com/daviRolvr)  | [@](https://github.com/) |
+|06/07/2025 |  2.6 | (#C02) Adição das validacao com usuário dos CNs 02-03  | [@Davi ](https://github.com/daviRolvr)  | [@Ana Clara](https://github.com/anabborges) |
 
