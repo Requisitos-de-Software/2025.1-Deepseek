@@ -1,6 +1,6 @@
 ## Entrega 2
 
-### Apresentação Final (04/04)
+### Apresentação Final (04/04) {#entrega2}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oL-EL3EDAkg?si=dQy5XNGJm_PZMdjl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -31,11 +31,11 @@
 
 ## Entrega 3
 
-### Apresentação Final (18/05)
+### Apresentação Final (18/05) {#entrega3}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gGm3dW4iWys?si=dWVPCgloH3XsdC5z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### Apresentação Final (Ana Clara Borges)
+#### Apresentação Final (Ana Clara Borges) {#entrega3-part}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Tv4p-_cwf-E?si=TqA8B7JSnVkIkSe9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -47,11 +47,11 @@
 
 ## Entrega 4
 
-### Apresentação Final (01/06)  
+### Apresentação Final (01/06)  {#entrega4}
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/LV-o98zbbZU" title="Apresentacao entrega 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-### Apresentação Final (Gabriela)  
+### Apresentação Final (Gabriela)  {#entrega4-part}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q_qM4qWZTQ0?si=34rf6ZjWrTLjaGm1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
@@ -65,7 +65,7 @@
 
 ## Entrega 6
 
-### Apresentação Final (08/06)
+### Apresentação Final (08/06) {#entrega6}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iMnfZ1jvMM0?si=11c0sH_JDC_WQiGz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -79,7 +79,7 @@
 
 ## Entrega 5
 
-### Apresentação Final (22/06)
+### Apresentação Final (22/06) {#entrega5}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ScVXa7MNwSA?si=5PVmvJDNM7S6IS8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
