@@ -868,4 +868,4 @@ Autor: [Mateus](https://github.com/MVConsorte)
 | 07/06/2025 |  2.4   | (#PR01) Adição dos protótipos para representação/protótipo de #RF01, #RF03, #RF15, #RF16, #RF17| [`@Gabriela`](https://github.com/gaubiela)   | [`Davi Emanuel`](https://github.com/daviRolvr)   |
 | 22/06/2025 |  2.5   | (#PR01) Adição dos protótipos para representação/protótipo de #RF37, #RF34, #RF10, #RF27| [`@Davi Emanuel`](https://github.com/daviRolvr)   | [`@Ana Clara`](https://github.com/anabborges)|
 | 04/07/2025 |  2.6   | (#PR01) Adição dos protótipos para representação/protótipo de #RF11, #RF12, #RF13, #RF32| [`@Fabio`](https://github.com/fabinsz)   | [@Luiz](https://github.com/luizfaria1989)|
-| 06/07/2025 |  2.6  | (#PE01) Adição da validaçao com usuário do Protótipo | [@Davi Emanuel ](https://github.com/daviRolvr)  | [@](https://github.com/) |
+| 06/07/2025 |  2.6  | (#PE01) Adição da validaçao com usuário do Protótipo | [@Davi Emanuel ](https://github.com/daviRolvr)  | [@Ana Clara](https://github.com/anabborges) |
