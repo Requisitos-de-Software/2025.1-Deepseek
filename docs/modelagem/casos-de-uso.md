@@ -505,7 +505,7 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 06/06/2025 |  2.1  | (#UC02) Adição da tabela de contribuições e dos hiberlinks para os casos de uso desenvolvidos.| [@Luiz](https://github.com/luizfaria1989)  | [`@Fabio`](https://github.com/fabinsz)  |
 | 19/06/2025 |  2.2  | (#UC02) Melhorias nas tabelas de casos de uso e adição da imagem do diagrama de caso de uso.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 | 19/06/2025 |  2.3  | (#UC02) Adição das referências para o documento.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges) |
-| 26/06/2025 |  2.4  | (#UC02) Adição da validação dos casos de uso e do diagrama de casos de uso.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/) |
+| 26/06/2025 |  2.4  | (#UC02) Adição da validação dos casos de uso e do diagrama de casos de uso.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges) |
 | 27/06/2025 |  2.5  | (#UC02) Adiciona o termo de consetimento da gravação da validação dos casos de uso e diagrama.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
-| 06/07/2025 |  2.6  | (#UC02) Adição das validacao com usuário dos Casos de Uso 02-03| [@Davi ](https://github.com/daviRolvr)  | [@](https://github.com/) |
+| 06/07/2025 |  2.6  | (#UC02) Adição das validacao com usuário dos Casos de Uso 02-03| [@Davi ](https://github.com/daviRolvr)  | [@Ana Clara](https://github.com/anabborges) |
 
