@@ -6,7 +6,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 
 ## Lista de Verificação
 
-### Tabela 1 - Verificação recomendada pelo professor
+<!-- ### Tabela 1 - Verificação recomendada pelo professor
 
 <font><p style="text-align: center">**Tabela 1** - Lista de verificação recomendada pelo professor.</p></font>
 
@@ -23,11 +23,11 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 | 9   | Um cronograma (data e horário) e local para realização da priorização de requisitos com o cliente e/ou persona do projeto.                                                                                                    | André Barros de Sales  |       ![PROF1-10](../images/verificacao/PROF1-10.png)                     |
 | 10  | No mínimo quatro técnicas de priorização (quanto mais, melhor)? MoSCoW; 100 $; First Thing First; ROI; QFD; TQM; Outra técnica? (MoSCoW/100 $ só após uso de outras duas técnicas.)                                           | André Barros de Sales  |   ![PROF1-10](../images/verificacao/PROF1-10.png)                         |
 | 11  | A participação do cliente e/ou persona no processo de priorização.                                                                                                                                                            | André Barros de Sales  |       ![PROF11-12](../images/verificacao/PROF11-12.png)                     |
-| 12  | A gravação e o(s) registro(s) da atividade de priorização de requisitos. Importante: cada integrante deve elaborar ao menos um item de conteúdo da disciplina com referência bibliográfica e foto do texto da referência.      | André Barros de Sales  |    ![PROF11-12](../images/verificacao/PROF11-12.png)                        |
+| 12  | A gravação e o(s) registro(s) da atividade de priorização de requisitos. Importante: cada integrante deve elaborar ao menos um item de conteúdo da disciplina com referência bibliográfica e foto do texto da referência.      | André Barros de Sales  |    ![PROF11-12](../images/verificacao/PROF11-12.png)                        | -->
 
-### Tabela 2 - Verificação Pesquisa/Questionário
+### Tabela 1 - Verificação Pesquisa/Questionário
 
-<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato pesquisa/questionário.</p></font>
+<font><p style="text-align: center">**Tabela 1** - Lista de verificação para o artefato pesquisa/questionário.</p></font>
 
 | Código | Descrição | Autor         | Referência |
 |--------|----------|---------------|------------|
@@ -41,9 +41,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 <font><p style="text-align: center">**Autor:** Gabriela  </p></font>
 
 
-### Tabela 3 - Verificação Análise de Documentos
+### Tabela 2 - Verificação Análise de Documentos
 
-<font><p style="text-align: center">**Tabela 3** - Lista de verificação para o artefato análise de documentos.</p></font>
+<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato análise de documentos.</p></font>
 
 | Código | Descrição | Autor       | Referência |
 |--------|----------|-------------|------------|
@@ -53,9 +53,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 <font><p style="text-align: center">**Autor:** Luiz  </p></font>
 
 
-### Tabela 4 - Verificação Observação
+### Tabela 3 - Verificação Observação
 
-<font><p style="text-align: center">**Tabela 4** - Lista de verificação para o artefato observação.</p></font>
+<font><p style="text-align: center">**Tabela 3** - Lista de verificação para o artefato observação.</p></font>
 
 | Código | Descrição | Autor             | Referência |
 |--------|----------|-------------------|------------|
@@ -69,9 +69,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 
 <font><p style="text-align: center">**Autor:** Ana Clara  </p></font>
 
-### Tabela 5 - Verificação Análise de Interface
+### Tabela 4 - Verificação Análise de Interface
 
-<font><p style="text-align: center">**Tabela 5** - Lista de verificação para o artefato análise de interface.</p></font>
+<font><p style="text-align: center">**Tabela 4** - Lista de verificação para o artefato análise de interface.</p></font>
 
 | Código   | Descrição | Autor      | Referência |
 |----------|----------|------------|------------|
@@ -80,9 +80,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 
 <font><p style="text-align: center">**Autor:** Ana Joyce  </p></font>
 
-### Tabela 6 - Verificação Perfil de Usuário
+### Tabela 5 - Verificação Perfil de Usuário
 
-<font><p style="text-align: center">**Tabela 6** - Lista de verificação para o artefato perfil de usuário.</p></font>
+<font><p style="text-align: center">**Tabela 5** - Lista de verificação para o artefato perfil de usuário.</p></font>
 
 | Código | Descrição | Autor        | Referência |
 |--------|----------|--------------|------------|
@@ -97,9 +97,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 
 <font><p style="text-align: center">**Autor:** Fábio  </p></font>
 
-### Tabela 7 - Verificação Three Level Scale
+### Tabela 6 - Verificação Three Level Scale
 
-<font><p style="text-align: center">**Tabela 7** - Lista de verificação para o artefato three level scale.</p></font>
+<font><p style="text-align: center">**Tabela 6** - Lista de verificação para o artefato three level scale.</p></font>
 
 | Código | Descrição | Autor        | Referência |
 |--------|----------|--------------|------------|
@@ -108,9 +108,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 
 <font><p style="text-align: center">**Autor:** Luiz  </p></font>
 
-### Tabela 8 - Verificação Moscow
+### Tabela 7 - Verificação Moscow
 
-<font><p style="text-align: center">**Tabela 8** - Lista de verificação para o artefato moscow.</p></font>
+<font><p style="text-align: center">**Tabela 7** - Lista de verificação para o artefato moscow.</p></font>
 
 | Código | Descrição | Autor | Referência |
 |--------|----------|-------|------------|
@@ -128,9 +128,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 <font><p style="text-align: center">**Autor:** Davi  </p></font>
 
 
-### Tabela 9 - Verificação In Or Out
+### Tabela 8 - Verificação In Or Out
 
-<font><p style="text-align: center">**Tabela 9** - Lista de verificação para o artefato in or out.</p></font>
+<font><p style="text-align: center">**Tabela 8** - Lista de verificação para o artefato in or out.</p></font>
 
 | Código | Descrição | Autor        | Referência |
 |--------|----------|--------------|------------|
@@ -144,9 +144,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da S
 
 <font><p style="text-align: center">**Autor:** Fábio  </p></font>
 
-### Tabela 10 - Verificação QFD
+### Tabela 9 - Verificação QFD
 
-<font><p style="text-align: center">**Tabela 10** - Lista de verificação para o artefato QFD.</p></font>
+<font><p style="text-align: center">**Tabela 9** - Lista de verificação para o artefato QFD.</p></font>
 
 | Código  | Descrição                                                                 | Autor          | Referência                                                                                                      |
 |---------|--------------------------------------------------------------------------|----------------|-----------------------------------------------------------------------------------------------------------------|

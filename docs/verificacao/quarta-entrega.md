@@ -6,7 +6,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 
 ## Lista de Verificação
 
-### Tabela 1 - Verificação recomendada pelo professor
+<!-- ### Tabela 1 - Verificação recomendada pelo professor
 
 <font><p style="text-align: center">**Tabela 1** - Lista de verificação recomendada pelo professor.</p></font>
 
@@ -27,11 +27,11 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 | 13  | Existe referência bibliográfica da fonte e foto do texto da referência explicando o que é o cartão de especificação do RNF.  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
 | 14  | Os softgoals condizem com o contexto? Existe referência bibliográfica da fonte e foto do texto da referência explicando o que é softgoals?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
 | 15  | Os Softgoals representam metas bem definidas?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
-| 16  | Os impactos foram corretamente propagados?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         |
+| 16  | Os impactos foram corretamente propagados?  | André Barros de Sales  |   ![PROF10-17](../images/verificacao-quarta-entrega/PROF10-17.png)                         | -->
 
-### Tabela 2 - Verificação das histórias de usuário
+### Tabela 1 - Verificação das histórias de usuário
 
-<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato histórias de usuário.</p></font>
+<font><p style="text-align: center">**Tabela 1** - Lista de verificação para o artefato histórias de usuário.</p></font>
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -44,9 +44,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 
 <font><p style="text-align: center">**Autor:** Luiz  </p></font>
 
-### Tabela 3 - Verificação do backlog
+### Tabela 2 - Verificação do backlog
 
-<font><p style="text-align: center">**Tabela 3** - Lista de verificação para o artefato backlog.</p></font>
+<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato backlog.</p></font>
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -55,9 +55,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da q
 
 <font><p style="text-align: center">**Autor:** Luiz  </p></font>
 
-### Tabela 4 - Verificação do NFR Framewok
+### Tabela 3 - Verificação do NFR Framewok
 
-<font><p style="text-align: center">**Tabela 4** - Lista de verificação para o artefato NFR Framework.</p></font>
+<font><p style="text-align: center">**Tabela 3** - Lista de verificação para o artefato NFR Framework.</p></font>
 
 | Nº  | Descrição                          | Autor                  | Referência                |
 |-----|------------------------------------|------------------------|---------------------------|
