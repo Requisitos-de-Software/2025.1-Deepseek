@@ -283,4 +283,4 @@ Fonte: [Luiz](https://github.com/luizfaria1989)
 | 19/06/2025 |  2.3   | (#B01) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Ana Clara`](https://github.com/anabborges)  |
 | 26/06/2025 |  2.4   | (#B01) Adição da gravação de validação com o usuário.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@`](https://github.com/)  |
 | 27/06/2025 |  2.5  | (#B01) Adiciona o termo de consetimento da gravação da validação do backlog.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
-| 28/06/2025 |  2.6  | (#B01) Adiciona definição de temas e épicos.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
+| 28/06/2025 |  2.6  | (#B01) Adiciona definição de temas e épicos.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
