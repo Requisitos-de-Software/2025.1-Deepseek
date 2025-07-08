@@ -750,7 +750,7 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 19/06/2025 |  2.2   | (#H02) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)  |
 | 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@Ana Clara`](https://github.com/anabborges) |
 | 20/06/2025 |  2.3   | (#H02) Adição da validação com usuário dos HUs 31-36 | [`@Mateus`](https://github.com/MVConsorte)   |  [`@Ana Clara`](https://github.com/anabborges) |
-| 26/06/2025 |  2.4   | (#H02) Adição da validação com usuário dos HUs 13-18 | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@`](https://github.com/) |
-| 26/06/2025 |  2.5   | (#H02) Realoca espaço das validações com usuário | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@`](https://github.com/) |
-| 27/06/2025 |  2.6  | (#H02) Adiciona o termo de consetimento da gravação da validação HUs 13-18.| [@Luiz](https://github.com/luizfaria1989)  | [@](https://github.com/)  |
+| 26/06/2025 |  2.4   | (#H02) Adição da validação com usuário dos HUs 13-18 | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Clara`](https://github.com/anabborges) |
+| 26/06/2025 |  2.5   | (#H02) Realoca espaço das validações com usuário | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Clara`](https://github.com/anabborges) |
+| 27/06/2025 |  2.6  | (#H02) Adiciona o termo de consetimento da gravação da validação HUs 13-18.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 
