@@ -789,4 +789,4 @@ A validação com o usuário foi feita de forma presencial, no dia 25 de junho.
 | 26/06/2025 |  2.5   | (#H02) Realoca espaço das validações com usuário | [`@Luiz`](https://github.com/luizfaria1989)   |  [`@Ana Clara`](https://github.com/anabborges) |
 | 27/06/2025 |  2.6  | (#H02) Adiciona o termo de consetimento da gravação da validação HUs 13-18.| [@Luiz](https://github.com/luizfaria1989)  | [@Ana Clara](https://github.com/anabborges)  |
 |06/07/2025 |  2.7  | (#H02) Adição das validacao com usuário dos HUs 07-12 | [@Davi ](https://github.com/daviRolvr)  | [@Ana Clara](https://github.com/anabborges) |
-|07/07/2025 |  2.8  | (#H02) Adição das validacao com usuário dos HUs 01-05 | [@Ana Clara ](https://github.com/anabborges)  | [@](https://github.com/) |
+|07/07/2025 |  2.8  | (#H02) Adição das validacao com usuário dos HUs 01-05 | [@Ana Clara ](https://github.com/anabborges)  | [@Ana Joyce](https://github.com/anajoyceamorim) |
