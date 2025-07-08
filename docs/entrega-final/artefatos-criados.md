@@ -318,27 +318,27 @@ Tabela 5 - Artefatos da etapa 5
 <td style="text-align:center"><strong>Rastreabilidade</strong></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Matriz Geral</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/rastreabilidade/matriz-geral/">Matriz Geral</a></td>
 <td style="text-align:center">A matriz geral é um documento que permite a apresentação dos requisitos elicitados no projeto juntamente com sua pré e pós rastreabilidade.</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/luizfaria1989">Luiz</a></td>
+<td style="text-align:center"><a href="https://github.com/fabinsz">Fábio</a></td>
 </tr>
-<td style="text-align:center"><a href="">Pós Rastreabilidade</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/rastreabilidade/pos-rastreabilidade/">Pós Rastreabilidade</a></td>
 <td style="text-align:center">Uma das técnicas mais comuns para manter a rastreabilidade dos requisitos e dos artefatos que estão sendo desenvolvidos em um projeto</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Forward-from</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/rastreabilidade/forward-from/">Forward-from</a></td>
 <td style="text-align:center">evidenciando os artefatos que foram criados a partir de cada um dos requisitos elicitados</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a></td>
+<td style="text-align:center"><a href="https://github.com/luizfaria1989">Luiz</a></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Backward-from</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/rastreabilidade/backward-from/">Backward-from</a></td>
 <td style="text-align:center">videnciando qual foi a fonte de cada um dos requisitos</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a></td>
+<td style="text-align:center"><a href="https://github.com/luizfaria1989">Luiz</a></td>
 </tr>
 </table>
 
@@ -372,16 +372,16 @@ Tabela 6 - Artefatos da etapa 6
 <td style="text-align:center"><strong>Validação</strong></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Prototipação</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/validacao/prototipacao/">Prototipação</a></td>
 <td style="text-align:center"> fase crucial no desenvolvimento de sistemas, produtos ou aplicações, pois permite a construção de modelos iniciais que antecipam como a solução final deve se comportar</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/luizfaria1989">Luiz</a></td>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a></td>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Validação Informal</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/validacao/validacao-informal/">Validação Informal</a></td>
 <td style="text-align:center">faz-se necessário o envio do trabalho desenvolvido para uma equipe técnica</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a> e <a href="https://github.com/MVConsort">Mateus</a>
+<td style="text-align:center"><a href="https://github.com/daviRolvr">Davi</a></td>
 </tr>
 </tbody>
 </table>
@@ -404,4 +404,4 @@ UNIVERSIDADE DE BRASÍLIA. Faculdade do Gama. **Artefatos Criados**. 2023. Dispo
 
 | Versão | Data       | Descrição            | Autor(es)                                                                                           | Revisor(es)                                    |
 | ------ | ---------- | -------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| `1.0`  | 07/07/2025 | Criação do documento | [Ana Joyce](https://github.com/anajoyceamorim) | [](https://github.com/) |
+| `1.0`  | 07/07/2025 | Criação do documento | [Ana Joyce](https://github.com/anajoyceamorim) | [Ana Clara](https://github.com/anabborges) |
