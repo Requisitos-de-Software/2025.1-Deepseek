@@ -204,30 +204,36 @@ Tabela 3 - Artefatos da etapa 3
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="">Casos de Uso</a></td>
+<td style="text-align:center"><strong>Modelagem</strong></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/modelagem/casos-de-uso/">Casos de Uso</a></td>
 <td style="text-align:center">Um caso de uso se refere a uma descrição detalhada de como o sistema será utilizado em uma determinada situação ou contexto.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Especificação Suplementar</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/modelagem/especificacao-suplementar/">Especificação Suplementar</a></td>
 <td style="text-align:center">Especificação Suplementar pode ser definida como um documento em linguagem natural no qual são descritos os requisitos num sistema.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-<td style="text-align:center"><a href="https://github.com/"></a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
 </tr>
 <tr>
-<td style="text-align:center"><a href="">Cenários</a></td>
+<td style="text-align:center"><a href="https://requisitos-de-software.github.io/2025.1-Deepseek/modelagem/cenarios/">Cenários</a></td>
 <td style="text-align:center">Os cenários se apresentam como descrições detalhadas, geralmente em linguagem natural, de situações ou eventos que envolvem determinados atores.</td>
-<td style="text-align:center"><a href=""></a>
-<td style="text-align:center"><a href="https://github.com/"></a> 
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+</tr>
+<tr>
 </td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="">Léxicos</a></td>
 <td style="text-align:center">O Léxico é uma notação que, por meio da descrição de termos, tem como objetivo descrever os símbolos de uma linguagem.</td>
-<td style="text-align:center"><a href="https://github.com/"></a>
-</td>
-<td style="text-align:center"><a href="https://github.com/"></a></td>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+<td style="text-align:center"><a href="https://github.com/anabborges">Ana Clara Borges</a>, <a href="https://github.com/anajoyceamorim">Ana Joyce</a>, <a href="https://github.com/fabinsz">Fábio</a>, <a href="https://github.com/MVConsort">Mateus</a>, <a href="https://github.com/gaubiela">Gabriela</a>, <a href="https://github.com/luizfaria1989">Luiz</a> e <a href="https://github.com/daviRolvr">Davi</a>
+</tr>
+<tr>
 </tr>
 </tbody>
 </table>
