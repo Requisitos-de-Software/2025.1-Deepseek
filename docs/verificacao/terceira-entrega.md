@@ -6,7 +6,7 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 
 ## Lista de Verificação
 
-### Tabela 1 - Verificação recomendada pelo professor
+<!-- ### Tabela 1 - Verificação recomendada pelo professor
 
 <font><p style="text-align: center">**Tabela 1** - Lista de verificação recomendada pelo professor.</p></font>
 
@@ -32,11 +32,11 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 | 18  | O artefato segue o modelo FURPS+?                                                                                                                                                                                              | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            |
 | 19  | O documento especifica o tempo de resposta, no Desempenho?                                                                                                                                                                     | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            |
 | 20  | O documento especifica qual plataforma o aplicativo pode ser executado?                                                                                                                                                        | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            |
-| 21  | Todos os requisitos podem ser testados (RF e RNF) ? Identificar quais requisitos não testaáveis/verificáveis ?                                                                                                                  | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            |
+| 21  | Todos os requisitos podem ser testados (RF e RNF) ? Identificar quais requisitos não testaáveis/verificáveis ?                                                                                                                  | André Barros de Sales  |   ![PROF14-18](../images/verificacao-terceira-entrega/PROF14-18.png)                            | -->
 
-### Tabela 2 - Verificação do diagrama de casos de uso
+### Tabela 1 - Verificação do diagrama de casos de uso
 
-<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato diagrama de casos de uso.</p></font>
+<font><p style="text-align: center">**Tabela 1** - Lista de verificação para o artefato diagrama de casos de uso.</p></font>
 
 | Nº    | Descrição                                                                                                                                                         | Autor | Referência |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|------------|
@@ -63,9 +63,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 
 <font><p style="text-align: center">**Autor:** Luiz  </p></font>
 
-### Tabela 3 - Verificação dos cenários
+### Tabela 2 - Verificação dos cenários
 
-<font><p style="text-align: center">**Tabela 3** - Lista de verificação para o artefato cenários.</p></font>
+<font><p style="text-align: center">**Tabela 2** - Lista de verificação para o artefato cenários.</p></font>
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -80,9 +80,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 
 <font><p style="text-align: center">**Autor:** Luiz  </p></font>
 
-### Tabela 4 - Verificação dos léxicos
+### Tabela 3 - Verificação dos léxicos
 
-<font><p style="text-align: center">**Tabela 4** - Lista de verificação para o artefato léxicos.</p></font>
+<font><p style="text-align: center">**Tabela 3** - Lista de verificação para o artefato léxicos.</p></font>
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|
@@ -95,9 +95,9 @@ Esta página é dedicada à lista de verificação criada para os artefatos da t
 <font><p style="text-align: center">**Autor:** Luiz  </p></font>
 
 
-### Tabela 5 - Verificação da especificação suplementar
+### Tabela 4 - Verificação da especificação suplementar
 
-<font><p style="text-align: center">**Tabela 5** - Lista de verificação para o artefato especificação suplementar.</p></font>
+<font><p style="text-align: center">**Tabela 4** - Lista de verificação para o artefato especificação suplementar.</p></font>
 
 | Nº  | Descrição                                                                                                                                                                                                                      | Autor                  | Referência                |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|

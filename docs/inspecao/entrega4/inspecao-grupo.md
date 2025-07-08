@@ -6,7 +6,7 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da quar
 
 ## Lista de Verificação
 
-### Tabela 1 - Verificação recomendada pelo professor
+<!-- ### Tabela 1 - Verificação recomendada pelo professor
 
 | Nº  | Descrição                          | Autor                  | Confirmidade                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -25,9 +25,9 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da quar
 | 13  | Existe referência bibliográfica da fonte e foto do texto da referência explicando o que é o cartão de especificação do NFR.  | André Barros de Sales  | Conforme |
 | 14  | Os softgoals condizem com o contexto? Existe referência bibliográfica da fonte e foto do texto da referência explicando o que é softgoals?  | André Barros de Sales  | Conforme           |
 | 15  | Os Softgoals representam metas bem definidas?  | André Barros de Sales  | Conforme | 
-| 16  | Os impactos foram corretamente propagados?  | André Barros de Sales  | Não conforme      |
+| 16  | Os impactos foram corretamente propagados?  | André Barros de Sales  | Não conforme      | -->
 
-### Tabela 2 - Verificação das hisórias de usuário
+### Tabela 1 - Verificação das hisórias de usuário
 
 | Nº  | Descrição                          | Autor                  | Conformidade                |
 |-----|------------------------------------|------------------------|---------------------------|
@@ -38,14 +38,14 @@ Esta página é dedicada à lista de Inspeção criada para os artefatos da quar
 | 05  | A história de usuário possui descrição? | Luiz  | Conforme |
 | 06  | A história de usuário possui critérios de aceitação? | Luiz  | Conforme |
 
-### Tabela 3 - Verificação do backlog
+### Tabela 2 - Verificação do backlog
 
 | Nº  | Descrição                          | Autor                  | Confirmidade                |
 |-----|------------------------------------|------------------------|---------------------------|
 | 01  | O backlog está representado por uma lista com os requisitos ou funcionalidades do projeto? | Luiz  | Conforme |
 | 02  | Os requisitos do backlog possuem uma prioridade? | Luiz  | Conforme  |
 
-### Tabela 4 - Verificação do NFR Framewok
+### Tabela 3 - Verificação do NFR Framewok
 
 | Nº  | Descrição                          | Autor                  | Confirmidade                |
 |-----|------------------------------------|------------------------|---------------------------|
