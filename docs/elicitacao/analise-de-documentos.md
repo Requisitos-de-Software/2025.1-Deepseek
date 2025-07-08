@@ -335,7 +335,7 @@ Além disso, pode-se encontrar características do perfil de usuário do app Dee
 | Data       | Versão | Descrição                                                         | Autor                                            | Revisor                                        |
 |------------|--------|-------------------------------------------------------------------|--------------------------------------------------|------------------------------------------------|
 | 02/05/2025 | 0.1    | (#A01) Documentação referente à aplicação da técnica de análise de documentos. | [@Luiz](https://github.com/luizfaria1989)        | [@Ana Joyce](https://github.com/anajoyceamorim) |
-| 20/06/2025 | 1.0    | (#A01) Adição de referências para o texto. | [@Luiz](https://github.com/)        | [@Ana Joyce](https://github.com/) |
-| 28/06/2025 | 1.1    | (#A01) Adição da gravação da técnica de análise de documentos. | [@Luiz](https://github.com/)        | [@](https://github.com/) |
-| 28/06/2025 | 1.2    | (#A01) Adição de legendas nas imagens e nas tabelas. | [@Luiz](https://github.com/)        | [@](https://github.com/) |
+| 20/06/2025 | 1.0    | (#A01) Adição de referências para o texto. | [@Luiz](https://github.com/luizfaria1989)        | [@Ana Joyce](https://github.com/) |
+| 28/06/2025 | 1.1    | (#A01) Adição da gravação da técnica de análise de documentos. | [@Luiz](https://github.com/luizfaria1989)        | [@](https://github.com/) |
+| 28/06/2025 | 1.2    | (#A01) Adição de legendas nas imagens e nas tabelas. | [@Luiz](https://github.com/luizfaria1989)        | [@Ana Clara](https://github.com/anabborges) |
 
