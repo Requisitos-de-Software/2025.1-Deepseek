@@ -30,16 +30,23 @@ nav:
   - Gravações:
     - Entregas: 'gravacoes/entregas/grav-entrega.md'
     - Reuniões: 'gravacoes/reunioes/grav-reunioes.md'
-    - ATA 10-04-2025: 'gravacoes/reunioes/ata-dia-10-04-2025.md'
-    - ATA 15-04-2025: 'gravacoes/reunioes/ata-dia-15-04-2025.md'
-    - ATA 17-04-2025: 'gravacoes/reunioes/ata-dia-17-04-2025.md'
-    - ATA 24-04-2025: 'gravacoes/reunioes/ata-dia-24-04-2025.md'
-    - ATA 29-04-2025: 'gravacoes/reunioes/ata-dia-29-04-2025.md'
-    - ATA 01-05-2025: 'gravacoes/reunioes/ata-dia-01-05-2025.md'
-    - ATA 06-05-2025: 'gravacoes/reunioes/ata-dia-06-05-2025.md'
-    - ATA 08-05-2025: 'gravacoes/reunioes/ata-dia-08-05-2025.md'
-    - ATA 13-05-2025: 'gravacoes/reunioes/ata-dia-13-05-2025.md'
-    - ATA 15-05-2025: 'gravacoes/reunioes/ata-dia-15-05-2025.md'
+    - Ata de reunião 10/04/2025: 'gravacoes/reunioes/ata-dia-10-04-2025.md'
+    - Ata de reunião 15/04/2025: 'gravacoes/reunioes/ata-dia-15-04-2025.md'
+    - Ata de reunião 17/04/2025: 'gravacoes/reunioes/ata-dia-17-04-2025.md'
+    - Ata de reunião 24/04/2025: 'gravacoes/reunioes/ata-dia-24-04-2025.md'
+    - Ata de reunião 29/04/2025: 'gravacoes/reunioes/ata-dia-29-04-2025.md'
+    - Ata de reunião 01/05/2025: 'gravacoes/reunioes/ata-dia-01-05-2025.md'
+    - Ata de reunião 06/05/2025: 'gravacoes/reunioes/ata-dia-06-05-2025.md'
+    - Ata de reunião 08/05/2025: 'gravacoes/reunioes/ata-dia-08-05-2025.md'
+    - Ata de reunião 13/05/2025: 'gravacoes/reunioes/ata-dia-13-05-2025.md'
+    - Ata de reunião 15/05/2025: 'gravacoes/reunioes/ata-dia-15-05-2025.md'
+    - Ata de reunião 12/06/2025: 'gravacoes/reunioes/ata-dia-12-06-2025.md'
+    - Ata de reunião 17/06/2025: 'gravacoes/reunioes/ata-dia-17-06-2025.md'
+    - Ata de reunião 24/06/2025: 'gravacoes/reunioes/ata-dia-24-06-2025.md'
+    - Ata de reunião 26/06/2025: 'gravacoes/reunioes/ata-dia-26-06-2025.md'
+    
+  # - Pré-Rastreabilidade:
+  #   - Rich-Picture: 'pre-rastreabilidade/rich-picture.md' 
   
   - Planejamento:
     - Políticas do Repositório:
@@ -82,12 +89,18 @@ nav:
   - Rastreabilidade:
     - Matriz Geral: 'rastreabilidade/matriz-geral.md'
     - Pós-Rastreabilidade: 'rastreabilidade/pos-rastreabilidade.md'
+    - Forward-From: 'rastreabilidade/forward-from.md'
+    - Backward-From: 'rastreabilidade/backward-from.md'
 
   - Verificação:
+    - Primeira Entrega: 'verificacao/primeira-entrega.md'
     - Segunda Entrega: 'verificacao/segunda-entrega.md'
     - Terceira Entrega: 'verificacao/terceira-entrega.md'
     - Quarta Entrega: 'verificacao/quarta-entrega.md'
     - Sexta Entrega: 'verificacao/quinta-entrega.md'
+    - Quinta Entrega: 'verificacao/sexta-entrega.md'
+    - Verificação Final: 'verificacao/verificacao-final.md'
+    - Acompanhamento Verificação/Validação: 'verificacao/acompanhamento-validacao-geral.md'
 
   - Inspeção:
     - Segunda Entrega: 
@@ -95,13 +108,21 @@ nav:
       - Grupo 3: 'inspecao/entrega2/inspecao-grupo3.md'
     - Terceira Entrega:
       - Grupo 2: 'inspecao/entrega3/inspecao-grupo.md'
-      - Grupo 3: 'inspecao/entrega3/inspecao-grupo3.md'
+      - Grupo 3: 'inspecao/entrega3/inspecao-grupo3.md' 
+    - Monitores: 'inspecao/monitores/analise.md'
     - Quarta Entrega:
       - Grupo 2: 'inspecao/entrega4/inspecao-grupo.md'
       - Grupo 3: 'inspecao/entrega4/inspecao-grupo3.md' 
     - Sexta Entrega:
       - Grupo 2: 'inspecao/entrega5/inspecao-grupo.md'
       - Grupo 3: 'inspecao/entrega5/inspecao-grupo3.md'
+    - Quinta Entrega:
+      - Grupo 2: 'inspecao/entrega6/inspecao-grupo.md'
+      - Grupo 3: 'inspecao/entrega6/inpecao-grupo3.md'
+
+  - Validação:
+    - Prototipação: 'validacao/prototipacao.md'
+    - Validação Informal: 'validacao/validacao-informal.md'
 
   - Projeto Obsoleto:
       - Início: 'doc-guardioes-da-saude/index.md'
@@ -134,6 +155,10 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - pymdownx.arithmatex:
       generic: true
+
+plugins:
+  - search
+  - mkdocs-pdf
 
 extra_css:
   - css/custom.css

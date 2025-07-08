@@ -86,7 +86,7 @@ Esses rótulos estão ilustrados na Figura 3.
 | ------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Gabriela     | Criação dos cartões de especificação CNFR01 a CNFR06 | [#CNFR01](#cnfr01) · [#CNFR02](#cnfr02) · [#CNFR03](#cnfr03) · [#CNFR04](#cnfr04) · [#CNFR05](#cnfr05) · [#CNFR06](#cnfr06) |
 | Luiz     | Criação dos cartões de especificação CNFR07 a CNFR012 | [#CNFR07](#cnfr07) · [#CNFR08](#cnfr08) · [#CNFR09](#cnfr09) · [#CNFR10](#cnfr10) · [#CNFR11](#cnfr11) · [#CNFR12](#cnfr12) |
-| Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 | [#CNFR20](#cnfr20) · [#CNFR21](#cnfr21) · [#CNFR22](#cnfr22) |
+| Mateus     | Criação dos cartões de especificação CNFR20 a CNFR22 e Validação | [#CNFR20](#cnfr20) · [#CNFR21](#cnfr21) · [#CNFR22](#cnfr22) · [#Validação20-22](#validacao20_22) |
 | Fábio     | Criação dos cartões de especificação CNFR26 a CNFR28 | [#CNFR26](#cnfr26) · [#CNFR27](#cnfr27) · [#CNFR28](#cnfr28) |
 | Ana Joyce | Criação dos cartões de especificação CNFR14 a CNFR19 |  [#CNFR15](#cnfr15) · [#CNFR16](#cnfr16) . [#CNFR17](#cnfr17) . [#CNFR18](#cnfr18) . [#CNFR19](#cnfr19)|
 | Davi   | Criação dos cartões de especificação CNFR23 a CNFR25 | [#CNFR23](#cnfr23) · [#CNFR24](#cnfr24) · [#CNFR25](#cnfr25) |
@@ -151,9 +151,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Desempenho                                                                                             |
 | **Descrição**         | O sistema deve processar e extrair texto de arquivos de até 10 MB em menos de 35 segundos.             |
 | **Justificativa**     | Garante agilidade no fluxo de trabalho do usuário ao lidar com documentos de tamanho moderado.         |
-| **Origem**            | #RF03                                                                     |
+| **Origem**            | [#RF03](../elicitacao/requisitos-gerais.md)                                                                     |
 | **Critério de Ajuste**| Tempo de OCR por arquivo ≤ 35 s                                                                        |
-| **Dependências**      | #RN08                                                              |
+| **Dependências**      | [#RN08](../elicitacao/requisitos-gerais.md)                                                              |
 | **Prioridade**        | 8                                                                                                      |
 | **Conflitos**         | —                                                                                                      |
 | **História**          | Criado em 28/05/2025                                                                                   |
@@ -170,7 +170,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Segurança                                                                                              |
 | **Descrição**         | O sistema deve permitir autenticação de clientes e APIs utilizando token de acesso.                     |
 | **Justificativa**     | Aumenta segurança e interoperabilidade em integrações entre sistemas.                                  |
-| **Origem**            | Requisito funcional original #RF21                                                                     |
+| **Origem**            | Requisito funcional original [#RF21](../elicitacao/requisitos-gerais.md)                                                                     |
 | **Critério de Ajuste**| Validação de token válido antes de conceder acesso                                                     |
 | **Dependências**      | —                                                                                                      |
 | **Prioridade**        | 2                                                                                                      |
@@ -189,7 +189,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Segurança                                                                                              |
 | **Descrição**         | Todos os dados sensíveis devem trafegar via TLS e ser armazenados criptografados com AES-256.          |
 | **Justificativa**     | Protege confidencialidade e integridade dos dados usuários e sistemas.                                  |
-| **Origem**            | #RF24                                                                     |
+| **Origem**            | [#RF24](../elicitacao/requisitos-gerais.md)                                                                     |
 | **Critério de Ajuste**| Conexões HTTPS e criptografia AES-256 confirmadas em auditoria                                        |
 | **Dependências**      | —                                                                                                      |
 | **Prioridade**        | 2                                                                                                      |
@@ -208,7 +208,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Desempenho                                                                                             |
 | **Descrição**         | Arquivos grandes (PDF/DOCX/XLSX/CSV) devem ser processados em até 10 s; operações simples em até 2 s.             |
 | **Justificativa**     | Melhora experiência do usuário com documentos volumosos e tarefas rotineiras.                          |
-| **Origem**            | #RN08                                                                                                   |
+| **Origem**            | [#RN08](../elicitacao/requisitos-gerais.md)                                                                                                   |
 | **Critério de Ajuste**| Tempo de processamento medido em ambiente de produção                                                  |
 | **Dependências**      | CNFR01                                                                                                 |
 | **Prioridade**        | 8                                                                                                      |
@@ -227,7 +227,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Desempenho / Escalabilidade                                                                           |
 | **Descrição**         | O sistema deve suportar múltiplas requisições simultâneas sem degradação perceptível de performance.   |
 | **Justificativa**     | Fundamental para atender picos de uso e manter SLA de respostas rápidas.                              |
-| **Origem**            | #RN07                                                                                                   |
+| **Origem**            | [#RN07](../elicitacao/requisitos-gerais.md)                                                                                                   |
 | **Critério de Ajuste**| 95% de tempo de resposta permanece dentro do limite sob carga                                  |
 | **Dependências**      | CNFR04                                                                                                 |
 | **Prioridade**        | 8                                                                                                      |
@@ -246,7 +246,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Qualidade de Contexto                                                                                  |
 | **Descrição**         | Melhorar retenção de contexto para manter coerência em diálogos longos.                                |
 | **Justificativa**     | Evita perda de informação e confusão em interações prolongadas com o assistente.                      |
-| **Origem**            | #RF30                                                                                                  |
+| **Origem**            | [#RF30](../elicitacao/requisitos-gerais.md)                                                                                                  |
 | **Critério de Ajuste**| Contexto relevante preservado em ≥ 90 % dos diálogos com > 100 mensagens                             |
 | **Dependências**      | —                                                                                                      |
 | **Prioridade**        | 7                                                                                                      |
@@ -265,9 +265,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Afirmação                                                                                             |
 | **Descrição**         | Ao passar o cursor do mouse sobre um título de item na barra lateral de conversas, caso o item esteja truncado (parcialmente exibido devido a limitaçõoes de espaço da interface), um tooltip deve ser exibido, apresentando o texto completo daquela conversa com a IA.            |
 | **Justificativa**     | Ao implementar esse requisito, a usabilidade do aplicativo e a experiência do usuário são melhoradas, especialmente para interfaces com pouco espaco e que possuem layout compacto.         |
-| **Origem**            | #RF35                                                                    |
+| **Origem**            | [#RF35](../elicitacao/requisitos-gerais.md)                                                                    |
 | **Critério de Ajuste**| O usuário deve ser capaz de observar um tooltip ao passar o mouse por cima de um título que não está totalmente visível no menu de conversas. Essa tooltip deve exibir o título completo daquela conversa, além disso, ela deve desaparecer assim que o usuário retira o cursor daquele título. Por fim, a tooltip não deve aparecer caso o título não esteja cortado pelo menu.                                                                       |
-| **Dependências**      | #RN05                                                             |
+| **Dependências**      | [#RN05](../elicitacao/requisitos-gerais.md)                                                             |
 | **Prioridade**        | 5                                                                                                      |
 | **Conflitos**         | -                                                                                                      |
 | **História**          | Criado em 31/05/2025                                                                                   |
@@ -284,9 +284,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Afirmação                                                                                             |
 | **Descrição**         | O sistema deve excluir automaticamente os dados de upload que estão armazenados nos servidores do aplicativo imediatamente após a conclusão do processamento dos dados e envio da resposta da IA para o usuário.            |
 | **Justificativa**     | Garante maior privacidade e controle dos dados que estão serdo compartilhados. Evita que os dados compartilhados sejam utilizandos futuramente para treinar o modelo sem permissão do usuário.         |
-| **Origem**            | #RN04                                                                    |
+| **Origem**            | [#RN04](../elicitacao/requisitos-gerais.md)                                                                    |
 | **Critério de Ajuste**| Após finalizar uma resposta, os dados enviados pelo usuário para a IA não devem mais estar acessíveis através de nenhuma interface do sistema. Além disso, os Logs do servidor devem registrar o evento de exclusão automática de dados enviados pelo usuário.                                                                       |
-| **Dependências**      | #RN09                                                             |
+| **Dependências**      | [#RN09](../elicitacao/requisitos-gerais.md)                                                             |
 | **Prioridade**        | 6                                                                                                      |
 | **Conflitos**         | -                                                                                                       |
 | **História**          | Criado em 31/05/2025                                                                                   |
@@ -303,9 +303,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Afirmação                                                                                             |
 | **Descrição**         | O sistema deve possuir versões para os dois principais sistemas operacionais de smartphones: Android e IOS.            |
 | **Justificativa**     | Ao possuir versões para esses dois sistemas operacionais, o número de usuários que poderão baixar e utilizar o aplicativo será maximizado.         |
-| **Origem**            | #RN02                                                                    |
+| **Origem**            | [#RN02](../elicitacao/requisitos-gerais.md)                                                                    |
 | **Critério de Ajuste**| O sistema deve estar disponível para versões 5.0 (ou superior) do Android ou IOS 15 (ou superior).                                                                       |
-| **Dependências**      | #RN05                                                             |
+| **Dependências**      | [#RN05](../elicitacao/requisitos-gerais.md)                                                             |
 | **Prioridade**        | 10                                                                                                      |
 | **Conflitos**         | -                                                                                                      |
 | **História**          | Criado em 31/05/2025                                                                                   |
@@ -322,9 +322,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Afirmação                                                                                            |
 | **Descrição**         |  O sistema deve informar para o usuário onde (em quais servidores) e como os seus dados estão sendo armazenados ao utilizar o aplicaitvo           |
 | **Justificativa**     |  Ao apresentar essas informações para o usuário, ele pode ter um maior controle de que dados serão compartilhados ao criar uma conta e utilzar os serviços da IA.        |
-| **Origem**            | #RN09                                                                    |
+| **Origem**            | [#RN09](../elicitacao/requisitos-gerais.md)                                                                    |
 | **Critério de Ajuste**| Ao acessar a aba configurações do aplicativo, na seção Controle de Dados, será possível visualizar pelo usuário, as informações sobre como e onde os seus dados estão sendo armazenados.                                                                      |
-| **Dependências**      | #RN04, #RN03, #RF24, #RN10                                                              |
+| **Dependências**      | [#RN04, #RN03, #RF24, #RN10](../elicitacao/requisitos-gerais.md)                                                              |
 | **Prioridade**        | 4                                                                                                      |
 | **Conflitos**         | -                                                                                                      |
 | **História**          | Criado em 31/05/2025                                                                                   |
@@ -341,9 +341,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Afirmação                                                                                             |
 | **Descrição**         |  O sistema deve manter o histórico de conversas do usuário por 30 dias. Essa informação deve ser válida para usuários que não possuem uma conta no aplicaitvo, mas ainda sim, utilizam os serviços dele.           |
 | **Justificativa**     |  Ao ter essa funcionalidade, o usuário não se sente obrigado a criar uma conta no aplicativo para poder acessar uma funcionalidade básica. Assim, o usuário teria maior liberdade de escolha se quer criar uma conta ou não.        |
-| **Origem**            | #RN03                                                                    |
+| **Origem**            | [#RN03](../elicitacao/requisitos-gerais.md)                                                                    |
 | **Critério de Ajuste**| Um usuário que não possui uma conta deve ser capaz de iniciar uma conversa, e, ao fechar e abrir novamente o aplicativo, deve ser possível acessar seu histórico de conversas. Para garantir a validade do histórico esse teste pode ser repetido diariamnete a fim de verificar a validade do histórico de 30 dias. Assim, uma conversa iniciada no dia 1 de maio às 13:00 horas deverá estar disponível até o dia 31 daquele mês até às 12:59 horas.                                                                     |
-| **Dependências**      | #RN09                                                             |
+| **Dependências**      | [#RN09](../elicitacao/requisitos-gerais.md)                                                             |
 | **Prioridade**        | 5                                                                                                      |
 | **Conflitos**         | -                                                                                                       |
 | **História**          | Criado em 31/05/2025                                                                                   |
@@ -360,7 +360,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Afirmação                                                                                             |
 | **Descrição**         | O aplicativo deve utilizar a arquitetura mais recente desenvolvida pela equipe chamada DeepSeek-V3.            |
 | **Justificativa**     | Ao utilizar a arquitetura mais recente do DeepSeek, o aplicativo irá fornecer maior performace e confiabilidade nas respostas fornecidas ao usuário.         |
-| **Origem**            | #RN01                                                                    |
+| **Origem**            | [#RN01](../elicitacao/requisitos-gerais.md)                                                                    |
 | **Critério de Ajuste**| Análise da documentação do aplicativo e do código fonte que comprovem o uso dessa arquitetura. Além disso, sendo viável, a aplicação de testes no modelo que comprovem essa maior performace e confiabilidade sobre os modelos antigos do DeepSeek                                                                      |
 | **Dependências**      | -                                                              |
 | **Prioridade**        | 10                                                                                                     |
@@ -381,9 +381,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**      | Legal e Ético    |
 | **Descrição**          | O sistema deve permitir que o usuário aceite ou recuse o uso de seus dados em re-treinamento ou venda de modelos. |
 | **Justificativa**      | Garante transparência e conformidade com LGPD e princípios éticos.    |
-| **Origem**             | #RN10        |
+| **Origem**             | [#RN10](../elicitacao/requisitos-gerais.md)        |
 | **Critério de Ajuste** | Presença de controle de consentimento visível e funcional       |
-| **Dependências**       | #RF04 (login de usuários)          |
+| **Dependências**       | [#RF04 (login de usuários)](../elicitacao/requisitos-gerais.md)          |
 | **Prioridade**         | 10         |
 | **Conflitos**          | —      |
 | **História**           | Criado em 01/06/202     |
@@ -401,7 +401,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**      | Desempenho e Confiabilidade                                                                                      |
 | **Descrição**          | O sistema deve gerar arquivos pesados (PDFs, cálculos) de forma estável, evitando falhas ou erros de formatação. |
 | **Justificativa**      | Evita perdas de tempo e frustrações com conteúdo corrompido ou ilegível.                                         |
-| **Origem**             | #RN12                                                                                                            |
+| **Origem**             | [#RN12](../elicitacao/requisitos-gerais.md)                                                                                                            |
 | **Critério de Ajuste** | Taxa de falhas em geração de documentos ≤ 2%                                                                     |
 | **Dependências**       | —                                                                                                                |
 | **Prioridade**         | 8                                                                                                                |
@@ -422,7 +422,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**      | Qualidade de Uso                                                                                       |
 | **Descrição**          | Alcançar ≥ 95% de usuários avaliando a usabilidade como “Fácil” ou “Muito fácil” em pesquisas futuras. |
 | **Justificativa**      | Indica alta aceitação e facilidade de uso do sistema.                                                  |
-| **Origem**             | #RN13                                                                                                  |
+| **Origem**             | [#RN13](../elicitacao/requisitos-gerais.md)                                                                                                  |
 | **Critério de Ajuste** | Resultado de pesquisa ≥ 95% nas opções “Fácil” ou “Muito fácil”                                        |
 | **Dependências**       | #CNFR01                                                                                                |
 | **Prioridade**         | 7                                                                                                      |
@@ -442,7 +442,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**      | Qualidade da Interface                                                                |
 | **Descrição**          | Alcançar ≥ 90% de concordância em “Interface clara e agradável” em pesquisas futuras. |
 | **Justificativa**      | Reflete uma boa experiência visual e navegação intuitiva.                             |
-| **Origem**             | #RN14                                                                                 |
+| **Origem**             | [#RN14](../elicitacao/requisitos-gerais.md)                                                                                 |
 | **Critério de Ajuste** | Resultado de pesquisa ≥ 90% nas opções “Clara” ou “Muito clara”                       |
 | **Dependências**       | #CNFR01                                                                               |
 | **Prioridade**         | 6                                                                                     |
@@ -462,7 +462,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**      | Usabilidade                                                                                                 |
 | **Descrição**          | Reduzir para ≤ 5% os usuários que relatam dificuldade em encontrar opções/ferramentas em pesquisas futuras. |
 | **Justificativa**      | Demonstra clareza na disposição das funcionalidades no sistema.                                             |
-| **Origem**             | #RN15                                                                                                       |
+| **Origem**             | [#RN15](../elicitacao/requisitos-gerais.md)                                                                                                       |
 | **Critério de Ajuste** | Resultado de pesquisa: ≤ 5% relatando dificuldade                                                           |
 | **Dependências**       | #CNFR01, #CNFR05                                                                                            |
 | **Prioridade**         | 6                                                                                                           |
@@ -482,7 +482,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Interoperabilidade / softgoal de afirmação                                                                                                                                                                                                |
 | **Descrição**         | O sistema deve garantir integração adequada e estável com a API do YouTube ou serviços equivalentes, suportando extração de metadados, transcrições (quando disponíveis) e conteúdo de vídeos compartilhados por link, independentemente do idioma, formato ou duração. Deve tolerar indisponibilidades temporárias, limites de API e variações nos formatos de vídeo, fornecendo mensagens de erro claras e informativas ao usuário em caso de falha, vídeo removido, restrito, privado ou link inválido.                                                                             |
 | **Justificativa**     | Assegura que a funcionalidade de resumo automático de vídeos seja confiável, escalável e transparente ao usuário, mesmo diante de limitações técnicas do YouTube ou problemas de conectividade, reforçando a confiança do usuário e a qualidade do serviço prestado.    |
-| **Origem**            | #RF38, #RQF23, UC14                                                                                                                                                                                                                                                              |
+| **Origem**            | [#RF38](../elicitacao/requisitos-gerais.md), #RQF23, UC14                                                                                                                                                                                                                                                              |
 | **Critério de Ajuste**| - Permitir o resumo de vídeos em diferentes idiomas e formatos via link direto.<br> - Realizar detecção apropriada de links inválidos, vídeos removidos, indisponíveis ou privados, retornando mensagem compreensível.<br> - Lidar com erros de integração (limite de requisições, falhas de autenticação, ausência de transcrição, etc.) fornecendo orientações claras.<br> - Garantir performance estável e feedback de progresso quando processamento for demorado, incluindo sugestões de refinamento quando o resumo não for satisfatório.<br> - Registrar erros para análise futura de falhas recorrentes. |
 | **Dependências**      | - **API YouTube:** Necessária para acesso aos dados de vídeo, metadados e possíveis transcrições. <br>- **Componentes de NLP (Processamento de Linguagem Natural) e ASR (Reconhecimento Automático de Fala):** Indispensáveis para converter áudio em texto e gerar resumos. <br>- **#RF30 (Processamento multimídia):** Processo intermediário para extração/análise.<br>- **#RF14 e #RF21 (interface e apresentação de resultados):** Exibição ao usuário do sumário e informações relativas ao vídeo.<br>- **#RN06, #RN07, #RN03, #RN04:** Regras de tratamento de erros, conformidade com limites operacionais e robustez.<br>- **#RN09, #RN10:** Regras para armazenamento de dados e privacidade.<br>- **#RF24, #RF26, #RF25:** Segurança, controle de acesso e política de compartilhamento de dados obtidos/resumidos. |
 | **Prioridade**        | 10 – Extremamente alta, pois a capacidade de sumarizar vídeos do YouTube é central ao valor agregado do sistema e, caso indisponível, impacta diretamente no propósito principal da solução para usuários. Por depender de terceiros (YouTube/API), a robustez e tolerância a falhas tornam-se vitais desde a etapa inicial do projeto.                                                                                   |
@@ -501,7 +501,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Orientação / softgoal de afirmação                                                                                                                                                                                                               |
 | **Descrição**         | O sistema deve apresentar, na interface de envio de imagens, instruções claras e contextuais sobre OCR, explicando significado da sigla, limitações técnicas e exemplos de uso prático ao usuário final.                                          |
 | **Justificativa**     | Facilita o correto uso da funcionalidade, reduz dúvidas e frustrações, aumentando a satisfação do usuário e a eficiência do processo de extração de texto por OCR, especialmente para novos usuários.                                             |
-| **Origem**            | #RF36, #RQF20                                                                                                                                                                                                                                    |
+| **Origem**            | [#RF36](../elicitacao/requisitos-gerais.md), #RQF20                                                                                                                                                                                                                                    |
 | **Critério de Ajuste**| As instruções devem ser exibidas toda vez que o usuário acessar a funcionalidade de OCR. Devem estar em linguagem simples e incluir exemplos de imagens adequadas e inadequadas para OCR.                                                         |
 | **Dependências**      | - **RF36**: Implementação funcional do OCR.<br>- **RN05**: Diretrizes de usabilidade para apresentação clara.<br>- **RN15**: Garantia de facilidade para o usuário encontrar instruções/opções.<br>- **RN13/RN14**: Avaliações de satisfação/interação.    |
 | **Prioridade**        | 4 – Relevante para onboarding e qualidade da experiência, mas não bloqueante para operações básicas.                                                                                                       |
@@ -520,12 +520,34 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Transparência / softgoal de afirmação                                                                                                                                                                                                 |
 | **Descrição**         | O sistema deve exibir citações de fontes e referências em respostas baseadas em documentos, indicando de forma clara página, site e/ou trecho extraído, ou fornecendo link direto para consulta quando aplicável.                     |
 | **Justificativa**     | A transparência sobre as fontes utilizadas nas respostas aumenta a confiança do usuário no conteúdo exibido, facilita a verificação e promove maior fidelidade à origem da informação apresentada pelo sistema.                         |
-| **Origem**            | #RF14, #RQF22                                                                                                                                                                                   |
+| **Origem**            | [#RF14](../elicitacao/requisitos-gerais.md), #RQF22                                                                                                                                                                                   |
 | **Critério de Ajuste**| Quando a resposta for proveniente de consulta a documento ou web, o usuário deve visualizar, ao final da resposta, as referências completas — incluindo link, número da página ou trecho relevante, quando disponível.                 |
 | **Dependências**      | - **RF14**: Funcionalidade para exibir citações de fontes.<br>- **RN09/RN10**: Informar e permitir ajuste sobre armazenamento e uso de dados extraídos.<br>- **RN13/RN14**: Avaliações de confiança/percepção do usuário.<br>- **RF25**: Controle sobre compartilhamento de dados.  |
 | **Prioridade**        | 4 – Essencial para confiança e auditoria, mas pode ser implementado após funcionalidades básicas de resposta.                                                                                   |
 | **Conflitos**         | - Pode conflitar com **RN05** e **RN15** se a exibição de fontes for excessivamente técnica ou poluir a interface.<br>- Risco de exposição indevida de dados caso não haja integração com requisitos de segurança (RF24, RF26).        |
 | **História**          | Criado em 31/05/2025                                                                                                                                                                            |
+<a id="validacao20_22"></a>
+<div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+  <h4>Validação dos NFR Cards (#CNFR20, #CNFR21, #CNFR22)</h4>
+
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/hPP-O9wjW40?start=389" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+
+  <a href="https://youtu.be/hPP-O9wjW40?t=389" target="_blank" rel="noopener noreferrer">
+  ▶ Assista à validação também no YouTube
+</a>
+
+  <div style="margin-top: 16px; line-height: 1.6;">
+    <p><strong>Local:</strong> UnB – Gama – FCTE - UED </p>
+    <p><strong>Data e Hora:</strong> 16/06/2025 - (14:30 - 15:00) </p>
+    <p><strong>Usuário entrevistado:</strong> Pablo (usuário típico do sistema Deepseek)</p>
+    <p><strong>Responsável pela execução:</strong> Mateus Villela (Grupo 2 – Requisitos de Software)</p>
+  </div>
+</div>
+
 
 ---
 
@@ -539,9 +561,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Usabilidade                                                                                                                                         |
 | **Descrição**         | A interface deve seguir diretrizes de usabilidade (botões visíveis, texto legível, feedback imediato) e de acessibilidade (alteração no tamanho da fonte, leitura por leitores de tela). |
 | **Justificativa**     | Garante inclusão digital e melhora a experiência de todos os usuários.                                                                             |
-| **Origem**            | #RN05                                                                                                                                              |
+| **Origem**            | [#RN05](../elicitacao/requisitos-gerais.md)                                                                                                                                              |
 | **Critério de Ajuste**| Atende às recomendações WCAG 2.1 e heurísticas de usabilidade de Nielsen.                                                                |
-| **Dependências**      | #RF08 (interface de criação de chats)                                                                                                                                               |
+| **Dependências**      | [#RF08 (interface de criação de chats)](../elicitacao/requisitos-gerais.md)                                                                                                                                               |
 | **Prioridade**        | 9                                                                                                                                                   |
 | **Conflitos**         | —                                                                                                                                                   |
 | **História**          | Criado em 01/06/2025                                                                                                                                |
@@ -556,9 +578,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Confiabilidade                                                                                                 |
 | **Descrição**         | Em caso de falha, o sistema deve exibir mensagens de erro claras e compreensíveis para o usuário.              |
 | **Justificativa**     | Ajuda na resolução rápida de problemas e reduz frustração do usuário.                                          |
-| **Origem**            | #RN06                                                                                                           |
+| **Origem**            | [#RN06](../elicitacao/requisitos-gerais.md)                                                                                                          |
 | **Critério de Ajuste**| Avaliação de clareza por usuários e testes com mensagens em cenários de erro.                                 |
-| **Dependências**      | RF01                                                                                                          |
+| **Dependências**      | [RF01](../elicitacao/requisitos-gerais.md)                                                                                                          |
 | **Prioridade**        | 8                                                                                                             |
 | **Conflitos**         | —                                                                                                               |
 | **História**          | Criado em 01/06/2025                                                                                            |
@@ -574,7 +596,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Confiabilidade / Disponibilidade                                                                               |
 | **Descrição**         | O sistema deve exibir o status do servidor em tempo real (Online, Manutenção, Sobrecarga).                    |
 | **Justificativa**     | Permite ao usuário entender o funcionamento do sistema e se antecipar a problemas.                            |
-| **Origem**            | #RF29                                                                                                        |
+| **Origem**            | [#RF29](../elicitacao/requisitos-gerais.md)                                                                                                        |
 | **Critério de Ajuste**| Testes com simulações de diferentes estados do servidor.                                                       |
 | **Dependências**      |  —                                                                                                         |
 | **Prioridade**        | 8                                                                                                               |
@@ -594,7 +616,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Usabilidade / Desempenho                                                                         |
 | **Descrição**         | O sistema deve permitir regenerar uma resposta em caso de erro sem recarregar a página.  |
 | **Justificativa**     | Evita perda de contexto e melhora a experiência do usuário ao lidar com falhas temporárias.                             |
-| **Origem**            | #RF17                                                                                                   |
+| **Origem**            | [#RF17](../elicitacao/requisitos-gerais.md)                                                                                                   |
 | **Critério de Ajuste**| Regeneração de resposta executada sem reload da interface                                 |
 | **Dependências**      | —                                                                                              |
 | **Prioridade**        | 6                                                                                                      |
@@ -614,7 +636,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Usabilidade                                                                          |
 | **Descrição**         | O sistema deve permitir ao usuário interromper imediatamente uma resposta em andamento.  |
 | **Justificativa**     | 	Oferece controle ao usuário sobre a interação, evitando espera desnecessária por respostas indesejadas ou incorretas.                           |
-| **Origem**            | #RF19                                                                                                   |
+| **Origem**            | [#RF19](../elicitacao/requisitos-gerais.md)                                                                                                   |
 | **Critério de Ajuste**| Tempo de interrupção ≤ 1 segundo após ação do usuário                                |
 | **Dependências**      | —                                                                                              |
 | **Prioridade**        | 3                                                                                                      |
@@ -634,7 +656,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Usabilidade                                                                          |
 | **Descrição**         | O sistema deve solicitar confirmação do usuário antes de executar a ação de limpar o histórico de conversas.  |
 | **Justificativa**     | 		Evita a exclusão acidental de informações importantes, promovendo segurança nas ações do usuário.                           |
-| **Origem**            | #RF22                                                                                                   |
+| **Origem**            | [#RF22](../elicitacao/requisitos-gerais.md)                                                                                                   |
 | **Critério de Ajuste**| Exibição obrigatória de diálogo de confirmação com opção de cancelar                                |
 | **Dependências**      | —                                                                                              |
 | **Prioridade**        | 8                                                                                                      |
@@ -654,9 +676,9 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Segurança                                                                          |
 | **Descrição**         | Especificar e permitir ao usuário optar por participar ou não do uso de seus dados em re-treinamento ou venda de modelos.  |
 | **Justificativa**     | 		Garantir transparência e conformidade com normas de privacidade, como LGPD e GDPR, além de respeitar a autonomia do usuário sobre seus dados.                           |
-| **Origem**            | #RN11                                                                                                 |
+| **Origem**            | [#RN11](../elicitacao/requisitos-gerais.md)                                                                                                 |
 | **Critério de Ajuste**| O sistema deve exibir uma solicitação clara de consentimento para uso dos dados, com opção de aceitar ou recusar.                                |
-| **Dependências**      | #RF24, #RN10                                                                                          |
+| **Dependências**      | [#RF24, #RN10](../elicitacao/requisitos-gerais.md)                                                                                          |
 | **Prioridade**        | 10                                                                                                      |
 | **Conflitos**         | —                                                                                                      |
 | **História**          | Criado em 31/05/2025                                                                                  |
@@ -672,7 +694,7 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Interoperabilidade                                                                           |
 | **Descrição**         | Conectar nativamente a ferramentas populares (Google Drive, Outlook, GitHub etc.) via integrações diretas.  |
 | **Justificativa**     | 		Melhorar a experiência do usuário e ampliar a utilidade do sistema por meio da interoperabilidade com plataformas amplamente utilizadas.                           |
-| **Origem**            | #RF37                                                                                                 |
+| **Origem**            | [#RF37](../elicitacao/requisitos-gerais.md)                                                                                                 |
 | **Critério de Ajuste**| O sistema deve permitir autenticação e troca de dados com ferramentas populares, de forma estável e segura.                                |
 | **Dependências**      | -                                                                                      |
 | **Prioridade**        | 6                                                                                                    |
@@ -690,12 +712,14 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | **Classificação**     | Usabilidade                                                                           |
 | **Descrição**         | Deve possuir uma API pública.  |
 | **Justificativa**     | 	Permitir que desenvolvedores externos criem extensões, automações e integrações, aumentando o alcance e flexibilidade do sistema.                           |
-| **Origem**            | #RF20                                                                                                 |
+| **Origem**            | [#RF20](../elicitacao/requisitos-gerais.md)                                                                                                 |
 | **Critério de Ajuste**| Disponibilizar uma documentação pública e funcional para a API com autenticação segura e endpoints principais acessíveis.                                |
-| **Dependências**      | #RF21                                                                                      |
+| **Dependências**      | [#RF21](../elicitacao/requisitos-gerais.md)                                                                                      |
 | **Prioridade**        | 10                                                                                                   |
 | **Conflitos**         | —                                                                                                 |
 | **História**          | Criado em 31/05/2025   
+
+---
 
 ## Referência Bibliográfica
 
@@ -713,6 +737,8 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 
 > <a id="REF7" href="#anchor_7">7.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, p. 33-34, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 23/05/2025. [`Foto da referência`](../images/nfr-framework/procedimento-de-avaliacao.png)
 
+---
+
 ## Histórico de Versões
 
  Data       | Versão | Descrição                                 | Autor                                      | Revisor                                     |
@@ -728,3 +754,5 @@ A fim de garantir consistência e rigor na definição e no acompanhamento de re
 | 01/06/2025 |  1.8  | (#NFR01) Criação de cards 23 a 25 | [`@Davi Emanuel`](https://github.com/daviRolvr)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 01/06/2025 |  1.9  | (#NFR01) Criação de cards 29 a 31 | [`@Ana Clara`](https://github.com/anabborges)   | [`@Luiz`](https://github.com/luizfaria1989)  |
 | 05/06/2025 |  2.0  | (#NFR01) Adição dos ids dos cartões de especifição | [`Luiz`](https://github.com/luizfaria1989)   | [`@Fabio`](https://github.com/fabinsz)  |
+| 19/06/2025 |  2.1   | (#NFR01) Adição dos hiperlinks para a tabela de requisitos gerais elicitados.| [`@Luiz`](https://github.com/luizfaria1989)   | [`@Mateus`](https://github.com/MVConsorte)   |
+| 20/06/2025 |  2.2   | (#NFR01) Adição da validação com usuário dos CNFR 20 - 22 | [`@Mateus`](https://github.com/MVConsorte)   | [`@Ana Clara`](https://github.com/anabborges)  |
